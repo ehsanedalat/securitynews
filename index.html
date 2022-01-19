@@ -2035,6 +2035,39 @@ This joint Cybersecurity Advisory (CSA)—authored by the Cybersecurity and Infr
             </article>
         </section>
       </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://kb.cert.org/vuls/">CERT Recently Published Vulnerability Notes</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">VU#142629: Silicon Labs Z-Wave chipsets contain multiple vulnerabilities</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://kb.cert.org/vuls/id/142629">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Overview
+Various Silicon Labs Z-Wave chipsets do not support encryption, can be downgraded to not use weaker encryption, and are vulnerable to denial of service. Some of these vulnerabilities are inherent in Z-Wave protocol specifications.
+Description
+Z-Wave devices based on Silicon Labs chipsets have multiple vulnerabilities. For further details, including specific devices tested, see Riding the IoT Wave With VFuzz: Discovering Security Flaws in Smart Homes.
+CVE-2020-9057
+CVE-2020-9058
+CVE-2020-9059
+CVE-2020-9060
+CVE-2020-9061
+CVE-2020-10137
+Impact
+Depending on the chipset and device, an attacker within Z-Wave radio range can deny service, cause devices to crash, deplete batteries, intercept, observe, and replay traffic, and control vulnerable devices.
+Solution
+Mitigations for these vulnerabilities vary based on the chipset and device. In some cases it may be necessary to upgrade to newer hardware, for example, 500 and 700 series chipsets that support S2 authentication and encryption.
+Acknowledgements
+Thanks to Carlos Kayembe Nkuba, Seulbae Kim, Sven Dietrich, and Heejo Lee for researching and reporting these vulnerabilities.
+This document was written by Timur Snoke and Art Manion.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
     </ul>
   </section>
   <section class="daily-content">
@@ -2787,11 +2820,41 @@ The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau 
             </article>
         </section>
       </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://kb.cert.org/vuls/">CERT Recently Published Vulnerability Notes</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">VU#692873: Saviynt Enterprise Identity Cloud vulnerable to local user enumeration and authentication bypass</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://kb.cert.org/vuls/id/692873">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Overview
+Saviynt Enterprise Identity Cloud contains user enumeration and authentication bypass vulnerabilities in the local password reset feature. Together, these vulnerabilities could allow a remote, unauthenticated attacker to gain administrative privileges if an SSO solution is not configured for authentication.
+Description
+Saviynt Enterprise Identity Cloud contains two vulnerabilities in the password reset feature for the local authentication system. Specifying the id parameter returns user names and it is common that accounts with administrative privileges have low (often single digit) id values.
+/ECM/maintenance/forgotpasswordstep1?otpConfig&#x3D;false&amp;id&#x3D;5
+It is then possible to either unhide a button or directly access a URL that bypasses verification and allows the password to be changed. Accessing a login URL with the new credentials yields cookies that can be used to authenticate to the Enerprise Identity Cloud instance.
+If another authentication or SSO system is configured, then it is not possible to exploit these vulnerabilities.
+Impact
+A remote, unauthenticated attacker can enumerate users and bypass authentication to change the password of an existing administrative user. The attacker can then perform administrative actions and possibly make changes to other connected authentication systems.
+Solution
+Saviynt has deployed a backend update for the software that resolves the issue in Saviynt IGA Release v5.5 SP2.x and later versions. As an additional layer of security, as the impacted URLs are not commonly used by customers leveraging SSO, Saviynt has blocked access to the URLs needed to exploit these vulnerabilities.
+Saviynt users should not need to take any action but might want to confirm they are running a fixed version.
+Acknowledgements
+This document was written by Eric Hatleback and Art Manion.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2022-01-19T11:54:02.771Z">2022-01-19T11:54:02.771Z</time>
+    <time id="build-timestamp" datetime="2022-01-19T11:59:36.862Z">2022-01-19T11:59:36.862Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.12.0</a></span>
   </footer>
   <script src="index.js"></script>

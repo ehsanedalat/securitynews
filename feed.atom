@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>Security News</title>
-    <updated>2022-01-19T11:54:02.797Z</updated>
+    <updated>2022-01-19T11:59:36.889Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
@@ -1527,6 +1527,38 @@ This joint Cybersecurity Advisory (CSA)—authored by the Cybersecurity and Infr
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[VU#142629: Silicon Labs Z-Wave chipsets contain multiple vulnerabilities]]></title>
+        <id>https://kb.cert.org/vuls/id/142629</id>
+        <link href="https://kb.cert.org/vuls/id/142629"/>
+        <updated>2022-01-07T21:54:34.359Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Various Silicon Labs Z-Wave chipsets do not support encryption, can be downgraded to not use weaker encryption, and are vulnerable to denial of service. Some of these vulnerabilities are inherent in Z-Wave protocol specifications.</p>
+<h3 id="description">Description</h3>
+<p>Z-Wave devices based on Silicon Labs chipsets have multiple vulnerabilities. For further details, including specific devices tested, see <a href="https://ieeexplore.ieee.org/document/9663293">Riding the IoT Wave With VFuzz: Discovering Security Flaws in Smart Homes</a>.</p>
+<p><strong>CVE-2020-9057</strong><br>
+Z-Wave devices based on Silicon Labs 100, 200, and 300 series chipsets do not support encryption.</p>
+<p><strong>CVE-2020-9058</strong><br>
+Z-Wave devices based on Silicon Labs 500 series chipsets using CRC-16 encapsulation do not implement encryption or replay protection.</p>
+<p><strong>CVE-2020-9059</strong><br>
+Z-Wave devices based on Silicon Labs 500 series chipsets using S0 authentication are susceptible to uncontrolled resource consumption which can lead to battery exhaustion.</p>
+<p><strong>CVE-2020-9060</strong><br>
+Z-Wave devices based on Silicon Labs 500 series chipsets using S2 are susceptible to denial of service and resource exhaustion via malformed SECURITY NONCE GET, SECURITY NONCE GET 2, NO OPERATION, or NIF REQUEST messages.</p>
+<p><strong>CVE-2020-9061</strong><br>
+Z-Wave devices based on Silicon Labs 500 and 700 series chipsets are susceptible to denial of service via malformed routing messages.</p>
+<p><strong>CVE-2020-10137</strong><br>
+Z-Wave devices based on Silicon Labs 700 series chipsets using S2 do not adequately authenticate or encrypt FIND_NODE_IN_RANGE frames.</p>
+<h3 id="impact">Impact</h3>
+<p>Depending on the chipset and device, an attacker within Z-Wave radio range can deny service, cause devices to crash, deplete batteries, intercept, observe, and replay traffic, and control vulnerable devices.</p>
+<h3 id="solution">Solution</h3>
+<p>Mitigations for these vulnerabilities vary based on the chipset and device. In some cases it may be necessary to upgrade to newer hardware, for example, 500 and 700 series chipsets that support S2 authentication and encryption.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to Carlos Kayembe Nkuba, Seulbae Kim, Sven Dietrich, and Heejo Lee for researching and reporting these vulnerabilities.</p>
+<p>This document was written by Timur Snoke and Art Manion.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[NHS Warns of Attackers Targeting Log4j Flaws in VMware Horizon]]></title>
         <id>https://www.darkreading.com/threat-intelligence/nhs-warns-of-attackers-targeting-log4j-flaws-in-vmware-horizon</id>
         <link href="https://www.darkreading.com/threat-intelligence/nhs-warns-of-attackers-targeting-log4j-flaws-in-vmware-horizon"/>
@@ -2176,6 +2208,29 @@ Summary
 The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), National Security Agency (NSA), Australian Cyber Security Centre (ACSC), Canadian Centre for Cyber Security (CCCS), the Computer Emergency Response Team New Zealand (CERT NZ), the New Zealand National Cyber Security Centre (NZ NCSC), and the United Kingdom’s National Cyber Security Centre (NCSC-UK) are releasing this joint Cybersecurity Advisory (CSA) to provide mitigation guidance on addressing vulnerabilities in  Apache’s Log4j software library: CVE-2021-44228 (known as “Log4Shell”), CVE-2021-45046, and CVE-2021-45105. Sophisticated cyber threat actors are actively scanning networks to potentially exploi…]]></summary>
         <author>
             <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#692873: Saviynt Enterprise Identity Cloud vulnerable to local user enumeration and authentication bypass]]></title>
+        <id>https://kb.cert.org/vuls/id/692873</id>
+        <link href="https://kb.cert.org/vuls/id/692873"/>
+        <updated>2021-12-22T14:23:43.575Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Saviynt Enterprise Identity Cloud contains user enumeration and authentication bypass vulnerabilities in the local password reset feature. Together, these vulnerabilities could allow a remote, unauthenticated attacker to gain administrative privileges if an SSO solution is not configured for authentication.</p>
+<h3 id="description">Description</h3>
+<p>Saviynt Enterprise Identity Cloud contains two vulnerabilities in the password reset feature for the local authentication system. Specifying the <code>id</code> parameter returns user names and it is common that accounts with administrative privileges have low (often single digit) <code>id</code> values.</p>
+<p><code>/ECM/maintenance/forgotpasswordstep1?otpConfig=false&amp;id=5</code></p>
+<p>It is then possible to either unhide a button or directly access a URL that bypasses verification and allows the password to be changed. Accessing a login URL with the new credentials yields cookies that can be used to authenticate to the Enerprise Identity Cloud instance.</p>
+<p>If another authentication or SSO system is configured, then it is not possible to exploit these vulnerabilities.</p>
+<h3 id="impact">Impact</h3>
+<p>A remote, unauthenticated attacker can enumerate users and bypass authentication to change the password of an existing administrative user. The attacker can then perform administrative actions and possibly make changes to other connected authentication systems.</p>
+<h3 id="solution">Solution</h3>
+<p>Saviynt has deployed a backend update for the software that resolves the issue in Saviynt IGA Release v5.5 SP2.x and later versions. As an additional layer of security, as the impacted URLs are not commonly used by customers leveraging SSO, Saviynt has blocked access to the URLs needed to exploit these vulnerabilities.</p>
+<p>Saviynt users should not need to take any action but might want to confirm they are running a fixed version.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>This document was written by Eric Hatleback and Art Manion.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
         </author>
     </entry>
 </feed>

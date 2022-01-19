@@ -2298,6 +2298,31 @@
           "title": "AA21-356A: Mitigating Log4Shell and Other Log4j-Related Vulnerabilities"
         }
       ]
+    },
+    {
+      "title": "CERT Recently Published Vulnerability Notes",
+      "feedUrl": "https://www.kb.cert.org/vuls/atomfeed/",
+      "siteUrl": "https://kb.cert.org/vuls/",
+      "articles": [
+        {
+          "id": "https://kb.cert.org/vuls/id/142629",
+          "author": null,
+          "description": "<h3 id=\"overview\">Overview</h3>\n<p>Various Silicon Labs Z-Wave chipsets do not support encryption, can be downgraded to not use weaker encryption, and are vulnerable to denial of service. Some of these vulnerabilities are inherent in Z-Wave protocol specifications.</p>\n<h3 id=\"description\">Description</h3>\n<p>Z-Wave devices based on Silicon Labs chipsets have multiple vulnerabilities. For further details, including specific devices tested, see <a href=\"https://ieeexplore.ieee.org/document/9663293\">Riding the IoT Wave With VFuzz: Discovering Security Flaws in Smart Homes</a>.</p>\n<p><strong>CVE-2020-9057</strong><br>\nZ-Wave devices based on Silicon Labs 100, 200, and 300 series chipsets do not support encryption.</p>\n<p><strong>CVE-2020-9058</strong><br>\nZ-Wave devices based on Silicon Labs 500 series chipsets using CRC-16 encapsulation do not implement encryption or replay protection.</p>\n<p><strong>CVE-2020-9059</strong><br>\nZ-Wave devices based on Silicon Labs 500 series chipsets using S0 authentication are susceptible to uncontrolled resource consumption which can lead to battery exhaustion.</p>\n<p><strong>CVE-2020-9060</strong><br>\nZ-Wave devices based on Silicon Labs 500 series chipsets using S2 are susceptible to denial of service and resource exhaustion via malformed SECURITY NONCE GET, SECURITY NONCE GET 2, NO OPERATION, or NIF REQUEST messages.</p>\n<p><strong>CVE-2020-9061</strong><br>\nZ-Wave devices based on Silicon Labs 500 and 700 series chipsets are susceptible to denial of service via malformed routing messages.</p>\n<p><strong>CVE-2020-10137</strong><br>\nZ-Wave devices based on Silicon Labs 700 series chipsets using S2 do not adequately authenticate or encrypt FIND_NODE_IN_RANGE frames.</p>\n<h3 id=\"impact\">Impact</h3>\n<p>Depending on the chipset and device, an attacker within Z-Wave radio range can deny service, cause devices to crash, deplete batteries, intercept, observe, and replay traffic, and control vulnerable devices.</p>\n<h3 id=\"solution\">Solution</h3>\n<p>Mitigations for these vulnerabilities vary based on the chipset and device. In some cases it may be necessary to upgrade to newer hardware, for example, 500 and 700 series chipsets that support S2 authentication and encryption.</p>\n<h3 id=\"acknowledgements\">Acknowledgements</h3>\n<p>Thanks to Carlos Kayembe Nkuba, Seulbae Kim, Sven Dietrich, and Heejo Lee for researching and reporting these vulnerabilities.</p>\n<p>This document was written by Timur Snoke and Art Manion.</p>",
+          "link": "https://kb.cert.org/vuls/id/142629",
+          "publishedOn": "2022-01-07T21:54:34.359Z",
+          "wordCount": 939,
+          "title": "VU#142629: Silicon Labs Z-Wave chipsets contain multiple vulnerabilities"
+        },
+        {
+          "id": "https://kb.cert.org/vuls/id/692873",
+          "author": null,
+          "description": "<h3 id=\"overview\">Overview</h3>\n<p>Saviynt Enterprise Identity Cloud contains user enumeration and authentication bypass vulnerabilities in the local password reset feature. Together, these vulnerabilities could allow a remote, unauthenticated attacker to gain administrative privileges if an SSO solution is not configured for authentication.</p>\n<h3 id=\"description\">Description</h3>\n<p>Saviynt Enterprise Identity Cloud contains two vulnerabilities in the password reset feature for the local authentication system. Specifying the <code>id</code> parameter returns user names and it is common that accounts with administrative privileges have low (often single digit) <code>id</code> values.</p>\n<p><code>/ECM/maintenance/forgotpasswordstep1?otpConfig=false&amp;id=5</code></p>\n<p>It is then possible to either unhide a button or directly access a URL that bypasses verification and allows the password to be changed. Accessing a login URL with the new credentials yields cookies that can be used to authenticate to the Enerprise Identity Cloud instance.</p>\n<p>If another authentication or SSO system is configured, then it is not possible to exploit these vulnerabilities.</p>\n<h3 id=\"impact\">Impact</h3>\n<p>A remote, unauthenticated attacker can enumerate users and bypass authentication to change the password of an existing administrative user. The attacker can then perform administrative actions and possibly make changes to other connected authentication systems.</p>\n<h3 id=\"solution\">Solution</h3>\n<p>Saviynt has deployed a backend update for the software that resolves the issue in Saviynt IGA Release v5.5 SP2.x and later versions. As an additional layer of security, as the impacted URLs are not commonly used by customers leveraging SSO, Saviynt has blocked access to the URLs needed to exploit these vulnerabilities.</p>\n<p>Saviynt users should not need to take any action but might want to confirm they are running a fixed version.</p>\n<h3 id=\"acknowledgements\">Acknowledgements</h3>\n<p>This document was written by Eric Hatleback and Art Manion.</p>",
+          "link": "https://kb.cert.org/vuls/id/692873",
+          "publishedOn": "2021-12-22T14:23:43.575Z",
+          "wordCount": 473,
+          "title": "VU#692873: Saviynt Enterprise Identity Cloud vulnerable to local user enumeration and authentication bypass"
+        }
+      ]
     }
   ],
   "cliVersion": "1.12.0"
