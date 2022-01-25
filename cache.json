@@ -3549,6 +3549,103 @@
           "title": "Coming Soon: New Security Update Guide Notification System"
         }
       ]
+    },
+    {
+      "title": "Schneier on Security",
+      "feedUrl": "https://www.schneier.com/feed/atom",
+      "siteUrl": "https://www.schneier.com",
+      "articles": [
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/01/linux-targeted-malware-increased-by-35.html",
+          "author": null,
+          "description": "<p>Crowdstrike is <a href=\"https://www.crowdstrike.com/blog/linux-targeted-malware-increased-by-35-percent-in-2021/\">reporting</a> that malware targeting Linux has increased considerably in 2021:</p>\n<blockquote><p>Malware targeting Linux systems increased by 35% in 2021 compared to 2020.</p>\n<p>XorDDoS, Mirai and Mozi malware families accounted for over 22% of Linux-targeted threats observed by CrowdStrike in 2021.</p>\n<p>Ten times more Mozi malware samples were observed in 2021 compared to 2020.</p></blockquote>\n<p>Lots of details in the report.</p>\n<p>News <a href=\"https://www.bleepingcomputer.com/news/security/linux-malware-sees-35-percent-growth-during-2021/\">article</a>:</p>\n<blockquote><p>The Crowdstrike findings aren&#8217;t surprising as they confirm an ongoing trend that emerged in previous years.</p>\n<p>For example, an <a href=\"https://www.intezer.com/blog/cloud-security/2020-set-record-for-new-linux-malware-families/\">Intezer report...</a></p></blockquote>",
+          "link": "https://www.schneier.com/blog/archives/2022/01/linux-targeted-malware-increased-by-35.html",
+          "publishedOn": "2022-01-24T12:27:23.000Z",
+          "wordCount": 1990,
+          "title": "Linux-Targeted Malware Increased by 35%"
+        },
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/01/friday-squid-blogging-piglet-squid.html",
+          "author": null,
+          "description": "<p>Nice <a href=\"https://www.australiangeographic.com.au/blogs/creatura-blog/2022/01/the-piglet-squid-is-a-squidgy-little-enigma/\">article</a> on the piglet squid.</p>\n<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.</p>\n<p>Read my blog posting guidelines <a href=\"https://www.schneier.com/blog/archives/2017/03/commenting_poli.html\">here</a>.</p>",
+          "link": "https://www.schneier.com/blog/archives/2022/01/friday-squid-blogging-piglet-squid.html",
+          "publishedOn": "2022-01-21T22:11:04.000Z",
+          "wordCount": 12532,
+          "title": "Friday Squid Blogging: Piglet Squid"
+        },
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/01/chinas-olympics-app-is-horribly-insecure.html",
+          "author": null,
+          "description": "<p>China is mandating that athletes download and use a health and travel app when they attend the Winter Olympics next month. Citizen Lab <a href=\"https://citizenlab.ca/2022/01/cross-country-exposure-analysis-my2022-olympics-app/\">examined the app</a> and found it riddled with security holes.</p>\n<blockquote><p>Key Findings:</p>\n<ul>\n<li>MY2022, an app mandated for use by all attendees of the 2022 Olympic Games in Beijing, has a simple but devastating flaw where encryption protecting users&#8217; voice audio and file transfers can be trivially sidestepped. Health customs forms which transmit passport details, demographic information, and medical and travel history are also vulnerable. Server responses can also be spoofed, allowing an attacker to display fake instructions to users.\n...</li></ul></blockquote>",
+          "link": "https://www.schneier.com/blog/archives/2022/01/chinas-olympics-app-is-horribly-insecure.html",
+          "publishedOn": "2022-01-21T12:06:37.000Z",
+          "wordCount": 2658,
+          "title": "China’s Olympics App Is Horribly Insecure"
+        },
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/01/san-francisco-police-illegally-spying-on-protesters.html",
+          "author": null,
+          "description": "<p>Last summer, the San Francisco police illegally used surveillance cameras at the George Floyd protests. The EFF is <a href=\"https://www.eff.org/cases/williams-v-san-francisco\">suing</a> the police:</p>\n<blockquote><p>This surveillance invaded the privacy of protesters, targeted people of color, and chills and deters participation and organizing for future protests. The SFPD also violated San Francisco&#8217;s new Surveillance Technology <a href=\"https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_admin/0-0-0-47320\">Ordinance</a>. It prohibits city agencies like the SFPD from acquiring, borrowing, or using surveillance technology, without prior approval from the city&#8217;s Board of Supervisors, following an open process that includes public participation. Here, the SFPD went through no such process before spying on protesters with this network of surveillance cameras...</p></blockquote>",
+          "link": "https://www.schneier.com/blog/archives/2022/01/san-francisco-police-illegally-spying-on-protesters.html",
+          "publishedOn": "2022-01-20T12:13:24.000Z",
+          "wordCount": 5456,
+          "title": "San Francisco Police Illegally Spying on Protesters"
+        },
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/01/are-fake-covid-testing-sites-harvesting-data.html",
+          "author": null,
+          "description": "<p>Over the past few weeks, I&#8217;ve seen a bunch of writing about what seems to be fake COVID-19 testing sites. They take your name and info, and do a nose swab, but you never get test results. Speculation centered around data harvesting, but that didn&#8217;t make sense because it was far too labor intensive for that and &#8212; sorry to break it to you &#8212; your data isn&#8217;t worth all that much.</p>\n<p>It seems to be <a href=\"https://blockclubchicago.org/2022/01/13/center-for-covid-control-covid19-testing-chain-opened-pop-ups-across-the-us-now-its-temporarily-closing-amid-federal-investigation-and-mounting-complaints/\">multilevel marketing fraud</a> instead:</p>\n<blockquote><p>The Center for COVID Control is a management company to Doctors Clinical Laboratory. It provides tests and testing supplies, software, personal protective equipment and marketing services &#8212; online and printed &#8212; to testing sites, said a person who was formerly associated with the Center for COVID Control. Some of the sites are owned independently but operate in partnership with the chain under its name and with its guidance...</p></blockquote>",
+          "link": "https://www.schneier.com/blog/archives/2022/01/are-fake-covid-testing-sites-harvesting-data.html",
+          "publishedOn": "2022-01-19T12:10:53.000Z",
+          "wordCount": 1775,
+          "title": "Are Fake COVID Testing Sites Harvesting Data?"
+        },
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/01/uk-government-to-launch-pr-campaign-undermining-end-to-end-encryption.html",
+          "author": null,
+          "description": "<p><i>Rolling Stone</i> is <a href=\"https://www.rollingstone.com/culture/culture-news/revealed-uk-government-publicity-blitz-to-undermine-privacy-encryption-1285453/\">reporting</a> that the UK government has hired the M&#38;C Saatchi advertising agency to launch an anti-encryption advertising campaign. Presumably they&#8217;ll lean heavily on the &#8220;think of the children!&#8221; rhetoric <a href=\"https://www.theguardian.com/technology/2021/sep/08/facebook-encryption-could-prevent-detection-of-child-abuse-nca-says\">we&#8217;re</a> <a href=\"https://www.computerweekly.com/news/252499496/Government-puts-Facebook-under-pressure-to-stop-end-to-end-encryption\">seeing</a> in this current wave of the crypto wars. The technical eavesdropping mechanisms have shifted to client-side scanning, which <a href=\"https://www.schneier.com/academic/archives/2021/10/bugs-in-our-pockets-the-risks-of-client-side-scanning.html\">won&#8217;t actually help</a> &#8212; but since that&#8217;s not really the point, it&#8217;s not argued on its merits.</p>",
+          "link": "https://www.schneier.com/blog/archives/2022/01/uk-government-to-launch-pr-campaign-undermining-end-to-end-encryption.html",
+          "publishedOn": "2022-01-18T12:05:35.000Z",
+          "wordCount": 8722,
+          "title": "UK Government to Launch PR Campaign Undermining End-to-End Encryption"
+        },
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/01/an-examination-of-the-bug-bounty-marketplace.html",
+          "author": null,
+          "description": "<p>Here&#8217;s a fascinating report: &#8220;<a href=\"https://datasociety.net/wp-content/uploads/2022/01/BountyEverythingFinal01052022.pdf\">Bounty Everything: Hackers and the Making of the Global Bug Marketplace</a>.&#8221; From a <a href=\"https://datasociety.net/library/bounty-everything-hackers-and-the-making-of-the-global-bug-marketplace/\">summary</a>:</p>\n<blockquote><p>&#8230;researchers Ryan Ellis and Yuan Stevens provide a window into the working lives of hackers who participate in “bug bounty” programs­ &#8212; programs that hire hackers to discover and report bugs or other vulnerabilities in their systems. This report illuminates the risks and insecurities for hackers as gig workers, and how bounty programs rely on vulnerable workers to fix their vulnerable systems.</p>\n<p>Ellis and Stevens’s research offers a historical overview of bounty programs and an analysis of contemporary bug bounty ...</p></blockquote>",
+          "link": "https://www.schneier.com/blog/archives/2022/01/an-examination-of-the-bug-bounty-marketplace.html",
+          "publishedOn": "2022-01-17T12:16:18.000Z",
+          "wordCount": 3484,
+          "title": "An Examination of the Bug Bounty Marketplace"
+        },
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/01/friday-squid-blogging-the-evolution-of-squid-eyes.html",
+          "author": null,
+          "description": "<p>New <a href=\"https://news.harvard.edu/gazette/story/2022/01/understanding-how-squid-eyes-are-made/\">research</a>:</p>\n<blockquote><p>The researchers from the FAS Center for Systems Biology discovered a network of genes important in squid eye development that are known to also play a crucial role in limb development across animals, including vertebrates and insects. The scientists say these genes have been repurposed in squid to make camera-lens-type eyes.</p></blockquote>\n<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.</p>\n<p>Read my blog posting guidelines <a href=\"https://www.schneier.com/blog/archives/2017/03/commenting_poli.html\">here</a>.</p>",
+          "link": "https://www.schneier.com/blog/archives/2022/01/friday-squid-blogging-the-evolution-of-squid-eyes.html",
+          "publishedOn": "2022-01-14T22:12:53.000Z",
+          "wordCount": 22898,
+          "title": "Friday Squid Blogging: The Evolution of Squid Eyes"
+        },
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/01/upcoming-speaking-engagements-16.html",
+          "author": null,
+          "description": "<p>This is a current list of where and when I am scheduled to speak:</p>\n<ul>\n<li>I’m giving an online-only talk on “Securing a World of Physically Capable Computers” as part of Teleport’s <a href=\"https://goteleport.com/security-visionaries-2022/\">Security Visionaries 2022</a> series, on January 18, 2022.</li>\n<li>I’m speaking at <a href=\"https://its-now.science/\">IT-S Now 2022</a> in Vienna on June 2, 2022.</li>\n<li>I’m speaking at the 14th International Conference on Cyber Conflict, <a href=\"https://www.cycon.org/\">CyCon 2022,</a> in Tallinn, Estonia on June 3, 2022.</li>\n<li>I’m speaking at the <a href=\"https://www.rsaconference.com/\">RSA Conference 2022</a> in San Francisco, June 6-9, 2022.</li>\n</ul>\n<p>The list is maintained on <a href=\"https://www.schneier.com/events/\">this page</a>.</p>",
+          "link": "https://www.schneier.com/blog/archives/2022/01/upcoming-speaking-engagements-16.html",
+          "publishedOn": "2022-01-14T18:02:41.000Z",
+          "wordCount": 407,
+          "title": "Upcoming Speaking Engagements"
+        },
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/01/using-em-waves-to-detect-malware.html",
+          "author": null,
+          "description": "<p>I don&#8217;t even know what I think about this. Researchers have developed a malware detection system that uses EM waves: &#8220;<a href=\"https://dl.acm.org/doi/abs/10.1145/3485832.3485894\">Obfuscation Revealed: Leveraging Electromagnetic Signals for Obfuscated Malware Classification</a>.&#8221;</p>\n<blockquote><p><b>Abstract</b>: The Internet of Things (IoT) is constituted of devices that are exponentially growing in number and in complexity. They use numerous customized firmware and hardware, without taking into consideration security issues, which make them a target for cybercriminals, especially malware authors.</p>\n<p>We will present a novel approach of using side channel information to identify the kinds of threats that are targeting the device. Using our approach, a malware analyst is able to obtain precise knowledge about malware type and identity, even in the presence of obfuscation techniques which may prevent static or symbolic binary analysis. We recorded 100,000 measurement traces from an IoT device infected by various in-the-wild malware samples and realistic benign activity. Our method does not require any modification on the target device. Thus, it can be deployed independently from the resources available without any overhead. Moreover, our approach has the advantage that it can hardly be detected and evaded by the malware authors. In our experiments, we were able to predict three generic malware types (and one benign class) with an accuracy of 99.82%. Even more, our results show that we are able to classify altered malware samples with unseen obfuscation techniques during the training phase, and to determine what kind of obfuscations were applied to the binary, which makes our approach particularly useful for malware analysts...</p></blockquote>",
+          "link": "https://www.schneier.com/blog/archives/2022/01/using-em-waves-to-detect-malware.html",
+          "publishedOn": "2022-01-14T12:13:47.000Z",
+          "wordCount": 3553,
+          "title": "Using EM Waves to Detect Malware"
+        }
+      ]
     }
   ],
   "cliVersion": "1.12.0"
