@@ -1597,99 +1597,179 @@
       ]
     },
     {
-      "title": "CISA All NCAS Products",
-      "feedUrl": "https://www.cisa.gov/uscert/ncas/all.xml",
+      "title": "CISA Alerts",
+      "feedUrl": "https://www.cisa.gov/uscert/ncas/alerts.xml",
       "siteUrl": "https://us-cert.cisa.gov/",
       "articles": [
         {
-          "id": "https://us-cert.cisa.gov/node/17290",
-          "author": "US-CERT",
-          "description": "CISA has published an infographic to emphasize the importance of implementing network segmentation—a physical or virtual architectural approach that divides a network into multiple segments, each acting as its own subnetwork, to provide additional security and control that can help prevent or minimize the impact of a cyberattack.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/01/24/cisa-publishes-infographic-layering-network-security-through",
-          "publishedOn": "2022-01-24T14:59:59.000Z",
-          "wordCount": 427,
-          "title": "Untitled"
-        },
+          "id": "17247 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 11, 2022\nSummary\nActions Critical Infrastructure Organizations Should Implement to Immediately Strengthen Their Cyber Posture.\nknown exploited vulnerabilities.\nmulti-factor authentication.\nUse antivirus software.\n• Develop internal contact lists and surge support.\nNote: this advisory uses the MITRE Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK®) framework, version 10. See the ATT&CK for Enterprise for all referenced threat actor tactics and techniques.\nThis joint Cybersecurity Advisory (CSA)—authored by the Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), and National Security Agency (NSA)—is part of our continuing cybersecurity mission to warn organizations of cyber threats and help the cybersecu…",
+          "link": "https://us-cert.cisa.gov/ncas/alerts/aa22-011a",
+          "publishedOn": "2022-01-11T15:00:00.000Z",
+          "wordCount": 3857,
+          "title": "AA22-011A: Understanding and Mitigating Russian State-Sponsored Cyber Threats to U.S. Critical Infrastructure"
+        }
+      ]
+    },
+    {
+      "title": "CISA Analysis Reports",
+      "feedUrl": "https://www.cisa.gov/uscert/ncas/analysis-reports.xml",
+      "siteUrl": "https://us-cert.cisa.gov/",
+      "articles": []
+    },
+    {
+      "title": "CISA Bulletins",
+      "feedUrl": "https://www.cisa.gov/uscert/ncas/bulletins.xml",
+      "siteUrl": "https://us-cert.cisa.gov/",
+      "articles": [
         {
-          "id": "https://us-cert.cisa.gov/node/17289",
-          "author": "US-CERT",
-          "description": "",
+          "id": "17289 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 24, 2022\n \nHigh Vulnerabilities\nPrimary\nDescription\n\t\t\tPublished\n\t\t\tCVSS Score\n\t\t\tSource & Patch Info\n\t\t\nadobe -- acrobat_dc\n\t\t\tAcrobat Reader DC version 21.007.20099 (and earlier), 20.004.30017 (and earlier) and 17.011.30204 (and earlier) are affected by a use-after-free vulnerability in the processing of Format event actions that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.\n\t\t\t2022-01-14\n\t\t\t9.3\n\t\t\tCVE-2021-45062\nMISC\n\t\t\nadobe -- acrobat_dc\n\t\t\tAcrobat Reader DC version 21.007.20099 (and earlier), 20.004.30017 (and earlier) and 17.011.30204 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbi…",
           "link": "https://us-cert.cisa.gov/ncas/bulletins/sb22-024",
           "publishedOn": "2022-01-24T13:41:15.000Z",
           "wordCount": 43954,
-          "title": "Untitled"
+          "title": "Vulnerability Summary for the Week of January 17, 2022"
         },
         {
-          "id": "https://us-cert.cisa.gov/node/17288",
-          "author": "US-CERT",
-          "description": "McAfee has released McAfee Agent for Windows version 5.7.5, which addresses vulnerabilities CVE-2021-31854 and CVE-2022-0166. An attacker could exploit these vulnerabilities to take control of an affected system.",
+          "id": "17275 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 17, 2022\n \nHigh Vulnerabilities\nPrimary\nDescription\n\t\t\tPublished\n\t\t\tCVSS Score\n\t\t\tSource & Patch Info\n\t\t\nagoric -- realms-shim\n\t\t\tAll versions of package realms-shim are vulnerable to Sandbox Bypass via a Prototype Pollution attack vector.\n\t\t\t2022-01-10\n\t\t\t7.5\n\t\t\tCVE-2021-23543\nMISC\nMISC\n\t\t\nagoric -- realms-shim\n\t\t\tAll versions of package realms-shim are vulnerable to Sandbox Bypass via a Prototype Pollution attack vector.\n\t\t\t2022-01-10\n\t\t\t7.5\n\t\t\tCVE-2021-23594\nMISC\nMISC\n\t\t\ncheckpoint -- endpoint_security\n\t\t\tUsers have access to the directory where the installation repair occurs. Since the MS Installer allows regular users to run the repair, an attacker can initiate the installation repair and place a specially crafted EXE in the repair folder which runs with…",
+          "link": "https://us-cert.cisa.gov/ncas/bulletins/sb22-017",
+          "publishedOn": "2022-01-17T14:23:15.000Z",
+          "wordCount": 35162,
+          "title": "Vulnerability Summary for the Week of January 10, 2022"
+        },
+        {
+          "id": "17251 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 10, 2022\n \nHigh Vulnerabilities\nPrimary\nDescription\n\t\t\tPublished\n\t\t\tCVSS Score\n\t\t\tSource & Patch Info\n\t\t\nbeyondtrust -- appliance_base_software\n\t\t\tBeyondTrust Secure Remote Access Base Software through 6.0.1 allows an attacker to achieve full admin access to the appliance, by tricking the administrator into creating a new admin account through an XSS/CSRF attack involving a crafted request to the /appliance/users?action=edit endpoint. This cross-site-scripting (XSS) vulnerability occurs when it does not properly sanitize an unauthenticated crafted web request to the server\n\t\t\t2022-01-05\n\t\t\t9.3\n\t\t\tCVE-2021-31589\nMISC\nMISC\nMISC\n\t\t\nsun_moon_jingyao -- network_computer_terminal_protection_system_firmware\n\t\t\tThe server-request receiver function of Shockwall system…",
+          "link": "https://us-cert.cisa.gov/ncas/bulletins/sb22-010",
+          "publishedOn": "2022-01-10T16:30:24.000Z",
+          "wordCount": 13268,
+          "title": "Vulnerability Summary for the Week of January 3, 2022"
+        },
+        {
+          "id": "17239 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 4, 2022\n&#xA0;\nHigh Vulnerabilities\nPrimary\nDescription\n\t\t\tPublished\n\t\t\tCVSS Score\n\t\t\tSource & Patch Info\n\t\t\nThere were no high vulnerabilities recorded this week.\n\t\t\nBack to top\n&#xA0;\nMedium Vulnerabilities\nPrimary\nDescription\n\t\t\tPublished\n\t\t\tCVSS Score\n\t\t\tSource & Patch Info\n\t\t\napache -- log4j\n\t\t\tApache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases 2.3.2 and 2.12.4) are vulnerable to a remote code execution (RCE) attack when a configuration uses a JDBC Appender with a JNDI LDAP data source URI when an attacker has control of the target LDAP server. This issue is fixed by limiting JNDI data source names to the java protocol in Log4j2 versions 2.17.1, 2.12.4, and 2.3.2.\n\t\t\t2021-12-28\n\t\t\t6\n\t\t\tCVE-2021-44832\nMISC\nMISC\nMLIST\nCONFIRM\n…",
+          "link": "https://us-cert.cisa.gov/ncas/bulletins/sb22-003",
+          "publishedOn": "2022-01-04T12:48:34.000Z",
+          "wordCount": 22370,
+          "title": "Vulnerability Summary for the Week of December 27, 2021"
+        },
+        {
+          "id": "17237 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: December 27, 2021\n \nHigh Vulnerabilities\nPrimary\nDescription\n\t\t\tPublished\n\t\t\tCVSS Score\n\t\t\tSource & Patch Info\n\t\t\nadobe -- dimension\n\t\t\tAdobe Dimension versions 3.4.3 (and earlier) is affected by a memory corruption vulnerability due to insecure handling of a malicious GIF file, potentially resulting in arbitrary code execution in the context of the current user. User interaction is required to exploit this vulnerability.\n\t\t\t2021-12-20\n\t\t\t9.3\n\t\t\tCVE-2021-44179\nMISC\nMISC\n\t\t\nadobe -- dimension\n\t\t\tAdobe Dimension versions 3.4.3 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious GIF f…",
+          "link": "https://us-cert.cisa.gov/ncas/bulletins/sb21-361",
+          "publishedOn": "2021-12-27T11:39:24.000Z",
+          "wordCount": 19022,
+          "title": "Vulnerability Summary for the Week of December 20, 2021"
+        }
+      ]
+    },
+    {
+      "title": "CISA TIPS feed",
+      "feedUrl": "https://www.cisa.gov/uscert/ncas/tips.xml",
+      "siteUrl": "https://us-cert.cisa.gov/",
+      "articles": []
+    },
+    {
+      "title": "CISA Current Activity",
+      "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
+      "siteUrl": "https://us-cert.cisa.gov/",
+      "articles": [
+        {
+          "id": "17290 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 24, 2022\nCISA has published an infographic to emphasize the importance of implementing network segmentation—a physical or virtual architectural approach that divides a network into multiple segments, each acting as its own subnetwork, to provide additional security and control that can help prevent or minimize the impact of a cyberattack.\nCISA encourages network architects, defenders, and administrators to review the infographic, Layering Network Security Through Segmentation, and implement its recommendations where possible.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/01/24/cisa-publishes-infographic-layering-network-security-through",
+          "publishedOn": "2022-01-24T14:59:59.000Z",
+          "wordCount": 427,
+          "title": "CISA Publishes Infographic on Layering Network Security Through Segmentation"
+        },
+        {
+          "id": "17288 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 21, 2022\nMcAfee has released McAfee Agent for Windows version 5.7.5, which addresses vulnerabilities CVE-2021-31854 and CVE-2022-0166. An attacker could exploit these vulnerabilities to take control of an affected system.\nCISA encourages users and administrators to review McAfee Security Bulletin SB10378 and apply the necessary update. CISA also encourages users and administrators to review the CERT Coordination Center Vulnerability Note VU#287178 for more information.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
           "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/01/21/mcafee-releases-security-update-mcafee-agent-windows",
           "publishedOn": "2022-01-21T18:32:16.000Z",
           "wordCount": 419,
-          "title": "Untitled"
+          "title": "McAfee Releases Security Update for McAfee Agent for Windows"
         },
         {
-          "id": "https://us-cert.cisa.gov/node/17287",
-          "author": "US-CERT",
-          "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence that threat actors are actively exploiting the vulnerabilities listed in the table below. These types of vulnerabilities are a frequent attack vector for malicious cyber actors of all types and pose significant risk to the federal enterprise.",
+          "id": "17287 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 21, 2022\nCISA has added four new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence that threat actors are actively exploiting the vulnerabilities listed in the table below. These types of vulnerabilities are a frequent attack vector for malicious cyber actors of all types and pose significant risk to the federal enterprise.\nCVE Number\n\t\t\tCVE Title\n\t\t\tRequired Action Due Date\n\t\t\nCVE-2006-1547\n\t\t\tApache Struts 1 ActionForm Denial of Service Vulnerability\n\t\t\t07/21/2022\n\t\t\nCVE-2012-0391\n\t\t\tApache Struts 2 Improper Input Validation Vulnerability\n\t\t\t07/21/2022\n\t\t\nCVE-2018-8453\n\t\t\tMicrosoft Windows Win32k Privilege Escalation Vulnerability\n\t\t\t07/21/2022\n\t\t\nCVE-2021-35247\n\t\t\tSolarWinds Serv-U Improper Input Validation Vulnerability\n\t\t\t02/04/2022\n\t\t\n \nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known CVEs that carry significant risk to the federal enterprise. BOD 22-01 requires FCEB agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the Catalog that meet the meet the specified criteria.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
           "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/01/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
           "publishedOn": "2022-01-21T15:19:59.000Z",
           "wordCount": 561,
-          "title": "Untitled"
+          "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog"
         },
         {
-          "id": "https://us-cert.cisa.gov/node/17286",
-          "author": "US-CERT",
-          "description": "F5 has released its January 2022 Quarterly Security Notification addressing vulnerabilities affecting multiple versions of BIG-IP, BIG-IQ, and NGINX Controller API Management. A remote attacker could exploit these vulnerabilities to either deny service to, or take control of, an affected system.\n\nCISA encourages users and administrators to review the F5 security advisory and install updated software or apply the necessary mitigations as soon as possible.",
+          "id": "17286 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 20, 2022\nF5 has released its January 2022 Quarterly Security Notification addressing vulnerabilities affecting multiple versions of BIG-IP, BIG-IQ, and NGINX Controller API Management. A remote attacker could exploit these vulnerabilities to either deny service to, or take control of, an affected system.\nCISA encourages users and administrators to review the F5 security advisory and install updated software or apply the necessary mitigations as soon as possible.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
           "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/01/20/f5-releases-january-2022-quarterly-security-notification",
           "publishedOn": "2022-01-20T17:40:38.000Z",
           "wordCount": 416,
-          "title": "Untitled"
+          "title": "F5 Releases January 2022 Quarterly Security Notification"
         },
         {
-          "id": "https://us-cert.cisa.gov/node/17285",
-          "author": "US-CERT",
-          "description": "Drupal has released security updates to address vulnerabilities affecting Drupal 7, 9.2, and 9.3. An attacker could exploit these vulnerabilities to take control of an affected system.\n\nCISA encourages users and administrators to review the following Drupal security advisories and apply the necessary updates.\n\nSA-CORE-2022-001\n\tSA-CORE-2022-002",
+          "id": "17285 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 20, 2022\nDrupal has released security updates to address vulnerabilities affecting Drupal 7, 9.2, and 9.3. An attacker could exploit these vulnerabilities to take control of an affected system.\nCISA encourages users and administrators to review the following Drupal security advisories and apply the necessary updates.\nSA-CORE-2022-001\nSA-CORE-2022-002\nThis product is provided subject to this Notification and this Privacy & Use policy.",
           "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/01/20/drupal-releases-security-updates",
           "publishedOn": "2022-01-20T16:07:08.000Z",
           "wordCount": 388,
-          "title": "Untitled"
+          "title": "Drupal Releases Security Updates"
         },
         {
-          "id": "https://us-cert.cisa.gov/node/17284",
-          "author": "US-CERT",
-          "description": "Google has released Chrome version 97.0.4692.99 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system.\n\nCISA encourages users and administrators to review the Chrome Release Note and apply the necessary update as soon as possible.",
+          "id": "17284 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 20, 2022\nGoogle has released Chrome version 97.0.4692.99 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system.\nCISA encourages users and administrators to review the Chrome Release Note and apply the necessary update as soon as possible.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
           "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/01/20/google-releases-security-updates-chrome",
           "publishedOn": "2022-01-20T15:55:44.000Z",
           "wordCount": 395,
-          "title": "Untitled"
+          "title": "Google Releases Security Updates for Chrome"
         },
         {
-          "id": "https://us-cert.cisa.gov/node/17283",
-          "author": "US-CERT",
-          "description": "Cisco has released security updates to address vulnerabilities in multiple Cisco products. An attacker could exploit some of these vulnerabilities to take control of an affected system. For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page.\n\nCISA encourages users and administrators to review the following Cisco advisories and apply the necessary updates:",
+          "id": "17283 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 20, 2022\nCisco has released security updates to address vulnerabilities in multiple Cisco products. An attacker could exploit some of these vulnerabilities to take control of an affected system. For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page.\nCISA encourages users and administrators to review the following Cisco advisories and apply the necessary updates:\nCisco Redundancy Configuration Manager for Cisco StarOS Software Multiple Vulnerabilities cisco-sa-rcm-vuls-7cS3Nuq\nMultiple Cisco Products Snort Modbus Denial of Service Vulnerability cisco-sa-snort-dos-9D3hJLuj\nConfD CLI Command Injection Vulnerability cisco-sa-confdcli-cmdinj-wybQDSSh\nMultiple Cisco Products CLI Command Injection Vulnerability cisco-sa-cli-cmdinj-4MttWZPB\nThis product is provided subject to this Notification and this Privacy & Use policy.",
           "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/01/20/cisco-releases-security-updates-multiple-products",
           "publishedOn": "2022-01-20T15:11:39.000Z",
           "wordCount": 441,
-          "title": "Untitled"
+          "title": "Cisco Releases Security Updates for Multiple Products"
         },
         {
-          "id": "https://us-cert.cisa.gov/node/17282",
-          "author": "US-CERT",
-          "description": "CISA has released the final version of Internet Protocol version 6 (IPv6) Considerations for Trusted Internet Connections (TIC) 3.0. This guidance supports the federal government-wide deployment and use of the modernized network protocol. The final version includes feedback provided during the public comment period that ended in October 2021.",
+          "id": "17282 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 20, 2022 | Last revised: January 24, 2022\nCISA has released the final version of Internet Protocol version 6 (IPv6) Considerations for Trusted Internet Connections (TIC) 3.0. This guidance supports the federal government-wide deployment and use of the modernized network protocol. The final version includes feedback provided during the public comment period that ended in October 2021. See the fact sheet Response to Comments on Guidance: IPv6 Considerations for TIC 3.0 for a comprehensive analysis of comments received. This release is in accordance with Office of Management and Budget (OMB) Memorandum 21-07, which entrusts CISA with enhancing the TIC program to support IPv6 implementation in federal IT systems.\nCISA encourages IT decision-makers and administrators in all federal government agencies and organizations to review the Internet Protocol version 6 (IPv6) Considerations for Trusted Internet Connections (TIC) 3.0 for guidance in facilitating IPv6 implementation in federal IT systems.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
           "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/01/20/cisa-releases-final-version-guidance-ipv6-considerations-tic-30",
           "publishedOn": "2022-01-20T14:51:18.000Z",
           "wordCount": 507,
-          "title": "Untitled"
+          "title": "CISA Releases Final Version of Guidance: IPv6 Considerations for TIC 3.0"
         },
         {
-          "id": "https://us-cert.cisa.gov/node/17280",
-          "author": "US-CERT",
-          "description": "Zoho has released a security advisory to address an authentication bypass vulnerability (CVE-2021-44757) in ManageEngine Desktop Central and Desktop Central MSP. An attacker could exploit this vulnerability to take control of an affected system.",
+          "id": "17280 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 19, 2022\nZoho has released a security advisory to address an authentication bypass vulnerability (CVE-2021-44757) in ManageEngine Desktop Central and Desktop Central MSP. An attacker could exploit this vulnerability to take control of an affected system.\nCISA encourages users and administrators to review the Zoho Vulnerability Notification and the Zoho ManageEngine Desktop Central and ManageEngine Desktop Central MSP security advisories and apply the recommended mitigations immediately.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
           "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/01/19/zoho-releases-security-advisory-manageengine-desktop-central-and",
           "publishedOn": "2022-01-19T16:51:42.000Z",
           "wordCount": 430,
-          "title": "Untitled"
+          "title": "Zoho Releases Security Advisory for ManageEngine Desktop Central and Desktop Central MSP"
+        },
+        {
+          "id": "17273 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 18, 2022 | Last revised: January 21, 2022\nCISA has added 13 new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence that threat actors are actively exploiting the vulnerabilities listed in the table below. These types of vulnerabilities are a frequent attack vector for malicious cyber actors of all types and pose significant risk to the federal enterprise.\nCVE Number\n\t\t\tCVE Title\n\t\t\tRequired Action Due Date\n\t\t\nCVE-2021-32648\n\t\t\tOctober CMS Improper Authentication\n\t\t\t2/1/2022\n\t\t\nCVE-2021-21315\n\t\t\tSystem Information Library for node.js Command Injection Vulnerability\n\t\t\t2/1/2022\n\t\t\nCVE-2021-21975\n\t\t\tServer Side Request Forgery in vRealize Operations Manager API Vulnerability\n\t\t\t2/1/2022\n\t\t\nCVE-2021-22991\n\t\t\tBIG-IP Traffic Microkern…",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/01/18/cisa-adds-13-known-exploited-vulnerabilities-catalog",
+          "publishedOn": "2022-01-18T17:57:15.000Z",
+          "wordCount": 645,
+          "title": "CISA Adds 13 Known Exploited Vulnerabilities to Catalog"
         }
       ]
     },
