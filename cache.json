@@ -6,6 +6,42 @@
       "siteUrl": "https://portswigger.net/daily-swig",
       "articles": [
         {
+          "id": "f5-fixes-high-risk-nginx-controller-vulnerability-in-january-patch-rollout",
+          "author": null,
+          "description": "Brace for impact",
+          "link": "https://portswigger.net/daily-swig/f5-fixes-high-risk-nginx-controller-vulnerability-in-january-patch-rollout",
+          "publishedOn": "2022-01-24T16:56:00.000Z",
+          "wordCount": 841,
+          "title": "F5 fixes high-risk NGINX Controller vulnerability in January patch rollout"
+        },
+        {
+          "id": "rce-bug-chain-patched-in-centos-web-panel",
+          "author": null,
+          "description": "Shell injected on servers via bypass of local file inclusion defenses",
+          "link": "https://portswigger.net/daily-swig/rce-bug-chain-patched-in-centos-web-panel",
+          "publishedOn": "2022-01-24T15:30:27.000Z",
+          "wordCount": 1024,
+          "title": "RCE bug chain patched in CentOS Web Panel"
+        },
+        {
+          "id": "opensubtitles-data-breach-users-asked-to-re-secure-accounts-after-plaintext-password-snafu",
+          "author": null,
+          "description": "Movie translation site asked victims to reset passwords… then sent them in clear text",
+          "link": "https://portswigger.net/daily-swig/opensubtitles-data-breach-users-asked-to-re-secure-accounts-after-plaintext-password-snafu",
+          "publishedOn": "2022-01-24T14:29:26.000Z",
+          "wordCount": 1017,
+          "title": "OpenSubtitles data breach: Users asked to re-secure accounts after plaintext password snafu"
+        },
+        {
+          "id": "chain-of-vulnerabilities-led-to-rce-on-cisco-prime-servers",
+          "author": null,
+          "description": "Full chain exploit ready for Prime time",
+          "link": "https://portswigger.net/daily-swig/chain-of-vulnerabilities-led-to-rce-on-cisco-prime-servers",
+          "publishedOn": "2022-01-24T13:05:06.000Z",
+          "wordCount": 1334,
+          "title": "Chain of vulnerabilities led to RCE on Cisco Prime servers"
+        },
+        {
           "id": "european-commission-launches-new-open-source-software-bug-bounty-program",
           "author": null,
           "description": "Hackers are invited to test services used by EU agencies",
@@ -463,6 +499,42 @@
       "siteUrl": "https://thehackernews.com/",
       "articles": [
         {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-642984707695064521",
+          "author": "noreply@blogger.com (The Hacker News)",
+          "description": "I recently hopped on the Lookout podcast to talk about virtual private networks (VPNs) and how they've been extended beyond their original use case of connecting remote laptops to your corporate network. Even in this new world where people are using personal devices and cloud apps, VPN continues to be the go-to solution for remote access and cloud access. After my conversation with Hank Schless,",
+          "link": "https://thehackernews.com/2022/01/ztnas-address-requirements-vpns-cannot.html",
+          "publishedOn": "2022-01-24T14:52:03.000Z",
+          "wordCount": 1310,
+          "title": "ZTNAs Address Requirements VPNs Cannot. Here's Why."
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4345050898720206090",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "Misconfigurations in smart contracts are being exploited by scammers to create malicious cryptocurrency tokens with the goal of stealing funds from unsuspecting users.\r\nThe instances of token fraud in the wild include hiding 99% fee functions and concealing backdoor routines, researchers from Check Point said in a report shared with The Hacker News.\r\nSmart contracts are programs stored on the",
+          "link": "https://thehackernews.com/2022/01/hackers-creating-fraudulent-crypto.html",
+          "publishedOn": "2022-01-24T11:09:03.000Z",
+          "wordCount": 820,
+          "title": "Hackers Creating Fraudulent Crypto Tokens as Part of 'Rug Pull' Scams"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8847479189386833793",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "Social engineering campaigns involving the deployment of the Emotet malware botnet have been observed using \"unconventional\" IP address formats for the first time in a bid to sidestep detection by security solutions.\r\nThis involves the use of hexadecimal and octal representations of the IP address that, when processed by the underlying operating systems, get automatically converted \"to the dotted",
+          "link": "https://thehackernews.com/2022/01/emotet-now-using-unconventional-ip.html",
+          "publishedOn": "2022-01-24T07:10:39.000Z",
+          "wordCount": 738,
+          "title": "Emotet Now Using Unconventional IP Address Formats to Evade Detection"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5464330568616340516",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "The maintainers of the Rust programming language have released a security update for a high-severity vulnerability that could be abused by a malicious party to purge files and directories from a vulnerable system in an unauthorized manner.\r\n\"An attacker could use this security issue to trick a privileged program into deleting files and directories the attacker couldn't otherwise access or delete,",
+          "link": "https://thehackernews.com/2022/01/high-severity-rust-programming-bug.html",
+          "publishedOn": "2022-01-24T06:53:04.000Z",
+          "wordCount": 706,
+          "title": "High-Severity Rust Programming Bug Could Lead to File, Directory Deletion"
+        },
+        {
           "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2122145430891640757",
           "author": "noreply@blogger.com (Ravie Lakshmanan)",
           "description": "Latest analysis into the wiper malware that targeted dozens of Ukrainian agencies earlier this month has revealed \"strategic similarities\" to NotPetya malware that was unleashed against the country's infrastructure and elsewhere in 2017.\r\nThe malware, dubbed WhisperGate, was discovered by Microsoft last week, which said it observed the destructive cyber campaign targeting government, non-profit,",
@@ -838,6 +910,96 @@
       "feedUrl": "https://feeds.feedburner.com/securityweek",
       "siteUrl": "https://www.securityweek.com",
       "articles": [
+        {
+          "id": "24180 at https://www.securityweek.com",
+          "author": "Associated Press",
+          "description": "The District of Columbia and three states are suing Google for allegedly deceiving consumers and invading their privacy by making it nearly impossible for them to stop their location from being tracked.\n\r\nread more",
+          "link": "https://www.securityweek.com/dc-3-states-sue-google-saying-it-invades-users-privacy",
+          "publishedOn": "2022-01-24T22:22:33.000Z",
+          "wordCount": 1286,
+          "title": "DC, 3 States Sue Google Saying it Invades Users' Privacy"
+        },
+        {
+          "id": "24179 at https://www.securityweek.com",
+          "author": "Kevin Townsend",
+          "description": "New Jersey court delivers summary judgment against insurance company’s refusal to pay based on war exclusion clause\n\r\nread more",
+          "link": "https://www.securityweek.com/court-awards-merck-14b-insurance-claim-over-notpetya-cyberattack",
+          "publishedOn": "2022-01-24T20:05:48.000Z",
+          "wordCount": 1307,
+          "title": "Court Awards Merck $1.4B Insurance Claim Over NotPetya Cyberattack"
+        },
+        {
+          "id": "24178 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "Microsoft has announced improved security for the users of its flagship Office productivity suite, courtesy of Excel 4.0 (XLM) macros now being restricted by default.\n\r\nread more",
+          "link": "https://www.securityweek.com/microsoft-restricts-excel-40-macros-default",
+          "publishedOn": "2022-01-24T17:54:59.000Z",
+          "wordCount": 825,
+          "title": "Microsoft Restricts Excel 4.0 Macros by Default"
+        },
+        {
+          "id": "24177 at https://www.securityweek.com",
+          "author": "AFP",
+          "description": "Facebook's parent company Meta announced on Monday it was launching one of the world's most powerful supercomputers to boost its capacity to process data, despite persistent disputes over privacy and disinformation.\n\r\nread more",
+          "link": "https://www.securityweek.com/facebook-trumpets-massive-new-supercomputer",
+          "publishedOn": "2022-01-24T17:38:28.000Z",
+          "wordCount": 1026,
+          "title": "Facebook Trumpets Massive New Supercomputer"
+        },
+        {
+          "id": "24176 at https://www.securityweek.com",
+          "author": "Eduard Kovacs",
+          "description": "Researchers discovered that the Control Web Panel (CWP) web hosting panel is affected by two serious vulnerabilities that can allow attackers to remotely hack servers, and it’s possible that they may have already been exploited in the wild.\n\r\nread more",
+          "link": "https://www.securityweek.com/cwp-flaws-expose-servers-remote-attacks-possibly-exploited-wild",
+          "publishedOn": "2022-01-24T16:16:45.000Z",
+          "wordCount": 864,
+          "title": "CWP Flaws That Expose Servers to Remote Attacks Possibly Exploited in the Wild"
+        },
+        {
+          "id": "24175 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "Unknown threat actors implanted backdoor code into multiple WordPress themes and plugins after compromising the website of their developer, Automattic’s Jatpack security research team reports.\n\r\nread more",
+          "link": "https://www.securityweek.com/hacked-accesspress-site-served-backdoored-wordpress-plugins-themes",
+          "publishedOn": "2022-01-24T15:12:55.000Z",
+          "wordCount": 972,
+          "title": "Hacked AccessPress Site Served Backdoored WordPress Plugins, Themes"
+        },
+        {
+          "id": "24174 at https://www.securityweek.com",
+          "author": "Kevin Townsend",
+          "description": "Fines issued for GDPR non-compliance increased sevenfold from 2020 to 2021, analysis shows\n\r\nread more",
+          "link": "https://www.securityweek.com/gdpr-fines-surged-sevenfold-125-billion-2021-study",
+          "publishedOn": "2022-01-24T14:31:11.000Z",
+          "wordCount": 1629,
+          "title": "GDPR Fines Surged Sevenfold to $1.25 Billion in 2021: Study"
+        },
+        {
+          "id": "24173 at https://www.securityweek.com",
+          "author": "Associated Press",
+          "description": "WikiLeaks founder Julian Assange on Monday won the first stage of his effort to overturn a U.K. ruling that opened the door for his extradition to U.S. to stand trial on espionage charges.\n\r\nread more",
+          "link": "https://www.securityweek.com/assange-wins-first-stage-effort-appeal-us-extradition",
+          "publishedOn": "2022-01-24T14:03:28.000Z",
+          "wordCount": 1100,
+          "title": "Assange Wins First Stage in Effort to Appeal US Extradition"
+        },
+        {
+          "id": "24172 at https://www.securityweek.com",
+          "author": "Eduard Kovacs",
+          "description": "In the recent attack aimed at the Ukrainian government, the attackers likely had access to the targeted network for months before causing damage, according to Cisco’s Talos threat intelligence and research unit.\n\r\nread more",
+          "link": "https://www.securityweek.com/ukraine-attack-hackers-had-access-months-causing-damage",
+          "publishedOn": "2022-01-24T12:38:20.000Z",
+          "wordCount": 1052,
+          "title": "Ukraine Attack: Hackers Had Access for Months Before Causing Damage"
+        },
+        {
+          "id": "24171 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "Four individuals believed to be members of the international cyber theft ring known as the “Infraud Organization” were arrested in Russia, news agency TASS reports.\n\r\nread more",
+          "link": "https://www.securityweek.com/russian-authorities-arrest-head-international-cybercrime-group",
+          "publishedOn": "2022-01-24T11:54:38.000Z",
+          "wordCount": 854,
+          "title": "Russian Authorities Arrest Head of International Cybercrime Group"
+        },
         {
           "id": "24170 at https://www.securityweek.com",
           "author": "Ionut Arghire",
@@ -1413,6 +1575,15 @@
       "siteUrl": "https://us-cert.cisa.gov/",
       "articles": [
         {
+          "id": "17290 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 24, 2022\nCISA has published an infographic to emphasize the importance of implementing network segmentation—a physical or virtual architectural approach that divides a network into multiple segments, each acting as its own subnetwork, to provide additional security and control that can help prevent or minimize the impact of a cyberattack.\nCISA encourages network architects, defenders, and administrators to review the infographic, Layering Network Security Through Segmentation, and implement its recommendations where possible.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/01/24/cisa-publishes-infographic-layering-network-security-through",
+          "publishedOn": "2022-01-24T14:59:59.000Z",
+          "wordCount": 427,
+          "title": "CISA Publishes Infographic on Layering Network Security Through Segmentation"
+        },
+        {
           "id": "17288 at https://us-cert.cisa.gov",
           "author": "CISA",
           "description": "Original release date: January 21, 2022\nMcAfee has released McAfee Agent for Windows version 5.7.5, which addresses vulnerabilities CVE-2021-31854 and CVE-2022-0166. An attacker could exploit these vulnerabilities to take control of an affected system.\nCISA encourages users and administrators to review McAfee Security Bulletin SB10378 and apply the necessary update. CISA also encourages users and administrators to review the CERT Coordination Center Vulnerability Note VU#287178 for more information.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
@@ -1581,6 +1752,103 @@
       "feedUrl": "https://www.darkreading.com/rss.xml",
       "siteUrl": "https://www.darkreading.com",
       "articles": [
+        {
+          "id": "https://www.darkreading.com/dr-tech/test-your-team-not-just-your-disaster-recovery-plan",
+          "author": "Dave Russell, Vice President of Enterprise Strategy, Veeam Software",
+          "description": "Cyberattacks imperil business continuity, but there is a much more common security threat — unintentional human error.",
+          "link": "https://www.darkreading.com/dr-tech/test-your-team-not-just-your-disaster-recovery-plan",
+          "publishedOn": "2022-01-25T00:00:00.000Z",
+          "wordCount": 1459,
+          "title": "Test Your Team, Not Just Your Disaster Recovery Plan"
+        },
+        {
+          "id": "https://www.darkreading.com/vulnerabilities-threats/trickbot-injections-get-harder-to-detect-analyze",
+          "author": "Jai Vijayan, Contributing Writer",
+          "description": "The authors of the infamous malware family have added measures for better protecting malicious code injections against inspection and research.",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/trickbot-injections-get-harder-to-detect-analyze",
+          "publishedOn": "2022-01-24T23:05:24.000Z",
+          "wordCount": 1551,
+          "title": "Trickbot Injections Get Harder to Detect & Analyze",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
+            "type": "image/*",
+            "length": "0"
+          }
+        },
+        {
+          "id": "https://www.darkreading.com/careers-and-people/registration-for-the-isc-entry-level-cybersecurity-certification-exam-pilot-program-is-now-open",
+          "author": null,
+          "description": "New certification validates students' and career changers' foundational skills and helps kickstart their cybersecurity careers.",
+          "link": "https://www.darkreading.com/careers-and-people/registration-for-the-isc-entry-level-cybersecurity-certification-exam-pilot-program-is-now-open",
+          "publishedOn": "2022-01-24T22:24:21.000Z",
+          "wordCount": 1336,
+          "title": "Registration for the (ISC)² Entry-Level Cybersecurity Certification Exam Pilot Program Is Now Open"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/dhs-sounds-alarm-on-potential-for-major-russian-cyberattacks-on-us",
+          "author": "Dark Reading Staff, Dark Reading",
+          "description": "Latest bulletin out of DHS advises state and local governments, critical infrastructure operators to be on alert.",
+          "link": "https://www.darkreading.com/attacks-breaches/dhs-sounds-alarm-on-potential-for-major-russian-cyberattacks-on-us",
+          "publishedOn": "2022-01-24T21:34:48.000Z",
+          "wordCount": 985,
+          "title": "DHS Sounds Alarm on Potential for Major Russian Cyberattacks on US",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
+            "type": "image/*",
+            "length": "0"
+          }
+        },
+        {
+          "id": "https://www.darkreading.com/dr-tech/source-code-security-the-case-for-making-backups",
+          "author": "Kelly Sheridan, Senior Editor",
+          "description": "As enterprise data security concerns grow, security experts urge businesses to back up their GitLab, GitHub, and BitBucket repositories.",
+          "link": "https://www.darkreading.com/dr-tech/source-code-security-the-case-for-making-backups",
+          "publishedOn": "2022-01-24T21:20:00.000Z",
+          "wordCount": 1852,
+          "title": "The Case for Backing Up Source Code",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt1d62bf1a6a54fdcf/60b1e9ed2d381b69fb11e95e/Sheridan-IWK-125x125.jpg",
+            "type": "image/*",
+            "length": "0"
+          }
+        },
+        {
+          "id": "https://www.darkreading.com/threat-intelligence/ransomware-operators-are-feeling-the-heat",
+          "author": null,
+          "description": "Ransomware has maintained its dominance the past few years; however, increased law enforcement attention may result in changes to how it looks in the future.",
+          "link": "https://www.darkreading.com/threat-intelligence/ransomware-operators-are-feeling-the-heat",
+          "publishedOn": "2022-01-24T19:19:10.000Z",
+          "wordCount": 1518,
+          "title": "Ransomware Operators Are Feeling the Heat"
+        },
+        {
+          "id": "https://www.darkreading.com/vulnerabilities-threats/are-you-prepared-to-defend-against-a-USB-attack-",
+          "author": "Benny Czarny, Founder & CEO, OPSWAT",
+          "description": "Recent \"BadUSB\" attacks serve as a reminder of the big damage that small devices can cause.",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/are-you-prepared-to-defend-against-a-USB-attack-",
+          "publishedOn": "2022-01-24T15:00:00.000Z",
+          "wordCount": 1321,
+          "title": "Are You Prepared to Defend Against a USB Attack?",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt4c9ff2509bf30164/61e70d0dd912285939eb7a38/Benny_Czary_0313_2021_web.jpg",
+            "type": "image/*",
+            "length": "0"
+          }
+        },
+        {
+          "id": "https://www.darkreading.com/omdia/a-level-set-on-russia-borne-cyber-threats",
+          "author": "Tanner Johnson, Principal Analyst, Data Security, Omdia",
+          "description": "As hostilities mount between Russia and Ukraine, new and more dangerous cyberattacks are likely to develop. Pinpointing sources and motives will remain elusive, but enterprises should prepare for an escalation in cyberspace.",
+          "link": "https://www.darkreading.com/omdia/a-level-set-on-russia-borne-cyber-threats",
+          "publishedOn": "2022-01-24T14:00:00.000Z",
+          "wordCount": 1717,
+          "title": "A Level-Set on Russia-Borne Cyber Threats",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt352574a7131029eb/60d446fb76a3de39ad0bb89a/Tanner-Johnson.png",
+            "type": "image/*",
+            "length": "0"
+          }
+        },
         {
           "id": "https://www.darkreading.com/tech-trends/it-leaders-consider-security-tech-a-part-of-business-transformation",
           "author": "Dark Reading Staff, Dark Reading",
