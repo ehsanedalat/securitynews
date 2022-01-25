@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2022-01-25T01:08:20.562Z</updated>
+    <updated>2022-01-25T08:41:07.033Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Mobile Banking Trojan BRATA Gains New, Dangerous Capabilities]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-3458073741806321221</id>
+        <link href="https://thehackernews.com/2022/01/mobile-banking-trojan-brata-gains-new.html"/>
+        <updated>2022-01-25T07:22:14.000Z</updated>
+        <summary type="html"><![CDATA[The Android malware tracked as BRATA has been updated with new features that grants it the ability to track device locations and even perform a factory reset in an apparent bid to cover up fraudulent wire transfers.
+The latest variants, detected late last year, are said to be distributed through a downloader to avoid being detected by security software, Italian cybersecurity firm Cleafy said in]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackers Using New Malware Packer DTPacker to Avoid Analysis, Detection]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-6661116358499125166</id>
+        <link href="https://thehackernews.com/2022/01/hackers-using-new-malware-packer.html"/>
+        <updated>2022-01-25T06:47:00.000Z</updated>
+        <summary type="html"><![CDATA[A previously undocumented malware packer named DTPacker has been observed distributing multiple remote access trojans (RATs) and information stealers such as Agent Tesla, Ave Maria, AsyncRAT, and FormBook to plunder information and facilitate follow-on attacks.
+"The malware uses multiple obfuscation techniques to evade antivirus, sandboxing, and analysis," enterprise security company Proofpoint]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Belarus Hacktivists Target Railway in Anti-Russia Effort]]></title>
+        <id>24181 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/belarus-hacktivists-target-railway-anti-russia-effort"/>
+        <updated>2022-01-25T01:13:22.000Z</updated>
+        <summary type="html"><![CDATA[A Belarusian hacktivist group says it has launched a limited cyberattack on the national railway company, aimed at impeding the movement of Russian troops and freight inside the Moscow-allied country. It said it encrypted some servers, databases and workstations.
+
+read more]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Test Your Team, Not Just Your Disaster Recovery Plan]]></title>
         <id>https://www.darkreading.com/dr-tech/test-your-team-not-just-your-disaster-recovery-plan</id>
@@ -233,6 +267,33 @@ read more]]></summary>
         <summary type="html"><![CDATA[As hostilities mount between Russia and Ukraine, new and more dangerous cyberattacks are likely to develop. Pinpointing sources and motives will remain elusive, but enterprises should prepare for an escalation in cyberspace.]]></summary>
         <author>
             <name>Tanner Johnson, Principal Analyst, Data Security, Omdia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of January 17, 2022]]></title>
+        <id>17289 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/bulletins/sb22-024"/>
+        <updated>2022-01-24T13:41:15.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: January 24, 2022
+ 
+High Vulnerabilities
+Primary
+Description
+			Published
+			CVSS Score
+			Source & Patch Info
+		
+adobe -- acrobat_dc
+			Acrobat Reader DC version 21.007.20099 (and earlier), 20.004.30017 (and earlier) and 17.011.30204 (and earlier) are affected by a use-after-free vulnerability in the processing of Format event actions that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+			2022-01-14
+			9.3
+			CVE-2021-45062
+MISC
+		
+adobe -- acrobat_dc
+			Acrobat Reader DC version 21.007.20099 (and earlier), 20.004.30017 (and earlier) and 17.011.30204 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbi…]]></summary>
+        <author>
+            <name>CISA</name>
         </author>
     </entry>
     <entry>
@@ -1990,6 +2051,42 @@ read more]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of January 10, 2022]]></title>
+        <id>17275 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/bulletins/sb22-017"/>
+        <updated>2022-01-17T14:23:15.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: January 17, 2022
+ 
+High Vulnerabilities
+Primary
+Description
+			Published
+			CVSS Score
+			Source & Patch Info
+		
+agoric -- realms-shim
+			All versions of package realms-shim are vulnerable to Sandbox Bypass via a Prototype Pollution attack vector.
+			2022-01-10
+			7.5
+			CVE-2021-23543
+MISC
+MISC
+		
+agoric -- realms-shim
+			All versions of package realms-shim are vulnerable to Sandbox Bypass via a Prototype Pollution attack vector.
+			2022-01-10
+			7.5
+			CVE-2021-23594
+MISC
+MISC
+		
+checkpoint -- endpoint_security
+			Users have access to the directory where the installation repair occurs. Since the MS Installer allows regular users to run the repair, an attacker can initiate the installation repair and place a specially crafted EXE in the repair folder which runs with…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Safari 15 Vulnerability Allows Cross-Site Tracking of Users]]></title>
         <id>24116 at https://www.securityweek.com</id>
         <link href="https://www.securityweek.com/safari-15-vulnerability-allows-cross-site-tracking-users"/>
@@ -2917,6 +3014,35 @@ This joint Cybersecurity Advisory (CSA)—authored by the Cybersecurity and Infr
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of January 3, 2022]]></title>
+        <id>17251 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/bulletins/sb22-010"/>
+        <updated>2022-01-10T16:30:24.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: January 10, 2022
+ 
+High Vulnerabilities
+Primary
+Description
+			Published
+			CVSS Score
+			Source & Patch Info
+		
+beyondtrust -- appliance_base_software
+			BeyondTrust Secure Remote Access Base Software through 6.0.1 allows an attacker to achieve full admin access to the appliance, by tricking the administrator into creating a new admin account through an XSS/CSRF attack involving a crafted request to the /appliance/users?action=edit endpoint. This cross-site-scripting (XSS) vulnerability occurs when it does not properly sanitize an unauthenticated crafted web request to the server
+			2022-01-05
+			9.3
+			CVE-2021-31589
+MISC
+MISC
+MISC
+		
+sun_moon_jingyao -- network_computer_terminal_protection_system_firmware
+			The server-request receiver function of Shockwall system…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Report: DDoS attacks increasing year on year as cybercriminals demand extortionate payouts]]></title>
         <id>report-ddos-attacks-increasing-year-on-year-as-cybercriminals-demand-extortionate-payouts</id>
         <link href="https://portswigger.net/daily-swig/report-ddos-attacks-increasing-year-on-year-as-cybercriminals-demand-extortionate-payouts"/>
@@ -3409,6 +3535,45 @@ Z-Wave devices based on Silicon Labs 700 series chipsets using S2 do not adequat
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of December 27, 2021]]></title>
+        <id>17239 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/bulletins/sb22-003"/>
+        <updated>2022-01-04T12:48:34.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: January 4, 2022
+&#xA0;
+High Vulnerabilities
+Primary
+Description
+			Published
+			CVSS Score
+			Source & Patch Info
+		
+There were no high vulnerabilities recorded this week.
+		
+Back to top
+&#xA0;
+Medium Vulnerabilities
+Primary
+Description
+			Published
+			CVSS Score
+			Source & Patch Info
+		
+apache -- log4j
+			Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases 2.3.2 and 2.12.4) are vulnerable to a remote code execution (RCE) attack when a configuration uses a JDBC Appender with a JNDI LDAP data source URI when an attacker has control of the target LDAP server. This issue is fixed by limiting JNDI data source names to the java protocol in Log4j2 versions 2.17.1, 2.12.4, and 2.3.2.
+			2021-12-28
+			6
+			CVE-2021-44832
+MISC
+MISC
+MLIST
+CONFIRM
+…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Researcher discovers 70 web cache poisoning vulnerabilities, nets $40k in bug bounty rewards]]></title>
         <id>researcher-discovers-70-web-cache-poisoning-vulnerabilities-nets-40k-in-bug-bounty-rewards</id>
         <link href="https://portswigger.net/daily-swig/researcher-discovers-70-web-cache-poisoning-vulnerabilities-nets-40k-in-bug-bounty-rewards"/>
@@ -3626,6 +3791,34 @@ Z-Wave devices based on Silicon Labs 700 series chipsets using S2 do not adequat
         <summary type="html"><![CDATA[The principle of least level of access gives employees just the privileges they need to do their jobs. Limiting what an employee can do is a core tenet of zero trust.]]></summary>
         <author>
             <name>Ash Devata, General Manager, Cisco Zero Trust and Duo Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of December 20, 2021]]></title>
+        <id>17237 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/bulletins/sb21-361"/>
+        <updated>2021-12-27T11:39:24.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: December 27, 2021
+ 
+High Vulnerabilities
+Primary
+Description
+			Published
+			CVSS Score
+			Source & Patch Info
+		
+adobe -- dimension
+			Adobe Dimension versions 3.4.3 (and earlier) is affected by a memory corruption vulnerability due to insecure handling of a malicious GIF file, potentially resulting in arbitrary code execution in the context of the current user. User interaction is required to exploit this vulnerability.
+			2021-12-20
+			9.3
+			CVE-2021-44179
+MISC
+MISC
+		
+adobe -- dimension
+			Adobe Dimension versions 3.4.3 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious GIF f…]]></summary>
+        <author>
+            <name>CISA</name>
         </author>
     </entry>
 </feed>

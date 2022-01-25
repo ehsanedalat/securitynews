@@ -499,6 +499,24 @@
       "siteUrl": "https://thehackernews.com/",
       "articles": [
         {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3458073741806321221",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "The Android malware tracked as BRATA has been updated with new features that grants it the ability to track device locations and even perform a factory reset in an apparent bid to cover up fraudulent wire transfers.\r\nThe latest variants, detected late last year, are said to be distributed through a downloader to avoid being detected by security software, Italian cybersecurity firm Cleafy said in",
+          "link": "https://thehackernews.com/2022/01/mobile-banking-trojan-brata-gains-new.html",
+          "publishedOn": "2022-01-25T07:22:14.000Z",
+          "wordCount": 826,
+          "title": "Mobile Banking Trojan BRATA Gains New, Dangerous Capabilities"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6661116358499125166",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "A previously undocumented malware packer named DTPacker has been observed distributing multiple remote access trojans (RATs) and information stealers such as Agent Tesla, Ave Maria, AsyncRAT, and FormBook to plunder information and facilitate follow-on attacks.\r\n\"The malware uses multiple obfuscation techniques to evade antivirus, sandboxing, and analysis,\" enterprise security company Proofpoint",
+          "link": "https://thehackernews.com/2022/01/hackers-using-new-malware-packer.html",
+          "publishedOn": "2022-01-25T06:47:00.000Z",
+          "wordCount": 769,
+          "title": "Hackers Using New Malware Packer DTPacker to Avoid Analysis, Detection"
+        },
+        {
           "id": "tag:blogger.com,1999:blog-4802841478634147276.post-642984707695064521",
           "author": "noreply@blogger.com (The Hacker News)",
           "description": "I recently hopped on the Lookout podcast to talk about virtual private networks (VPNs) and how they've been extended beyond their original use case of connecting remote laptops to your corporate network. Even in this new world where people are using personal devices and cloud apps, VPN continues to be the go-to solution for remote access and cloud access. After my conversation with Hank Schless,",
@@ -910,6 +928,15 @@
       "feedUrl": "https://feeds.feedburner.com/securityweek",
       "siteUrl": "https://www.securityweek.com",
       "articles": [
+        {
+          "id": "24181 at https://www.securityweek.com",
+          "author": "Associated Press",
+          "description": "A Belarusian hacktivist group says it has launched a limited cyberattack on the national railway company, aimed at impeding the movement of Russian troops and freight inside the Moscow-allied country. It said it encrypted some servers, databases and workstations.\n\r\nread more",
+          "link": "https://www.securityweek.com/belarus-hacktivists-target-railway-anti-russia-effort",
+          "publishedOn": "2022-01-25T01:13:22.000Z",
+          "wordCount": 984,
+          "title": "Belarus Hacktivists Target Railway in Anti-Russia Effort"
+        },
         {
           "id": "24180 at https://www.securityweek.com",
           "author": "Associated Press",
@@ -3481,6 +3508,58 @@
           "publishedOn": "2022-01-11T15:00:00.000Z",
           "wordCount": 3857,
           "title": "AA22-011A: Understanding and Mitigating Russian State-Sponsored Cyber Threats to U.S. Critical Infrastructure"
+        }
+      ]
+    },
+    {
+      "title": "CISA Bulletins",
+      "feedUrl": "https://www.cisa.gov/uscert/ncas/bulletins.xml",
+      "siteUrl": "https://us-cert.cisa.gov/",
+      "articles": [
+        {
+          "id": "17289 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 24, 2022\n \nHigh Vulnerabilities\nPrimary\nDescription\n\t\t\tPublished\n\t\t\tCVSS Score\n\t\t\tSource & Patch Info\n\t\t\nadobe -- acrobat_dc\n\t\t\tAcrobat Reader DC version 21.007.20099 (and earlier), 20.004.30017 (and earlier) and 17.011.30204 (and earlier) are affected by a use-after-free vulnerability in the processing of Format event actions that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.\n\t\t\t2022-01-14\n\t\t\t9.3\n\t\t\tCVE-2021-45062\nMISC\n\t\t\nadobe -- acrobat_dc\n\t\t\tAcrobat Reader DC version 21.007.20099 (and earlier), 20.004.30017 (and earlier) and 17.011.30204 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbi…",
+          "link": "https://us-cert.cisa.gov/ncas/bulletins/sb22-024",
+          "publishedOn": "2022-01-24T13:41:15.000Z",
+          "wordCount": 43954,
+          "title": "Vulnerability Summary for the Week of January 17, 2022"
+        },
+        {
+          "id": "17275 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 17, 2022\n \nHigh Vulnerabilities\nPrimary\nDescription\n\t\t\tPublished\n\t\t\tCVSS Score\n\t\t\tSource & Patch Info\n\t\t\nagoric -- realms-shim\n\t\t\tAll versions of package realms-shim are vulnerable to Sandbox Bypass via a Prototype Pollution attack vector.\n\t\t\t2022-01-10\n\t\t\t7.5\n\t\t\tCVE-2021-23543\nMISC\nMISC\n\t\t\nagoric -- realms-shim\n\t\t\tAll versions of package realms-shim are vulnerable to Sandbox Bypass via a Prototype Pollution attack vector.\n\t\t\t2022-01-10\n\t\t\t7.5\n\t\t\tCVE-2021-23594\nMISC\nMISC\n\t\t\ncheckpoint -- endpoint_security\n\t\t\tUsers have access to the directory where the installation repair occurs. Since the MS Installer allows regular users to run the repair, an attacker can initiate the installation repair and place a specially crafted EXE in the repair folder which runs with…",
+          "link": "https://us-cert.cisa.gov/ncas/bulletins/sb22-017",
+          "publishedOn": "2022-01-17T14:23:15.000Z",
+          "wordCount": 35162,
+          "title": "Vulnerability Summary for the Week of January 10, 2022"
+        },
+        {
+          "id": "17251 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 10, 2022\n \nHigh Vulnerabilities\nPrimary\nDescription\n\t\t\tPublished\n\t\t\tCVSS Score\n\t\t\tSource & Patch Info\n\t\t\nbeyondtrust -- appliance_base_software\n\t\t\tBeyondTrust Secure Remote Access Base Software through 6.0.1 allows an attacker to achieve full admin access to the appliance, by tricking the administrator into creating a new admin account through an XSS/CSRF attack involving a crafted request to the /appliance/users?action=edit endpoint. This cross-site-scripting (XSS) vulnerability occurs when it does not properly sanitize an unauthenticated crafted web request to the server\n\t\t\t2022-01-05\n\t\t\t9.3\n\t\t\tCVE-2021-31589\nMISC\nMISC\nMISC\n\t\t\nsun_moon_jingyao -- network_computer_terminal_protection_system_firmware\n\t\t\tThe server-request receiver function of Shockwall system…",
+          "link": "https://us-cert.cisa.gov/ncas/bulletins/sb22-010",
+          "publishedOn": "2022-01-10T16:30:24.000Z",
+          "wordCount": 13268,
+          "title": "Vulnerability Summary for the Week of January 3, 2022"
+        },
+        {
+          "id": "17239 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 4, 2022\n&#xA0;\nHigh Vulnerabilities\nPrimary\nDescription\n\t\t\tPublished\n\t\t\tCVSS Score\n\t\t\tSource & Patch Info\n\t\t\nThere were no high vulnerabilities recorded this week.\n\t\t\nBack to top\n&#xA0;\nMedium Vulnerabilities\nPrimary\nDescription\n\t\t\tPublished\n\t\t\tCVSS Score\n\t\t\tSource & Patch Info\n\t\t\napache -- log4j\n\t\t\tApache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases 2.3.2 and 2.12.4) are vulnerable to a remote code execution (RCE) attack when a configuration uses a JDBC Appender with a JNDI LDAP data source URI when an attacker has control of the target LDAP server. This issue is fixed by limiting JNDI data source names to the java protocol in Log4j2 versions 2.17.1, 2.12.4, and 2.3.2.\n\t\t\t2021-12-28\n\t\t\t6\n\t\t\tCVE-2021-44832\nMISC\nMISC\nMLIST\nCONFIRM\n…",
+          "link": "https://us-cert.cisa.gov/ncas/bulletins/sb22-003",
+          "publishedOn": "2022-01-04T12:48:34.000Z",
+          "wordCount": 22370,
+          "title": "Vulnerability Summary for the Week of December 27, 2021"
+        },
+        {
+          "id": "17237 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: December 27, 2021\n \nHigh Vulnerabilities\nPrimary\nDescription\n\t\t\tPublished\n\t\t\tCVSS Score\n\t\t\tSource & Patch Info\n\t\t\nadobe -- dimension\n\t\t\tAdobe Dimension versions 3.4.3 (and earlier) is affected by a memory corruption vulnerability due to insecure handling of a malicious GIF file, potentially resulting in arbitrary code execution in the context of the current user. User interaction is required to exploit this vulnerability.\n\t\t\t2021-12-20\n\t\t\t9.3\n\t\t\tCVE-2021-44179\nMISC\nMISC\n\t\t\nadobe -- dimension\n\t\t\tAdobe Dimension versions 3.4.3 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious GIF f…",
+          "link": "https://us-cert.cisa.gov/ncas/bulletins/sb21-361",
+          "publishedOn": "2021-12-27T11:39:24.000Z",
+          "wordCount": 19022,
+          "title": "Vulnerability Summary for the Week of December 20, 2021"
         }
       ]
     },
