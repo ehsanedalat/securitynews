@@ -6,6 +6,33 @@
       "siteUrl": "https://portswigger.net/daily-swig",
       "articles": [
         {
+          "id": "bittersweet-symfony-devs-accidentally-turn-off-csrf-protection-in-php-framework",
+          "author": null,
+          "description": "Inadvertent defense downgrade quickly reverted",
+          "link": "https://portswigger.net/daily-swig/bittersweet-symfony-devs-accidentally-turn-off-csrf-protection-in-php-framework",
+          "publishedOn": "2022-02-03T16:52:00.000Z",
+          "wordCount": 760,
+          "title": "Bittersweet Symfony: Devs accidentally turn off CSRF protection in PHP framework"
+        },
+        {
+          "id": "cloudflare-bug-bounty-program-goes-public-with-3-000-rewards-on-offer",
+          "author": null,
+          "description": "Silicon Valley firm has paid out more than $200,000 since private program’s 2018 launch",
+          "link": "https://portswigger.net/daily-swig/cloudflare-bug-bounty-program-goes-public-with-3-000-rewards-on-offer",
+          "publishedOn": "2022-02-03T15:56:02.000Z",
+          "wordCount": 935,
+          "title": "Cloudflare bug bounty program goes public with $3,000 rewards on offer"
+        },
+        {
+          "id": "snapfuzz-new-fuzzing-tool-speeds-up-testing-of-network-applications",
+          "author": null,
+          "description": "Though still in its early stages, SnapFuzz is already showing some promising results",
+          "link": "https://portswigger.net/daily-swig/snapfuzz-new-fuzzing-tool-speeds-up-testing-of-network-applications",
+          "publishedOn": "2022-02-03T12:23:50.000Z",
+          "wordCount": 1206,
+          "title": "SnapFuzz: New fuzzing tool speeds up testing of network applications"
+        },
+        {
           "id": "serious-vulnerability-in-wordpress-plugin-essential-addons-for-elementor-eliminated",
           "author": null,
           "description": "WordPress plugin problem patched",
@@ -634,24 +661,6 @@
           "publishedOn": "2022-01-05T13:52:11.000Z",
           "wordCount": 1055,
           "title": "Indian academic bookseller Oswaal Books fixes alleged RCE and other serious vulnerabilities with Shopify relaunch"
-        },
-        {
-          "id": "us-retailer-pulsetv-warns-of-apparent-credit-card-data-breach",
-          "author": null,
-          "description": "Payment system updated amidst fears 200,000 records may have been exposed",
-          "link": "https://portswigger.net/daily-swig/us-retailer-pulsetv-warns-of-apparent-credit-card-data-breach",
-          "publishedOn": "2022-01-04T16:15:00.000Z",
-          "wordCount": 849,
-          "title": "US retailer PulseTV warns of apparent credit card data breach"
-        },
-        {
-          "id": "latest-web-hacking-tools-q1-2022",
-          "author": null,
-          "description": "We take a look at the latest additions to security researchers’ armory",
-          "link": "https://portswigger.net/daily-swig/latest-web-hacking-tools-q1-2022",
-          "publishedOn": "2022-01-04T14:53:24.000Z",
-          "wordCount": 1321,
-          "title": "Latest web hacking tools – Q1 2022"
         }
       ]
     },
@@ -660,6 +669,51 @@
       "feedUrl": "https://feeds.feedburner.com/TheHackersNews",
       "siteUrl": "https://thehackernews.com/",
       "articles": [
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7442998225663129846",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "Microsoft on Wednesday shed light on a previously undocumented Mac trojan that it said has undergone several iterations since its first appearance in September 2020, effectively granting it an \"increasing progression of sophisticated capabilities.\"\r\nThe company's Microsoft 365 Defender Threat Intelligence Team dubbed the new malware family \"UpdateAgent,\" charting its evolution from a barebones",
+          "link": "https://thehackernews.com/2022/02/new-variant-of-updateagent-malware.html",
+          "publishedOn": "2022-02-04T00:38:36.000Z",
+          "wordCount": 830,
+          "title": "New Variant of UpdateAgent Malware Infects Mac Computers with Adware"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2125094620186859104",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "Cisco has patched multiple critical security vulnerabilities impacting its RV Series routers that could be weaponized to elevate privileges and execute arbitrary code on affected systems, while also warning of the existence of proof-of-concept (PoC) exploit code targeting some of these bugs.\r\nThree of the 15 flaws, tracked as CVE-2022-20699, CVE-2022-20700, and CVE-2022-20707, carry the highest",
+          "link": "https://thehackernews.com/2022/02/critical-flaws-discovered-in-cisco.html",
+          "publishedOn": "2022-02-03T14:34:49.000Z",
+          "wordCount": 982,
+          "title": "Critical Flaws Discovered in Cisco Small Business RV Series Routers"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-639421349208130472",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "An ongoing search engine optimization (SEO) poisoning attack campaign has been observed abusing trust in legitimate software utilities to trick users into downloading BATLOADER malware on compromised machines.\r\n\"The threat actor used 'free productivity apps installation' or 'free software development tools installation' themes as SEO keywords to lure victims to a compromised website and to",
+          "link": "https://thehackernews.com/2022/02/new-seo-poisoning-campaign-distributing.html",
+          "publishedOn": "2022-02-03T10:49:41.000Z",
+          "wordCount": 865,
+          "title": "New SEO Poisoning Campaign Distributing Trojanized Versions of Popular Software"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4839920683057864836",
+          "author": "noreply@blogger.com (The Hacker News)",
+          "description": "An accountant and a security expert walk into a bar… SOC2 is no joke. \r\nWhether you're a publicly held or private company, you are probably considering going through a Service Organization Controls (SOC) audit. For publicly held companies, these reports are required by the Securities and Exchange Commission (SEC) and executed by a Certified Public Accountant (CPA). However, customers often ask",
+          "link": "https://thehackernews.com/2022/02/how-sspm-simplifies-your-soc2-saas.html",
+          "publishedOn": "2022-02-03T10:19:10.000Z",
+          "wordCount": 1641,
+          "title": "How SSPM Simplifies Your SOC2 SaaS Security Posture Audit"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3533715392540712236",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "Cybersecurity researchers have turned the spotlight on a new wave of offensive cyberattacks targeting Palestinian activists and entities starting around October 2021 using politically-themed phishing emails and decoy documents.\r\nThe intrusions are part of what Cisco Talos calls a longstanding espionage and information theft campaign undertaken by the Arid Viper hacking group using a Delphi-based",
+          "link": "https://thehackernews.com/2022/02/new-wave-of-cyber-attacks-target.html",
+          "publishedOn": "2022-02-03T08:14:56.000Z",
+          "wordCount": 886,
+          "title": "New Wave of Cyber Attacks Target Palestine with Political Bait and Malware"
+        },
         {
           "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4413507845802326294",
           "author": "noreply@blogger.com (Ravie Lakshmanan)",
@@ -1414,6 +1468,105 @@
       "feedUrl": "https://feeds.feedburner.com/securityweek",
       "siteUrl": "https://www.securityweek.com",
       "articles": [
+        {
+          "id": "24271 at https://www.securityweek.com",
+          "author": "Ryan Naraine",
+          "description": "Malware hunters at Volexity are raising the alarm for a Chinese threat actor seen exploiting a zero-day flaw in the Zimbra email platform to infect media and government targets in Europe.\n\r\nread more",
+          "link": "https://www.securityweek.com/volexity-warns-active-exploitation-zimbra-zero-day",
+          "publishedOn": "2022-02-03T22:31:47.000Z",
+          "wordCount": 1186,
+          "title": "Volexity Warns of 'Active Exploitation' of Zimbra Zero-Day"
+        },
+        {
+          "id": "24270 at https://www.securityweek.com",
+          "author": "Gordon Lawson",
+          "description": "While employees want to do the right thing when it comes to protecting their organization from cyber threats, we cannot expect them to be perfect\n\r\nread more",
+          "link": "https://www.securityweek.com/bridging-gap-between-training-and-behavior",
+          "publishedOn": "2022-02-03T20:07:10.000Z",
+          "wordCount": 1135,
+          "title": "Bridging the Gap Between Training and Behavior"
+        },
+        {
+          "id": "24269 at https://www.securityweek.com",
+          "author": "Eduard Kovacs",
+          "description": "Intel patched 226 vulnerabilities in its products last year, according to data from the 2021 Product Security Report released by the chip giant on Thursday.\n\r\nread more",
+          "link": "https://www.securityweek.com/intel-patched-226-vulnerabilities-2021",
+          "publishedOn": "2022-02-03T19:56:43.000Z",
+          "wordCount": 860,
+          "title": "Intel Patched 226 Vulnerabilities in 2021"
+        },
+        {
+          "id": "24268 at https://www.securityweek.com",
+          "author": "Eduard Kovacs",
+          "description": "Blockchain bridge Wormhole has confirmed that roughly $320 million worth of cryptocurrency has been stolen following a hack discovered on Wednesday.\n\r\nread more",
+          "link": "https://www.securityweek.com/over-300-million-cryptocurrency-stolen-wormhole-hack",
+          "publishedOn": "2022-02-03T14:27:31.000Z",
+          "wordCount": 814,
+          "title": "Over $300 Million in Cryptocurrency Stolen in Wormhole Hack"
+        },
+        {
+          "id": "24267 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "British snacks producer Kenyon Produce (KP) Snacks has fallen victim to a ransomware attack that caused some disruptions to its manufacturing and distribution operations.\n\r\nThe German-owned company says it became aware of the attack on January 28, and that it immediately took the necessary steps to contain the incident.\n\r\nread more",
+          "link": "https://www.securityweek.com/ransomware-attack-disrupts-manufacturing-kp-snacks",
+          "publishedOn": "2022-02-03T12:50:54.000Z",
+          "wordCount": 781,
+          "title": "Ransomware Attack Disrupts Manufacturing at KP Snacks"
+        },
+        {
+          "id": "24266 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "Cisco’s Talos security researchers have published details on a series of critical vulnerabilities that Sealevel has addressed in the SeaConnect 370W WiFi-connected edge device.\n\r\nread more",
+          "link": "https://www.securityweek.com/critical-vulnerabilities-found-sealevel-device-used-ics-environments",
+          "publishedOn": "2022-02-03T12:07:21.000Z",
+          "wordCount": 952,
+          "title": "Critical Vulnerabilities Found in Sealevel Device Used in ICS Environments"
+        },
+        {
+          "id": "24265 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "Cisco this week announced patches for multiple vulnerabilities in its Small Business RV160, RV260, RV340, and RV345 series routers, including critical bugs that could lead to the execution of arbitrary code with root privileges.\n\r\nread more",
+          "link": "https://www.securityweek.com/cisco-patches-critical-vulnerabilities-small-business-rv-routers",
+          "publishedOn": "2022-02-03T11:56:41.000Z",
+          "wordCount": 1019,
+          "title": "Cisco Patches Critical Vulnerabilities in Small Business RV Routers"
+        },
+        {
+          "id": "24264 at https://www.securityweek.com",
+          "author": "AFP",
+          "description": "Major oil terminals in some of Western Europe's biggest ports have fallen victim to a cyberattack, sources confirmed on Thursday.\n\r\nBelgian prosecutors have launched an investigation into the hacking of oil facilities in the country's ports, including Antwerp, Europe's second biggest port after Rotterdam.\n\r\nread more",
+          "link": "https://www.securityweek.com/european-oil-port-terminals-hit-cyberattack",
+          "publishedOn": "2022-02-03T11:36:53.000Z",
+          "wordCount": 764,
+          "title": "European Oil Port Terminals Hit by Cyberattack"
+        },
+        {
+          "id": "24263 at https://www.securityweek.com",
+          "author": "Eduard Kovacs",
+          "description": "Ransomware attacks in many cases hit industrial control systems (ICS) or operational technology (OT) environments, and impact is often significant, according to a report published on Thursday by IoT and industrial cybersecurity company Claroty.\n\r\nread more",
+          "link": "https://www.securityweek.com/ransomware-often-hits-industrial-systems-significant-impact-survey",
+          "publishedOn": "2022-02-03T11:09:58.000Z",
+          "wordCount": 1078,
+          "title": "Ransomware Often Hits Industrial Systems, With Significant Impact: Survey"
+        },
+        {
+          "id": "24262 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "A series of financially motivated attacks are employing techniques observed in Conti ransomware playbooks that were leaked online in August 2021, Mandiant reports.\n\r\nread more",
+          "link": "https://www.securityweek.com/financially-motivated-hackers-use-leaked-conti-ransomware-techniques-attacks",
+          "publishedOn": "2022-02-03T09:35:51.000Z",
+          "wordCount": 948,
+          "title": "Financially Motivated Hackers Use Leaked Conti Ransomware Techniques in Attacks"
+        },
+        {
+          "id": "24261 at https://www.securityweek.com",
+          "author": "Associated Press",
+          "description": "The FBI has confirmed purchasing NSO Group’s powerful spyware tool Pegasus, whose chronic abuse to surveil journalists, dissidents and human rights activists has long been established. It suggested its motivation was to “stay abreast of emerging technologies and tradecraft.”\n\r\nread more",
+          "link": "https://www.securityweek.com/fbi-confirms-it-bought-spyware-israels-nso-group",
+          "publishedOn": "2022-02-03T02:58:35.000Z",
+          "wordCount": 1109,
+          "title": "FBI Confirms It Bought Spyware From Israel's NSO Group"
+        },
         {
           "id": "24260 at https://www.securityweek.com",
           "author": "Kevin Townsend",
@@ -2870,6 +3023,24 @@
       "siteUrl": "https://us-cert.cisa.gov/",
       "articles": [
         {
+          "id": "17308 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: February 3, 2022\nCISA has released an Industrial Controls Systems Advisory (ICSA) that details vulnerabilities in the Airspan Networks Mimosa product line. An attacker could exploit these vulnerabilities to achieve remote code execution, create a denial-of-service condition, or obtain sensitive information.\nCISA encourages users and administrators to review ICSA-22-034-02: Airspan Networks Mimosa for more information and apply the necessary mitigations.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/02/03/cisa-releases-security-advisory-airspan-networks-mimosa",
+          "publishedOn": "2022-02-03T13:09:21.000Z",
+          "wordCount": 406,
+          "title": "CISA Releases Security Advisory for Airspan Networks Mimosa"
+        },
+        {
+          "id": "17307 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: February 3, 2022\nCisco has released security updates to address vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page.\nCISA encourages users and administrators to review Cisco advisory cisco-sa-smb-mult-vuln-KA9PK6D and apply the necessary updates.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/02/03/cisco-releases-security-updates-rv-series-routers",
+          "publishedOn": "2022-02-03T12:50:25.000Z",
+          "wordCount": 411,
+          "title": "Cisco Releases Security Updates for RV Series Routers"
+        },
+        {
           "id": "17305 at https://us-cert.cisa.gov",
           "author": "CISA",
           "description": "Original release date: February 2, 2022\nGoogle has released Chrome versions 98.0.4758.80/81/82 for Windows and 98.0.4758.80 for Mac and Linux. These versions address vulnerabilities that an attacker could exploit to take control of an affected system.\nCISA encourages users and administrators to review the Chrome Release Note and apply the necessary updates.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
@@ -3020,6 +3191,185 @@
       "feedUrl": "https://www.darkreading.com/rss.xml",
       "siteUrl": "https://www.darkreading.com",
       "articles": [
+        {
+          "id": "https://www.darkreading.com/vulnerabilities-threats/mac-malware-dropping-adware-gets-more-dangerous",
+          "author": "Jai Vijayan, Contributing Writer",
+          "description": "The authors of UpdateAgent have tweaked it yet again — for the fifth time in less than 18 months.",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/mac-malware-dropping-adware-gets-more-dangerous",
+          "publishedOn": "2022-02-03T23:05:00.000Z",
+          "wordCount": 1513,
+          "title": "Mac Malware-Dropping Adware Gets More Dangerous",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
+            "type": "image/*",
+            "length": "0"
+          }
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/mandiant-bolsters-saas-platform-with-integration-of-new-attack-surface-management-module",
+          "author": null,
+          "description": "New automated offering helps organizations gain comprehensive visibility across IT environments, continuously monitor for vulnerabilities, operationalize threat intelligence and manage risk.",
+          "link": "https://www.darkreading.com/attacks-breaches/mandiant-bolsters-saas-platform-with-integration-of-new-attack-surface-management-module",
+          "publishedOn": "2022-02-03T23:00:00.000Z",
+          "wordCount": 1276,
+          "title": "Mandiant Bolsters SaaS Platform With Integration of New Attack Surface Management Module"
+        },
+        {
+          "id": "https://www.darkreading.com/risk/several-india-based-call-centers-indicted-by-us-doj",
+          "author": "Dark Reading Staff, Dark Reading",
+          "description": "\"Scam robocall\" operators face charges for defrauding US citizens.",
+          "link": "https://www.darkreading.com/risk/several-india-based-call-centers-indicted-by-us-doj",
+          "publishedOn": "2022-02-03T22:30:00.000Z",
+          "wordCount": 953,
+          "title": "Several India-Based Call Centers Indicted by US DoJ",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
+            "type": "image/*",
+            "length": "0"
+          }
+        },
+        {
+          "id": "https://www.darkreading.com/cloud/tenable-launches-suite-of-new-features-to-cloud-native-application-security-platform",
+          "author": null,
+          "description": "Tenable.cs enhancements secure cloud resources, container images, and cloud assets",
+          "link": "https://www.darkreading.com/cloud/tenable-launches-suite-of-new-features-to-cloud-native-application-security-platform",
+          "publishedOn": "2022-02-03T22:00:00.000Z",
+          "wordCount": 1206,
+          "title": "Tenable Launches Suite of New Features to Cloud-Native Application Security Platform"
+        },
+        {
+          "id": "https://www.darkreading.com/threat-intelligence/the-future-of-cybersecurity-our-predictions-for-2022",
+          "author": null,
+          "description": "New technologies and workplace trends are fueling a global explosion in cybercrime. Discover the threats to watch out for in 2022.",
+          "link": "https://www.darkreading.com/threat-intelligence/the-future-of-cybersecurity-our-predictions-for-2022",
+          "publishedOn": "2022-02-03T22:00:00.000Z",
+          "wordCount": 1696,
+          "title": "The Future of Cybersecurity: Our Predictions for 2022"
+        },
+        {
+          "id": "https://www.darkreading.com/analytics/research-from-quantum-and-esg-reveals-top-challenges-in-data-management",
+          "author": null,
+          "description": "Unstructured data management, storage complexity and cost remain barriers to adoption, resulting in valuable data being discarded or mismanaged.",
+          "link": "https://www.darkreading.com/analytics/research-from-quantum-and-esg-reveals-top-challenges-in-data-management",
+          "publishedOn": "2022-02-03T21:55:00.000Z",
+          "wordCount": 1621,
+          "title": "Research From Quantum and ESG Reveals Top Challenges in Data Management"
+        },
+        {
+          "id": "https://www.darkreading.com/vulnerabilities-threats/cyber-safety-review-board-to-analyze-major-vulnerability-events",
+          "author": "Robert Lemos, Contributing Writer",
+          "description": "The US Department of Homeland Security has named a 15-member review board to assess significant cybersecurity events and recommend improvements - starting with the Log4J vulnerability.",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/cyber-safety-review-board-to-analyze-major-vulnerability-events",
+          "publishedOn": "2022-02-03T21:50:02.000Z",
+          "wordCount": 1621,
+          "title": "DHS Launches Cyber Safety Review Board to Analyze Major Vulnerability Events",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png",
+            "type": "image/*",
+            "length": "0"
+          }
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/menlo-security-finds-cloud-migration-and-remote-work-gives-rise-to-new-era-of-malware-highly-evasive-adaptive-threats-heat-",
+          "author": null,
+          "description": "Menlo identified 224% increase in HEAT attacks in the last six months fueling ransomware surge.",
+          "link": "https://www.darkreading.com/attacks-breaches/menlo-security-finds-cloud-migration-and-remote-work-gives-rise-to-new-era-of-malware-highly-evasive-adaptive-threats-heat-",
+          "publishedOn": "2022-02-03T21:50:00.000Z",
+          "wordCount": 1486,
+          "title": "Menlo Security Finds Cloud Migration and Remote Work Gives Rise to New Era of Malware, Highly Evasive Adaptive Threats (HEAT)"
+        },
+        {
+          "id": "https://www.darkreading.com/operations/microsoft-multifactor-adoption-remains-low",
+          "author": "Kelly Jackson Higgins, Editor-in-Chief",
+          "description": "New data shows a slow roll to strong authentication for most enterprise Windows systems.",
+          "link": "https://www.darkreading.com/operations/microsoft-multifactor-adoption-remains-low",
+          "publishedOn": "2022-02-03T21:00:00.000Z",
+          "wordCount": 1539,
+          "title": "Microsoft: Multifactor Adoption Remains Low",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltb0e0f8e307c2012b/615dfe95486c9a5b53695aa0/KJH.PNG",
+            "type": "image/*",
+            "length": "0"
+          }
+        },
+        {
+          "id": "https://www.darkreading.com/operations/bio-key-to-expand-customer-reach-and-talent-in-emea-region-via-definitive-agreement-to-acquire-authentication-solutions-provider-swivel-secure-europe",
+          "author": null,
+          "description": "Expansion comes via definitive agreement to acquire authentication solutions provider Swivel Secure Europe.",
+          "link": "https://www.darkreading.com/operations/bio-key-to-expand-customer-reach-and-talent-in-emea-region-via-definitive-agreement-to-acquire-authentication-solutions-provider-swivel-secure-europe",
+          "publishedOn": "2022-02-03T21:00:00.000Z",
+          "wordCount": 1714,
+          "title": "BIO-key to Expand Customer Reach and Talent in EMEA Region"
+        },
+        {
+          "id": "https://www.darkreading.com/endpoint/keeper-security-acquires-glyptodon-",
+          "author": null,
+          "description": "The acquisition enables distributed teams to connect to remote or cloud infrastructure in a hyper-secure, agentless and passwordless way without a VPN.",
+          "link": "https://www.darkreading.com/endpoint/keeper-security-acquires-glyptodon-",
+          "publishedOn": "2022-02-03T21:00:00.000Z",
+          "wordCount": 1183,
+          "title": "Keeper Security Acquires Glyptodon"
+        },
+        {
+          "id": "https://www.darkreading.com/careers-and-people/breachquest-welcomes-sandy-dunn-as-chief-information-security-officer",
+          "author": null,
+          "description": "Industry cybersecurity veteran joins executive team of leading cyber experts with key experience In healthcare market.",
+          "link": "https://www.darkreading.com/careers-and-people/breachquest-welcomes-sandy-dunn-as-chief-information-security-officer",
+          "publishedOn": "2022-02-03T21:00:00.000Z",
+          "wordCount": 1304,
+          "title": "BreachQuest Welcomes Sandy Dunn as Chief Information Security Officer"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/hacknotice-releases-combined-security-and-threat-awareness-service-for-free",
+          "author": null,
+          "description": "HackNotice users can now deepen their security awareness with a self-paced training course to prevent themselves from being targets of cyberattacks.",
+          "link": "https://www.darkreading.com/attacks-breaches/hacknotice-releases-combined-security-and-threat-awareness-service-for-free",
+          "publishedOn": "2022-02-03T21:00:00.000Z",
+          "wordCount": 1050,
+          "title": "HackNotice Releases Combined Security and Threat Awareness Service for Free"
+        },
+        {
+          "id": "https://www.darkreading.com/crowdstrike/simplifying-zero-trust-security-in-healthcare-organizations",
+          "author": "Kapil Raina, VP Zero Trust & Identity Marketing, CrowdStrike",
+          "description": "Healthcare organizations are increasingly looking at zero trust to help deter ransomware attacks, safeguard PHI, and prevent downtime.",
+          "link": "https://www.darkreading.com/crowdstrike/simplifying-zero-trust-security-in-healthcare-organizations",
+          "publishedOn": "2022-02-03T19:11:27.000Z",
+          "wordCount": 1437,
+          "title": "Simplifying Zero Trust Security in Healthcare Organizations",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt9fbfd6b242a71427/61b83d9962ca795dc781c966/Kapil_Raina_Crowdstrike.jpg",
+            "type": "image/*",
+            "length": "0"
+          }
+        },
+        {
+          "id": "https://www.darkreading.com/tech-trends/big-pharma-finds-patch-management-a-bitter-pill",
+          "author": "Dark Reading Staff, Dark Reading",
+          "description": "One-quarter of pharmaceutical manufacturers received a failing grade on patch management, which is a vital step in heading off ransomware attacks.",
+          "link": "https://www.darkreading.com/tech-trends/big-pharma-finds-patch-management-a-bitter-pill",
+          "publishedOn": "2022-02-03T19:00:00.000Z",
+          "wordCount": 957,
+          "title": "Big Pharma Finds Patch Management a Bitter Pill",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
+            "type": "image/*",
+            "length": "0"
+          }
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/hackers-went-wild-in-2021-every-company-should-do-these-5-things-in-2022",
+          "author": "Lech Sandecki, Product Strategy Manager, Canonical, the publisher of Ubuntu",
+          "description": "Practical steps companies can take to defend their critical infrastructure and avoid the financial and reputational damage that could result from a breach.",
+          "link": "https://www.darkreading.com/attacks-breaches/hackers-went-wild-in-2021-every-company-should-do-these-5-things-in-2022",
+          "publishedOn": "2022-02-03T15:00:00.000Z",
+          "wordCount": 1619,
+          "title": "Hackers Went Wild in 2021 — Every Company Should Do These 5 Things in 2022",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbd4bf4887df8a3f6/61f4586436ee8d19ce48d4ce/Lech_headshot.jpg",
+            "type": "image/*",
+            "length": "0"
+          }
+        },
         {
           "id": "https://www.darkreading.com/edge-ask-the-experts/if-my-organization-is-mostly-in-the-cloud-do-i-need-a-firewall-",
           "author": "Heather Paunet, Senior Vice President, Untangle",
@@ -5230,122 +5580,6 @@
             "type": "image/*",
             "length": "0"
           }
-        },
-        {
-          "id": "https://www.darkreading.com/dr-tech/crowdstrike-incorporates-intel-cpu-telemetry-into-falcon-sensor",
-          "author": "Dark Reading Staff, Dark Reading",
-          "description": "The Falcon sensor uses Intel PT telemetry to identify suspicious operations associated with hard-to-detect exploit techniques.",
-          "link": "https://www.darkreading.com/dr-tech/crowdstrike-incorporates-intel-cpu-telemetry-into-falcon-sensor",
-          "publishedOn": "2022-01-04T23:17:22.000Z",
-          "wordCount": 988,
-          "title": "CrowdStrike Incorporates Intel CPU Telemetry Into Falcon Sensor",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
-            "type": "image/*",
-            "length": "0"
-          }
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/mcmenamins-breach-affected-23-years-of-employee-data",
-          "author": "Dark Reading Staff, Dark Reading",
-          "description": "The Oregon-based hospitality and dining business reports the data was compromised in a Dec. 12 ransomware attack.",
-          "link": "https://www.darkreading.com/attacks-breaches/mcmenamins-breach-affected-23-years-of-employee-data",
-          "publishedOn": "2022-01-04T22:05:00.000Z",
-          "wordCount": 851,
-          "title": "McMenamins Breach Affected 23 Years of Employee Data",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
-            "type": "image/*",
-            "length": "0"
-          }
-        },
-        {
-          "id": "https://www.darkreading.com/application-security/attackers-using-log4j-flaws-in-hands-on-keyboard-attacks-to-drop-reverse-shells",
-          "author": "Jai Vijayan, Contributing Writer",
-          "description": "Microsoft says vulnerabilities present a \"real and present\" danger, citing high volume of scanning and attack activity targeting the widely used Apache logging framework.",
-          "link": "https://www.darkreading.com/application-security/attackers-using-log4j-flaws-in-hands-on-keyboard-attacks-to-drop-reverse-shells",
-          "publishedOn": "2022-01-04T22:03:31.000Z",
-          "wordCount": 1555,
-          "title": "Attackers Exploit Log4j Flaws in Hands-on-Keyboard Attacks to Drop Reverse Shells",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
-            "type": "image/*",
-            "length": "0"
-          }
-        },
-        {
-          "id": "https://www.darkreading.com/operations/google-buys-siemplify-to-get-ahead-in-cloud-security",
-          "author": "Robert Lemos, Contributing Writer",
-          "description": "Google says the deal will bring security orchestration, automation, and response to its Google Cloud security portfolio and expand its Chronicle platform.",
-          "link": "https://www.darkreading.com/operations/google-buys-siemplify-to-get-ahead-in-cloud-security",
-          "publishedOn": "2022-01-04T21:20:06.000Z",
-          "wordCount": 1600,
-          "title": "Google Buys Siemplify to Get Ahead in Cloud Security",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png",
-            "type": "image/*",
-            "length": "0"
-          }
-        },
-        {
-          "id": "https://www.darkreading.com/application-security/mobile-application-security-2021-s-breaches",
-          "author": "Brian Reed, Chief Mobility Officer, NowSecure",
-          "description": "Many of last year's largest app breaches could have been prevented with testing, training, and the will to take app security seriously.",
-          "link": "https://www.darkreading.com/application-security/mobile-application-security-2021-s-breaches",
-          "publishedOn": "2022-01-04T18:00:00.000Z",
-          "wordCount": 1589,
-          "title": "Mobile Application Security: 2021's Breaches",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltab040e2af904366f/61cb2081625ce7366d1658c2/Breed_hi.jpeg",
-            "type": "image/*",
-            "length": "0"
-          }
-        },
-        {
-          "id": "https://www.darkreading.com/edge-articles/vinnie-liu-has-a-mission-keeping-people-safe-online-and-offline",
-          "author": "Carlo Massimo, Freelance Writer",
-          "description": "Security Pro File: The years at the National Security Agency shaped Vinnie Liu's views on security. \"We're missionaries, not mercenaries,\" he says.",
-          "link": "https://www.darkreading.com/edge-articles/vinnie-liu-has-a-mission-keeping-people-safe-online-and-offline",
-          "publishedOn": "2022-01-04T16:00:00.000Z",
-          "wordCount": 1807,
-          "title": "Vinnie Liu Has a Mission: Keeping People Safe Online and Offline",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbc7048cc05505c98/60d5102f6cc4af30ee8dc2b1/CarloMassimo.png",
-            "type": "image/*",
-            "length": "0"
-          }
-        },
-        {
-          "id": "https://www.darkreading.com/careers-and-people/why-cios-should-be-reporting-to-cisos",
-          "author": "J.J. Guy, CEO and Co-Founder, Sevco Security",
-          "description": "If the CISO is responsible for the security of the organization, then that same person also should be responsible for both security and  IT infrastructure.",
-          "link": "https://www.darkreading.com/careers-and-people/why-cios-should-be-reporting-to-cisos",
-          "publishedOn": "2022-01-04T15:00:00.000Z",
-          "wordCount": 1572,
-          "title": "Why CIOs Should Report to CISOs",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt6918a24b6503b746/61c2289650619737cfdd1251/JJ_Guy.png",
-            "type": "image/*",
-            "length": "0"
-          }
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/log4j-remediation-rules-now-available-for-whitesource-renovate-and-enterprise",
-          "author": null,
-          "description": "The Software Composition Analysis leader now offers a remediation preset for WhiteSource Renovate and Enterprise, enabling users to identify and fix the Log4j vulnerability from hundreds of downstream dependent packages of Log4j.",
-          "link": "https://www.darkreading.com/attacks-breaches/log4j-remediation-rules-now-available-for-whitesource-renovate-and-enterprise",
-          "publishedOn": "2022-01-04T14:40:30.000Z",
-          "wordCount": 1039,
-          "title": "Log4j Remediation Rules Now Available for WhiteSource Renovate and Enterprise"
-        },
-        {
-          "id": "https://www.darkreading.com/cloud/palo-alto-networks-appoints-helmut-reisinger-to-leadership-team",
-          "author": null,
-          "description": "Reisinger joins as CEO, EMEA and Latin America, to accelerate global growth strategy.",
-          "link": "https://www.darkreading.com/cloud/palo-alto-networks-appoints-helmut-reisinger-to-leadership-team",
-          "publishedOn": "2022-01-04T14:37:49.000Z",
-          "wordCount": 1281,
-          "title": "Palo Alto Networks Appoints Helmut Reisinger to Leadership Team"
         }
       ]
     },
@@ -5446,6 +5680,15 @@
       "feedUrl": "https://www.schneier.com/feed/atom",
       "siteUrl": "https://www.schneier.com",
       "articles": [
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/02/interview-with-the-head-of-the-nsas-research-directorate.html",
+          "author": null,
+          "description": "<p><i>MIT Technology Review</i> published an <a href=\"https://www.technologyreview.com/2022/02/01/1044561/meet-the-nsa-spies-shaping-the-future/\">interview</a> with Gil Herrera, the new head of the NSA&#8217;s Research Directorate. There&#8217;s a lot of talk about quantum computing, monitoring 5G networks, and the problems of big data:</p>\n<blockquote><p>The math department, often in conjunction with the computer science department, helps tackle one of NSA&#8217;s most interesting problems: big data. Despite public reckoning over mass surveillance, NSA <a href=\"https://www.nytimes.com/2018/05/04/us/politics/nsa-surveillance-2017-annual-report.html\">famously</a> faces the challenge of collecting such extreme quantities of data that, on top of legal and ethical problems, it can be nearly impossible to sift through all of it to find everything of value. NSA views the kind of &#8220;vast access and collection&#8221; that it talks about internally as both an achievement and its own set of problems. The field of data science aims to solve them...</p></blockquote>",
+          "link": "https://www.schneier.com/blog/archives/2022/02/interview-with-the-head-of-the-nsas-research-directorate.html",
+          "publishedOn": "2022-02-03T12:01:12.000Z",
+          "wordCount": 899,
+          "title": "Interview with the Head of the NSA’s Research Directorate"
+        },
         {
           "id": "https://www.schneier.com/blog/archives/2022/02/finding-vulnerabilities-in-open-source-projects.html",
           "author": null,
