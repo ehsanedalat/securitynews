@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2022-02-06T01:11:01.062Z</updated>
+    <updated>2022-02-07T01:02:55.520Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Breach of Washington State Database May Expose Personal Information]]></title>
+        <id>24279 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/breach-washington-state-database-may-expose-personal-information"/>
+        <updated>2022-02-06T21:20:51.000Z</updated>
+        <summary type="html"><![CDATA[The Washington State Department of Licensing said the personal information of potentially millions of licensed professionals may have been exposed after it detected suspicious activity on its online licensing system.
+
+read more]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Argo CD Bug Could Let Hackers Steal Secret Info from Kubernetes Apps]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-5530050030082581945</id>
+        <link href="https://thehackernews.com/2022/02/new-argo-cd-bug-could-let-hackers-steal.html"/>
+        <updated>2022-02-06T05:48:25.000Z</updated>
+        <summary type="html"><![CDATA[Users of the Argo continuous deployment (CD) tool for Kubernetes are being urged to push through updates after a zero-day vulnerability was found that could allow an attacker to extract sensitive information such as passwords and API keys.
+The flaw, tagged as CVE-2022-24348 (CVSS score: 7.7), affects all versions and has been addressed in versions 2.3.0, 2.2.4, and 2.1.9. Cloud security firm]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Massachusetts Lawmakers Weighing Online Data Privacy Bill]]></title>
         <id>24278 at https://www.securityweek.com</id>
@@ -6380,128 +6403,6 @@ sun_moon_jingyao -- network_computer_terminal_protection_system_firmware
         <link href="https://portswigger.net/daily-swig/the-blame-game-eu-criticized-for-fragmented-and-slow-approach-to-cyber-attack-attribution"/>
         <updated>2022-01-10T12:44:37.000Z</updated>
         <summary type="html"><![CDATA[Cyber sanctions can send a powerful message – why aren’t they being used more widely?]]></summary>
-        <author>
-            <name>The Daily Swig | Cybersecurity news and views</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VU#142629: Silicon Labs Z-Wave chipsets contain multiple vulnerabilities]]></title>
-        <id>https://kb.cert.org/vuls/id/142629</id>
-        <link href="https://kb.cert.org/vuls/id/142629"/>
-        <updated>2022-01-07T21:54:34.359Z</updated>
-        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
-<p>Various Silicon Labs Z-Wave chipsets do not support encryption, can be downgraded to not use weaker encryption, and are vulnerable to denial of service. Some of these vulnerabilities are inherent in Z-Wave protocol specifications.</p>
-<h3 id="description">Description</h3>
-<p>Z-Wave devices based on Silicon Labs chipsets have multiple vulnerabilities. For further details, including specific devices tested, see <a href="https://ieeexplore.ieee.org/document/9663293">Riding the IoT Wave With VFuzz: Discovering Security Flaws in Smart Homes</a>.</p>
-<p><strong>CVE-2020-9057</strong><br>
-Z-Wave devices based on Silicon Labs 100, 200, and 300 series chipsets do not support encryption.</p>
-<p><strong>CVE-2020-9058</strong><br>
-Z-Wave devices based on Silicon Labs 500 series chipsets using CRC-16 encapsulation do not implement encryption or replay protection.</p>
-<p><strong>CVE-2020-9059</strong><br>
-Z-Wave devices based on Silicon Labs 500 series chipsets using S0 authentication are susceptible to uncontrolled resource consumption which can lead to battery exhaustion.</p>
-<p><strong>CVE-2020-9060</strong><br>
-Z-Wave devices based on Silicon Labs 500 series chipsets using S2 are susceptible to denial of service and resource exhaustion via malformed SECURITY NONCE GET, SECURITY NONCE GET 2, NO OPERATION, or NIF REQUEST messages.</p>
-<p><strong>CVE-2020-9061</strong><br>
-Z-Wave devices based on Silicon Labs 500 and 700 series chipsets are susceptible to denial of service via malformed routing messages.</p>
-<p><strong>CVE-2020-10137</strong><br>
-Z-Wave devices based on Silicon Labs 700 series chipsets using S2 do not adequately authenticate or encrypt FIND_NODE_IN_RANGE frames.</p>
-<h3 id="impact">Impact</h3>
-<p>Depending on the chipset and device, an attacker within Z-Wave radio range can deny service, cause devices to crash, deplete batteries, intercept, observe, and replay traffic, and control vulnerable devices.</p>
-<h3 id="solution">Solution</h3>
-<p>Mitigations for these vulnerabilities vary based on the chipset and device. In some cases it may be necessary to upgrade to newer hardware, for example, 500 and 700 series chipsets that support S2 authentication and encryption.</p>
-<h3 id="acknowledgements">Acknowledgements</h3>
-<p>Thanks to Carlos Kayembe Nkuba, Seulbae Kim, Sven Dietrich, and Heejo Lee for researching and reporting these vulnerabilities.</p>
-<p>This document was written by Timur Snoke and Art Manion.</p>]]></summary>
-        <author>
-            <name>CERT Recently Published Vulnerability Notes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NHS Warns of Attackers Targeting Log4j Flaws in VMware Horizon]]></title>
-        <id>https://www.darkreading.com/threat-intelligence/nhs-warns-of-attackers-targeting-log4j-flaws-in-vmware-horizon</id>
-        <link href="https://www.darkreading.com/threat-intelligence/nhs-warns-of-attackers-targeting-log4j-flaws-in-vmware-horizon"/>
-        <updated>2022-01-07T21:30:00.000Z</updated>
-        <summary type="html"><![CDATA[An unknown threat group has been observed attacking VMware Horizon servers running versions with Log4j vulnerabilities.]]></summary>
-        <author>
-            <name>Dark Reading Staff, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MSP Thrive Acquires InCare Technologies]]></title>
-        <id>https://www.darkreading.com/cloud/msp-thrive-acquires-incare-technologies</id>
-        <link href="https://www.darkreading.com/cloud/msp-thrive-acquires-incare-technologies"/>
-        <updated>2022-01-07T20:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Partnership extends Thrive's cloud and cybersecurity managed services platform to clients in the southern United States.]]></summary>
-        <author>
-            <name>Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cerberus Sentinel Acquires True Digital Security]]></title>
-        <id>https://www.darkreading.com/risk/cerberus-sentinel-acquires-true-digital-security-</id>
-        <link href="https://www.darkreading.com/risk/cerberus-sentinel-acquires-true-digital-security-"/>
-        <updated>2022-01-07T20:30:00.000Z</updated>
-        <summary type="html"><![CDATA[US cybersecurity services firm expands security services and network monitoring capabilities.]]></summary>
-        <author>
-            <name>Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IT/OT Convergence Is More Than a Catchy Phrase]]></title>
-        <id>https://www.darkreading.com/edge-articles/it-ot-convergence-is-more-than-a-catchy-phrase</id>
-        <link href="https://www.darkreading.com/edge-articles/it-ot-convergence-is-more-than-a-catchy-phrase"/>
-        <updated>2022-01-07T20:09:16.000Z</updated>
-        <summary type="html"><![CDATA[The most successful strategies for protecting IT and OT from growing threats will include use of both the ISO 27000 series and ISA/IEC 62443 family of standards.]]></summary>
-        <author>
-            <name>Megan Samford, Vice President and Chief Product Security Officer for Energy Management at Schneider Electric</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Proactively Limit Damage From BlackMatter Ransomware]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/organizations-can-proactively-limit-damage-from-blackmatter-ransomware</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/organizations-can-proactively-limit-damage-from-blackmatter-ransomware"/>
-        <updated>2022-01-07T17:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Logic flaw exists in malware that can be used to prevent it from encrypting remote shares, security vendor says.]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers discover Log4j-like flaw in H2 database console]]></title>
-        <id>researchers-discover-log4j-like-flaw-in-h2-database-console</id>
-        <link href="https://portswigger.net/daily-swig/researchers-discover-log4j-like-flaw-in-h2-database-console"/>
-        <updated>2022-01-07T16:10:00.000Z</updated>
-        <summary type="html"><![CDATA[Impact of JNDI bug mitigated by vulnerable behavior being disabled by default]]></summary>
-        <author>
-            <name>The Daily Swig | Cybersecurity news and views</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Latest WordPress security release fixes XSS, SQL injection bugs]]></title>
-        <id>latest-wordpress-security-release-fixes-xss-sql-injection-bugs</id>
-        <link href="https://portswigger.net/daily-swig/latest-wordpress-security-release-fixes-xss-sql-injection-bugs"/>
-        <updated>2022-01-07T15:14:00.000Z</updated>
-        <summary type="html"><![CDATA[Quartet of software flaws addressed ahead of next major release of popular CMS]]></summary>
-        <author>
-            <name>The Daily Swig | Cybersecurity news and views</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[7 Predictions for Global Energy Cybersecurity in 2022]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/7-predictions-for-global-energy-cybersecurity-in-2022</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/7-predictions-for-global-energy-cybersecurity-in-2022"/>
-        <updated>2022-01-07T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Increased digitization makes strong cybersecurity more important than ever.]]></summary>
-        <author>
-            <name>Leo Simonovich, VP &amp; Global Head, Industrial Cyber and Digital Security, Siemens Energy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Internet Bug Bounty: High severity vulnerability in Apache HTTP Server could lead to RCE]]></title>
-        <id>internet-bug-bounty-high-severity-vulnerability-in-apache-http-server-could-lead-to-rce</id>
-        <link href="https://portswigger.net/daily-swig/internet-bug-bounty-high-severity-vulnerability-in-apache-http-server-could-lead-to-rce"/>
-        <updated>2022-01-07T14:15:53.000Z</updated>
-        <summary type="html"><![CDATA[Buffer overflow flaw should be patched immediately]]></summary>
         <author>
             <name>The Daily Swig | Cybersecurity news and views</name>
         </author>
