@@ -2,10 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2022-04-02T01:26:02.579Z</updated>
+    <updated>2022-04-03T01:38:51.206Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[15-Year-Old Bug in PEAR PHP Repository Could've Enabled Supply Chain Attacks]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-3054900230046737928</id>
+        <link href="https://thehackernews.com/2022/04/15-year-old-bug-in-pear-php-repository.html"/>
+        <updated>2022-04-02T05:49:06.000Z</updated>
+        <summary type="html"><![CDATA[A 15-year-old security vulnerability has been disclosed in the PEAR PHP repository that could permit an attacker to carry out a supply chain attack, including obtaining unauthorized access to publish rogue packages and execute arbitrary code.
+"An attacker exploiting the first one could take over any developer account and publish malicious releases, while the second bug would allow the attacker]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[British Police Charge Two Teenagers Linked to LAPSUS$ Hacker Group]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-7784662053548853605</id>
+        <link href="https://thehackernews.com/2022/04/british-police-charge-two-teenagers.html"/>
+        <updated>2022-04-02T04:16:41.000Z</updated>
+        <summary type="html"><![CDATA[The City of London Police on Friday disclosed that it has charged two of the seven teenagers, a 16-year-old and a 17-year-old, who were arrested last week for their alleged connections to the LAPSUS$ data extortion gang.
+"Both teenagers have been charged with: three counts of unauthorized access to a computer with intent to impair the reliability of data; one count of fraud by false]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Releases Patch for Critical Vulnerability That Could Let Attackers Hijack Accounts]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-5945687959377667074</id>
+        <link href="https://thehackernews.com/2022/04/gitlab-releases-patch-for-critical.html"/>
+        <updated>2022-04-02T04:03:58.000Z</updated>
+        <summary type="html"><![CDATA[DevOps platform GitLab has released software updates to address a critical security vulnerability that, if potentially exploited, could permit an adversary to seize control of accounts.
+Tracked as CVE-2022-1162, the issue has a CVSS score of 9.1 and is said to have been discovered internally by the GitLab team.
+<!--adsense-->
+"A hardcoded password was set for accounts registered using an]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apple's Zero-Day Woes Continue]]></title>
         <id>https://www.darkreading.com/vulnerabilities-threats/apple-s-zero-day-woes-continue</id>
@@ -6979,308 +7014,6 @@ Some of the noticeable domains in the listing released by Russia's National Coor
         <summary type="html"><![CDATA[‘Extremely easy to exploit’ bug introduced to codebase in 2018, say researchers]]></summary>
         <author>
             <name>The Daily Swig | Cybersecurity news and views</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VISO Trust Raises $11 Million for Cyber Risk Management Platform]]></title>
-        <id>24476 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/viso-trust-raises-11-million-cyber-risk-management-platform"/>
-        <updated>2022-03-04T13:02:07.000Z</updated>
-        <summary type="html"><![CDATA[Third-party cyber risk management solutions provider VISO Trust this week announced that it has raised $11 million in Series A funding, which brings the total investment in the company to $14 million.
-
-read more]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Credentials of 71,000 NVIDIA Employees Leaked Following Cyberattack]]></title>
-        <id>24475 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/credentials-71000-nvidia-employees-leaked-following-cyberattack"/>
-        <updated>2022-03-04T12:39:02.000Z</updated>
-        <summary type="html"><![CDATA[The email addresses and passwords of more than 71,000 NVIDIA employees were likely stolen in a recent cyberattack and are now circulating within underground communities.
-
-On February 23, hackers managed to compromise NVIDIA’s network and steal not only employee credentials but also proprietary information.
-
-read more]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Samsung Encryption Flaw]]></title>
-        <id>https://www.schneier.com/blog/archives/2022/03/samsung-encryption-flaw.html</id>
-        <link href="https://www.schneier.com/blog/archives/2022/03/samsung-encryption-flaw.html"/>
-        <updated>2022-03-04T12:19:48.000Z</updated>
-        <summary type="html"><![CDATA[<p>Researchers have found a <a href="https://eprint.iacr.org/2022/208.pdf">major encryption flaw</a> in 100 million Samsung Galaxy phones.</p>
-<p>From the abstract:</p>
-<blockquote><p>In this work, we expose the cryptographic design and implementation of Android&#8217;s Hardware-Backed Keystore in Samsung&#8217;s Galaxy S8, S9, S10, S20, and S21 flagship devices. We reversed-engineered and provide a detailed description of the cryptographic design and code structure, and we unveil severe design flaws. We present an IV reuse attack on AES-GCM that allows an attacker to extract hardware-protected key material, and a downgrade attack that makes even the latest Samsung devices vulnerable to the IV reuse attack. We demonstrate working key extraction attacks on the latest devices. We also show the implications of our attacks on two higher-level cryptographic protocols between the TrustZone and a remote server: we demonstrate a working FIDO2 WebAuthn login bypass and a compromise of Google&#8217;s Secure Key Import...</p></blockquote>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NSA Publishes Best Practices for Improving Network Defenses]]></title>
-        <id>24474 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/nsa-publishes-best-practices-improving-network-defenses"/>
-        <updated>2022-03-04T12:03:16.000Z</updated>
-        <summary type="html"><![CDATA[The National Security Agency (NSA) this week published a set of best practices for organizations looking to improve the overall security of their networks.
-
-The guidance is meant to be generic, applicable to a broad range of network devices, and should help administrators prevent adversaries from exploiting their networks.
-
-read more]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Equifax data breach: Consumers unlikely to benefit financially from final settlement]]></title>
-        <id>equifax-data-breach-consumers-unlikely-to-benefit-financially-from-final-settlement</id>
-        <link href="https://portswigger.net/daily-swig/equifax-data-breach-consumers-unlikely-to-benefit-financially-from-final-settlement"/>
-        <updated>2022-03-04T11:52:30.000Z</updated>
-        <summary type="html"><![CDATA[Potential claimants would face an ‘uphill battle in order to establish standing’, says US privacy law expert]]></summary>
-        <author>
-            <name>The Daily Swig | Cybersecurity news and views</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Says Recent Cisco Router Vulnerabilities Exploited in Attacks]]></title>
-        <id>24473 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/cisa-says-recent-cisco-router-vulnerabilities-exploited-attacks"/>
-        <updated>2022-03-04T11:49:37.000Z</updated>
-        <summary type="html"><![CDATA[CISA Warns of 60 Exploited Vulnerabilities Affecting Cisco, Microsoft Products
-
-read more]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tens of Cybersecurity Firms Found Exposing Their Assets: Study]]></title>
-        <id>24472 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/tens-cybersecurity-firms-found-exposing-their-assets-study"/>
-        <updated>2022-03-04T10:58:37.000Z</updated>
-        <summary type="html"><![CDATA[Tens of cybersecurity companies expose a large number of assets to the internet, according to a study conducted recently by attack surface management firm Reposify.
-
-read more]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accelerated Ransomware Attacks Pressure Targeted Companies to Speed Response]]></title>
-        <id>https://www.darkreading.com/risk/accelerated-ransomware-attacks-pressure-targeted-companites-to-speed-response</id>
-        <link href="https://www.darkreading.com/risk/accelerated-ransomware-attacks-pressure-targeted-companites-to-speed-response"/>
-        <updated>2022-03-03T21:51:08.000Z</updated>
-        <summary type="html"><![CDATA[Threat actors have focused on two ends of the spectrum — quick, impactful attacks or stealthy intrusions — making strong prevention and faster response more important for enterprises.]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cybersecurity Mesh Architecture: Hope or Hype?]]></title>
-        <id>https://www.darkreading.com/tech-trends/cybersecurity-mesh-architecture-hope-or-hype</id>
-        <link href="https://www.darkreading.com/tech-trends/cybersecurity-mesh-architecture-hope-or-hype"/>
-        <updated>2022-03-03T20:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Gartner has touted CSMA as one of the top technology trends for this year. But what is it really?]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Infusion Pumps Impacted by Years-Old Critical Vulnerabilities: Report]]></title>
-        <id>24471 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/infusion-pumps-impacted-years-old-critical-vulnerabilities-report"/>
-        <updated>2022-03-03T20:17:53.000Z</updated>
-        <summary type="html"><![CDATA[More than 100,000 infusion pumps were found susceptible to severe vulnerabilities that were disclosed roughly three years ago, according to researcher at Palo Alto Networks’ Unit 42.
-
-read more]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google WAF bypassed via oversized POST requests]]></title>
-        <id>google-waf-bypassed-via-oversized-post-requests</id>
-        <link href="https://portswigger.net/daily-swig/google-waf-bypassed-via-oversized-post-requests"/>
-        <updated>2022-03-03T18:12:37.000Z</updated>
-        <summary type="html"><![CDATA[Security research highlights web application firewall security risk]]></summary>
-        <author>
-            <name>The Daily Swig | Cybersecurity news and views</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[8-Character Passwords Can Be Cracked in Less than 60 Minutes]]></title>
-        <id>https://www.darkreading.com/attacks-breaches/8-character-passwords-can-be-cracked-in-less-than-60-minutes</id>
-        <link href="https://www.darkreading.com/attacks-breaches/8-character-passwords-can-be-cracked-in-less-than-60-minutes"/>
-        <updated>2022-03-03T17:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Researchers say passwords with less than seven characters can be hacked "instantly."]]></summary>
-        <author>
-            <name>Dark Reading Staff, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NSA Releases Network Infrastructure Security Guidance]]></title>
-        <id>17393 at https://us-cert.cisa.gov</id>
-        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/03/03/nsa-releases-network-infrastructure-security-guidance"/>
-        <updated>2022-03-03T17:22:04.000Z</updated>
-        <summary type="html"><![CDATA[Original release date: March 3, 2022
-The National Security Agency (NSA) has released a new Cybersecurity Technical Report (CTR): Network Infrastructure Security Guidance. The report captures best practices based on the depth and breadth of experience in supporting customers and responding to threats. Recommendations include perimeter and internal network defenses to improve monitoring and access controls throughout the network.
-CISA encourages network architects, defenders, and administrators to review NSA’s Network Infrastructure Security Guidance as well as CISA’s recently published Layering Network Security Through Segmentation infographic for assistance in hardening networks against cyber threats.
-This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cybersecurity Platform CrowdSec Expands Into the United States]]></title>
-        <id>https://www.darkreading.com/perimeter/cybersecurity-platform-crowdsec-expands-into-the-united-states</id>
-        <link href="https://www.darkreading.com/perimeter/cybersecurity-platform-crowdsec-expands-into-the-united-states"/>
-        <updated>2022-03-03T17:20:00.000Z</updated>
-        <summary type="html"><![CDATA[CrowdSec is launching a new solutions stack, comprised of three main products: CrowdSec Agent, CrowdSec Console, and CrowdSec Threat Intelligence.]]></summary>
-        <author>
-            <name>Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Palo Alto Networks Introduces PAN-OS 10.2 Nebula]]></title>
-        <id>https://www.darkreading.com/perimeter/palo-alto-networks-introduces-pan-os-10-2-nebula</id>
-        <link href="https://www.darkreading.com/perimeter/palo-alto-networks-introduces-pan-os-10-2-nebula"/>
-        <updated>2022-03-03T17:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Software collects, analyzes, and interprets potential zero-day threats in real time using inline deep learning.]]></summary>
-        <author>
-            <name>Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Attivo Expands Active Directory Protection from Unmanaged Devices, Including Mac, Linux, IoT/OT]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/attivo-expands-active-directory-protection-from-unmanaged-devices-including-mac-linux-iot-ot</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/attivo-expands-active-directory-protection-from-unmanaged-devices-including-mac-linux-iot-ot"/>
-        <updated>2022-03-03T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Attivo Networks ADSecure-DC solution joins the company’s existing suite of Active Directory protection products.]]></summary>
-        <author>
-            <name>Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Unveils vPro Security Enhancements for 12th Gen Core Processors]]></title>
-        <id>24470 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/intel-unveils-vpro-security-enhancements-12th-gen-core-processors"/>
-        <updated>2022-03-03T16:10:15.000Z</updated>
-        <summary type="html"><![CDATA[Intel on Thursday presented the vPro platform security enhancements introduced with the new 12th Gen Core processors, codenamed Alder Lake.
-
-read more]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nvidia hackers allegedly attempting to blackmail company into open-sourcing GPU drivers]]></title>
-        <id>nvidia-hackers-allegedly-attempting-to-blackmail-company-into-open-sourcing-gpu-drivers</id>
-        <link href="https://portswigger.net/daily-swig/nvidia-hackers-allegedly-attempting-to-blackmail-company-into-open-sourcing-gpu-drivers"/>
-        <updated>2022-03-03T16:05:26.000Z</updated>
-        <summary type="html"><![CDATA[Unusual demand follows request that hardware firm removes mining hashrate limiters on GPUs]]></summary>
-        <author>
-            <name>The Daily Swig | Cybersecurity news and views</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Adds 95 Known Exploited Vulnerabilities to Catalog]]></title>
-        <id>17386 at https://us-cert.cisa.gov</id>
-        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/03/03/cisa-adds-95-known-exploited-vulnerabilities-catalog"/>
-        <updated>2022-03-03T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Original release date: March 3, 2022
-CISA has added 95 new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation. These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risk to the federal enterprise. Note: to view the newly added vulnerabilities in the catalog, click on the arrow on the of the "Date Added to Catalog" column, which will sort by descending dates.
-Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known CVEs that carry significant risk to the federal enterprise. BOD 22-01 requires FCEB agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
-Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the Catalog that meet the specified criteria. 
-Note: prioritizing software updates that address known exploited vulnerabilities is one of the actions CISA encourages as part of the recent Shields Up recommendations to all stakeholders. CISA appreciates the contributions of Joint Cyber Defense Collaborative (JCDC) partners to this recent addition to the catalog. 
-This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BastionZero Raises $6M Seed for Secure Remote Access Tech]]></title>
-        <id>24469 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/bastionzero-raises-6m-seed-secure-remote-access-tech"/>
-        <updated>2022-03-03T15:57:36.000Z</updated>
-        <summary type="html"><![CDATA[BastionZero, a provider of remote access to backend infrastructure, has raised $6 million in seed investment. 
-
-The funding round was led by Dell Technologies Capital, with added investments from participation from Akamai and DG Lab Fund (Japan).
-
-read more]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[British Firm Tackles 'Harvest Now, Decrypt Later' Problem With Sharding Technology]]></title>
-        <id>24468 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/british-firm-tackles-harvest-now-decrypt-later-problem-sharding-technology"/>
-        <updated>2022-03-03T15:55:10.000Z</updated>
-        <summary type="html"><![CDATA[Quantum-proof secure data distribution platform released to enterprise market
-
-A UK firm believes it has solved the ‘harvest now, decrypt later problem’.
-
-read more]]></summary>
-        <author>
-            <name>Kevin Townsend</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Healthcare Company Mon Health Discloses Second Data Breach]]></title>
-        <id>24467 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/healthcare-company-mon-health-discloses-second-data-breach"/>
-        <updated>2022-03-03T15:01:09.000Z</updated>
-        <summary type="html"><![CDATA[Monongalia Health System (Mon Health) this week started notifying patients, employees, and partners of a cyberattack that may have resulted in their data being stolen.
-
-read more]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Get One Step Ahead of Mobile Attacks]]></title>
-        <id>https://www.darkreading.com/endpoint/how-to-get-one-step-ahead-of-mobile-attacks</id>
-        <link href="https://www.darkreading.com/endpoint/how-to-get-one-step-ahead-of-mobile-attacks"/>
-        <updated>2022-03-03T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The advent of so-called "dropper" apps, which deliver and install malware that can also be later updated, is an emerging threat vector for mobile users.]]></summary>
-        <author>
-            <name>Ralitsa Miteva, Manager of Digital Identity and Mobile Security, OneSpan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Universities Should Prepare for Attacks]]></title>
-        <id>24466 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/universities-should-prepare-attacks"/>
-        <updated>2022-03-03T14:49:28.000Z</updated>
-        <summary type="html"><![CDATA[Universities have a long tradition of open learning and collaboration, where information is shared freely among students and researchers alike. In fact, universities played a key role in growing the internet from its early military roots to the global communication platform it has become. Unfortunately, in today’s world, ransomware gangs and other bad actors have become a regular part of online life.
-
-read more]]></summary>
-        <author>
-            <name>Gordon Lawson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers Demonstrate New Side-Channel Attack on Homomorphic Encryption]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-708113833792915295</id>
-        <link href="https://thehackernews.com/2022/03/researchers-demonstrate-new-side.html"/>
-        <updated>2022-03-03T13:54:21.000Z</updated>
-        <summary type="html"><![CDATA[A group of academics from the North Carolina State University and Dokuz Eylul University have demonstrated what they say is the "first side-channel attack" on homomorphic encryption that could be exploited to leak data as the encryption process is underway.
-"Basically, by monitoring power consumption in a device that is encoding data for homomorphic encryption, we are able to read the data as it]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Critical Patches Issued for Cisco Expressway Series, TelePresence VCS Products]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-1062220042360457104</id>
-        <link href="https://thehackernews.com/2022/03/critical-patches-issued-for-cisco.html"/>
-        <updated>2022-03-03T13:33:04.000Z</updated>
-        <summary type="html"><![CDATA[Cisco this week shipped patches to address a new round of critical security vulnerabilities affecting Expressway Series and Cisco TelePresence Video Communication Server (VCS) that could be exploited by an attacker to gain elevated privileges and execute arbitrary code.
-The two flaws – tracked as CVE-2022-20754 and CVE-2022-20755 (CVSS scores: 9.0) – relate to an arbitrary file write and a]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
         </author>
     </entry>
 </feed>
