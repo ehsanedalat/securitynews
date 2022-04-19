@@ -563,6 +563,26 @@
       "siteUrl": "https://thehackernews.com/",
       "articles": [
         {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6294283078016871123",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), along with the Federal Bureau of Investigation (FBI) and the Treasury Department, warned of a new set of ongoing cyber attacks carried out by the Lazarus Group targeting blockchain companies.\r\nCalling the activity cluster TraderTraitor, the infiltrations involve the North Korean state-sponsored advanced persistent threat (APT)",
+          "link": "https://thehackernews.com/2022/04/fbi-us-treasury-and-cisa-warns-of-north.html",
+          "publishedOn": "2022-04-19T06:23:18.000Z",
+          "wordCount": 935,
+          "title": "FBI, U.S. Treasury and CISA Warns of North Korean Hackers Targeting Blockchain Companies",
+          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEj3zD8pbxnO2Q2e3-U8JG7an1-0Y3xJ3NnEg2SxJeX71Wy5GAvC93MPeGsnU0CEJlKLfEFujjgQ8oIkcVy_rZMlZDBQfiBsoihp1xhRvt6DQA8h-GdGdQBgGBXawoHWDyv5GScIOqAKICmoygbwd-pxr2sdReSvee_Yn-2tB0xW1lgNWSAeGy3OytCq/s728-e1000/north-korean.jpg"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1710118443687136954",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "GitHub on Monday noted that it had notified all victims of an attack campaign, which involved an unauthorized party downloading private repository contents by taking advantage of third-party OAuth user tokens maintained by Heroku and Travis CI.\r\n\"Customers should also continue to monitor Heroku and Travis CI for updates on their own investigations into the affected OAuth applications,\" the",
+          "link": "https://thehackernews.com/2022/04/github-notifies-victims-whose-private.html",
+          "publishedOn": "2022-04-19T05:20:56.000Z",
+          "wordCount": 846,
+          "title": "Github Notifies Victims Whose Private Data Was Accessed Using OAuth Tokens",
+          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEjxX2jD8VVilJjQZkcsQwvoW0ZvAYbtJTCbmXDltSql9D4lPJW4bUlaSg9BnGka9yPYv829y-vn5ks9eFbNR9NaZd9WiHUEDQLsczRpWMDIz2fOCNxh-f8tAD_BfMy2zIiFub0pJcsvKJYMhlzzgcWqiIg72LzGs7h_aotuCsBdWS_Qqn0PuxdKCMPt/s728-e1000/github.jpg"
+        },
+        {
           "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4791747948852637225",
           "author": "noreply@blogger.com (Ravie Lakshmanan)",
           "description": "An 18-month-long analysis of the PYSA ransomware operation has revealed that the cybercrime cartel followed a five-stage software development cycle from August 2020, with the malware authors prioritizing features to improve the efficiency of its workflows.\r\nThis included a user-friendly tool like a full-text search engine to facilitate the extraction of metadata and enable the threat actors to",
@@ -6824,6 +6844,113 @@
           "publishedOn": "2022-03-21T15:22:02.000Z",
           "wordCount": 2826,
           "title": "Developer Sabotages Open-Source Software Package",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Ubuntu security notices",
+      "feedUrl": "https://ubuntu.com/security/notices/rss.xml",
+      "siteUrl": "https://ubuntu.com/security/notices/rss.xml",
+      "articles": [
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5379-1",
+          "author": null,
+          "description": "It was discovered that klibc did not properly perform\nsome mathematical operations, leading to an integer overflow.\nAn attacker could possibly use this issue to cause a crash,\nresulting in a denial of service, or possibly execute\narbitrary code. (CVE-2021-31870)\n\nIt was discovered that klibc did not properly handled some\nmemory allocations on 64 bit systems. An attacker could\npossibly use this issue to cause a crash, resulting in a\ndenial of service, or possibly execute arbitrary code.\n(CVE-2021-31871)\n\nIt was discovered that klibc did not properly handled some file\nsizes values on 32 bit systems. An attacker could possibly use\nthis issue to cause a crash, resulting in a denial of service,\nor possibly execute arbitrary code. (CVE-2021-31872)\n\nIt was discovered that klibc did not properly handled some\nmemory allocations. An attacker could possibly use this issue\nto cause a crash, resulting in a denial of service, or possibly\nexecute arbitrary code. (CVE-2021-31873)",
+          "link": "https://ubuntu.com/security/notices/USN-5379-1",
+          "publishedOn": "2022-04-18T11:37:31.000Z",
+          "wordCount": 610,
+          "title": "USN-5379-1: klibc vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5378-4",
+          "author": null,
+          "description": "USN-5378-1 fixed a vulnerability in Gzip. This update provides\nthe corresponding update for Ubuntu 14.04 ESM and 16.04 ESM.\n\nOriginal advisory details:\n\n Cleemy Desu Wayo discovered that Gzip incorrectly handled certain\n filenames. If a user or automated system were tricked into performing zgrep\n operations with specially crafted filenames, a remote attacker could\n overwrite arbitrary files.",
+          "link": "https://ubuntu.com/security/notices/USN-5378-4",
+          "publishedOn": "2022-04-13T16:03:48.000Z",
+          "wordCount": 474,
+          "title": "USN-5378-4: Gzip vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5378-3",
+          "author": null,
+          "description": "USN-5378-2 fixed a vulnerability in XZ Utils. This update provides\nthe corresponding update for Ubuntu 14.04 ESM and 16.04 ESM.\n\nOriginal advisory details:\n\n Cleemy Desu Wayo discovered that Gzip incorrectly handled certain\n filenames. If a user or automated system were tricked into performing zgrep\n operations with specially crafted filenames, a remote attacker could\n overwrite arbitrary files.",
+          "link": "https://ubuntu.com/security/notices/USN-5378-3",
+          "publishedOn": "2022-04-13T14:47:08.000Z",
+          "wordCount": 474,
+          "title": "USN-5378-3: XZ Utils vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5378-2",
+          "author": null,
+          "description": "Cleemy Desu Wayo discovered that XZ Utils incorrectly handled certain\nfilenames. If a user or automated system were tricked into performing\nxzgrep operations with specially crafted filenames, a remote attacker could\noverwrite arbitrary files.",
+          "link": "https://ubuntu.com/security/notices/USN-5378-2",
+          "publishedOn": "2022-04-13T12:45:29.000Z",
+          "wordCount": 445,
+          "title": "USN-5378-2: XZ Utils vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5378-1",
+          "author": null,
+          "description": "Cleemy Desu Wayo discovered that Gzip incorrectly handled certain\nfilenames. If a user or automated system were tricked into performing zgrep\noperations with specially crafted filenames, a remote attacker could\noverwrite arbitrary files.",
+          "link": "https://ubuntu.com/security/notices/USN-5378-1",
+          "publishedOn": "2022-04-13T12:37:06.000Z",
+          "wordCount": 444,
+          "title": "USN-5378-1: Gzip vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5377-1",
+          "author": null,
+          "description": "It was discovered that the network traffic control implementation in the\nLinux kernel contained a use-after-free vulnerability. A local attacker\ncould use this to cause a denial of service (system crash) or possibly\nexecute arbitrary code. (CVE-2022-1055)\n\nYiqi Sun and Kevin Wang discovered that the cgroups implementation in the\nLinux kernel did not properly restrict access to the cgroups v1\nrelease_agent feature. A local attacker could use this to gain\nadministrative privileges. (CVE-2022-0492)\n\nJürgen Groß discovered that the Xen subsystem within the Linux kernel did\nnot adequately limit the number of events driver domains (unprivileged PV\nbackends) could send to other guest VMs. An attacker in a driver domain\ncould use this to cause a denial of service in other guest VMs.\n(CVE-2021-2871…",
+          "link": "https://ubuntu.com/security/notices/USN-5377-1",
+          "publishedOn": "2022-04-13T02:49:23.000Z",
+          "wordCount": 3517,
+          "title": "USN-5377-1: Linux kernel (BlueField) vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5376-1",
+          "author": null,
+          "description": "俞晨东 discovered that Git incorrectly handled certain repository paths\nin platforms with multiple users support. An attacker could possibly use\nthis issue to run arbitrary commands.",
+          "link": "https://ubuntu.com/security/notices/USN-5376-1",
+          "publishedOn": "2022-04-12T18:38:39.000Z",
+          "wordCount": 430,
+          "title": "USN-5376-1: Git vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5372-1",
+          "author": null,
+          "description": "Evgeny Kotkov discovered that Subversion servers did not properly follow\npath-based authorization rules in certain cases. An attacker could\npotentially use this issue to retrieve information about private paths.\n(CVE-2021-28544)\n\nThomas Weißschuh discovered that Subversion servers did not properly handle\nmemory in certain configurations. A remote attacker could potentially use\nthis issue to cause a denial of service or other unspecified impact.\n(CVE-2022-24070)",
+          "link": "https://ubuntu.com/security/notices/USN-5372-1",
+          "publishedOn": "2022-04-12T17:08:51.000Z",
+          "wordCount": 493,
+          "title": "USN-5372-1: Subversion vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5371-1",
+          "author": null,
+          "description": "It was discovered that nginx Lua module mishandled certain inputs.\nAn attacker could possibly use this issue to perform an HTTP Request\nSmuggling attack. This issue only affects Ubuntu 18.04 LTS and\nUbuntu 20.04 LTS. (CVE-2020-11724)\n\nIt was discovered that nginx Lua module mishandled certain inputs.\nAn attacker could possibly use this issue to disclose sensitive\ninformation. This issue only affects Ubuntu 18.04 LTS and\nUbuntu 20.04 LTS. (CVE-2020-36309)\n\nIt was discovered that nginx mishandled the use of \ncompatible certificates among multiple encryption protocols. \nIf a remote attacker were able to intercept the communication, \nthis issue could be used to redirect traffic between subdomains.\n(CVE-2021-3618)",
+          "link": "https://ubuntu.com/security/notices/USN-5371-1",
+          "publishedOn": "2022-04-12T15:48:57.000Z",
+          "wordCount": 568,
+          "title": "USN-5371-1: nginx vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5374-1",
+          "author": null,
+          "description": "It was discovered that libarchive incorrectly handled certain archive files.\nAn attacker could possibly use this issue to expose sensitive information.",
+          "link": "https://ubuntu.com/security/notices/USN-5374-1",
+          "publishedOn": "2022-04-11T16:23:25.000Z",
+          "wordCount": 418,
+          "title": "USN-5374-1: libarchive vulnerability",
           "imageUrl": null
         }
       ]
