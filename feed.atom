@@ -2,10 +2,312 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2022-05-09T01:51:58.046Z</updated>
+    <updated>2022-05-10T01:22:33.529Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Settlement Curbs Firm's Facial Recognition Database in US]]></title>
+        <id>24918 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/settlement-curbs-firms-facial-recognition-database-us"/>
+        <updated>2022-05-10T00:17:05.000Z</updated>
+        <summary type="html"><![CDATA[Startup Clearview AI has agreed to limit access to its controversial facial recognition database in the United States, settling a lawsuit filed by privacy advocates, a court filing showed Monday.
+
+read more]]></summary>
+        <author>
+            <name>AFP</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Check if Your F5 BIG-IP Device Is Vulnerable]]></title>
+        <id>https://www.darkreading.com/dr-tech/how-to-check-if-your-f5-big-ip-device-is-vulnerable</id>
+        <link href="https://www.darkreading.com/dr-tech/how-to-check-if-your-f5-big-ip-device-is-vulnerable"/>
+        <updated>2022-05-09T23:35:28.000Z</updated>
+        <summary type="html"><![CDATA[This Tech Tip walks network administrators through the steps to address the latest critical remote code execution vulnerability (CVE-2022-1388) in F5's BIG-IP management interface.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jocker, Other Fleeceware Surges Back Into Google Play]]></title>
+        <id>https://www.darkreading.com/mobile/joker-fleecewear-mobile-trojans-google-play</id>
+        <link href="https://www.darkreading.com/mobile/joker-fleecewear-mobile-trojans-google-play"/>
+        <updated>2022-05-09T22:19:47.000Z</updated>
+        <summary type="html"><![CDATA[Some mobile apps are being weaponized with Trojans that secretly sign Android users up for paid subscription services.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Costa Rica Declares State of Emergency Under Sustained Conti Cyberattacks]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/costa-rica-declares-state-of-emergency-under-sustained-conti-cyberattacks</id>
+        <link href="https://www.darkreading.com/attacks-breaches/costa-rica-declares-state-of-emergency-under-sustained-conti-cyberattacks"/>
+        <updated>2022-05-09T21:09:18.000Z</updated>
+        <summary type="html"><![CDATA[Conti's ransomware attack cripples Costa Rica's Treasury, sparking the US to offer a $15M bounty on the group.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Tips to Protect Your Career Against a Narcissist]]></title>
+        <id>https://www.darkreading.com/edge-articles/5-tips-for-protecting-your-career-against-a-narcissist</id>
+        <link href="https://www.darkreading.com/edge-articles/5-tips-for-protecting-your-career-against-a-narcissist"/>
+        <updated>2022-05-09T20:00:16.000Z</updated>
+        <summary type="html"><![CDATA[When you find yourself the target of a narcissist, familiarize yourself with their tactics and learn how to survive.]]></summary>
+        <author>
+            <name>Joshua Goldfarb, Fraud Solutions Architect - EMEA and APCJ, F5</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NFTs Emerge as the Next Enterprise Attack Vector]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/nft-centric-attacks-are-increasing</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/nft-centric-attacks-are-increasing"/>
+        <updated>2022-05-09T19:04:16.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity has to be a top priority as enterprises begin incorporating the use of nonfungible tokens into their business strategies, brand-awareness campaigns, and employee-communication efforts, experts say.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#473698: uClibc, uClibc-ng libraries have monotonically increasing DNS transaction ID]]></title>
+        <id>https://kb.cert.org/vuls/id/473698</id>
+        <link href="https://kb.cert.org/vuls/id/473698"/>
+        <updated>2022-05-09T18:58:24.747Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>The uClibc and uClibc-ng libraries are vulnerable to DNS cache poisoning due to the use of predicatble DNS transaction IDs when making DNS requests.  This vulnerability can allow an attacker to perform DNS cache poisoning attacks against a vulnerable environment.</p>
+<h3 id="description">Description</h3>
+<p>The uClibc and the Uclibc-ng software are lightweight C standard libraries intended for use in embedded systems and mobile devices. The <a href="https://uclibc.org/">uClibc</a> library has not been updated since May of 2012.  The newer  <a href="https://uclibc-ng.org/">uClibc-ng </a>is the currently maintained fork of uClibc, as announced on the OpenWRT mailing list in July 2014. </p>
+<p>Researchers at the Nozomi Networks Security Research Team discovered that all existing versions of uClibc and uClibc-ng libraries are vulnerable to DNS cache poisoning.  These libraries do not employ any randomization in the DNS Transaction ID (DNS TXID) field when creating a new DNS request.  This can allow an attacker to send maliciously crafted DNS packets to corrupt the DNS cache with invalid entries and redirect users to arbitrary sites.  As uClibc and uClibc-ng are used in devices such as home routers and firewalls, an attacker can perform attacks against multiple users in a shared network environment that relies on DNS responses from the vulnerable device. </p>
+<p>The DNS cache poisoning scenarios and defenses are discussed in <a href="https://tools.ietf.org/html/rfc5452">IETF RFC5452</a>.   </p>
+<h3 id="impact">Impact</h3>
+<p>The lack of DNS response validation can allow an attacker to use unsolicited DNS responses to poison the DNS cache and redirect users to malicious sites.</p>
+<h3 id="solution">Solution</h3>
+<h4 id="develop-and-apply-updates">Develop and apply updates</h4>
+<p>If your vendor has developed a patched version of software to address this issue, apply the updates provided by your vendor.  If you have a forked or customized version of uClibc or uClibc-ng, develop a patch to ensure the <code>dns_lookup</code> function provides adequate randomization of DNS TXID's while making DNS requests.</p>
+<h4 id="follow-security-best-practices">Follow security best practices</h4>
+<p>Consider the following security best-practices to protect DNS infrastructure:</p>
+<ul>
+<li>Prevent direct exposure of IoT devices and lightweight devices over the Internet to minimize attacks against a caching DNS server.</li>
+<li>Provide secure DNS recursion service with features such as DNSSEC validation and the interim <a href="https://astrolavos.gatech.edu/articles/increased_dns_resistance.pdf">0x20-bit encoding</a> as part of enterprise DNS recursion services where applicable.</li>
+<li>Implement a <a href="https://en.wikipedia.org/wiki/Secure_by_default">Secure By Default </a> configuration suitable for your operating environment (e.g., disable caching on embedded IoT devices when an upstream caching resolver is available).</li>
+</ul>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the Nozomi Networks Security Research Team for this <a href="https://www.nozominetworks.com/blog/nozomi-networks-discovers-unpatched-dns-bug-in-popular-c-standard-library-putting-iot-at-risk/">report</a></p>
+<p>This document was written by Vijay Sarvepalli and Timur Snoke.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deloitte Launches Expanded Cloud Security Management Platform]]></title>
+        <id>https://www.darkreading.com/cloud/deloitte-launches-expanded-cloud-security-management-platform</id>
+        <link href="https://www.darkreading.com/cloud/deloitte-launches-expanded-cloud-security-management-platform"/>
+        <updated>2022-05-09T17:27:48.000Z</updated>
+        <summary type="html"><![CDATA[The CSM by Deloitte platform includes cloud security policy orchestration, cyber predictive analytics, attack surface management, and cyber cloud managed services.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[U.S. Offers $15 Million Bounty for Leaders of Conti Ransomware Gang]]></title>
+        <id>24917 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/us-offers-15-million-bounty-leaders-conti-ransomware-gang"/>
+        <updated>2022-05-09T17:19:16.000Z</updated>
+        <summary type="html"><![CDATA[Eager to hunt down key leaders of the Conti ransomware gang, the United States Government is willing to pay up to $10 million for information leading to the identification and/or location of anyone holding a key leadership role in the group. 
+
+read more]]></summary>
+        <author>
+            <name>SecurityWeek News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability mitigated in the third-party Data Connector used in Azure Synapse pipelines and Azure Data Factory (CVE-2022-29972)]]></title>
+        <id>https://msrc-blog.microsoft.com/?p=14165</id>
+        <link href="https://msrc-blog.microsoft.com/2022/05/09/vulnerability-mitigated-in-the-third-party-data-connector-used-in-azure-synapse-pipelines-and-azure-data-factory-cve-2022-29972/"/>
+        <updated>2022-05-09T16:01:49.000Z</updated>
+        <summary type="html"><![CDATA[Summary Microsoft recently mitigated a vulnerability in Azure Data Factory and Azure Synapse pipelines. The vulnerability was specific to the third-party Open Database Connectivity (ODBC) driver used to connect to Amazon Redshift in Azure Synapse pipelines and Azure Data Factory Integration Runtime (IR) and did not impact Azure Synapse as a whole. The vulnerability could …
+  Vulnerability mitigated in the third-party Data Connector used in Azure Synapse pipelines and Azure Data Factory (CVE-2022-29972) Read More »]]></summary>
+        <author>
+            <name>msrc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Mail Now Blocks Email Trackers]]></title>
+        <id>https://www.schneier.com/blog/archives/2022/05/apple-mail-now-blocks-email-trackers.html</id>
+        <link href="https://www.schneier.com/blog/archives/2022/05/apple-mail-now-blocks-email-trackers.html"/>
+        <updated>2022-05-09T14:39:28.000Z</updated>
+        <summary type="html"><![CDATA[<p>Apple Mail now <a href="https://www.wired.com/story/apple-mail-blocks-email-tracking-heres-what-it-means/">blocks</a> email trackers by default.</p>
+<blockquote><p>Most email newsletters you get include an invisible &#8220;image,&#8221; typically a single white pixel, with a unique file name. The server keeps track of every time this &#8220;image&#8221; is opened and by which IP address. This quirk of internet history means that marketers can track exactly when you open an email and your IP address, which can be used to roughly work out your location.</p>
+<p>So, how does Apple Mail stop this? By caching. Apple Mail downloads all images for all emails before you open them. Practically speaking, that means every message downloaded to Apple Mail is marked &#8220;read,&#8221; regardless of whether you open it. Apples also routes the download through two different proxies, meaning your precise location also can&#8217;t be tracked...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Security Stuff Happens: Where Do You Go From Here?]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/security-stuff-happens-where-do-you-go-from-here-</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/security-stuff-happens-where-do-you-go-from-here-"/>
+        <updated>2022-05-09T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Despite what it may feel like when you're in the trenches after a security incident, the world doesn't stop moving. (Part 3 of a series.)]]></summary>
+        <author>
+            <name>Tyler Farrar, CISO, Exabeam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quantum leap: Biden administration commits to ensuring US leadership in emerging tech]]></title>
+        <id>quantum-leap-biden-administration-commits-to-ensuring-us-leadership-in-emerging-tech</id>
+        <link href="https://portswigger.net/daily-swig/quantum-leap-biden-administration-commits-to-ensuring-us-leadership-in-emerging-tech"/>
+        <updated>2022-05-09T13:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Government sets out plan for post-quantum encryption]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Regulator Proposes $1 Million Fine for Colonial Pipeline One Year After Cyberattack]]></title>
+        <id>24916 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/regulator-proposes-1-million-fine-colonial-pipeline-one-year-after-cyberattack"/>
+        <updated>2022-05-09T13:55:07.000Z</updated>
+        <summary type="html"><![CDATA[read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BIG-IP: Proof-of-concept released for RCE vulnerability in F5 network management tool]]></title>
+        <id>big-ip-proof-of-concept-released-for-rce-vulnerability-in-f5-network-management-tool</id>
+        <link href="https://portswigger.net/daily-swig/big-ip-proof-of-concept-released-for-rce-vulnerability-in-f5-network-management-tool"/>
+        <updated>2022-05-09T12:50:34.000Z</updated>
+        <summary type="html"><![CDATA[Users should patch immediately]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ransomware Attack Hits Production Facilities of Agricultural Equipment Giant AGCO]]></title>
+        <id>24915 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/ransomware-attack-hits-production-facilities-agricultural-equipment-giant-agco"/>
+        <updated>2022-05-09T12:43:56.000Z</updated>
+        <summary type="html"><![CDATA[Agricultural equipment giant AGCO says its business operations have been impacted after falling victim to a ransomware attack last week.
+
+AGCO designs, makes, and distributes agricultural machinery and precision technology, offering equipment under brands such as Challenger, Fendt, Massey Ferguson, and Valtra.
+
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SHIELDS UP in bite sized chunks]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-6374934327590250476</id>
+        <link href="https://thehackernews.com/2022/05/shields-up-in-bite-sized-chunks.html"/>
+        <updated>2022-05-09T12:40:09.000Z</updated>
+        <summary type="html"><![CDATA[Unless you are living completely off the grid, you know the horrifying war in Ukraine and the related geopolitical tensions have dramatically increased cyberattacks and the threat of even more to come.
+The Cybersecurity and Infrastructure Security Agency (CISA) provides guidance to US federal agencies in their fight against cybercrime, and the agency's advice has proven so valuable that it's]]></summary>
+        <author>
+            <name>noreply@blogger.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Experts Sound Alarm on DCRat Backdoor Being Sold on Russian Hacking Forums]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-938015546747927646</id>
+        <link href="https://thehackernews.com/2022/05/experts-sound-alarm-on-dcrat-backdoor.html"/>
+        <updated>2022-05-09T12:27:01.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have shed light on an actively maintained remote access trojan called DCRat (aka DarkCrystal RAT) that's offered on sale for "dirt cheap" prices, making it accessible to professional cybercriminal groups and novice actors alike.
+"Unlike the well-funded, massive Russian threat groups crafting custom malware [...], this remote access Trojan (RAT) appears to be the work of]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RubyGems Fixes Critical Gem Takeover Vulnerability]]></title>
+        <id>24914 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/rubygems-fixes-critical-gem-takeover-vulnerability"/>
+        <updated>2022-05-09T11:32:32.000Z</updated>
+        <summary type="html"><![CDATA[RubyGems has addressed a critical vulnerability that could have allowed any RubyGems.org user to remove and replace certain Ruby gems.
+
+A package hosting service for the Ruby programming language, RubyGems.org hosts more than 170,000 gems. RubyGems also functions as a package manager.
+
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[F5 BIG-IP in Attacker Crosshairs Following Disclosure of Critical Vulnerability]]></title>
+        <id>24913 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/f5-big-ip-attacker-crosshairs-following-disclosure-critical-vulnerability"/>
+        <updated>2022-05-09T11:06:56.000Z</updated>
+        <summary type="html"><![CDATA[Organizations using F5’s BIG-IP application delivery controllers are advised to immediately update their systems as a recently patched vulnerability is already being exploited in the wild.
+
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Another Set of Joker Trojan-Laced Android Apps Resurfaces on Google Play Store]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-5512624803183028940</id>
+        <link href="https://thehackernews.com/2022/05/another-set-of-joker-trojan-laced.html"/>
+        <updated>2022-05-09T10:38:34.000Z</updated>
+        <summary type="html"><![CDATA[A new set of trojanized apps spread via the Google Play Store has been observed distributing the notorious Joker malware on compromised Android devices.
+Joker, a repeat offender, refers to a class of harmful apps that are used for billing and SMS fraud, while also performing a number of actions of a malicious hacker's choice, such as stealing text messages, contact lists, and device information.]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ukrainian CERT Warns Citizens of a New Wave of Attacks Distributing Jester Malware]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-3747176288782621273</id>
+        <link href="https://thehackernews.com/2022/05/ukrainian-cert-warns-citizens-of-new.html"/>
+        <updated>2022-05-09T08:55:28.000Z</updated>
+        <summary type="html"><![CDATA[The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of phishing attacks that deploy an information-stealing malware called Jester Stealer on compromised systems.
+The mass email campaign carries the subject line "chemical attack" and contains a link to a macro-enabled Microsoft Excel file, opening which leads to computers getting infected with Jester Stealer.
+The attack, which]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Develop RCE Exploit for the Latest F5 BIG-IP Vulnerability]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-2527292358474747802</id>
+        <link href="https://thehackernews.com/2022/05/researchers-develop-rce-exploit-for.html"/>
+        <updated>2022-05-09T08:44:57.000Z</updated>
+        <summary type="html"><![CDATA[Days after F5 released patches for a critical remote code execution vulnerability affecting its BIG-IP family of products, security researchers are warning that they were able to create an exploit for the shortcoming.
+Tracked CVE-2022-1388 (CVSS score: 9.8), the flaw relates to an iControl REST authentication bypass that, if successfully exploited, could lead to remote code execution, allowing]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5244-2: DBus vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5244-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-5244-2"/>
+        <updated>2022-05-09T05:55:53.000Z</updated>
+        <summary type="html"><![CDATA[USN-5244-1 fixed a vulnerability in DBus. This update provides
+the corresponding update for Ubuntu 18.04 LTS and Ubuntu 20.04 LTS.
+
+Original advisory details:
+
+ Daniel Onaca discovered that DBus contained a use-after-free vulnerability,
+ caused by the incorrect handling of usernames sharing the same UID. An
+ attacker could possibly use this issue to cause DBus to crash, resulting
+ in a denial of service.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[U.S. Offering $10 Million Reward for Information on Conti Ransomware Hackers]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-4221102643833651592</id>
+        <link href="https://thehackernews.com/2022/05/us-offering-10-million-reward-for.html"/>
+        <updated>2022-05-09T03:28:43.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. State Department has announced rewards of up to $10 million for any information leading to the identification of key individuals who are part of the infamous Conti cybercrime gang.
+Additionally, it's offering another $5 million for intelligence information that could help arrest or convict individuals who are conspiring or attempting to affiliate with the group in a ransomware attack.]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[U.S. Sanctions Cryptocurrency Mixer Blender for Helping North Korea Launder Millions]]></title>
         <id>tag:blogger.com,1999:blog-4802841478634147276.post-4876283572118121423</id>
@@ -7919,18 +8221,6 @@ read more]]></summary>
 "This service will keep Windows and Office software on enrolled endpoints up-to-date automatically, at no additional cost," said Lior Bela, senior product marketing manager at Microsoft, in a post last week. "The second Tuesday of every month will be]]></summary>
         <author>
             <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accounts Deceivable: Email Scam Costliest Type of Cybercrime]]></title>
-        <id>24720 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/accounts-deceivable-email-scam-costliest-type-cybercrime"/>
-        <updated>2022-04-10T10:49:13.000Z</updated>
-        <summary type="html"><![CDATA[A shopping spree in Beverly Hills, a luxury vacation in Mexico, a bank account that jumped from $299.77 to $1.4 million overnight.
-
-read more]]></summary>
-        <author>
-            <name>Associated Press</name>
         </author>
     </entry>
 </feed>
