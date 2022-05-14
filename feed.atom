@@ -2,10 +2,278 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2022-05-13T01:55:54.535Z</updated>
+    <updated>2022-05-14T02:00:14.576Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CISA Temporarily Removes CVE-2022-26925 from Known Exploited Vulnerability Catalog]]></title>
+        <id>17630 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/05/13/cisa-temporarily-removes-cve-2022-26925-known-exploited"/>
+        <updated>2022-05-14T00:20:30.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: May 13, 2022
+CISA is temporarily removing CVE-2022-26925 from its Known Exploited Vulnerability Catalog due to a risk of authentication failures when the May 10, 2022 Microsoft rollup update is applied to domain controllers. After installing May 10, 2022 rollup update on domain controllers, organizations might experience authentication failures on the server or client for services, such as Network Policy Server (NPS), Routing and Remote access Service (RRAS), Radius, Extensible Authentication Protocol (EAP), and Protected Extensible Authentication Protocol (PEAP). Microsoft notified CISA of this issue, which is related to how the mapping of certificates to machine accounts is being handled by the domain controller.
+For more information see the Microsoft Knowledge Base article, KB5014754—Certificate-based authentication changes on Windows domain controllers: Key Distribution Center registry key.
+Note: installation of updates released May 10, 2022, on client Windows devices and non-domain controller Windows Servers will not cause this issue and is still strongly encouraged. This issue only affects May 10, 2022 updates installed on servers used as domain controllers. Organizations should continue to apply updates to client Windows devices and non-domain controller Windows Servers.
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Friday Squid Blogging: Squidmobile]]></title>
+        <id>https://www.schneier.com/blog/archives/2022/05/friday-squid-blogging-squidmobile.html</id>
+        <link href="https://www.schneier.com/blog/archives/2022/05/friday-squid-blogging-squidmobile.html"/>
+        <updated>2022-05-13T21:10:52.000Z</updated>
+        <summary type="html"><![CDATA[<p>The <a href="https://www.reddit.com/r/ofcoursethatsathing/comments/u6y5q9/the_squid_mobile/">Squidmobile</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.</p>
+<p>Read my blog posting guidelines <a href="https://www.schneier.com/blog/archives/2017/03/commenting_poli.html">here</a>.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Agrees to International Electronic Cybercrime Evidence Swap]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/us-agrees-to-international-electronic-cybercrime-evidence</id>
+        <link href="https://www.darkreading.com/threat-intelligence/us-agrees-to-international-electronic-cybercrime-evidence"/>
+        <updated>2022-05-13T20:18:37.000Z</updated>
+        <summary type="html"><![CDATA[The Budapest Convention is a multinational coalition that agrees to share electronic evidence across international jurisdictions to track down cybercriminals.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISO Shares Top Strategies to Communicate Security's Value to the Biz]]></title>
+        <id>https://www.darkreading.com/operations/black-hat-asia-top-strategies-communicate-security-value-biz</id>
+        <link href="https://www.darkreading.com/operations/black-hat-asia-top-strategies-communicate-security-value-biz"/>
+        <updated>2022-05-13T20:16:41.000Z</updated>
+        <summary type="html"><![CDATA[In a keynote address at Black Hat Asia in Singapore this week, CISO and former NASA security engineer George Do discussed his go-to model for measuring security effectiveness – and getting others in the organization to listen.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black Hat Asia: Democracy's Survival Depends on Taming Technology]]></title>
+        <id>https://www.darkreading.com/risk/black-hat-asia-democracy-survival-taming-technology</id>
+        <link href="https://www.darkreading.com/risk/black-hat-asia-democracy-survival-taming-technology"/>
+        <updated>2022-05-13T19:45:09.000Z</updated>
+        <summary type="html"><![CDATA[The conference opens with stark outlook on the future of global democracy — currently squeezed between Silicon Valley and China.]]></summary>
+        <author>
+            <name>Becky Bracken, Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux, OpenSSF Champion Plan to Improve Open Source Security]]></title>
+        <id>https://www.darkreading.com/application-security/linux-openssf-champion-10-point-plan-to-improve-open-source-security</id>
+        <link href="https://www.darkreading.com/application-security/linux-openssf-champion-10-point-plan-to-improve-open-source-security"/>
+        <updated>2022-05-13T17:05:58.000Z</updated>
+        <summary type="html"><![CDATA[The White House and tech industry pledge $150 million over two years to boost open source resiliency and supply chain security.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anatomy of a Security Update]]></title>
+        <id>https://msrc-blog.microsoft.com/?p=14212</id>
+        <link href="https://msrc-blog.microsoft.com/2022/05/13/anatomy-of-a-security-update/"/>
+        <updated>2022-05-13T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Microsoft Security Response Center is part of the defender community and on the front line of security response for our customers and the company. Our mission is to protect customers and Microsoft from current and emerging threats related to security and privacy. We monitor threats and provide updated tools and guidance to help organizations …
+  Anatomy of a Security Update Read More »]]></summary>
+        <author>
+            <name>msrc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black Hat Asia:&nbsp;‘If democracy is to survive, technology will have to be tamed’]]></title>
+        <id>black-hat-asia-nbsp-if-democracy-is-to-survive-technology-will-have-to-be-tamed</id>
+        <link href="https://portswigger.net/daily-swig/black-hat-asia-nbsp-if-democracy-is-to-survive-technology-will-have-to-be-tamed"/>
+        <updated>2022-05-13T16:09:16.000Z</updated>
+        <summary type="html"><![CDATA[Indian tech policy expert Samir Saran says it’s not too late to ‘course-correct’ after a ‘challenging decade’ for liberal democracies]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Iran-Linked OilRig APT Caught Using New Backdoor]]></title>
+        <id>24964 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/iran-linked-oilrig-apt-caught-using-new-backdoor"/>
+        <updated>2022-05-13T15:51:38.000Z</updated>
+        <summary type="html"><![CDATA[The Iran-linked hacking group OilRig was observed using a new backdoor in an attack against a government official within Jordan’s foreign ministry, according to new research published this week.
+
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackers Can Make Siemens Building Automation Controllers 'Unavailable for Days']]></title>
+        <id>24963 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/hackers-can-make-siemens-building-automation-controllers-unavailable-days"/>
+        <updated>2022-05-13T15:11:38.000Z</updated>
+        <summary type="html"><![CDATA[A vulnerability affecting building automation controllers from Siemens can be exploited to disrupt a device for an extended period of time, according to OT and IoT cybersecurity firm Nozomi Networks.
+
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Log4Shell Exploit Threatens Enterprise Data Lakes, AI Poisoning]]></title>
+        <id>https://www.darkreading.com/cloud/log4shell-exploit-data-lake-ai-poisoning</id>
+        <link href="https://www.darkreading.com/cloud/log4shell-exploit-data-lake-ai-poisoning"/>
+        <updated>2022-05-13T14:59:09.000Z</updated>
+        <summary type="html"><![CDATA[A brand-new attack vector lays open enterprise data lakes, threatening grave consequences for AI use cases like telesurgery or autonomous cars.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Transformation: 3 Sessions to Attend at RSA 2022]]></title>
+        <id>https://www.darkreading.com/cloud/data-transformation-sessions-to-track-at-rsa-2022</id>
+        <link href="https://www.darkreading.com/cloud/data-transformation-sessions-to-track-at-rsa-2022"/>
+        <updated>2022-05-13T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Three RSA 2022 sessions take deep dives into the security considerations around data cloud transformation.]]></summary>
+        <author>
+            <name>Liat Hayun, Co-Founder and CEO, Eureka Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brace of Icinga web vulnerabilities ‘easily chained’ to hack IT monitoring software]]></title>
+        <id>brace-of-icinga-web-vulnerabilities-easily-chained-to-hack-it-monitoring-software</id>
+        <link href="https://portswigger.net/daily-swig/brace-of-icinga-web-vulnerabilities-easily-chained-to-hack-it-monitoring-software"/>
+        <updated>2022-05-13T13:49:08.000Z</updated>
+        <summary type="html"><![CDATA[Open source IT monitoring system gets patched]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Avoid Falling Victim to PayOrGrief's Next Rebrand]]></title>
+        <id>https://www.darkreading.com/dr-tech/how-to-avoid-falling-victim-to-payorgrief-s-next-rebrand</id>
+        <link href="https://www.darkreading.com/dr-tech/how-to-avoid-falling-victim-to-payorgrief-s-next-rebrand"/>
+        <updated>2022-05-13T13:41:25.000Z</updated>
+        <summary type="html"><![CDATA[The group that shut down the second largest city in Greece was not new but a relaunch of DoppelPaymer.]]></summary>
+        <author>
+            <name>Oakley Cox, Director of Analysis, Darktrace</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[devOcean Emerges From Stealth With Cloud-Native Security Operations Platform]]></title>
+        <id>24962 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/devocean-emerges-stealth-cloud-native-security-operations-platform"/>
+        <updated>2022-05-13T13:26:53.000Z</updated>
+        <summary type="html"><![CDATA[devOcean has emerged from stealth mode with a cloud-native security operations platform and $6 million in funding. The company’s seed round was led by Glilot Capital Partners, with participation from angel investors.
+
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Vulnerability Allows Remote Hacking of Zyxel Firewalls]]></title>
+        <id>24961 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/critical-vulnerability-allows-remote-hacking-zyxel-firewalls"/>
+        <updated>2022-05-13T12:41:23.000Z</updated>
+        <summary type="html"><![CDATA[Thousands of Zyxel firewalls could be vulnerable to remote attacks due to a vulnerability discovered recently by cybersecurity firm Rapid7. The vendor was quick to release a patch, but it did not immediately inform customers about it.
+
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ukrainian hacker jailed for selling account credentials on the dark web]]></title>
+        <id>ukrainian-hacker-jailed-for-selling-account-credentials-on-the-dark-web</id>
+        <link href="https://portswigger.net/daily-swig/ukrainian-hacker-jailed-for-selling-account-credentials-on-the-dark-web"/>
+        <updated>2022-05-13T12:27:38.000Z</updated>
+        <summary type="html"><![CDATA[Botnet operator had thousands of hacked credential listings, according to the DoJ]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Created 'Open-Source Maintenance Crew' to Help Secure Critical Projects]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-6770446414677718708</id>
+        <link href="https://thehackernews.com/2022/05/google-created-open-source-maintenance.html"/>
+        <updated>2022-05-13T12:26:14.000Z</updated>
+        <summary type="html"><![CDATA[Google on Thursday announced the creation of a new "Open Source Maintenance Crew" to focus on bolstering the security of critical open source projects.
+Additionally, the tech giant pointed out Open Source Insights as a tool for analyzing packages and their dependency graphs, using it to determine "whether a vulnerability in a dependency might affect your code."
+"With this information, developers]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['IceApple' Post-Exploitation Framework Created for Long-Running Operations]]></title>
+        <id>24960 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/iceapple-post-exploitation-framework-created-long-running-operations"/>
+        <updated>2022-05-13T11:22:38.000Z</updated>
+        <summary type="html"><![CDATA[CrowdStrike has detailed a new post-exploitation framework that could be the work of a state-sponsored threat actor, one likely linked to China.
+
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Vulnerabilities Provide Root Access to InHand Industrial Routers]]></title>
+        <id>24959 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/critical-vulnerabilities-provide-root-access-inhand-industrial-routers"/>
+        <updated>2022-05-13T11:08:59.000Z</updated>
+        <summary type="html"><![CDATA[A total of 17 vulnerabilities have been found in a wireless industrial router made by InHand Networks, including flaws that can be chained to gain root access by getting a user to click on a malicious link.
+
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ukrainian Sentenced to US Prison for Selling Hacked Credentials]]></title>
+        <id>24958 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/ukrainian-sentenced-us-prison-selling-hacked-credentials"/>
+        <updated>2022-05-13T10:43:10.000Z</updated>
+        <summary type="html"><![CDATA[A Ukrainian national has been sentenced to four years in a US prison for decrypting stolen usernames and passwords and selling them on a dark web marketplace.
+
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Organizations in Europe Targeted With New 'Nerbian' RAT]]></title>
+        <id>24957 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/organizations-europe-targeted-new-nerbian-rat"/>
+        <updated>2022-05-13T10:12:51.000Z</updated>
+        <summary type="html"><![CDATA[Proofpoint’s security researchers have documented a new remote access trojan (RAT) being used in a series of recent attacks targeting various industries in multiple European countries.
+
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Saitama backdoor Targeted Official from Jordan's Foreign Ministry]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-1086650062675959185</id>
+        <link href="https://thehackernews.com/2022/05/new-saitama-backdoor-targeted-official.html"/>
+        <updated>2022-05-13T09:32:11.000Z</updated>
+        <summary type="html"><![CDATA[A spear-phishing campaign targeting Jordan's foreign ministry has been observed dropping a new stealthy backdoor dubbed Saitama.
+Researchers from Malwarebytes and Fortinet FortiGuard Labs attributed the campaign to an Iranian cyber espionage threat actor tracked under the moniker APT34, citing resemblances to past campaigns staged by the group.
+"Like many of these attacks, the email contained a]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zyxel Releases Patch for Critical Firewall OS Command Injection Vulnerability]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-5151039972500156224</id>
+        <link href="https://thehackernews.com/2022/05/zyxel-releases-patch-for-critical.html"/>
+        <updated>2022-05-13T08:16:16.000Z</updated>
+        <summary type="html"><![CDATA[Zyxel has moved to address a critical security vulnerability affecting Zyxel firewall devices that enables unauthenticated and remote attackers to gain arbitrary code execution.
+"A command injection vulnerability in the CGI program of some firewall versions could allow an attacker to modify specific files and then execute some OS commands on a vulnerable device," the company said in an advisory]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Transforming SQL Queries Bypasses WAF Security]]></title>
         <id>https://www.darkreading.com/cloud/transforming-sql-queries-bypasses-waf-security</id>
@@ -8489,348 +8757,6 @@ Elementor is a drag-and-drop website builder for WordPress that has more than 5 
 read more]]></summary>
         <author>
             <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Misconceptions of 2021's Black Swan Cyber Events]]></title>
-        <id>https://www.darkreading.com/attacks-breaches/the-misconceptions-of-2021-s-black-swan-cyber-events</id>
-        <link href="https://www.darkreading.com/attacks-breaches/the-misconceptions-of-2021-s-black-swan-cyber-events"/>
-        <updated>2022-04-14T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Organizations can defend themselves from future unknows attacks by implementing targeted security hardening measures, turning on built-in security protections, and leveraging existing technology stack to achieve microsegmentation and credential hygiene.]]></summary>
-        <author>
-            <name>Yossi Torati, Enterprise Security Department Manager, Sygnia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Several Vulnerabilities Allow Disabling of Palo Alto Networks Products]]></title>
-        <id>24759 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/several-vulnerabilities-allow-disabling-palo-alto-networks-products"/>
-        <updated>2022-04-14T13:39:45.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity firm Palo Alto Networks has informed customers about several vulnerabilities that could allow a malicious actor to disable its products.
-
-read more]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ethereum Developer Jailed 63 Months for Helping North Korea Evade Sanctions]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-4978044311603237196</id>
-        <link href="https://thehackernews.com/2022/04/ethereum-developer-jailed-63-months-for.html"/>
-        <updated>2022-04-14T13:17:09.000Z</updated>
-        <summary type="html"><![CDATA[A U.S. court has sentenced former Ethereum developer Virgil Griffith to five years and three months in prison and pay a $100,000 fine for conspiring with North Korea to help use cryptocurrencies to circumvent sanctions imposed on the country.
-"There is no question North Korea poses a national security threat to our nation, and the regime has shown time and again it will stop at nothing to ignore]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New EnemyBot DDoS Botnet Borrows Exploit Code from Mirai and Gafgyt]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-192840083793169378</id>
-        <link href="https://thehackernews.com/2022/04/new-enemybot-ddos-botnet-borrows.html"/>
-        <updated>2022-04-14T13:02:45.000Z</updated>
-        <summary type="html"><![CDATA[A threat group that pursues crypto mining and distributed denial-of-service (DDoS) attacks has been linked to a new botnet called Enemybot, which has been discovered enslaving routers and Internet of Things (IoT) devices since last month.
-"This botnet is mainly derived from Gafgyt's source code but has been observed to borrow several modules from Mirai's original source code," Fortinet]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cisco Patches Critical Vulnerability in Wireless LAN Controller]]></title>
-        <id>24758 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/cisco-patches-critical-vulnerability-wireless-lan-controller"/>
-        <updated>2022-04-14T11:41:42.000Z</updated>
-        <summary type="html"><![CDATA[Cisco announced on Wednesday that updates released for its Wireless LAN Controller (WLC) software address a critical vulnerability that could allow an attacker to bypass authentication.
-
-read more]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia-Linked Pipedream/Incontroller ICS Malware Designed to Target Energy Facilities]]></title>
-        <id>24757 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/russia-linked-pipedreamincontroller-ics-malware-designed-target-energy-facilities"/>
-        <updated>2022-04-14T10:59:28.000Z</updated>
-        <summary type="html"><![CDATA[Schneider Electric says no evidence that Incontroller/Pipedream malware exploits vulnerabilities 
-
-read more]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rarible NFT Marketplace Flaw Could've Let Attackers Hijack Crypto Wallets]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-1641620195910870899</id>
-        <link href="https://thehackernews.com/2022/04/rarible-nft-marketplace-flaw-couldve.html"/>
-        <updated>2022-04-14T10:51:28.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed a now-fixed security flaw in the Rarible non-fungible token (NFT) marketplace that, if successfully exploited, could have led to account takeover and theft of cryptocurrency assets.
-
-"By luring victims to click on a malicious NFT, an attacker can take full control of the victim's crypto wallet to steal funds," Check Point researchers Roman Zaikin, Dikla]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Critical VMware Workspace ONE Access Flaw Under Active Exploitation in the Wild]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-1576975630387575667</id>
-        <link href="https://thehackernews.com/2022/04/vmware-releases-patches-for-critical.html"/>
-        <updated>2022-04-14T04:51:58.000Z</updated>
-        <summary type="html"><![CDATA[A week after VMware released patches to remediate eight security vulnerabilities in VMware Workspace ONE Access, threat actors have begun to actively exploit one of the critical flaws in the wild.
-Tracked as CVE-2022-22954, the critical issue relates to a remote code execution vulnerability that stems from server-side template injection in VMware Workspace ONE Access and Identity Manager. The]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Secure Systems Need Hardware-Enhanced Tools, Intel Says]]></title>
-        <id>https://www.darkreading.com/emerging-tech/secure-systems-need-hardware-enhanced-tools-intel-says</id>
-        <link href="https://www.darkreading.com/emerging-tech/secure-systems-need-hardware-enhanced-tools-intel-says"/>
-        <updated>2022-04-13T23:00:42.000Z</updated>
-        <summary type="html"><![CDATA[A new Intel study finds that while adoption of hardware-assisted security is still low, there is a lot of interest in how it can secure system layers such as the operating system and hypervisor.]]></summary>
-        <author>
-            <name>Dark Reading Staff, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Leads Operation to Disrupt Zloader Botnet]]></title>
-        <id>https://www.darkreading.com/threat-intelligence/microsoft-leads-operation-to-disrupt-zloader-botnet-activity</id>
-        <link href="https://www.darkreading.com/threat-intelligence/microsoft-leads-operation-to-disrupt-zloader-botnet-activity"/>
-        <updated>2022-04-13T22:45:04.000Z</updated>
-        <summary type="html"><![CDATA[The banking Trojan-turned-ransomware-distribution tool has been a potent threat since late 2019.]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VMWare Confirms Workspace One Exploits in the Wild]]></title>
-        <id>24756 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/vmware-confirms-workspace-one-exploits-wild"/>
-        <updated>2022-04-13T22:36:49.000Z</updated>
-        <summary type="html"><![CDATA[Less than a week after patching critical security defects affecting multiple enterprise-facing products, VMWare is warning that one of the flaws is being exploited in the wild.
-
-read more]]></summary>
-        <author>
-            <name>Ryan Naraine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KKR to Acquire Barracuda Networks]]></title>
-        <id>https://www.darkreading.com/cloud/kkr-to-acquire-barracuda-networks</id>
-        <link href="https://www.darkreading.com/cloud/kkr-to-acquire-barracuda-networks"/>
-        <updated>2022-04-13T21:40:20.000Z</updated>
-        <summary type="html"><![CDATA[The transaction is anticipated to close by the end of the year.]]></summary>
-        <author>
-            <name>Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[More Than 60% of Organizations Suffered a Breach in the Past 12 Months]]></title>
-        <id>https://www.darkreading.com/attacks-breaches/more-than-60-of-organizations-suffered-a-breach-in-the-past-12-months</id>
-        <link href="https://www.darkreading.com/attacks-breaches/more-than-60-of-organizations-suffered-a-breach-in-the-past-12-months"/>
-        <updated>2022-04-13T21:40:04.000Z</updated>
-        <summary type="html"><![CDATA[Firms focus too narrowly on external attackers when it's insiders, third parties, and stolen assets that cause many breaches, new study shows.]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Palo Alto Networks Extends SASE to Protect Home Networks With Okyo Garde Enterprise Edition]]></title>
-        <id>https://www.darkreading.com/remote-workforce/palo-alto-networks-extends-sase-to-protect-home-networks-with-okyo-garde-enterprise-edition</id>
-        <link href="https://www.darkreading.com/remote-workforce/palo-alto-networks-extends-sase-to-protect-home-networks-with-okyo-garde-enterprise-edition"/>
-        <updated>2022-04-13T21:37:57.000Z</updated>
-        <summary type="html"><![CDATA[Okyo Garde Enterprise Edition includes an option for at-home employees to create separate private and personal networks.]]></summary>
-        <author>
-            <name>Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The XDR Revolution: Threat Detection and Response for All!]]></title>
-        <id>https://www.darkreading.com/omdia/the-xdr-revolution-threat-detection-and-response-for-all-</id>
-        <link href="https://www.darkreading.com/omdia/the-xdr-revolution-threat-detection-and-response-for-all-"/>
-        <updated>2022-04-13T20:51:48.000Z</updated>
-        <summary type="html"><![CDATA[In this webinar replay, Omdia outlines the ways in which XDR facilitates faster and easier threat detection and response, and key points organizations should consider when evaluating XDR technology.]]></summary>
-        <author>
-            <name>Eric Parizo, Principal Analyst, Omdia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Securing the Stopgap: Controlling Access to SaaS Applications]]></title>
-        <id>https://www.darkreading.com/edge-articles/securing-the-stopgap-controlling-access-to-saas-applications</id>
-        <link href="https://www.darkreading.com/edge-articles/securing-the-stopgap-controlling-access-to-saas-applications"/>
-        <updated>2022-04-13T20:03:40.000Z</updated>
-        <summary type="html"><![CDATA[If enterprises continue to use emergency measures as long-term solutions, they must protect their IT estate.]]></summary>
-        <author>
-            <name>Corey O'Connor, Director of Product Marketing, DoControl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[U.S. Warns New Sophisticated Malware Can Target ICS/SCADA Devices]]></title>
-        <id>24755 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/us-warns-new-sophisticated-malware-can-target-icsscada-devices"/>
-        <updated>2022-04-13T19:37:53.000Z</updated>
-        <summary type="html"><![CDATA[read more]]></summary>
-        <author>
-            <name>Ryan Naraine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Releases Advisory to Address Critical Remote Code Execution Vulnerability (CVE-2022-26809)]]></title>
-        <id>17519 at https://us-cert.cisa.gov</id>
-        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/04/13/microsoft-releases-advisory-address-critical-remote-code-execution"/>
-        <updated>2022-04-13T19:30:47.000Z</updated>
-        <summary type="html"><![CDATA[Original release date: April 13, 2022
-Microsoft has released an advisory to address CVE-2022-26809, a critical remote code execution vulnerability in Remote Procedure Call Runtime Library. A remote, unauthenticated attacker could exploit this vulnerability to take control of an affected system. 
-CISA encourages users and administrators to review Microsoft’s advisory and apply the recommended mitigations.
-This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Supply and Demand Hits Cybersecurity: Navigating the Skills Shortage]]></title>
-        <id>https://www.darkreading.com/cloud/supply-and-demand-hits-cybersecurity-navigating-the-skills-shortage</id>
-        <link href="https://www.darkreading.com/cloud/supply-and-demand-hits-cybersecurity-navigating-the-skills-shortage"/>
-        <updated>2022-04-13T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As everyone feels the pain of the skills crunch, what can companies do to secure the talent they desperately need? It comes down to making two key changes.]]></summary>
-        <author>
-            <name>Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Seizes Control of Notorious Zloader Cybercrime Botnet]]></title>
-        <id>24754 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/microsoft-seizes-control-notorious-zloader-cybercrime-botnet"/>
-        <updated>2022-04-13T17:58:32.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has disrupted the operation of one of the most notorious cybercrime botnets and named a Crimean hacker as an alleged perpetrator behind the distribution of ransomware to the network of infected machines.
-
-read more]]></summary>
-        <author>
-            <name>Ryan Naraine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AA22-103A: APT Cyber Tools Targeting ICS/SCADA Devices]]></title>
-        <id>17512 at https://us-cert.cisa.gov</id>
-        <link href="https://us-cert.cisa.gov/ncas/alerts/aa22-103a"/>
-        <updated>2022-04-13T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Original release date: April 13, 2022
-Summary
-Actions to Take Today to Protect ICS/SCADA Devices:
-The Department of Energy (DOE), the Cybersecurity and Infrastructure Security Agency (CISA), the National Security Agency (NSA), and the Federal Bureau of Investigation (FBI) are releasing this joint Cybersecurity Advisory (CSA) to warn that certain advanced persistent threat (APT) actors have exhibited the capability to gain full system access to multiple industrial control system (ICS)/supervisory control and data acquisition (SCADA) devices, including:
-Schneider Electric programmable logic controllers (PLCs),
-OMRON Sysmac NEX PLCs, and
-Open Platform Communications Unified Architecture (OPC UA) servers.
-The APT actors have developed custom-made tools for targeting ICS/SCADA devices. The tool…]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[APT Actors Target ICS/SCADA Devices]]></title>
-        <id>17513 at https://us-cert.cisa.gov</id>
-        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/04/13/apt-actors-target-icsscada-devices"/>
-        <updated>2022-04-13T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Original release date: April 13, 2022
-CISA, the Department of Energy (DOE), the National Security Agency (NSA), and the Federal Bureau of Investigation (FBI) have released a joint Cybersecurity Advisory (CSA), warning that certain advanced persistent threat (APT) actors have exhibited the capability to gain full system access to multiple industrial control system (ICS)/supervisory control and data acquisition (SCADA) devices using custom-made tools. 
-CISA encourages all critical infrastructure organizations to review joint CSA: APT Cyber Tools Targeting ICS/SCADA Devices and apply the recommended mitigations. 
-This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-5378-4: Gzip vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-5378-4</id>
-        <link href="https://ubuntu.com/security/notices/USN-5378-4"/>
-        <updated>2022-04-13T16:03:48.000Z</updated>
-        <summary type="html"><![CDATA[USN-5378-1 fixed a vulnerability in Gzip. This update provides
-the corresponding update for Ubuntu 14.04 ESM and 16.04 ESM.
-
-Original advisory details:
-
- Cleemy Desu Wayo discovered that Gzip incorrectly handled certain
- filenames. If a user or automated system were tricked into performing zgrep
- operations with specially crafted filenames, a remote attacker could
- overwrite arbitrary files.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Adds 10 Known Exploited Vulnerabilities to Catalog]]></title>
-        <id>17516 at https://us-cert.cisa.gov</id>
-        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/04/13/cisa-adds-10-known-exploited-vulnerabilities-catalog"/>
-        <updated>2022-04-13T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Original release date: April 13, 2022
-CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation. These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risk to the federal enterprise. Note: to view the newly added vulnerabilities in the catalog, click on the arrow on the of the "Date Added to Catalog" column, which will sort by descending dates. 
-Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known CVEs that carry significant risk to the federal enterprise. BOD 22-01 requires FCEB agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information. 
-Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the Catalog that meet the meet the specified criteria. 
-This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ICSJWG Spring 2022 Virtual Meeting]]></title>
-        <id>17515 at https://us-cert.cisa.gov</id>
-        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/04/13/icsjwg-spring-2022-virtual-meeting"/>
-        <updated>2022-04-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Original release date: April 13, 2022
-The Industrial Control Systems Joint Working Group (ICSJWG) will hold its Spring 2022 Virtual Meeting April 26–27. ICSJWG meetings facilitate relationship building among critical infrastructure stakeholders and owners/operators of industrial control systems, idea exchanges regarding critical issues affecting industrial control systems (ICS) cybersecurity, and information sharing to reduce the risk to the nation’s industrial control systems.
-The ICSJWG Spring 2022 Virtual Meeting will feature two full days of presentations, technical workshop presentations, and an ICS Training overview of Cyber-CHAMP©. ICSJWG meetings are open to all who are interested and are free for all attendees. Visit the ICSJWG website or the ICSJWG Spring 2022 Virtual Meeting website to register or to learn more.
-This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-5378-3: XZ Utils vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-5378-3</id>
-        <link href="https://ubuntu.com/security/notices/USN-5378-3"/>
-        <updated>2022-04-13T14:47:08.000Z</updated>
-        <summary type="html"><![CDATA[USN-5378-2 fixed a vulnerability in XZ Utils. This update provides
-the corresponding update for Ubuntu 14.04 ESM and 16.04 ESM.
-
-Original advisory details:
-
- Cleemy Desu Wayo discovered that Gzip incorrectly handled certain
- filenames. If a user or automated system were tricked into performing zgrep
- operations with specially crafted filenames, a remote attacker could
- overwrite arbitrary files.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Webinar: How The Right XDR Can Be a Game-Changer for Lean Security Teams]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-1387856452092005596</id>
-        <link href="https://thehackernews.com/2022/04/webinar-how-right-xdr-can-be-game.html"/>
-        <updated>2022-04-13T14:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Extended detection and response (XDR) is expected to be the future of cybersecurity, merging security technologies with the evolving approach to the way we do cybersecurity. And while many organizations are scrambling to integrate XDR into their cybersecurity strategies – even more are still trying to figure out what XDR really is and if it’s even the right solution for their organization. 
-But]]></summary>
-        <author>
-            <name>noreply@blogger.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Git security vulnerabilities prompt updates]]></title>
-        <id>git-security-vulnerabilities-prompt-updates</id>
-        <link href="https://portswigger.net/daily-swig/git-security-vulnerabilities-prompt-updates"/>
-        <updated>2022-04-13T14:32:00.000Z</updated>
-        <summary type="html"><![CDATA[Windows users at highest risk from security bugs in software development tool]]></summary>
-        <author>
-            <name>The Daily Swig | Cybersecurity news and views</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Identifying a Vulnerability in the SAP Software Supply Chain]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/identifying-a-vulnerability-in-the-sap-software-supply-chain</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/identifying-a-vulnerability-in-the-sap-software-supply-chain"/>
-        <updated>2022-04-13T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Make sure you're using the patch to block this supply chain attack.]]></summary>
-        <author>
-            <name>Christoph Nagy, CEO, SecurityBridge</name>
         </author>
     </entry>
 </feed>
