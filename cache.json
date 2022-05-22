@@ -554,26 +554,6 @@
           "wordCount": 1094,
           "title": "Pwn2Own Miami: Hackers earn $400,000 by cracking ICS platforms",
           "imageUrl": "https://portswigger.net/cms/images/f0/49/b55b-twittercard-220422-pwn2own-main-image.png"
-        },
-        {
-          "id": "vulnerability-aws-log4shell-hot-patch-allowed-full-host-takeover",
-          "author": null,
-          "description": "Critical security issues found in quick fix",
-          "link": "https://portswigger.net/daily-swig/vulnerability-aws-log4shell-hot-patch-allowed-full-host-takeover",
-          "publishedOn": "2022-04-22T13:38:45.000Z",
-          "wordCount": 1129,
-          "title": "Vulnerability in AWS Log4Shell hot patch allowed full host takeover",
-          "imageUrl": "https://portswigger.net/cms/images/80/71/5d3b-twittercard-220111-log4j-body-text.png"
-        },
-        {
-          "id": "hack-me-im-famous-bug-bounty-hackathon-nets-security-researcher-10-000-overnight",
-          "author": null,
-          "description": "European event saw 40 researchers team up to find bugs",
-          "link": "https://portswigger.net/daily-swig/hack-me-im-famous-bug-bounty-hackathon-nets-security-researcher-10-000-overnight",
-          "publishedOn": "2022-04-21T14:30:00.000Z",
-          "wordCount": 1058,
-          "title": "Hack Me, I’m Famous: Bug bounty hackathon nets security researcher €10,000 overnight",
-          "imageUrl": "https://portswigger.net/cms/images/5f/4b/2c38-twittercard-screenshot_2022-04-21_at_14.16.05.png"
         }
       ]
     },
@@ -582,6 +562,26 @@
       "feedUrl": "https://feeds.feedburner.com/TheHackersNews",
       "siteUrl": "https://thehackernews.com/",
       "articles": [
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5832964491797539468",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "Multiple versions of a WordPress plugin by the name of \"School Management Pro\" harbored a backdoor that could grant an adversary complete control over vulnerable websites.\r\nThe issue, spotted in premium versions before 9.9.7, has been assigned the CVE identifier CVE-2022-1609 and is rated 10 out of 10 for severity.\r\nThe backdoor, which is believed to have existed since version 8.9, enables \"an",
+          "link": "https://thehackernews.com/2022/05/researchers-find-backdoor-in-school.html",
+          "publishedOn": "2022-05-21T05:11:25.000Z",
+          "wordCount": 748,
+          "title": "Researchers Find Backdoor in School Management Plugin for WordPress",
+          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEhxGaDldeEE7YI-xNgE5mzn0t7Hn0fC1ahzEyrqXJ9_0EXk4Tf_uprJJbuj50vx5SCkSKUq8Vxsn6JhLaXqYsFvh-XK9su61R0YebQGh4fNq6-L8KZlU8MMMVOnghgrFXtDcWT0MB-8GS6Z6LRvk90tLIU6EMsdo71QYJaDbwCFabthLNxUPCEwdHEM/s728-e1000/wordpress.jpg"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-9063563832210150500",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "Cisco on Friday rolled out fixes for a medium-severity vulnerability affecting IOS XR Software that it said has been exploited in real-world attacks.\r\nTracked as CVE-2022-20821 (CVSS score: 6.5), the issue relates to an open port vulnerability that could be abused by an unauthenticated, remote attacker to connect to a Redis instance and achieve code execution.\r\n\"A successful exploit could allow",
+          "link": "https://thehackernews.com/2022/05/cisco-issues-patches-for-new-ios-xr.html",
+          "publishedOn": "2022-05-21T04:20:56.000Z",
+          "wordCount": 741,
+          "title": "Cisco Issues Patch for New IOS XR Zero-Day Vulnerability Exploited in the Wild",
+          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEgWth62faCsdstRGMgW_ifRIb-ssurZF_YSLWtkZlRj7XHSaueDvY3aZg4tSHJJ61XzKRIDeI1QQgk2CAE2pc3HA5GwwjD3wktSHS9bmJ9z9owtnwWdkiWxygNrTwcxFdi8sIvix8g0F9z05AUhKlhK4tZvFEfMS2sr3AgeuZXDSaGPmsTAByjqJsqi/s728-e1000/cisco.jpg"
+        },
         {
           "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4990168724905629645",
           "author": "noreply@blogger.com (Ravie Lakshmanan)",
@@ -1761,56 +1761,6 @@
           "wordCount": 802,
           "title": "Atlassian Drops Patches for Critical Jira Authentication Bypass Vulnerability",
           "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEj61Yvi82eU_SsNVfNm8WazXtxvcYXm-sCRLGmk5m-EijyMKxnX7EywsH3x3g08_XJKLrzN6v1fAWhIVPYSGdCWww6qP6J3eriq2RAyEhFEI8Q7GpR1uolW0eRgUZr8gQDOyMty2WhvSGuA8o5zI4uVLgouljVIzwLo6jec4rUwyfZxNM2dJrDTyvOE/s728-e1000/jira.jpg"
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2455689133033242560",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "A proof-of-concept (PoC) code demonstrating a newly disclosed digital signature bypass vulnerability in Java has been shared online. \r\nThe high-severity flaw in question, CVE-2022-21449 (CVSS score: 7.5), impacts the following version of Java SE and Oracle GraalVM Enterprise Edition -\r\n\r\nOracle Java SE: 7u331, 8u321, 11.0.14, 17.0.2, 18\r\nOracle GraalVM Enterprise Edition: 20.3.5, 21.3.1, 22.0.0.2",
-          "link": "https://thehackernews.com/2022/04/researcher-releases-poc-for-recent-java.html",
-          "publishedOn": "2022-04-22T11:43:05.000Z",
-          "wordCount": 812,
-          "title": "Researcher Releases PoC for Recent Java Cryptographic Vulnerability",
-          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEi-DujFw32Sf-Wb7JXba4C7UqWLSqTH3JOmu8zI8akYznG0OhFgWlkxvUDJytka6OUbcW77iElusjcSbUvmR-SBmWEgGQkCYo0ChVhkCaRWlzAxy68v9rNlc6LLulVYm0O7-q4sHbwqXRcq4x4Ma8AeqmV1cVjVcdrojLeONsDWCUHQxsEy7uOOF-Ln/s728-e100/java.jpg"
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-954716534779276883",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "LemonDuck, a cross-platform cryptocurrency mining botnet, is targeting Docker to mine cryptocurrency on Linux systems as part of an active malware campaign.\r\n\"It runs an anonymous mining operation by the use of proxy pools, which hide the wallet addresses,\" CrowdStrike said in a new report. \"It evades detection by targeting Alibaba Cloud's monitoring service and disabling it.\"\r\nKnown to strike",
-          "link": "https://thehackernews.com/2022/04/watch-out-cryptocurrency-miners.html",
-          "publishedOn": "2022-04-22T09:30:49.000Z",
-          "wordCount": 1088,
-          "title": "Watch Out! Cryptocurrency Miners Targeting Dockers, AWS and Alibaba Cloud",
-          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEiQLJsA4VqLU_2Ko5mgCsWlJMIvwJT2aoEwLoOKMLxy58CeNKOGs27Dp9UfziDFWzjBdovG_PWvQNtsSMBZo4TPOTCJEfeBa3iT0K6lhdquC_6NlvR1qkZoGlYQfXgCwTDOk-gGVKSHY_iHWYSwCWPKdbGNIFo7sFQcS8GrfaN9XAP9-OcC3-Q64mup/s728-e1000/crypto-mining.jpg"
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-56553779019520392",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "Network-attached storage (NAS) appliance maker QNAP on Thursday said it's investigating its lineup for potential impact arising from two security vulnerabilities that were addressed in the Apache HTTP server last month.\r\nThe critical flaws, tracked as CVE-2022-22721 and CVE-2022-23943, are rated 9.8 for severity on the CVSS scoring system and impact Apache HTTP Server versions 2.4.52 and earlier",
-          "link": "https://thehackernews.com/2022/04/qnap-advises-users-to-update-nas.html",
-          "publishedOn": "2022-04-22T08:15:16.000Z",
-          "wordCount": 763,
-          "title": "QNAP Advises Users to Update NAS Firmware to Patch Apache HTTP Vulnerabilities",
-          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEjt3C2eWcUMYi04IyjO3zjgFTQsMJ5FWqXUk3D4-7j7yVUOBx_FITTSfZE25gDrSz4ty_-Wrsemt7YpQl5CuxtqFLVo72UJ7yM2a1B-Vks_c50Bfq07N-Hq2rDz-IwaukpdXsirY8dLXhHGQKe7mwvchRqONwtCKUFldYjIPMbu--5KdBEDH2WZyTy1/s728-e100/QNAP.jpg"
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5582360628041841627",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "Networking equipment maker Cisco has released security updates to address three high-severity vulnerabilities in its products that could be exploited to cause a denial-of-service (DoS) condition and take control of affected systems.\r\nThe first of the three flaws, CVE-2022-20783 (CVSS score: 7.5), affects Cisco TelePresence Collaboration Endpoint (CE) Software and Cisco RoomOS Software, and stems",
-          "link": "https://thehackernews.com/2022/04/cisco-releases-security-patches-for.html",
-          "publishedOn": "2022-04-22T05:15:18.000Z",
-          "wordCount": 829,
-          "title": "Cisco Releases Security Patches for TelePresence, RoomOS and Umbrella VA",
-          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEjwUR-p1aMFRhnd23gW1HleBovYXeUiZxyrTDmkJnfrueN206n1oMrmX5KaAN6vv_6VdtkNCPmpbBOhbT4iVfcpbvRXz87_RxbSPqcSL_OISJoWVwaiySTiPzQIrTCv1JabjVSG8E84KLzyLkId-gZ_Il3PqCyYSXZ4GF80P92IKmvWhJ9hSn3QUb7R/s728-e1000/cisco-patch-update.jpg"
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4781798559710826115",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "A new set of phishing attacks delivering the more_eggs malware has been observed striking corporate hiring managers with bogus resumes as an infection vector, a year after potential candidates looking for work on LinkedIn were lured with weaponized job offers.\r\n\"This year the more_eggs operation has flipped the social engineering script, targeting hiring managers with fake resumes instead of",
-          "link": "https://thehackernews.com/2022/04/hackers-sneak-moreeggs-malware-into.html",
-          "publishedOn": "2022-04-21T14:02:28.000Z",
-          "wordCount": 827,
-          "title": "Hackers Sneak 'More_Eggs' Malware Into Resumes Sent to Corporate Hiring Managers",
-          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEiwM5F9HiFTi2CZwhzHOjYdDz_DgQqvwlA0FHtBZZquUWYI0IE_3eBEuxGogPHVPlZcElJpEphOD9kD86jh-8l7f51nJo5seJ6xLow_9mAR9sh1y4Iiu9v-UHhDzBM1Dau1ZAHow3JggP9S7XVU9EJdU2atlAcjPYnwboSTbiEGfwvZfh5aiJj6EsSY/s728-e1000/hiring.jpg"
         }
       ]
     },
@@ -3778,106 +3728,6 @@
           "wordCount": 1462,
           "title": "When Attacks Surge, Turn to Data to Strengthen Detection and Response",
           "imageUrl": null
-        },
-        {
-          "id": "24810 at https://www.securityweek.com",
-          "author": "Eduard Kovacs",
-          "description": "Motorola Solutions announced this week the creation of the Public Safety Threat Alliance, a cyber threat intelligence sharing hub for the public safety community.\n\r\nread more",
-          "link": "https://www.securityweek.com/motorola-launches-cyber-threat-information-sharing-hub-public-safety",
-          "publishedOn": "2022-04-22T13:34:23.000Z",
-          "wordCount": 849,
-          "title": "Motorola Launches Cyber Threat Information Sharing Hub for Public Safety",
-          "imageUrl": null
-        },
-        {
-          "id": "24809 at https://www.securityweek.com",
-          "author": "Eduard Kovacs",
-          "description": "A security researcher has discovered several vulnerabilities, including ones rated critical- and high-severity, in industrial products made by Elcomplus, a Russian company specializing in professional radio communications and industrial automation.\n\r\nread more",
-          "link": "https://www.securityweek.com/several-critical-vulnerabilities-affect-smartppt-smartics-industrial-products",
-          "publishedOn": "2022-04-22T12:28:23.000Z",
-          "wordCount": 937,
-          "title": "Several Critical Vulnerabilities Affect SmartPTT, SmartICS Industrial Products",
-          "imageUrl": null
-        },
-        {
-          "id": "24808 at https://www.securityweek.com",
-          "author": "Eduard Kovacs",
-          "description": "An unpatched vulnerability affecting the RainLoop webmail client can be exploited to hijack a user’s session and steal their emails, according to application security firm Sonar.\n\r\nread more",
-          "link": "https://www.securityweek.com/unpatched-vulnerability-allows-hackers-steal-emails-rainloop-users",
-          "publishedOn": "2022-04-22T11:07:48.000Z",
-          "wordCount": 914,
-          "title": "Unpatched Vulnerability Allows Hackers to Steal Emails of RainLoop Users",
-          "imageUrl": null
-        },
-        {
-          "id": "24807 at https://www.securityweek.com",
-          "author": "Kevin Townsend",
-          "description": "Digital Bank Heists – Because That’s Where the Money Is Today\n\r\nread more",
-          "link": "https://www.securityweek.com/vmwares-head-cybersecurity-strategy-discusses-modern-bank-heists",
-          "publishedOn": "2022-04-22T11:01:03.000Z",
-          "wordCount": 1880,
-          "title": "VMware's Head of Cybersecurity Strategy Discusses Modern Bank Heists",
-          "imageUrl": null
-        },
-        {
-          "id": "24806 at https://www.securityweek.com",
-          "author": "Eduard Kovacs",
-          "description": "An open source audio codec developed by Apple is affected by serious vulnerabilities that have been pushed to millions of Android devices by some of the world’s largest mobile chipset manufacturers.\n\r\nread more",
-          "link": "https://www.securityweek.com/audio-codec-made-apple-introduced-serious-vulnerabilities-millions-android-phones",
-          "publishedOn": "2022-04-22T10:55:31.000Z",
-          "wordCount": 959,
-          "title": "Audio Codec Made by Apple Introduced Serious Vulnerabilities in Millions of Android Phones",
-          "imageUrl": null
-        },
-        {
-          "id": "24805 at https://www.securityweek.com",
-          "author": "Associated Press",
-          "description": "The head of Catalonia’s regional government is accusing Spain’s intelligence agency of conducting what he calls “massive political espionage” on the northeastern region’s independence movement and says that relations with Spain’s national authorities are “on hold” as a consequence.\n\r\nread more",
-          "link": "https://www.securityweek.com/catalan-chief-accuses-spains-intelligence-agency-hacking",
-          "publishedOn": "2022-04-21T19:45:26.000Z",
-          "wordCount": 1120,
-          "title": "Catalan Chief Accuses Spain's Intelligence Agency of Hacking",
-          "imageUrl": null
-        },
-        {
-          "id": "24804 at https://www.securityweek.com",
-          "author": "Ryan Naraine",
-          "description": "Google and Mandiant separately called attention to a dramatic surge in the discovery of in-the-wild zero-day attacks and warned that nation-state APT actors, ransomware gangs and private mercenary exploit firms are burning through zero-days at record pace.\n\r\nread more",
-          "link": "https://www.securityweek.com/google-mandiant-share-data-record-pace-zero-day-discoveries",
-          "publishedOn": "2022-04-21T18:12:22.000Z",
-          "wordCount": 1226,
-          "title": "Google, Mandiant Share Data on Record Pace of Zero-Day Discoveries",
-          "imageUrl": null
-        },
-        {
-          "id": "24803 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "Facebook parent company Meta today announced that its bug bounty program will cover vulnerabilities that can be exploited to bypass integrity safeguards.\n\r\nread more",
-          "link": "https://www.securityweek.com/meta-offers-rewards-flaws-allowing-attackers-bypass-integrity-checks",
-          "publishedOn": "2022-04-21T17:27:09.000Z",
-          "wordCount": 1035,
-          "title": "Meta Offers Rewards for Flaws Allowing Attackers to Bypass Integrity Checks",
-          "imageUrl": null
-        },
-        {
-          "id": "24802 at https://www.securityweek.com",
-          "author": "Eduard Kovacs",
-          "description": "Pwn2Own Miami 2022, a hacking contest focusing on industrial control systems (ICS), has come to an end, with contestants earning a total of $400,000 for their exploits.\n\r\nread more",
-          "link": "https://www.securityweek.com/ics-exploits-earn-hackers-400000-pwn2own-miami-2022",
-          "publishedOn": "2022-04-21T15:08:25.000Z",
-          "wordCount": 859,
-          "title": "ICS Exploits Earn Hackers $400,000 at Pwn2Own Miami 2022",
-          "imageUrl": null
-        },
-        {
-          "id": "24801 at https://www.securityweek.com",
-          "author": "John Maddison",
-          "description": "Rapid changes to a network can easily result in gaps in protection and enforcement\n\r\nread more",
-          "link": "https://www.securityweek.com/todays-network-different-not-dead-heres-how-you-secure-it",
-          "publishedOn": "2022-04-21T13:23:27.000Z",
-          "wordCount": 1647,
-          "title": "Today's Network Is Different, Not Dead - Here's How You Secure It",
-          "imageUrl": null
         }
       ]
     },
@@ -4301,16 +4151,6 @@
           "publishedOn": "2022-04-25T20:00:00.000Z",
           "wordCount": 523,
           "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
-          "imageUrl": null
-        },
-        {
-          "id": "17569 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: April 22, 2022\nThe Federal Bureau of Investigation (FBI) has released a Flash report detailing indicators of compromise (IOCs) associated with attacks involving BlackCat/ALPHV, a Ransomware-as-a-Service that has compromised at least 60 entities worldwide.\nCISA encourages users and administrators to review the IOCs and technical details in FBI Flash CU-000167-MW and apply the recommended mitigations. \nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/04/22/fbi-releases-iocs-associated-blackcatalphv-ransomware",
-          "publishedOn": "2022-04-22T12:02:01.000Z",
-          "wordCount": 392,
-          "title": "FBI Releases IOCs Associated with BlackCat/ALPHV Ransomware",
           "imageUrl": null
         }
       ]
@@ -7144,111 +6984,6 @@
             "length": "0"
           },
           "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte3039a3c9705a18c/625f05e3b686513d9157b2ef/Michael_Covington_headshot.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/threat-intelligence/zero-day-exploit-use-exploded-in-2021",
-          "author": "Jai Vijayan, Contributing Writer",
-          "description": "Ransomware and other financially motivated threat actors joined nation-state-backed groups in leveraging unpatched flaws in attack campaigns, new data shows.",
-          "link": "https://www.darkreading.com/threat-intelligence/zero-day-exploit-use-exploded-in-2021",
-          "publishedOn": "2022-04-21T23:22:54.000Z",
-          "wordCount": 1448,
-          "title": "Zero-Day Exploit Use Exploded in 2021",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg"
-        },
-        {
-          "id": "https://www.darkreading.com/edge-ask-the-experts/what-steps-do-i-take-to-shift-left-in-security",
-          "author": "Vishal Jain, co-founder and CTO, Valtix",
-          "description": "Security has benefited from shifting many late-cycle disciplines left, or earlier in the cycle.",
-          "link": "https://www.darkreading.com/edge-ask-the-experts/what-steps-do-i-take-to-shift-left-in-security",
-          "publishedOn": "2022-04-21T21:20:36.000Z",
-          "wordCount": 1006,
-          "title": "What Steps Do I Take to Shift Left in Security?",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt3b296baaaaccbc2a/61bbb7b4ac124d4b2e71583a/WriterDefault_vladwel_Adobe.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt3b296baaaaccbc2a/61bbb7b4ac124d4b2e71583a/WriterDefault_vladwel_Adobe.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/analytics/devo-acquires-kognos-to-add-autonomous-threat-hunting-to-cloud-native-logging-analytics",
-          "author": "Dark Reading Staff, Dark Reading",
-          "description": "Acquisition will blend autonomous threat hunting with cloud-native security analytics for automating security tasks.",
-          "link": "https://www.darkreading.com/analytics/devo-acquires-kognos-to-add-autonomous-threat-hunting-to-cloud-native-logging-analytics",
-          "publishedOn": "2022-04-21T20:44:12.000Z",
-          "wordCount": 799,
-          "title": "Devo Acquires Threat Hunting Company Kognos",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/dr-tech/exploring-biometrics-and-trust-at-the-corporate-level",
-          "author": "Kimberly Biddings, VP of Product, BIO-key International, Inc.",
-          "description": "Biometric measurements should be part of any multifactor authentication (MFA) strategy, but choose your methods carefully: Some only establish trust at the device level.",
-          "link": "https://www.darkreading.com/dr-tech/exploring-biometrics-and-trust-at-the-corporate-level",
-          "publishedOn": "2022-04-21T18:57:33.000Z",
-          "wordCount": 1777,
-          "title": "Exploring Biometrics and Trust at the Corporate Level",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf599c4ee75e7d28a/6260bb6d6f3dc433995e1b80/Kim-square.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf599c4ee75e7d28a/6260bb6d6f3dc433995e1b80/Kim-square.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/untitlednew-zscaler-research-shows-over-400-increase-in-phishing-attacks-with-retail-and-wholesale-industries-at-greatest-risk",
-          "author": null,
-          "description": "Annual ThreatLabz Report reveals phishing-as-a-service as the key source of attacks across critical industries and consumers globally; underscores urgency to adopt a zero-trust security model.",
-          "link": "https://www.darkreading.com/attacks-breaches/untitlednew-zscaler-research-shows-over-400-increase-in-phishing-attacks-with-retail-and-wholesale-industries-at-greatest-risk",
-          "publishedOn": "2022-04-21T18:57:22.000Z",
-          "wordCount": 1818,
-          "title": "UntitledNew Zscaler Research Shows Over 400% Increase in Phishing Attacks With Retail and Wholesale Industries at Greatest Risk",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/cybereason-launches-digital-forensics-incident-response",
-          "author": null,
-          "description": "Cybereason MalOp Detection Engine augmented with Nuanced DFIR Intelligence reduces the mean-time-to-detect and remediate incidents.",
-          "link": "https://www.darkreading.com/attacks-breaches/cybereason-launches-digital-forensics-incident-response",
-          "publishedOn": "2022-04-21T18:50:00.000Z",
-          "wordCount": 1235,
-          "title": "Cybereason Launches Digital Forensics Incident Response",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/alert-logic-releases-mdr-incident-response-capability-for-addressing-a-breach",
-          "author": null,
-          "description": "Seedrs Ltd. deployed and configured Alert Logic Intelligent Response in minutes, and immediately began blocking critical threats.",
-          "link": "https://www.darkreading.com/attacks-breaches/alert-logic-releases-mdr-incident-response-capability-for-addressing-a-breach",
-          "publishedOn": "2022-04-21T17:46:06.000Z",
-          "wordCount": 1325,
-          "title": "Alert Logic Releases MDR Incident Response Capability for Addressing a Breach",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/vulnerabilities-threats/3-ways-we-can-improve-cybersecurity",
-          "author": "Joanna Burkey, Chief Information Security Officer, HP",
-          "description": "To better manage risks, companies can concentrate on resilience, sharing information to protect from cyber threats, and making the cybersecurity tent bigger by looking at workers with nontraditional skill sets.",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/3-ways-we-can-improve-cybersecurity",
-          "publishedOn": "2022-04-21T14:00:00.000Z",
-          "wordCount": 1497,
-          "title": "3 Ways We Can Improve Cybersecurity",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt42ef604f6e3a94d3/625dbf756f3dc433995e199e/Joanna_Burkey_CISO_HP_(1).jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt42ef604f6e3a94d3/625dbf756f3dc433995e199e/Joanna_Burkey_CISO_HP_(1).jpg"
         }
       ]
     },
@@ -7338,16 +7073,6 @@
           "publishedOn": "2022-04-28T12:30:00.000Z",
           "wordCount": 1359,
           "title": "Azure Database for PostgreSQL Flexible Server Privilege Escalation and Remote Code Execution",
-          "imageUrl": null
-        },
-        {
-          "id": "https://msrc-blog.microsoft.com/?p=14143",
-          "author": "msrc",
-          "description": "Today, we are excited to recognize this quarter’s Microsoft Researcher Recognition Program leaderboard and share new swag awards and improvements to the leaderboard. Congratulations and thank you to everyone for your hard work and continued partnership to secure customers. The top three researchers of the 2022 Q1 Security Researcher Leaderboard are: Yuki Chen, William Söderberg, …\n  Congratulations and New Swag Awards for the Top MSRC 2022 Q1 Security Researchers! Read More »",
-          "link": "https://msrc-blog.microsoft.com/2022/04/21/congratulations-and-new-swag-awards-for-the-top-msrc-2022-q1-security-researchers/",
-          "publishedOn": "2022-04-21T16:05:00.000Z",
-          "wordCount": 1231,
-          "title": "Congratulations and New Swag Awards for the Top MSRC 2022 Q1 Security Researchers!",
           "imageUrl": null
         }
       ]
@@ -7585,16 +7310,6 @@
           "publishedOn": "2022-04-22T21:04:24.000Z",
           "wordCount": 532,
           "title": "Friday Squid Blogging: Squid Skin–Inspired Insulating Material",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.schneier.com/blog/archives/2022/04/java-cryptography-implementation-mistake-allows-digital-signature-forgeries.html",
-          "author": null,
-          "description": "<p>Interesting <a href=\"https://arstechnica.com/information-technology/2022/04/major-crypto-blunder-in-java-enables-psychic-paper-forgeries/\">implementation mistake</a>:</p>\n<blockquote><p>The vulnerability, which <a href=\"https://www.oracle.com/security-alerts/cpuapr2022.html\">Oracle patched on Tuesday</a>, affects the company’s implementation of the <a href=\"https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm\">Elliptic Curve Digital Signature Algorithm</a> in Java versions 15 and above. ECDSA is an algorithm that uses the principles of <a href=\"https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/\">elliptic curve cryptography</a> to authenticate messages digitally.</p>\n<p>[&#8230;]</p>\n<p>ECDSA signatures rely on a pseudo-random number, typically notated as K, that’s used to derive two additional numbers, R and S. To verify a signature as valid, a party must check the equation involving R and S, the signer’s public key, and a cryptographic hash of the message. When both sides of the equation are equal, the signature is valid. ...</p></blockquote>",
-          "link": "https://www.schneier.com/blog/archives/2022/04/java-cryptography-implementation-mistake-allows-digital-signature-forgeries.html",
-          "publishedOn": "2022-04-22T12:09:59.000Z",
-          "wordCount": 2600,
-          "title": "Java Cryptography Implementation Mistake Allows Digital-Signature Forgeries",
           "imageUrl": null
         }
       ]
