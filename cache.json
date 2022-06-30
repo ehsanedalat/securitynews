@@ -6,6 +6,26 @@
       "siteUrl": "https://portswigger.net/daily-swig",
       "articles": [
         {
+          "id": "unrar-path-traversal-flaw-can-lead-to-rce-in-zimbra",
+          "author": null,
+          "description": "Other applications using binary to extract untrusted archives are potentially vulnerable too",
+          "link": "https://portswigger.net/daily-swig/unrar-path-traversal-flaw-can-lead-to-rce-in-zimbra",
+          "publishedOn": "2022-06-29T15:14:58.000Z",
+          "wordCount": 1193,
+          "title": "UnRAR path traversal flaw can lead to RCE in Zimbra",
+          "imageUrl": "https://portswigger.net/cms/images/87/a5/e08d-twittercard-220629-zimbra-main.png"
+        },
+        {
+          "id": "yaraify-defensive-tool-scans-suspicious-files-against-a-large-repository-of-yara-rules",
+          "author": null,
+          "description": "Team behind Abuse.ch and ThreatFox launch new hub for scanning and hunting files using YARA",
+          "link": "https://portswigger.net/daily-swig/yaraify-defensive-tool-scans-suspicious-files-against-a-large-repository-of-yara-rules",
+          "publishedOn": "2022-06-29T11:03:49.000Z",
+          "wordCount": 1321,
+          "title": "YARAify: Defensive tool scans suspicious files against a large repository of YARA rules",
+          "imageUrl": "https://portswigger.net/cms/images/98/b8/42ec-twittercard-220629-yara-main.jpg"
+        },
+        {
           "id": "dozens-of-cryptography-libraries-vulnerable-to-private-key-theft",
           "author": null,
           "description": "Signing mechanism security shortcomings exposed",
@@ -494,26 +514,6 @@
           "wordCount": 1818,
           "title": "Connecticut becomes fifth US state to enact comprehensive consumer privacy law",
           "imageUrl": "https://portswigger.net/cms/images/57/4f/06c1-twittercard-220527-connecticut-main.jpg"
-        },
-        {
-          "id": "data-breach-at-australian-pension-provider-spirit-super-impacts-50k-victims-following-phishing-attack",
-          "author": null,
-          "description": "‘Super fund’ confirms user information has been exposed",
-          "link": "https://portswigger.net/daily-swig/data-breach-at-australian-pension-provider-spirit-super-impacts-50k-victims-following-phishing-attack",
-          "publishedOn": "2022-05-30T16:22:00.000Z",
-          "wordCount": 1043,
-          "title": "Data breach at Australian pension provider Spirit Super impacts 50k victims following phishing attack",
-          "imageUrl": "https://portswigger.net/cms/images/12/d8/3c2a-twittercard-220530-spirit-main.jpg"
-        },
-        {
-          "id": "dozens-of-high-traffic-websites-vulnerable-to-account-pre-hijacking-study-finds",
-          "author": null,
-          "description": "Validation check loopholes exposed",
-          "link": "https://portswigger.net/daily-swig/dozens-of-high-traffic-websites-vulnerable-to-account-pre-hijacking-study-finds",
-          "publishedOn": "2022-05-30T15:30:37.000Z",
-          "wordCount": 1320,
-          "title": "Dozens of high-traffic websites vulnerable to ‘account pre-hijacking’, study finds",
-          "imageUrl": "https://portswigger.net/cms/images/7e/dd/4c98-twittercard-220530-account-pre-hijack-main-image.png"
         }
       ]
     },
@@ -522,6 +522,46 @@
       "feedUrl": "https://feeds.feedburner.com/TheHackersNews",
       "siteUrl": "https://thehackernews.com/",
       "articles": [
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1694430975214228800",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "Cybersecurity researchers from Palo Alto Networks Unit 42 disclosed details of a new security flaw affecting Microsoft's Service Fabric that could be exploited to obtain elevated permissions and seize control of all nodes in a cluster.\r\nThe issue, which has been dubbed FabricScape (CVE-2022-30137), could be exploited on containers that are configured to have runtime access. It has been remediated",
+          "link": "https://thehackernews.com/2022/06/new-fabricscape-bug-in-microsoft-azure.html",
+          "publishedOn": "2022-06-29T14:50:30.000Z",
+          "wordCount": 2280,
+          "title": "New 'FabricScape' Bug in Microsoft Azure Service Fabric Impacts Linux Workloads",
+          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEjzTu7yaIv_2tCppDjQnePFtyDXSg6HMSnmv_57wXb_gNXbX0JqSAHt8xZ3NhS7sk-CxLTFb_vH8vEfIlCpAUVCrniVqEOHVF__qdOp3Sj987JCJKW5bXRHL7tsXxBxLll2TVkF3w8Bu4c7z82bCFqiyRd4BmroFUGqMdtokYCBwZpRMihXop3uwTqspQ/s728-e100/linux-fabric.jpg"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6294944795575849738",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "Cybersecurity researchers have documented a new information-stealing malware that targets YouTube content creators by plundering their authentication cookies.\r\nDubbed \"YTStealer\" by Intezer, the malicious tool is likely believed to be sold as a service on the dark web, with it distributed using fake installers that also drop RedLine Stealer and Vidar.\r\n\"What sets YTStealer aside from other",
+          "link": "https://thehackernews.com/2022/06/new-ytstealer-malware-aims-to-hijack.html",
+          "publishedOn": "2022-06-29T14:49:26.000Z",
+          "wordCount": 2274,
+          "title": "New YTStealer Malware Aims to Hijack Accounts of YouTube Content Creators",
+          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEgQF8Sw-q-olhkcl69swk4IvdeIxowdZ0vd532PQS9xG4vTtiQZDtEE2Wi2PAVbFsDe2S6XvXmOMgeVNJrXF3gTm6FY6fbcmC8BGs6yBpxacKCYbNkzTDNZKpIbeGbDHg7iKvY7zxkAZL3zRcYD-1T9L8fLCVQRVHhugFkBsNJjtzTIsZuPV3Dbahv0/s728-e100/youtube.jpg"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8040115933408193453",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "A new security vulnerability has been disclosed in RARlab's UnRAR utility that, if successfully exploited, could permit a remote attacker to execute arbitrary code on a system that relies on the binary.\r\nThe flaw, assigned the identifier CVE-2022-30333, relates to a path traversal vulnerability in the Unix versions of UnRAR that can be triggered upon extracting a maliciously crafted RAR archive.",
+          "link": "https://thehackernews.com/2022/06/new-unrar-vulnerability-could-let.html",
+          "publishedOn": "2022-06-29T09:29:21.000Z",
+          "wordCount": 2206,
+          "title": "New UnRAR Vulnerability Could Let Attackers Hack Zimbra Webmail Servers",
+          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEjN3zLpss2pKUyanmGpqvd3WNmNtqxxQU175HcLleaX5NVZ--XqPkZ3JE_TfVGP-jm2ix_AbmnMBXlL5HybtnrtcoTSfKLR9RBlku3ezXjS3lXo9eJ39tgt6ypZlGhtD_bulRIUWTN5bWFBRIm3JkoKOAeIoPT4KOFL4eJvKUHfp8hcUiDnXYtrie0-/s728-e100/zimbra.jpg"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-968804561847200265",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) this week moved to add a Linux vulnerability dubbed PwnKit to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.\r\nThe issue, tracked as CVE-2021-4034 (CVSS score: 7.8), came to light in January 2022 and concerns a case of local privilege escalation in polkit's pkexec utility, which allows an",
+          "link": "https://thehackernews.com/2022/06/cisa-warns-of-active-exploitation-of.html",
+          "publishedOn": "2022-06-29T07:40:37.000Z",
+          "wordCount": 2080,
+          "title": "CISA Warns of Active Exploitation of 'PwnKit' Linux Vulnerability in the Wild",
+          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEh27MmgEKR4VQaH1Y1a5Tyhwi79vrhj-AlRf9D39bbkC4uyHLaQzptydYJYrq3DKH2rTA6dQpDGZ27k3bvxNHSKdcitKwKFPIdvSmUGI1uOwO-fI9TRSnHoUJQfaugfF7mE9l6fJbgMIAQ61Efis8jhvOy2YtnehFwVfXvcGkeFB_B4M4sD49Jz8xiw/s728-e1000/linux.jpg"
+        },
         {
           "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2807859946774273774",
           "author": "noreply@blogger.com (Ravie Lakshmanan)",
@@ -1591,46 +1631,6 @@
           "wordCount": 977,
           "title": "Microsoft Releases Workarounds for Office Vulnerability Under Active Exploitation",
           "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEh4XDd5jxlShcQhkpFMeDWuIXh2lmuW6g-pOpYsWcAxsVQeXRD_zrP4VSvk676NwsbCPmQ3N8RbQ0Ox5emUCLWdANDTfkxyX8ZNmIeOx8--iO40HnXyGESjApgsZEkN1p7JZLQWLLVJ3imK_5umSJiUUWXduvPJeQ_nLWxfSUN92U64HfLhpAUbxKty/s728-e100/Windows-Update.jpg"
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7757421847128758305",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "An \"aggressive\" advanced persistent threat (APT) group known as SideWinder has been linked to over 1,000 new attacks since April 2020.\r\n\"Some of the main characteristics of this threat actor that make it stand out among the others, are the sheer number, high frequency and persistence of their attacks and the large collection of encrypted and obfuscated malicious components used in their",
-          "link": "https://thehackernews.com/2022/05/sidewinder-hackers-launched-over-1000.html",
-          "publishedOn": "2022-05-31T12:14:53.000Z",
-          "wordCount": 949,
-          "title": "SideWinder Hackers Launched Over a 1,000 Cyber Attacks Over the Past 2 Years",
-          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEho1rSXMX8K-pkpStupEViixOyQelE73JjHWZYhwhFMY4hJtxeNjuI5nCpz2gT3XPWmJFZ61ir54HlQHtb2CZBFhd71L1S8-Mi3cDR0ax9Q43A4k2l0Jxfn9Swbv8qScEQ-oV1zVkYwsjww4lDnHpoByC6f4gDs6zA7VDTR7ckAe4kfytOhy3mu4WLa/s728-e1000/suppply-chain-cyberattack.jpg"
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8349710164276315126",
-          "author": "noreply@blogger.com (The Hacker News)",
-          "description": "This is an exciting time for the Internet of Things. According to Deloitte research, the average U.S. household now has 25 connected devices — and new products are being launched every day. This rush of demand means that many tech companies are looking for developers with IoT knowledge. And even if you don’t want to specialize in this field, the programming skills are transferable.\r\nFeaturing",
-          "link": "https://thehackernews.com/2022/05/learn-raspberry-pi-and-arduino-with-9.html",
-          "publishedOn": "2022-05-31T07:29:20.000Z",
-          "wordCount": 830,
-          "title": "Learn Raspberry Pi and Arduino with 9 Online Developer Training Courses",
-          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEhdvyRsDYtUtuLCOuoVAcX65CVoxl9QfS42lEebuvAVSM-6nuwLZYcT0cvCwn8V6_89HZvpd0HJosUqd0m247Em86_DmPvYlMQ_8kaK8URKRw9AdEVkIe865OCSBO5NByHi3z7x6ufQbFylx2pSYfKPqewjdOUwdOcIfXQv4pIuc6z8S341hvy2a_vx/s728-e1000/iot.jpg"
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3800678098356142253",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "Interpol on Monday announced the arrest of three suspected global scammers in Nigeria for using remote access trojans (RATs) such as Agent Tesla to facilitate malware-enabled cyber fraud.\r\n\"The men are thought to have used the RAT to reroute financial transactions, stealing confidential online connection details from corporate organizations, including oil and gas companies in South East Asia, the",
-          "link": "https://thehackernews.com/2022/05/interpol-nabs-3-nigerian-scammers.html",
-          "publishedOn": "2022-05-31T06:59:21.000Z",
-          "wordCount": 832,
-          "title": "Interpol Nabs 3 Nigerian Scammers Behind Malware-based Attacks",
-          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEgKsLZjIlfYFhDV8m5w3jEe8z8forAXPFVBi-zPpCJ_Y6T8A8yId6Rch_mWSo4wBkF6PhujRX5_KbcUXNs2HLg6orzY7VVTliZG4NIHWhGIe7Y5Pf96FnTNH9XHeQN_vd9ATwVJws5Hh_g2_F1vN3RqzQ2G2HqzCwpdm9kWoA7MGd_GNlPK2zD5iVTp/s728-e1000/INTERPOL.jpg"
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-172155250568409621",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "Cybersecurity researchers are calling attention to a zero-day flaw in Microsoft Office that could be abused to achieve arbitrary code execution on affected Windows systems.\r\nThe vulnerability came to light after an independent cybersecurity research team known as nao_sec uncovered a Word document (\"05-2022-0438.doc\") that was uploaded to VirusTotal from an IP address in Belarus.\r\n\"It uses Word's",
-          "link": "https://thehackernews.com/2022/05/watch-out-researchers-spot-new.html",
-          "publishedOn": "2022-05-30T15:44:33.000Z",
-          "wordCount": 952,
-          "title": "Watch Out! Researchers Spot New Microsoft Office Zero-Day Exploit in the Wild",
-          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEgi3RXvGtPoTC8ufDqadLbye4bhkJjWs-Un41xcwOWrqQPpLekG-pG0Xxk-or-GInK-LQOG7QDpCF3p4FVNPMxdNLSsl4TgenAVq4LOJcfYcZ0LcgQ0zlwru8TY2ff5ffd7EEPtwFERwA4hDGj0uKeJYZBw1AGUroAFwL-QXSJrDONv8gHe7E2ghPpr/s728-e100/hacking-code.jpg"
         }
       ]
     },
@@ -1639,6 +1639,66 @@
       "feedUrl": "https://feeds.feedburner.com/securityweek",
       "siteUrl": "https://www.securityweek.com",
       "articles": [
+        {
+          "id": "25242 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "Microsoft has patched a vulnerability that could allow an attacker with access to an Azure Linux container to escalate privileges and take over the entire cluster.\n\r\nread more",
+          "link": "https://www.securityweek.com/azure-service-fabric-vulnerability-can-lead-cluster-takeover",
+          "publishedOn": "2022-06-29T13:57:09.000Z",
+          "wordCount": 1352,
+          "title": "Azure Service Fabric Vulnerability Can Lead to Cluster Takeover",
+          "imageUrl": null
+        },
+        {
+          "id": "25241 at https://www.securityweek.com",
+          "author": "Kevin Townsend",
+          "description": "read more",
+          "link": "https://www.securityweek.com/securing-metaverse-and-web3",
+          "publishedOn": "2022-06-29T13:31:52.000Z",
+          "wordCount": 3323,
+          "title": "Securing the Metaverse and Web3",
+          "imageUrl": null
+        },
+        {
+          "id": "25240 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "Mozilla this week announced the availability of Firefox 102 in the stable channel with patches for 19 vulnerabilities, including four high-severity bugs.\n\r\nread more",
+          "link": "https://www.securityweek.com/firefox-102-patches-19-vulnerabilities-improves-privacy",
+          "publishedOn": "2022-06-29T13:26:03.000Z",
+          "wordCount": 1265,
+          "title": "Firefox 102 Patches 19 Vulnerabilities, Improves Privacy",
+          "imageUrl": null
+        },
+        {
+          "id": "25239 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "The US Cybersecurity and Infrastructure Security Agency (CISA) is urging federal agencies and private organizations to switch to Modern Auth in Exchange Online before October 1, 2022.\n\r\nread more",
+          "link": "https://www.securityweek.com/cisa-calls-expedited-adoption-modern-authentication-ahead-deadline",
+          "publishedOn": "2022-06-29T11:51:07.000Z",
+          "wordCount": 1349,
+          "title": "CISA Calls for Expedited Adoption of Modern Authentication Ahead of Deadline",
+          "imageUrl": null
+        },
+        {
+          "id": "25238 at https://www.securityweek.com",
+          "author": "Eduard Kovacs",
+          "description": "The US Cybersecurity and Infrastructure Security Agency (CISA) and the nonprofit organization MITRE have published the 2022 list of the 25 most dangerous vulnerabilities.\n\r\nread more",
+          "link": "https://www.securityweek.com/mitre-publishes-2022-list-25-most-dangerous-vulnerabilities",
+          "publishedOn": "2022-06-29T11:01:02.000Z",
+          "wordCount": 1281,
+          "title": "MITRE Publishes 2022 List of 25 Most Dangerous Vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "25237 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "Cybersecurity workforce development organization CYBER.ORG on Monday announced the launch of Project Access, a national effort to provide cybersecurity education to blind and visually impaired students.\n\r\nread more",
+          "link": "https://www.securityweek.com/cisa-funded-project-enables-students-disabilities-learn-cybersecurity",
+          "publishedOn": "2022-06-29T10:19:46.000Z",
+          "wordCount": 1311,
+          "title": "CISA-Funded Project Enables Students With Disabilities to Learn Cybersecurity",
+          "imageUrl": null
+        },
         {
           "id": "25236 at https://www.securityweek.com",
           "author": "Ryan Naraine",
@@ -3528,46 +3588,6 @@
           "wordCount": 944,
           "title": "Surefire Cyber Tackles Incident Response With $10M Series A Funding",
           "imageUrl": null
-        },
-        {
-          "id": "25048 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "Cybersecurity training firm Hoxhunt today announced that it has raised $40 million in Series B investment, which brings the total raised by the company to over $43 million.\n\r\nThe funding round was led by Level Equity Management, with participation from previous investor Icebreaker.vc.\n\r\nread more",
-          "link": "https://www.securityweek.com/cybersecurity-training-firm-hoxhunt-raises-40-million",
-          "publishedOn": "2022-05-31T13:15:56.000Z",
-          "wordCount": 728,
-          "title": "Cybersecurity Training Firm Hoxhunt Raises $40 Million",
-          "imageUrl": null
-        },
-        {
-          "id": "25047 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "Cybersecurity workflow and productivity startup Seemplicity has emerged from stealth mode after raising a total of $32 million in seed and Series A funding.\n\r\nread more",
-          "link": "https://www.securityweek.com/seemplicity-launches-cybersecurity-productivity-platform-32-million-funding",
-          "publishedOn": "2022-05-31T12:10:01.000Z",
-          "wordCount": 741,
-          "title": "Seemplicity Launches With Cybersecurity Productivity Platform, $32 Million in Funding",
-          "imageUrl": null
-        },
-        {
-          "id": "25046 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "The US Department of Justice on Friday announced the sentencing of John Telusma, a former member of the international cybercrime enterprise known as the “Infraud Organization.”\n\r\nread more",
-          "link": "https://www.securityweek.com/seventh-member-international-cyber-fraud-ring-sentenced-prison",
-          "publishedOn": "2022-05-31T11:54:08.000Z",
-          "wordCount": 876,
-          "title": "Seventh Member of International Cyber Fraud Ring Sentenced to Prison",
-          "imageUrl": null
-        },
-        {
-          "id": "25045 at https://www.securityweek.com",
-          "author": "Eduard Kovacs",
-          "description": "Microsoft has confirmed that Windows is affected by a zero-day vulnerability after researchers warned of exploitation in the wild.\n\r\nread more",
-          "link": "https://www.securityweek.com/microsoft-confirms-exploitation-follina-zero-day-vulnerability",
-          "publishedOn": "2022-05-31T10:25:25.000Z",
-          "wordCount": 1072,
-          "title": "Microsoft Confirms Exploitation of 'Follina' Zero-Day Vulnerability",
-          "imageUrl": null
         }
       ]
     },
@@ -3679,16 +3699,6 @@
           "wordCount": 17926,
           "title": "Vulnerability Summary for the Week of May 30, 2022",
           "imageUrl": null
-        },
-        {
-          "id": "17663 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: May 30, 2022\n \nHigh Vulnerabilities\nPrimary\nDescription\n\t\t\tPublished\n\t\t\tCVSS Score\n\t\t\tSource & Patch Info\n\t\t\nbadminton_center_management_system_project -- badminton_center_management_system\n\t\t\tBadminton Center Management System 1.0 is vulnerable to SQL Injection via /bcms/classes/Master.php?f=delete_court_rental, id.\n\t\t\t2022-05-24\n\t\t\t7.5\n\t\t\tCVE-2022-30455\nMISC\n\t\t\nbattleye -- battleye\n\t\t\tBattlEye v0.9 contains an unquoted service path which allows attackers to escalate privileges to the system level.\n\t\t\t2022-05-20\n\t\t\t7.2\n\t\t\tCVE-2022-27095\nMISC\n\t\t\nchatbot_application_with_a_suggestion_feature_project -- chatbot_application_with_a_suggestion_feature\n\t\t\tChatBot Application with a Suggestion Feature 1.0 was discovered to contain a SQL injection vulnerability via the id pa…",
-          "link": "https://us-cert.cisa.gov/ncas/bulletins/sb22-150",
-          "publishedOn": "2022-05-30T17:15:54.000Z",
-          "wordCount": 19535,
-          "title": "Vulnerability Summary for the Week of May 23, 2022",
-          "imageUrl": null
         }
       ]
     },
@@ -3703,6 +3713,16 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://us-cert.cisa.gov/",
       "articles": [
+        {
+          "id": "17760 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: June 29, 2022\nMozilla has released security updates to address vulnerabilities in Firefox, Firefox ESR, and Thunderbird. An attacker could exploit some of these vulnerabilities to take control of an affected system.  \nCISA encourages users and administrators to review the Mozilla security advisories for Firefox 102, Firefox ESR 91.11, and Thunderbird 91.11 and 102 and apply the necessary updates.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/06/29/mozilla-releases-security-updates-firefox-firefox-esr-and",
+          "publishedOn": "2022-06-29T15:00:00.000Z",
+          "wordCount": 1090,
+          "title": "Mozilla Releases Security Updates for Firefox, Firefox ESR, and Thunderbird",
+          "imageUrl": null
+        },
         {
           "id": "17759 at https://us-cert.cisa.gov",
           "author": "CISA",
@@ -4031,6 +4051,136 @@
       "siteUrl": "https://www.darkreading.com",
       "articles": [
         {
+          "id": "https://www.darkreading.com/remote-workforce/patch-now-linux-container-escape-flaw-azure-service-fabric",
+          "author": "Jai Vijayan, Contributing Writer, Dark Reading",
+          "description": "Microsoft is urging organizations that don't have automatic updates enabled to update to the latest version of Linux Server Fabric to thwart the \"FabricScape\" cloud bug.",
+          "link": "https://www.darkreading.com/remote-workforce/patch-now-linux-container-escape-flaw-azure-service-fabric",
+          "publishedOn": "2022-06-29T20:08:36.000Z",
+          "wordCount": 13597,
+          "title": "Patch Now: Linux Container-Escape Flaw in Azure Service Fabric",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg"
+        },
+        {
+          "id": "https://www.darkreading.com/remote-workforce/zuorat-hijacks-soho-routers-cisco-netgear",
+          "author": "Nathan Eddy, Contributing Writer, Dark Reading",
+          "description": "The malware has been in circulation since 2020, with sophisticated, advanced malicious actors taking advantage of the vulnerabilities in SOHO routers as the work-from-home population expands rapidly.",
+          "link": "https://www.darkreading.com/remote-workforce/zuorat-hijacks-soho-routers-cisco-netgear",
+          "publishedOn": "2022-06-29T18:41:02.000Z",
+          "wordCount": 13092,
+          "title": "ZuoRAT Hijacks SOHO Routers From Cisco, Netgear",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf8b5a94afa71c53a/628e3799daa31875dc0c9fc0/NathanEddyHeadshot.PNG",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf8b5a94afa71c53a/628e3799daa31875dc0c9fc0/NathanEddyHeadshot.PNG"
+        },
+        {
+          "id": "https://www.darkreading.com/vulnerabilities-threats/broken-authentication-vuln-threatens-amazon-photos-android-app",
+          "author": "Dark Reading Staff, Dark Reading",
+          "description": "The now-patched bug allows an attacker to gain full access to a user's Amazon files.",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/broken-authentication-vuln-threatens-amazon-photos-android-app",
+          "publishedOn": "2022-06-29T17:25:08.000Z",
+          "wordCount": 10465,
+          "title": "Broken Authentication Vuln Threatens Amazon Photos Android App",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/how-to-master-the-kill-chain-before-your-attackers-do",
+          "author": "J.R. Cunningham, Chief Security Officer, Nuspire",
+          "description": "In the always-changing world of cyberattacks, preparedness is key.",
+          "link": "https://www.darkreading.com/attacks-breaches/how-to-master-the-kill-chain-before-your-attackers-do",
+          "publishedOn": "2022-06-29T17:00:00.000Z",
+          "wordCount": 13135,
+          "title": "How to Master the Kill Chain Before Your Attackers Do",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt942793c78f3b1de9/61e0ad15fbcd6c0341933689/JR_Cunningham.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt942793c78f3b1de9/61e0ad15fbcd6c0341933689/JR_Cunningham.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/edge-articles/what-s-your-appsec-personality-",
+          "author": "Jeff Williams, CTO, Contrast Security",
+          "description": "It's time to decide which role to play to best serve your organization's security needs: an auditor, a lawyer, or a developer.",
+          "link": "https://www.darkreading.com/edge-articles/what-s-your-appsec-personality-",
+          "publishedOn": "2022-06-29T16:00:00.000Z",
+          "wordCount": 14597,
+          "title": "What's Your AppSec Personality?",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt3745009b86bf5709/60d4333fa7307e39e4d48d9f/Williams_iwk_photo.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt3745009b86bf5709/60d4333fa7307e39e4d48d9f/Williams_iwk_photo.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/vulnerabilities-threats/cyberattacks-bug-exploits-more-costly-incidents",
+          "author": "Robert Lemos, Contributing Writer, Dark Reading",
+          "description": "External attacks focused on vulnerabilities are still the most common ways that companies are successfully attacked, according to incident data.",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/cyberattacks-bug-exploits-more-costly-incidents",
+          "publishedOn": "2022-06-29T15:03:19.000Z",
+          "wordCount": 12730,
+          "title": "Cyberattacks via Unpatched Systems Cost Orgs More Than Phishing",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png"
+        },
+        {
+          "id": "https://www.darkreading.com/risk/shifting-the-cybersecurity-paradigm-from-severity-focused-to-risk-centric",
+          "author": "Ran Abramson, Threat Intelligence Analyst, Skybox Security",
+          "description": "Embrace cyber-risk modeling and ask security teams to pinpoint the risks that matter and prioritize remediation efforts.",
+          "link": "https://www.darkreading.com/risk/shifting-the-cybersecurity-paradigm-from-severity-focused-to-risk-centric",
+          "publishedOn": "2022-06-29T14:00:00.000Z",
+          "wordCount": 11984,
+          "title": "Shifting the Cybersecurity Paradigm From Severity-Focused to Risk-Centric",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt623618c0f6b0f9c9/62acdf3a7f185768b2d07e9b/Ran_Abramson.JPG",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt623618c0f6b0f9c9/62acdf3a7f185768b2d07e9b/Ran_Abramson.JPG"
+        },
+        {
+          "id": "https://www.darkreading.com/dr-tech/5-surprising-cyberattacks-ai-stopped-this-year",
+          "author": "Darktrace Experts, Staff",
+          "description": "See how these novel, sophisticated, or creative threats used techniques such as living off the land to evade detection from traditional defensive measures — but were busted by AI.",
+          "link": "https://www.darkreading.com/dr-tech/5-surprising-cyberattacks-ai-stopped-this-year",
+          "publishedOn": "2022-06-29T12:30:44.000Z",
+          "wordCount": 14013,
+          "title": "5 Surprising Cyberattacks AI Stopped This Year",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc4d8125ae84ad182/60d4480fa7307e39e4d4b914/Darktrace-Experts.png",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc4d8125ae84ad182/60d4480fa7307e39e4d4b914/Darktrace-Experts.png"
+        },
+        {
+          "id": "https://www.darkreading.com/remote-workforce/kaspersky-reveals-phishing-emails-that-employees-find-most-confusing",
+          "author": null,
+          "description": "Results from phishing simulation campaigns highlight the five most effective types of phishing email.",
+          "link": "https://www.darkreading.com/remote-workforce/kaspersky-reveals-phishing-emails-that-employees-find-most-confusing",
+          "publishedOn": "2022-06-29T12:13:05.000Z",
+          "wordCount": 12416,
+          "title": "Kaspersky Reveals Phishing Emails That Employees Find Most Confusing",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
           "id": "https://www.darkreading.com/attacks-breaches/facebook-business-pages-chatbot-data-harvesting-campaign",
           "author": "Tara Seals, Managing Editor, News, Dark Reading",
           "description": "The clever, interactive phishing campaign is a sign of increasingly complex social-engineering attacks, researchers warn.",
@@ -4089,6 +4239,21 @@
             "length": "0"
           },
           "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltea67136f81f32eca/626a9eb4726e3315b16b3c64/Tara-Seals-Headshot2.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/omdia/rsa-2022-omdia-research-take-aways",
+          "author": "Andrew Braunberg, Principal Analyst, SecOps, Omdia",
+          "description": "The RSA conference in San Francisco always feels like drinking from a fire hose but especially this year at the first in-person RSA since the pandemic began.",
+          "link": "https://www.darkreading.com/omdia/rsa-2022-omdia-research-take-aways",
+          "publishedOn": "2022-06-28T18:00:00.000Z",
+          "wordCount": 11864,
+          "title": "RSA 2022: Omdia Research Take Aways",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltd5bdb2abbf9c49ff/62bb447b7c47440e14f7bb80/Braunberg_Bio_Pic.jpeg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltd5bdb2abbf9c49ff/62bb447b7c47440e14f7bb80/Braunberg_Bio_Pic.jpeg"
         },
         {
           "id": "https://www.darkreading.com/attacks-breaches/atlassian-confluence-exploits-peak-100k-daily",
@@ -7389,21 +7554,6 @@
             "length": "0"
           },
           "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt97ad944543134f81/628fdd24b3f9f16d88a05318/Nahmias_.png"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/6-steps-to-ensure-cyber-resilience",
-          "author": "Grayson Milbourne, Security Intelligence Director, OpenText Security Solutions",
-          "description": "To minimize the impact of cyber incidents, organizations must be pragmatic and develop a strategy of resilience for dealing with break-ins, advanced malware, and data theft.",
-          "link": "https://www.darkreading.com/attacks-breaches/6-steps-to-ensure-cyber-resilience",
-          "publishedOn": "2022-05-30T14:00:00.000Z",
-          "wordCount": 1310,
-          "title": "6 Steps to Ensure Cyber Resilience",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blteb3033f0e113e5e2/62880aed2b65657f139d6c2f/G_Milbourne.png",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blteb3033f0e113e5e2/62880aed2b65657f139d6c2f/G_Milbourne.png"
         }
       ]
     },
@@ -7465,16 +7615,6 @@
           "wordCount": 2523,
           "title": "A Man of Action: Meet Callum Carney",
           "imageUrl": null
-        },
-        {
-          "id": "https://msrc-blog.microsoft.com/?p=14264",
-          "author": "msrc",
-          "description": "On Monday May 30, 2022, Microsoft issued CVE-2022-30190 regarding the Microsoft Support Diagnostic Tool (MSDT) in Windows vulnerability. A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run arbitrary code with the privileges of the …\n  Guidance for CVE-2022-30190 Microsoft Support Diagnostic Tool Vulnerability Read More »",
-          "link": "https://msrc-blog.microsoft.com/2022/05/30/guidance-for-cve-2022-30190-microsoft-support-diagnostic-tool-vulnerability/",
-          "publishedOn": "2022-05-30T23:25:16.000Z",
-          "wordCount": 1278,
-          "title": "Guidance for CVE-2022-30190 Microsoft Support Diagnostic Tool Vulnerability",
-          "imageUrl": null
         }
       ]
     },
@@ -7483,6 +7623,16 @@
       "feedUrl": "https://www.schneier.com/feed/atom",
       "siteUrl": "https://www.schneier.com",
       "articles": [
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/06/ecuadors-attempt-to-resettle-edward-snowden.html",
+          "author": null,
+          "description": "<p>Someone hacked the Ecuadorian embassy in Moscow and <a href=\"https://www.dailydot.com/debug/exclusive-hacked-documents-ecuadors-edward-snowden/\">found a document</a> related to Ecuador&#8217;s 2013 efforts to bring Edward Snowden there. If you remember, Snowden was traveling from Hong Kong to somewhere when the US revoked his passport, stranding him in Russia. In the document, Ecuador asks Russia to provide Snowden with safe passage to come to Ecuador.</p>\n<p>It&#8217;s hard  to believe this all happened almost ten years ago.</p>",
+          "link": "https://www.schneier.com/blog/archives/2022/06/ecuadors-attempt-to-resettle-edward-snowden.html",
+          "publishedOn": "2022-06-29T11:19:15.000Z",
+          "wordCount": 1332,
+          "title": "Ecuador’s Attempt to Resettle Edward Snowden",
+          "imageUrl": null
+        },
         {
           "id": "https://www.schneier.com/blog/archives/2022/06/__trashed-2.html",
           "author": null,
@@ -7732,26 +7882,6 @@
           "wordCount": 634,
           "title": "Clever — and Exploitable — Windows Zero-Day",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.schneier.com/blog/archives/2022/05/the-limits-of-cyber-operations-in-wartime.html",
-          "author": null,
-          "description": "<p>Interesting paper by Lennart Maschmeyer: &#8220;<a href=\"https://direct.mit.edu/isec/article/46/2/51/107693/The-Subversive-Trilemma-Why-Cyber-Operations-Fall\">The Subversive Trilemma: Why Cyber Operations Fall Short of Expectations</a>&#8220;:</p>\n<blockquote><p><b>Abstract:</b> Although cyber conflict has existed for thirty years, the strategic utility of cyber operations remains unclear. Many expect cyber operations to provide independent utility in both warfare and low-intensity competition. Underlying these expectations are broadly shared assumptions that information technology increases operational effectiveness. But a growing body of research shows how cyber operations tend to fall short of their promise. The reason for this shortfall is their subversive mechanism of action. In theory, subversion provides a way to exert influence at lower risks than force because it is secret and indirect, exploiting systems to use them against adversaries. The mismatch between promise and practice is the consequence of the subversive trilemma of cyber operations, whereby speed, intensity, and control are negatively correlated. These constraints pose a trilemma for actors because a gain in one variable tends to produce losses across the other two variables. A case study of the Russo-Ukrainian conflict provides empirical support for the argument. Qualitative analysis leverages original data from field interviews, leaked documents, forensic evidence, and local media. Findings show that the subversive trilemma limited the strategic utility of all five major disruptive cyber operations in this conflict...</p></blockquote>",
-          "link": "https://www.schneier.com/blog/archives/2022/05/the-limits-of-cyber-operations-in-wartime.html",
-          "publishedOn": "2022-05-31T11:06:03.000Z",
-          "wordCount": 2565,
-          "title": "The Limits of Cyber Operations in Wartime",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.schneier.com/blog/archives/2022/05/security-and-human-behavior-shb-2022.html",
-          "author": null,
-          "description": "<p>Today is the second day of the fifteenth <a href=\"https://www.cl.cam.ac.uk/~rja14/shb22/\">Workshop on Security and Human Behavior</a>, hosted by Ross Anderson and Alice Hutchings at the University of Cambridge. After two years of having this conference remotely on Zoom, it&#8217;s nice to be back together in person.</p>\n<p>SHB is a small, annual, invitational workshop of people studying various aspects of the human side of security, organized each year by Alessandro Acquisti, Ross Anderson, Alice Hutchings, and myself. The forty or so attendees include psychologists, economists, computer security researchers, sociologists, political scientists, criminologists, neuroscientists, designers, lawyers, philosophers, anthropologists, geographers, business school professors, and a smattering of others. It&#8217;s not just an interdisciplinary event; most of the people here are individually interdisciplinary...</p>",
-          "link": "https://www.schneier.com/blog/archives/2022/05/security-and-human-behavior-shb-2022.html",
-          "publishedOn": "2022-05-31T09:12:43.000Z",
-          "wordCount": 738,
-          "title": "Security and Human Behavior (SHB) 2022",
-          "imageUrl": null
         }
       ]
     },
@@ -7760,6 +7890,16 @@
       "feedUrl": "https://ubuntu.com/security/notices/rss.xml",
       "siteUrl": "https://ubuntu.com/security/notices/rss.xml",
       "articles": [
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5496-1",
+          "author": null,
+          "description": "Mike Stroyan discovered that cloud-init could log password hashes when\nreporting schema failures. An attacker with access to these logs could\npotentially use this to gain user credentials.",
+          "link": "https://ubuntu.com/security/notices/USN-5496-1",
+          "publishedOn": "2022-06-29T22:11:21.000Z",
+          "wordCount": 823,
+          "title": "USN-5496-1: cloud-init vulnerability",
+          "imageUrl": null
+        },
         {
           "id": "https://ubuntu.com/security/notices/USN-5495-1",
           "author": null,
@@ -8258,26 +8398,6 @@
           "publishedOn": "2022-05-31T17:43:25.000Z",
           "wordCount": 424,
           "title": "USN-5451-1: InfluxDB vulnerability",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ubuntu.com/security/notices/USN-5454-1",
-          "author": null,
-          "description": "Joshua Mason discovered that CUPS incorrectly handled the secret key used\nto access the administrative web interface. A remote attacker could\npossibly use this issue to open a session as an administrator and execute\narbitrary code. (CVE-2022-26691)\n\nIt was discovered that CUPS incorrectly handled certain memory operations\nwhen handling IPP printing. A remote attacker could possibly use this issue\nto cause CUPS to crash, leading to a denial of service, or obtain sensitive\ninformation. This issue only affected Ubuntu 18.04 LTS and Ubuntu 20.04\nLTS.  (CVE-2019-8842, CVE-2020-10001)",
-          "link": "https://ubuntu.com/security/notices/USN-5454-1",
-          "publishedOn": "2022-05-31T11:29:49.000Z",
-          "wordCount": 515,
-          "title": "USN-5454-1: CUPS vulnerabilities",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ubuntu.com/security/notices/USN-5446-2",
-          "author": null,
-          "description": "USN-5446-1 fixed a vulnerability in dpkg. This update provides\nthe corresponding update for Ubuntu 16.04 ESM.\n\nOriginal advisory details:\n\n Max Justicz discovered that dpkg incorrectly handled unpacking certain\n source packages. If a user or an automated system were tricked into\n unpacking a specially crafted source package, a remote attacker could\n modify files outside the target unpack directory, leading to a denial of\n service or potentially gaining access to the system.",
-          "link": "https://ubuntu.com/security/notices/USN-5446-2",
-          "publishedOn": "2022-05-30T15:29:17.000Z",
-          "wordCount": 480,
-          "title": "USN-5446-2: dpkg vulnerability",
           "imageUrl": null
         }
       ]
