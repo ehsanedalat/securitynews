@@ -6,6 +6,26 @@
       "siteUrl": "https://portswigger.net/daily-swig",
       "articles": [
         {
+          "id": "atlassian-patches-full-read-ssrf-in-jira",
+          "author": null,
+          "description": "Severity of authenticated flaw heightened by abuse of Jira Service Desk signup facility",
+          "link": "https://portswigger.net/daily-swig/atlassian-patches-full-read-ssrf-in-jira",
+          "publishedOn": "2022-07-06T15:21:24.000Z",
+          "wordCount": 1062,
+          "title": "Atlassian patches full-read SSRF in Jira",
+          "imageUrl": "https://portswigger.net/cms/images/4d/4f/0977-twittercard-220706-jira.jpg"
+        },
+        {
+          "id": "high-severity-openssl-bug-could-lead-to-remote-code-execution",
+          "author": null,
+          "description": "Fixes are available, update now",
+          "link": "https://portswigger.net/daily-swig/high-severity-openssl-bug-could-lead-to-remote-code-execution",
+          "publishedOn": "2022-07-06T13:14:28.000Z",
+          "wordCount": 893,
+          "title": "High severity OpenSSL bug could lead to remote code execution",
+          "imageUrl": "https://portswigger.net/cms/images/43/c9/482b-twittercard-220706-openssl-main.jpg"
+        },
+        {
           "id": "spring-data-mongodb-hit-by-another-critical-spel-injection-flaw",
           "author": null,
           "description": "Bug mirrors recent SpEL injection vulnerability that emerged alongside ‘SpringShell’ issue",
@@ -534,36 +554,6 @@
           "wordCount": 1158,
           "title": "Google showers top cloud security researchers with kudos and cash",
           "imageUrl": "https://portswigger.net/cms/images/f3/9a/51d5-twittercard-220607-google-cloud-main.jpg"
-        },
-        {
-          "id": "http-3-evolves-into-rfc-9114-a-security-advantage-but-not-without-challenges",
-          "author": null,
-          "description": "The backbone of the web has received a major upgrade",
-          "link": "https://portswigger.net/daily-swig/http-3-evolves-into-rfc-9114-a-security-advantage-but-not-without-challenges",
-          "publishedOn": "2022-06-07T13:38:28.000Z",
-          "wordCount": 1165,
-          "title": "HTTP/3 evolves into RFC 9114 – a security advantage, but not without challenges",
-          "imageUrl": "https://portswigger.net/cms/images/d0/6a/5dd3-twittercard-201027-http3-body-text.jpg"
-        },
-        {
-          "id": "vast-majority-of-ethical-hackers-keen-to-spend-more-time-bug-bounty-hunting-report",
-          "author": null,
-          "description": "Bounties and greater independence are prime motives for hackers hoping to do more freelance bug hunting",
-          "link": "https://portswigger.net/daily-swig/vast-majority-of-ethical-hackers-keen-to-spend-more-time-bug-bounty-hunting-report",
-          "publishedOn": "2022-06-07T10:25:00.000Z",
-          "wordCount": 1252,
-          "title": "Vast majority of ethical hackers keen to spend more time bug bounty hunting – report",
-          "imageUrl": "https://portswigger.net/cms/images/23/08/68f1-twittercard-220606-intigriti-report.jpg"
-        },
-        {
-          "id": "unpatched-bug-chain-poses-mass-account-takeover-threat-to-yunmai-weight-monitoring-app",
-          "author": null,
-          "description": "User data related to at least 500,000 Android accounts at risk",
-          "link": "https://portswigger.net/daily-swig/unpatched-bug-chain-poses-mass-account-takeover-threat-to-yunmai-weight-monitoring-app",
-          "publishedOn": "2022-06-06T14:20:40.000Z",
-          "wordCount": 1207,
-          "title": "Unpatched bug chain poses ‘mass account takeover’ threat to Yunmai weight monitoring app",
-          "imageUrl": "https://portswigger.net/cms/images/b4/bc/132d-twittercard-220606-iot-scale-main.png"
         }
       ]
     },
@@ -572,6 +562,66 @@
       "feedUrl": "https://feeds.feedburner.com/TheHackersNews",
       "siteUrl": "https://thehackernews.com/",
       "articles": [
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5337126819312291911",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "The U.S. Department of Commerce's National Institute of Standards and Technology (NIST) has chosen the first set of quantum-resistant encryption algorithms that are designed to \"withstand the assault of a future quantum computer.\"\r\nThe post-quantum cryptography (PQC) technologies include the CRYSTALS-Kyber algorithm for general encryption, and CRYSTALS-Dilithium, FALCON, and SPHINCS+ for digital",
+          "link": "https://thehackernews.com/2022/07/nist-announces-first-four-quantum.html",
+          "publishedOn": "2022-07-06T17:19:08.000Z",
+          "wordCount": 2154,
+          "title": "NIST Announces First Four Quantum-Resistant Cryptographic Algorithms",
+          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEi6HFJuu9ztkCdlTidks356McpzwBpNMc3krcAuBrxJqlF7xgK6VnhvJShH8L3QSL-PBOcFDi4y1QrggnSAcFsdr4eD3dqVLGqNR4CGhyH3nf_AEwXeTiCocuVKNK10hjAQM5_6t44QSvMV_DusSu-YbQr_b4LVkHkSrnS4QkwaMTV1erSU0q5clLLS/s728-e1000/encryption.jpg"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2382599353339956113",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "The maintainers of the OpenSSL project have released patches to address a high-severity bug in the cryptographic library that could potentially lead to remote code execution under certain scenarios.\r\nThe issue, now assigned the identifier CVE-2022-2274, has been described as a case of heap memory corruption with RSA private key operation that was introduced in OpenSSL version 3.0.4 released on",
+          "link": "https://thehackernews.com/2022/07/openssl-releases-patch-for-high.html",
+          "publishedOn": "2022-07-06T13:38:14.000Z",
+          "wordCount": 2010,
+          "title": "OpenSSL Releases Patch for High-Severity Bug that Could Lead to RCE Attacks",
+          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEhIao7uQkgoIKvzNiHwPv-bTdQ04kE35GcphEB4mdHgT6oQtKBl0CGe6ZwL_ryGkubq5E6utkPkY3dKcOr6jrGAtRdysT4bQQUNNVv8ruBZPPU03jRjKbxYuZ0QnSZqVldbMKgJ0ha8cw1ScvrHr-yF8_W7zzIaR77KWOhgJnddlLPY3sQKGp40KrRv/s728-e1000/openssl.jpg"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7205283871489159037",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "Malicious actors have been observed abusing legitimate adversary simulation software in their attacks in an attempt to stay under the radar and evade detection.\r\nPalo Alto Networks Unit 42 said a malware sample uploaded to the VirusTotal database on May 19, 2022, contained a payload associated with Brute Ratel C4, a relatively new sophisticated toolkit \"designed to avoid detection by endpoint",
+          "link": "https://thehackernews.com/2022/07/hackers-abusing-brc4-red-team.html",
+          "publishedOn": "2022-07-06T13:21:50.000Z",
+          "wordCount": 2352,
+          "title": "Hackers Abusing BRc4 Red Team Penetration Tool in Attacks to Evade Detection",
+          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEgEC2wewzMiy5yD1v2yoo9c6t18UiJU8ydEKYWn0LvECIqhChDfkkZvVf_Ihblkjllu0Qxse5CnO8JgP_aj0HCN0nYO8XXnXQDzElwGlB8xuMM7I_Ezc8GIT5lY45mL_DBS7XHgVj9QSvxE-jLnCh5fxt_LKHTGWJK8kaR5sQZsVdqGgH9JSWmn_zuj/s728-e100/hackers.jpg"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5171425548772004771",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "Military entities located in Bangladesh continue to be at the receiving end of sustained cyberattacks by an advanced persistent threat tracked as Bitter.\r\n\"Through malicious document files and intermediate malware stages the threat actors conduct espionage by deploying Remote Access Trojans,\" cybersecurity firm SECUINFRA said in a new write-up published on July 5.\r\nThe findings from the",
+          "link": "https://thehackernews.com/2022/07/bitter-apt-hackers-continue-to-target.html",
+          "publishedOn": "2022-07-06T12:05:38.000Z",
+          "wordCount": 2186,
+          "title": "Bitter APT Hackers Continue to Target Bangladesh Military Entities",
+          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEjJpuYlpAsTKznEFPEaaE-XIBpOhHf4Bn6kkPJFPmHp2AEagYrBTNAAlBn6q3uE8sDlaC1b5u3X9t1briAHrh3BPfPZ0XZIorileiK3aRtOEKN9d1BL7EsWNK9EmJEH4k8_n5UGsM6mZ4eGvqxCHmRl7ck4j9yU1Luy_NI8ZzKBe0m5JfgKGCtZrjZ0/s728-e1000/malware-code.jpg"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3863498642770039365",
+          "author": "noreply@blogger.com (The Hacker News)",
+          "description": "July may positively disrupt and adrenalize the old-fashioned Dynamic Application Security Scanning (DAST) market, despite the coming holiday season. The pathbreaking innovation comes from ImmuniWeb, a global application security company, well known for, among other things, its free Community Edition that processes over 100,000 daily security scans of web and mobile apps. \r\nToday, ImmuniWeb",
+          "link": "https://thehackernews.com/2022/07/the-end-of-false-positives-for-web-and.html",
+          "publishedOn": "2022-07-06T11:31:58.000Z",
+          "wordCount": 2436,
+          "title": "The End of False Positives for Web and API Security Scanning?",
+          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEjCimt_SCWLQcdNEbrjZXG7LZIOZLqabDOXh2YOB9bSW8KcxllFjvEHNlBAQvSYu6UaopnI5klEOBXYCFClSFeumRViac0W26FAogbLqaMSqzuqr5bDOiO3XhTgKEohlZrodp3zjV1U1F36Yqc900cQz1QxiZ_wNbDGH4cF3jWpsKTSYYVpQk_4-mkb/s728-e1000/1.jpg"
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4441718188225875253",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "The operators of the Hive ransomware-as-a-service (RaaS) scheme have overhauled their file-encrypting software to fully migrate to Rust and adopt a more sophisticated encryption method.\r\n\"With its latest variant carrying several major upgrades, Hive also proves it's one of the fastest evolving ransomware families, exemplifying the continuously changing ransomware ecosystem,\" Microsoft Threat",
+          "link": "https://thehackernews.com/2022/07/hive-ransomware-upgrades-to-rust-for.html",
+          "publishedOn": "2022-07-06T07:09:04.000Z",
+          "wordCount": 2211,
+          "title": "Hive Ransomware Upgrades to Rust for More Sophisticated Encryption Method",
+          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEjjwspLjItjpuzJpoVH7b7X2saDqZ_mxpwvWGDiLF3_3aqYpnySeM1kRIDMTjZYjKdg_rti3w2gZltZiRLOpICfkUh0rQj1-pigYTUKYz9GChpRvUTVO2GWF6b6PW9YuhV5UE-wLj-o8c5Q1HKeuS4GOfelRbV7qkhsqpTkLxuJpbAAWrvzRDkZDzRP/s728-e1000/malware.jpg"
+        },
         {
           "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2730982183407992466",
           "author": "noreply@blogger.com (Ravie Lakshmanan)",
@@ -1581,56 +1631,6 @@
           "wordCount": 937,
           "title": "FBI Seizes 'SSNDOB' ID Theft Service for Selling Personal Info of 24 Million People",
           "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEhj5N8GYr3oXWDLunEHwg1S9rVGLojjaY06XwGka4ocwc6SY1j9aonNcTeghxohylfmmJWIxJ6Hs8FwgD5n_vBcIJtqyFvGfNtw0Bo1xezuMsIX3qYSSentaozMNO-ddzC3daj2yGERm1nUxabBhDM55QNGQpuUSR8upYwJc9W3ZNumcNygAkRceOzy/s728-e1000/domain.jpg"
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1448725923034283185",
-          "author": "noreply@blogger.com (The Hacker News)",
-          "description": "Enforcing the \"double-extortion\" technique aka pay-now-or-get-breached emerged as a head-turner last year. \r\nMay 6th, 2022 is a recent example.\r\nThe State Department said the Conti strain of ransomware was the most costly in terms of payments made by victims as of January.\r\nConti, a ransomware-as-a-service (RaaS) program, is one of the most notorious ransomware groups and has been responsible for",
-          "link": "https://thehackernews.com/2022/06/hacking-scenarios-how-hackers-choose.html",
-          "publishedOn": "2022-06-07T12:58:25.000Z",
-          "wordCount": 1765,
-          "title": "Hacking Scenarios: How Hackers Choose Their Victims",
-          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEg2xtmHLw1pJH1E0RnYtvP4cZwsI56hMdruNaeviyBSdONUZi26f-0VRb7Fz2oKvFNx3xslSPjPOgbwMbBdG03nSAyiqN5_g6P5hB-y6dsqebTvihjyOFOXg66IGb3knl5niAopKCFaslvkyouBZBBBdmyCYK8A78NTE4xtL0Y_jBI4rTsv3Fd-yJkj/s728-e1000/app.jpg"
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2508502669177053762",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "The threat cluster dubbed UNC2165, which shares numerous overlaps with a Russia-based cybercrime group known as Evil Corp, has been linked to multiple LockBit ransomware intrusions in an attempt to get around sanctions imposed by the U.S. Treasury in December 2019.\r\n\"These actors have shifted away from using exclusive ransomware variants to LockBit — a well-known ransomware as a service (RaaS) —",
-          "link": "https://thehackernews.com/2022/06/evil-corp-cybercrime-group-shifts-to.html",
-          "publishedOn": "2022-06-07T12:51:35.000Z",
-          "wordCount": 1083,
-          "title": "Evil Corp Cybercrime Group Shifts to LockBit Ransomware to Evade Sanctions",
-          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEi5c9ecv-olSPKtGaD7vL3c1ByI60Z_luYMrMTj4yqQj0Q0iIKYEpJU3gHRZBMPhW-RsTjz-iAs8hBZuF-Qi3-c3SsGSmWzAgoi-VsveJYcclvfHFMGdWin2AEVjJVE4MkQqgWM8C-uNDV7RSUFtn7mluSJ8Q5LbH66P6jdKIZ_q2AjYuPjsaMzTmFZ/s728-e1000/hacking-group.jpg"
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3844905411613875510",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "Apple has introduced a Rapid Security Response feature in iOS 16 and macOS Ventura that's designed to deploy security fixes without the need for a full operating system version update.\r\n\"macOS security gets even stronger with new tools that make the Mac more resistant to attack, including Rapid Security Response that works in between normal updates to easily keep security up to date without a",
-          "link": "https://thehackernews.com/2022/06/apples-new-feature-will-install.html",
-          "publishedOn": "2022-06-07T12:38:55.000Z",
-          "wordCount": 922,
-          "title": "Apple's New Feature Will Install Security Updates Automatically Without Full OS Update",
-          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEgkV6gfB0VRb3TBBnRGACAWMiR5z7Xil_08dsJASmg4YOXiKt-gJcA5DC9up9z-OHYP99WCUuAczoiyzd-fEBPxxqd7iYX54Gw7Si9Ba8K_jbIZTL4YJw_5mNCy9WPv84Fn0LXO9yXlApySjpurh7Oo_xjuFjb1vU3soBv2NIaQoUQLzeorPdMnX1Y6/s728-e1000/apple-update.jpg"
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-885450385783066412",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "A new wave of phishing campaigns has been observed spreading a previously documented malware called SVCReady.\r\n\"The malware is notable for the unusual way it is delivered to target PCs — using shellcode hidden in the properties of Microsoft Office documents,\" Patrick Schläpfer, a threat analyst at HP, said in a technical write-up.\r\nSVCReady is said to be in its early stage of development, with the",
-          "link": "https://thehackernews.com/2022/06/researchers-warn-of-spam-campaign.html",
-          "publishedOn": "2022-06-07T12:26:56.000Z",
-          "wordCount": 824,
-          "title": "Researchers Warn of Spam Campaign Targeting Victims with SVCReady Malware",
-          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEibCU7TH_1Rj4dIvaFp_sIGbuhMfgvD3JLtMv-dgKopOSnFO5lrj_lnKrlQ-b949z3lXcAODRDM4Bfo0O1K4WWZgfHePr2ap9AdhOSZ2VUCvDbxlBFtt8oJmHW9fPlIMIzWMYekQ_ZsY1N6SMfluj5VcQwLv06abCPYsYJCVmTYhTFIQ2KdFTj6S3w3/s728-e1000/word.jpg"
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-416316739083618224",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "10 of the most prolific mobile banking trojans have set their eyes on 639 financial applications that are available on the Google Play Store and have been cumulatively downloaded over 1.01 billion times.\r\nSome of the most targeted apps include Walmart-backed PhonePe, Binance, Cash App, Garanti BBVA Mobile, La Banque Postale, Ma Banque, Caf - Mon Compte, Postepay, and BBVA México. These apps alone",
-          "link": "https://thehackernews.com/2022/06/10-most-prolific-banking-trojans.html",
-          "publishedOn": "2022-06-06T14:34:49.000Z",
-          "wordCount": 919,
-          "title": "10 Most Prolific Banking Trojans Targeting Hundreds of Financial Apps with Over a Billion Users",
-          "imageUrl": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEjArmXh4iW2t1OZ68WoFmNX4TMvuLnR4ZB-1_-WXYlt_jcy8AqmR1QKo2FicZrfFZDQJqHg2OvmRsy7ZmPdublP-SH0zGzusMkm-a_SIRexCphZQi-uoPKUTLcVQ1HIEfBdlGlFNqTINXRzkTIiR6aMkIg6kZhbJXCwC51Jn9f8WBGq6kn0CSyCgGId/s728-e1000/apps.jpg"
         }
       ]
     },
@@ -1639,6 +1639,106 @@
       "feedUrl": "https://feeds.feedburner.com/securityweek",
       "siteUrl": "https://www.securityweek.com",
       "articles": [
+        {
+          "id": "25273 at https://www.securityweek.com",
+          "author": "Associated Press",
+          "description": "The head of the FBI and the leader of Britain’s domestic intelligence agency raised alarms Wednesday about the Chinese government, warning business leaders that Beijing is determined to steal their technology for competitive gain.\n\r\nread more",
+          "link": "https://www.securityweek.com/us-uk-leaders-raise-fresh-alarms-about-chinese-espionage",
+          "publishedOn": "2022-07-06T19:58:59.000Z",
+          "wordCount": 1567,
+          "title": "US, UK Leaders Raise Fresh Alarms About Chinese Espionage",
+          "imageUrl": null
+        },
+        {
+          "id": "25272 at https://www.securityweek.com",
+          "author": "Ryan Naraine",
+          "description": "Faced with a surge in state-sponsored mercenary spyware attacks targeting its flagship iOS platform, Apple plans to add a new 'Lockdown Mode' that significantly reduces attack surface and adds technical roadblocks to limit sophisticated software exploits.\n\r\nread more",
+          "link": "https://www.securityweek.com/apple-adds-lockdown-mode-thwart-gov-mercenary-spyware",
+          "publishedOn": "2022-07-06T18:15:34.000Z",
+          "wordCount": 1584,
+          "title": "Apple Adds 'Lockdown Mode' to Thwart .Gov Mercenary Spyware",
+          "imageUrl": null
+        },
+        {
+          "id": "25271 at https://www.securityweek.com",
+          "author": "Ryan Naraine",
+          "description": "Security researchers at ReversingLabs are warning of a “significant escalation in software supply chain attacks” after discovering more than two dozen malicious NPM packages siphoning user data from mobile and desktop applications.\n\r\nread more",
+          "link": "https://www.securityweek.com/researchers-flag-significant-escalation-software-supply-chain-attacks",
+          "publishedOn": "2022-07-06T17:35:35.000Z",
+          "wordCount": 1581,
+          "title": "Researchers Flag 'Significant Escalation' in Software Supply Chain Attacks",
+          "imageUrl": null
+        },
+        {
+          "id": "25270 at https://www.securityweek.com",
+          "author": "Gordon Lawson",
+          "description": "On February 24, Russia launched its full-scale assault on Ukraine. The invader’s weapons included tanks, heavy artillery… and software. On April 8, attackers armed with Industroyer2, a species of malware designed to incapacitate power stations and plunge whole cities into darkness, managed to briefly penetrate Ukrainian defenses, putting two million homes at risk.\n\r\nread more",
+          "link": "https://www.securityweek.com/infrastructure-war-horizon",
+          "publishedOn": "2022-07-06T15:51:48.000Z",
+          "wordCount": 1833,
+          "title": "Is an Infrastructure War on the Horizon?",
+          "imageUrl": null
+        },
+        {
+          "id": "25269 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "The United States Department of Defense (DoD) has launched a one-week bug bounty program to reward researchers who find high- and critical-severity vulnerabilities in publicly accessible assets owned by the DoD.\n\r\nread more",
+          "link": "https://www.securityweek.com/dod-launches-hack-us-bounties-major-flaws-publicly-exposed-assets",
+          "publishedOn": "2022-07-06T15:32:35.000Z",
+          "wordCount": 1273,
+          "title": "DoD Launches 'Hack US' Bounties for Major Flaws in Publicly Exposed Assets",
+          "imageUrl": null
+        },
+        {
+          "id": "25268 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "Security automation startup Swimlane on Wednesday announced it has raised $70 million in a Series C funding round that brings the total investment in the company to $170 million.\n\r\nread more",
+          "link": "https://www.securityweek.com/security-automation-firm-swimlane-closes-70-million-funding-round",
+          "publishedOn": "2022-07-06T15:01:06.000Z",
+          "wordCount": 1189,
+          "title": "Security Automation Firm Swimlane Closes $70 Million Funding Round",
+          "imageUrl": null
+        },
+        {
+          "id": "25267 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "A new variant of the Hive ransomware written using the Rust programming language is more evasive and provides attackers with flexibility, courtesy of support for command-line parameters.\n\r\nread more",
+          "link": "https://www.securityweek.com/evasive-rust-coded-hive-ransomware-variant-emerges",
+          "publishedOn": "2022-07-06T14:51:41.000Z",
+          "wordCount": 1496,
+          "title": "Evasive Rust-Coded Hive Ransomware Variant Emerges",
+          "imageUrl": null
+        },
+        {
+          "id": "25266 at https://www.securityweek.com",
+          "author": "Kevin Townsend",
+          "description": "The National Institute of Standards and Technology (NIST) announced July 5, 2022, the first group of four encryption tools designed to tackle the looming threat of quantum computer crypto cracking capabilities. Four more are still being evaluated, and finalists from these will be announced in the future.\n\r\nread more",
+          "link": "https://www.securityweek.com/nist-announces-post-quantum-encryption-competition-winners",
+          "publishedOn": "2022-07-06T13:49:12.000Z",
+          "wordCount": 1648,
+          "title": "NIST Announces Post Quantum Encryption Competition Winners",
+          "imageUrl": null
+        },
+        {
+          "id": "25265 at https://www.securityweek.com",
+          "author": "Kevin Townsend",
+          "description": "Artificial intelligence is more artificial than intelligent.\n\r\nread more",
+          "link": "https://www.securityweek.com/bias-artificial-intelligence-can-ai-be-trusted",
+          "publishedOn": "2022-07-06T11:32:23.000Z",
+          "wordCount": 3514,
+          "title": "Bias in Artificial Intelligence: Can AI be Trusted?",
+          "imageUrl": null
+        },
+        {
+          "id": "25264 at https://www.securityweek.com",
+          "author": "Associated Press",
+          "description": "Hackers claim to have obtained a trove of data on 1 billion Chinese from a Shanghai police database in a leak that, if confirmed, could be one of the largest data breaches in history.\n\r\nread more",
+          "link": "https://www.securityweek.com/alleged-chinese-police-database-hack-leaks-data-1-billion",
+          "publishedOn": "2022-07-06T10:48:56.000Z",
+          "wordCount": 1613,
+          "title": "Alleged Chinese Police Database Hack Leaks Data of 1 Billion",
+          "imageUrl": null
+        },
         {
           "id": "25263 at https://www.securityweek.com",
           "author": "AFP",
@@ -3248,96 +3348,6 @@
           "wordCount": 904,
           "title": "Spanish Judge to Seek Testimony From NSO on Pegasus Spyware",
           "imageUrl": null
-        },
-        {
-          "id": "25103 at https://www.securityweek.com",
-          "author": "Eduard Kovacs",
-          "description": "Industrial cybersecurity firm Dragos on Tuesday announced the launch of OT-CERT, a new initiative whose goal is to provide free cybersecurity resources for industrial asset owners and operators.\n\r\nread more",
-          "link": "https://www.securityweek.com/new-dragos-ot-cert-provides-free-industrial-cybersecurity-resources",
-          "publishedOn": "2022-06-07T13:49:40.000Z",
-          "wordCount": 799,
-          "title": "New Dragos OT-CERT Provides Free Industrial Cybersecurity Resources",
-          "imageUrl": null
-        },
-        {
-          "id": "25102 at https://www.securityweek.com",
-          "author": "Eduard Kovacs",
-          "description": "Hundreds of companies are showcasing their products and services this week at the 2022 edition of the RSA Conference in San Francisco.\n\r\nread more",
-          "link": "https://www.securityweek.com/rsa-conference-2022-vendor-announcements-summary-day-1",
-          "publishedOn": "2022-06-07T12:40:25.000Z",
-          "wordCount": 1905,
-          "title": "RSA Conference 2022 - Announcements Summary (Day 1)",
-          "imageUrl": null
-        },
-        {
-          "id": "25101 at https://www.securityweek.com",
-          "author": "Galina Antova",
-          "description": "We have a great challenge with the gap in cybersecurity jobs in general, with estimates ranging from 2.72 million to 3.5 million job openings in 2021.\n\r\nread more",
-          "link": "https://www.securityweek.com/4-ways-close-ot-cybersecurity-talent-gap",
-          "publishedOn": "2022-06-07T12:23:05.000Z",
-          "wordCount": 1518,
-          "title": "4 Ways to Close the OT Cybersecurity Talent Gap",
-          "imageUrl": null
-        },
-        {
-          "id": "25100 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "Security awareness provider CybSafe on Monday announced that it has raised $28 million in Series B funding, which brings the total raised by the company to $40 million.\n\r\nThe new investment round was led by Evolution Equity Partners, with participation from Emerald Development Managers, Hannover Digital Investments (HDI), and IQ Capital.\n\r\nread more",
-          "link": "https://www.securityweek.com/security-awareness-firm-cybsafe-bags-28-million-series-b-funding",
-          "publishedOn": "2022-06-07T10:34:33.000Z",
-          "wordCount": 754,
-          "title": "Security Awareness Firm CybSafe Bags $28 Million in Series B Funding",
-          "imageUrl": null
-        },
-        {
-          "id": "25099 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "Google this week announced that the latest Android patches resolve a total of 40 vulnerabilities, including several rated “critical.”\n\r\nread more",
-          "link": "https://www.securityweek.com/google-patches-critical-android-vulnerabilities-june-2022-updates",
-          "publishedOn": "2022-06-07T10:09:06.000Z",
-          "wordCount": 958,
-          "title": "Google Patches Critical Android Vulnerabilities With June 2022 Updates",
-          "imageUrl": null
-        },
-        {
-          "id": "25098 at https://www.securityweek.com",
-          "author": "Associated Press",
-          "description": "read more",
-          "link": "https://www.securityweek.com/musk-threatens-walk-away-twitter-deal",
-          "publishedOn": "2022-06-07T00:48:07.000Z",
-          "wordCount": 1369,
-          "title": "Musk Threatens to Walk Away From Twitter Deal",
-          "imageUrl": null
-        },
-        {
-          "id": "25097 at https://www.securityweek.com",
-          "author": "SecurityWeek News",
-          "description": "Series C funding round brings company valuation to $1 billion \n\r\nread more",
-          "link": "https://www.securityweek.com/network-security-firm-perimeter-81-closes-100-million-funding-round",
-          "publishedOn": "2022-06-06T19:39:13.000Z",
-          "wordCount": 802,
-          "title": "Network Security Firm Perimeter 81 Closes $100 Million Funding Round",
-          "imageUrl": null
-        },
-        {
-          "id": "25096 at https://www.securityweek.com",
-          "author": "Kevin Townsend",
-          "description": "Threat awareness startup HackNotice has raised $7 million in a Series A funding round led by Strategic Cyber Ventures and Lytical Ventures. The funding will primarily be used to build the team around an already mature product.\n\r\nread more",
-          "link": "https://www.securityweek.com/threat-awareness-firm-hacknotice-raises-7-million",
-          "publishedOn": "2022-06-06T17:40:14.000Z",
-          "wordCount": 1306,
-          "title": "Threat Awareness Firm HackNotice Raises $7 Million",
-          "imageUrl": null
-        },
-        {
-          "id": "25095 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "DevOps platform GitLab has announced security updates that resolve multiple vulnerabilities, including a critical-severity bug leading to account takeover.\n\r\nread more",
-          "link": "https://www.securityweek.com/critical-account-takeover-vulnerability-patched-gitlab-enterprise-edition",
-          "publishedOn": "2022-06-06T14:52:15.000Z",
-          "wordCount": 870,
-          "title": "Critical Account Takeover Vulnerability Patched in GitLab Enterprise Edition",
-          "imageUrl": null
         }
       ]
     },
@@ -3346,6 +3356,16 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/alerts.xml",
       "siteUrl": "https://us-cert.cisa.gov/",
       "articles": [
+        {
+          "id": "17768 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: July 6, 2022\nSummary\nThe Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), and the Department of the Treasury (Treasury) are releasing this joint Cybersecurity Advisory (CSA) to provide information on Maui ransomware, which has been used by North Korean state-sponsored cyber actors since at least May 2021 to target Healthcare and Public Health (HPH) Sector organizations.\nThis joint CSA provides information—including tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs)—on Maui ransomware obtained from FBI incident response activities and industry analysis of a Maui sample. The FBI, CISA, and Treasury urge HPH Sector organizations as well as other critical infrastructure organizations to apply the …",
+          "link": "https://us-cert.cisa.gov/ncas/alerts/aa22-187a",
+          "publishedOn": "2022-07-06T14:00:00.000Z",
+          "wordCount": 3225,
+          "title": "AA22-187A: North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector",
+          "imageUrl": null
+        },
         {
           "id": "17761 at https://us-cert.cisa.gov",
           "author": "CISA",
@@ -3463,6 +3483,26 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://us-cert.cisa.gov/",
       "articles": [
+        {
+          "id": "17773 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: July 6, 2022\nOpenSSL has released a security update to address a vulnerability affecting OpenSSL 3.0.4. An attacker could exploit this vulnerability to take control of an affected system. \nCISA encourages users and administrators to review the OpenSSL advisory and upgrade to the appropriate version. \nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/07/06/openssl-releases-security-update",
+          "publishedOn": "2022-07-06T15:00:00.000Z",
+          "wordCount": 1061,
+          "title": "OpenSSL Releases Security Update",
+          "imageUrl": null
+        },
+        {
+          "id": "17772 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: July 6, 2022\nCISA, the Federal Bureau of Investigation (FBI), and the Department of the Treasury (Treasury) have released a joint Cybersecurity Advisory (CSA), North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector, to provide information on Maui ransomware, which has been used by North Korean state-sponsored cyber actors since at least May 2021 to target Healthcare and Public Health (HPH) Sector organizations. \nCISA, FBI and Treasury urge network defenders to examine their current cybersecurity posture and apply the recommended mitigations in this joint CSA, which include:\nTrain users to recognize and report phishing attempts.\nEnable and enforce multifactor authentication.\nInstall and regularly update antivirus and antimalware software on all hosts.\nSee North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector for Maui ransomware tactics, techniques, and procedures, indicators of compromise, and recommended mitigations. Additionally, review StopRansomware.gov for more guidance on ransomware protection, detection, and response.\nFor more information on state-sponsored North Korean malicious cyber activity, see CISA’s North Korea Cyber Threat Overview and Advisories webpage. \nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/07/06/north-korean-state-sponsored-cyber-actors-use-maui-ransomware",
+          "publishedOn": "2022-07-06T14:00:00.000Z",
+          "wordCount": 1232,
+          "title": "North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector",
+          "imageUrl": null
+        },
         {
           "id": "17770 at https://us-cert.cisa.gov",
           "author": "CISA",
@@ -3732,16 +3772,6 @@
           "wordCount": 407,
           "title": "Owl Labs Releases Security Updates for Meeting Owl Pro and Whiteboard Owl",
           "imageUrl": null
-        },
-        {
-          "id": "17685 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: June 7, 2022\nCISA has updated the Known Exploited Vulnerabilities (KEV) catalog webpage as well as the FAQs for Binding Operational Directive (BOD) 22-01, Reducing the Significant Risk of Known Exploited Vulnerabilities, which established the KEV catalog. The updates provide information on the criteria and process used to add known exploited vulnerabilities to the KEV catalog.\nCISA encourages users and administrators to review the new information.\n\nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/06/07/cisa-provides-criteria-and-process-updates-kev-catalog",
-          "publishedOn": "2022-06-07T13:13:58.000Z",
-          "wordCount": 415,
-          "title": "CISA Provides Criteria and Process for Updates to the KEV Catalog",
-          "imageUrl": null
         }
       ]
     },
@@ -3750,6 +3780,156 @@
       "feedUrl": "https://www.darkreading.com/rss.xml",
       "siteUrl": "https://www.darkreading.com",
       "articles": [
+        {
+          "id": "https://www.darkreading.com/tech-trends/prevention-takes-priority-over-response",
+          "author": "Dark Reading Staff, Dark Reading",
+          "description": "Cybersecurity teams continue to emphasize intrusion prevention over incident response, despite US government action.",
+          "link": "https://www.darkreading.com/tech-trends/prevention-takes-priority-over-response",
+          "publishedOn": "2022-07-06T22:49:56.000Z",
+          "wordCount": 12256,
+          "title": "Prevention Takes Priority Over Response",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/north-korean-state-actors-deploy-surgical-ransomware-in-ongoing-cyberattacks-us-healthcare-orgs",
+          "author": "Jai Vijayan, Contributing Writer, Dark Reading",
+          "description": "US government warns healthcare and public-health organizations to expect continued attacks involving the manually operated \"Maui\" ransomware.",
+          "link": "https://www.darkreading.com/attacks-breaches/north-korean-state-actors-deploy-surgical-ransomware-in-ongoing-cyberattacks-us-healthcare-orgs",
+          "publishedOn": "2022-07-06T21:08:09.000Z",
+          "wordCount": 14463,
+          "title": "North Korean State Actors Deploy Surgical Ransomware in Ongoing Cyberattacks on US Healthcare Orgs",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg"
+        },
+        {
+          "id": "https://www.darkreading.com/application-security/apple-debuts-state-sponsored-spyware-protection",
+          "author": "Dark Reading Staff, Dark Reading",
+          "description": "Apple's new Lockdown Mode protects devices targeted by sophisticated state-sponsored mercenary spyware attacks.",
+          "link": "https://www.darkreading.com/application-security/apple-debuts-state-sponsored-spyware-protection",
+          "publishedOn": "2022-07-06T19:56:27.000Z",
+          "wordCount": 11687,
+          "title": "Apple Debuts Spyware Protection for State-Sponsored Cyberattacks",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/edge-articles/i-built-a-cheap-warshipping-device-in-just-three-hours-and-so-can-you",
+          "author": "Will Plummer, Chief Security Officer, RaySecur",
+          "description": "Here's how I did it and how you can protect your company against such physical/digital hybrid attacks.",
+          "link": "https://www.darkreading.com/edge-articles/i-built-a-cheap-warshipping-device-in-just-three-hours-and-so-can-you",
+          "publishedOn": "2022-07-06T17:57:54.000Z",
+          "wordCount": 14516,
+          "title": "I Built a Cheap 'Warshipping' Device in Just Three Hours — And So Can You",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbc2cd0ae5a553374/62c4a83b877f50700eefed59/William_Plummer.jpeg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbc2cd0ae5a553374/62c4a83b877f50700eefed59/William_Plummer.jpeg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/marriott-data-breach-pii-credit-cards",
+          "author": "Becky Bracken, Editor, Dark Reading",
+          "description": "The hospitality giant said data from 300-400 individuals was compromised by a social-engineering scam targeting the Baltimore airport.",
+          "link": "https://www.darkreading.com/attacks-breaches/marriott-data-breach-pii-credit-cards",
+          "publishedOn": "2022-07-06T17:57:00.000Z",
+          "wordCount": 12811,
+          "title": "Marriott Data Breach Exposes PII, Credit Cards",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/how-to-keep-evs-from-taking-down-the-electrical-grid",
+          "author": "Michael Sanchez, CEO, Itegriti",
+          "description": "They may be environmentally friendly, but the surging popularity of electric cars and plug-in hybrids puts the nation's electrical grid at greater risk for malfeasance.",
+          "link": "https://www.darkreading.com/attacks-breaches/how-to-keep-evs-from-taking-down-the-electrical-grid",
+          "publishedOn": "2022-07-06T17:00:00.000Z",
+          "wordCount": 14045,
+          "title": "How to Keep EVs From Taking Down the Electrical Grid",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltd6ea26a5da2cd22e/62a8a9d256a13c2ad8a068ad/Michael_Sanchez.PNG",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltd6ea26a5da2cd22e/62a8a9d256a13c2ad8a068ad/Michael_Sanchez.PNG"
+        },
+        {
+          "id": "https://www.darkreading.com/application-security/cloud-misconfig-exposes-3tb-sensitive-airport-data-amazon-s3-bucket",
+          "author": "Nathan Eddy, Contributing Writer, Dark Reading",
+          "description": "The unsecured server exposed more than 1.5 million files, including airport worker ID photos and other PII, highlighting the ongoing cloud-security challenges worldwide.",
+          "link": "https://www.darkreading.com/application-security/cloud-misconfig-exposes-3tb-sensitive-airport-data-amazon-s3-bucket",
+          "publishedOn": "2022-07-06T16:02:45.000Z",
+          "wordCount": 13507,
+          "title": "Cloud Misconfig Exposes 3TB of Sensitive Airport Data in Amazon S3 Bucket: 'Lives at Stake'",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf8b5a94afa71c53a/628e3799daa31875dc0c9fc0/NathanEddyHeadshot.PNG",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf8b5a94afa71c53a/628e3799daa31875dc0c9fc0/NathanEddyHeadshot.PNG"
+        },
+        {
+          "id": "https://www.darkreading.com/application-security/identity-access-management-exploding-growth-big-changes",
+          "author": "Ericka Chickowski, Contributing Writer, Dark Reading",
+          "description": "New research says IAM spending will grow on the back of affordable subscription services, spurred by cloud and mobile adoption, IoT, and continued remote working.",
+          "link": "https://www.darkreading.com/application-security/identity-access-management-exploding-growth-big-changes",
+          "publishedOn": "2022-07-06T15:23:04.000Z",
+          "wordCount": 13359,
+          "title": "Identity Access Management Is Set for Exploding Growth, Big Changes — Report",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt1fa01ab14787f501/60b1e9a77f791568be5e0dbb/ErickaChick_125x125.jpeg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt1fa01ab14787f501/60b1e9a77f791568be5e0dbb/ErickaChick_125x125.jpeg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/the-cyber-asset-management-playbook-for-supply-chain-modernization",
+          "author": "Keith Neilson, Technical Evangelist, CloudSphere",
+          "description": "Organizations must balance the risk and reward of new cyber-asset management technologies.",
+          "link": "https://www.darkreading.com/attacks-breaches/the-cyber-asset-management-playbook-for-supply-chain-modernization",
+          "publishedOn": "2022-07-06T14:00:00.000Z",
+          "wordCount": 13540,
+          "title": "The Cyber-Asset Management Playbook for Supply Chain Modernization",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt2e3c98838e594639/61e73c3351119f3ca1f83531/Neilson.png",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt2e3c98838e594639/61e73c3351119f3ca1f83531/Neilson.png"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/roundtable-cyberattack-frenzy-qnap-customers-protect-business",
+          "author": "Tara Seals, Managing Editor, News, Dark Reading",
+          "description": "Our roundtable of cybersecurity experts weighs in on what makes QNAP network-attached storage catnip for attackers, and what organizations can do about it.",
+          "link": "https://www.darkreading.com/attacks-breaches/roundtable-cyberattack-frenzy-qnap-customers-protect-business",
+          "publishedOn": "2022-07-06T13:15:48.000Z",
+          "wordCount": 18010,
+          "title": "Roundtable: Amid Cyberattack Frenzy, How Can QNAP Customers Protect the Business?",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltea67136f81f32eca/626a9eb4726e3315b16b3c64/Tara-Seals-Headshot2.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltea67136f81f32eca/626a9eb4726e3315b16b3c64/Tara-Seals-Headshot2.jpg"
+        },
         {
           "id": "https://www.darkreading.com/emerging-tech/nist-picks-four-quantum-resistant-cryptographic-algorithms",
           "author": "Dark Reading Staff, Dark Reading",
@@ -6664,216 +6844,6 @@
             "length": "0"
           },
           "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt16a69cd3b14cbd2b/61816cfa8a0585636d7149c3/CurtFranklin.PNG"
-        },
-        {
-          "id": "https://www.darkreading.com/vulnerabilities-threats/7-nft-scams-that-could-be-targeting-your-brand",
-          "author": "Yoav Keren, CEO, BrandShield",
-          "description": "Brands should be vigilant to ensure sites and listings promoting NFTs for sale are legitimate and not being used as an instrument by fraudsters to swindle customers.",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/7-nft-scams-that-could-be-targeting-your-brand",
-          "publishedOn": "2022-06-07T14:00:00.000Z",
-          "wordCount": 1395,
-          "title": "7 NFT Scams That Could Be Targeting Your Brand",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt84d7dc1c999cefc1/629cb828ad2bbb5f0f3af9a6/keren.jpeg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt84d7dc1c999cefc1/629cb828ad2bbb5f0f3af9a6/keren.jpeg"
-        },
-        {
-          "id": "https://www.darkreading.com/dr-tech/harnessing-ai-to-proactively-thwart-threats",
-          "author": "Fahmida Y. Rashid, Managing Editor, Features, Dark Reading",
-          "description": "By using artificial intelligence to predict how an attacker would carry out their attack, we can deploy defenses and preemptively shut down vulnerable entry points.",
-          "link": "https://www.darkreading.com/dr-tech/harnessing-ai-to-proactively-thwart-threats",
-          "publishedOn": "2022-06-07T14:00:00.000Z",
-          "wordCount": 1709,
-          "title": "Harnessing AI to Proactively Thwart Threats",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt93784ffee79538e7/60d4371522d24e38a3806ecf/fahmida.png",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt93784ffee79538e7/60d4371522d24e38a3806ecf/fahmida.png"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/akamai-launches-new-malware-protection-for-uploaded-files",
-          "author": null,
-          "description": "Edge-based solution detects and blocks malicious files uploaded to Web apps and APIs.",
-          "link": "https://www.darkreading.com/attacks-breaches/akamai-launches-new-malware-protection-for-uploaded-files",
-          "publishedOn": "2022-06-07T13:38:41.000Z",
-          "wordCount": 986,
-          "title": "Akamai Launches New Malware Protection for Uploaded Files",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/careers-and-people/cybersecurity-industry-leaders-launch-campaign-to-close-the-cybersecurity-talent-gap",
-          "author": null,
-          "description": "A coalition of over 25 industry leaders, led by NightDragon and non-profit NextGen Cyber Talent, partner to raise $1 million for collegiate cybersecurity education",
-          "link": "https://www.darkreading.com/careers-and-people/cybersecurity-industry-leaders-launch-campaign-to-close-the-cybersecurity-talent-gap",
-          "publishedOn": "2022-06-07T13:35:13.000Z",
-          "wordCount": 1459,
-          "title": "Cybersecurity Industry Leaders Launch Campaign to Close the Cybersecurity Talent Gap",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/endpoint/cisa-challenges-partners-and-public-to-push-for-more-than-a-password-in-new-social-media-campaign",
-          "author": null,
-          "description": "Nation’s cyber defense agency urges America to enable multifactor authentication.",
-          "link": "https://www.darkreading.com/endpoint/cisa-challenges-partners-and-public-to-push-for-more-than-a-password-in-new-social-media-campaign",
-          "publishedOn": "2022-06-07T13:28:00.000Z",
-          "wordCount": 1255,
-          "title": "CISA Challenges Partners and Public to Push for 'More Than a Password' in New Social Media Campaign",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/cloud/forescout-announces-intent-to-acquire-cysiv-to-deliver-data-powered-threat-detection-and-response",
-          "author": null,
-          "description": "Acquisition will leverage Forescout’s automated cybersecurity with Cysiv's cloud-native platform to deliver data-powered analytics for 24/7 threat detection and response.",
-          "link": "https://www.darkreading.com/cloud/forescout-announces-intent-to-acquire-cysiv-to-deliver-data-powered-threat-detection-and-response",
-          "publishedOn": "2022-06-07T13:22:20.000Z",
-          "wordCount": 1295,
-          "title": "Forescout Announces Intent to Acquire Cysiv to Deliver Data-Powered Threat Detection and Response",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/cloud/cyberratings-org-announces-test-on-cloud-network-firewall",
-          "author": null,
-          "description": "Fortinet FortiGate-VM receives AAA rating across all five categories in CyberRating's assessment.",
-          "link": "https://www.darkreading.com/cloud/cyberratings-org-announces-test-on-cloud-network-firewall",
-          "publishedOn": "2022-06-07T13:17:30.000Z",
-          "wordCount": 1070,
-          "title": "CyberRatings.org Announces Test on Cloud Network Firewall",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/application-security/bugcrowd-expands-pen-testing-solutions-with-new-platform-services",
-          "author": null,
-          "description": "Basic Pen Tests support rapid, basic vulnerability discovery, while Standard Pen Tests provide compliance-driven testing to meet requirements for Web apps, APIs, and networks.",
-          "link": "https://www.darkreading.com/application-security/bugcrowd-expands-pen-testing-solutions-with-new-platform-services",
-          "publishedOn": "2022-06-07T13:10:00.000Z",
-          "wordCount": 1321,
-          "title": "Bugcrowd Expands Pen Testing Solutions with New Platform Services",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/dr-tech/snowflake-debuts-cybersecurity-workload-to-aid-visibility-automation",
-          "author": "Nathan Eddy, Contributing Writer, Dark Reading",
-          "description": "The tool underpins cybersecurity capabilities including SIEM, SOAR, compliance automation, and vulnerability management.",
-          "link": "https://www.darkreading.com/dr-tech/snowflake-debuts-cybersecurity-workload-to-aid-visibility-automation",
-          "publishedOn": "2022-06-07T13:00:00.000Z",
-          "wordCount": 1389,
-          "title": "Snowflake Debuts Cybersecurity Workload to Aid Visibility, Automation",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf8b5a94afa71c53a/628e3799daa31875dc0c9fc0/NathanEddyHeadshot.PNG",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf8b5a94afa71c53a/628e3799daa31875dc0c9fc0/NathanEddyHeadshot.PNG"
-        },
-        {
-          "id": "https://www.darkreading.com/threat-intelligence/fortinet-unveils-new-digital-risk-protection-offering",
-          "author": null,
-          "description": "FortiRecon combines machine learning, automation, and human intelligence to continually monitor an organization’s external attack surface.",
-          "link": "https://www.darkreading.com/threat-intelligence/fortinet-unveils-new-digital-risk-protection-offering",
-          "publishedOn": "2022-06-07T13:00:00.000Z",
-          "wordCount": 1879,
-          "title": "Fortinet Unveils New Digital Risk Protection Offering",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/threat-intelligence/retreat-of-ransomware-roi-will-drive-bec-attacks-analyst-warns",
-          "author": "Becky Bracken, Editor, Dark Reading",
-          "description": "Crackdowns are driving down ransomware profits, and analysts see signs that operators are pivoting to business email compromise attacks, security researcher warned.",
-          "link": "https://www.darkreading.com/threat-intelligence/retreat-of-ransomware-roi-will-drive-bec-attacks-analyst-warns",
-          "publishedOn": "2022-06-06T22:16:45.000Z",
-          "wordCount": 1182,
-          "title": "Ransomware's ROI Retreat Will Drive More BEC Attacks",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/careers-and-people/communication-is-key-to-ciso-success",
-          "author": "Becky Bracken, Editor, Dark Reading",
-          "description": "A panel of CISOs at the RSA Conference outlined what a successful first 90-day plan looks like, and it boiled down to effective communication and listening.",
-          "link": "https://www.darkreading.com/careers-and-people/communication-is-key-to-ciso-success",
-          "publishedOn": "2022-06-06T20:39:11.000Z",
-          "wordCount": 1196,
-          "title": "Communication Is Key to CISO Success",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/optiv-launches-cyber-recovery-solution-focused-on-protection-and-rapid-recovery",
-          "author": null,
-          "description": "CMS helps minimize the impact a cyberattack has on business operations, finances and reputation.",
-          "link": "https://www.darkreading.com/attacks-breaches/optiv-launches-cyber-recovery-solution-focused-on-protection-and-rapid-recovery",
-          "publishedOn": "2022-06-06T19:05:00.000Z",
-          "wordCount": 1234,
-          "title": "Optiv Launches Cyber Recovery Solution Focused on Protection and Rapid Recovery",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/cloud/bigid-introduces-cloud-data-security-on-demand",
-          "author": null,
-          "description": "New SmallID offering brings cloud-native data privacy and protection to organizations of all sizes.",
-          "link": "https://www.darkreading.com/cloud/bigid-introduces-cloud-data-security-on-demand",
-          "publishedOn": "2022-06-06T19:00:00.000Z",
-          "wordCount": 1049,
-          "title": "BigID Introduces Cloud Data Security On Demand",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/ibm",
-          "author": "Dark Reading Staff, Dark Reading",
-          "description": "Randori’s attack-surface management software will be integrated into IBM Security QRadar extended detection and response (XDR) features.",
-          "link": "https://www.darkreading.com/attacks-breaches/ibm",
-          "publishedOn": "2022-06-06T16:38:31.000Z",
-          "wordCount": 833,
-          "title": "IBM to Buy Attack Surface-Management Firm Randori",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/cloud/no-slowdown-in-cybersecurity-m-a-activity",
-          "author": "Jai Vijayan, Contributing Writer, Dark Reading",
-          "description": "But valuations have dropped — and investors are paying closer attention to revenues and profitability, industry analysts say.",
-          "link": "https://www.darkreading.com/cloud/no-slowdown-in-cybersecurity-m-a-activity",
-          "publishedOn": "2022-06-06T15:56:22.000Z",
-          "wordCount": 1552,
-          "title": "Cybersecurity M&A Activity Shows No Signs of Slowdown",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg"
-        },
-        {
-          "id": "https://www.darkreading.com/tech-trends/the-ciso-shortlist-top-priorities-at-rsa-2022",
-          "author": "Will Lin, Managing Director, Forgepoint Capital",
-          "description": "The buzz on the show floor during RSA Conference is about aligning the organization's security priorities with the right technology. Will Lin, managing director and founding member at Forgepoint Capital, weighs in on the biggest security priorities for 2022 — and what kind of tech senior-level executives are looking for.",
-          "link": "https://www.darkreading.com/tech-trends/the-ciso-shortlist-top-priorities-at-rsa-2022",
-          "publishedOn": "2022-06-06T15:45:22.000Z",
-          "wordCount": 1298,
-          "title": "The CISO Shortlist: Top Priorities at RSAC 2022",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf0170a00c1b3498b/629e1adbe1408e6bcc72a6d6/will-lin-forgepoint.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf0170a00c1b3498b/629e1adbe1408e6bcc72a6d6/will-lin-forgepoint.jpg"
         }
       ]
     },
@@ -6932,6 +6902,26 @@
       "feedUrl": "https://www.schneier.com/feed/atom",
       "siteUrl": "https://www.schneier.com",
       "articles": [
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/07/friday-squid-blogging-fishing-for-squid.html",
+          "author": null,
+          "description": "<p><i>Foreign Policy</i> has a <a href=\"https://foreignpolicy.com/podcasts/the-catch/fisheries-squid-peru-ruxandra-guidi/\">three-part</a> (so far) <a href=\"https://foreignpolicy.com/podcasts/the-catch/part-ii-pota-in-paita/\">podcast</a> <a href=\"https://foreignpolicy.com/podcasts/the-catch/part-iii-whos-in-charge/\">series</a> on squid and global fishing.</p>\n<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.</p>\n<p>Read my blog posting guidelines <a href=\"https://www.schneier.com/blog/archives/2017/03/commenting_poli.html\">here</a>.</p>",
+          "link": "https://www.schneier.com/blog/archives/2022/07/friday-squid-blogging-fishing-for-squid.html",
+          "publishedOn": "2022-07-06T21:09:53.000Z",
+          "wordCount": 648,
+          "title": "Friday Squid Blogging: Fishing for Squid",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/07/nist-announces-first-four-quantum-resistant-cryptographic-algorithms.html",
+          "author": null,
+          "description": "<p>NIST&#8217;s post-quantum computing cryptography standard process is entering its final phases. It <a href=\"https://www.nist.gov/news-events/news/2022/07/nist-announces-first-four-quantum-resistant-cryptographic-algorithms\">announced</a> the first four algorithms:</p>\n<blockquote><p><strong>For general encryption,</strong> used when we access secure websites, NIST has selected the <a href=\"https://pq-crystals.org/kyber/index.shtml\">CRYSTALS-Kyber</a> algorithm. Among its advantages are comparatively small encryption keys that two parties can exchange easily, as well as its speed of operation.</p>\n<p><strong>For digital signatures,</strong> often used when we need to verify identities during a digital transaction or to sign a document remotely, NIST has selected the three algorithms <a href=\"https://pq-crystals.org/dilithium/index.shtml\">CRYSTALS-Dilithium...</a></p></blockquote>",
+          "link": "https://www.schneier.com/blog/archives/2022/07/nist-announces-first-four-quantum-resistant-cryptographic-algorithms.html",
+          "publishedOn": "2022-07-06T16:49:42.000Z",
+          "wordCount": 1209,
+          "title": "NIST Announces First Four Quantum-Resistant Cryptographic Algorithms",
+          "imageUrl": null
+        },
         {
           "id": "https://www.schneier.com/blog/archives/2022/07/friday-squid-blogging-multiplexing-squids-for-x-ray-telescopes.html",
           "author": null,
@@ -7171,16 +7161,6 @@
           "wordCount": 1639,
           "title": "Leaking Military Secrets on Gaming Discussion Boards",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.schneier.com/blog/archives/2022/06/long-story-on-the-accused-cia-vault-7-leaker.html",
-          "author": null,
-          "description": "<p><a href=\"https://www.newyorker.com/magazine/2022/06/13/the-surreal-case-of-a-cia-hackers-revenge\">Long article</a> about Joshua Schulte, the accused leaker of the WikiLeaks Vault 7 and Vault 8 CIA data.</p>\n<p>Well worth reading.</p>",
-          "link": "https://www.schneier.com/blog/archives/2022/06/long-story-on-the-accused-cia-vault-7-leaker.html",
-          "publishedOn": "2022-06-06T15:33:36.000Z",
-          "wordCount": 1653,
-          "title": "Long Story on the Accused CIA Vault 7 Leaker",
-          "imageUrl": null
         }
       ]
     },
@@ -7189,6 +7169,16 @@
       "feedUrl": "https://ubuntu.com/security/notices/rss.xml",
       "siteUrl": "https://ubuntu.com/security/notices/rss.xml",
       "articles": [
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5488-2",
+          "author": null,
+          "description": "USN-5488-1 fixed vulnerabilities in OpenSSL. This update provides the\ncorresponding updates for Ubuntu 16.04 ESM.\n\nOriginal advisory details:\n\n Chancen and Daniel Fiala discovered that OpenSSL incorrectly handled the\n c_rehash script. A local attacker could possibly use this issue to execute\n arbitrary commands when c_rehash is run.",
+          "link": "https://ubuntu.com/security/notices/USN-5488-2",
+          "publishedOn": "2022-07-06T16:52:06.000Z",
+          "wordCount": 803,
+          "title": "USN-5488-2: OpenSSL vulnerability",
+          "imageUrl": null
+        },
         {
           "id": "https://ubuntu.com/security/notices/USN-5504-1",
           "author": null,
@@ -7677,46 +7667,6 @@
           "publishedOn": "2022-06-07T14:15:00.000Z",
           "wordCount": 559,
           "title": "USN-5463-1: NTFS-3G vulnerabilities",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ubuntu.com/security/notices/USN-5462-2",
-          "author": null,
-          "description": "USN-5462-1 fixed several vulnerabilities in Ruby. This update provides\nthe corresponding CVE-2022-28739 update for ruby2.3 on Ubuntu 16.04 ESM.\n\nOriginal advisory details:\n\nIt was discovered that Ruby incorrectly handled certain inputs.\nAn attacker could possibly use this issue to expose sensitive information.",
-          "link": "https://ubuntu.com/security/notices/USN-5462-2",
-          "publishedOn": "2022-06-06T22:21:58.000Z",
-          "wordCount": 461,
-          "title": "USN-5462-2: Ruby vulnerability",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ubuntu.com/security/notices/USN-5462-1",
-          "author": null,
-          "description": "It was discovered that Ruby incorrectly handled certain regular expressions.\nAn attacker could possibly use this issue to execute arbitrary code. This\nissue only affected Ubuntu 22.04 LTS. (2022-28738)\n\nIt was discovered that Ruby incorrectly handled certain inputs.\nAn attacker could possibly use this issue to expose sensitive information.\n(CVE-2022-28739)",
-          "link": "https://ubuntu.com/security/notices/USN-5462-1",
-          "publishedOn": "2022-06-06T17:23:28.000Z",
-          "wordCount": 487,
-          "title": "USN-5462-1: Ruby vulnerabilities",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ubuntu.com/security/notices/USN-5461-1",
-          "author": null,
-          "description": "It was discovered that FreeRDP incorrectly handled empty password values. A\nremote attacker could use this issue to bypass server authentication. This\nissue only affected Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu 21.10.\n(CVE-2022-24882)\n\nIt was discovered that FreeRDP incorrectly handled server configurations\nwith an invalid SAM file path. A remote attacker could use this issue to\nbypass server authentication. (CVE-2022-24883)",
-          "link": "https://ubuntu.com/security/notices/USN-5461-1",
-          "publishedOn": "2022-06-06T16:33:28.000Z",
-          "wordCount": 487,
-          "title": "USN-5461-1: FreeRDP vulnerabilities",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ubuntu.com/security/notices/USN-5460-1",
-          "author": null,
-          "description": "It was discovered that Vim was incorrectly processing Vim buffers.\nAn attacker could possibly use this issue to perform illegal memory\naccess and expose sensitive information. (CVE-2022-0554)\n\nIt was discovered that Vim was not properly performing bounds checks\nfor column numbers when replacing tabs with spaces or spaces with\ntabs, which could cause a heap buffer overflow. An attacker could\npossibly use this issue to cause a denial of service or execute\narbitrary code. (CVE-2022-0572)\n\nIt was discovered that Vim was not properly performing validation of\ndata that contained special multi-byte characters, which could cause\nan out-of-bounds read. An attacker could possibly use this issue to\ncause a denial of service. (CVE-2022-0685)\n\nIt was discovered that Vim was incorrectly processing data …",
-          "link": "https://ubuntu.com/security/notices/USN-5460-1",
-          "publishedOn": "2022-06-06T15:50:45.000Z",
-          "wordCount": 789,
-          "title": "USN-5460-1: Vim vulnerabilities",
           "imageUrl": null
         }
       ]
