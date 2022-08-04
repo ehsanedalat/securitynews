@@ -2,10 +2,366 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2022-08-03T02:00:20.162Z</updated>
+    <updated>2022-08-04T01:56:11.217Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-5547-1: NVIDIA graphics drivers vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5547-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5547-1"/>
+        <updated>2022-08-03T21:37:28.000Z</updated>
+        <summary type="html"><![CDATA[Le Wu discovered that the NVIDIA graphics drivers did not properly perform
+input validation in some situations. A local user could use this to cause a
+denial of service or possibly execute arbitrary code. (CVE-2022-31607)
+
+Tal Lossos discovered that the NVIDIA graphics drivers incorrectly handled
+certain memory operations, leading to a null-pointer dereference. A local
+attacker could use this to cause a denial of service. (CVE-2022-31615)
+
+Artem S. Tashkinov discovered that the NVIDIA graphics drivers Dynamic
+Boost D-Bus component did not properly restrict access to its endpoint.
+When enabled in non-default configurations, a local attacker could use this
+to cause a denial of service or possibly execute arbitrary code.
+(CVE-2022-31608)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How IT Teams Can Use 'Harm Reduction' for Better Cybersecurity Outcomes]]></title>
+        <id>https://www.darkreading.com/risk/teams-harm-reduction-better-cybersecurity-outcomes</id>
+        <link href="https://www.darkreading.com/risk/teams-harm-reduction-better-cybersecurity-outcomes"/>
+        <updated>2022-08-03T21:25:43.000Z</updated>
+        <summary type="html"><![CDATA[Copado's Kyle Tobener will discuss a three-pronged plan at Black Hat USA for addressing human weaknesses in cybersecurity with this medical concept — from phishing to shadow IT.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical RCE Bug in DrayTek Routers Opens SMBs to Zero-Click Attacks]]></title>
+        <id>https://www.darkreading.com/endpoint/critical-rce-bug-draytek-routers-smbs-zero-click-attacks</id>
+        <link href="https://www.darkreading.com/endpoint/critical-rce-bug-draytek-routers-smbs-zero-click-attacks"/>
+        <updated>2022-08-03T20:23:45.000Z</updated>
+        <summary type="html"><![CDATA[SMBs should patch CVE-2022-32548 now to avoid a host of horrors, including complete network compromise, ransomware, state-sponsored attacks, and more.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Compliance Automation Startup RegScale Scores $20 Million Investment]]></title>
+        <id>25437 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/compliance-automation-startup-regscale-scores-20-million-investment"/>
+        <updated>2022-08-03T20:11:47.000Z</updated>
+        <summary type="html"><![CDATA[RegScale, a Virginia startup building technology to manage continuous compliance automation tasks, has attracted $20 million in early-stage venture capital funding.
+The Series A round was led by SYN Ventures with participation from SineWave Ventures, VIPC’s Virginia Venture Partners and SecureOctane.
+read more]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[School Kid Uploads Ransomware Scripts to PyPI Repository as 'Fun' Project]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/school-kid-uploads-ransomware-scripts-to-pypi-repository-as-fun-research-project</id>
+        <link href="https://www.darkreading.com/threat-intelligence/school-kid-uploads-ransomware-scripts-to-pypi-repository-as-fun-research-project"/>
+        <updated>2022-08-03T19:57:48.000Z</updated>
+        <summary type="html"><![CDATA[The malware packages had names that were common typosquats of a legitimate widely used Python library. One was downloaded hundreds of times.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cyberattackers Drain Nearly $6M From Solana Crypto Wallets]]></title>
+        <id>https://www.darkreading.com/cloud/cyberattackers-drain-6m-solana-crypto-wallets</id>
+        <link href="https://www.darkreading.com/cloud/cyberattackers-drain-6m-solana-crypto-wallets"/>
+        <updated>2022-08-03T17:42:11.000Z</updated>
+        <summary type="html"><![CDATA[So far, the ongoing attack has impacted nearly 8,000 Solana hot wallets.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Single-Core CPU Cracked Post-Quantum Encryption Candidate Algorithm in Just an Hour]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-754771862655875762</id>
+        <link href="https://thehackernews.com/2022/08/single-core-cpu-cracked-post-quantum.html"/>
+        <updated>2022-08-03T17:01:11.109Z</updated>
+        <summary type="html"><![CDATA[A late-stage candidate encryption algorithm that was meant to withstand decryption by powerful quantum computers in the future has been trivially cracked by using a computer running Intel Xeon CPU in an hour's time.
+The algorithm in question is SIKE — short for Supersingular Isogeny Key Encapsulation — which made it to the fourth round of the Post-Quantum Cryptography (PQC) standardization]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero-Day Defense: Tips for Defusing the Threat]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/zero-day-defense-tips-for-defusing-the-threat</id>
+        <link href="https://www.darkreading.com/attacks-breaches/zero-day-defense-tips-for-defusing-the-threat"/>
+        <updated>2022-08-03T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Because they leave so little time to patch and defuse, zero-day threats require a proactive, multilayered approach based on zero trust.]]></summary>
+        <author>
+            <name>Ryan Barnett, Principal Security Researcher, Akamai</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ShiftLeft Appoints Prevention-First, Cybersecurity Visionary and AI/ML Pioneer Stuart McClure as CEO]]></title>
+        <id>https://www.darkreading.com/application-security/shiftleft-appoints-prevention-first-cybersecurity-visionary-and-ai-ml-pioneer-stuart-mcclure-as-ceo</id>
+        <link href="https://www.darkreading.com/application-security/shiftleft-appoints-prevention-first-cybersecurity-visionary-and-ai-ml-pioneer-stuart-mcclure-as-ceo"/>
+        <updated>2022-08-03T15:38:05.000Z</updated>
+        <summary type="html"><![CDATA[Serial entrepreneur, cybersecurity leader, and industry veteran joins ShiftLeft to drive growth and AI/ML innovation globally.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Druva Introduces the Data Resiliency Guarantee of up to $10 Million]]></title>
+        <id>https://www.darkreading.com/risk/druva-introduces-the-data-resiliency-guarantee-of-up-to-10-million</id>
+        <link href="https://www.darkreading.com/risk/druva-introduces-the-data-resiliency-guarantee-of-up-to-10-million"/>
+        <updated>2022-08-03T15:33:00.000Z</updated>
+        <summary type="html"><![CDATA[The new program offers robust protection across all five data risk categories: cyber, human, application, operation, and environmental.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Swiss government announces upcoming launch of federal bug bounty program]]></title>
+        <id>swiss-government-announces-upcoming-launch-of-federal-bug-bounty-program</id>
+        <link href="https://portswigger.net/daily-swig/swiss-government-announces-upcoming-launch-of-federal-bug-bounty-program"/>
+        <updated>2022-08-03T15:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Bug Bounty Switzerland AG awarded program management contract]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Robinhood Crypto Penalized $30M for Violating NY Cybersecurity Regulations]]></title>
+        <id>25436 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/robinhood-crypto-penalized-30m-violating-ny-cybersecurity-regulations"/>
+        <updated>2022-08-03T15:26:11.000Z</updated>
+        <summary type="html"><![CDATA[read more]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CompTIA CEO Outlines Initiative to Create the Pre-eminent Destination to Start, Build and ‘Supercharge’ a Tech Career]]></title>
+        <id>https://www.darkreading.com/careers-and-people/comptia-ceo-outlines-initiative-to-create-the-pre-eminent-destination-to-start-build-and-supercharge-a-tech-career</id>
+        <link href="https://www.darkreading.com/careers-and-people/comptia-ceo-outlines-initiative-to-create-the-pre-eminent-destination-to-start-build-and-supercharge-a-tech-career"/>
+        <updated>2022-08-03T15:21:40.000Z</updated>
+        <summary type="html"><![CDATA[Todd Thibodeaux uses ChannelCon 2022 state of the industry remarks to unveil CompTIA’s Project Agora; invites broad industry participation in the effort to fight for tech talent.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VMware Releases Security Updates]]></title>
+        <id>17842 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/08/03/vmware-releases-security-updates-0"/>
+        <updated>2022-08-03T15:16:31.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: August 3, 2022
+VMware has released security updates to address multiple vulnerabilities in VMware’s Workspace ONE Access, Access Connector, Identity Manager, Identity Manager Connector, and vRealize Automation. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. 
+CISA encourages users and administrators to review VMware Security Advisory VMSA-2022-0021 and apply the necessary updates. 
+
+ 
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Power Electronics Manufacturer Semikron Targeted in Ransomware Attack]]></title>
+        <id>25435 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/power-electronics-manufacturer-semikron-targeted-ransomware-attack"/>
+        <updated>2022-08-03T14:35:29.000Z</updated>
+        <summary type="html"><![CDATA[German power electronics manufacturer Semikron revealed this week that it has been targeted in a cyberattack.
+Semikron, which employs 3,000 people across 24 subsidiaries worldwide, makes power modules and systems. Its products are used in motor drives, industrial automation systems, as well as other application areas.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Netskope Acquires Infiot, Will Deliver Fully Integrated, Single-Vendor SASE Platform]]></title>
+        <id>https://www.darkreading.com/cloud/netskope-acquires-infiot-will-deliver-fully-integrated-single-vendor-sase-platform</id>
+        <link href="https://www.darkreading.com/cloud/netskope-acquires-infiot-will-deliver-fully-integrated-single-vendor-sase-platform"/>
+        <updated>2022-08-03T14:16:54.000Z</updated>
+        <summary type="html"><![CDATA[Converged SASE platform provides AI-driven Zero trust security and simplified, optimized connectivity to any network location or device, including IoT.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Ways Chess Can Inspire Strategic Cybersecurity Thinking]]></title>
+        <id>https://www.darkreading.com/careers-and-people/5-ways-chess-can-inspire-strategic-cybersecurity-thinking</id>
+        <link href="https://www.darkreading.com/careers-and-people/5-ways-chess-can-inspire-strategic-cybersecurity-thinking"/>
+        <updated>2022-08-03T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Rising interest in chess may feed the next generation of cybersecurity experts.]]></summary>
+        <author>
+            <name>Miki Shifman, CTO and Co-Founder, Cylus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jenkins security: Unpatched XSS, CSRF bugs included in latest plugin advisory]]></title>
+        <id>jenkins-security-unpatched-xss-csrf-bugs-included-in-latest-plugin-advisory</id>
+        <link href="https://portswigger.net/daily-swig/jenkins-security-unpatched-xss-csrf-bugs-included-in-latest-plugin-advisory"/>
+        <updated>2022-08-03T13:52:43.000Z</updated>
+        <summary type="html"><![CDATA[‘We believe that announcing vulnerabilities without a fix is the best solution for a difficult problem’]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[American Express, Snapchat Open-Redirect Vulnerabilities Exploited in Phishing Scheme]]></title>
+        <id>https://www.darkreading.com/cloud/american-express-snapchat-open-redirect-vulnerabilities-exploited-phishing</id>
+        <link href="https://www.darkreading.com/cloud/american-express-snapchat-open-redirect-vulnerabilities-exploited-phishing"/>
+        <updated>2022-08-03T13:52:16.000Z</updated>
+        <summary type="html"><![CDATA[Phishing operators are taking advantage of security bugs in the Amex and Snapchat websites (the latter is unpatched) to steer victims to phishing pages looking to harvest Google and Microsoft logins.]]></summary>
+        <author>
+            <name>Nathan Eddy, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thoma Bravo to Acquire Ping Identity for $2.8 Billion]]></title>
+        <id>25434 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/thoma-bravo-acquire-ping-identity-28-billion"/>
+        <updated>2022-08-03T13:32:26.000Z</updated>
+        <summary type="html"><![CDATA[Enterprise identity and access management firm Ping Identity (NYSE: PING) announced Wednesday that it has agreed to be acquired by private equity (PE) firm Thoma Bravo for roughly $2.8 billion in cash.
+read more]]></summary>
+        <author>
+            <name>SecurityWeek News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VirusTotal Reveals Most Impersonated Software in Malware Attacks]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-1835752372760943731</id>
+        <link href="https://thehackernews.com/2022/08/virustotal-reveals-most-impersonated.html"/>
+        <updated>2022-08-03T13:15:24.019Z</updated>
+        <summary type="html"><![CDATA[Threat actors are increasingly mimicking legitimate applications like Skype, Adobe Reader, and VLC Player as a means to abuse trust relationships and increase the likelihood of a successful social engineering attack.
+Other most impersonated legitimate apps by icon include 7-Zip, TeamViewer, CCleaner, Microsoft Edge, Steam, Zoom, and WhatsApp, an analysis from VirusTotal has revealed.
+"One of the]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity Financing Declined in Q2 2022, But Investors Optimistic]]></title>
+        <id>25433 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/cybersecurity-financing-declined-q2-2022-investors-optimistic"/>
+        <updated>2022-08-03T12:27:49.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity financing declined in the second quarter of 2022, but investors are optimistic and believe the economic downturn can represent an opportunity.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On-Demand Webinar: New CISO Survey Reveals Top Challenges for Small Cyber Security Teams]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-8047985041763007295</id>
+        <link href="https://thehackernews.com/2022/08/on-demand-webinar-new-ciso-survey.html"/>
+        <updated>2022-08-03T12:13:12.632Z</updated>
+        <summary type="html"><![CDATA[The only threat more persistent to organizations than cyber criminals? The cyber security skills crisis. 
+Nearly 60% of enterprises can’t find the staff to protect their data (and reputations!) from new and emerging breeds of cyber-attacks, reports the Information Systems Security Association (ISSA) in its 5th annual global industry study. 
+The result? Heavier workloads, unfilled positions, and]]></summary>
+        <author>
+            <name>noreply@blogger.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Drone Deliveries into Prisons]]></title>
+        <id>https://www.schneier.com/blog/archives/2022/08/drone-deliveries-into-prisons.html</id>
+        <link href="https://www.schneier.com/blog/archives/2022/08/drone-deliveries-into-prisons.html"/>
+        <updated>2022-08-03T11:50:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>Seems it&#8217;s <a href="https://www.wired.co.uk/article/drone-contraband-deliveries-prisons-united-states">now common</a> to sneak contraband into prisons with a drone.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity M&A Roundup: 39 Deals Announced in July 2022]]></title>
+        <id>25432 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-july-2022"/>
+        <updated>2022-08-03T11:28:01.000Z</updated>
+        <summary type="html"><![CDATA[A total of 39 cybersecurity-related mergers and acquisitions were announced in July 2022.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Paid Out $90,000 for Vulnerabilities Patched by Chrome 104]]></title>
+        <id>25431 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/google-paid-out-90000-vulnerabilities-patched-chrome-104"/>
+        <updated>2022-08-03T10:54:23.000Z</updated>
+        <summary type="html"><![CDATA[Google has patched 27 vulnerabilities with the release of Chrome 104 on Tuesday, and the researchers who reported some of these security holes earned thousands of dollars in bug bounties.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Ever-Increasing Issue of Cyber Threats - and the Zero Trust Answer]]></title>
+        <id>25430 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/ever-increasing-issue-cyber-threats-and-zero-trust-answer"/>
+        <updated>2022-08-03T10:26:33.000Z</updated>
+        <summary type="html"><![CDATA[The benefits of ZTNA make it hard to ignore
+Ensuring that the right people have access to the proper resources when they need them whilst maintaining security and access controls across multiple data centers and cloud environments is one of the biggest technical challenges any organization faces.
+read more]]></summary>
+        <author>
+            <name>Laurence Pitt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nearly $200 Million Stolen From Cryptocurrency Bridge Nomad]]></title>
+        <id>25429 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/nearly-200-million-stolen-cryptocurrency-bridge-nomad"/>
+        <updated>2022-08-03T10:10:14.000Z</updated>
+        <summary type="html"><![CDATA[Cryptocurrency bridge Nomad has lost nearly all of its funds as a result of a hack described by experts as chaotic. Losses total nearly $200 million, but the company appears hopeful that it will recover at least some of it.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UK Clears Norton's $8B Avast Cyber Security Takeover]]></title>
+        <id>25428 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/uk-clears-nortons-8b-avast-cyber-security-takeover"/>
+        <updated>2022-08-03T10:07:14.000Z</updated>
+        <summary type="html"><![CDATA[UK regulators on Wednesday gave the provisional nod to US cyber security giant NortonLifeLock's $8-billion purchase of Czech rival Avast, whose London shares surged more than 40 percent in reaction.
+read more]]></summary>
+        <author>
+            <name>AFP</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hacking Fears Delay UK's Conservative Leadership Vote]]></title>
+        <id>25427 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/hacking-fears-delay-uks-conservative-leadership-vote"/>
+        <updated>2022-08-03T09:11:41.000Z</updated>
+        <summary type="html"><![CDATA[read more]]></summary>
+        <author>
+            <name>AFP</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Warns of Large-Scale AiTM Attacks Targeting Enterprise Users]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-1294765518214243565</id>
+        <link href="https://thehackernews.com/2022/08/researchers-warns-of-large-scale-aitm.html"/>
+        <updated>2022-08-03T09:03:35.115Z</updated>
+        <summary type="html"><![CDATA[A new, large-scale phishing campaign has been observed using adversary-in-the-middle (AitM) techniques to get around security protections and compromise enterprise email accounts.
+"It uses an adversary-in-the-middle (AitM) attack technique capable of bypassing multi-factor authentication," Zscaler researchers Sudeep Singh and Jagadeeswar Ramanukolanu said in a Tuesday report. "The campaign is]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VMware Releases Patches for Several New Flaws Affecting Multiple Products]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-868155627775515841</id>
+        <link href="https://thehackernews.com/2022/08/vmware-releases-patches-for-several-new.html"/>
+        <updated>2022-08-03T08:25:40.238Z</updated>
+        <summary type="html"><![CDATA[Virtualization services provider VMware on Tuesday shipped updates to address 10 security flaws affecting multiple products that could be abused by unauthenticated attackers to perform malicious actions.
+The issues, tracked from CVE-2022-31656 through CVE-2022-31665 (CVSS scores: 4.7 - 9.8), impact VMware Workspace ONE Access, Workspace ONE Access Connector, Identity Manager, Identity Manager]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Thousands of Mobile Apps Leaking Twitter API Keys]]></title>
         <id>https://www.darkreading.com/endpoint/thousands-of-mobile-apps-leaking-twitter-api-keys</id>
@@ -7553,173 +7909,6 @@ The coordinated attack, dubbed IconBurst by ReversingLabs, involves no fewer tha
         <summary type="html"><![CDATA[Companies need to consider the cost to disengage from the cloud along with proactive risk management that looks at governance issues resulting from heavy use of low- and no-code tools.]]></summary>
         <author>
             <name>Steve Durbin, CEO, Information Security Forum</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update Google Chrome Browser to Patch New Zero-Day Exploit Detected in the Wild]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-5436823800733431461</id>
-        <link href="https://thehackernews.com/2022/07/update-google-chrome-browser-to-patch.html"/>
-        <updated>2022-07-05T13:54:52.000Z</updated>
-        <summary type="html"><![CDATA[Google on Monday shipped security updates to address a high-severity zero-day vulnerability in its Chrome web browser that it said is being exploited in the wild.
-The shortcoming, tracked as CVE-2022-2294, relates to a heap overflow flaw in the WebRTC component that provides real-time audio and video communication capabilities in browsers without the need to install plugins or download native]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pro-China Group Uses Dragonbridge Campaign to Target Rare Earth Mining Companies]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-3199939987779465901</id>
-        <link href="https://thehackernews.com/2022/07/pro-china-group-uses-dragonbridge.html"/>
-        <updated>2022-07-05T13:34:17.000Z</updated>
-        <summary type="html"><![CDATA[A pro-China influence campaign singled out rare earth mining companies in Australia, Canada, and the U.S. with negative messaging in an unsuccessful attempt to manipulate public discourse to China's benefit.
-Targeted firms included Australia's Lynas Rare Earths Ltd, Canada's Appia Rare Earths & Uranium Corp, and the American company USA Rare Earth, threat intelligence firm Mandiant said in a]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Name That Edge Toon: On Guard]]></title>
-        <id>https://www.darkreading.com/edge-articles/name-that-edge-toon-on-guard</id>
-        <link href="https://www.darkreading.com/edge-articles/name-that-edge-toon-on-guard"/>
-        <updated>2022-07-05T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Come up with a clever caption, and our panel of experts will reward the winner with a $25 Amazon gift card.]]></summary>
-        <author>
-            <name>John Klossner, Cartoonist</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HackerOne employee stole data from bug bounty reports for financial gain]]></title>
-        <id>hackerone-employee-stole-data-from-bug-bounty-reports-for-financial-gain</id>
-        <link href="https://portswigger.net/daily-swig/hackerone-employee-stole-data-from-bug-bounty-reports-for-financial-gain"/>
-        <updated>2022-07-05T13:23:11.000Z</updated>
-        <summary type="html"><![CDATA[Vulnerability disclosure platform shares details of incident]]></summary>
-        <author>
-            <name>The Daily Swig | Cybersecurity news and views</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Prepare for a New Cryptographic Standard to Protect Against Future Quantum-Based Threats]]></title>
-        <id>17771 at https://us-cert.cisa.gov</id>
-        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/07/05/prepare-new-cryptographic-standard-protect-against-future-quantum"/>
-        <updated>2022-07-05T13:19:49.000Z</updated>
-        <summary type="html"><![CDATA[Original release date: July 5, 2022
-The National Institute of Standards and Technology (NIST) has announced that a new post-quantum cryptographic standard will replace current public-key cryptography, which is vulnerable to quantum-based attacks. Note: the term “post-quantum cryptography” is often referred to as “quantum-resistant cryptography” and includes, “cryptographic algorithms or methods that are assessed not to be specifically vulnerable to attack by either a CRQC [cryptanalytically relevant quantum computer] or classical computer.” (See the National Security Memorandum on Promoting United States Leadership in Quantum Computing While Mitigating Risks to Vulnerable Cryptographic Systems for more information).
-Although NIST will not publish the new post-quantum cryptographic standard…]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-5503-1: GnuPG vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-5503-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-5503-1"/>
-        <updated>2022-07-05T13:18:15.000Z</updated>
-        <summary type="html"><![CDATA[Demi Marie Obenour discovered that GnuPG incorrectly handled injection in
-the status message. A remote attacker could possibly use this issue to
-forge signatures.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-5502-1: OpenSSL vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-5502-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-5502-1"/>
-        <updated>2022-07-05T13:03:48.000Z</updated>
-        <summary type="html"><![CDATA[Alex Chernyakhovsky discovered that OpenSSL incorrectly handled AES OCB
-mode when using the AES-NI assembly optimized implementation on 32-bit
-x86 platforms. A remote attacker could possibly use this issue to obtain
-sensitive information.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacker Claims Major Chinese Citizens' Data Theft]]></title>
-        <id>25260 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/hacker-claims-major-chinese-citizens-data-theft"/>
-        <updated>2022-07-05T11:06:49.000Z</updated>
-        <summary type="html"><![CDATA[A hacker claiming to have stolen personal data from hundreds of millions of Chinese citizens is now selling the information online.
-
-read more]]></summary>
-        <author>
-            <name>AFP</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[As New Clues Emerges, Experts Wonder: Is REvil Back?]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-3224521169948057236</id>
-        <link href="https://thehackernews.com/2022/07/as-new-clues-emerges-experts-wonder-is.html"/>
-        <updated>2022-07-05T09:58:36.000Z</updated>
-        <summary type="html"><![CDATA[Change is a part of life, and nothing stays the same for too long, even with hacking groups, which are at their most dangerous when working in complete silence. The notorious REvil ransomware gang, linked to the infamous JBS and Kaseya, has resurfaced three months after the arrest of its members in Russia.
-The Russian domestic intelligence service, the FSB, had caught 14 people from the gang. In]]></summary>
-        <author>
-            <name>noreply@blogger.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers Share Techniques to Uncover Anonymized Ransomware Sites on Dark Web]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-2086739092533455977</id>
-        <link href="https://thehackernews.com/2022/07/researchers-share-techniques-to-uncover.html"/>
-        <updated>2022-07-05T07:10:09.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have detailed the various measures ransomware actors have taken to obscure their true identity online as well as the hosting location of their web server infrastructure.
-"Most ransomware operators use hosting providers outside their country of origin (such as Sweden, Germany, and Singapore) to host their ransomware operations sites," Cisco Talos researcher Paul Eubanks]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Emergency Chrome 103 Update Patches Actively Exploited Vulnerability]]></title>
-        <id>25259 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/emergency-chrome-103-update-patches-actively-exploited-vulnerability"/>
-        <updated>2022-07-04T20:54:12.000Z</updated>
-        <summary type="html"><![CDATA[While many expected — or at least hoped — that the 4th of July would be quiet on the cybersecurity front, Google on Monday announced the release of an emergency Chrome update that patches an actively exploited zero-day vulnerability.
-
-read more]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘Does anybody like CAPTCHAs?’ – Cloudflare CTO John Graham-Cumming envisages a frictionless future for website Turing tests]]></title>
-        <id>does-anybody-like-captchas-cloudflare-cto-john-graham-cumming-envisages-a-frictionless-future-for-website-turing-tests</id>
-        <link href="https://portswigger.net/daily-swig/does-anybody-like-captchas-cloudflare-cto-john-graham-cumming-envisages-a-frictionless-future-for-website-turing-tests"/>
-        <updated>2022-07-04T15:20:33.000Z</updated>
-        <summary type="html"><![CDATA[British software engineer also talks HTTP/3, zero trust, and lava lamp-powered cryptography]]></summary>
-        <author>
-            <name>The Daily Swig | Cybersecurity news and views</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Australia’s Monash University launches public bug bounty program]]></title>
-        <id>australias-monash-university-launches-public-bug-bounty-program</id>
-        <link href="https://portswigger.net/daily-swig/australias-monash-university-launches-public-bug-bounty-program"/>
-        <updated>2022-07-04T14:28:00.000Z</updated>
-        <summary type="html"><![CDATA[Education institution will pay up to $2,500 for valid vulnerabilities]]></summary>
-        <author>
-            <name>The Daily Swig | Cybersecurity news and views</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-5479-2: PHP vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-5479-2</id>
-        <link href="https://ubuntu.com/security/notices/USN-5479-2"/>
-        <updated>2022-07-04T14:10:08.000Z</updated>
-        <summary type="html"><![CDATA[USN-5479-1 fixed vulnerabilities in PHP. This update provides the
-corresponding updates for Ubuntu 16.04 ESM.
-
-Original advisory details:
-
- Charles Fol discovered that PHP incorrectly handled initializing certain
- arrays when handling the pg_query_params function. A remote attacker could
- use this issue to cause PHP to crash, resulting in a denial of service, or
- possibly execute arbitrary code. (CVE-2022-31625)
- 
- Charles Fol discovered that PHP incorrectly handled passwords in mysqlnd. A
- remote attacker could use this issue to cause PHP to crash, resulting in a
- denial of service, or possibly execute arbitrary code. (CVE-2022-31626)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
         </author>
     </entry>
 </feed>
