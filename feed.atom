@@ -2,10 +2,418 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2022-08-09T02:05:10.725Z</updated>
+    <updated>2022-08-10T01:46:52.204Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-5557-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5557-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5557-1"/>
+        <updated>2022-08-09T23:44:12.000Z</updated>
+        <summary type="html"><![CDATA[Zhenpeng Lin discovered that the network packet scheduler implementation in
+the Linux kernel did not properly remove all references to a route filter
+before freeing it in some situations. A local attacker could use this to
+cause a denial of service (system crash) or execute arbitrary code.
+(CVE-2022-2588)
+
+It was discovered that the netfilter subsystem of the Linux kernel did not
+prevent one nft object from referencing an nft set in another nft table,
+leading to a use-after-free vulnerability. A local attacker could use this
+to cause a denial of service (system crash) or execute arbitrary code.
+(CVE-2022-2586)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Releases August 2022 Security Updates]]></title>
+        <id>17860 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/08/09/microsoft-releases-august-2022-security-updates"/>
+        <updated>2022-08-09T22:26:00.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: August 9, 2022
+Microsoft has released updates to address multiple vulnerabilities in Microsoft software. An attacker can exploit some of these vulnerabilities to take control of an affected system.
+CISA encourages users and administrators to review Microsoft’s August 2022 Security Update Guide and Deployment Information and apply the necessary updates.
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adobe Releases Security Updates for Multiple Products]]></title>
+        <id>17859 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/08/09/adobe-releases-security-updates-multiple-products"/>
+        <updated>2022-08-09T21:33:39.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: August 9, 2022
+Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.
+CISA encourages users and administrators to review the following Adobe Security Bulletins and apply the necessary updates.
+Adobe Commerce APSB22-38
+Acrobat and Reader APSB22-39
+Illustrator APSB22-41
+FrameMaker APSB22-42
+Premiere Elements APSB22-43
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VMware Releases Security Updates]]></title>
+        <id>17858 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/08/09/vmware-releases-security-updates"/>
+        <updated>2022-08-09T21:28:43.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: August 9, 2022
+VMware has released security updates to address multiple vulnerabilities in vRealize Automation. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.
+CISA encourages users and administrators to review VMware Security Advisory VMSA-2022-0022 and apply the necessary updates.
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Patches Zero-Day Actively Exploited in the Wild]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/microsoft-patches-zero-day-actively-exploited-in-the-wild</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/microsoft-patches-zero-day-actively-exploited-in-the-wild"/>
+        <updated>2022-08-09T20:25:07.000Z</updated>
+        <summary type="html"><![CDATA[The computing giant issued a massive Patch Tuesday update, including a pair of remote execution flaws in the Microsoft Support Diagnostic Tool (MSDT) after attackers used one of the vulnerabilities in a zero-day exploit.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Halo Security Emerges From Stealth With Full Attack Surface Management Platform]]></title>
+        <id>https://www.darkreading.com/dr-tech/halo-security-emerges-from-stealth-with-full-attack-surface-management-platform</id>
+        <link href="https://www.darkreading.com/dr-tech/halo-security-emerges-from-stealth-with-full-attack-surface-management-platform"/>
+        <updated>2022-08-09T20:23:25.000Z</updated>
+        <summary type="html"><![CDATA[The latest startup to enter the attack surface management space also has a free scanning service to audit the contents of any website.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploit Code Published for Critical VMware Security Flaw]]></title>
+        <id>25472 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/exploit-code-published-critical-vmware-security-flaw"/>
+        <updated>2022-08-09T20:15:30.000Z</updated>
+        <summary type="html"><![CDATA[The race to mitigate a gaping authentication bypass vulnerability in VMware Workspace ONE Access, Identity Manager and vRealize Automation products just got a lot more urgent.
+read more]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds Two Known Exploited Vulnerabilities to Catalog]]></title>
+        <id>17857 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/08/09/cisa-adds-two-known-exploited-vulnerabilities-catalog"/>
+        <updated>2022-08-09T18:43:27.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: August 9, 2022
+CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation. These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risk to the federal enterprise. Note: to view the newly added vulnerabilities in the catalog, click on the arrow in the "Date Added to Catalog" column, which will sort by descending dates.    
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known CVEs that carry significant risk to the federal enterprise. BOD 22-01 requires FCEB agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.    
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the Catalog that meet the specified criteria. 
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Already Exploited Zero-Day Headlines Microsoft Patch Tuesday]]></title>
+        <id>25471 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/already-exploited-zero-day-headlines-microsoft-patch-tuesday"/>
+        <updated>2022-08-09T18:08:36.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft on Tuesday released a critical-severity bulletin to warn of a newly discovered zero-day attack exploiting a remote code execution vulnerability in its flagship Windows operating system.
+read more]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ÆPIC Leak: Architectural Bug in Intel CPUs Exposes Protected Data]]></title>
+        <id>25470 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/aepic-leak-architectural-bug-intel-cpus-exposes-protected-data"/>
+        <updated>2022-08-09T17:45:28.000Z</updated>
+        <summary type="html"><![CDATA[A group of researchers from several universities and companies has disclosed a new Intel CPU attack method that could allow an attacker to obtain potentially sensitive information.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Security Update Guide Notification System News: Create your profile now]]></title>
+        <id>https://msrc-blog.microsoft.com/?p=14505</id>
+        <link href="https://msrc-blog.microsoft.com/2022/08/09/security-update-guide-notification-system-news-create-your-profile-now/"/>
+        <updated>2022-08-09T17:20:21.000Z</updated>
+        <summary type="html"><![CDATA[Sharing information through the Security Update Guide (SUG) is an important part of our ongoing effort to help customers manage security risks and keep systems protected. In January 2022 we introduced Phase One of a new way for customers to receive email notifications about new Microsoft product security content using any email address, not just …
+  Security Update Guide Notification System News: Create your profile now Read More »]]></summary>
+        <author>
+            <name>msrc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybrary Unveils Next-Generation Interactive, Hands-On Training Experience to Upskill Cybersecurity Professionals]]></title>
+        <id>https://www.darkreading.com/careers-and-people/cybrary-unveils-next-generation-interactive-hands-on-training-experience-to-upskill-cybersecurity-professionals</id>
+        <link href="https://www.darkreading.com/careers-and-people/cybrary-unveils-next-generation-interactive-hands-on-training-experience-to-upskill-cybersecurity-professionals"/>
+        <updated>2022-08-09T17:16:19.000Z</updated>
+        <summary type="html"><![CDATA[New SOC Analyst Assessment delivers threat-informed training in a live lab environment to help cybersecurity professionals defend their organizations against the latest adversarial tactics and techniques.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Debut Fresh RCE Vector for Common Google API Tool]]></title>
+        <id>https://www.darkreading.com/risk/researchers-debut-rce-vector-common-google-api-tool</id>
+        <link href="https://www.darkreading.com/risk/researchers-debut-rce-vector-common-google-api-tool"/>
+        <updated>2022-08-09T17:12:16.000Z</updated>
+        <summary type="html"><![CDATA[The finding exposes the danger of older, unpatched bugs, which plague at least 4.5 million devices.]]></summary>
+        <author>
+            <name>Nathan Eddy, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Abusing Kerberos for Local Privilege Escalation]]></title>
+        <id>https://www.darkreading.com/operations/abusing-kerberos-for-local-privilege-escalation</id>
+        <link href="https://www.darkreading.com/operations/abusing-kerberos-for-local-privilege-escalation"/>
+        <updated>2022-08-09T17:04:18.000Z</updated>
+        <summary type="html"><![CDATA[Upcoming Black Hat USA presentation will examine the implications of Kerberos weaknesses for security on the local machine.]]></summary>
+        <author>
+            <name>Ericka Chickowski, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Domino's Takes a Methodical Approach to IoT]]></title>
+        <id>https://www.darkreading.com/iot/domino-s-takes-a-methodical-approach-to-iot</id>
+        <link href="https://www.darkreading.com/iot/domino-s-takes-a-methodical-approach-to-iot"/>
+        <updated>2022-08-09T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The success of Domino's Flex IoT project can be attributed in large part to the security best practices it followed.]]></summary>
+        <author>
+            <name>Deral Heiland, Principal Security Researcher (IoT), Rapid7</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Processors Expose Sensitive Data to New 'SQUIP' Attack]]></title>
+        <id>25469 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/amd-processors-expose-sensitive-data-new-squip-attack"/>
+        <updated>2022-08-09T16:53:48.000Z</updated>
+        <summary type="html"><![CDATA[A group of academic researchers on Tuesday published a paper describing the first side-channel attack targeting the scheduler queues of modern processors.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Russia-Ukraine Conflict Holds Cyberwar Lessons]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/russia-ukraine-conflict-holds-cyberwar-lessons</id>
+        <link href="https://www.darkreading.com/threat-intelligence/russia-ukraine-conflict-holds-cyberwar-lessons"/>
+        <updated>2022-08-09T16:43:50.000Z</updated>
+        <summary type="html"><![CDATA[Initial attacks used damaging wiper malware and targeted infrastructure, but the most enduring impacts will likely be from disinformation, researchers say. At Black Hat USA, SentinelOne's Juan Andres Guerrero-Saade and Tom Hegel will discuss.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Edge deepens defenses against malicious websites with enhanced security mode]]></title>
+        <id>microsoft-edge-deepens-defenses-against-malicious-websites-with-enhanced-security-mode</id>
+        <link href="https://portswigger.net/daily-swig/microsoft-edge-deepens-defenses-against-malicious-websites-with-enhanced-security-mode"/>
+        <updated>2022-08-09T16:31:23.000Z</updated>
+        <summary type="html"><![CDATA[Browser adds defense in depth to prevent abuse of unpatched vulnerabilities]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adobe Patch Tuesday: Code Execution Flaws in Acrobat, Reader]]></title>
+        <id>25468 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/adobe-patch-tuesday-code-execution-flaws-acrobat-reader"/>
+        <updated>2022-08-09T16:29:35.000Z</updated>
+        <summary type="html"><![CDATA[Software maker Adobe has released patches for at least 25 documented security vulnerabilities that expose Windows and macOS users to malicious hacker attacks.
+The most urgent fix affects the ubiquitous Adobe Acrobat and Reader software used to create, view and manage PDF files across platforms.
+read more]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Oil and Gas Sector at Risk of a Cyberbreach, According to BreachBits Study]]></title>
+        <id>https://www.darkreading.com/risk/us-oil-and-gas-sector-at-risk-of-a-cyberbreach-according-to-breachbits-study</id>
+        <link href="https://www.darkreading.com/risk/us-oil-and-gas-sector-at-risk-of-a-cyberbreach-according-to-breachbits-study"/>
+        <updated>2022-08-09T16:22:48.000Z</updated>
+        <summary type="html"><![CDATA[Study offers a cyber "state of the industry" analysis from a hacker's perspective to help companies anticipate attacks.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Netscout Arbor Insight Leverages Patented ASI Technology to Enhance Security and Operational Awareness for Network Operators of Any Scale]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/netscout-arbor-insight-leverages-patented-asi-technology-to-enhance-security-and-operational-awareness-for-network-operators-of-any-scale</id>
+        <link href="https://www.darkreading.com/attacks-breaches/netscout-arbor-insight-leverages-patented-asi-technology-to-enhance-security-and-operational-awareness-for-network-operators-of-any-scale"/>
+        <updated>2022-08-09T16:12:19.000Z</updated>
+        <summary type="html"><![CDATA[Extends all aspects of the Arbor Sightline solution with unique, real-time multidimensional DDoS and traffic analytics capabilities.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lacework Updates Threat Detection To Uncover More Malicious Activity and Speed Investigation at Scale]]></title>
+        <id>https://www.darkreading.com/cloud/lacework-updates-threat-detection-to-uncover-more-malicious-activity-and-speed-investigation-at-scale</id>
+        <link href="https://www.darkreading.com/cloud/lacework-updates-threat-detection-to-uncover-more-malicious-activity-and-speed-investigation-at-scale"/>
+        <updated>2022-08-09T15:26:02.000Z</updated>
+        <summary type="html"><![CDATA[New time series model and enhanced alerting experience make it easy for organizations to address more threats in the cloud while enabling faster investigations.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Privya Emerges From Stealth With Data Privacy Code Scanning Platform]]></title>
+        <id>25467 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/privya-emerges-stealth-data-privacy-code-scanning-platform"/>
+        <updated>2022-08-09T15:25:57.000Z</updated>
+        <summary type="html"><![CDATA[Privya emerged from stealth mode on Tuesday with a data privacy-focused code scanning platform and $6 million in seed funding.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don't Take the Cyber Safety Review Board's Log4j Report at Face Value]]></title>
+        <id>https://www.darkreading.com/edge/don-t-take-the-cyber-safety-review-board-s-log4j-report-at-face-value</id>
+        <link href="https://www.darkreading.com/edge/don-t-take-the-cyber-safety-review-board-s-log4j-report-at-face-value"/>
+        <updated>2022-08-09T14:50:12.000Z</updated>
+        <summary type="html"><![CDATA[Given the lack of reporting requirements, the findings are more like assumptions. Here's what organizations can do to minimize exposure.]]></summary>
+        <author>
+            <name>Matt Chiodi, Chief Trust Officer, Cerby</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twilio Suffers Data Breach After Employees Fall Victim to SMS Phishing Attack]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-2541251573444024347</id>
+        <link href="https://thehackernews.com/2022/08/twilio-suffers-data-breach-after.html"/>
+        <updated>2022-08-09T14:24:25.793Z</updated>
+        <summary type="html"><![CDATA[Customer engagement platform Twilio on Monday disclosed that a "sophisticated" threat actor gained "unauthorized access" using an SMS-based phishing campaign aimed at its staff to gain information on a "limited number" of accounts.
+The social-engineering attack was bent on stealing employee credentials, the company said, calling the as-yet-unidentified adversary "well-organized" and "methodical]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[U.S. Sanctions Virtual Currency Mixer Tornado Cash for Alleged Use in Laundering]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-2654021538106134537</id>
+        <link href="https://thehackernews.com/2022/08/us-sanctions-virtual-currency-mixer.html"/>
+        <updated>2022-08-09T14:13:11.721Z</updated>
+        <summary type="html"><![CDATA[The U.S. Treasury Department on Monday placed sanctions against crypto mixing service Tornado Cash, citing its use by the North Korea-backed Lazarus Group in the high-profile hacks of Ethereum bridges to launder and cash out the ill-gotten money.
+Tornado Cash, which allows users to move cryptocurrency assets between accounts by obfuscating their origin and destination, is estimated to have been]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10 Credential Stealing Python Libraries Found on PyPI Repository]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-7439661831186480238</id>
+        <link href="https://thehackernews.com/2022/08/10-credential-stealing-python-libraries.html"/>
+        <updated>2022-08-09T14:12:19.916Z</updated>
+        <summary type="html"><![CDATA[In what's yet another instance of malicious packages creeping into public code repositories, 10 modules have been removed from the Python Package Index (PyPI) for their ability to harvest critical data points such as passwords and Api tokens.
+The packages "install info-stealers that enable attackers to steal developer's private data and personal credentials," Israeli cybersecurity firm Check]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chinese Hackers Targeted Dozens of Industrial Enterprises and Public Institutions]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-8022053087161015565</id>
+        <link href="https://thehackernews.com/2022/08/chinese-hackers-targeted-dozens-of.html"/>
+        <updated>2022-08-09T14:11:33.553Z</updated>
+        <summary type="html"><![CDATA[Over a dozen military-industrial complex enterprises and public institutions in Afghanistan and Europe have come under a wave of targeted attacks since January 2022 to steal confidential data by simultaneously making use of six different backdoors.
+Russian cybersecurity firm Kaspersky attributed the attacks "with a high degree of confidence" to a China-linked threat actor tracked by Proofpoint]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Human Threat Hunters Are Essential to Thwarting Zero-Day Attacks]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/human-threat-hunters-are-essential-to-thwarting-zero-day-attacks</id>
+        <link href="https://www.darkreading.com/attacks-breaches/human-threat-hunters-are-essential-to-thwarting-zero-day-attacks"/>
+        <updated>2022-08-09T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Machine-learning algorithms alone may miss signs of a successful attack on your organization.]]></summary>
+        <author>
+            <name>A.N. Ananth, President, Netsurion</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Publishes Office Symbols to Improve Bug Hunting]]></title>
+        <id>25466 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/microsoft-publishes-office-symbols-improve-bug-hunting"/>
+        <updated>2022-08-09T13:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Office has started publishing Office symbols for Windows in an effort to help bug hunters find and report security issues.
+Symbols are pieces of information used during debugging, and are contained within Symbol files, which are created by the compiler during application build.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simple IDOR vulnerability in Reddit allowed mischief-makers to perform mod actions]]></title>
+        <id>simple-idor-vulnerability-in-reddit-allowed-mischief-makers-to-perform-mod-actions</id>
+        <link href="https://portswigger.net/daily-swig/simple-idor-vulnerability-in-reddit-allowed-mischief-makers-to-perform-mod-actions"/>
+        <updated>2022-08-09T12:55:02.000Z</updated>
+        <summary type="html"><![CDATA[Bug fixed within 24 hours and $5,000 bug bounty awarded]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ICS Patch Tuesday: Siemens, Schneider Electric Fix Only 11 Vulnerabilities]]></title>
+        <id>25465 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/ics-patch-tuesday-siemens-schneider-electric-fix-only-11-vulnerabilities"/>
+        <updated>2022-08-09T12:46:50.000Z</updated>
+        <summary type="html"><![CDATA[Industrial giants Siemens and Schneider Electric have addressed less than a dozen vulnerabilities in their August 2022 Patch Tuesday advisories, far fewer than in most of the previous months.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Truth About False Positives in Security]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-5329295303289379890</id>
+        <link href="https://thehackernews.com/2022/08/the-truth-about-false-positives-in.html"/>
+        <updated>2022-08-09T12:18:40.828Z</updated>
+        <summary type="html"><![CDATA[TL;DR: As weird as it might sound, seeing a few false positives reported by a security scanner is probably a good sign and certainly better than seeing none. Let's explain why.
+Introduction
+False positives have made a somewhat unexpected appearance in our lives in recent years. I am, of course, referring to the COVID-19 pandemic, which required massive testing campaigns in order to control the]]></summary>
+        <author>
+            <name>noreply@blogger.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black Hat 2022: Ten Presentations Worth Your Time and Attention]]></title>
+        <id>25464 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/black-hat-2022-ten-presentations-worth-your-time-and-attention"/>
+        <updated>2022-08-09T11:23:49.000Z</updated>
+        <summary type="html"><![CDATA[LAS VEGAS – The security industry makes its annual pilgrimage to the hot Sonoran desert this week for skills training, hacking demos, research presentations and cybersecurity vendors showing off shiny new products.
+read more]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IBM Patches High-Severity Vulnerabilities in Cloud, Voice, Security Products]]></title>
+        <id>25463 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/ibm-patches-high-severity-vulnerabilities-cloud-voice-security-products"/>
+        <updated>2022-08-09T10:47:49.000Z</updated>
+        <summary type="html"><![CDATA[IBM on Monday announced patches for multiple high-severity vulnerabilities impacting products such as Netezza for Cloud Pak for Data, Voice Gateway, and SiteProtector.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Sanctions Crypto 'Laundering' Service Tornado]]></title>
+        <id>25462 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/us-sanctions-crypto-laundering-service-tornado"/>
+        <updated>2022-08-09T01:17:34.000Z</updated>
+        <summary type="html"><![CDATA[The United States placed sanctions Monday on Tornado Cash, a leading "crypto mixer" for transactions in virtual currency that US officials describe as a hub for laundering stolen funds, including by North Korean hackers.
+read more]]></summary>
+        <author>
+            <name>AFP</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[10 Malicious Code Packages Slither into PyPI Registry]]></title>
         <id>https://www.darkreading.com/application-security/10-malicious-packages-slither-pypi-registry</id>
@@ -1255,6 +1663,22 @@ The algorithm in question is SIKE — short for Supersingular Isogeny Key Encaps
         <summary type="html"><![CDATA[Todd Thibodeaux uses ChannelCon 2022 state of the industry remarks to unveil CompTIA’s Project Agora; invites broad industry participation in the effort to fight for tech talent.]]></summary>
         <author>
             <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VMware Releases Security Updates]]></title>
+        <id>17842 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/08/03/vmware-releases-security-updates"/>
+        <updated>2022-08-03T15:16:31.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: August 3, 2022 | Last revised: August 9, 2022
+VMware has released security updates to address multiple vulnerabilities in VMware’s Workspace ONE Access, Access Connector, Identity Manager, Identity Manager Connector, and vRealize Automation. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. 
+Updated August 8, 2022: According to VMware, "VMware has confirmed malicious code that can exploit CVE-2022-31656 and CVE-2022-31659 in impacted products is publicly available."
+CISA encourages users and administrators to review VMware Security Advisory VMSA-2022-0021 and apply the necessary updates. 
+
+ 
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
         </author>
     </entry>
     <entry>
@@ -7592,168 +8016,6 @@ An remote attacker could possibly use this issue to cause a denial of service.]]
         <summary type="html"><![CDATA[Proactive steps in recruiting women to cybersecurity teams, along with policies focused on diversity, equity, and inclusion, help make cybersecurity teams more effective. Addressing specific barriers that female candidates face will make those teams more inclusive and more representative.]]></summary>
         <author>
             <name>Anupama Akkapeddi, IT Security Evangelist, ManageEngine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-5509-1: Dovecot vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-5509-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-5509-1"/>
-        <updated>2022-07-11T13:13:37.000Z</updated>
-        <summary type="html"><![CDATA[Julian Brook discovered that Dovecot incorrectly handled multiple passdb
-configuration entries. In certain configurations, a remote attacker could
-possibly use this issue to escalate privileges.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Phishing Attacks Shame, Scare Victims into Surrendering Twitter, Discord Credentials]]></title>
-        <id>https://www.darkreading.com/remote-workforce/new-wave-phishing-attacks-shame-scare-victims-into-surrendering-twitter-discord-credentials</id>
-        <link href="https://www.darkreading.com/remote-workforce/new-wave-phishing-attacks-shame-scare-victims-into-surrendering-twitter-discord-credentials"/>
-        <updated>2022-07-11T13:10:56.000Z</updated>
-        <summary type="html"><![CDATA[Scams pressure victims to "resolve an issue that could impact their status, business."]]></summary>
-        <author>
-            <name>Nathan Eddy, Contributing Writer, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerability Summary for the Week of July 4, 2022]]></title>
-        <id>17779 at https://us-cert.cisa.gov</id>
-        <link href="https://us-cert.cisa.gov/ncas/bulletins/sb22-192"/>
-        <updated>2022-07-11T13:09:33.000Z</updated>
-        <summary type="html"><![CDATA[Original release date: July 11, 2022 | Last revised: July 12, 2022
- 
-High Vulnerabilities
-Primary
-Description
-			Published
-			CVSS Score
-			Source & Patch Info
-		
-gitlab -- gitlab
-			A critical issue has been discovered in GitLab affecting all versions starting from 14.0 prior to 14.10.5, 15.0 prior to 15.0.4, and 15.1 prior to 15.1.1 where it was possible for an unauthorised user to execute arbitrary code on the server using the project import feature.
-			2022-07-01
-			7.5
-			CVE-2022-2185
-CONFIRM
-MISC
-MISC
-		
-hospital_management_system_project -- hospital_management_system
-			Hospital Management System v1.0 was discovered to contain a SQL injection vulnerability via the loginid parameter at adminlogin.php.
-			2022-07-01
-			7.5
-			CVE-2022-32093
-MISC
-		
-hospital_management_system_project …]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Associated Eye Care Discloses Impact From 2020 Netgain Ransomware Attack]]></title>
-        <id>25293 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/associated-eye-care-discloses-impact-2020-netgain-ransomware-attack"/>
-        <updated>2022-07-11T13:04:53.000Z</updated>
-        <summary type="html"><![CDATA[Montana-based Associated Eye Care Partners (AEC) has started informing patients that their personal data might have been compromised during an old ransomware attack targeting Netgain.
-
-read more]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The History and Evolution of Zero Trust]]></title>
-        <id>25292 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/history-and-evolution-zero-trust"/>
-        <updated>2022-07-11T12:35:49.000Z</updated>
-        <summary type="html"><![CDATA[“The term ‘zero trust’ is now used so much and so widely that it has almost lost its meaning”
-
-read more]]></summary>
-        <author>
-            <name>Kevin Townsend</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘Dirty dancing’ in OAuth: Researcher discloses how cyber-attacks can lead to account hijacking]]></title>
-        <id>dirty-dancing-in-oauth-researcher-discloses-how-cyber-attacks-can-lead-to-account-hijacking</id>
-        <link href="https://portswigger.net/daily-swig/dirty-dancing-in-oauth-researcher-discloses-how-cyber-attacks-can-lead-to-account-hijacking"/>
-        <updated>2022-07-11T12:33:32.000Z</updated>
-        <summary type="html"><![CDATA[Single-click account takeovers are made possible by taking advantage of quirks in OAuth]]></summary>
-        <author>
-            <name>The Daily Swig | Cybersecurity news and views</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What It Takes to Tackle Your SaaS Security]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-2088901466501857439</id>
-        <link href="https://thehackernews.com/2022/07/what-it-takes-to-tackle-your-saas.html"/>
-        <updated>2022-07-11T12:29:12.000Z</updated>
-        <summary type="html"><![CDATA[It's not a new concept that Office 365, Salesforce, Slack, Google Workspace or Zoom, etc., are amazing for enabling the hybrid workforce and hyper-productivity in businesses today. However, there are three main challenges that have arisen stemming from this evolution: (1) While SaaS apps include a host of native security settings, they need to be hardened by the security team of the organization]]></summary>
-        <author>
-            <name>noreply@blogger.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Raspberry Robin' Windows Worm Abuses QNAP Devices]]></title>
-        <id>25291 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/raspberry-robin-windows-worm-abuses-qnap-devices"/>
-        <updated>2022-07-11T12:07:04.000Z</updated>
-        <summary type="html"><![CDATA[A recently discovered Windows worm is abusing compromised QNAP network-attached storage (NAS) devices as stagers to spread to new systems, according to Cybereason.
-
-Dubbed Raspberry Robin, the malware was initially spotted in September 2021, spreading mainly via removable devices, such as USB drives.
-
-read more]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CEO Accused of Making Millions via Sale of Fake Cisco Devices]]></title>
-        <id>25290 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/ceo-accused-making-millions-sale-fake-cisco-devices"/>
-        <updated>2022-07-11T11:43:03.000Z</updated>
-        <summary type="html"><![CDATA[The US Department of Justice announced on Friday that a man has been arrested and charged for allegedly selling fraudulent and counterfeit Cisco products.
-
-read more]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nigerian Prison Break]]></title>
-        <id>https://www.schneier.com/blog/archives/2022/07/nigerian-prison-break.html</id>
-        <link href="https://www.schneier.com/blog/archives/2022/07/nigerian-prison-break.html"/>
-        <updated>2022-07-11T11:35:06.000Z</updated>
-        <summary type="html"><![CDATA[<p>There was a massive <a href="https://www.msn.com/en-us/news/world/notorious-global-terror-boss-escaped-in-mass-prison-break-jail-officials-say/ar-AAZkgE4">prison break</a> in Abuja, Nigeria:</p>
-<blockquote><p>Armed with bombs, Rocket Propelled Grenade (RPGs) and General Purpose Machine Guns (GPMG), the attackers, who arrived at about 10:05 p.m. local time, gained access through the back of the prison, using dynamites to destroy the heavily fortified facility, freeing 600 out of the prison&#8217;s 994 inmates, according to the country&#8217;s defense minister, Bashir Magashi&#8230;.</p></blockquote>
-<p>What&#8217;s interesting to me is how the defenders got the threat model wrong. That attack isn&#8217;t normally associated with a prison break; it sounds more like a military action in a civil war...</p>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hackers Used Fake Job Offer to Hack and Steal $540 Million from Axie Infinity]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-7724627061098901559</id>
-        <link href="https://thehackernews.com/2022/07/hackers-used-fake-job-offer-to-hack-and.html"/>
-        <updated>2022-07-11T06:43:38.000Z</updated>
-        <summary type="html"><![CDATA[The $540 million hack of Axie Infinity's Ronin Bridge in late March 2022 was the consequence of one of its former employees getting tricked by a fraudulent job offer on LinkedIn, it has emerged. 
-According to a report from The Block published last week citing two people familiar with the matter, a senior engineer at the company was duped into applying for a job at a non-existent company, causing]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PyPI Repository Makes 2FA Security Mandatory for Critical Python Projects]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-1200647622459702811</id>
-        <link href="https://thehackernews.com/2022/07/pypi-repository-makes-2af-security.html"/>
-        <updated>2022-07-11T05:23:51.000Z</updated>
-        <summary type="html"><![CDATA[The maintainers of the official third-party software repository for Python have begun imposing a new two-factor authentication (2FA) condition for projects deemed "critical."
-"We've begun rolling out a 2FA requirement: soon, maintainers of critical projects must have 2FA enabled to publish, update, or modify them," Python Package Index (PyPI) said in a tweet last week.
-"Any maintainer of a]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
         </author>
     </entry>
 </feed>
