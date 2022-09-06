@@ -6,6 +6,16 @@
       "siteUrl": "https://portswigger.net/daily-swig",
       "articles": [
         {
+          "id": "squiz-matrix-cms-squashes-admin-account-takeover-bug",
+          "author": null,
+          "description": "IDOR issue meant user account privileges and contact details could be altered",
+          "link": "https://portswigger.net/daily-swig/squiz-matrix-cms-squashes-admin-account-takeover-bug",
+          "publishedOn": "2022-09-05T16:01:09.000Z",
+          "wordCount": 990,
+          "title": "Squiz Matrix CMS squashes admin account takeover bug",
+          "imageUrl": "https://portswigger.net/cms/images/60/df/0290-twittercard-220905-squiz-main_copy.jpg"
+        },
+        {
           "id": "bug-bounty-radar-the-latest-bug-bounty-programs-for-september-2022",
           "author": null,
           "description": "New web targets for the discerning hacker",
@@ -372,6 +382,28 @@
       "feedUrl": "https://feeds.feedburner.com/TheHackersNews",
       "siteUrl": "https://thehackernews.com/",
       "articles": [
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6475586823076097263",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "A vulnerable anti-cheat driver for the Genshin Impact video game has been leveraged by a cybercrime actor to disable antivirus programs to facilitate the deployment of ransomware, according to findings from Trend Micro.\nThe ransomware infection, which was triggered in the last week of July 2022, banked on the fact that the driver in question (\"mhyprot2.sys\") is signed with a valid certificate,",
+          "link": "https://thehackernews.com/2022/09/ransomware-attackers-abuse-genshin.html",
+          "publishedOn": "2022-09-05T12:26:00.000Z",
+          "wordCount": null,
+          "title": "Ransomware Attackers Abuse Genshin Impact Anti-Cheat System to Disable Antivirus",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5504270225275619660",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "The notorious Android banking trojan known as SharkBot has once again made an appearance on the Google Play Store by masquerading as antivirus and cleaner apps.\n\"This new dropper doesn't rely on Accessibility permissions to automatically perform the installation of the dropper Sharkbot malware,\" NCC Group's Fox-IT said in a report. \"Instead, this new version asks the victim to install the",
+          "link": "https://thehackernews.com/2022/09/fake-antivirus-and-cleaner-apps-caught.html",
+          "publishedOn": "2022-09-05T07:10:00.000Z",
+          "wordCount": null,
+          "title": "Fake Antivirus and Cleaner Apps Caught Installing SharkBot Android Banking Trojan",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5329444585548149893",
           "author": "noreply@blogger.com (Ravie Lakshmanan)",
@@ -1614,17 +1646,6 @@
           "title": "Meta Cracks Down on Cyber Espionage Operations in South Asia Abusing Facebook",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6753546577505305219",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "A new IoT botnet malware dubbed RapperBot has been observed rapidly evolving its capabilities since it was first discovered in mid-June 2022.\n\"This family borrows heavily from the original Mirai source code, but what separates it from other IoT malware families is its built-in capability to brute force credentials and gain access to SSH servers instead of Telnet as implemented in Mirai,\"",
-          "link": "https://thehackernews.com/2022/08/new-iot-rapperbot-malware-targeting.html",
-          "publishedOn": "2022-08-07T04:29:52.633Z",
-          "wordCount": null,
-          "title": "New IoT RapperBot Malware Targeting Linux Servers via SSH Brute-Forcing Attack",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -1633,6 +1654,16 @@
       "feedUrl": "https://feeds.feedburner.com/securityweek",
       "siteUrl": "https://www.securityweek.com",
       "articles": [
+        {
+          "id": "25627 at https://www.securityweek.com",
+          "author": "AFP",
+          "description": "Beijing on Monday accused the United States of launching \"tens of thousands\" of cyberattacks on China and pilfering troves of sensitive data, including from a public research university.\nread more",
+          "link": "https://www.securityweek.com/china-accuses-us-tens-thousands-cyberattacks",
+          "publishedOn": "2022-09-05T13:25:31.000Z",
+          "wordCount": 1377,
+          "title": "China Accuses US of 'Tens of Thousands' of Cyberattacks",
+          "imageUrl": null
+        },
         {
           "id": "25626 at https://www.securityweek.com",
           "author": "Associated Press",
@@ -6652,6 +6683,46 @@
       "feedUrl": "https://ubuntu.com/security/notices/rss.xml",
       "siteUrl": "https://ubuntu.com/security/notices/rss.xml",
       "articles": [
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5600-1",
+          "author": null,
+          "description": "Asaf Modelevsky discovered that the Intel(R) 10GbE PCI Express (ixgbe)\nEthernet driver for the Linux kernel performed insufficient control flow\nmanagement. A local attacker could possibly use this to cause a denial of\nservice. (CVE-2021-33061)\n\nIt was discovered that the virtual terminal driver in the Linux kernel did\nnot properly handle VGA console font changes, leading to an out-of-bounds\nwrite. A local attacker could use this to cause a denial of service (system\ncrash) or possibly execute arbitrary code. (CVE-2021-33656)",
+          "link": "https://ubuntu.com/security/notices/USN-5600-1",
+          "publishedOn": "2022-09-05T22:33:10.000Z",
+          "wordCount": 2072,
+          "title": "USN-5600-1: Linux kernel (HWE) vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5599-1",
+          "author": null,
+          "description": "Asaf Modelevsky discovered that the Intel(R) 10GbE PCI Express (ixgbe)\nEthernet driver for the Linux kernel performed insufficient control flow\nmanagement. A local attacker could possibly use this to cause a denial of\nservice. (CVE-2021-33061)\n\nIt was discovered that the IP implementation in the Linux kernel did not\nprovide sufficient randomization when calculating port offsets. An attacker\ncould possibly use this to expose sensitive information. (CVE-2022-1012)\n\nNorbert Slusarek discovered that a race condition existed in the perf\nsubsystem in the Linux kernel, resulting in a use-after-free vulnerability.\nA privileged local attacker could use this to cause a denial of service\n(system crash) or possibly execute arbitrary code. (CVE-2022-1729)\n\nQiuhao Li, Gaoning Pan, and Yongkang Jia disco…",
+          "link": "https://ubuntu.com/security/notices/USN-5599-1",
+          "publishedOn": "2022-09-05T22:22:29.000Z",
+          "wordCount": 2447,
+          "title": "USN-5599-1: Linux kernel (Oracle) vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5598-1",
+          "author": null,
+          "description": "It was discovered that the virtual terminal driver in the Linux kernel did\nnot properly handle VGA console font changes, leading to an out-of-bounds\nwrite. A local attacker could use this to cause a denial of service (system\ncrash) or possibly execute arbitrary code.",
+          "link": "https://ubuntu.com/security/notices/USN-5598-1",
+          "publishedOn": "2022-09-05T22:10:47.000Z",
+          "wordCount": 1668,
+          "title": "USN-5598-1: Linux kernel (Oracle) vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5597-1",
+          "author": null,
+          "description": "It was discovered that the virtual terminal driver in the Linux kernel did\nnot properly handle VGA console font changes, leading to an out-of-bounds\nwrite. A local attacker could use this to cause a denial of service (system\ncrash) or possibly execute arbitrary code.",
+          "link": "https://ubuntu.com/security/notices/USN-5597-1",
+          "publishedOn": "2022-09-05T21:45:43.000Z",
+          "wordCount": 1683,
+          "title": "USN-5597-1: Linux kernel (Oracle) vulnerability",
+          "imageUrl": null
+        },
         {
           "id": "https://ubuntu.com/security/notices/USN-5591-4",
           "author": null,
