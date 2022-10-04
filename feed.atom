@@ -2,10 +2,201 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2022-10-03T01:58:52.485Z</updated>
+    <updated>2022-10-04T02:08:29.143Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[VU#915563: Microsoft Exchange vulnerable to server-side request forgery and remote code execution.]]></title>
+        <id>https://kb.cert.org/vuls/id/915563</id>
+        <link href="https://kb.cert.org/vuls/id/915563"/>
+        <updated>2022-10-03T21:59:10.233Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Microsoft Exchange 2019 Cumulative Update 23 and earlier versions are vulnerable to a server-side request forgery (SSRF) attack and remote code execution.  An authenticated attacker can use the combination of these two vulnerabilities to elevate privileges and execute arbitrary code on the target Exchange server. </p>
+<h3 id="description">Description</h3>
+<p>Microsoft Exchange Server's <a href="https://learn.microsoft.com/en-us/exchange/architecture/client-access/autodiscover?view=exchserver-2019"> Autodiscover service</a> is a web service widely available to any Microsoft Exchange Web Services (EWS) client.  Since Microsoft Exchange version 2016, the Autodiscover service has become an integral part of the Microsoft Exchange system, and it is no longer independently provided by a Client Access server.  The Autodiscover service and a number of other privileged mailbox services are hosted on the default Internet Information Services server running on the Mailbox server.  </p>
+<p>Cybersecurity company GTSC <a href="https://www.gteltsc.vn/blog/warning-new-attack-campaign-utilized-a-new-0day-rce-vulnerability-on-microsoft-exchange-server-12715.html">observed an abuse of the Autodiscover service in August of 2022</a> using a crafted URL SSRF attack, similar to the earlier <a href="https://techcommunity.microsoft.com/t5/exchange-team-blog/proxyshell-vulnerabilities-and-your-exchange-server/ba-p/2684705">ProxyShell</a> vulnerability reported in August 2021.  The observed attack appears to have implemented <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41040">CVE-2022-41040</a> to gain privileged access and <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41082">CVE-2022-41082</a> to perform remote code execution via PowerShell.  Microsoft Security Research Center has <a href="https://msrc-blog.microsoft.com/2022/09/29/customer-guidance-for-reported-zero-day-vulnerabilities-in-microsoft-exchange-server/">acknowledged the vulnerability and provided guidance for mitigation</a>.  The guidance highlights that Microsoft Exchange Online customers will be provided with detection and mitigation defenses automatically from Microsoft's managed Infrastructure, informing them of any attempts to exploit these vulnerabilities. </p>
+<h3 id="impact">Impact</h3>
+<p>An authenticated remote attacker can perform SSRF attacks to escalate privileges and execute arbtirary PowerShell code on vulnerable Microsoft Exchange servers.  As the attack is targeted against Microsoft Exchange Mailbox server, the attacker can potentially gain access to other resources via lateral movement into Exchange and Active Directory environments.</p>
+<h3 id="solution">Solution</h3>
+<h4 id="workaround-guidance">Workaround guidance</h4>
+<p>Microsoft has provided guidance in their <a href="https://msrc-blog.microsoft.com/2022/09/29/customer-guidance-for-reported-zero-day-vulnerabilities-in-microsoft-exchange-server/">recent blog post</a> to address the issue.  <a href="https://twitter.com/testanull">Jang</a> notes that the guidance can be bypassed due to a small error in the URL filter <em>.*autodiscover\.json.*\@.*Powershell.*</em> which is detailed in step 6 under Option 3.  The recommended block pattern is  <em>.*autodiscover\.json.*Powershell.*</em> (excluding the <em>@</em> symbol) as a regular expression to prevent known variants of the <a href="https://twitter.com/hashtag/ProxyNotShell">#ProxyNotShell</a> attacks.</p>
+<h4 id="apply-update-when-available">Apply update when available</h4>
+<p>As of October 3, 2022, there is no patch available to mitigate this issue. It is recommended that Microsoft Exchange administrators stay on alert for <a href="https://techcommunity.microsoft.com/t5/exchange-team-blog/new-security-feature-in-september-2021-cumulative-update-for/ba-p/2783155">any advisory or patch</a> released by Microsoft.  </p>
+<h4 id="third-party-web-application-protection">Third-party web application protection</h4>
+<p>Exchange Administrators who use third-party Web Application Firewall (WAF) products can implement the recommended URL filters and blocks as part of their WAF policy.</p>
+<h4 id="other-mitigations">Other mitigations</h4>
+<p>Exchange Administrators can limit the outgoing connection from the Exchange Mailbox server using specific whitelisting on an outgoing proxy to limit suspicious web requests.</p>
+<p>This document was written by Vijay Sarvepalli.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bumblebee Malware Loader's Payloads Significantly Vary by Victim System]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/bumblebee-malware-loader-s-payloads-significantly-vary-by-victim-system</id>
+        <link href="https://www.darkreading.com/attacks-breaches/bumblebee-malware-loader-s-payloads-significantly-vary-by-victim-system"/>
+        <updated>2022-10-03T20:56:00.000Z</updated>
+        <summary type="html"><![CDATA[On some systems the malware drops infostealers and banking Trojans; on others it installs sophisticated post-compromise tools, new analysis shows.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First 72 Hours of Incident Response Critical to Taming Cyberattack Chaos]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/incident-response-s-first-72-hours-critical-to-taming-chaos</id>
+        <link href="https://www.darkreading.com/attacks-breaches/incident-response-s-first-72-hours-critical-to-taming-chaos"/>
+        <updated>2022-10-03T20:51:18.000Z</updated>
+        <summary type="html"><![CDATA[Responding to cyberattacks is extraordinarily stressful, but better planning, frequent practice, and the availability of mental health services can help IR professionals, a survey finds.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vice Society Publishes LA Public School Student Data, Psych Evals]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/vice-society-publishes-la-public-school-student-data-psych-evals</id>
+        <link href="https://www.darkreading.com/attacks-breaches/vice-society-publishes-la-public-school-student-data-psych-evals"/>
+        <updated>2022-10-03T20:21:55.000Z</updated>
+        <summary type="html"><![CDATA[After a flat refusal to pay the ransom, Los Angeles Unified School District's stolen data has been dumped on the Dark Web by a ransomware gang.]]></summary>
+        <author>
+            <name>Becky Bracken, Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5651-2: strongSwan vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5651-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-5651-2"/>
+        <updated>2022-10-03T19:18:27.000Z</updated>
+        <summary type="html"><![CDATA[USN-5651-1 fixed a vulnerability in strongSwan. This update provides
+the corresponding update for Ubuntu 14.04 ESM and Ubuntu 16.04 ESM.
+
+Original advisory details:
+
+ Lahav Schlesinger discovered that strongSwan incorrectly handled certain OCSP URIs and
+ and CRL distribution points (CDP) in certificates. A remote attacker could
+ possibly use this issue to initiate IKE_SAs and send crafted certificates
+ that contain URIs pointing to servers under their control, which can lead
+ to a denial-of-service attack.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5651-1: strongSwan vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5651-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5651-1"/>
+        <updated>2022-10-03T17:35:02.000Z</updated>
+        <summary type="html"><![CDATA[Lahav Schlesinger discovered that strongSwan incorrectly handled certain OCSP URIs and
+and CRL distribution points (CDP) in certificates. A remote attacker could
+possibly use this issue to initiate IKE_SAs and send crafted certificates
+that contain URIs pointing to servers under their control, which can lead
+to a denial-of-service attack.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5614-2: Wayland vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5614-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-5614-2"/>
+        <updated>2022-10-03T17:26:02.000Z</updated>
+        <summary type="html"><![CDATA[USN-5614-1 fixed a vulnerability in Wayland. This update
+provides the corresponding update for Ubuntu 16.04 ESM.
+
+Original advisory details:
+
+ It was discovered that Wayland incorrectly handled reference counting
+ certain objects. An attacker could use this issue to cause Wayland to
+ crash, resulting in a denial of service, or possibly execute arbitrary
+ code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5652-1: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5652-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5652-1"/>
+        <updated>2022-10-03T16:47:14.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the framebuffer driver on the Linux kernel did not
+verify size limits when changing font or screen size, leading to an out-of-
+bounds write. A local attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2021-33655)
+
+Domingo Dirutigliano and Nicola Guerrera discovered that the netfilter
+subsystem in the Linux kernel did not properly handle rules that truncated
+packets below the packet header size. When such rules are in place, a
+remote attacker could possibly use this to cause a denial of service
+(system crash). (CVE-2022-36946)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Name That Edge Toon: Mumbo Dumbo]]></title>
+        <id>https://www.darkreading.com/edge-articles/name-that-edge-toon-mumbo-dumbo</id>
+        <link href="https://www.darkreading.com/edge-articles/name-that-edge-toon-mumbo-dumbo"/>
+        <updated>2022-10-03T16:26:52.000Z</updated>
+        <summary type="html"><![CDATA[Come up with a clever caption, and our panel of experts will reward the winner with a $25 Amazon gift card.]]></summary>
+        <author>
+            <name>John Klossner, Cartoonist</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft confirms zero-day exploits against Exchange Server in ‘limited’ attacks]]></title>
+        <id>microsoft-confirms-zero-day-exploits-against-exchange-server-in-limited-attacks</id>
+        <link href="https://portswigger.net/daily-swig/microsoft-confirms-zero-day-exploits-against-exchange-server-in-limited-attacks"/>
+        <updated>2022-10-03T14:19:26.000Z</updated>
+        <summary type="html"><![CDATA[‘ProxyNotShell’ abuse less severe than 2021 attack wave due to authentication requirement]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How AWS, Cisco, Netflix & SAP Are Approaching Cybersecurity Awareness Month]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/how-aws-cisco-netflix-sap-are-approaching-cybersecurity-awareness-month</id>
+        <link href="https://www.darkreading.com/attacks-breaches/how-aws-cisco-netflix-sap-are-approaching-cybersecurity-awareness-month"/>
+        <updated>2022-10-03T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This year's theme is "See Yourself in Cyber," and these security folks are using the month to reflect on the personal factor in cybersecurity.]]></summary>
+        <author>
+            <name>CJ Moses, Chief Information Security Officer, Amazon Web Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Issues Binding Operational Directive 23-01: Improving Asset Visibility and Vulnerability Detection on Federal Networks]]></title>
+        <id>18031 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/10/03/cisa-issues-binding-operational-directive-23-01-improving-asset"/>
+        <updated>2022-10-03T13:31:47.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: October 3, 2022
+CISA has issued Binding Operational Directive (BOD) 23-01: Improving Asset Visibility and Vulnerability Detection on Federal Networks, which seeks improve asset visibility and vulnerability enumeration across the federal enterprise.
+Although BOD 23-01 is only applicable to federal civilian executive branch (FCEB) agencies, CISA recommends all stakeholders review and incorporate the standards it sets forth. Doing so will ensure asset management and vulnerability detection practices that will strengthen their organization’s cyber resilience.
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detecting Deepfake Audio by Modeling the Human Acoustic Tract]]></title>
+        <id>https://www.schneier.com/blog/archives/2022/10/detecting-deepfake-audio-by-modeling-the-human-acoustic-tract.html</id>
+        <link href="https://www.schneier.com/blog/archives/2022/10/detecting-deepfake-audio-by-modeling-the-human-acoustic-tract.html"/>
+        <updated>2022-10-03T11:25:45.000Z</updated>
+        <summary type="html"><![CDATA[<p>This is <a href="https://www.usenix.org/conference/usenixsecurity22/presentation/blue">interesting research</a>:</p>
+<blockquote><p>In this paper, we develop a new mechanism for detecting audio deepfakes using techniques from the field of articulatory phonetics. Specifically, we apply fluid dynamics to estimate the arrangement of the human vocal tract during speech generation and show that deepfakes often model impossible or highly-unlikely anatomical arrangements. When parameterized to achieve 99.9% precision, our detection mechanism achieves a recall of 99.5%, correctly identifying all but one deepfake sample in our dataset.</p></blockquote>
+<p>From an <a href="https://theconversation.com/deepfake-audio-has-a-tell-researchers-use-fluid-dynamics-to-spot-artificial-imposter-voices-189104">article...</a></p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nepxion Discovery software with Spring Cloud functionality fails to patch RCE, info leak bugs]]></title>
+        <id>nepxion-discovery-software-with-spring-cloud-functionality-fails-to-patch-rce-info-leak-bugs</id>
+        <link href="https://portswigger.net/daily-swig/nepxion-discovery-software-with-spring-cloud-functionality-fails-to-patch-rce-info-leak-bugs"/>
+        <updated>2022-10-03T11:20:30.000Z</updated>
+        <summary type="html"><![CDATA[Maintainer of Chinese project closes public issue apparently without issuing a fix]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Shangri-La hotels Customer Database Hacked]]></title>
         <id>25807 at https://www.securityweek.com</id>
@@ -130,6 +321,16 @@ It was …]]></summary>
         <summary type="html"><![CDATA[Weeks after it breached the Los Angeles Unified School District, the Vice Society ransomware group is threatening to leak the stolen data, unless they get paid.]]></summary>
         <author>
             <name>Becky Bracken, Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Top 4 Mistakes in Security Programs to Avoid]]></title>
+        <id>https://www.darkreading.com/microsoft/the-top-4-mistakes-in-security-programs-to-avoid</id>
+        <link href="https://www.darkreading.com/microsoft/the-top-4-mistakes-in-security-programs-to-avoid"/>
+        <updated>2022-09-30T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Overlooking even just a single security threat can severely erode a company’s community and consumer confidence, tarnish reputation and brand, negatively impact corporate valuations, provide competitors with an advantage, and create unwanted scrutiny.]]></summary>
+        <author>
+            <name>Chris Kirk, Principal Cybersecurity Consultant, Microsoft</name>
         </author>
     </entry>
     <entry>

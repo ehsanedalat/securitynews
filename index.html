@@ -36,6 +36,429 @@ alt="Web Analytics Made Easy - StatCounter"></a></div></noscript>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-03 datetime="2022-10-03T21:59:10.233Z">2022-10-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-03 datetime="2022-10-03T21:59:10.233Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >CERT Recently Published Vulnerability Notes</button>
+                  <a class="source-heading__link" href="https://kb.cert.org/vuls/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kb.cert.org/vuls/id/915563"
+                        open
+                      >
+                        <summary class="article-expander__title">VU#915563: Microsoft Exchange vulnerable to server-side request forgery and remote code execution.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kb.cert.org/vuls/id/915563">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Overview
+Microsoft Exchange 2019 Cumulative Update 23 and earlier versions are vulnerable to a server-side request forgery (SSRF) attack and remote code execution.  An authenticated attacker can use the combination of these two vulnerabilities to elevate privileges and execute arbitrary code on the target Exchange server. 
+Description
+Microsoft Exchange Server&#x27;s  Autodiscover service is a web service widely available to any Microsoft Exchange Web Services (EWS) client.  Since Microsoft Exchange version 2016, the Autodiscover service has become an integral part of the Microsoft Exchange system, and it is no longer independently provided by a Client Access server.  The Autodiscover service and a number of other privileged mailbox services are hosted on the default Internet Information Services server running on the Mailbox server.  
+Cybersecurity company GTSC observed an abuse of the Autodiscover service in August of 2022 using a crafted URL SSRF attack, similar to the earlier ProxyShell vulnerability reported in August 2021.  The observed attack appears to have implemented CVE-2022-41040 to gain privileged access and CVE-2022-41082 to perform remote code execution via PowerShell.  Microsoft Security Research Center has acknowledged the vulnerability and provided guidance for mitigation.  The guidance highlights that Microsoft Exchange Online customers will be provided with detection and mitigation defenses automatically from Microsoft&#x27;s managed Infrastructure, informing them of any attempts to exploit these vulnerabilities. 
+Impact
+An authenticated remote attacker can perform SSRF attacks to escalate privileges and execute arbtirary PowerShell code on vulnerable Microsoft Exchange servers.  As the attack is targeted against Microsoft Exchange Mailbox server, the attacker can potentially gain access to other resources via lateral movement into Exchange and Active Directory environments.
+Solution
+Workaround guidance
+Microsoft has provided guidance in their recent blog post to address the issue.  Jang notes that the guidance can be bypassed due to a small error in the URL filter .*autodiscover\.json.*\@.*Powershell.* which is detailed in step 6 under Option 3.  The recommended block pattern is  .*autodiscover\.json.*Powershell.* (excluding the @ symbol) as a regular expression to prevent known variants of the #ProxyNotShell attacks.
+Apply update when available
+As of October 3, 2022, there is no patch available to mitigate this issue. It is recommended that Microsoft Exchange administrators stay on alert for any advisory or patch released by Microsoft.  
+Third-party web application protection
+Exchange Administrators who use third-party Web Application Firewall (WAF) products can implement the recommended URL filters and blocks as part of their WAF policy.
+Other mitigations
+Exchange Administrators can limit the outgoing connection from the Exchange Mailbox server using specific whitelisting on an outgoing proxy to limit suspicious web requests.
+This document was written by Vijay Sarvepalli.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Dark Reading</button>
+                  <a class="source-heading__link" href="https://www.darkreading.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/attacks-breaches/bumblebee-malware-loader-s-payloads-significantly-vary-by-victim-system"
+                        open
+                      >
+                        <summary class="article-expander__title">Bumblebee Malware Loader&#x27;s Payloads Significantly Vary by Victim System</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/attacks-breaches/bumblebee-malware-loader-s-payloads-significantly-vary-by-victim-system">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>On some systems the malware drops infostealers and banking Trojans; on others it installs sophisticated post-compromise tools, new analysis shows.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;39
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/attacks-breaches/incident-response-s-first-72-hours-critical-to-taming-chaos"
+                        open
+                      >
+                        <summary class="article-expander__title">First 72 Hours of Incident Response Critical to Taming Cyberattack Chaos</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/attacks-breaches/incident-response-s-first-72-hours-critical-to-taming-chaos">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Responding to cyberattacks is extraordinarily stressful, but better planning, frequent practice, and the availability of mental health services can help IR professionals, a survey finds.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;41
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/attacks-breaches/vice-society-publishes-la-public-school-student-data-psych-evals"
+                        open
+                      >
+                        <summary class="article-expander__title">Vice Society Publishes LA Public School Student Data, Psych Evals</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/attacks-breaches/vice-society-publishes-la-public-school-student-data-psych-evals">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>After a flat refusal to pay the ransom, Los Angeles Unified School District&#x27;s stolen data has been dumped on the Dark Web by a ransomware gang.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;45
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/edge-articles/name-that-edge-toon-mumbo-dumbo"
+                        open
+                      >
+                        <summary class="article-expander__title">Name That Edge Toon: Mumbo Dumbo</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/edge-articles/name-that-edge-toon-mumbo-dumbo">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf97d71984b60d7ed/60b1e88b5d34de550780a96e/Klossner_iwk_photo.gif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Come up with a clever caption, and our panel of experts will reward the winner with a $25 Amazon gift card.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;31
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/attacks-breaches/how-aws-cisco-netflix-sap-are-approaching-cybersecurity-awareness-month"
+                        open
+                      >
+                        <summary class="article-expander__title">How AWS, Cisco, Netflix &amp; SAP Are Approaching Cybersecurity Awareness Month</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/attacks-breaches/how-aws-cisco-netflix-sap-are-approaching-cybersecurity-awareness-month">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt977981c7d0d235a2/633707d6d517f360dff9e2fc/CJ_Moses_AWS_CISO_2022-310p.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>This year&#x27;s theme is &quot;See Yourself in Cyber,&quot; and these security folks are using the month to reflect on the personal factor in cybersecurity.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;48
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Ubuntu security notices</button>
+                  <a class="source-heading__link" href="https://ubuntu.com/security/notices/rss.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ubuntu.com/security/notices/USN-5651-2"
+                        open
+                      >
+                        <summary class="article-expander__title">USN-5651-2: strongSwan vulnerability</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ubuntu.com/security/notices/USN-5651-2">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>USN-5651-1 fixed a vulnerability in strongSwan. This update provides
+the corresponding update for Ubuntu 14.04 ESM and Ubuntu 16.04 ESM.
+
+Original advisory details:
+
+ Lahav Schlesinger discovered that strongSwan incorrectly handled certain OCSP URIs and
+ and CRL distribution points (CDP) in certificates. A remote attacker could
+ possibly use this issue to initiate IKE_SAs and send crafted certificates
+ that contain URIs pointing to servers under their control, which can lead
+ to a denial-of-service attack.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ubuntu.com/security/notices/USN-5651-1"
+                        open
+                      >
+                        <summary class="article-expander__title">USN-5651-1: strongSwan vulnerability</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ubuntu.com/security/notices/USN-5651-1">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Lahav Schlesinger discovered that strongSwan incorrectly handled certain OCSP URIs and
+and CRL distribution points (CDP) in certificates. A remote attacker could
+possibly use this issue to initiate IKE_SAs and send crafted certificates
+that contain URIs pointing to servers under their control, which can lead
+to a denial-of-service attack.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ubuntu.com/security/notices/USN-5614-2"
+                        open
+                      >
+                        <summary class="article-expander__title">USN-5614-2: Wayland vulnerability</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ubuntu.com/security/notices/USN-5614-2">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>USN-5614-1 fixed a vulnerability in Wayland. This update
+provides the corresponding update for Ubuntu 16.04 ESM.
+
+Original advisory details:
+
+ It was discovered that Wayland incorrectly handled reference counting
+ certain objects. An attacker could use this issue to cause Wayland to
+ crash, resulting in a denial of service, or possibly execute arbitrary
+ code.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ubuntu.com/security/notices/USN-5652-1"
+                        open
+                      >
+                        <summary class="article-expander__title">USN-5652-1: Linux kernel (Azure) vulnerabilities</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ubuntu.com/security/notices/USN-5652-1">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>It was discovered that the framebuffer driver on the Linux kernel did not
+verify size limits when changing font or screen size, leading to an out-of-
+bounds write. A local attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2021-33655)
+
+Domingo Dirutigliano and Nicola Guerrera discovered that the netfilter
+subsystem in the Linux kernel did not properly handle rules that truncated
+packets below the packet header size. When such rules are in place, a
+remote attacker could possibly use this to cause a denial of service
+(system crash). (CVE-2022-36946)</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Daily Swig | Cybersecurity news and views</button>
+                  <a class="source-heading__link" href="https://portswigger.net/daily-swig">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="microsoft-confirms-zero-day-exploits-against-exchange-server-in-limited-attacks"
+                        open
+                      >
+                        <summary class="article-expander__title">Microsoft confirms zero-day exploits against Exchange Server in ‘limited’ attacks</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://portswigger.net/daily-swig/microsoft-confirms-zero-day-exploits-against-exchange-server-in-limited-attacks">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://portswigger.net/cms/images/01/cb/8a4f-twittercard-ms_exchange.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>‘ProxyNotShell’ abuse less severe than 2021 attack wave due to authentication requirement</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="nepxion-discovery-software-with-spring-cloud-functionality-fails-to-patch-rce-info-leak-bugs"
+                        open
+                      >
+                        <summary class="article-expander__title">Nepxion Discovery software with Spring Cloud functionality fails to patch RCE, info leak bugs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://portswigger.net/daily-swig/nepxion-discovery-software-with-spring-cloud-functionality-fails-to-patch-rce-info-leak-bugs">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://portswigger.net/cms/images/ca/03/53f0-twittercard-220330-spring-cloud-main.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Maintainer of Chinese project closes public issue apparently without issuing a fix</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >CISA Current Activity</button>
+                  <a class="source-heading__link" href="https://us-cert.cisa.gov/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="18031 at https://us-cert.cisa.gov"
+                        open
+                      >
+                        <summary class="article-expander__title">CISA Issues Binding Operational Directive 23-01: Improving Asset Visibility and Vulnerability Detection on Federal Networks</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://us-cert.cisa.gov/ncas/current-activity/2022/10/03/cisa-issues-binding-operational-directive-23-01-improving-asset">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Original release date: October 3, 2022
+CISA has issued Binding Operational Directive (BOD) 23-01: Improving Asset Visibility and Vulnerability Detection on Federal Networks, which seeks improve asset visibility and vulnerability enumeration across the federal enterprise.
+Although BOD 23-01 is only applicable to federal civilian executive branch (FCEB) agencies, CISA recommends all stakeholders review and incorporate the standards it sets forth. Doing so will ensure asset management and vulnerability detection practices that will strengthen their organization’s cyber resilience.
+This product is provided subject to this Notification and this Privacy &amp; Use policy.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Schneier on Security</button>
+                  <a class="source-heading__link" href="https://www.schneier.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.schneier.com/blog/archives/2022/10/detecting-deepfake-audio-by-modeling-the-human-acoustic-tract.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Detecting Deepfake Audio by Modeling the Human Acoustic Tract</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.schneier.com/blog/archives/2022/10/detecting-deepfake-audio-by-modeling-the-human-acoustic-tract.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>This is interesting research:
+In this paper, we develop a new mechanism for detecting audio deepfakes using techniques from the field of articulatory phonetics. Specifically, we apply fluid dynamics to estimate the arrangement of the human vocal tract during speech generation and show that deepfakes often model impossible or highly-unlikely anatomical arrangements. When parameterized to achieve 99.9% precision, our detection mechanism achieves a recall of 99.5%, correctly identifying all but one deepfake sample in our dataset.
+
+From an article...</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-01 datetime="2022-10-01T11:35:22.000Z">2022-10-01</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-01 datetime="2022-10-01T11:35:22.000Z"></time>
           </button>
@@ -223,6 +646,26 @@ Tracked as CVE-2022-36804, the issue relates to a command injection vulnerabili
                             <span class="media-object__text">
                               <span>Weeks after it breached the Los Angeles Unified School District, the Vice Society ransomware group is threatening to leak the stolen data, unless they get paid.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;34
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/microsoft/the-top-4-mistakes-in-security-programs-to-avoid"
+                        open
+                      >
+                        <summary class="article-expander__title">The Top 4 Mistakes in Security Programs to Avoid</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/microsoft/the-top-4-mistakes-in-security-programs-to-avoid">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8fe4479bc32f84b4/6321f5362769d078008692a9/MS-Security_logo.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Overlooking even just a single security threat can severely erode a company’s community and consumer confidence, tarnish reputation and brand, negatively impact corporate valuations, provide competitors with an advantage, and create unwanted scrutiny.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;42
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -16389,8 +16832,8 @@ read more</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/ehsanedalat/securitynews/actions/runs/3171006717">
-        <time id="build-timestamp" datetime="2022-10-03T01:58:52.438Z">2022-10-03T01:58:52.438Z</time>
+      <a class="footer-link" href="https://github.com/ehsanedalat/securitynews/actions/runs/3178880008">
+        <time id="build-timestamp" datetime="2022-10-04T02:08:29.059Z">2022-10-04T02:08:29.059Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
