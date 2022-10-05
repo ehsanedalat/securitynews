@@ -2,10 +2,536 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2022-10-04T02:08:29.143Z</updated>
+    <updated>2022-10-05T02:07:52.932Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Insecurities of Cybersecurity Success]]></title>
+        <id>https://www.darkreading.com/edge-articles/the-insecurities-of-cybersecurity-success</id>
+        <link href="https://www.darkreading.com/edge-articles/the-insecurities-of-cybersecurity-success"/>
+        <updated>2022-10-04T22:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Becoming a big wheel doesn't have to cost your happiness, but grind culture makes that likely.]]></summary>
+        <author>
+            <name>Edge Editors, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exposure Management? Understanding the Attacker Takes Center Stage]]></title>
+        <id>https://www.darkreading.com/dr-tech/exposure-management-understanding-the-attacker-takes-center-stage</id>
+        <link href="https://www.darkreading.com/dr-tech/exposure-management-understanding-the-attacker-takes-center-stage"/>
+        <updated>2022-10-04T21:48:35.000Z</updated>
+        <summary type="html"><![CDATA[Announcing its exposure management platform, Tenable joins other companies in offering ways — such as attack surface management — to look at business networks through the eyes of attackers.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5656-1: JACK vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5656-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5656-1"/>
+        <updated>2022-10-04T21:29:20.000Z</updated>
+        <summary type="html"><![CDATA[Joseph Yasi discovered that JACK incorrectly handled the closing of a socket
+in certain conditions. An attacker could potentially use this issue to
+cause a crash.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Updates Mitigation for Exchange Server Zero-Days]]></title>
+        <id>https://www.darkreading.com/remote-workforce/microsoft-updates-mitigation-for-exchange-server-zero-days</id>
+        <link href="https://www.darkreading.com/remote-workforce/microsoft-updates-mitigation-for-exchange-server-zero-days"/>
+        <updated>2022-10-04T20:27:28.000Z</updated>
+        <summary type="html"><![CDATA[Researchers had discovered that Microsoft's original mitigation steps for the so-called "ProxyNotShell" flaws was easily bypassed.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5655-1: Linux kernel (Intel IoTG) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5655-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5655-1"/>
+        <updated>2022-10-04T18:27:33.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the framebuffer driver on the Linux kernel did not
+verify size limits when changing font or screen size, leading to an out-of-
+bounds write. A local attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2021-33655)
+
+Duoming Zhou discovered that race conditions existed in the timer handling
+implementation of the Linux kernel's Rose X.25 protocol layer, resulting in
+use-after-free vulnerabilities. A local attacker could use this to cause a
+denial of service (system crash). (CVE-2022-2318)
+
+Roger Pau Monné discovered that the Xen virtual block driver in the Linux
+kernel did not properly initialize memory pages to be used for shared
+communication with the backend. A local attacker could use this to expose
+sensitive i…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Russian Hacker Arrested in India for Reportedly Helping Students Cheat in JEE-Main Exam]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-2469323504878668884</id>
+        <link href="https://thehackernews.com/2022/10/russian-hacker-arrested-in-india-for.html"/>
+        <updated>2022-10-04T18:21:00.000Z</updated>
+        <summary type="html"><![CDATA[India's Central Bureau of Investigation (CBI) on Monday disclosed that it has detained a Russian national for allegedly hacking into a software platform used to conduct engineering entrance assessments in the country in 2021.
+"The said accused was detained by the Bureau of Immigration at Indira Gandhi International Airport, Delhi while arriving in India from Almaty, Kazakhstan," the primary]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AA22-277A: Impacket and Exfiltration Tool Used to Steal Sensitive Information from Defense Industrial Base Organization]]></title>
+        <id>17956 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/alerts/aa22-277a"/>
+        <updated>2022-10-04T17:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: October 4, 2022
+Summary
+Actions to Help Protect Against Russian State-Sponsored Malicious Cyber Activity:
+From November 2021 through January 2022, the Cybersecurity and Infrastructure Security Agency (CISA) responded to advanced persistent threat (APT) activity on a Defense Industrial Base (DIB) Sector organization’s enterprise network. During incident response activities, CISA uncovered that likely multiple APT groups compromised the organization’s network, and some APT actors had long-term access to the environment. APT actors used an open-source toolkit called Impacket to gain their foothold within the environment and further compromise the network, and also used a custom data exfiltration tool, CovalentStealer, to steal the victim’s sensitive data.
+This joint Cyb…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aussie Telco Telstra Breached, Reportedly Exposing 30,000 Employees' Data]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/aussie-telco-telstra-breached-reportedly-exposing-30-000-employees-data</id>
+        <link href="https://www.darkreading.com/attacks-breaches/aussie-telco-telstra-breached-reportedly-exposing-30-000-employees-data"/>
+        <updated>2022-10-04T17:55:00.000Z</updated>
+        <summary type="html"><![CDATA[The Telstra cyber incident comes just weeks after its main rival Optus suffered a major compromise of its customer database.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5654-1: Linux kernel (GKE) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5654-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5654-1"/>
+        <updated>2022-10-04T17:25:44.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the framebuffer driver on the Linux kernel did not
+verify size limits when changing font or screen size, leading to an out-of-
+bounds write. A local attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2021-33655)
+
+Moshe Kol, Amit Klein and Yossi Gilad discovered that the IP implementation
+in the Linux kernel did not provide sufficient randomization when
+calculating port offsets. An attacker could possibly use this to expose
+sensitive information. (CVE-2022-1012, CVE-2022-32296)
+
+Norbert Slusarek discovered that a race condition existed in the perf
+subsystem in the Linux kernel, resulting in a use-after-free vulnerability.
+A privileged local attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2022-1729)
+
+It was discovered that the device-mapper verity (dm-verity) driver in the
+Linux kernel did not properly verify targets being loaded into the device-
+mapper table. A privileged attacker could use this to cause a denial of
+service (system crash) or possibly execute arbitrary code. (CVE-2022-2503)
+
+Domingo Dirutigliano and Nicola Guerrera discovered that the netfilter
+subsystem in the Linux kernel did not properly handle rules that truncated
+packets below the packet header size. When such rules are in place, a
+remote attacker could possibly use this to cause a denial of service
+(system crash). (CVE-2022-36946)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Former NSA Employee Faces Death Penalty for Selling Secrets]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/ex--nsa-employee-faces-death-penalty-for-selling-secrets</id>
+        <link href="https://www.darkreading.com/attacks-breaches/ex--nsa-employee-faces-death-penalty-for-selling-secrets"/>
+        <updated>2022-10-04T17:10:51.000Z</updated>
+        <summary type="html"><![CDATA[Suspect allegedly thought he was swapping secrets with a foreign government for crypto — but the contact turned out to be an FBI agent.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Workforce Data Privacy in the Modern Work Era]]></title>
+        <id>https://www.darkreading.com/endpoint/workforce-data-privacy-in-the-modern-work-era</id>
+        <link href="https://www.darkreading.com/endpoint/workforce-data-privacy-in-the-modern-work-era"/>
+        <updated>2022-10-04T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It takes culture as well as individual and corporate responsibilities to ensure workforce data privacy and compliance.]]></summary>
+        <author>
+            <name>Ramon Chen, Chief Product Officer, ActivTrak</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Impacket and Exfiltration Tool Used to Steal Sensitive Information from Defense Industrial Base Organization]]></title>
+        <id>17958 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/10/04/impacket-and-exfiltration-tool-used-steal-sensitive-information"/>
+        <updated>2022-10-04T16:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: October 4, 2022
+CISA, the Federal Bureau of Investigation (FBI), and the National Security Agency (NSA) have released a joint Cybersecurity Advisory (CSA), Impacket and Exfiltration Tool Used to Steal Sensitive Information from Defense Industrial Base Organization, highlighting advanced persistent threat (APT) activity observed on a Defense Industrial Base (DIB) Sector organization’s enterprise network. ATP actors used the open-source toolkit, Impacket, to gain a foothold within the environment and data exfiltration tool, CovalentStealer, to steal the victim’s sensitive data.
+Joint Cybersecurity Advisory AA22-277A provides the APT actors tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs). CISA, FBI, and NSA recommend DIB sector and other critical infrastructure organizations implement the mitigations in this CSA to ensure they are managing and reducing the impact of APT cyber threats to their networks.
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is OTP a Viable Alternative to NIST's Post-Quantum Algorithms?]]></title>
+        <id>25823 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/otp-viable-alternative-nists-post-quantum-algorithms"/>
+        <updated>2022-10-04T16:06:49.000Z</updated>
+        <summary type="html"><![CDATA[The quantum threat to RSA-based encryption is deemed to be so pressing that NIST is seeking a quantum safe alternative
+read more]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>https://us-cert.cisa.gov/node/18020</id>
+        <link href="https://us-cert.cisa.gov/ncas/analysis-reports/ar22-277c"/>
+        <updated>2022-10-04T15:50:10.000Z</updated>
+        <summary type="html"><![CDATA[AR22-277C]]></summary>
+        <author>
+            <name>US-CERT</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Popular YouTube Channel Caught Distributing Malicious Tor Browser Installer]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-5692862451716028959</id>
+        <link href="https://thehackernews.com/2022/10/popular-youtube-channel-caught.html"/>
+        <updated>2022-10-04T15:39:00.000Z</updated>
+        <summary type="html"><![CDATA[A popular Chinese-language YouTube channel has emerged as a means to distribute a trojanized version of a Windows installer for the Tor Browser.
+Kaspersky dubbed the campaign OnionPoison, with all of the victims located in China. The scale of the attack remains unclear, but the Russian cybersecurity company said it detected victims appearing in its telemetry in March 2022.
+The malicious version]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Packagist Vulnerability Opened Door for PHP Supply Chain Attack]]></title>
+        <id>25822 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/critical-packagist-vulnerability-could-have-allowed-php-supply-chain-attack"/>
+        <updated>2022-10-04T15:14:58.000Z</updated>
+        <summary type="html"><![CDATA[Code security company SonarSource today published details on a severe vulnerability impacting Packagist, which could have been abused to mount supply chain attacks targeting the PHP community.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DHS Tells Federal Agencies to Improve Asset Visibility, Vulnerability Detection]]></title>
+        <id>25821 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/dhs-tells-federal-agencies-improve-asset-visibility-vulnerability-detection"/>
+        <updated>2022-10-04T15:09:32.000Z</updated>
+        <summary type="html"><![CDATA[The Cybersecurity and Infrastructure Security Agency (CISA) this week published Binding Operational Directive 23-01 (BOD 23-01), which requires federal agencies to take the necessary steps to improve their asset visibility and vulnerability detection capabilities within the next six months.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Report Supply Chain Vulnerability in Packagist PHP Repository]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-7302828394691121160</id>
+        <link href="https://thehackernews.com/2022/10/researchers-report-supply-chain.html"/>
+        <updated>2022-10-04T15:09:00.000Z</updated>
+        <summary type="html"><![CDATA[Researchers have disclosed details about a now-patched high-severity security flaw in Packagist, a PHP software package repository, that could have been exploited to mount software supply chain attacks.
+"This vulnerability allows gaining control of Packagist," SonarSource researcher Thomas Chauchefoin said in a report shared with The Hacker News. Packagist is used by the PHP package manager]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Matrix address flaws that break message encryption assurances]]></title>
+        <id>matrix-address-flaws-that-break-message-encryption-assurances</id>
+        <link href="https://portswigger.net/daily-swig/matrix-address-flaws-that-break-message-encryption-assurances"/>
+        <updated>2022-10-04T14:49:04.000Z</updated>
+        <summary type="html"><![CDATA[Confidentiality and authentication flaws uncovered by researchers]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Steam Gaming Phish Showcases Browser-in-Browser Threat]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/steam-gaming-phish-showcases-browser-in-browser-threat</id>
+        <link href="https://www.darkreading.com/attacks-breaches/steam-gaming-phish-showcases-browser-in-browser-threat"/>
+        <updated>2022-10-04T14:37:39.000Z</updated>
+        <summary type="html"><![CDATA[Attackers are using the recently emerged browser-in-the-browser phishing technique to steal accounts from Valve's popular gaming platform, but it's a warning shot to businesses.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More Than 30% of All Malicious Attacks Target Shadow APIs]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/more-than-30-of-all-malicious-attacks-target-shadow-apis</id>
+        <link href="https://www.darkreading.com/attacks-breaches/more-than-30-of-all-malicious-attacks-target-shadow-apis"/>
+        <updated>2022-10-04T14:30:42.000Z</updated>
+        <summary type="html"><![CDATA[New research spotlights how attackers are capitalizing on API-driven innovation.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eclypsium Raises Series B to Protect Digital Supply Chain As Attacks Grow]]></title>
+        <id>https://www.darkreading.com/cloud/eclypsium-raises-series-b-to-protect-digital-supply-chain-as-attacks-grow</id>
+        <link href="https://www.darkreading.com/cloud/eclypsium-raises-series-b-to-protect-digital-supply-chain-as-attacks-grow"/>
+        <updated>2022-10-04T14:26:17.000Z</updated>
+        <summary type="html"><![CDATA[The new round highlights market demand to protect global businesses from soaring breaches through supply chains of critical hardware, devices, firmware, and software.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aryaka Delivers Zero-Trust WAN Based on Unified SASE Architecture]]></title>
+        <id>https://www.darkreading.com/perimeter/aryaka-delivers-zero-trust-wan-based-on-unified-sase-architecture</id>
+        <link href="https://www.darkreading.com/perimeter/aryaka-delivers-zero-trust-wan-based-on-unified-sase-architecture"/>
+        <updated>2022-10-04T14:11:01.000Z</updated>
+        <summary type="html"><![CDATA[The new offering integrates firewall-as-a-service and secure web gateway into cloud-managed networking and security services.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firmware Security Company Eclypsium Raises $25 Million in Series B Funding]]></title>
+        <id>25820 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/firmware-security-company-eclypsium-raises-25-million-series-b-funding"/>
+        <updated>2022-10-04T14:04:49.000Z</updated>
+        <summary type="html"><![CDATA[Firmware and hardware security company Eclypsium announced on Tuesday that it has raised $25 million in a Series B funding round, which brings the total invested in the firm to $50 million.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>https://us-cert.cisa.gov/node/18016</id>
+        <link href="https://us-cert.cisa.gov/ncas/analysis-reports/ar22-277b"/>
+        <updated>2022-10-04T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[AR22-277B]]></summary>
+        <author>
+            <name>US-CERT</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ransomware 3.0: The Next Frontier]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/ransomware-3-the-next-frontier</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/ransomware-3-the-next-frontier"/>
+        <updated>2022-10-04T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Attackers are already circling back to reselling stolen data instead of — and in addition to — extortion.]]></summary>
+        <author>
+            <name>James Gimbi, Senior Director of Technical Advisory Services, Moxfive</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tidal Cyber Closes $4M Funding Round To Expand Threat-Informed Defense Tech]]></title>
+        <id>https://www.darkreading.com/cloud/tidal-cyber-closes-4m-funding-round-to-continue-making-threat-informed-defense-achievable</id>
+        <link href="https://www.darkreading.com/cloud/tidal-cyber-closes-4m-funding-round-to-continue-making-threat-informed-defense-achievable"/>
+        <updated>2022-10-04T13:50:54.000Z</updated>
+        <summary type="html"><![CDATA[.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webinar Today: The Ultimate Insider's Guide to DDoS Mitigation Strategies]]></title>
+        <id>25819 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/webinar-today-ultimate-insiders-guide-ddos-mitigation-strategies"/>
+        <updated>2022-10-04T13:40:02.000Z</updated>
+        <summary type="html"><![CDATA[read more]]></summary>
+        <author>
+            <name>SecurityWeek Video</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Expert Insights: How to Protect Sensitive Machine-Learning Training Data Without Borking It]]></title>
+        <id>https://www.darkreading.com/risk/expert-insights-how-to-protect-sensitive-machine-learning-training-data-without-borking-it</id>
+        <link href="https://www.darkreading.com/risk/expert-insights-how-to-protect-sensitive-machine-learning-training-data-without-borking-it"/>
+        <updated>2022-10-04T13:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Another element of ML security is the data used to train the machine learning system itself.]]></summary>
+        <author>
+            <name>Gary McGraw Ph.D., Co-founder Berryville Institute of Machine Learning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web Security Company Detectify Raises $10 Million]]></title>
+        <id>25818 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/web-security-company-detectify-raises-10-million"/>
+        <updated>2022-10-04T13:04:59.000Z</updated>
+        <summary type="html"><![CDATA[Sweden-based domain and web application security firm Detectify has received a $10 million investment from Insight Partners, bringing the total raised by the company to $42 million.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5653-1: Django vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5653-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5653-1"/>
+        <updated>2022-10-04T13:02:37.000Z</updated>
+        <summary type="html"><![CDATA[Benjamin Balder Bach discovered that Django incorrectly handled certain
+internationalized URLs. A remote attacker could possibly use this issue to
+cause Django to crash, resulting in a denial of service.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript sandbox vm2 remediates remote code execution risk]]></title>
+        <id>javascript-sandbox-vm2-remediates-remote-code-execution-risk</id>
+        <link href="https://portswigger.net/daily-swig/javascript-sandbox-vm2-remediates-remote-code-execution-risk"/>
+        <updated>2022-10-04T12:48:14.000Z</updated>
+        <summary type="html"><![CDATA[Affected firms alerted to bug whose potential impact is heightened by vm2’s use in production environments]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Back to Basics: Cybersecurity's Weakest Link]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-6183344614876690796</id>
+        <link href="https://thehackernews.com/2022/10/back-to-basics-cybersecuritys-weakest.html"/>
+        <updated>2022-10-04T12:44:00.000Z</updated>
+        <summary type="html"><![CDATA[A big promise with a big appeal. You hear that a lot in the world of cybersecurity, where you're often promised a fast, simple fix that will take care of all your cybersecurity needs, solving your security challenges in one go. 
+It could be an AI-based tool, a new superior management tool, or something else – and it would probably be quite effective at what it promises to do.
+But is it a silver]]></summary>
+        <author>
+            <name>noreply@blogger.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>https://us-cert.cisa.gov/node/18017</id>
+        <link href="https://us-cert.cisa.gov/ncas/analysis-reports/ar22-277a"/>
+        <updated>2022-10-04T12:31:31.000Z</updated>
+        <summary type="html"><![CDATA[AR22-277A]]></summary>
+        <author>
+            <name>US-CERT</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BEC Scammer Gets 25-Year Jail Sentence for Stealing Over $9.5 Million]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-7265292787711306582</id>
+        <link href="https://thehackernews.com/2022/10/bec-scammer-gets-25-year-jail-sentence.html"/>
+        <updated>2022-10-04T12:23:00.000Z</updated>
+        <summary type="html"><![CDATA[A 46-year-old man in the U.S. has been sentenced to 25 years in prison after being found guilty of laundering over $9.5 million accrued by carrying out cyber-enabled financial fraud.
+Elvis Eghosa Ogiekpolor of Norcross, Georgia, operated a money laundering network that opened at least 50 business bank accounts for illicitly receiving funds from unsuspecting individuals and businesses after]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Vulnerabilities Expose Parking Management System to Hacker Attacks]]></title>
+        <id>25817 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/critical-vulnerabilities-expose-parking-management-system-hacker-attacks"/>
+        <updated>2022-10-04T12:16:55.000Z</updated>
+        <summary type="html"><![CDATA[Nearly a dozen vulnerabilities have been found in a car parking management system made by Italian company Carlo Gavazzi, which makes electronic control components for building and industrial automation.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NSA Employee Charged with Espionage]]></title>
+        <id>https://www.schneier.com/blog/archives/2022/10/nsa-employee-charged-with-espionage.html</id>
+        <link href="https://www.schneier.com/blog/archives/2022/10/nsa-employee-charged-with-espionage.html"/>
+        <updated>2022-10-04T11:30:29.000Z</updated>
+        <summary type="html"><![CDATA[<p>An ex-NSA employee <a href="https://www.nytimes.com/2022/09/30/us/nsa-espionage-colorado.html">has</a> <a href="https://www.cnn.com/2022/09/29/politics/jareh-sebastian-dalke-nsa-espionage-sell-secrets-charged/index.html">been</a> <a href="https://www.nextgov.com/technology-news/2022/09/nsa-employee-leaked-classified-cyber-intel-charged-espionage/377846/">charged</a> <a href="https://www.cyberscoop.com/nsa-former-employee-espionage/">with</a> trying to sell classified data to the Russians (but instead actually talking to an undercover FBI agent).</p>
+<p>It&#8217;s a weird story, and the FBI <a href="https://www.documentcloud.org/documents/23113211-dalke_affidavit_0">affidavit</a> raises more questions than it answers. The employee only worked for the NSA for three weeks&#8212;which is weird in itself. I can&#8217;t figure out how he linked up with the undercover FBI agent. It&#8217;s not clear how much of this was the employee&#8217;s idea, and whether he was goaded by the FBI agent. Still, hooray for not leaking NSA secrets to the Russians. (And, almost ten years after Snowden, do we still have this much trouble vetting people before giving them security clearances?)...</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Five Industrial Control Systems Advisories]]></title>
+        <id>18032 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/10/04/cisa-releases-five-industrial-control-systems-advisories"/>
+        <updated>2022-10-04T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: October 4, 2022
+CISA has released five (5) Industrial Control Systems (ICS) advisories on October 04, 2022. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+CISA encourages users and administrators to review the newly released ICS advisory for technical details and mitigations:
+•    ICSA-22-277-01 Johnson Controls Metasys ADX Server
+Hitachi Energy Modular Switchgear Monitoring
+Horner Automation Cscape
+Omron CX-Programmer
+BD Totalys MultiProcessor
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mitigation for ProxyNotShell Exchange Vulnerabilities Easily Bypassed]]></title>
+        <id>25816 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/mitigation-proxynotshell-exchange-vulnerabilities-easily-bypassed"/>
+        <updated>2022-10-04T10:46:03.000Z</updated>
+        <summary type="html"><![CDATA[A mitigation proposed by Microsoft and others for the new Exchange Server zero-day vulnerabilities named ProxyNotShell can be easily bypassed, researchers warn.
+The security holes, officially tracked as CVE-2022-41040 and CVE-2022-41082, can allow an attacker to remotely execute arbitrary code with elevated privileges.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers net $46k for Akamai misconfiguration vulnerability]]></title>
+        <id>researchers-net-46k-for-akamai-misconfiguration-vulnerability</id>
+        <link href="https://portswigger.net/daily-swig/researchers-net-46k-for-akamai-misconfiguration-vulnerability"/>
+        <updated>2022-10-04T10:41:48.000Z</updated>
+        <summary type="html"><![CDATA[A lesson in how to achieve maximum value for your discoveries]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Orders Federal Agencies to Regularly Track Network Assets and Vulnerabilities]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-8444453801087454339</id>
+        <link href="https://thehackernews.com/2022/10/cisa-orders-federal-agencies-to.html"/>
+        <updated>2022-10-04T10:16:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a new Binding Operational Directive (BOD) that directs federal agencies in the country to keep track of assets and vulnerabilities on their networks six months from now.
+To that end, Federal Civilian Executive Branch (FCEB) enterprises have been tasked with two sets of activities: Asset discovery and vulnerability]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity M&A Roundup: 39 Deals Announced in September 2022]]></title>
+        <id>25815 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-september-2022"/>
+        <updated>2022-10-04T10:15:22.000Z</updated>
+        <summary type="html"><![CDATA[read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ProxyNotShell – the New Proxy Hell?]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-3763310170630160466</id>
+        <link href="https://thehackernews.com/2022/10/proxynotshell-new-proxy-hell.html"/>
+        <updated>2022-10-04T08:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Nicknamed ProxyNotShell, a new exploit used in the wild takes advantage of the recently published Microsoft Server-Side Request Forgery (SSRF) vulnerability CVE-2022-41040 and a second vulnerability, CVE-2022-41082 that allows Remote Code Execution (RCE) when PowerShell is available to unidentified attackers.
+Based on ProxyShell, this new zero-day abuse risk leverage a chained attack similar to]]></summary>
+        <author>
+            <name>noreply@blogger.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optus Hack Exposes Data of Nearly 2.1 Million Australian Telecom Customers]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-4443036749500655775</id>
+        <link href="https://thehackernews.com/2022/10/optus-hack-exposes-data-of-nearly-21.html"/>
+        <updated>2022-10-04T07:06:00.000Z</updated>
+        <summary type="html"><![CDATA[Australian telecom giant Optus on Monday confirmed that nearly 2.1 million of its current and former customers suffered a leak of their personal information and at least one form of identification number as a result of a data breach late last month.
+The company also said it has engaged the services of Deloitte to conduct an external forensic assessment of the attack to "understand how it]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Report: Mexico Continued to Use Spyware Against Activists]]></title>
+        <id>25814 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/report-mexico-continued-use-spyware-against-activists"/>
+        <updated>2022-10-04T01:10:35.000Z</updated>
+        <summary type="html"><![CDATA[The Mexican government or army has allegedly continued to use spyware designed to hack into the cellphones of activists, despite a pledge by President Andrés Manuel López Obrador to end such practices.
+read more]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[VU#915563: Microsoft Exchange vulnerable to server-side request forgery and remote code execution.]]></title>
         <id>https://kb.cert.org/vuls/id/915563</id>
@@ -60,6 +586,18 @@
         <summary type="html"><![CDATA[After a flat refusal to pay the ransom, Los Angeles Unified School District's stolen data has been dumped on the Dark Web by a ransomware gang.]]></summary>
         <author>
             <name>Becky Bracken, Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LayerX Raises $7.5M Seed Funding to Tackle Secure Web Browsing]]></title>
+        <id>25813 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/layerx-raises-75m-seed-funding-tackle-secure-web-browsing"/>
+        <updated>2022-10-03T19:20:14.000Z</updated>
+        <summary type="html"><![CDATA[Israeli startup LayerX has joined the list of companies scoring investor interest in the tricky enterprise browser market.
+LayerX, based in Tel Aviv, came out of the shadows Monday with $7.5 million in seed funding and ambitious plans to build technology to turn any web browser into a protected and manageable workspace.
+read more]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
         </author>
     </entry>
     <entry>
@@ -143,6 +681,29 @@ remote attacker could possibly use this to cause a denial of service
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Supply Chain Attack Targets Customer Engagement Firm Comm100]]></title>
+        <id>25812 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/supply-chain-attack-targets-customer-engagement-firm-comm100"/>
+        <updated>2022-10-03T15:03:16.000Z</updated>
+        <summary type="html"><![CDATA[CrowdStrike is warning of a recently identified supply chain attack involving Canada-based customer engagement software provider Comm100.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comm100 Chat Provider Hijacked to Spread Malware in Supply Chain Attack]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-2287106377224362411</id>
+        <link href="https://thehackernews.com/2022/10/comm100-chat-provider-hijacked-to.html"/>
+        <updated>2022-10-03T14:35:00.000Z</updated>
+        <summary type="html"><![CDATA[A threat actor likely with associations to China has been attributed to a new supply chain attack that involves the use of a trojanized installer for the Comm100 Live Chat application to distribute a JavaScript backdoor.
+Cybersecurity firm CrowdStrike said the attack made use of a signed Comm100 desktop agent app for Windows that was downloadable from the company's website.
+The scale of the]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Microsoft confirms zero-day exploits against Exchange Server in ‘limited’ attacks]]></title>
         <id>microsoft-confirms-zero-day-exploits-against-exchange-server-in-limited-attacks</id>
         <link href="https://portswigger.net/daily-swig/microsoft-confirms-zero-day-exploits-against-exchange-server-in-limited-attacks"/>
@@ -176,6 +737,29 @@ This product is provided subject to this Notification and this Privacy & Use pol
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Optus Says ID Numbers of 2.1 Million Compromised in Data Breach]]></title>
+        <id>25811 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/optus-says-id-numbers-21-million-compromised-data-breach"/>
+        <updated>2022-10-03T13:14:32.000Z</updated>
+        <summary type="html"><![CDATA[Australian telecommunications company Optus says that 2.1 million of its customers had numbers associated with their identification documents compromised in a recent data breach.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Link Cheerscrypt Linux-Based Ransomware to Chinese Hackers]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-4290291613995231383</id>
+        <link href="https://thehackernews.com/2022/10/researchers-link-cheerscrypt-linux.html"/>
+        <updated>2022-10-03T12:56:00.000Z</updated>
+        <summary type="html"><![CDATA[The recently discovered Linux-Based ransomware strain known as Cheerscrypt has been outed as a handiwork of a Chinese cyber espionage group known for operating short-lived ransomware schemes.
+Cybersecurity firm Sygnia attributed the attacks to a threat actor it tracks under the name Emperor Dragonfly, which is also known as Bronze Starlight (Secureworks) and DEV-0401 (Microsoft).
+"Emperor]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Detecting Deepfake Audio by Modeling the Human Acoustic Tract]]></title>
         <id>https://www.schneier.com/blog/archives/2022/10/detecting-deepfake-audio-by-modeling-the-human-acoustic-tract.html</id>
         <link href="https://www.schneier.com/blog/archives/2022/10/detecting-deepfake-audio-by-modeling-the-human-acoustic-tract.html"/>
@@ -195,6 +779,62 @@ This product is provided subject to this Notification and this Privacy & Use pol
         <summary type="html"><![CDATA[Maintainer of Chinese project closes public issue apparently without issuing a fix]]></summary>
         <author>
             <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackers Exploiting Dell Driver Vulnerability to Deploy Rootkit on Targeted Computers]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-155750692129179442</id>
+        <link href="https://thehackernews.com/2022/10/hackers-exploiting-dell-driver.html"/>
+        <updated>2022-10-03T10:56:00.000Z</updated>
+        <summary type="html"><![CDATA[The North Korea-backed Lazarus Group has been observed deploying a Windows rootkit by taking advantage of an exploit in a Dell firmware driver, highlighting new tactics adopted by the state-sponsored adversary.
+The Bring Your Own Vulnerable Driver (BYOVD) attack, which took place in the autumn of 2021, is another variant of the threat actor's espionage-oriented activity called Operation In(ter)]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Warns of Attacks Exploiting Recent Atlassian Bitbucket Vulnerability]]></title>
+        <id>25810 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/cisa-warns-attacks-exploiting-recent-atlassian-bitbucket-vulnerability"/>
+        <updated>2022-10-03T10:49:58.000Z</updated>
+        <summary type="html"><![CDATA[The United States Cybersecurity and Infrastructure Security Agency (CISA) is warning of the active exploitation of a recent Atlassian Bitbucket vulnerability and two Microsoft Exchange zero-days.
+Atlassian Bitbucket is a Git-based repository management solution that provides source code hosting and sharing capabilities.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[North Korean Hackers Exploit Dell Driver Vulnerability to Disable Windows Security]]></title>
+        <id>25809 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/north-korean-hackers-exploit-dell-driver-vulnerability-disable-windows-security"/>
+        <updated>2022-10-03T10:29:07.000Z</updated>
+        <summary type="html"><![CDATA[North Korean state-sponsored hacking group Lazarus was seen exploiting a Dell DBUtil driver vulnerability to disable the security mechanisms on the targeted Windows machines.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Links Exploitation of Exchange Zero-Days to State-Sponsored Hacker Group]]></title>
+        <id>25808 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/microsoft-links-exploitation-exchange-zero-days-state-sponsored-hacker-group"/>
+        <updated>2022-10-03T10:13:34.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft has been investigating the attacks exploiting the new Exchange Server zero-day vulnerabilities and believes that a single state-sponsored threat group has been using them in highly targeted attacks.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ex-NSA Employee Arrested for Trying to Sell U.S. Secrets to a Foreign Government]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-6149307598619253057</id>
+        <link href="https://thehackernews.com/2022/10/ex-nsa-employee-arrested-for-trying-to.html"/>
+        <updated>2022-10-03T09:51:00.000Z</updated>
+        <summary type="html"><![CDATA[A former U.S. National Security Agency (NSA) employee has been arrested on charges of attempting to sell classified information to a foreign spy, who was actually an undercover agent working for the Federal Bureau of Investigation (FBI).
+Jareh Sebastian Dalke, 30, was employed at the NSA for less than a month from June 6, 2022, to July 1, 2022, serving as an Information Systems Security Designer]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
         </author>
     </entry>
     <entry>
@@ -8142,60 +8782,6 @@ In cybersecurity, adopting a proactive approach is not just a buzzword. It actua
 Most attacks succeed by taking advantage of common failures in their target's systems. Whether new or]]></summary>
         <author>
             <name>noreply@blogger.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 Critical Steps for Reducing Cloud Risk]]></title>
-        <id>https://www.darkreading.com/cloud/3-critical-steps-for-reducing-cloud-risk</id>
-        <link href="https://www.darkreading.com/cloud/3-critical-steps-for-reducing-cloud-risk"/>
-        <updated>2022-09-05T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Having a better understanding of how clouds are built, connected, and managed helps organizations mitigate risks and reduce attack surfaces.]]></summary>
-        <author>
-            <name>Randy Armknecht, Managing Director, Protiviti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[China Accuses US of 'Tens of Thousands' of Cyberattacks]]></title>
-        <id>25627 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/china-accuses-us-tens-thousands-cyberattacks"/>
-        <updated>2022-09-05T13:25:31.000Z</updated>
-        <summary type="html"><![CDATA[Beijing on Monday accused the United States of launching "tens of thousands" of cyberattacks on China and pilfering troves of sensitive data, including from a public research university.
-read more]]></summary>
-        <author>
-            <name>AFP</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ransomware Attackers Abuse Genshin Impact Anti-Cheat System to Disable Antivirus]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-6475586823076097263</id>
-        <link href="https://thehackernews.com/2022/09/ransomware-attackers-abuse-genshin.html"/>
-        <updated>2022-09-05T12:26:00.000Z</updated>
-        <summary type="html"><![CDATA[A vulnerable anti-cheat driver for the Genshin Impact video game has been leveraged by a cybercrime actor to disable antivirus programs to facilitate the deployment of ransomware, according to findings from Trend Micro.
-The ransomware infection, which was triggered in the last week of July 2022, banked on the fact that the driver in question ("mhyprot2.sys") is signed with a valid certificate,]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fake Antivirus and Cleaner Apps Caught Installing SharkBot Android Banking Trojan]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-5504270225275619660</id>
-        <link href="https://thehackernews.com/2022/09/fake-antivirus-and-cleaner-apps-caught.html"/>
-        <updated>2022-09-05T07:10:00.000Z</updated>
-        <summary type="html"><![CDATA[The notorious Android banking trojan known as SharkBot has once again made an appearance on the Google Play Store by masquerading as antivirus and cleaner apps.
-"This new dropper doesn't rely on Accessibility permissions to automatically perform the installation of the dropper Sharkbot malware," NCC Group's Fox-IT said in a report. "Instead, this new version asks the victim to install the]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KeyBank: Hackers of Third-Party Provider Stole Customer Data]]></title>
-        <id>25626 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/keybank-hackers-third-party-provider-stole-customer-data"/>
-        <updated>2022-09-04T16:17:40.000Z</updated>
-        <summary type="html"><![CDATA[Hackers stole personal data including Social Security numbers, addresses and account numbers of home mortgage holders at KeyBank, the bank reports, in the breach of a third-party vendor that serves multiple corporate clients.
-read more]]></summary>
-        <author>
-            <name>Associated Press</name>
         </author>
     </entry>
 </feed>
