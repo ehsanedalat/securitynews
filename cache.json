@@ -6,6 +6,16 @@
       "siteUrl": "https://portswigger.net/daily-swig",
       "articles": [
         {
+          "id": "gitlab-patches-rce-bug-in-github-import-function",
+          "author": null,
+          "description": "Data importation mechanism failed to sanitize imports",
+          "link": "https://portswigger.net/daily-swig/gitlab-patches-rce-bug-in-github-import-function",
+          "publishedOn": "2022-10-13T14:27:34.000Z",
+          "wordCount": 1072,
+          "title": "GitLab patches RCE bug in GitHub import function",
+          "imageUrl": "https://portswigger.net/cms/images/b8/fc/035f-twittercard-210112-gitlab-body-text.png"
+        },
+        {
           "id": "hidden-dns-resolver-insecurity-creates-widespread-website-hijack-risk",
           "author": null,
           "description": "WordPress installations exposed to spoofed password reset vis cache poisoning threat",
@@ -314,16 +324,6 @@
           "wordCount": 1247,
           "title": "WAPPLES web application firewall faulted for multiple flaws",
           "imageUrl": "https://portswigger.net/cms/images/4c/0b/aea7-twittercard-wapples-waf-main-image.png"
-        },
-        {
-          "id": "lets-encrypt-builds-infrastructure-to-support-browser-based-certificate-revocation-revival",
-          "author": null,
-          "description": "CRLs are back, baby!",
-          "link": "https://portswigger.net/daily-swig/lets-encrypt-builds-infrastructure-to-support-browser-based-certificate-revocation-revival",
-          "publishedOn": "2022-09-13T14:39:37.000Z",
-          "wordCount": 1100,
-          "title": "Let’s Encrypt builds infrastructure to support browser-based certificate revocation revival",
-          "imageUrl": "https://portswigger.net/cms/images/3a/db/c3fc-twittercard-220913-lets-encrypt-main_image.jpg"
         }
       ]
     },
@@ -332,6 +332,72 @@
       "feedUrl": "https://feeds.feedburner.com/TheHackersNews",
       "siteUrl": "https://thehackernews.com/",
       "articles": [
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1766819288582933234",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "A previously undocumented command-and-control (C2) framework dubbed Alchimist is likely being used in the wild to target Windows, macOS, and Linux systems.\n\"Alchimist C2 has a web interface written in Simplified Chinese and can generate a configured payload, establish remote sessions, deploy payload to the remote machines, capture screenshots, perform remote shellcode execution, and run",
+          "link": "https://thehackernews.com/2022/10/new-chinese-malware-attack-framework.html",
+          "publishedOn": "2022-10-13T12:17:00.000Z",
+          "wordCount": null,
+          "title": "New Chinese Malware Attack Framework Targets Windows, macOS, and Linux Systems",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2672857793593106042",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "A novel timing attack discovered against the npm's registry API can be exploited to potentially disclose private packages used by organizations, putting developers at risk of supply chain threats.\n\"By creating a list of possible package names, threat actors can detect organizations' scoped private packages and then masquerade public packages, tricking employees and users into downloading them,\"",
+          "link": "https://thehackernews.com/2022/10/new-timing-attack-against-npm-registry.html",
+          "publishedOn": "2022-10-13T12:00:00.000Z",
+          "wordCount": null,
+          "title": "New Timing Attack Against NPM Registry API Could Expose Private Packages",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6835118362105718628",
+          "author": "noreply@blogger.com (The Hacker News)",
+          "description": "What is the OWASP Top 10, and – just as important – what is it not? In this review, we look at how you can make this critical risk report work for you and your organisation.\nWhat is OWASP?\nOWASP is the Open Web Application Security Project, an international non-profit organization dedicated to improving web application security. \nIt operates on the core principle that all of its materials are",
+          "link": "https://thehackernews.com/2022/10/does-owasp-top-10-still-matter.html",
+          "publishedOn": "2022-10-13T11:50:00.000Z",
+          "wordCount": null,
+          "title": "Does the OWASP Top 10 Still Matter?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1944366398397581901",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "An advanced persistent threat (APT) actor known as Budworm targeted a U.S.-based entity for the first time in more than six years, according to latest research.\nThe attack was aimed at an unnamed U.S. state legislature, the Symantec Threat Hunter team, part of Broadcom Software, said in a report shared with The Hacker News.\nOther \"strategically significant\" intrusions mounted over the past six",
+          "link": "https://thehackernews.com/2022/10/budworm-hackers-resurface-with-new.html",
+          "publishedOn": "2022-10-13T10:08:00.000Z",
+          "wordCount": null,
+          "title": "Budworm Hackers Resurface with New Espionage Attacks Aimed at U.S. Organization",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5456017743803441659",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "An unofficial version of the popular WhatsApp messaging app called YoWhatsApp has been observed deploying an Android trojan known as Triada.\nThe goal of the malware is to steal the keys that \"allow the use of a WhatsApp account without the app,\" Kaspersky said in a new report. \"If the keys are stolen, a user of a malicious WhatsApp mod can lose control over their account.\"",
+          "link": "https://thehackernews.com/2022/10/modified-whatsapp-app-caught-infecting.html",
+          "publishedOn": "2022-10-13T07:39:00.000Z",
+          "wordCount": null,
+          "title": "Modified WhatsApp App Caught Infecting Android Devices with Malware",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-296994435355286742",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "A threat actor tracked as Polonium has been linked to over a dozen highly targeted attacks aimed at Israelian entities with seven different custom backdoors since at least September 2021.\nThe intrusions were aimed at organizations in various verticals, such as engineering, information technology, law, communications, branding and marketing, media, insurance, and social services, cybersecurity",
+          "link": "https://thehackernews.com/2022/10/researchers-uncover-custom-backdoors.html",
+          "publishedOn": "2022-10-13T07:18:00.000Z",
+          "wordCount": null,
+          "title": "Researchers Uncover Custom Backdoors and Spying Tools Used by Polonium Hackers",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8101036359608185429",
           "author": "noreply@blogger.com (Ravie Lakshmanan)",
@@ -1651,72 +1717,6 @@
           "title": "U.S. Charges 3 Iranian Hackers and Sanctions Several Others Over Ransomware Attacks",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1662652119248039636",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "The operators behind the Lornenz ransomware operation have been observed exploiting a now-patched critical security flaw in Mitel MiVoice Connect to obtain a foothold into target environments for follow-on malicious activities.\n\"Initial malicious activity originated from a Mitel appliance sitting on the network perimeter,\" researchers from cybersecurity firm Arctic Wolf said in a report",
-          "link": "https://thehackernews.com/2022/09/lorenz-ransomware-exploit-mitel-voip.html",
-          "publishedOn": "2022-09-14T14:04:00.000Z",
-          "wordCount": null,
-          "title": "Lorenz Ransomware Exploit Mitel VoIP Systems to Breach Business Networks",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5718087235922080208",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "A Linux variant of a backdoor known as SideWalk was used to target a Hong Kong university in February 2021, underscoring the cross-platform abilities of the implant. \nSlovak cybersecurity firm ESET, which detected the malware in the university's network, attributed the backdoor to a nation-state actor dubbed SparklingGoblin. The unnamed university is said to have been already targeted by the",
-          "link": "https://thehackernews.com/2022/09/sparklinggoblin-apt-hackers-using-new.html",
-          "publishedOn": "2022-09-14T10:20:00.000Z",
-          "wordCount": null,
-          "title": "SparklingGoblin APT Hackers Using New Linux Variant of SideWalk Backdoor",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8988961500197313952",
-          "author": "noreply@blogger.com (The Hacker News)",
-          "description": "Based on the findings of Malwarebytes' Threat Review for 2022, 40 million Windows business computers' threats were detected in 2021. In order to combat and avoid these kinds of attacks, malware analysis is essential. In this article, we will break down the goal of malicious programs' investigation and how to do malware analysis with a sandbox.\nWhat is malware analysis? \nMalware analysis is a",
-          "link": "https://thehackernews.com/2022/09/how-to-do-malware-analysis.html",
-          "publishedOn": "2022-09-14T10:10:00.000Z",
-          "wordCount": null,
-          "title": "How to Do Malware Analysis?",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5315331418062913963",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "Palo Alto Networks Unit 42 has detailed the inner workings of a malware called OriginLogger, which has been touted as a successor to the widely used information stealer and remote access trojan (RAT) known as Agent Tesla.\nA .NET based keylogger and remote access, Agent Tesla has had a long-standing presence in the threat landscape, allowing malicious actors to gain remote access to targeted",
-          "link": "https://thehackernews.com/2022/09/researchers-detail-originlogger-rat.html",
-          "publishedOn": "2022-09-14T08:51:00.000Z",
-          "wordCount": null,
-          "title": "Researchers Detail OriginLogger RAT — Successor to Agent Tesla Malware",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8127425728101256444",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "Tech giant Microsoft on Tuesday shipped fixes to quash 64 new security flaws across its software lineup, including one zero-day flaw that has been actively exploited in real-world attacks.\nOf the 64 bugs, five are rated Critical, 57 are rated Important, one is rated Moderate, and one is rated Low in severity. The patches are in addition to 16 vulnerabilities that Microsoft addressed in its",
-          "link": "https://thehackernews.com/2022/09/microsofts-latest-security-update-fixes.html",
-          "publishedOn": "2022-09-14T04:42:00.000Z",
-          "wordCount": null,
-          "title": "Microsoft's Latest Security Update Fixes 64 New Flaws, Including a Zero-Day",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7676094394259436646",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "A zero-day flaw in the latest version of a WordPress premium plugin known as WPGateway is being actively exploited in the wild, potentially allowing malicious actors to completely take over affected sites.\nTracked as CVE-2022-3180 (CVSS score: 9.8), the issue is being weaponized to add a malicious administrator user to sites running the WPGateway plugin, WordPress security company Wordfence",
-          "link": "https://thehackernews.com/2022/09/over-280000-wordpress-sites-attacked.html",
-          "publishedOn": "2022-09-14T01:51:00.000Z",
-          "wordCount": null,
-          "title": "Over 280,000 WordPress Sites Attacked Using WPGateway Plugin Zero-Day Vulnerability",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -1725,6 +1725,86 @@
       "feedUrl": "https://feeds.feedburner.com/securityweek",
       "siteUrl": "https://www.securityweek.com",
       "articles": [
+        {
+          "id": "25890 at https://www.securityweek.com",
+          "author": "AFP",
+          "description": "Former Austrian chancellor Sebastian Kurz said Thursday he is launching a cybersecurity company with the ex-head of Israel's NSO Group, which makes controversial Pegasus spyware.\nread more",
+          "link": "https://www.securityweek.com/austrias-kurz-sets-cyber-firm-ex-nso-chief",
+          "publishedOn": "2022-10-13T17:39:38.000Z",
+          "wordCount": 1273,
+          "title": "Austria's Kurz Sets up Cyber Firm With Ex-NSO Chief",
+          "imageUrl": null
+        },
+        {
+          "id": "25889 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "Data privacy platform DataGrail this week announced that it has raised $45 million in a Series C funding round that brings the total raised by the company to $84.2 million.\nread more",
+          "link": "https://www.securityweek.com/datagrail-raises-45-million-data-privacy-platform",
+          "publishedOn": "2022-10-13T15:02:02.000Z",
+          "wordCount": 1160,
+          "title": "DataGrail Raises $45 Million for Data Privacy Platform",
+          "imageUrl": null
+        },
+        {
+          "id": "25888 at https://www.securityweek.com",
+          "author": "Eduard Kovacs",
+          "description": "A Mirai botnet variant has launched a distributed denial-of-service (DDoS) attack that peaked at 2.5 terabytes per second (Tbps), according to Cloudflare, which described it as the largest attack it has seen in terms of bitrate.\nread more",
+          "link": "https://www.securityweek.com/mirai-botnet-launched-25-tbps-ddos-attack-against-minecraft-server",
+          "publishedOn": "2022-10-13T14:51:44.000Z",
+          "wordCount": 1379,
+          "title": "Mirai Botnet Launched 2.5 Tbps DDoS Attack Against Minecraft Server",
+          "imageUrl": null
+        },
+        {
+          "id": "25887 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "A newly identified cyberespionage group operating out of China has been targeting IT services providers and telecommunications companies with signed malware.\nread more",
+          "link": "https://www.securityweek.com/new-chinese-cyberespionage-group-wip19-targets-telcos-it-service-providers",
+          "publishedOn": "2022-10-13T13:10:01.000Z",
+          "wordCount": 1452,
+          "title": "New Chinese Cyberespionage Group WIP19 Targets Telcos, IT Service Providers",
+          "imageUrl": null
+        },
+        {
+          "id": "25886 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "Google on Wednesday announced the introduction of passkey support in Android and Chrome, to protect users from credential leaks and phishing attacks.\nMeant to replace passwords, passkeys rely on biometric verification for authentication. They can be synced on multiple devices, cannot be reused and, unlike passwords, cannot be leaked.\nread more",
+          "link": "https://www.securityweek.com/google-brings-passkey-support-android-and-chrome",
+          "publishedOn": "2022-10-13T10:39:25.000Z",
+          "wordCount": 1357,
+          "title": "Google Brings Passkey Support to Android and Chrome",
+          "imageUrl": null
+        },
+        {
+          "id": "25885 at https://www.securityweek.com",
+          "author": "Eduard Kovacs",
+          "description": "Palo Alto Networks and Aruba Networks have each announced patches for severe vulnerabilities affecting their products.\nread more",
+          "link": "https://www.securityweek.com/palo-alto-networks-aruba-patch-severe-vulnerabilities",
+          "publishedOn": "2022-10-13T10:24:15.000Z",
+          "wordCount": 1358,
+          "title": "Palo Alto Networks, Aruba Patch Severe Vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "25884 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "A China-linked cyberespionage group was recently observed targeting a state legislature in the United States, Symantec warns.\nread more",
+          "link": "https://www.securityweek.com/chinese-cyberspies-targeting-us-state-legislature",
+          "publishedOn": "2022-10-13T10:06:36.000Z",
+          "wordCount": 1350,
+          "title": "Chinese Cyberspies Targeting US State Legislature",
+          "imageUrl": null
+        },
+        {
+          "id": "25883 at https://www.securityweek.com",
+          "author": "Marc Solomon",
+          "description": "“Wisdom consists of the anticipation of consequences.” - Norman Cousins \nread more",
+          "link": "https://www.securityweek.com/anticipation-and-action-whats-next-soc-modernization",
+          "publishedOn": "2022-10-13T09:42:05.000Z",
+          "wordCount": 1960,
+          "title": "Anticipation and Action: What's Next in SOC Modernization",
+          "imageUrl": null
+        },
         {
           "id": "25882 at https://www.securityweek.com",
           "author": "Eduard Kovacs",
@@ -3614,126 +3694,6 @@
           "wordCount": 1288,
           "title": "Bishop Fox Releases Open Source Cloud Hacking Tool 'CloudFox'",
           "imageUrl": null
-        },
-        {
-          "id": "25692 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "Many WordPress sites are at risk of full compromise as attackers are actively exploiting a zero-day vulnerability in the WPGateway plugin, Defiant’s WordFence team warns.\nA premium plugin for the WPGateway cloud service, the WPGateway plugin provides users with WordPress installation, backup, and cloning capabilities.\nread more",
-          "link": "https://www.securityweek.com/wordpress-sites-hacked-zero-day-vulnerability-wpgateway-plugin",
-          "publishedOn": "2022-09-14T13:49:39.000Z",
-          "wordCount": 1237,
-          "title": "WordPress Sites Hacked via Zero-Day Vulnerability in WPGateway Plugin",
-          "imageUrl": null
-        },
-        {
-          "id": "25691 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "Mobile phishing protection startup novoShield has emerged from stealth mode with an enterprise-grade iPhone protection application.\nThe new solution, novoShield says, was designed to protect both end-users and businesses from the increasing number of phishing attacks.\nread more",
-          "link": "https://www.securityweek.com/novoshield-emerges-stealth-mobile-phishing-protection-app",
-          "publishedOn": "2022-09-14T12:28:03.000Z",
-          "wordCount": 1198,
-          "title": "novoShield Emerges From Stealth With Mobile Phishing Protection App",
-          "imageUrl": null
-        },
-        {
-          "id": "25690 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "Google this week has shared more information on recently introduced technology meant to reduce the exploitability of use-after-free vulnerabilities in the Chrome browser.\nread more",
-          "link": "https://www.securityweek.com/google-improves-chrome-protections-against-use-after-free-bug-exploitation",
-          "publishedOn": "2022-09-14T12:00:20.000Z",
-          "wordCount": 1398,
-          "title": "Google Improves Chrome Protections Against Use-After-Free Bug Exploitation",
-          "imageUrl": null
-        },
-        {
-          "id": "25689 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "For the past several weeks, Magento stores have been injected with malware via a supply chain attack that targeted the FishPig distribution server.\nSpecialized in Magento optimizations and Magento-WordPress integrations, FishPig offers various Magento extensions that have gathered over 200,000 downloads.\nread more",
-          "link": "https://www.securityweek.com/malware-infects-magento-powered-stores-fishpig-distribution-server",
-          "publishedOn": "2022-09-14T11:45:00.000Z",
-          "wordCount": 1262,
-          "title": "Malware Infects Magento-Powered Stores via FishPig Distribution Server",
-          "imageUrl": null
-        },
-        {
-          "id": "25688 at https://www.securityweek.com",
-          "author": "Eduard Kovacs",
-          "description": "Researchers have discovered two potentially serious vulnerabilities in wireless LAN devices that they say are often used in airplanes.\nread more",
-          "link": "https://www.securityweek.com/passengers-exposed-hacking-vulnerabilities-airplane-wi-fi-devices",
-          "publishedOn": "2022-09-14T10:54:56.000Z",
-          "wordCount": 1568,
-          "title": "Passengers Exposed to Hacking via Vulnerabilities in Airplane Wi-Fi Devices",
-          "imageUrl": null
-        },
-        {
-          "id": "25687 at https://www.securityweek.com",
-          "author": "Associated Press",
-          "description": "read more",
-          "link": "https://www.securityweek.com/whistleblower-china-india-had-agents-working-twitter",
-          "publishedOn": "2022-09-13T20:39:05.000Z",
-          "wordCount": 2090,
-          "title": "Whistleblower: China, India Had Agents Working for Twitter",
-          "imageUrl": null
-        },
-        {
-          "id": "25686 at https://www.securityweek.com",
-          "author": "Ryan Naraine",
-          "description": "Microsoft on Tuesday warned that its security teams have detected zero-day exploitation of a critical vulnerability in its flagship Windows platform.\nread more",
-          "link": "https://www.securityweek.com/microsoft-raises-alert-under-attack-windows-flaw",
-          "publishedOn": "2022-09-13T18:42:48.000Z",
-          "wordCount": 1714,
-          "title": "Microsoft Raises Alert for Under-Attack Windows Flaw",
-          "imageUrl": null
-        },
-        {
-          "id": "25685 at https://www.securityweek.com",
-          "author": "Ryan Naraine",
-          "description": "Software maker Adobe has rolled out security fixes for at least 63 security vulnerabilities in a wide range of widely deployed Windows and macOS software products.\nread more",
-          "link": "https://www.securityweek.com/adobe-patches-63-security-flaws-patch-tuesday-bundle",
-          "publishedOn": "2022-09-13T17:32:14.000Z",
-          "wordCount": 1391,
-          "title": "Adobe Patches 63 Security Flaws in Patch Tuesday Bundle",
-          "imageUrl": null
-        },
-        {
-          "id": "25684 at https://www.securityweek.com",
-          "author": "Galina Antova",
-          "description": "Over the last few years, the majority of large enterprises have come a long way in defining their operational technology (OT) governance strategies and making meaningful advances in risk reduction. Technology innovations aside, the top success factors I’ve observed are the way in which governance programs are structured and executed. Most significant is the guiding principle that organizational structure drives strategy. \nread more",
-          "link": "https://www.securityweek.com/3-considerations-when-aligning-organizational-structure-itot-governance",
-          "publishedOn": "2022-09-13T16:45:00.000Z",
-          "wordCount": 1893,
-          "title": "3 Considerations When Aligning Organizational Structure to IT/OT Governance",
-          "imageUrl": null
-        },
-        {
-          "id": "25683 at https://www.securityweek.com",
-          "author": "AFP",
-          "description": "Twitter whistleblower Peiter Zatko told  the US Congress on Tuesday that the platform ignored his security concerns, as  its shareholders decide whether to approve a $44 billion takeover deal that  Elon Musk is trying to exit. \nread more",
-          "link": "https://www.securityweek.com/twitter-ex-security-chief-tells-us-congress-security-concerns",
-          "publishedOn": "2022-09-13T16:16:21.000Z",
-          "wordCount": 1485,
-          "title": "Twitter Ex-Security Chief Tells US Congress of Security Concerns",
-          "imageUrl": null
-        },
-        {
-          "id": "25682 at https://www.securityweek.com",
-          "author": "Ryan Naraine",
-          "description": "Israeli startup Opus Security has banked $10 million in seed round funding to build technology for cloud security orchestration and remediation.\nOpus Security said the financing was led by YL Ventures with participation from Tiger Global and several prominent cybersecurity executives and chief information security officers (CISOs).\nread more",
-          "link": "https://www.securityweek.com/opus-security-scores-10m-cloud-security-orchestration",
-          "publishedOn": "2022-09-13T15:22:55.000Z",
-          "wordCount": 1396,
-          "title": "Opus Security Scores $10M for Cloud Security Orchestration",
-          "imageUrl": null
-        },
-        {
-          "id": "25681 at https://www.securityweek.com",
-          "author": "Eduard Kovacs",
-          "description": "Cloud data security company Theom has emerged from stealth mode with an oversubscribed $16.4 million seed funding round.\nread more",
-          "link": "https://www.securityweek.com/cloud-data-security-startup-theom-emerges-stealth-16-million-funding",
-          "publishedOn": "2022-09-13T15:04:10.000Z",
-          "wordCount": 1233,
-          "title": "Cloud Data Security Startup Theom Emerges From Stealth With $16 Million in Funding",
-          "imageUrl": null
         }
       ]
     },
@@ -3919,6 +3879,16 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://us-cert.cisa.gov/",
       "articles": [
+        {
+          "id": "18057 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: October 13, 2022\nCISA has released twenty-five (25) Industrial Control Systems (ICS) advisories on October 13, 2022. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nCISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations:\n•    ICSA-22-286-01 Siemens LOGO!\nSiemens Industrial Edge Management\nSiemens Solid Edge\nSiemens SIMATIC S7-1200 and S7-1500 CPU Families\nHitachi Energy Lumada Asset Performance Management Prognostic Model Executor Service\nSiemens Desigo PXM Devices Webserver\nSiemens Nucleus RTOS FTP Server\nSiemens TCP Event Service of SCALANCE and RUGGEDCOM Devices\nSiemens SICAM P850 and P855 Devices\nSiemens JT Open Toolkit and Simcenter Femap\nSiemens SCALANCE and RUGGEDCOM Products\nSiemens APOGEE, TALON and Desigo PXC/PXM Products\nSiemens LOGO! 8 BM Devices\nSiemens SIMATIC HMI Panels\nSiemens SCALANCE X-200 and X-200IRT Families\nSiemens Desigo CC and Cerberus DMS\nMitsubishi Electric MELSEC iQ-R Series (UpdateA)\nMitsubishi Electric MELSEC iQ-R Series (UpdateA)\nSiemens PROFINET Stack Integrated on Interniche Stack (Update D)\nSiemens SINEC NMS (Update A)\nSiemens SCALANCE (Update A)\nSiemens SCALANCE W1750D (Update A)\nSiemens Apache HTTP Server (Update A)\nSiemens OpenSSL Affected Industrial Products (Update D)\nSiemens Industrial Products with OPC UA (Update C)\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/10/13/cisa-releases-twenty-five-industrial-control-systems-advisories",
+          "publishedOn": "2022-10-13T20:55:42.000Z",
+          "wordCount": 1087,
+          "title": "CISA Releases Twenty-Five Industrial Control Systems Advisories",
+          "imageUrl": null
+        },
         {
           "id": "18056 at https://us-cert.cisa.gov",
           "author": "CISA",
@@ -4298,46 +4268,6 @@
           "wordCount": 1307,
           "title": "Iranian Islamic Revolutionary Guard Corps Affiliated Cyber Actors Exploiting Vulnerabilities for Data Extortion and Disk Encryption for Ransom Operations",
           "imageUrl": null
-        },
-        {
-          "id": "17968 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: September 13, 2022\nAdobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.\nCISA encourages users and administrators to review the following Adobe Security Bulletins and apply the necessary updates.\nExperience Manager APSB22-40\nBridge APSB22-49\nInDesign APSB22-50\nPhotoshop APSB22-52\nInCopy APSB22-53\nAnimate APSB22-54\nIllustrator APSB22-55\nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/09/13/adobe-releases-security-updates-multiple-products",
-          "publishedOn": "2022-09-13T23:08:06.000Z",
-          "wordCount": 1071,
-          "title": "Adobe Releases Security Updates for Multiple Products",
-          "imageUrl": null
-        },
-        {
-          "id": "17967 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: September 13, 2022\nMicrosoft has released updates to address multiple vulnerabilities in Microsoft software. An attacker can exploit some of these vulnerabilities to take control of an affected system.\nCISA encourages users and administrators to review Microsoft’s September 2022 Security Update Guide and Deployment Information and apply the necessary updates.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/09/13/microsoft-releases-september-2022-security-updates",
-          "publishedOn": "2022-09-13T20:30:50.000Z",
-          "wordCount": 1057,
-          "title": "Microsoft Releases September 2022 Security Updates",
-          "imageUrl": null
-        },
-        {
-          "id": "17959 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: September 13, 2022\nCISA released five Industrial Control Systems (ICS) advisories on September 13, 2022. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nCISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations:\nICSA-22-256-01 Hitachi Energy TXpert Hub CoreTec 4 Sudo Vulnerability\nICSA-22-256-02 Honeywell SoftMaster\nICSA-22-256-03 Delta Industrial Automation DIAEnergie\nICSA-22-256-04 Kingspan TMS300 CS\nICSA-20-324-02 Paradox IP150 (Update A)\nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/09/13/cisa-releases-five-industrial-control-systems-advisories",
-          "publishedOn": "2022-09-13T17:00:00.000Z",
-          "wordCount": 1082,
-          "title": "CISA Releases Five Industrial Control Systems Advisories",
-          "imageUrl": null
-        },
-        {
-          "id": "17964 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: September 13, 2022\nApple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected device.\nCISA encourages users and administrators to review the Apple security updates page for the following products and apply the necessary updates as soon as possible:\nSafari 16\niOS 16\nmacOS Monterey 12.6\nmacOS Big Sur 11.7\niOS 15.7 and iPadOS 15.7\nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/09/13/apple-releases-security-updates-multiple-products",
-          "publishedOn": "2022-09-13T16:27:21.000Z",
-          "wordCount": 1080,
-          "title": "Apple Releases Security Updates for Multiple Products",
-          "imageUrl": null
         }
       ]
     },
@@ -4346,6 +4276,281 @@
       "feedUrl": "https://www.darkreading.com/rss.xml",
       "siteUrl": "https://www.darkreading.com",
       "articles": [
+        {
+          "id": "https://www.darkreading.com/application-security/juice-technology-receives-iso-certification-for-charging-station-cyber-security",
+          "author": null,
+          "description": "Electric Vehicle Charging Station Leader Certified in Accordance with ISO/SAE 21434 \"Road Vehicles – Cybersecurity Engineering\".",
+          "link": "https://www.darkreading.com/application-security/juice-technology-receives-iso-certification-for-charging-station-cyber-security",
+          "publishedOn": "2022-10-14T00:10:57.000Z",
+          "wordCount": 10658,
+          "title": "Juice Technology Receives ISO Certification for Charging Station Cyber Security",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/risk/controlmap-announces-the-launch-of-the-trust-portal-creating-transparency-in-cybersecurity-compliance",
+          "author": null,
+          "description": ".",
+          "link": "https://www.darkreading.com/risk/controlmap-announces-the-launch-of-the-trust-portal-creating-transparency-in-cybersecurity-compliance",
+          "publishedOn": "2022-10-14T00:04:44.000Z",
+          "wordCount": 9943,
+          "title": "ControlMap Announces the Launch of the Trust Portal, Creating Transparency in Cybersecurity Compliance",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/quarter-of-healthcare-ransomware-victims-forced-to-halt-operations",
+          "author": null,
+          "description": "Trend Micro research reveals supply chains are key source of risk.",
+          "link": "https://www.darkreading.com/attacks-breaches/quarter-of-healthcare-ransomware-victims-forced-to-halt-operations",
+          "publishedOn": "2022-10-13T23:59:50.000Z",
+          "wordCount": 10762,
+          "title": "Quarter of Healthcare Ransomware Victims Forced to Halt Operations",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/armis-now-available-on-google-cloud-marketplace",
+          "author": null,
+          "description": "Enterprises seeking asset visibility and security enabled to simplify the procurement process of Armis.",
+          "link": "https://www.darkreading.com/attacks-breaches/armis-now-available-on-google-cloud-marketplace",
+          "publishedOn": "2022-10-13T23:54:36.000Z",
+          "wordCount": 10875,
+          "title": "Armis Now Available on Google Cloud Marketplace",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/cloud/google-cloud-advances-partnerships-with-20-plus-software-companies-focused-on-digital-sovereignty-and-cybersecurity",
+          "author": null,
+          "description": "At Next '22, Google Cloud announces updates to its trusted cloud ecosystem with new Sovereign Solutions initiative and partnerships spanning critical areas of cybersecurity.",
+          "link": "https://www.darkreading.com/cloud/google-cloud-advances-partnerships-with-20-plus-software-companies-focused-on-digital-sovereignty-and-cybersecurity",
+          "publishedOn": "2022-10-13T23:45:21.000Z",
+          "wordCount": 12542,
+          "title": "Google Cloud Advances Partnerships with 20-Plus Software Companies Focused on Digital Sovereignty and Cybersecurity",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/application-security/hsbc-and-silent-eight-expand-machine-learning-partnership",
+          "author": null,
+          "description": "Silent Eight announced an extension to its existing partnership with HSBC to tackle financial crime.",
+          "link": "https://www.darkreading.com/application-security/hsbc-and-silent-eight-expand-machine-learning-partnership",
+          "publishedOn": "2022-10-13T23:40:50.000Z",
+          "wordCount": 9895,
+          "title": "HSBC and Silent Eight Expand Machine Learning Partnership",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/nexusguard-research-shows-total-number-of-ddos-attacks-increased-during-first-half-of-2022-while-maximum-attack-size-decreased-compared-to-second-half-of-2021",
+          "author": null,
+          "description": "Nexusguard DDoS Statistical Report reveals key attack observations and analysis from the first half of 2022.",
+          "link": "https://www.darkreading.com/attacks-breaches/nexusguard-research-shows-total-number-of-ddos-attacks-increased-during-first-half-of-2022-while-maximum-attack-size-decreased-compared-to-second-half-of-2021",
+          "publishedOn": "2022-10-13T23:37:24.000Z",
+          "wordCount": 11237,
+          "title": "Nexusguard Research Shows Total Number of DDoS Attacks Increased during First Half of 2022 While Maximum Attack Size Decreased Compared to Second Half of 2021",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/application-security/resistant-ai-and-complyadvantage-launch-ai-transaction-monitoring-solution-to-combat-fraud-and-money-laundering",
+          "author": null,
+          "description": "Resistant AI and ComplyAdvantage launch AI transaction monitoring solution to combat fraud and money laundering.",
+          "link": "https://www.darkreading.com/application-security/resistant-ai-and-complyadvantage-launch-ai-transaction-monitoring-solution-to-combat-fraud-and-money-laundering",
+          "publishedOn": "2022-10-13T23:30:46.000Z",
+          "wordCount": 11542,
+          "title": "Resistant AI and ComplyAdvantage Launch AI Transaction Monitoring Solution To Combat Fraud and Money Laundering",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/threat-intelligence/newly-introduced-hackerone-assets-goes-beyond-attack-surface-management-to-close-security-gaps",
+          "author": null,
+          "description": "HackerOne Assets combines ASM with insights from security experts to protect known and unknown digital assets.",
+          "link": "https://www.darkreading.com/threat-intelligence/newly-introduced-hackerone-assets-goes-beyond-attack-surface-management-to-close-security-gaps",
+          "publishedOn": "2022-10-13T23:12:55.000Z",
+          "wordCount": 10924,
+          "title": "Newly Introduced HackerOne Assets Goes Beyond Attack Surface Management To Close Security Gaps",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/edge-articles/distrust-and-verify-why-comprehensive-network-visibility-is-required-for-mature-zero-trust-architectures",
+          "author": "Andrew Green, Senior Sales Engineer at Netscout",
+          "description": "Distrust and verify, because you can't protect what you can't see.",
+          "link": "https://www.darkreading.com/edge-articles/distrust-and-verify-why-comprehensive-network-visibility-is-required-for-mature-zero-trust-architectures",
+          "publishedOn": "2022-10-13T20:55:00.000Z",
+          "wordCount": 11878,
+          "title": "Comprehensive Network Visibility Is Imperative for Zero-Trust Maturity",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt7c25be89c3183c81/634853f2a275cc0f05db85c0/Andrew_Green_Headshot-sq.png",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt7c25be89c3183c81/634853f2a275cc0f05db85c0/Andrew_Green_Headshot-sq.png"
+        },
+        {
+          "id": "https://www.darkreading.com/application-security/novel-npm-timing-attack-allows-corporate-targeting",
+          "author": "Tara Seals, Managing Editor, News, Dark Reading",
+          "description": "A timing attack helps cyberattackers lob malicious code-bombs at corporate targets by cloning private package names.",
+          "link": "https://www.darkreading.com/application-security/novel-npm-timing-attack-allows-corporate-targeting",
+          "publishedOn": "2022-10-13T20:22:36.000Z",
+          "wordCount": 11208,
+          "title": "Novel npm Timing Attack Allows Corporate Targeting",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltea67136f81f32eca/626a9eb4726e3315b16b3c64/Tara-Seals-Headshot2.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltea67136f81f32eca/626a9eb4726e3315b16b3c64/Tara-Seals-Headshot2.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/new-alchimist-attack-framework-targets-windows-mac-linux-environments",
+          "author": "Jai Vijayan, Contributing Writer, Dark Reading",
+          "description": "The comprehensive, multiplatform framework comes loaded with weapons, and it is likely another effort by a China-based threat group to develop an alternative to Cobalt Strike and Sliver.",
+          "link": "https://www.darkreading.com/attacks-breaches/new-alchimist-attack-framework-targets-windows-mac-linux-environments",
+          "publishedOn": "2022-10-13T20:00:00.000Z",
+          "wordCount": 11277,
+          "title": "Feature-Rich 'Alchimist' Cyberattack Framework Targets Windows, Mac, Linux Environments",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg"
+        },
+        {
+          "id": "https://www.darkreading.com/endpoint/tanium-benchmark-sets-new-standard-for-tracking-and-improving-security-and-operational-metrics",
+          "author": null,
+          "description": "Company enables organizations to mark endpoint performance and take immediate action to mitigate risk.",
+          "link": "https://www.darkreading.com/endpoint/tanium-benchmark-sets-new-standard-for-tracking-and-improving-security-and-operational-metrics",
+          "publishedOn": "2022-10-13T19:03:29.000Z",
+          "wordCount": 10773,
+          "title": "Tanium Benchmark Sets New Standard for Tracking and Improving Security and Operational Metrics",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/qakbot-attacks-spike-cybercriminal-collaborations",
+          "author": "Robert Lemos, Contributing Writer, Dark Reading",
+          "description": "The QAKBOT group has successfully ramped up its operations, infecting systems, installing attack frameworks, and selling access to other groups, including Black Basta.",
+          "link": "https://www.darkreading.com/attacks-breaches/qakbot-attacks-spike-cybercriminal-collaborations",
+          "publishedOn": "2022-10-13T19:00:02.000Z",
+          "wordCount": 11953,
+          "title": "QAKBOT Attacks Spike Amid Concerning Cybercriminal Collaborations",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/dfin-dealmaker-meter-surge-in-dark-data-represents-growing-danger-for-corporations",
+          "author": null,
+          "description": "This legacy of corporations' appetite for data is not worth the risk, leaders say, emphasizing the need to find, secure and redact records",
+          "link": "https://www.darkreading.com/attacks-breaches/dfin-dealmaker-meter-surge-in-dark-data-represents-growing-danger-for-corporations",
+          "publishedOn": "2022-10-13T18:30:00.000Z",
+          "wordCount": 11233,
+          "title": "DFIN DealMaker Meter: Surge in 'Dark Data' Represents Growing Danger for Corporations",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/application-security/orange-bank-deploys-real-time-sanctions-screening-with-sas-and-neterium",
+          "author": null,
+          "description": "SAS and Neterium partnered to deliver Neterium’s next-gen screening capabilities on SAS’ analytics platform.",
+          "link": "https://www.darkreading.com/application-security/orange-bank-deploys-real-time-sanctions-screening-with-sas-and-neterium",
+          "publishedOn": "2022-10-13T18:26:25.000Z",
+          "wordCount": 10875,
+          "title": "Orange Bank Deploys Real-Time Sanctions Screening with SAS and Neterium",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/cloud/nudge-security-launches-platform-with-humans-in-mind",
+          "author": "Dark Reading Staff, Dark Reading",
+          "description": "SaaS security platform promises to track down shadow IT, map supply chain risk, and \"nudge\" employees to work securely.",
+          "link": "https://www.darkreading.com/cloud/nudge-security-launches-platform-with-humans-in-mind",
+          "publishedOn": "2022-10-13T18:15:00.000Z",
+          "wordCount": 9662,
+          "title": "Nudge Security Launches Platform With Humans in Mind",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/microsoft/the-playbook-for-human-operated-ransomware",
+          "author": "Ken Malcolmson, Chief Security Advisor, Microsoft",
+          "description": "Ransomware attacks are on the rise, but organizations also have access to advanced tools and technologies they can use to fight back.",
+          "link": "https://www.darkreading.com/microsoft/the-playbook-for-human-operated-ransomware",
+          "publishedOn": "2022-10-13T18:10:00.000Z",
+          "wordCount": 11382,
+          "title": "The Playbook for Human-Operated Ransomware",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8fe4479bc32f84b4/6321f5362769d078008692a9/MS-Security_logo.png",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8fe4479bc32f84b4/6321f5362769d078008692a9/MS-Security_logo.png"
+        },
+        {
+          "id": "https://www.darkreading.com/vulnerabilities-threats/what-you-need-for-a-strong-security-posture",
+          "author": "Tim Liu, Co-Founder and CTO, Hillstone Networks",
+          "description": "From the basics to advanced techniques, here's what you should know.",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/what-you-need-for-a-strong-security-posture",
+          "publishedOn": "2022-10-13T17:00:00.000Z",
+          "wordCount": 13015,
+          "title": "What You Need for a Strong Security Posture",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf9ba3e9be10c1553/614155f2b03377257b94c88e/Tim_headshot_125x125.png",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf9ba3e9be10c1553/614155f2b03377257b94c88e/Tim_headshot_125x125.png"
+        },
+        {
+          "id": "https://www.darkreading.com/threat-intelligence/cyberattackers-spoof-google-translate-unique-phishing-tactic",
+          "author": "Elizabeth Montalbano, Contributor, Dark Reading",
+          "description": "The campaign uses a combination of tactics and a common JavaScript obfuscation technique to fool both end users and email security scanners to steal credentials.",
+          "link": "https://www.darkreading.com/threat-intelligence/cyberattackers-spoof-google-translate-unique-phishing-tactic",
+          "publishedOn": "2022-10-13T16:12:48.000Z",
+          "wordCount": 11891,
+          "title": "Cyberattackers Spoof Google Translate in Unique Phishing Tactic",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbfd004d139d42d70/6303bca6236c2476a257760e/ElizabethMontalbano.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbfd004d139d42d70/6303bca6236c2476a257760e/ElizabethMontalbano.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/vulnerabilities-threats/state-of-security-data-management-2022-report-reveals-overconfidence-masks-a-pervasive-data-problem",
+          "author": null,
+          "description": "Despite dozens of tools and external vendors, 2 in 3 organizations believe their data strategy isn't sustainable beyond three years, which could leave businesses vulnerable.",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/state-of-security-data-management-2022-report-reveals-overconfidence-masks-a-pervasive-data-problem",
+          "publishedOn": "2022-10-13T15:03:12.000Z",
+          "wordCount": 11127,
+          "title": "State of Security Data Management 2022 Report Reveals Overconfidence Masks a Pervasive Data Problem",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/cloud/attackers-use-automation-to-speed-from-exploit-to-compromise-according-to-lacework-labs-cloud-threat-report",
+          "author": null,
+          "description": "New open source Cloud Hunter tool, developed through Lacework Labs research, helps customers get better visibility to reduce response times for incident investigations.",
+          "link": "https://www.darkreading.com/cloud/attackers-use-automation-to-speed-from-exploit-to-compromise-according-to-lacework-labs-cloud-threat-report",
+          "publishedOn": "2022-10-13T14:58:30.000Z",
+          "wordCount": 11691,
+          "title": "Attackers Use Automation to Speed from Exploit to Compromise According to Lacework Labs Cloud Threat Report",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/what-the-uber-breach-verdict-means-for-cisos-in-the-us",
+          "author": "Chen Burshan, CEO, Skyhawk Security",
+          "description": "Can already beleaguered CISOs now add possible legal charges to their smorgasbord of job considerations? Disclose a breach to comply and face dismissal, or cover it up and face personal punishment.",
+          "link": "https://www.darkreading.com/attacks-breaches/what-the-uber-breach-verdict-means-for-cisos-in-the-us",
+          "publishedOn": "2022-10-13T14:00:00.000Z",
+          "wordCount": 12865,
+          "title": "What the Uber Breach Verdict Means for CISOs in the US",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt76f57c1656302bdd/63472c774f29920f751fb73a/Chen_Burshan_Hi_Res_Image.JPG",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt76f57c1656302bdd/63472c774f29920f751fb73a/Chen_Burshan_Hi_Res_Image.JPG"
+        },
         {
           "id": "https://www.darkreading.com/application-security/thoma-bravo-acquire-forgerock",
           "author": "Dark Reading Staff, Dark Reading",
@@ -7415,176 +7620,6 @@
             "length": "0"
           },
           "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbfd004d139d42d70/6303bca6236c2476a257760e/ElizabethMontalbano.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/threat-intelligence/attacks-increasingly-hands-on-break-out-more-quickly",
-          "author": "Robert Lemos, Contributing Writer, Dark Reading",
-          "description": "Interactive intrusion campaigns jumped nearly 50%, while the breakout time between initial access and lateral movement shrank to less than 90 minutes, putting pressure on defenders to react quickly.",
-          "link": "https://www.darkreading.com/threat-intelligence/attacks-increasingly-hands-on-break-out-more-quickly",
-          "publishedOn": "2022-09-14T14:00:00.000Z",
-          "wordCount": 11777,
-          "title": "Cyberattacks Are Now Increasingly Hands-On, Break Out More Quickly",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png"
-        },
-        {
-          "id": "https://www.darkreading.com/careers-and-people/to-ease-the-cybersecurity-worker-shortage-broaden-the-candidate-pipeline",
-          "author": "Joshua Scott, Head of Information Security and IT, Postman",
-          "description": "With enough passion, intelligence, and effort, anyone can be a successful cybersecurity professional, regardless of education or background.",
-          "link": "https://www.darkreading.com/careers-and-people/to-ease-the-cybersecurity-worker-shortage-broaden-the-candidate-pipeline",
-          "publishedOn": "2022-09-14T14:00:00.000Z",
-          "wordCount": 11917,
-          "title": "To Ease the Cybersecurity Worker Shortage, Broaden the Candidate Pipeline",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt2714acb0087fe06f/6308fd1930299902e9c52fc8/Joshua_Scott_Headshot_copy.png",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt2714acb0087fe06f/6308fd1930299902e9c52fc8/Joshua_Scott_Headshot_copy.png"
-        },
-        {
-          "id": "https://www.darkreading.com/cloud/teamtnt-docker-containers-malicious-cloud-images",
-          "author": "Jai Vijayan, Contributing Writer, Dark Reading",
-          "description": "Honeypot activity exposed two credentials that the threat actor is using to host and distribute malicious container images, security vendor says.",
-          "link": "https://www.darkreading.com/cloud/teamtnt-docker-containers-malicious-cloud-images",
-          "publishedOn": "2022-09-14T13:00:00.000Z",
-          "wordCount": 11478,
-          "title": "TeamTNT Hits Docker Containers via 150K Malicious Cloud Image Pulls",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg"
-        },
-        {
-          "id": "https://www.darkreading.com/edge-articles/key-takeaways-from-the-twitter-whistleblower-s-testimony",
-          "author": "Edge Editors, Dark Reading",
-          "description": "Twitter did not know what data it had nor who had access to it, Peiter \"Mudge\" Zatko told Congressional lawmakers during a Senate panel hearing.",
-          "link": "https://www.darkreading.com/edge-articles/key-takeaways-from-the-twitter-whistleblower-s-testimony",
-          "publishedOn": "2022-09-14T00:59:31.000Z",
-          "wordCount": 10366,
-          "title": "Key Takeaways From the Twitter Whistleblower's Testimony",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbeb30fde8ec73a32/60d4432c2446e93b5b5a0e0c/Edge-Editors.png",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbeb30fde8ec73a32/60d4432c2446e93b5b5a0e0c/Edge-Editors.png"
-        },
-        {
-          "id": "https://www.darkreading.com/dr-tech/bishopfox-releases-cloud-enumeration-tool-cloudfox",
-          "author": "Dark Reading Staff, Dark Reading",
-          "description": "CloudFox is a command-line tool to help penetration testers understand unknown cloud environments.",
-          "link": "https://www.darkreading.com/dr-tech/bishopfox-releases-cloud-enumeration-tool-cloudfox",
-          "publishedOn": "2022-09-13T22:34:00.000Z",
-          "wordCount": 10108,
-          "title": "Bishop Fox Releases Cloud Enumeration Tool CloudFox",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/vulnerabilities-threats/microsoft-quashes-actively-exploited-zero-day-wormable-critical-bugs",
-          "author": "Tara Seals, Managing Editor, News, Dark Reading",
-          "description": "In Microsoft's lightest Patch Tuesday update of the year so far, several security vulnerabilities stand out as must-patch, researchers warn.",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-quashes-actively-exploited-zero-day-wormable-critical-bugs",
-          "publishedOn": "2022-09-13T21:17:03.000Z",
-          "wordCount": 12607,
-          "title": "Microsoft Quashes Actively Exploited Zero-Day, Wormable Critical Bugs",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltea67136f81f32eca/626a9eb4726e3315b16b3c64/Tara-Seals-Headshot2.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltea67136f81f32eca/626a9eb4726e3315b16b3c64/Tara-Seals-Headshot2.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/u-haul-customer-contract-search-tool-compromised",
-          "author": "Becky Bracken, Editor, Dark Reading",
-          "description": "Password compromise led to unauthorized access to a customer contract search tool over a five-month window, according to the company.",
-          "link": "https://www.darkreading.com/attacks-breaches/u-haul-customer-contract-search-tool-compromised",
-          "publishedOn": "2022-09-13T19:50:24.000Z",
-          "wordCount": 9466,
-          "title": "U-Haul Customer Contract Search Tool Compromised",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/shadowpad-threat-actor-dll-sideloading-espionage",
-          "author": "Jai Vijayan, Contributing Writer, Dark Reading",
-          "description": "Cyber spies are using legitimate apps for DLL sideloading, deploying an updated range of malware, including the new \"Logdatter\" info-stealer.",
-          "link": "https://www.darkreading.com/attacks-breaches/shadowpad-threat-actor-dll-sideloading-espionage",
-          "publishedOn": "2022-09-13T19:43:44.000Z",
-          "wordCount": 11257,
-          "title": "ShadowPad Threat Actors Return With Fresh Government Strikes, Updated Tools",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/cyberattackers-abuse-facebook-ad-manager-credential-harvesting-campaign",
-          "author": "Ericka Chickowski, Contributing Writer, Dark Reading",
-          "description": "Facebook lead-generation forms are being repurposed to collect passwords and credit card information from unsuspecting Facebook advertisers.",
-          "link": "https://www.darkreading.com/attacks-breaches/cyberattackers-abuse-facebook-ad-manager-credential-harvesting-campaign",
-          "publishedOn": "2022-09-13T19:26:53.000Z",
-          "wordCount": 10154,
-          "title": "Cyberattackers Abuse Facebook Ad Manager in Savvy Credential-Harvesting Campaign",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt1fa01ab14787f501/60b1e9a77f791568be5e0dbb/ErickaChick_125x125.jpeg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt1fa01ab14787f501/60b1e9a77f791568be5e0dbb/ErickaChick_125x125.jpeg"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/name-that-toon-shiver-me-timbers-",
-          "author": "John Klossner, Cartoonist",
-          "description": "Feeling creative? Submit your caption and our panel of experts will reward the winner with a $25 Amazon gift card.",
-          "link": "https://www.darkreading.com/attacks-breaches/name-that-toon-shiver-me-timbers-",
-          "publishedOn": "2022-09-13T17:15:00.000Z",
-          "wordCount": 8603,
-          "title": "Name That Toon: Shiver Me Timbers!",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf97d71984b60d7ed/60b1e88b5d34de550780a96e/Klossner_iwk_photo.gif",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf97d71984b60d7ed/60b1e88b5d34de550780a96e/Klossner_iwk_photo.gif"
-        },
-        {
-          "id": "https://www.darkreading.com/cloud/opus-security-emerges-from-stealth-with-10m-in-funding-for-cloud-secops-and-remediation-processes",
-          "author": null,
-          "description": "Siemplify veterans introduce Cloud Security Orchestration and Remediation platform, backed by high-profile investors including YL Ventures, Tiger Global, and CEOs of CrowdStrike and CyberArk",
-          "link": "https://www.darkreading.com/cloud/opus-security-emerges-from-stealth-with-10m-in-funding-for-cloud-secops-and-remediation-processes",
-          "publishedOn": "2022-09-13T17:02:17.000Z",
-          "wordCount": 12350,
-          "title": "Opus Security Emerges from Stealth with $10M in Funding for Cloud SecOps and Remediation Processes",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/operations/arcserve-independent-global-study-finds-businesses-still-losing-mission-critical-company-data",
-          "author": null,
-          "description": ".",
-          "link": "https://www.darkreading.com/operations/arcserve-independent-global-study-finds-businesses-still-losing-mission-critical-company-data",
-          "publishedOn": "2022-09-13T16:17:57.000Z",
-          "wordCount": 10773,
-          "title": "Arcserve Independent Global Study Finds Businesses Still Losing Mission-Critical Company Data",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
         }
       ]
     },
@@ -7648,6 +7683,26 @@
       "siteUrl": "https://msrc-blog.microsoft.com",
       "articles": [
         {
+          "id": "https://msrc-blog.microsoft.com/?p=14935",
+          "author": "msrc",
+          "description": "Introduction Cobalt Strike is a commercial Command and Control framework built by Helpsystems. You can find out more about Cobalt Strike on the MITRE ATT&CK page. But it can also be used by real adversaries. In this post we describe how to use RiskIQ and other Microsoft technologies to see if you have Cobalt Strike …\n  Hunting for Cobalt Strike: Mining and plotting for fun and profit Read More »",
+          "link": "https://msrc-blog.microsoft.com/2022/10/13/hunting-for-cobalt-strike-mining-and-plotting-for-fun-and-profit/",
+          "publishedOn": "2022-10-13T16:00:00.000Z",
+          "wordCount": 3588,
+          "title": "Hunting for Cobalt Strike: Mining and plotting for fun and profit",
+          "imageUrl": null
+        },
+        {
+          "id": "https://msrc-blog.microsoft.com/?p=14927",
+          "author": "Stephanie Calabrese",
+          "description": "For nearly 20 years, BlueHat has been where the security research community, and Microsoft security professionals come together as peers, to share, debate, challenge, learn, and exchange ideas in the interest of creating a safer and more secure world for all. We are extremely excited to announce that BlueHat is back in-person and the 2023 …\n  BlueHat 2023 Call for Papers is Now Open! Read More »",
+          "link": "https://msrc-blog.microsoft.com/2022/10/13/bluehat-2023-call-for-papers-is-now-open/",
+          "publishedOn": "2022-10-13T14:00:00.000Z",
+          "wordCount": 1675,
+          "title": "BlueHat 2023 Call for Papers is Now Open!",
+          "imageUrl": null
+        },
+        {
           "id": "https://msrc-blog.microsoft.com/?p=14921",
           "author": "Japhet Debrah",
           "description": "Improvements in Security Update Notifications Delivery – And a New Delivery Method At MSRC, we are passionate about ensuring our customers have a positive experience when they use the Microsoft Security Update Guide (SUG). A big part of improving that experience is ensuring that customers have timely and easily accessible notifications. As such we have two …\n   Read More »",
@@ -7684,6 +7739,16 @@
       "feedUrl": "https://www.schneier.com/feed/atom",
       "siteUrl": "https://www.schneier.com",
       "articles": [
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/10/digital-license-plates.html",
+          "author": null,
+          "description": "<p>California just <a href=\"https://www.theregister.com/2022/10/11/california_digital_license_plates/\">legalized</a> digital license plates, which seems like a solution without a problem.</p>\n<blockquote><p>The Rplate can reportedly function in extreme temperatures, has some customization features, and is managed via Bluetooth using a smartphone app. Rplates are also equipped with an LTE antenna, which can be used to push updates, change the plate if the vehicle is reported stolen or lost, and notify vehicle owners if their car may have been stolen.</p>\n<p>Perhaps most importantly to the average car owner, Reviver said Rplate owners can renew their registration online through the Reviver mobile app...</p></blockquote>",
+          "link": "https://www.schneier.com/blog/archives/2022/10/digital-license-plates.html",
+          "publishedOn": "2022-10-13T11:19:06.000Z",
+          "wordCount": 3425,
+          "title": "Digital License Plates",
+          "imageUrl": null
+        },
         {
           "id": "https://www.schneier.com/blog/archives/2022/10/recovering-passwords-by-measuring-residual-heat.html",
           "author": null,
@@ -7923,16 +7988,6 @@
           "wordCount": 619,
           "title": "Upcoming Speaking Engagements",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.schneier.com/blog/archives/2022/09/weird-fallout-from-peiter-zatkos-twitter-whistleblowing.html",
-          "author": null,
-          "description": "<p>People are trying to <a href=\"https://www.newyorker.com/news/news-desk/the-search-for-dirt-on-the-twitter-whistle-blower\">dig up dirt</a> on Peiter Zatko, better known as Mudge.</p>\n<p>For the record, I have not been contacted. I&#8217;m not sure if I should feel slighted.</p>",
-          "link": "https://www.schneier.com/blog/archives/2022/09/weird-fallout-from-peiter-zatkos-twitter-whistleblowing.html",
-          "publishedOn": "2022-09-14T11:51:22.000Z",
-          "wordCount": 3122,
-          "title": "Weird Fallout from Peiter Zatko’s Twitter Whistleblowing",
-          "imageUrl": null
         }
       ]
     },
@@ -7941,6 +7996,76 @@
       "feedUrl": "https://ubuntu.com/security/notices/rss.xml",
       "siteUrl": "https://ubuntu.com/security/notices/rss.xml",
       "articles": [
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5679-1",
+          "author": null,
+          "description": "It was discovered that the SUNRPC RDMA protocol implementation in the Linux\nkernel did not properly calculate the header size of a RPC message payload.\nA local attacker could use this to expose sensitive information (kernel\nmemory). (CVE-2022-0812)\n\nMoshe Kol, Amit Klein and Yossi Gilad discovered that the IP implementation\nin the Linux kernel did not provide sufficient randomization when\ncalculating port offsets. An attacker could possibly use this to expose\nsensitive information. (CVE-2022-1012, CVE-2022-32296)\n\nDuoming Zhou discovered that race conditions existed in the timer handling\nimplementation of the Linux kernel's Rose X.25 protocol layer, resulting in\nuse-after-free vulnerabilities. A local attacker could use this to cause a\ndenial of service (system crash). (CVE-2022-2318)\n\nRoger Pau Monné discovered that the Xen virtual block driver in the Linux\nkernel did not properly initialize memory pages to be used for shared\ncommunication with the backend. A local attacker could use this to expose\nsensitive information (guest kernel memory). (CVE-2022-26365)\n\nRoger Pau Monné discovered that the Xen paravirtualization frontend in the\nLinux kernel did not properly initialize memory pages to be used for shared\ncommunication with the backend. A local attacker could use this to expose\nsensitive information (guest kernel memory). (CVE-2022-33740)\n\nIt was discovered that the Xen paravirtualization frontend in the Linux\nkernel incorrectly shared unrelated data when communicating with certain\nbackends. A local attacker could use this to cause a denial of service\n(guest crash) or expose sensitive information (guest kernel memory).\n(CVE-2022-33741, CVE-2022-33742)\n\nOleksandr Tyshchenko discovered that the Xen paravirtualization platform in\nthe Linux kernel on ARM platforms contained a race condition in certain\nsituations. An attacker in a guest VM could use this to cause a denial of\nservice in the host OS. (CVE-2022-33744)",
+          "link": "https://ubuntu.com/security/notices/USN-5679-1",
+          "publishedOn": "2022-10-13T20:04:56.000Z",
+          "wordCount": 3260,
+          "title": "USN-5679-1: Linux kernel (HWE) vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5678-1",
+          "author": null,
+          "description": "It was discovered that the SUNRPC RDMA protocol implementation in the Linux\nkernel did not properly calculate the header size of a RPC message payload.\nA local attacker could use this to expose sensitive information (kernel\nmemory). (CVE-2022-0812)\n\nMoshe Kol, Amit Klein and Yossi Gilad discovered that the IP implementation\nin the Linux kernel did not provide sufficient randomization when\ncalculating port offsets. An attacker could possibly use this to expose\nsensitive information. (CVE-2022-1012, CVE-2022-32296)\n\nDuoming Zhou discovered that race conditions existed in the timer handling\nimplementation of the Linux kernel's Rose X.25 protocol layer, resulting in\nuse-after-free vulnerabilities. A local attacker could use this to cause a\ndenial of service (system crash). (CVE-2022-2318)\n\nRoger Pau Monné discovered that the Xen virtual block driver in the Linux\nkernel did not properly initialize memory pages to be used for shared\ncommunication with the backend. A local attacker could use this to expose\nsensitive information (guest kernel memory). (CVE-2022-26365)\n\nRoger Pau Monné discovered that the Xen paravirtualization frontend in the\nLinux kernel did not properly initialize memory pages to be used for shared\ncommunication with the backend. A local attacker could use this to expose\nsensitive information (guest kernel memory). (CVE-2022-33740)\n\nIt was discovered that the Xen paravirtualization frontend in the Linux\nkernel incorrectly shared unrelated data when communicating with certain\nbackends. A local attacker could use this to cause a denial of service\n(guest crash) or expose sensitive information (guest kernel memory).\n(CVE-2022-33741, CVE-2022-33742)\n\nOleksandr Tyshchenko discovered that the Xen paravirtualization platform in\nthe Linux kernel on ARM platforms contained a race condition in certain\nsituations. An attacker in a guest VM could use this to cause a denial of\nservice in the host OS. (CVE-2022-33744)",
+          "link": "https://ubuntu.com/security/notices/USN-5678-1",
+          "publishedOn": "2022-10-13T20:00:30.000Z",
+          "wordCount": 3249,
+          "title": "USN-5678-1: Linux kernel vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5677-1",
+          "author": null,
+          "description": "It was discovered that the BPF verifier in the Linux kernel did not\nproperly handle internal data structures. A local attacker could use this\nto expose sensitive information (kernel memory). (CVE-2021-4159)\n\nIt was discovered that an out-of-bounds write vulnerability existed in the\nVideo for Linux 2 (V4L2) implementation in the Linux kernel. A local\nattacker could use this to cause a denial of service (system crash) or\npossibly execute arbitrary code. (CVE-2022-20369)\n\nDuoming Zhou discovered that race conditions existed in the timer handling\nimplementation of the Linux kernel's Rose X.25 protocol layer, resulting in\nuse-after-free vulnerabilities. A local attacker could use this to cause a\ndenial of service (system crash). (CVE-2022-2318)\n\nRoger Pau Monné discovered that the Xen virtual b…",
+          "link": "https://ubuntu.com/security/notices/USN-5677-1",
+          "publishedOn": "2022-10-13T19:43:51.000Z",
+          "wordCount": 2898,
+          "title": "USN-5677-1: Linux kernel vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5675-1",
+          "author": null,
+          "description": "Isaac Boukris and Andrew Bartlett discovered that Heimdal's KDC was\nnot properly performing checksum algorithm verifications in the\nS4U2Self extension module. An attacker could possibly use this issue\nto perform a machine-in-the-middle attack and request S4U2Self\ntickets for any user known by the application. This issue only\naffected Ubuntu 14.04 ESM, Ubuntu 16.04 ESM and Ubuntu 18.04 LTS.\n(CVE-2018-16860)\n\nIt was discovered that Heimdal was not properly handling the\nverification of key exchanges when an anonymous PKINIT was being\nused. An attacker could possibly use this issue to perform a\nmachine-in-the-middle attack and expose sensitive information.\nThis issue only affected Ubuntu 14.04 ESM, Ubuntu 16.04 ESM and\nUbuntu 18.04 LTS. (CVE-2019-12098)\n\nJoseph Sutton discovered that Heimdal was not properly handling\nmemory management operations when dealing with TGS-REQ tickets that\nwere missing information. An attacker could possibly use this issue\nto cause a denial of service. (CVE-2021-3671)\n\nMichał Kępień discovered that Heimdal was not properly handling\nlogical conditions that related to memory management operations. An\nattacker could possibly use this issue to cause a denial of service.\n(CVE-2022-3116)",
+          "link": "https://ubuntu.com/security/notices/USN-5675-1",
+          "publishedOn": "2022-10-13T18:39:02.000Z",
+          "wordCount": 1192,
+          "title": "USN-5675-1: Heimdal vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5676-1",
+          "author": null,
+          "description": "Alexander Lakhin discovered that PostgreSQL incorrectly handled the\nsecurity restricted operation sandbox when a privileged user is maintaining\nanother user’s objects. An attacker having permission to create non-temp\nobjects can use this issue to execute arbitrary commands as the superuser.",
+          "link": "https://ubuntu.com/security/notices/USN-5676-1",
+          "publishedOn": "2022-10-13T18:38:00.000Z",
+          "wordCount": 819,
+          "title": "USN-5676-1: PostgreSQL vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5674-1",
+          "author": null,
+          "description": "It was discovered that XML Security Library incorrectly handled certain\ninput documents. An attacker could possibly use this issue to obtain\nsensitive information or cause a denial of service.",
+          "link": "https://ubuntu.com/security/notices/USN-5674-1",
+          "publishedOn": "2022-10-13T14:06:12.000Z",
+          "wordCount": 784,
+          "title": "USN-5674-1: XML Security Library vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5673-1",
+          "author": null,
+          "description": "It was discovered that unzip did not properly handle unicode strings under\ncertain circumstances. If a user were tricked into opening a specially crafted\nzip file, an attacker could possibly use this issue to cause unzip to crash,\nresulting in a denial of service, or possibly execute arbitrary code. \n(CVE-2021-4217)\n\nIt was discovered that unzip did not properly perform bounds checking while\nconverting wide strings to local strings. If a user were tricked into opening a\nspecially crafted zip file, an attacker could possibly use this issue to cause\nunzip to crash, resulting in a denial of service, or possibly execute arbitrary\ncode. (CVE-2022-0529, CVE-2022-0530)",
+          "link": "https://ubuntu.com/security/notices/USN-5673-1",
+          "publishedOn": "2022-10-13T09:26:04.000Z",
+          "wordCount": 879,
+          "title": "USN-5673-1: unzip vulnerabilities",
+          "imageUrl": null
+        },
         {
           "id": "https://ubuntu.com/security/notices/USN-5672-1",
           "author": null,
@@ -8599,66 +8724,6 @@
           "publishedOn": "2022-09-14T23:09:09.000Z",
           "wordCount": 830,
           "title": "USN-5606-2: poppler regression",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ubuntu.com/security/notices/USN-5611-1",
-          "author": null,
-          "description": "Several security issues were discovered in the WebKitGTK Web and JavaScript\nengines. If a user were tricked into viewing a malicious website, a remote\nattacker could exploit a variety of issues related to web browser security,\nincluding cross-site scripting attacks, denial of service attacks, and\narbitrary code execution.",
-          "link": "https://ubuntu.com/security/notices/USN-5611-1",
-          "publishedOn": "2022-09-14T11:55:47.000Z",
-          "wordCount": 820,
-          "title": "USN-5611-1: WebKitGTK vulnerability",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ubuntu.com/security/notices/USN-5610-1",
-          "author": null,
-          "description": "Addison Crump discovered that rust-regex did not properly limit\nthe complexity of the regular expressions (regex) it parses.\nAn attacker could possibly use this issue to cause a denial of\nservice.",
-          "link": "https://ubuntu.com/security/notices/USN-5610-1",
-          "publishedOn": "2022-09-14T08:30:19.000Z",
-          "wordCount": 871,
-          "title": "USN-5610-1: rust-regex vulnerability",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ubuntu.com/security/notices/USN-5583-2",
-          "author": null,
-          "description": "USN-5583-1 fixed vulnerabilities in systemd. Unfortunately this caused a \nregression by introducing networking problems for some users. This update fixes\nthe problem.\n\nWe apologize for the inconvenience.\n\nOriginal advisory details:\n\n It was discovered that systemd incorrectly handled certain DNS requests, \n which leads to user-after-free vulnerability. An attacker could possibly use \n this issue to cause a crash or execute arbitrary code. (CVE-2022-2526)",
-          "link": "https://ubuntu.com/security/notices/USN-5583-2",
-          "publishedOn": "2022-09-14T03:01:57.000Z",
-          "wordCount": 807,
-          "title": "USN-5583-2: systemd regression",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ubuntu.com/security/notices/USN-5609-1",
-          "author": null,
-          "description": "Graham Esau discovered that .NET 6 incorrectly parsed certain payloads\nduring model binding. An attacker could possibly use this issue to\ncause a denial of service.",
-          "link": "https://ubuntu.com/security/notices/USN-5609-1",
-          "publishedOn": "2022-09-13T21:03:03.000Z",
-          "wordCount": 793,
-          "title": "USN-5609-1: .NET 6 vulnerability",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ubuntu.com/security/notices/USN-5608-1",
-          "author": null,
-          "description": "It was discovered that DPDK incorrectly handled certain Vhost headers. A\nremote attacker could possibly use this issue to cause a denial of service.",
-          "link": "https://ubuntu.com/security/notices/USN-5608-1",
-          "publishedOn": "2022-09-13T16:44:43.000Z",
-          "wordCount": 777,
-          "title": "USN-5608-1: DPDK vulnerability",
-          "imageUrl": null
-        },
-        {
-          "id": "https://ubuntu.com/security/notices/USN-5607-1",
-          "author": null,
-          "description": "It was discovered that GDK-PixBuf incorrectly handled certain images.\nAn attacker could possibly use this issue to execute arbitrary code\nor cause a crash.",
-          "link": "https://ubuntu.com/security/notices/USN-5607-1",
-          "publishedOn": "2022-09-13T14:35:00.000Z",
-          "wordCount": 773,
-          "title": "USN-5607-1: GDK-PixBuf vulnerability",
           "imageUrl": null
         }
       ]
