@@ -2,10 +2,341 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2022-10-17T02:35:35.362Z</updated>
+    <updated>2022-10-18T02:26:08.459Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-5684-1: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5684-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5684-1"/>
+        <updated>2022-10-17T20:11:44.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the SUNRPC RDMA protocol implementation in the Linux
+kernel did not properly calculate the header size of a RPC message payload.
+A local attacker could use this to expose sensitive information (kernel
+memory). (CVE-2022-0812)
+
+Moshe Kol, Amit Klein and Yossi Gilad discovered that the IP implementation
+in the Linux kernel did not provide sufficient randomization when
+calculating port offsets. An attacker could possibly use this to expose
+sensitive information. (CVE-2022-1012, CVE-2022-32296)
+
+Duoming Zhou discovered that race conditions existed in the timer handling
+implementation of the Linux kernel's Rose X.25 protocol layer, resulting in
+use-after-free vulnerabilities. A local attacker could use this to cause a
+denial of service (system crash). (CVE-2022-2318)
+
+Roger Pau Monné discovered that the Xen virtual block driver in the Linux
+kernel did not properly initialize memory pages to be used for shared
+communication with the backend. A local attacker could use this to expose
+sensitive information (guest kernel memory). (CVE-2022-26365)
+
+Roger Pau Monné discovered that the Xen paravirtualization frontend in the
+Linux kernel did not properly initialize memory pages to be used for shared
+communication with the backend. A local attacker could use this to expose
+sensitive information (guest kernel memory). (CVE-2022-33740)
+
+It was discovered that the Xen paravirtualization frontend in the Linux
+kernel incorrectly shared unrelated data when communicating with certain
+backends. A local attacker could use this to cause a denial of service
+(guest crash) or expose sensitive information (guest kernel memory).
+(CVE-2022-33741, CVE-2022-33742)
+
+Oleksandr Tyshchenko discovered that the Xen paravirtualization platform in
+the Linux kernel on ARM platforms contained a race condition in certain
+situations. An attacker in a guest VM could use this to cause a denial of
+service in the host OS. (CVE-2022-33744)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Keep a Wary Eye on Critical New Vulnerability in Apache Commons Text]]></title>
+        <id>https://www.darkreading.com/application-security/researchers-keep-a-wary-eye-on-critical-new-vulnerability-in-apache-commons-text</id>
+        <link href="https://www.darkreading.com/application-security/researchers-keep-a-wary-eye-on-critical-new-vulnerability-in-apache-commons-text"/>
+        <updated>2022-10-17T20:08:39.000Z</updated>
+        <summary type="html"><![CDATA[There's nothing yet to suggest CVE-2022-42889 is the next Log4j. But proof-of-concept code is available, and interest appears to be ticking up.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity's Hiring Spree Requires a Recruiting Rethink]]></title>
+        <id>https://www.darkreading.com/cloud/cybersecurity-s-hiring-spree-is-going-to-require-recruitment-rethink</id>
+        <link href="https://www.darkreading.com/cloud/cybersecurity-s-hiring-spree-is-going-to-require-recruitment-rethink"/>
+        <updated>2022-10-17T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Just 65 cybersecurity professionals are in the workforce for every 100 available jobs, new study shows.]]></summary>
+        <author>
+            <name>Becky Bracken, Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5570-2: zlib vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5570-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-5570-2"/>
+        <updated>2022-10-17T18:37:50.000Z</updated>
+        <summary type="html"><![CDATA[USN-5570-1 fixed a vulnerability in zlib. This update provides the
+corresponding update for Ubuntu 22.04 LTS and Ubuntu 20.04 LTS.
+
+Original advisory details:
+
+ Evgeny Legerov discovered that zlib incorrectly handled memory when
+ performing certain inflate operations. An attacker could use this issue
+ to cause zlib to crash, resulting in a denial of service, or possibly
+ execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Risk of Stateful Anti-Patterns in Enterprise Internet Architecture]]></title>
+        <id>https://www.darkreading.com/dr-tech/the-risk-of-stateful-antipatterns-in-enterprise-internet-architecture</id>
+        <link href="https://www.darkreading.com/dr-tech/the-risk-of-stateful-antipatterns-in-enterprise-internet-architecture"/>
+        <updated>2022-10-17T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Excessive statefulness hurts the ability to scale networks, applications, and ancillary supporting infrastructure, thus affecting an entire service delivery chain's ability to withstand a DDoS attack.]]></summary>
+        <author>
+            <name>Roland Dobbins, Principal Engineer at Netscout</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Signal to Ditch SMS/MMS Messaging on Android]]></title>
+        <id>https://www.darkreading.com/endpoint/signal-to-ditch-sms-mms-messaging-on-android</id>
+        <link href="https://www.darkreading.com/endpoint/signal-to-ditch-sms-mms-messaging-on-android"/>
+        <updated>2022-10-17T17:54:37.000Z</updated>
+        <summary type="html"><![CDATA[Main driver for the change: "Plaintext SMS messages are inherently insecure."]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tactics Tie Ransom Cartel Group to Defunct REvil Ransomware]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/tactics-tie-ransom-cartel-group-to-defunct-revil-ransomware</id>
+        <link href="https://www.darkreading.com/threat-intelligence/tactics-tie-ransom-cartel-group-to-defunct-revil-ransomware"/>
+        <updated>2022-10-17T17:40:24.000Z</updated>
+        <summary type="html"><![CDATA[Ransom Cartel ransomware-as-a-service operator blog claims to offer a new and improved version of REvil ransomware.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zimbra Patches Under-Attack Code Execution Bug]]></title>
+        <id>25905 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/zimbra-patches-under-attack-code-execution-bug"/>
+        <updated>2022-10-17T15:55:24.000Z</updated>
+        <summary type="html"><![CDATA[Messaging and collaboration software maker Zimbra has rushed out patches to provide cover for a code execution flaw that has already been exploited to plant malware on target machines.
+read more]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Research Report Predicts Blockchain and Quantum Threat Will Quickly Spread Beyond Cybercurrencies; Surge in New Product and Services Opportunities to Come]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/new-research-report-predicts-blockchain-and-quantum-threat-will-quickly-spread-beyond-cybercurrencies-surge-in-new-product-and-services-opportunities-to-come</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/new-research-report-predicts-blockchain-and-quantum-threat-will-quickly-spread-beyond-cybercurrencies-surge-in-new-product-and-services-opportunities-to-come"/>
+        <updated>2022-10-17T15:20:10.000Z</updated>
+        <summary type="html"><![CDATA[Research report identifies the challenges as well as the opportunities for new products and services that arise from the threat that quantum computers pose to the "blockchain" mechanism.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Fast-Talkers Can Teach Us About Vetting Vendors]]></title>
+        <id>https://www.darkreading.com/edge-articles/what-fast-talkers-can-teach-us-about-vetting-vendors</id>
+        <link href="https://www.darkreading.com/edge-articles/what-fast-talkers-can-teach-us-about-vetting-vendors"/>
+        <updated>2022-10-17T15:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Here's how to differentiate vendors that can back up their words with solutions and those that  cannot.]]></summary>
+        <author>
+            <name>Joshua Goldfarb, Fraud Solutions Architect - EMEA and APCJ, F5</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hacking Automobile Keyless Entry Systems]]></title>
+        <id>https://www.schneier.com/blog/archives/2022/10/hacking-automobile-keyless-entry-systems.html</id>
+        <link href="https://www.schneier.com/blog/archives/2022/10/hacking-automobile-keyless-entry-systems.html"/>
+        <updated>2022-10-17T15:07:05.000Z</updated>
+        <summary type="html"><![CDATA[<p>Suspected members of a European car-theft ring have been <a href="https://www.europol.europa.eu/media-press/newsroom/news/31-arrested-for-stealing-cars-hacking-keyless-tech">arrested</a>:</p>
+<blockquote><p>The criminals targeted vehicles with keyless entry and start systems, exploiting the technology to get into the car and drive away.</p>
+<p>As a result of a coordinated action carried out on 10 October in the three countries involved, 31 suspects were arrested. A total of 22 locations were searched, and over EUR 1 098 500 in criminal assets seized.</p>
+<p>The criminals targeted keyless vehicles from two French car manufacturers. A fraudulent tool&#8212;marketed as an automotive diagnostic solution, was used to replace the original software of the vehicles, allowing the doors to be opened and the ignition to be started without the actual key fob...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zoom for macOS Contains High-Risk Security Flaw]]></title>
+        <id>25904 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/zoom-macos-contains-high-risk-security-flaw"/>
+        <updated>2022-10-17T15:03:29.000Z</updated>
+        <summary type="html"><![CDATA[Video messaging technology powerhouse Zoom has rolled out a high-priority patch for macOS users alongside a warning that hackers could abuse the software flaw to connect to and control Zoom Apps.
+read more]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Disinformation Attacks Threaten US Midterm Elections]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/disinformation-attacks-threaten-us-midterm-elections</id>
+        <link href="https://www.darkreading.com/threat-intelligence/disinformation-attacks-threaten-us-midterm-elections"/>
+        <updated>2022-10-17T14:30:23.000Z</updated>
+        <summary type="html"><![CDATA[Foreign nations continue to target various US public entities and private industries with cyberattacks, but the coming midterms are driving more disinformation than hacking, say experts.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4 Stakeholders Critical to Addressing the Cybersecurity Workforce Gap]]></title>
+        <id>https://www.darkreading.com/careers-and-people/4-stakeholders-critical-to-addressing-the-cybersecurity-workforce-gap</id>
+        <link href="https://www.darkreading.com/careers-and-people/4-stakeholders-critical-to-addressing-the-cybersecurity-workforce-gap"/>
+        <updated>2022-10-17T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A cross-disciplinary effort of change is needed to attract new professionals in the coming decade.]]></summary>
+        <author>
+            <name>Kayne McGladrey, IEEE Senior Member and Field CISO, Hyperproof</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Retail Giant Woolworths Discloses Data Breach Impacting 2.2 Million MyDeal Customers]]></title>
+        <id>25903 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/retail-giant-woolworths-discloses-data-breach-impacting-22-million-mydeal-customers"/>
+        <updated>2022-10-17T13:48:44.000Z</updated>
+        <summary type="html"><![CDATA[Australian retail giant Woolworths revealed on Friday that a recent data breach has impacted the information of 2.2 million MyDeal customers.
+Woolworths acquired 80% of the MyDeal online marketplace in September, but says MyDeal systems are completely separate from its own systems, which have not been impacted by the incident.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Imprivata Expands Its Integrated Digital Identity Platform to Defragment Identities Across Disparate Applications]]></title>
+        <id>https://www.darkreading.com/endpoint/imprivata-expands-its-integrated-digital-identity-platform-to-defragment-identities-across-disparate-applications</id>
+        <link href="https://www.darkreading.com/endpoint/imprivata-expands-its-integrated-digital-identity-platform-to-defragment-identities-across-disparate-applications"/>
+        <updated>2022-10-17T13:39:11.000Z</updated>
+        <summary type="html"><![CDATA[Offers solution to accelerate identity intelligence through simplified, yet extensive, visibility of user activity.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New 'Prestige' Ransomware Targets Transportation Industry in Ukraine, Poland]]></title>
+        <id>25902 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/new-prestige-ransomware-targets-transportation-industry-ukraine-poland"/>
+        <updated>2022-10-17T13:15:10.000Z</updated>
+        <summary type="html"><![CDATA[A new ransomware family has been observed targeting transportation and related logistics organizations in Ukraine and Poland, Microsoft warns.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black Basta Ransomware Hackers Infiltrates Networks via Qakbot to Deploy Brute Ratel C4]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-6456118928054244930</id>
+        <link href="https://thehackernews.com/2022/10/black-basta-ransomware-hackers.html"/>
+        <updated>2022-10-17T12:54:00.000Z</updated>
+        <summary type="html"><![CDATA[The threat actors behind the Black Basta ransomware family have been observed using the Qakbot trojan to deploy the Brute Ratel C4 framework as a second-stage payload in recent attacks.
+The development marks the first time the nascent adversary simulation software is being delivered via a Qakbot infection, cybersecurity firm Trend Micro said in a technical analysis released last week.
+The]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fortinet Admits Many Devices Still Unprotected Against Exploited Vulnerability]]></title>
+        <id>25901 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/fortinet-admits-many-devices-still-unprotected-against-exploited-vulnerability"/>
+        <updated>2022-10-17T12:38:53.000Z</updated>
+        <summary type="html"><![CDATA[Fortinet is concerned that many of its customers’ devices are still unprotected against attacks exploiting the recently disclosed zero-day vulnerability and the company has urged them to take action.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[75 Arrested in Crackdown on West-African Cybercrime Gangs]]></title>
+        <id>25900 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/75-arrested-crackdown-west-african-cybercrime-gangs"/>
+        <updated>2022-10-17T11:31:46.000Z</updated>
+        <summary type="html"><![CDATA[Interpol last week announced the results of a joint law enforcement effort aimed at dismantling West-African cyber-enabled financial crime operations.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New 'Black Lotus' UEFI Rootkit Provides APT-Level Capabilities]]></title>
+        <id>25899 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/new-black-lotus-uefi-rootkit-provides-apt-level-capabilities-cybercriminals"/>
+        <updated>2022-10-17T11:01:14.000Z</updated>
+        <summary type="html"><![CDATA[A threat actor is promoting on underground criminal forums a vendor-independent UEFI rootkit that can disable security software and controls, cybersecurity veteran Scott Scheferman warns.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Say Microsoft Office 365 Uses Broken Email Encryption to Secure Messages]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-6244586426893951967</id>
+        <link href="https://thehackernews.com/2022/10/researchers-claim-microsoft-office-365.html"/>
+        <updated>2022-10-17T10:33:00.000Z</updated>
+        <summary type="html"><![CDATA[New research has disclosed what's being called a security vulnerability in Microsoft 365 that could be exploited to infer message contents due to the use of a broken cryptographic algorithm.
+"The [Office 365 Message Encryption] messages are encrypted in insecure Electronic Codebook (ECB) mode of operation," Finnish cybersecurity company WithSecure said in a report published last week.
+Office 365]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity M&A Roundup for October 1-15, 2022]]></title>
+        <id>25898 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/cybersecurity-ma-roundup-october-1-15-2022"/>
+        <updated>2022-10-17T10:22:23.000Z</updated>
+        <summary type="html"><![CDATA[read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Crypto Winter is No Excuse to Let Your Cyber Defenses Falter]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-4686743232226162582</id>
+        <link href="https://thehackernews.com/2022/10/why-crypto-winter-is-no-excuse-to-let.html"/>
+        <updated>2022-10-17T10:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Don’t let the ongoing “crypto winter” lull you into a false sense of cybersecurity. Even as cryptocurrencies lose value — and some crypto companies file for bankruptcy — cryptojacking still poses an urgent threat to enterprises across industries, from financial services to healthcare to industry 4.0 and beyond. 
+Broadly speaking, cryptojacking is defined as the unauthorized and illegitimate use]]></summary>
+        <author>
+            <name>noreply@blogger.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Prestige Ransomware Targeting Polish and Ukrainian Organizations]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-1705630303109467778</id>
+        <link href="https://thehackernews.com/2022/10/new-prestige-ransomware-targeting.html"/>
+        <updated>2022-10-17T10:15:00.000Z</updated>
+        <summary type="html"><![CDATA[A new ransomware campaign targeted the transportation and logistics sectors in Ukraine and Poland on October 11 with a previously unknown payload dubbed Prestige.
+"The activity shares victimology with recent Russian state-aligned activity, specifically on affected geographies and countries, and overlaps with previous victims of the FoxBlade malware (also known as HermeticWiper)," the Microsoft]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zimbra Releases Patch for Actively Exploited Vulnerability in its Collaboration Suite]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-7885639167892724482</id>
+        <link href="https://thehackernews.com/2022/10/zimbra-releases-patch-for-actively.html"/>
+        <updated>2022-10-17T09:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Zimbra has released patches to contain an actively exploited security flaw in its enterprise collaboration suite that could be leveraged to upload arbitrary files to vulnerable instances.
+Tracked as CVE-2022-41352 (CVSS score: 9.8), the issue affects a component of the Zimbra suite called Amavis, an open source content filter, and more specifically, the cpio utility it uses to scan and extract]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[INTERPOL-led Operation Takes Down 'Black Axe' Cyber Crime Organization]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-8228981407721078121</id>
+        <link href="https://thehackernews.com/2022/10/interpol-led-operation-takes-down-black.html"/>
+        <updated>2022-10-17T02:55:00.000Z</updated>
+        <summary type="html"><![CDATA[The International Criminal Police Organization, also called the Interpol, has announced the arrests of 75 individuals as part of a coordinated global operation against an organized cyber crime syndicate called Black Axe.
+"'Black Axe' and other West African organized crime groups have developed transnational networks, defrauding victims of millions while channeling their profits into lavish]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Indian Energy Company Tata Power's IT Infrastructure Hit By Cyber Attack]]></title>
         <id>tag:blogger.com,1999:blog-4802841478634147276.post-5104486027964140940</id>
@@ -8818,17 +9149,6 @@ Identified in January 2019, LockerGoga drew headlines for its attacks against th
 The tech giant's]]></summary>
         <author>
             <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Serious Breach at Uber Spotlights Hacker Social Deception]]></title>
-        <id>25718 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/serious-breach-uber-spotlights-hacker-social-deception"/>
-        <updated>2022-09-17T16:14:00.000Z</updated>
-        <summary type="html"><![CDATA[The ride-hailing service Uber said Friday that all its services were operational following what security professionals are calling a major data breach, claiming there was no evidence the hacker got access to sensitive user data.
-read more]]></summary>
-        <author>
-            <name>Associated Press</name>
         </author>
     </entry>
 </feed>
