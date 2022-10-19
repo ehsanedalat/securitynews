@@ -2,10 +2,384 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2022-10-18T02:26:08.459Z</updated>
+    <updated>2022-10-19T02:22:39.139Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Patching-as-a-Service Offers Benefits, Challenges]]></title>
+        <id>https://www.darkreading.com/dr-tech/patching-as-a-service-offers-benefits-challenges</id>
+        <link href="https://www.darkreading.com/dr-tech/patching-as-a-service-offers-benefits-challenges"/>
+        <updated>2022-10-18T22:26:00.000Z</updated>
+        <summary type="html"><![CDATA[Organizations without the time or talent to patch may find patching-as-a-service to be a way to improve security.]]></summary>
+        <author>
+            <name>Nathan Eddy, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Is the Difference Between Identity Verification and Authentication?]]></title>
+        <id>https://www.darkreading.com/edge-ask-the-experts/what-is-the-difference-between-identity-verification-and-authentication-</id>
+        <link href="https://www.darkreading.com/edge-ask-the-experts/what-is-the-difference-between-identity-verification-and-authentication-"/>
+        <updated>2022-10-18T20:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Identity verification and identity authentication are neither synonymous nor interchangeable, and implementing both is essential to fighting fraud.]]></summary>
+        <author>
+            <name>Shai Cohen, Senior Vice President of Global Fraud Solutions at TransUnion</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gen Z, Millennial Workers Are Bigger Cybersecurity Risks Than Older Employees]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/gen-z-millennial-workers-are-bigger-cybersecurity-risks-than-older-employees</id>
+        <link href="https://www.darkreading.com/threat-intelligence/gen-z-millennial-workers-are-bigger-cybersecurity-risks-than-older-employees"/>
+        <updated>2022-10-18T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Younger workers surveyed are less likely to follow established business cybersecurity protocols than their Gen X and baby boomer counterparts, a new survey finds.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5687-1: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5687-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5687-1"/>
+        <updated>2022-10-18T19:33:27.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the SUNRPC RDMA protocol implementation in the Linux
+kernel did not properly calculate the header size of a RPC message payload.
+A local attacker could use this to expose sensitive information (kernel
+memory). (CVE-2022-0812)
+
+Moshe Kol, Amit Klein and Yossi Gilad discovered that the IP implementation
+in the Linux kernel did not provide sufficient randomization when
+calculating port offsets. An attacker could possibly use this to expose
+sensitive information. (CVE-2022-1012, CVE-2022-32296)
+
+Duoming Zhou discovered that race conditions existed in the timer handling
+implementation of the Linux kernel's Rose X.25 protocol layer, resulting in
+use-after-free vulnerabilities. A local attacker could use this to cause a
+denial of service (system crash). (CVE-2022-2318)
+
+Roger Pau Monné discovered that the Xen virtual block driver in the Linux
+kernel did not properly initialize memory pages to be used for shared
+communication with the backend. A local attacker could use this to expose
+sensitive information (guest kernel memory). (CVE-2022-26365)
+
+Roger Pau Monné discovered that the Xen paravirtualization frontend in the
+Linux kernel did not properly initialize memory pages to be used for shared
+communication with the backend. A local attacker could use this to expose
+sensitive information (guest kernel memory). (CVE-2022-33740)
+
+It was discovered that the Xen paravirtualization frontend in the Linux
+kernel incorrectly shared unrelated data when communicating with certain
+backends. A local attacker could use this to cause a denial of service
+(guest crash) or expose sensitive information (guest kernel memory).
+(CVE-2022-33741, CVE-2022-33742)
+
+Oleksandr Tyshchenko discovered that the Xen paravirtualization platform in
+the Linux kernel on ARM platforms contained a race condition in certain
+situations. An attacker in a guest VM could use this to cause a denial of
+service in the host OS. (CVE-2022-33744)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bolsters Raises $15M to Tackle Fakes and Frauds]]></title>
+        <id>25915 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/bolsters-raises-15m-tackle-fakes-and-frauds"/>
+        <updated>2022-10-18T18:43:13.000Z</updated>
+        <summary type="html"><![CDATA[California startup Bolster, Inc. has raised $15 million in venture capital funding to build a fraud prevention platform for businesses.
+The early-stage funding round was led by Cervin, Liberty Global Ventures, and Cheyenne Ventures with participation from previous investors Thomvest Ventures and Crosslink Capital.  
+read more]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5686-1: Git vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5686-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5686-1"/>
+        <updated>2022-10-18T17:59:28.000Z</updated>
+        <summary type="html"><![CDATA[Cory Snider discovered that Git incorrectly handled certain symbolic links.
+An attacker could possibly use this issue to cause an unexpected behaviour.
+(CVE-2022-39253)
+
+Kevin Backhouse discovered that Git incorrectly handled certain command strings.
+An attacker could possibly use this issue to arbitrary code execution.
+(CVE-2022-39260)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[German Cybersecurity Boss Sacked Over Kremlin Connection]]></title>
+        <id>https://www.darkreading.com/careers-and-people/german-cybersecurity-boss-sacked-over-kremlin-connection</id>
+        <link href="https://www.darkreading.com/careers-and-people/german-cybersecurity-boss-sacked-over-kremlin-connection"/>
+        <updated>2022-10-18T17:43:00.000Z</updated>
+        <summary type="html"><![CDATA[Head of German national cybersecurity agency was fired over ties to a member of Russian intelligence once honored by Vladimir Putin.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Treat Essential Security Certificates as Valuable Assets]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/treat-essential-security-certificates-as-valuable-assets</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/treat-essential-security-certificates-as-valuable-assets"/>
+        <updated>2022-10-18T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Manage the company's often-overlooked security certificates as the valuable assets they are, essential for security hygiene and to prevent issues.]]></summary>
+        <author>
+            <name>Matt Middleton-Leal, Managing Director, Qualys</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[German Cybersecurity Chief Sacked Over Alleged Russia Ties]]></title>
+        <id>25914 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/german-cybersecurity-chief-sacked-over-alleged-russia-ties"/>
+        <updated>2022-10-18T16:17:05.000Z</updated>
+        <summary type="html"><![CDATA[Germany's cybersecurity chief was sacked on Tuesday after a TV satire show accused him of having ties to Russian intelligence services, with the country on high alert over potential sabotage activities by Moscow.
+read more]]></summary>
+        <author>
+            <name>AFP</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are Cybersecurity Vendors Pushing Snake Oil?]]></title>
+        <id>25913 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/are-cybersecurity-vendors-pushing-snake-oil"/>
+        <updated>2022-10-18T15:50:59.000Z</updated>
+        <summary type="html"><![CDATA[Survey: 96 Percent of Cybersecurity Decision Makers Confused By Vendor Marketing
+read more]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IDA Pro Owner Hex-Rays Acquired by European VC Firm]]></title>
+        <id>25912 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/ida-pro-owner-hex-rays-acquired-european-vc-firm"/>
+        <updated>2022-10-18T15:33:19.000Z</updated>
+        <summary type="html"><![CDATA[European venture capital and private equity firm Smartfin on Tuesday announced a deal to acquire Hex-Rays, the Belgian company behind the widely deployed IDA Pro software disassembler.
+read more]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers find 633% increase in cyber-attacks aimed at open source repositories]]></title>
+        <id>researchers-find-633-increase-in-cyber-attacks-aimed-at-open-source-repositories</id>
+        <link href="https://portswigger.net/daily-swig/researchers-find-633-increase-in-cyber-attacks-aimed-at-open-source-repositories"/>
+        <updated>2022-10-18T15:21:58.000Z</updated>
+        <summary type="html"><![CDATA[Attack surge blamed on ‘avoidable’ bugs]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Two Industrial Control Systems Advisories]]></title>
+        <id>18078 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/10/18/cisa-releases-two-industrial-control-systems-advisories"/>
+        <updated>2022-10-18T14:55:22.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: October 18, 2022
+CISA released two Industrial Control Systems (ICS) advisories on October 18, 2022. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+CISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations:
+ICSA-22-291-01 Advantech R-SeeNet
+ICSA-21-336-06 Hitachi Energy APM Edge (Update A)
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Phishing Mitigation Can Cost Businesses More Than $1M Annually]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/phishing-mitigation-can-cost-businesses-more-than-1m-annually</id>
+        <link href="https://www.darkreading.com/attacks-breaches/phishing-mitigation-can-cost-businesses-more-than-1m-annually"/>
+        <updated>2022-10-18T14:50:07.000Z</updated>
+        <summary type="html"><![CDATA[One of the oldest tactics in cybercrime is still one of the most widely feared — and with good reason, as campaigns are expected to increase and become more sophisticated over the next 12 months.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OutThink Raises $10 Million for Human Risk Management Platform]]></title>
+        <id>25911 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/outthink-raises-10-million-human-risk-management-platform"/>
+        <updated>2022-10-18T14:47:32.000Z</updated>
+        <summary type="html"><![CDATA[Human risk management startup OutThink today announced that it has raised $10 million in seed funding, bringing the total investment in the company to $11.4 million.
+The funding round was led by AlbionVC, with participation from Forward Partners, Gapminder, Innovate UK, and TriplePoint Capital.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AutoRABIT Accelerates Release Management Processes with Automation and Key Integrations]]></title>
+        <id>https://www.darkreading.com/application-security/autorabit-accelerates-release-management-processes-with-automation-and-key-integrations</id>
+        <link href="https://www.darkreading.com/application-security/autorabit-accelerates-release-management-processes-with-automation-and-key-integrations"/>
+        <updated>2022-10-18T14:34:22.000Z</updated>
+        <summary type="html"><![CDATA[Improving the flow of clean, safe code with heightened visibility and automation.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity Investment Remains Strong, M&A Activity Heads Toward New Annual Record]]></title>
+        <id>25910 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/cybersecurity-investment-remains-strong-ma-activity-heads-toward-new-annual-record"/>
+        <updated>2022-10-18T14:16:17.000Z</updated>
+        <summary type="html"><![CDATA[Despite a global economy still suffering from the aftereffects of the COVID-19 pandemic and this year’s war in Ukraine, financing in the cybersecurity market has remained strong. In Q3 2022, a total of 221 companies raised $3.3 billion, while 104 M&A deals had a disclosed value of $11.7 billion. 2022 is likely to set a new M&A record.
+read more]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Offers Free RedEye Analytics Tool for Red Teams]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/cisa-releases-redeye-analytics-tool-for-red-teams</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/cisa-releases-redeye-analytics-tool-for-red-teams"/>
+        <updated>2022-10-18T14:10:08.000Z</updated>
+        <summary type="html"><![CDATA[The tool helps red teams manage their activities, analyze the data from their campaigns, create reports, and better present results to organizations.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5685-1: FRR vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5685-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5685-1"/>
+        <updated>2022-10-18T14:04:39.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that FRR incorrectly handled parsing certain BGP
+messages. A remote attacker could possibly use this issue to cause FRR to
+crash, resulting in a denial of service. (CVE-2022-37032)
+
+It was discovered that FRR incorrectly handled processing certain BGP
+messages. A remote attacker could possibly use this issue to cause FRR to
+crash, resulting in a denial of service, obtain sensitive information,
+or execute arbitrary code. (CVE-2022-37035)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shared Responsibility or Shared Fate? Decentralized IT Means We Are All Cyber Defenders]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/shared-responsibility-or-shared-fate-decentralized-it-means-we-are-all-cyber-defenders</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/shared-responsibility-or-shared-fate-decentralized-it-means-we-are-all-cyber-defenders"/>
+        <updated>2022-10-18T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With the IT universe expanding, collaboration, thoughtfulness, and discipline can ensure a more secure future.]]></summary>
+        <author>
+            <name>Ben Johnson, Co-Founder and CTO, Obsidian Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mastercard To Bring Crypto Trading Capabilities To Banks]]></title>
+        <id>https://www.darkreading.com/operations/mastercard-to-bring-crypto-trading-capabilities-to-banks</id>
+        <link href="https://www.darkreading.com/operations/mastercard-to-bring-crypto-trading-capabilities-to-banks"/>
+        <updated>2022-10-18T13:07:21.000Z</updated>
+        <summary type="html"><![CDATA[New Crypto Source program extends Mastercard’s safe, secure, and trusted services.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Сryptocurrency and Ransomware — The Ultimate Friendship]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-6630506694195257683</id>
+        <link href="https://thehackernews.com/2022/10/ryptocurrency-and-ransomware-ultimate.html"/>
+        <updated>2022-10-18T12:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Both cryptocurrency and ransomware are nothing new in the digital world; both have been there for a very long time, which was enough for them to find common pieces for starting their relationship.
+Ransomware can be like a virtual car that works on all types of fuels, and crypto is the one that is currently most recommended. No one can argue that 2020 was the year of ransomware in the cyber world]]></summary>
+        <author>
+            <name>noreply@blogger.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Keystone Health Data Breach Impacts 235,000 Patients]]></title>
+        <id>25909 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/keystone-health-data-breach-impacts-235000-patients"/>
+        <updated>2022-10-18T12:53:05.000Z</updated>
+        <summary type="html"><![CDATA[Pennsylvania healthcare provider Keystone Health has started informing patients of a data breach potentially impacting their personal information.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Australian Health Insurer Medibank Targeted in Cyberattack]]></title>
+        <id>25908 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/australian-health-insurer-medibank-targeted-cyberattack"/>
+        <updated>2022-10-18T12:32:27.000Z</updated>
+        <summary type="html"><![CDATA[Australian health insurance and health services provider Medibank has taken some systems offline after identifying suspicious activity on its network.
+One of the largest private health insurers in Australia, the Medibank Group serves more than 3.9 million individuals through its Medibank and ahm brands.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Industrial Cybersecurity Market Expected to Soar in Next Decade]]></title>
+        <id>25907 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/industrial-cybersecurity-market-expected-soar-next-decade"/>
+        <updated>2022-10-18T12:05:17.000Z</updated>
+        <summary type="html"><![CDATA[The industrial cybersecurity market is expected to grow at a significant rate over the next decade, with some predicting that it will exceed $40 billion by 2030.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qatar Spyware]]></title>
+        <id>https://www.schneier.com/blog/archives/2022/10/qatar-spyware.html</id>
+        <link href="https://www.schneier.com/blog/archives/2022/10/qatar-spyware.html"/>
+        <updated>2022-10-18T11:57:04.000Z</updated>
+        <summary type="html"><![CDATA[<p>Everyone visiting Qatar for the World Cup needs to install <a href="https://www.nrk.no/sport/everyone-going-to-the-world-cup-must-have-this-app&#8212;experts-are-now-sounding-the-alarm-1.16139267">spyware</a> on their phone.</p>
+<blockquote><p>Everyone travelling to Qatar during the football World Cup will be asked to download two apps called Ehteraz and Hayya.</p>
+<p>Briefly, Ehteraz is an covid-19 tracking app, while Hayya is an official World Cup app used to keep track of match tickets and to access the free Metro in Qatar.</p>
+<p>In particular, the covid-19 app Ehteraz asks for access to several rights on your mobile., like access to read, delete or change all content on the phone, as well as access to connect to WiFi and Bluetooth, override other apps and prevent the phone from switching off to sleep mode...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chinese 'Spyder Loader' Malware Spotted Targeting Organizations in Hong Kong]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-7612459485506369124</id>
+        <link href="https://thehackernews.com/2022/10/chinese-spyder-loader-malware-spotted.html"/>
+        <updated>2022-10-18T10:11:00.000Z</updated>
+        <summary type="html"><![CDATA[The China-aligned espionage-focused actor dubbed Winnti has set its sights on government organizations in Hong Kong as part of an ongoing campaign dubbed Operation CuckooBees.
+Active since at least 2007, Winnti (aka APT41, Barium, Bronze Atlas, and Wicked Panda) is the name designated to a prolific cyber threat group that carries out Chinese state-sponsored espionage activity, predominantly]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Apache Commons Text Flaw Compared to Log4Shell, But Not as Widespread]]></title>
+        <id>25906 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/critical-apache-commons-text-flaw-compared-log4shell-not-widespread"/>
+        <updated>2022-10-18T10:04:18.000Z</updated>
+        <summary type="html"><![CDATA[A critical security hole affecting Apache Commons Text has been compared to the notorious Log4Shell vulnerability, but experts say it’s not as widespread.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[European Police Arrest a Gang That Hacked Wireless Key Fobs to Steal Cars]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-3310668899383933761</id>
+        <link href="https://thehackernews.com/2022/10/european-police-arrest-gang-that-hacked.html"/>
+        <updated>2022-10-18T09:47:00.000Z</updated>
+        <summary type="html"><![CDATA[Law enforcement authorities in France, in collaboration with Spain and Latvia, have disrupted a cybercrime ring that leveraged a hacking tool to steal cars without having to use a physical key fob.
+"The criminals targeted vehicles with keyless entry and start systems, exploiting the technology to get into the car and drive away," Europol said in a press statement.
+
+The coordinated]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical RCE Vulnerability Discovered in Popular Cobalt Strike Hacking Software]]></title>
+        <id>tag:blogger.com,1999:blog-4802841478634147276.post-8367997901645966971</id>
+        <link href="https://thehackernews.com/2022/10/critical-rce-vulnerability-discovered.html"/>
+        <updated>2022-10-18T05:29:00.000Z</updated>
+        <summary type="html"><![CDATA[HelpSystems, the company behind the Cobalt Strike software platform, has released an out-of-band security update to address a remote code execution vulnerability that could allow an attacker to take control of targeted systems.
+Cobalt Strike is a commercial red-team framework that's mainly used for adversary simulation, but cracked versions of the software have been actively abused by ransomware]]></summary>
+        <author>
+            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[USN-5684-1: Linux kernel (Azure) vulnerabilities]]></title>
         <id>https://ubuntu.com/security/notices/USN-5684-1</id>
@@ -181,6 +555,33 @@ read more]]></summary>
         <summary type="html"><![CDATA[Foreign nations continue to target various US public entities and private industries with cyberattacks, but the coming midterms are driving more disinformation than hacking, say experts.]]></summary>
         <author>
             <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of October 10, 2022]]></title>
+        <id>18076 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/bulletins/sb22-290"/>
+        <updated>2022-10-17T14:13:37.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: October 17, 2022 | Last revised: October 18, 2022
+&#xA0;
+High Vulnerabilities
+Primary
+Description
+			Published
+			CVSS Score
+			Source & Patch Info
+		
+adobe -- acrobat_reader
+			Adobe Acrobat Reader versions 22.002.20212 (and earlier) and 20.005.30381 (and earlier) are affected by a Stack-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+			2022-10-14
+			7.8
+			CVE-2022-42339
+MISC
+		
+adobe -- acrobat_reader
+			Adobe Acrobat Reader versions 22.002.20212 (and earlier) and 20.005.30381 (and earlier) are affected by a Stack-based Buffer Overflow vulnerability that could result in arbitrary code execution in …]]></summary>
+        <author>
+            <name>CISA</name>
         </author>
     </entry>
     <entry>
@@ -8925,230 +9326,6 @@ information from other guests, cause a denial of service or possibly ga…]]></s
         <summary type="html"><![CDATA[Infosec advocate speaks to The Daily Swig about the benefits of, and barriers to, ‘shifting left’]]></summary>
         <author>
             <name>The Daily Swig | Cybersecurity news and views</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerability Summary for the Week of September 12, 2022]]></title>
-        <id>17980 at https://us-cert.cisa.gov</id>
-        <link href="https://us-cert.cisa.gov/ncas/bulletins/sb22-262"/>
-        <updated>2022-09-19T14:15:11.000Z</updated>
-        <summary type="html"><![CDATA[Original release date: September 19, 2022 | Last revised: September 21, 2022
- 
-High Vulnerabilities
-Primary
-Description
-			Published
-			CVSS Score
-			Source & Patch Info
-		
-There were no high vulnerabilities recorded this week.
-		
-Back to top
- 
-Medium Vulnerabilities
-Primary
-Description
-			Published
-			CVSS Score
-			Source & Patch Info
-		
-There were no medium vulnerabilities recorded this week.
-		
-Back to top
- 
-Low Vulnerabilities
-Primary
-Description
-			Published
-			CVSS Score
-			Source & Patch Info
-		
-There were no low vulnerabilities recorded this week.
-		
-Back to top
- 
-Severity Not Yet Assigned
-Primary
-Description
-			Published
-			CVSS Score
-			Source & Patch Info
-		
-adobe -- animate
-			Adobe Animate version 21.0.11 (and earlier) and 22.0.7 (and earlier) are affected by an out-of-bounds …]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rockstar Games Confirms Breach Leading to GTA 6 Leak]]></title>
-        <id>25723 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/rockstar-games-confirms-breach-leading-gta-6-leak"/>
-        <updated>2022-09-19T14:03:12.000Z</updated>
-        <summary type="html"><![CDATA[Video game publisher Rockstar Games has confirmed suffering a network breach that resulted in videos from the upcoming Grand Theft Auto (GTA) 6 game getting leaked.
-read more]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cyberattack Costs for US Businesses up by 80%]]></title>
-        <id>https://www.darkreading.com/attacks-breaches/cyberattack-costs-for-us-businesses-up-by-80-</id>
-        <link href="https://www.darkreading.com/attacks-breaches/cyberattack-costs-for-us-businesses-up-by-80-"/>
-        <updated>2022-09-19T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cyberattacks keep inflicting more expensive damage, but firms are responding decisively to the challenge.]]></summary>
-        <author>
-            <name>Marc Wilczek, Digital Strategist &amp; COO, Link11</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Eyeglass Reflections Can Leak Information During Video Calls]]></title>
-        <id>25722 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/eyeglass-reflections-can-leak-information-during-video-calls"/>
-        <updated>2022-09-19T13:24:40.000Z</updated>
-        <summary type="html"><![CDATA[A group of academic researchers have devised a method of reconstructing text exposed via participants’ eyeglasses and other reflective objects during video conferences.
-read more]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-5613-2: Vim regression]]></title>
-        <id>https://ubuntu.com/security/notices/USN-5613-2</id>
-        <link href="https://ubuntu.com/security/notices/USN-5613-2"/>
-        <updated>2022-09-19T12:53:35.000Z</updated>
-        <summary type="html"><![CDATA[USN-5613-1 fixed vulnerabilities in Vim. Unfortunately that update failed
-to include binary packages for some architectures. This update fixes that
-regression.
-
-We apologize for the inconvenience.
-
-Original advisory details:
-
- It was discovered that Vim was not properly performing bounds checks
- when executing spell suggestion commands. An attacker could possibly use
- this issue to cause a denial of service or execute arbitrary code.
- (CVE-2022-0943)
- 
- It was discovered that Vim was using freed memory when dealing with
- regular expressions through its old regular expression engine. If a user
- were tricked into opening a specially crafted file, an attacker could
- crash the application, leading to a denial of service, or possibly achieve
- code execution. (CVE-2022-1154)
- 
- It was discovered that Vim was not properly performing checks on name of
- lambda functions. An attacker could possibly use this issue to cause a
- denial of service. This issue affected only Ubuntu 22.04 LTS.
- (CVE-2022-1420)
- 
- It was discovered that Vim was incorrectly performing bounds checks
- when processing invalid commands with composing characters in Ex
- mode. An attacker could possibly use this issue to cause a denial of
- service or execute arbitrary code. (CVE-2022-1616)
- 
- It was discovered that Vim was not properly processing latin1 data
- when issuing Ex commands. An attacker could possibly use this issue to
- cause a denial of service or execute arbitrary code. (CVE-2022-1619)
- 
- It was discovered that Vim was not properly performing memory
- management when dealing with invalid regular expression patterns in
- buffers. An attacker could possibly use this issue to cause a denial of
- service. (CVE-2022-1620)
- 
- It was discovered that Vim was not properly processing invalid bytes
- when performing spell check operations. An attacker could possibly use
- this issue to cause a denial of service or execute arbitrary code.
- (CVE-2022-1621)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Emotet Botnet Started Distributing Quantum and BlackCat Ransomware]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-2361394252074426304</id>
-        <link href="https://thehackernews.com/2022/09/emotet-botnet-started-distributing.html"/>
-        <updated>2022-09-19T12:42:00.000Z</updated>
-        <summary type="html"><![CDATA[The Emotet malware is now being leveraged by ransomware-as-a-service (RaaS) groups, including Quantum and BlackCat, after Conti's official retirement from the threat landscape this year.
-Emotet started off as a banking trojan in 2014, but updates added to it over time have transformed the malware into a highly potent threat that's capable of downloading other payloads onto the victim's machine,]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Free Decryptor Available for LockerGoga Ransomware Victims]]></title>
-        <id>25721 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/free-decryptor-available-lockergoga-ransomware-victims"/>
-        <updated>2022-09-19T12:31:53.000Z</updated>
-        <summary type="html"><![CDATA[Victims of the LockerGoga ransomware can now recover their files for free using a new decryption tool available via the NoMoreRansom project.
-read more]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Teams' GIFShell Attack: What Is It and How You Can Protect Yourself from It]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-6297263308852125697</id>
-        <link href="https://thehackernews.com/2022/09/microsoft-teams-gifshell-attack-what-is.html"/>
-        <updated>2022-09-19T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Organizations and security teams work to protect themselves from any vulnerability, and often don't realize that risk is also brought on by configurations in their SaaS apps that have not been hardened. The newly published GIFShell attack method, which occurs through Microsoft Teams, is a perfect example of how threat actors can exploit legitimate features and configurations that haven't been]]></summary>
-        <author>
-            <name>noreply@blogger.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Large-Scale Collection of Cell Phone Data at US Borders]]></title>
-        <id>https://www.schneier.com/blog/archives/2022/09/large-scale-collection-of-cell-phone-data-at-us-borders.html</id>
-        <link href="https://www.schneier.com/blog/archives/2022/09/large-scale-collection-of-cell-phone-data-at-us-borders.html"/>
-        <updated>2022-09-19T11:07:38.000Z</updated>
-        <summary type="html"><![CDATA[<p>The <i>Washington Post</i> is <a href="https://www.washingtonpost.com/technology/2022/09/15/government-surveillance-database-dhs/">reporting</a> that the US Customs and Border Protection agency is seizing and copying cell phone, tablet, and computer data from &#8220;as many as&#8221; 10,000 phones per year, including an unspecified number of American citizens. This is done without a warrant, because &#8220;&#8230;courts have long granted an exception to border authorities, allowing them to search people&#8217;s devices without a warrant or suspicion of a crime.&#8221;</p>
-<blockquote><p>CBP&#8217;s inspection of people&#8217;s phones, laptops, tablets and other electronic devices as they enter the country has long been a controversial practice that the agency has defended as a low-impact way to pursue possible security threats and determine an individual&#8217;s &#8220;intentions upon entry&#8221; into the U.S. But the revelation that thousands of agents have access to a searchable database without public oversight is a new development in what privacy advocates and some lawmakers warn could be an infringement of Americans&#8217; Fourth Amendment rights against unreasonable searches and seizures...</p></blockquote>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LastPass Found No Code Injection Attempts Following August Data Breach]]></title>
-        <id>25720 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/lastpass-found-no-code-injection-attempts-following-august-data-breach"/>
-        <updated>2022-09-19T10:47:33.000Z</updated>
-        <summary type="html"><![CDATA[Password management software provider LastPass says its investigation into the August 2022 data breach has not revealed any attempts to inject malicious code into LastPass software.
-read more]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GTA 6 Videos and Source Code Stolen in Rockstar Games Hack]]></title>
-        <id>25719 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/gta-6-videos-and-source-code-stolen-rockstar-games-hack"/>
-        <updated>2022-09-19T10:24:11.000Z</updated>
-        <summary type="html"><![CDATA[The Rockstar Games hacker also claims to be behind the recent Uber breach
-read more]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Europol and Bitdefender Release Free Decryptor for LockerGoga Ransomware]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-4804449390071494757</id>
-        <link href="https://thehackernews.com/2022/09/europol-and-bitdefender-release-free.html"/>
-        <updated>2022-09-19T09:45:00.000Z</updated>
-        <summary type="html"><![CDATA[A decryptor for the LockerGoga ransomware has been made available by Romanian cybersecurity firm Bitdefender in collaboration with Europol, the No More Ransom project, and Zürich law enforcement authorities.
-Identified in January 2019, LockerGoga drew headlines for its attacks against the Norwegian aluminum giant Norsk Hydro. It's said to have infected more than 1,800 victims in 71 countries,]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Warns of Large-Scale Click Fraud Campaign Targeting Gamers]]></title>
-        <id>tag:blogger.com,1999:blog-4802841478634147276.post-2403779664544502876</id>
-        <link href="https://thehackernews.com/2022/09/microsoft-warns-of-large-scale-click.html"/>
-        <updated>2022-09-19T08:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft said it's tracking an ongoing large-scale click fraud campaign targeting gamers by means of stealthily deployed browser extensions on compromised systems.
-"[The] attackers monetize clicks generated by a browser node-webkit or malicious browser extension secretly installed on devices," Microsoft Security Intelligence said in a sequence of tweets over the weekend.
-The tech giant's]]></summary>
-        <author>
-            <name>noreply@blogger.com (Ravie Lakshmanan)</name>
         </author>
     </entry>
 </feed>
