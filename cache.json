@@ -6,6 +6,26 @@
       "siteUrl": "https://portswigger.net/daily-swig",
       "articles": [
         {
+          "id": "openssl-vulnerability-downgraded-to-high-severity",
+          "author": null,
+          "description": "Punycode-related flaw fails the logo test",
+          "link": "https://portswigger.net/daily-swig/openssl-vulnerability-downgraded-to-high-severity",
+          "publishedOn": "2022-11-01T18:54:58.000Z",
+          "wordCount": 1049,
+          "title": "OpenSSL vulnerability downgraded to ‘high’ severity",
+          "imageUrl": "https://portswigger.net/cms/images/74/a4/942d-twittercard-openssl.png"
+        },
+        {
+          "id": "bug-bounty-radar-the-latest-bug-bounty-programs-for-november-2022",
+          "author": null,
+          "description": "New web targets for the discerning hacker",
+          "link": "https://portswigger.net/daily-swig/bug-bounty-radar-the-latest-bug-bounty-programs-for-november-2022",
+          "publishedOn": "2022-11-01T15:43:04.000Z",
+          "wordCount": 1953,
+          "title": "Bug Bounty Radar // The latest bug bounty programs for November 2022",
+          "imageUrl": "https://portswigger.net/cms/images/ef/39/55d1-twittercard-bug-bounty-radar-2021-article-purple.jpg"
+        },
+        {
           "id": "sqlite-patches-22-year-old-code-execution-denial-of-service-vulnerability",
           "author": null,
           "description": "Dormant 32 bit-era coding flaw causes problems for 64-bit systems",
@@ -294,16 +314,6 @@
           "wordCount": 1294,
           "title": "Microsoft confirms zero-day exploits against Exchange Server in ‘limited’ attacks",
           "imageUrl": "https://portswigger.net/cms/images/01/cb/8a4f-twittercard-ms_exchange.jpg"
-        },
-        {
-          "id": "nepxion-discovery-software-with-spring-cloud-functionality-fails-to-patch-rce-info-leak-bugs",
-          "author": null,
-          "description": "Maintainer of Chinese project closes public issue apparently without issuing a fix",
-          "link": "https://portswigger.net/daily-swig/nepxion-discovery-software-with-spring-cloud-functionality-fails-to-patch-rce-info-leak-bugs",
-          "publishedOn": "2022-10-03T11:20:30.000Z",
-          "wordCount": 1068,
-          "title": "Nepxion Discovery software with Spring Cloud functionality fails to patch RCE, info leak bugs",
-          "imageUrl": "https://portswigger.net/cms/images/ca/03/53f0-twittercard-220330-spring-cloud-main.png"
         }
       ]
     },
@@ -312,6 +322,61 @@
       "feedUrl": "https://feeds.feedburner.com/TheHackersNews",
       "siteUrl": "https://thehackernews.com/",
       "articles": [
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7693969617983831085",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "The OpenSSL project has rolled out fixes to contain two high-severity flaws in its widely used cryptography library that could result in a denial-of-service (DoS) and remote code execution.\nThe issues, tracked as CVE-2022-3602 and CVE-2022-3786, have been described as buffer overrun vulnerabilities that can be triggered during X.509 certificate verification by supplying a specially-crafted email",
+          "link": "https://thehackernews.com/2022/11/just-in-openssl-releases-patch-for-2.html",
+          "publishedOn": "2022-11-01T16:26:00.000Z",
+          "wordCount": null,
+          "title": "OpenSSL Releases Patch for 2 New High-Severity Vulnerabilities",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6603873800888771725",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "Microsoft on Tuesday said it addressed an authentication bypass vulnerability in Jupyter Notebooks for Azure Cosmos DB that enabled full read and write access.\nThe tech giant said the problem was introduced on August 12, 2022, and rectified worldwide on October 6, 2022, two days after responsible disclosure from Orca Security, which dubbed the flaw CosMiss.\n\"In short, if an attacker had",
+          "link": "https://thehackernews.com/2022/11/researchers-disclose-details-of.html",
+          "publishedOn": "2022-11-01T15:54:00.000Z",
+          "wordCount": null,
+          "title": "Researchers Disclose Details of Critical 'CosMiss' RCE Flaw Affecting Azure Cosmos DB",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2447533469007706973",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "The Chinese state-sponsored threat actor known as Stone Panda has been observed employing a new stealthy infection chain in its attacks aimed at Japanese entities.\nTargets include media, diplomatic, governmental and public sector organizations and think-tanks in Japan, according to twin reports published by Kaspersky.\nStone Panda, also called APT10, Bronze Riverside, Cicada, and Potassium, is a",
+          "link": "https://thehackernews.com/2022/11/chinese-hackers-using-new-stealthy.html",
+          "publishedOn": "2022-11-01T15:15:00.000Z",
+          "wordCount": null,
+          "title": "Chinese Hackers Using New Stealthy Infection Chain to Deploy LODEINFO Malware",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4805991546642713055",
+          "author": "noreply@blogger.com (The Hacker News)",
+          "description": "Linus Torvalds, the creator of Linux and Git, has his own law in software development, and it goes like this: \"given enough eyeballs, all bugs are shallow.\" This phrase puts the finger on the very principle of open source: the more, the merrier - if the code is easily available for anyone and everyone to fix bugs, it's pretty safe. But is it? Or is the saying \"all bugs are shallow\" only true for",
+          "link": "https://thehackernews.com/2022/11/last-years-open-source-tomorrows.html",
+          "publishedOn": "2022-11-01T12:04:00.000Z",
+          "wordCount": null,
+          "title": "Last Years Open Source - Tomorrow's Vulnerabilities",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2142406894735240789",
+          "author": "noreply@blogger.com (Ravie Lakshmanan)",
+          "description": "IT service management software platform ConnectWise has released Software patches for a critical security vulnerability in Recover and R1Soft Server Backup Manager (SBM).\nThe issue, characterized as a \"neutralization of Special Elements in Output Used by a Downstream Component,\" could be abused to result in the execution of remote code or disclosure of sensitive information.\nConnectWise's",
+          "link": "https://thehackernews.com/2022/11/critical-rce-vulnerability-reported-in.html",
+          "publishedOn": "2022-11-01T11:28:00.000Z",
+          "wordCount": null,
+          "title": "Critical RCE Vulnerability Reported in ConnectWise Server Backup Solution",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3512391445185373816",
           "author": "noreply@blogger.com (Ravie Lakshmanan)",
@@ -1631,39 +1696,6 @@
           "title": "Comm100 Chat Provider Hijacked to Spread Malware in Supply Chain Attack",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4290291613995231383",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "The recently discovered Linux-Based ransomware strain known as Cheerscrypt has been outed as a handiwork of a Chinese cyber espionage group known for operating short-lived ransomware schemes.\nCybersecurity firm Sygnia attributed the attacks to a threat actor it tracks under the name Emperor Dragonfly, which is also known as Bronze Starlight (Secureworks) and DEV-0401 (Microsoft).\n\"Emperor",
-          "link": "https://thehackernews.com/2022/10/researchers-link-cheerscrypt-linux.html",
-          "publishedOn": "2022-10-03T12:56:00.000Z",
-          "wordCount": null,
-          "title": "Researchers Link Cheerscrypt Linux-Based Ransomware to Chinese Hackers",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-155750692129179442",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "The North Korea-backed Lazarus Group has been observed deploying a Windows rootkit by taking advantage of an exploit in a Dell firmware driver, highlighting new tactics adopted by the state-sponsored adversary.\nThe Bring Your Own Vulnerable Driver (BYOVD) attack, which took place in the autumn of 2021, is another variant of the threat actor's espionage-oriented activity called Operation In(ter)",
-          "link": "https://thehackernews.com/2022/10/hackers-exploiting-dell-driver.html",
-          "publishedOn": "2022-10-03T10:56:00.000Z",
-          "wordCount": null,
-          "title": "Hackers Exploiting Dell Driver Vulnerability to Deploy Rootkit on Targeted Computers",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6149307598619253057",
-          "author": "noreply@blogger.com (Ravie Lakshmanan)",
-          "description": "A former U.S. National Security Agency (NSA) employee has been arrested on charges of attempting to sell classified information to a foreign spy, who was actually an undercover agent working for the Federal Bureau of Investigation (FBI).\nJareh Sebastian Dalke, 30, was employed at the NSA for less than a month from June 6, 2022, to July 1, 2022, serving as an Information Systems Security Designer",
-          "link": "https://thehackernews.com/2022/10/ex-nsa-employee-arrested-for-trying-to.html",
-          "publishedOn": "2022-10-03T09:51:00.000Z",
-          "wordCount": null,
-          "title": "Ex-NSA Employee Arrested for Trying to Sell U.S. Secrets to a Foreign Government",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -1672,6 +1704,76 @@
       "feedUrl": "https://feeds.feedburner.com/securityweek",
       "siteUrl": "https://www.securityweek.com",
       "articles": [
+        {
+          "id": "25997 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "A missing authentication check vulnerability in Azure Cosmos DB could have allowed an attacker to execute arbitrary code remotely, Orca Security warns.\nAzure Cosmos DB is a NoSQL database used on e-commerce platforms to store catalog data, and in order processing pipelines for event sourcing.\nread more",
+          "link": "https://www.securityweek.com/microsoft-patches-azure-cosmos-db-flaw-leading-remote-code-execution",
+          "publishedOn": "2022-11-01T19:34:59.000Z",
+          "wordCount": 1353,
+          "title": "Microsoft Patches Azure Cosmos DB Flaw Leading to Remote Code Execution",
+          "imageUrl": null
+        },
+        {
+          "id": "25996 at https://www.securityweek.com",
+          "author": "Eduard Kovacs",
+          "description": "read more",
+          "link": "https://www.securityweek.com/anxiously-awaited-openssl-vulnerabilitys-severity-downgraded-critical-high",
+          "publishedOn": "2022-11-01T16:43:06.000Z",
+          "wordCount": 1806,
+          "title": "Anxiously Awaited OpenSSL Vulnerability's Severity Downgraded From Critical to High",
+          "imageUrl": null
+        },
+        {
+          "id": "25995 at https://www.securityweek.com",
+          "author": "Jeff Orloff",
+          "description": "Faced with the daily barrage of reports on new security threats, it is important to keep in mind that while some are potentially disastrous, many are harmless or irrelevant to individual organizations.\nread more",
+          "link": "https://www.securityweek.com/tailoring-security-training-specific-kinds-threats",
+          "publishedOn": "2022-11-01T13:30:25.000Z",
+          "wordCount": 1702,
+          "title": "Tailoring Security Training to Specific Kinds of Threats",
+          "imageUrl": null
+        },
+        {
+          "id": "25994 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "The Federal Trade Commission (FTC) this week announced that it has reached an agreement with education technology provider Chegg over the company’s cybersecurity failures leading to several data breaches.\nread more",
+          "link": "https://www.securityweek.com/ftc-orders-chegg-improve-security-following-multiple-data-breaches",
+          "publishedOn": "2022-11-01T13:07:58.000Z",
+          "wordCount": 1415,
+          "title": "FTC Orders Chegg to Improve Security Following Multiple Data Breaches",
+          "imageUrl": null
+        },
+        {
+          "id": "25993 at https://www.securityweek.com",
+          "author": "Eduard Kovacs",
+          "description": "Bed Bath & Beyond revealed last week in an SEC filing that it recently suffered a data breach after an employee fell victim to a phishing attack.\nread more",
+          "link": "https://www.securityweek.com/bed-bath-beyond-investigating-data-breach-after-employee-falls-phishing-attack",
+          "publishedOn": "2022-11-01T12:10:08.000Z",
+          "wordCount": 1291,
+          "title": "Bed Bath & Beyond Investigating Data Breach After Employee Falls for Phishing Attack",
+          "imageUrl": null
+        },
+        {
+          "id": "25992 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "The Cybersecurity and Infrastructure Security Agency (CISA), the National Security Agency (NSA), and the Office of the Director of National Intelligence (ODNI) this week released the second part of a three-part joint guidance on securing the software supply chain.\nread more",
+          "link": "https://www.securityweek.com/us-gov-issues-supply-chain-security-guidance-software-suppliers",
+          "publishedOn": "2022-11-01T11:47:41.000Z",
+          "wordCount": 1384,
+          "title": "US Gov Issues Supply Chain Security Guidance for Software Suppliers",
+          "imageUrl": null
+        },
+        {
+          "id": "25991 at https://www.securityweek.com",
+          "author": "Eduard Kovacs",
+          "description": "Organizations are more confident in their ability to detect an OT breach\nread more",
+          "link": "https://www.securityweek.com/engineering-workstations-used-initial-access-vector-many-icsot-attacks-survey",
+          "publishedOn": "2022-11-01T11:32:06.000Z",
+          "wordCount": 1519,
+          "title": "Engineering Workstations Used as Initial Access Vector in Many ICS/OT Attacks: Survey",
+          "imageUrl": null
+        },
         {
           "id": "25990 at https://www.securityweek.com",
           "author": "Associated Press",
@@ -3461,46 +3563,6 @@
           "wordCount": 1303,
           "title": "Supply Chain Attack Targets Customer Engagement Firm Comm100",
           "imageUrl": null
-        },
-        {
-          "id": "25811 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "Australian telecommunications company Optus says that 2.1 million of its customers had numbers associated with their identification documents compromised in a recent data breach.\nread more",
-          "link": "https://www.securityweek.com/optus-says-id-numbers-21-million-compromised-data-breach",
-          "publishedOn": "2022-10-03T13:14:32.000Z",
-          "wordCount": 1340,
-          "title": "Optus Says ID Numbers of 2.1 Million Compromised in Data Breach",
-          "imageUrl": null
-        },
-        {
-          "id": "25810 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "The United States Cybersecurity and Infrastructure Security Agency (CISA) is warning of the active exploitation of a recent Atlassian Bitbucket vulnerability and two Microsoft Exchange zero-days.\nAtlassian Bitbucket is a Git-based repository management solution that provides source code hosting and sharing capabilities.\nread more",
-          "link": "https://www.securityweek.com/cisa-warns-attacks-exploiting-recent-atlassian-bitbucket-vulnerability",
-          "publishedOn": "2022-10-03T10:49:58.000Z",
-          "wordCount": 1296,
-          "title": "CISA Warns of Attacks Exploiting Recent Atlassian Bitbucket Vulnerability",
-          "imageUrl": null
-        },
-        {
-          "id": "25809 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "North Korean state-sponsored hacking group Lazarus was seen exploiting a Dell DBUtil driver vulnerability to disable the security mechanisms on the targeted Windows machines.\nread more",
-          "link": "https://www.securityweek.com/north-korean-hackers-exploit-dell-driver-vulnerability-disable-windows-security",
-          "publishedOn": "2022-10-03T10:29:07.000Z",
-          "wordCount": 1349,
-          "title": "North Korean Hackers Exploit Dell Driver Vulnerability to Disable Windows Security",
-          "imageUrl": null
-        },
-        {
-          "id": "25808 at https://www.securityweek.com",
-          "author": "Eduard Kovacs",
-          "description": "Microsoft has been investigating the attacks exploiting the new Exchange Server zero-day vulnerabilities and believes that a single state-sponsored threat group has been using them in highly targeted attacks.\nread more",
-          "link": "https://www.securityweek.com/microsoft-links-exploitation-exchange-zero-days-state-sponsored-hacker-group",
-          "publishedOn": "2022-10-03T10:13:34.000Z",
-          "wordCount": 1471,
-          "title": "Microsoft Links Exploitation of Exchange Zero-Days to State-Sponsored Hacker Group",
-          "imageUrl": null
         }
       ]
     },
@@ -3632,16 +3694,6 @@
           "wordCount": 15291,
           "title": "Vulnerability Summary for the Week of October 3, 2022",
           "imageUrl": null
-        },
-        {
-          "id": "18030 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: October 3, 2022 | Last revised: October 5, 2022\n \nHigh Vulnerabilities\nPrimary\nDescription\n\t\t\tPublished\n\t\t\tCVSS Score\n\t\t\tSource & Patch Info\n\t\t\nacer -- altos_t110_f3\n\t\t\tThere is a stack buffer overflow vulnerability, which could lead to arbitrary code execution in UEFI DXE driver on some Acer products. An attack could exploit this vulnerability to escalate privilege from ring 3 to ring 0, and hijack control flow during UEFI DXE execution. This affects Altos T110 F3 firmware version <= P13 (latest) and AP130 F2 firmware version <= P04 (latest) and Aspire 1600X firmware version <= P11.A3L (latest) and Aspire 1602M firmware version <= P11.A3L (latest) and Aspire 7600U firmware version <= P11.A4 (latest) and Aspire MC605 firmware version <= P11.A4L (latest) and Aspire TC…",
-          "link": "https://us-cert.cisa.gov/ncas/bulletins/sb22-276",
-          "publishedOn": "2022-10-03T12:56:17.000Z",
-          "wordCount": 26077,
-          "title": "Vulnerability Summary for the Week of September 26, 2022",
-          "imageUrl": null
         }
       ]
     },
@@ -3656,6 +3708,36 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://us-cert.cisa.gov/",
       "articles": [
+        {
+          "id": "18120 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: November 1, 2022\nOpenSSL has released a security advisory to address two vulnerabilities, CVE-2022-3602 and CVE-2022-3786, affecting OpenSSL versions 3.0.0 through 3.0.6.\nBoth CVE-2022-3602 and CVE-2022-3786 can cause a denial of service. According to OpenSSL, a cyber threat actor leveraging CVE-2022-3786, \"can craft a malicious email address to overflow four attacker-controlled bytes on the stack. This buffer overflow could result in a crash (causing a denial of service) or potentially remote code execution,\" allowing them to take control of an affected system.\nCISA encourages users and administrators to review the OpenSSL advisory, blog, OpenSSL 3.0.7 announcement, and upgrade to OpenSSL 3.0.7. For additional information on affected products, see the 2022 OpenSSL vulnerability - CVE-2022-3602 GitHub repository, jointly maintained by the Netherland's National Cyber Security Centrum (NCSC-NL) and CISA.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/11/01/openssl-releases-security-update",
+          "publishedOn": "2022-11-01T19:57:55.000Z",
+          "wordCount": 960,
+          "title": "OpenSSL Releases Security Update",
+          "imageUrl": null
+        },
+        {
+          "id": "18119 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: November 1, 2022\nToday, CISA officially upgraded to Traffic Light Protocol (TLP) 2.0, which facilitates greater information sharing and collaboration. CISA made this upgrade in accordance with the recommendation from the Forum of Incident Response and Security Teams to upgrade to TLP 2.0 by January 2023.\nKey TLP 2.0 updates:\nTLP 2.0 changes TLP:WHITE to TLP:CLEAR.\nTLP 2.0 adds the designation TLP:AMBER+STRICT, which instructs the recipient to keep the information strictly within their organization only.\nNote: CISA’s Automated Indicator Sharing (AIS) capability will not update from TLP 1.0 to TLP 2.0 until March 2023. This exception includes AIS’s use of the following open standards: the Structured Threat Information Expression (STIX™) for cyber threat indicators and defensive measures information and the Trusted Automated Exchange of Intelligence Information (TAXII™) for machine-to-machine communications.\nCISA encourage all individuals and organizations in the cybersecurity community to adopt TLP 2.0. For more information, see CISA’s TLP webpage, www.cisa.gov/tlp and FIRST's TLP webpage, https://www.first.org/tlp/.\n \nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/11/01/cisa-upgrades-tlp-20",
+          "publishedOn": "2022-11-01T15:28:37.000Z",
+          "wordCount": 992,
+          "title": "CISA Upgrades to TLP 2.0",
+          "imageUrl": null
+        },
+        {
+          "id": "18118 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: November 1, 2022\nCISA released one Industrial Control Systems (ICS) advisory on November 1, 2022. This advisory provides timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nCISA encourages users and administrators to review the newly released ICS advisory for technical details and mitigations:\nICSA-22-221-01 Mitsubishi Electric Multiple Factory Automation Products (Update C)\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/11/01/cisa-releases-one-industrial-control-systems-advisory",
+          "publishedOn": "2022-11-01T14:44:56.000Z",
+          "wordCount": 896,
+          "title": "CISA Releases One Industrial Control Systems Advisory",
+          "imageUrl": null
+        },
         {
           "id": "18116 at https://us-cert.cisa.gov",
           "author": "CISA",
@@ -3985,16 +4067,6 @@
           "wordCount": 918,
           "title": "CISA Releases Five Industrial Control Systems Advisories",
           "imageUrl": null
-        },
-        {
-          "id": "18031 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: October 3, 2022\nCISA has issued Binding Operational Directive (BOD) 23-01: Improving Asset Visibility and Vulnerability Detection on Federal Networks, which seeks improve asset visibility and vulnerability enumeration across the federal enterprise.\nAlthough BOD 23-01 is only applicable to federal civilian executive branch (FCEB) agencies, CISA recommends all stakeholders review and incorporate the standards it sets forth. Doing so will ensure asset management and vulnerability detection practices that will strengthen their organization’s cyber resilience.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/10/03/cisa-issues-binding-operational-directive-23-01-improving-asset",
-          "publishedOn": "2022-10-03T13:31:47.000Z",
-          "wordCount": 944,
-          "title": "CISA Issues Binding Operational Directive 23-01: Improving Asset Visibility and Vulnerability Detection on Federal Networks",
-          "imageUrl": null
         }
       ]
     },
@@ -4003,6 +4075,231 @@
       "feedUrl": "https://www.darkreading.com/rss.xml",
       "siteUrl": "https://www.darkreading.com",
       "articles": [
+        {
+          "id": "https://www.darkreading.com/risk/disclosed-openssl-bugs-serious-not-critical",
+          "author": "Jai Vijayan, Contributing Writer, Dark Reading",
+          "description": "Organizations should update to the latest encryption (version 3.0.7) as soon as possible, but there's no need for Heartbleed-like panic, security experts say.",
+          "link": "https://www.darkreading.com/risk/disclosed-openssl-bugs-serious-not-critical",
+          "publishedOn": "2022-11-01T20:46:00.000Z",
+          "wordCount": 14335,
+          "title": "The Sky Is Not Falling: Disclosed OpenSSL Bugs Are Serious but Not Critical",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/bed-bath-beyond-discloses-data-breach-to-sec",
+          "author": "Dark Reading Staff, Dark Reading",
+          "description": "The retailer reported that an employee fell for a phishing scam, allowing malicious actors to access shared drives.",
+          "link": "https://www.darkreading.com/attacks-breaches/bed-bath-beyond-discloses-data-breach-to-sec",
+          "publishedOn": "2022-11-01T20:46:00.000Z",
+          "wordCount": 10908,
+          "title": "Bed Bath & Beyond Discloses Data Breach to SEC",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/dr-tech/now-that-edr-is-obvious-what-comes-next-",
+          "author": "Will Lin, Managing Director, Forgepoint Capital",
+          "description": "First in our series addressing the top 10 unanswered questions in security: What's going to replace EDR?",
+          "link": "https://www.darkreading.com/dr-tech/now-that-edr-is-obvious-what-comes-next-",
+          "publishedOn": "2022-11-01T19:44:05.000Z",
+          "wordCount": 12647,
+          "title": "Now That EDR Is Obvious, What Comes Next?",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf0170a00c1b3498b/629e1adbe1408e6bcc72a6d6/will-lin-forgepoint.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf0170a00c1b3498b/629e1adbe1408e6bcc72a6d6/will-lin-forgepoint.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/careers-and-people/layoffs-mount-cybersecurity-vendors-hunker-down",
+          "author": "Robert Lemos, Contributing Writer, Dark Reading",
+          "description": "With the vast majority of business leaders expecting a recession in 2023, cybersecurity firms are bolstering their operations and cash flow by laying off workers.",
+          "link": "https://www.darkreading.com/careers-and-people/layoffs-mount-cybersecurity-vendors-hunker-down",
+          "publishedOn": "2022-11-01T17:20:00.000Z",
+          "wordCount": 14334,
+          "title": "Layoffs Mount as Cybersecurity Vendors Hunker Down",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png"
+        },
+        {
+          "id": "https://www.darkreading.com/risk/how-retailers-can-stay-protected-during-the-most-wonderful-time-of-the-year",
+          "author": "Jordan Mauriello, Chief Security Officer, Critical Start",
+          "description": "Retailers' new holiday jingle must hit cybersecurity high points to help survive the season. Forget Dasher and Dancer — add SAST and DAST to app testing; manage third-party risks; and use MFA along with training and proper authentication to secure credentials.",
+          "link": "https://www.darkreading.com/risk/how-retailers-can-stay-protected-during-the-most-wonderful-time-of-the-year",
+          "publishedOn": "2022-11-01T17:00:00.000Z",
+          "wordCount": 13717,
+          "title": "How Retailers Can Stay Protected During the Most Wonderful Time of the Year",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf0455c7e071a6a12/63602712d764e30582dc2507/Jordan_Mauriello.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf0455c7e071a6a12/63602712d764e30582dc2507/Jordan_Mauriello.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/ftc-chegg-careless-cybersecurity-students",
+          "author": "Dark Reading Staff, Dark Reading",
+          "description": "Ed-tech company Chegg is ordered by FTC to secure its systems after repeated breaches that exposed tens of millions of users' personal data.",
+          "link": "https://www.darkreading.com/attacks-breaches/ftc-chegg-careless-cybersecurity-students",
+          "publishedOn": "2022-11-01T17:00:00.000Z",
+          "wordCount": 11000,
+          "title": "FTC Gives Chegg an 'F' for Careless Cybersecurity Impacting 40M Students",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/edge-articles/name-that-edge-toon-talk-turkey",
+          "author": "John Klossner, Cartoonist",
+          "description": "Come up with a clever caption, and our panel of experts will reward the winner with a $25 Amazon gift card.",
+          "link": "https://www.darkreading.com/edge-articles/name-that-edge-toon-talk-turkey",
+          "publishedOn": "2022-11-01T15:30:05.000Z",
+          "wordCount": 10628,
+          "title": "Name That Edge Toon: Talk Turkey",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf97d71984b60d7ed/60b1e88b5d34de550780a96e/Klossner_iwk_photo.gif",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf97d71984b60d7ed/60b1e88b5d34de550780a96e/Klossner_iwk_photo.gif"
+        },
+        {
+          "id": "https://www.darkreading.com/ics-ot/network-perception-and-check-point-software-technologies-partner-to-tighten-the-security-of-ot-firewall-environments",
+          "author": null,
+          "description": "Integrated OT solution streamlines the auditing of firewalls for misconfigurations and conflicting rules.",
+          "link": "https://www.darkreading.com/ics-ot/network-perception-and-check-point-software-technologies-partner-to-tighten-the-security-of-ot-firewall-environments",
+          "publishedOn": "2022-11-01T15:10:04.000Z",
+          "wordCount": 11697,
+          "title": "Network Perception and Check Point Software Technologies Partner to Tighten the Security of OT Firewall Environments",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/threat-intelligence/china-backed-apt10-spy-game-custom-fileless-backdoor",
+          "author": "Elizabeth Montalbano, Contributor, Dark Reading",
+          "description": "The sophisticated and ever-evolving threat known as LodeInfo is being deployed against media, diplomatic, government, public sector, and think-tank targets.",
+          "link": "https://www.darkreading.com/threat-intelligence/china-backed-apt10-spy-game-custom-fileless-backdoor",
+          "publishedOn": "2022-11-01T14:45:03.000Z",
+          "wordCount": 14425,
+          "title": "China-Backed APT10 Supercharges Spy Game With Custom Fileless Backdoor",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbfd004d139d42d70/6303bca6236c2476a257760e/ElizabethMontalbano.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbfd004d139d42d70/6303bca6236c2476a257760e/ElizabethMontalbano.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/cloud/where-are-all-of-the-container-breaches-",
+          "author": "Michael Clark, Director of Threat Research, Sysdig",
+          "description": "Containers and their supporting infrastructure are too important to ignore.",
+          "link": "https://www.darkreading.com/cloud/where-are-all-of-the-container-breaches-",
+          "publishedOn": "2022-11-01T14:00:00.000Z",
+          "wordCount": 13669,
+          "title": "Where Are All of the Container Breaches?",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt6807682fe7a0aa31/635c2ebfa08d2c063476661c/MichaelClark.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt6807682fe7a0aa31/635c2ebfa08d2c063476661c/MichaelClark.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/risk/online-holiday-shopping-frenzy-study-shows-1-in-3-americans-tend-to-take-more-risks-when-shopping-online-during-holiday-season",
+          "author": null,
+          "description": "36% of Americans have fallen victim to holiday shopping scams.",
+          "link": "https://www.darkreading.com/risk/online-holiday-shopping-frenzy-study-shows-1-in-3-americans-tend-to-take-more-risks-when-shopping-online-during-holiday-season",
+          "publishedOn": "2022-11-01T13:43:50.000Z",
+          "wordCount": 13249,
+          "title": "Online Holiday Shopping Frenzy: Study Shows 1 in 3 Americans Tend to Take More Risks When Shopping Online During Holiday Season",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/operations/critical-start-launches-new-managed-siem-service",
+          "author": null,
+          "description": "New offering goes beyond industry requirements to help maximize the value of SIEM investments.",
+          "link": "https://www.darkreading.com/operations/critical-start-launches-new-managed-siem-service",
+          "publishedOn": "2022-11-01T13:41:19.000Z",
+          "wordCount": 12943,
+          "title": "Critical Start® Launches New Managed SIEM Service",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/cloud/fitstack-a-new-solution-for-code-and-container-risk-management-launches-with-support-from-varsity-venture-studio",
+          "author": null,
+          "description": "FitStack offers a SaaS-based platform — supporting both cloud native and on-prem environments — to take risk and vulnerability out of application development.",
+          "link": "https://www.darkreading.com/cloud/fitstack-a-new-solution-for-code-and-container-risk-management-launches-with-support-from-varsity-venture-studio",
+          "publishedOn": "2022-11-01T13:38:01.000Z",
+          "wordCount": 12371,
+          "title": "FitStack, a New Solution For Code and Container Risk Management, Launches With Support From Varsity Venture Studio",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/vulnerabilities-threats/can-you-nudge-employees-toward-better-cybersecurity-new-research-says-yes",
+          "author": null,
+          "description": "Nudge Security releases new research conducted in consultation with leading psychologists at Duke University linking employee security behavior with attitudes and emotions.",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/can-you-nudge-employees-toward-better-cybersecurity-new-research-says-yes",
+          "publishedOn": "2022-11-01T13:32:20.000Z",
+          "wordCount": 12234,
+          "title": "Can You Nudge Employees Toward Better Cybersecurity? New Research Says Yes",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/ics-ot/mission-secure-releases-sentinel-5-0-platform-enabling-context-aware-zero-trust-security-for-critical-infrastructure-ot",
+          "author": null,
+          "description": "Announces technology partnership with Verve Industrial.",
+          "link": "https://www.darkreading.com/ics-ot/mission-secure-releases-sentinel-5-0-platform-enabling-context-aware-zero-trust-security-for-critical-infrastructure-ot",
+          "publishedOn": "2022-11-01T13:22:47.000Z",
+          "wordCount": 12412,
+          "title": "Mission Secure Releases Sentinel 5.0 Platform, Enabling Context-Aware, Zero Trust Security for Critical Infrastructure OT",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/careers-and-people/kodiak-robotics-hires-former-google-chief-information-security-officer-gerhard-eschelbeck",
+          "author": null,
+          "description": "Renowned information security expert to lead Kodiak's cyber and data security team, further reinforcing Commitment Kodiak's to cybersecurity.",
+          "link": "https://www.darkreading.com/careers-and-people/kodiak-robotics-hires-former-google-chief-information-security-officer-gerhard-eschelbeck",
+          "publishedOn": "2022-11-01T13:20:35.000Z",
+          "wordCount": 12195,
+          "title": "Kodiak Robotics Hires Former Google Chief Information Security Officer Gerhard Eschelbeck",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/careers-and-people/-isc-expands-dei-initiative-with-international-partnership-agreements",
+          "author": null,
+          "description": "Major partnership program aims to break down barriers and empower underrepresented groups in cybersecurity across the globe.",
+          "link": "https://www.darkreading.com/careers-and-people/-isc-expands-dei-initiative-with-international-partnership-agreements",
+          "publishedOn": "2022-11-01T13:17:18.000Z",
+          "wordCount": 14396,
+          "title": "(ISC)² Expands DEI Initiative with International Partnership Agreements",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/mercy-college-awarded-nsa-research-grant-to-develop-cybersecurity-technology",
+          "author": null,
+          "description": "Grant will be used to design reliable method of reducing cybersecurity gaps that lead to data breaches and develop a training course.",
+          "link": "https://www.darkreading.com/attacks-breaches/mercy-college-awarded-nsa-research-grant-to-develop-cybersecurity-technology",
+          "publishedOn": "2022-11-01T13:11:25.000Z",
+          "wordCount": 12120,
+          "title": "Mercy College Awarded NSA Research Grant to Develop Cybersecurity Technology",
+          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
+        },
         {
           "id": "https://www.darkreading.com/risk/patch-rce-bug-connectwise-server-backup-managers",
           "author": "Jai Vijayan, Contributing Writer, Dark Reading",
@@ -7407,21 +7704,6 @@
             "length": "0"
           },
           "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf97d71984b60d7ed/60b1e88b5d34de550780a96e/Klossner_iwk_photo.gif"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/how-aws-cisco-netflix-sap-are-approaching-cybersecurity-awareness-month",
-          "author": "CJ Moses, Chief Information Security Officer, Amazon Web Services",
-          "description": "This year's theme is \"See Yourself in Cyber,\" and these security folks are using the month to reflect on the personal factor in cybersecurity.",
-          "link": "https://www.darkreading.com/attacks-breaches/how-aws-cisco-netflix-sap-are-approaching-cybersecurity-awareness-month",
-          "publishedOn": "2022-10-03T14:00:00.000Z",
-          "wordCount": 14305,
-          "title": "How AWS, Cisco, Netflix & SAP Are Approaching Cybersecurity Awareness Month",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt977981c7d0d235a2/633707d6d517f360dff9e2fc/CJ_Moses_AWS_CISO_2022-310p.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt977981c7d0d235a2/633707d6d517f360dff9e2fc/CJ_Moses_AWS_CISO_2022-310p.jpg"
         }
       ]
     },
@@ -7430,6 +7712,16 @@
       "feedUrl": "https://www.kb.cert.org/vuls/atomfeed/",
       "siteUrl": "https://kb.cert.org/vuls/",
       "articles": [
+        {
+          "id": "https://kb.cert.org/vuls/id/794340",
+          "author": null,
+          "description": "<h3 id=\"overview\">Overview</h3>\n<p>Two buffer overflow vulnerabilities were discovered in OpenSSL versions 3.0.0 through 3.0.6. These vulnerabilities were introduced in version 3.0.0 with the inclusion of support for punycode email address parsing for X.509 certificates.   OpenSSL's assessment of the severity of the vulnerabilities has <a href=\"https://www.openssl.org/blog/blog/2022/11/01/email-address-overflows/\">reduced from CRITICAL to HIGH</a>, and OpenSSL 3.0.7 addresses the issues.</p>\n<h3 id=\"description\">Description</h3>\n<p>Two buffer overflows have been reported in the OpenSSL 3.0.x branch prior to version 3.0.7 that, when exploited, may lead to denial of services or, in some cases, remote code execution in the vulnerable target environment. OpenSSL client and server implementations that use the vulnerable libraries are affected.  The server implementation also requires that <a href=\"https://www.rfc-editor.org/rfc/rfc4346#appendix-F.1.1\">TLS client authentication</a> is enabled in order to attack, and potentially exploit, a vulnerable target.   <a href=\"https://gist.github.com/FiloSottile/611fc3fa95c3aceebf2580983f76148c\">OpenSSL provides details:</a> </p>\n<pre><code>* Fixed two buffer overflows in punycode decoding functions.\n\n   A buffer overrun can be triggered in X.509 certificate verification,\n   specifically in name constraint checking. Note that this occurs after\n   certificate chain signature verification and requires either a CA to\n   have signed the malicious certificate or for the application to continue\n   certificate verification despite failure to construct a path to a trusted\n   issuer.\n\n   In a TLS client, this can be triggered by connecting to a malicious\n   server.  In a TLS server, this can be triggered if the server requests\n   client authentication and a malicious client connects.\n\n   An attacker can craft a malicious email address to overflow\n   an arbitrary number of bytes containing the `.`  character (decimal 46)\n   on the stack.  This buffer overflow could result in a crash (causing a\n   denial of service).\n   ([CVE-2022-3786])\n\n   An attacker can craft a malicious email address to overflow four\n   attacker-controlled bytes on the stack.  This buffer overflow could\n   result in a crash (causing a denial of service) or potentially remote code\n   execution depending on stack layout for any given platform/compiler.\n   ([CVE-2022-3602])\n</code></pre>\n\n<p>OpenSSL versions 1.1.1 and 1.0.2 are not affected.</p>\n<p>CERT/CC is unaware of any exploitation of this vulnerability at this time.</p>\n<h3 id=\"impact\">Impact</h3>\n<p>Successful exploitation could lead to denial of service or remote execution of arbitrary code in the target environment.</p>\n<h3 id=\"solution\">Solution</h3>\n<p>Any services depending on versions of OpenSSL 3.0.x prior to OpenSSL 3.0.7 should be upgraded to version 3.0.7 or later.  Operators may also consider temporarily disabling TLS client authentication until applying an update.</p>\n<h3 id=\"acknowledgements\">Acknowledgements</h3>\n<p>Thanks to OpenSSL for coordinating and remediating the vulnerability. Polar Bear is credited as having discovered CVE--2022-3602. Viktor Dukhovni is reported as the source of CVE-2022-3786.</p>\n<p>This document was written by Kevin Stephens, Eric Hatleback, Vijay Sarvepalli, and Jeffrey S. Havrilla.</p>",
+          "link": "https://kb.cert.org/vuls/id/794340",
+          "publishedOn": "2022-11-01T23:01:07.697Z",
+          "wordCount": null,
+          "title": "VU#794340: OpenSSL 3.0.0 to 3.0.6 decodes some punycode email addresses in X.509 certificates improperly",
+          "imageUrl": null
+        },
         {
           "id": "https://kb.cert.org/vuls/id/730793",
           "author": null,
@@ -7463,6 +7755,16 @@
       "feedUrl": "https://msrc-blog.microsoft.com/feed/",
       "siteUrl": "https://msrc-blog.microsoft.com",
       "articles": [
+        {
+          "id": "https://msrc-blog.microsoft.com/?p=15092",
+          "author": "msrc",
+          "description": "Summary Microsoft recently fixed an authentication bypass vulnerability in Jupyter Notebooks for Azure Cosmos DB (currently in preview) reported by Orca Security.  Customers not using Jupyter Notebooks (99.8% of Azure Cosmos DB customers do NOT use Jupyter notebooks) were not susceptible to this vulnerability. The bug was introduced on August 12th and fully patched worldwide …\n  Microsoft Mitigates Vulnerability in Jupyter Notebooks for Azure Cosmos DB Read More »",
+          "link": "https://msrc-blog.microsoft.com/2022/11/01/microsoft-mitigates-vulnerability-in-jupyter-notebooks-for-azure-cosmos-db/",
+          "publishedOn": "2022-11-01T13:00:00.000Z",
+          "wordCount": 1907,
+          "title": "Microsoft Mitigates Vulnerability in Jupyter Notebooks for Azure Cosmos DB",
+          "imageUrl": null
+        },
         {
           "id": "https://msrc-blog.microsoft.com/?p=15072",
           "author": "Aanchal Gupta",
@@ -7540,6 +7842,16 @@
       "feedUrl": "https://www.schneier.com/feed/atom",
       "siteUrl": "https://www.schneier.com",
       "articles": [
+        {
+          "id": "https://www.schneier.com/blog/archives/2022/11/irans-digital-surveillance-tools-leaked.html",
+          "author": null,
+          "description": "<p>It&#8217;s Iran&#8217;s turn to have its <a href=\"https://theintercept.com/2022/10/28/iran-protests-phone-surveillance/\">digital surveillance tools leaked</a>:</p>\n<blockquote><p>According to these internal documents, SIAM is a computer system that works behind the scenes of Iranian cellular networks, providing its operators a broad menu of remote commands to alter, disrupt, and monitor how customers use their phones. The tools can slow their data connections to a crawl, break the encryption of phone calls, track the movements of individuals or large groups, and produce detailed metadata summaries of who spoke to whom, when, and where. Such a system could help the government invisibly quash the ongoing protests ­&#8212;or those of tomorrow ­&#8212;an expert who reviewed the SIAM documents told The Intercept...</p></blockquote>",
+          "link": "https://www.schneier.com/blog/archives/2022/11/irans-digital-surveillance-tools-leaked.html",
+          "publishedOn": "2022-11-01T11:24:22.000Z",
+          "wordCount": 925,
+          "title": "Iran’s Digital Surveillance Tools Leaked",
+          "imageUrl": null
+        },
         {
           "id": "https://www.schneier.com/blog/archives/2022/10/apple-only-commits-to-patching-latest-os-version.html",
           "author": null,
@@ -7759,16 +8071,6 @@
           "wordCount": 2527,
           "title": "NSA Employee Charged with Espionage",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.schneier.com/blog/archives/2022/10/detecting-deepfake-audio-by-modeling-the-human-acoustic-tract.html",
-          "author": null,
-          "description": "<p>This is <a href=\"https://www.usenix.org/conference/usenixsecurity22/presentation/blue\">interesting research</a>:</p>\n<blockquote><p>In this paper, we develop a new mechanism for detecting audio deepfakes using techniques from the field of articulatory phonetics. Specifically, we apply fluid dynamics to estimate the arrangement of the human vocal tract during speech generation and show that deepfakes often model impossible or highly-unlikely anatomical arrangements. When parameterized to achieve 99.9% precision, our detection mechanism achieves a recall of 99.5%, correctly identifying all but one deepfake sample in our dataset.</p></blockquote>\n<p>From an <a href=\"https://theconversation.com/deepfake-audio-has-a-tell-researchers-use-fluid-dynamics-to-spot-artificial-imposter-voices-189104\">article...</a></p>",
-          "link": "https://www.schneier.com/blog/archives/2022/10/detecting-deepfake-audio-by-modeling-the-human-acoustic-tract.html",
-          "publishedOn": "2022-10-03T11:25:45.000Z",
-          "wordCount": 2529,
-          "title": "Detecting Deepfake Audio by Modeling the Human Acoustic Tract",
-          "imageUrl": null
         }
       ]
     },
@@ -7777,6 +8079,36 @@
       "feedUrl": "https://ubuntu.com/security/notices/rss.xml",
       "siteUrl": "https://ubuntu.com/security/notices/rss.xml",
       "articles": [
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5710-1",
+          "author": null,
+          "description": "It was discovered that OpenSSL incorrectly handled certain X.509 Email\nAddresses. If a certificate authority were tricked into signing a\nspecially-crafted certificate, a remote attacker could possibly use this\nissue to cause OpenSSL to crash, resulting in a denial of service. The\ndefault compiler options for affected releases reduce the vulnerability to\na denial of service. (CVE-2022-3602, CVE-2022-3786)\n\nIt was discovered that OpenSSL incorrectly handled applications creating\ncustom ciphers via the legacy EVP_CIPHER_meth_new() function. This issue\ncould cause certain applications that mishandled values to the function to\npossibly end up with a NULL cipher and messages in plaintext.\n(CVE-2022-3358)",
+          "link": "https://ubuntu.com/security/notices/USN-5710-1",
+          "publishedOn": "2022-11-01T16:24:36.000Z",
+          "wordCount": 846,
+          "title": "USN-5710-1: OpenSSL vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5709-1",
+          "author": null,
+          "description": "Multiple security issues were discovered in Firefox. If a user were\ntricked into opening a specially crafted website, an attacker could\npotentially exploit these to cause a denial of service, obtain sensitive\ninformation across domains, or execute arbitrary code. (CVE-2022-42927,\nCVE-2022-42928, CVE-2022-42929, CVE-2022-42930, CVE-2022-42932)\n\nIt was discovered that Firefox saved usernames to a plaintext file. A\nlocal user could potentially exploit this to obtain sensitive information.\n(CVE-2022-42931)",
+          "link": "https://ubuntu.com/security/notices/USN-5709-1",
+          "publishedOn": "2022-11-01T13:52:02.000Z",
+          "wordCount": 825,
+          "title": "USN-5709-1: Firefox vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ubuntu.com/security/notices/USN-5708-1",
+          "author": null,
+          "description": "Sönke Huster discovered that an integer overflow vulnerability existed in\nthe WiFi driver stack in the Linux kernel, leading to a buffer overflow. A\nphysically proximate attacker could use this to cause a denial of service\n(system crash) or possibly execute arbitrary code. (CVE-2022-41674)\n\nSönke Huster discovered that a use-after-free vulnerability existed in the\nWiFi driver stack in the Linux kernel. A physically proximate attacker\ncould use this to cause a denial of service (system crash) or possibly\nexecute arbitrary code. (CVE-2022-42719)\n\nSönke Huster discovered that the WiFi driver stack in the Linux kernel did\nnot properly perform reference counting in some situations, leading to a\nuse-after-free vulnerability. A physically proximate attacker could use\nthis to cause a denial of service (system crash) or possibly execute\narbitrary code. (CVE-2022-42720)\n\nSönke Huster discovered that the WiFi driver stack in the Linux kernel did\nnot properly handle BSSID/SSID lists in some situations. A physically\nproximate attacker could use this to cause a denial of service (infinite\nloop). (CVE-2022-42721)\n\nSönke Huster discovered that the WiFi driver stack in the Linux kernel\ncontained a NULL pointer dereference vulnerability in certain situations. A\nphysically proximate attacker could use this to cause a denial of service\n(system crash). This issue only affected Ubuntu 20.04 LTS and Ubuntu 22.10.\n(CVE-2022-42722)",
+          "link": "https://ubuntu.com/security/notices/USN-5708-1",
+          "publishedOn": "2022-11-01T13:15:44.000Z",
+          "wordCount": 2079,
+          "title": "USN-5708-1: backport-iwlwifi-dkms vulnerabilities",
+          "imageUrl": null
+        },
         {
           "id": "https://ubuntu.com/security/notices/USN-5707-1",
           "author": null,
