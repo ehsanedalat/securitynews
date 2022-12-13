@@ -2,10 +2,610 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2022-12-12T01:35:05.725Z</updated>
+    <updated>2022-12-13T01:36:06.421Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Rash of New Ransomware Variants Springs Up in the Wild]]></title>
+        <id>https://www.darkreading.com/remote-workforce/rash-new-ransomware-variants-in-the-wild</id>
+        <link href="https://www.darkreading.com/remote-workforce/rash-new-ransomware-variants-in-the-wild"/>
+        <updated>2022-12-12T23:10:41.000Z</updated>
+        <summary type="html"><![CDATA[Vohuk, ScareCrow, and AESRT add to the ransomware chaos that organizations have to contend with on a daily basis.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5775-1: Vim vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5775-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5775-1"/>
+        <updated>2022-12-12T22:32:53.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Vim uses freed memory in recurisve substitution of
+specially crafted patterns. An attacker could possbly use this to crash Vim
+and cause denial of service. (CVE-2022-2345)
+
+It was discovered that Vim makes illegal memory calls when patterns start
+with an illegal byte. An attacker could possibly use this to crash Vim,
+access or modify memory, or execute arbitrary commands. (CVE-2022-2581)
+
+It was discovered that Vim could be made to crash when parsing invalid line
+numbers. An attacker could possbly use this to crash Vim and cause denial
+of service. (CVE-2022-3099)
+
+It was discovered that Vim uses freed memory when autocmd changes a mark.
+An attacker could possbly use this to crash Vim and cause denial of
+service. (CVE-2022-3256)
+
+It was discovered the Vim uses an incorrect array index when window width
+is negative. A local attacker could possbly use this to crash Vim and cause
+denial of service. (CVE-2022-3324)
+
+It was discoverd that certain buffers could be sent to the wrong window. An
+attacker with local access could use this to send messages to the wrong
+window. (CVE-2022-3591)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Metaparasites & the Dark Web: Scammers Turn on Their Own]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/metaparasites-the-dark-web-scammers-turn-on-their-own</id>
+        <link href="https://www.darkreading.com/threat-intelligence/metaparasites-the-dark-web-scammers-turn-on-their-own"/>
+        <updated>2022-12-12T22:30:11.000Z</updated>
+        <summary type="html"><![CDATA[Sophos research unveiled at Black Hat Europe details a thriving subeconomy of fraud on the cybercrime underground, aimed at Dark Web forum users.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amid Outrage, Rackspace Sends Users Email Touting Its Incident Response]]></title>
+        <id>https://www.darkreading.com/remote-workforce/amid-outrage-rackspace-sends-users-email-touting-incident-response</id>
+        <link href="https://www.darkreading.com/remote-workforce/amid-outrage-rackspace-sends-users-email-touting-incident-response"/>
+        <updated>2022-12-12T22:05:06.000Z</updated>
+        <summary type="html"><![CDATA[More than 10 days after a ransomware attack, affected Rackspace customers are being told the incident had a "limited impact," and have been invited to a webinar for additional details.]]></summary>
+        <author>
+            <name>Becky Bracken, Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shopify Plus Stores Can Easily Add Passwordless Login With Passkeys Support]]></title>
+        <id>https://www.darkreading.com/endpoint/shopify-plus-stores-can-easily-add-passwordless-login-with-passkeys-support</id>
+        <link href="https://www.darkreading.com/endpoint/shopify-plus-stores-can-easily-add-passwordless-login-with-passkeys-support"/>
+        <updated>2022-12-12T20:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Shopify Plus stores can now easily implement passwordless login with Passkeys support to help reduce drop rate and increase conversion using the free OwnID plug-in.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fortinet Releases Security Updates for FortiOS]]></title>
+        <id>18201 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/12/12/fortinet-releases-security-updates-fortios"/>
+        <updated>2022-12-12T19:57:42.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: December 12, 2022
+Fortinet has released security updates to address a heap-based buffer overflow vulnerability (CVE-2022-42475) in FortiOS. An attacker could exploit this vulnerability to take control of an affected system. This vulnerability has been exploited in the wild. 
+CISA encourages users and administrators to review Fortinet security advisory FG-IR-22-368, apply the necessary updates, and validate systems against the IOCs listed in the advisory. 
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fortinet Ships Emergency Patch for Already-Exploited VPN Flaw]]></title>
+        <id>26225 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/fortinet-ships-emergency-patch-already-exploited-vpn-flaw"/>
+        <updated>2022-12-12T18:55:23.000Z</updated>
+        <summary type="html"><![CDATA[Fortinet on Monday issued an emergency patch to cover a severe vulnerability in its FortiOS SSL-VPN product, warning that hackers have already exploited the flaw in the wild.
+read more]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Proofpoint Buys Deception Tech Startup Illusive Networks]]></title>
+        <id>26224 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/proofpoint-buys-deception-tech-startup-illusive-networks"/>
+        <updated>2022-12-12T17:52:33.000Z</updated>
+        <summary type="html"><![CDATA[Enterprise security vendor Proofpoint on Monday announced plans to acquire Illusive Networks, a startup that helped pioneer deception technology to help detect data breaches. Financial terms of the planned acquisition were not disclosed.
+read more]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Demonstrate How EDR and Antivirus Can Be Weaponized Against Users]]></title>
+        <id>https://thehackernews.com/2022/12/researchers-demonstrate-how-edr-and.html</id>
+        <link href="https://thehackernews.com/2022/12/researchers-demonstrate-how-edr-and.html"/>
+        <updated>2022-12-12T17:28:00.000Z</updated>
+        <summary type="html"><![CDATA[High-severity security vulnerabilities have been disclosed in different endpoint detection and response (EDR) and antivirus (AV) products that could be exploited to turn them into data wipers.
+"This wiper runs with the permissions of an unprivileged user yet has the ability to wipe almost any file on a system, including system files, and make a computer completely unbootable," SafeBreach Labs]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black Hat Europe redux: The top web hacking talks for 2022]]></title>
+        <id>black-hat-europe-redux-the-top-web-hacking-talks-for-2022</id>
+        <link href="https://portswigger.net/daily-swig/black-hat-europe-redux-the-top-web-hacking-talks-for-2022"/>
+        <updated>2022-12-12T17:23:08.000Z</updated>
+        <summary type="html"><![CDATA[Catch up on the highlights of last week’s cybersecurity conference]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5774-1: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5774-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5774-1"/>
+        <updated>2022-12-12T16:34:15.000Z</updated>
+        <summary type="html"><![CDATA[Jann Horn discovered that the Linux kernel did not properly track memory
+allocations for anonymous VMA mappings in some situations, leading to
+potential data structure reuse. A local attacker could use this to cause a
+denial of service (system crash) or possibly execute arbitrary code.
+(CVE-2022-42703)
+
+It was discovered that a race condition existed in the instruction emulator
+of the Linux kernel on Arm 64-bit systems. A local attacker could use this
+to cause a denial of service (system crash). (CVE-2022-20422)
+
+It was discovered that the KVM implementation in the Linux kernel did not
+properly handle virtual CPUs without APICs in certain situations. A local
+attacker could possibly use this to cause a denial of service (host system
+crash). (CVE-2022-2153)
+
+Hao Sun and Jiacheng Xu discovere…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Announces Charges, Arrests Over Multi-Million-Dollar Cybercrime Schemes]]></title>
+        <id>26223 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/us-announces-charges-arrests-over-multi-million-dollar-cybercrime-schemes"/>
+        <updated>2022-12-12T16:17:36.000Z</updated>
+        <summary type="html"><![CDATA[The US Department of Justice has announced the arrest of four individuals for their alleged roles in a fraud scheme targeting businesses, banks, and individuals.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What We Can't See Can Hurt Us]]></title>
+        <id>https://www.darkreading.com/edge-articles/what-we-can-t-see-can-hurt-us</id>
+        <link href="https://www.darkreading.com/edge-articles/what-we-can-t-see-can-hurt-us"/>
+        <updated>2022-12-12T16:11:26.000Z</updated>
+        <summary type="html"><![CDATA[Visibility into every environment, including cloud, enables businesses to mitigate operating risks.]]></summary>
+        <author>
+            <name>Joshua Goldfarb, Security and Fraud Architect, F5</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Top 4 SaaS Security Threats for 2023]]></title>
+        <id>https://thehackernews.com/2022/12/top-4-saas-security-threats-for-2023.html</id>
+        <link href="https://thehackernews.com/2022/12/top-4-saas-security-threats-for-2023.html"/>
+        <updated>2022-12-12T15:24:00.000Z</updated>
+        <summary type="html"><![CDATA[With 2022 coming to a close, there is no better time to buckle down and prepare to face the security challenges in the year to come. This past year has seen its fair share of breaches, attacks, and leaks, forcing organizations to scramble to protect their SaaS stacks. March alone saw three different breaches from Microsoft, Hubspot, and Okta. 
+With SaaS sprawl ever growing and becoming more]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Popular WAFs Subverted by JSON Bypass]]></title>
+        <id>https://www.darkreading.com/application-security/popular-wafs-json-bypass</id>
+        <link href="https://www.darkreading.com/application-security/popular-wafs-json-bypass"/>
+        <updated>2022-12-12T15:21:36.000Z</updated>
+        <summary type="html"><![CDATA[Web application firewalls from AWS, Cloudflare, F5, Imperva, and Palo Alto Networks are vulnerable to a database attack using the popular JavaScript Object Notation (JSON) format.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When Companies Compensate the Hackers, We All Foot the Bill]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/when-companies-compensate-the-hackers-we-all-foot-the-bill</id>
+        <link href="https://www.darkreading.com/attacks-breaches/when-companies-compensate-the-hackers-we-all-foot-the-bill"/>
+        <updated>2022-12-12T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ensuring stronger in-house defenses is integral to retaining customer loyalty.]]></summary>
+        <author>
+            <name>Bat El Azerad, CEO and Co-founder, novoShield</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Palo Alto Networks Xpanse Active Attack Surface Management Automatically Remediates Cyber Risks Before They Lead to Cyberattacks]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/palo-alto-networks-xpanse-active-attack-surface-management-automatically-remediates-cyber-risks-before-they-lead-to-cyberattacks-</id>
+        <link href="https://www.darkreading.com/attacks-breaches/palo-alto-networks-xpanse-active-attack-surface-management-automatically-remediates-cyber-risks-before-they-lead-to-cyberattacks-"/>
+        <updated>2022-12-12T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New Cortex Xpanse features give organizations visibility and control of their attack surfaces to discover, evaluate, and address cyber risks.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Potential and Pitfalls of a Federal Privacy Law]]></title>
+        <id>26222 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/potential-and-pitfalls-federal-privacy-law"/>
+        <updated>2022-12-12T14:58:52.000Z</updated>
+        <summary type="html"><![CDATA[Congress is considering a US federal privacy law. It’s been brewing for the last ten years and is getting closer. On July 20, 2022, the House Energy and Commerce Committee overwhelmingly voted (53-2) to advance the American Data Privacy and Protection Act (ADPPA), H.R. 8152, to the full House of Representatives. But there are still problems to navigate.
+read more]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of December 5, 2022]]></title>
+        <id>18200 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/bulletins/sb22-346"/>
+        <updated>2022-12-12T14:49:34.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: December 12, 2022
+ 
+High Vulnerabilities
+Primary
+Description
+			Published
+			CVSS Score
+			Source & Patch Info
+		
+activerecord_project -- activerecord
+			A possible escalation to RCE vulnerability exists when using YAML serialized columns in Active Record < 7.0.3.1, <6.1.6.1, <6.0.5.1 and <5.2.8.1 which could allow an attacker, that can manipulate data in the database (via means like SQL injection), the ability to escalate to an RCE.
+			2022-12-05
+			9.8
+			CVE-2022-32224
+MISC
+MISC
+		
+algan -- prens_student_information_system
+			Algan YazÄ±lÄ±m Prens Student Information System product has an unauthenticated SQL Injection vulnerability.
+			2022-12-02
+			9.8
+			CVE-2022-2807
+CONFIRM
+		
+algan -- prens_student_information_system
+			Algan Yaz?l?m Prens Student Information…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Adds Passkey Support to Chrome for Windows, macOS and Android]]></title>
+        <id>https://thehackernews.com/2022/12/google-adds-passkey-support-to-chrome.html</id>
+        <link href="https://thehackernews.com/2022/12/google-adds-passkey-support-to-chrome.html"/>
+        <updated>2022-12-12T14:24:00.000Z</updated>
+        <summary type="html"><![CDATA[Google has officially begun rolling out support for passkeys, the next-generation passwordless login standard, to its stable version of Chrome web browser.
+"Passkeys are a significantly safer replacement for passwords and other phishable authentication factors," the tech giant's Ali Sarraf said. "They cannot be reused, don't leak in server breaches, and protect users from phishing attacks."
+The]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cryptocurrency Mining Campaign Hits Linux Users with Go-based CHAOS Malware]]></title>
+        <id>https://thehackernews.com/2022/12/cryptocurrency-mining-campaign-hits.html</id>
+        <link href="https://thehackernews.com/2022/12/cryptocurrency-mining-campaign-hits.html"/>
+        <updated>2022-12-12T13:51:00.000Z</updated>
+        <summary type="html"><![CDATA[A cryptocurrency mining attack targeting the Linux operating system also involved the use of an open source remote access trojan (RAT) dubbed CHAOS.
+The threat, which was spotted by Trend Micro in November 2022, remains virtually unchanged in all other aspects, including when it comes to terminating competing malware, security software, and deploying the Monero (XMR) cryptocurrency miner.
+"The]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5756-3: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5756-3</id>
+        <link href="https://ubuntu.com/security/notices/USN-5756-3"/>
+        <updated>2022-12-12T13:44:43.000Z</updated>
+        <summary type="html"><![CDATA[Jann Horn discovered that the Linux kernel did not properly track memory
+allocations for anonymous VMA mappings in some situations, leading to
+potential data structure reuse. A local attacker could use this to cause a
+denial of service (system crash) or possibly execute arbitrary code.
+(CVE-2022-42703)
+
+It was discovered that a memory leak existed in the IPv6 implementation of
+the Linux kernel. A local attacker could use this to cause a denial of
+service (memory exhaustion). (CVE-2022-3524)
+
+It was discovered that a race condition existed in the Bluetooth subsystem
+in the Linux kernel, leading to a use-after-free vulnerability. A local
+attacker could use this to cause a denial of service (system crash) or
+possibly execute arbitrary code. (CVE-2022-3564)
+
+It was discovered that the ISDN implementation of the Linux kernel
+contained a use-after-free vulnerability. A privileged user could use this
+to cause a denial of service (system crash) or possibly execute arbitrary
+code. (CVE-2022-3565)
+
+It was discovered that the TCP implementation in the Linux kernel contained
+a data race condition. An attacker could possibly use this to cause
+undesired behaviors. (CVE-2022-3566)
+
+It was discovered that the IPv6 implementation in the Linux kernel
+contained a data race condition. An attacker could possibly use this to
+cause undesired behaviors. (CVE-2022-3567)
+
+It was discovered that the Realtek RTL8152 USB Ethernet adapter driver in
+the Linux kernel did not properly handle certain error conditions. A local
+attacker with physical access could plug in a specially crafted USB device
+to cause a denial of service (memory exhaustion). (CVE-2022-3594)
+
+It was discovered that a null pointer dereference existed in the NILFS2
+file system implementation in the Linux kernel. A local attacker could use
+this to cause a denial of service (system crash). (CVE-2022-3621)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5773-1: Linux kernel (OEM) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5773-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5773-1"/>
+        <updated>2022-12-12T13:28:12.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the NFSD implementation in the Linux kernel did not
+properly handle some RPC messages, leading to a buffer overflow. A remote
+attacker could use this to cause a denial of service (system crash) or
+possibly execute arbitrary code. (CVE-2022-43945)
+
+Jann Horn discovered that the Linux kernel did not properly track memory
+allocations for anonymous VMA mappings in some situations, leading to
+potential data structure reuse. A local attacker could use this to cause a
+denial of service (system crash) or possibly execute arbitrary code.
+(CVE-2022-42703)
+
+Roger Pau Monné discovered that the Xen virtual block driver in the Linux
+kernel did not properly initialize memory pages to be used for shared
+communication with the backend. A local attacker could use this to expose
+sensit…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Users Warned of New Aerst, ScareCrow, and Vohuk Ransomware Families]]></title>
+        <id>26221 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/users-warned-new-aerst-scarecrow-and-vohuk-ransomware-families"/>
+        <updated>2022-12-12T13:24:50.000Z</updated>
+        <summary type="html"><![CDATA[Fortinet’s security researchers have shared information on three new ransomware families named Aerst, ScareCrow, and Vohuk.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5754-2: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5754-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-5754-2"/>
+        <updated>2022-12-12T13:15:35.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the NFSD implementation in the Linux kernel did not
+properly handle some RPC messages, leading to a buffer overflow. A remote
+attacker could use this to cause a denial of service (system crash) or
+possibly execute arbitrary code. (CVE-2022-43945)
+
+It was discovered that a memory leak existed in the IPv6 implementation of
+the Linux kernel. A local attacker could use this to cause a denial of
+service (memory exhaustion). (CVE-2022-3524)
+
+It was discovered that a race condition existed in the Bluetooth subsystem
+in the Linux kernel, leading to a use-after-free vulnerability. A local
+attacker could use this to cause a denial of service (system crash) or
+possibly execute arbitrary code. (CVE-2022-3564)
+
+It was discovered that the ISDN implementation of the Linux kernel
+contained a use-after-free vulnerability. A privileged user could use this
+to cause a denial of service (system crash) or possibly execute arbitrary
+code. (CVE-2022-3565)
+
+It was discovered that the TCP implementation in the Linux kernel contained
+a data race condition. An attacker could possibly use this to cause
+undesired behaviors. (CVE-2022-3566)
+
+It was discovered that the IPv6 implementation in the Linux kernel
+contained a data race condition. An attacker could possibly use this to
+cause undesired behaviors. (CVE-2022-3567)
+
+It was discovered that the Realtek RTL8152 USB Ethernet adapter driver in
+the Linux kernel did not properly handle certain error conditions. A local
+attacker with physical access could plug in a specially crafted USB device
+to cause a denial of service (memory exhaustion). (CVE-2022-3594)
+
+It was discovered that a null pointer dereference existed in the NILFS2
+file system implementation in the Linux kernel. A local attacker could use
+this to cause a denial of service (system crash). (CVE-2022-3621)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python, JavaScript Developers Targeted With Fake Packages Delivering Ransomware]]></title>
+        <id>26220 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/python-javascript-developers-targeted-fake-packages-delivering-ransomware"/>
+        <updated>2022-12-12T12:46:57.000Z</updated>
+        <summary type="html"><![CDATA[Phylum security researchers warn of a new software supply chain attack relying on typosquatting to target Python and JavaScript developers.
+read more]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rackspace Hit With Lawsuits Over Ransomware Attack]]></title>
+        <id>26219 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/rackspace-hit-lawsuits-over-ransomware-attack"/>
+        <updated>2022-12-12T12:21:29.000Z</updated>
+        <summary type="html"><![CDATA[At least two lawsuits have been filed against Texas-based cloud company Rackspace over the recently disclosed ransomware attack.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Is Finally Encrypting iCloud Backups]]></title>
+        <id>https://www.schneier.com/blog/archives/2022/12/apple-is-finally-encrypting-icloud-backups.html</id>
+        <link href="https://www.schneier.com/blog/archives/2022/12/apple-is-finally-encrypting-icloud-backups.html"/>
+        <updated>2022-12-12T12:00:53.000Z</updated>
+        <summary type="html"><![CDATA[<p>After way too many years, Apple is <i>finally</i> <a href="https://www.theverge.com/2022/12/7/23498580/apple-end-to-end-encryption-icloud-backups-advanced-data-protection">encrypting iCloud backups</a>:</p>
+<blockquote><p>Based on a screenshot from Apple, these categories are covered when you flip on Advanced Data Protection: device backups, messages backups, iCloud Drive, Notes, Photos, Reminders, Safari bookmarks, Siri Shortcuts, Voice Memos, and Wallet Passes. Apple says the only “major” categories not covered by Advanced Data Protection are iCloud Mail, Contacts, and Calendar because “of the need to interoperate with the global email, contacts, and calendar systems,” according to its press release...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Keep Your Grinch at Bay: Here's How to Stay Safe Online this Holiday Season]]></title>
+        <id>https://thehackernews.com/2022/12/keep-your-grinch-at-bay-heres-how-to.html</id>
+        <link href="https://thehackernews.com/2022/12/keep-your-grinch-at-bay-heres-how-to.html"/>
+        <updated>2022-12-12T11:51:00.000Z</updated>
+        <summary type="html"><![CDATA[As the holiday season approaches, online shopping and gift-giving are at the top of many people's to-do lists. But before you hit the "buy" button, it's important to remember that this time of year is also the peak season for cybercriminals.
+In fact, cybercriminals often ramp up their efforts during the holidays, taking advantage of the influx of online shoppers and the general hustle and bustle]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black Hat Europe 2022: Hacking tools showcased at annual security conference]]></title>
+        <id>black-hat-europe-2022-hacking-tools-showcased-at-annual-security-conference</id>
+        <link href="https://portswigger.net/daily-swig/black-hat-europe-2022-hacking-tools-showcased-at-annual-security-conference"/>
+        <updated>2022-12-12T11:41:46.000Z</updated>
+        <summary type="html"><![CDATA[Aids and techniques demonstrated at this year’s arsenal track]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Device Exploits Earn Hackers Nearly $1 Million at Pwn2Own Toronto 2022]]></title>
+        <id>26217 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/device-exploits-earn-hackers-nearly-1-million-pwn2own-toronto-2022"/>
+        <updated>2022-12-12T11:07:20.000Z</updated>
+        <summary type="html"><![CDATA[The Zero Day Initiative’s Pwn2Own Toronto 2022 hacking contest has come to an end, with participants earning nearly $1 million for exploits targeting smartphones, printers, routers, NAS devices, and smart speakers.
+read more]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Royal Ransomware Threat Takes Aim at U.S. Healthcare System]]></title>
+        <id>https://thehackernews.com/2022/12/royal-ransomware-threat-takes-aim-at-us.html</id>
+        <link href="https://thehackernews.com/2022/12/royal-ransomware-threat-takes-aim-at-us.html"/>
+        <updated>2022-12-12T07:57:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. Department of Health and Human Services (HHS) has cautioned of ongoing Royal ransomware attacks targeting healthcare entities in the country.
+"While most of the known ransomware operators have performed Ransomware-as-a-Service, Royal appears to be a private group without any affiliates while maintaining financial motivation as their goal," the agency's Health Sector Cybersecurity]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nearly 4,500 Pulse Connect Secure VPNs Left Unpatched and Vulnerable]]></title>
+        <id>https://www.darkreading.com/remote-workforce/nearly-4-500-pulse-connect-secure-vpns-unpatched-vulnerable-</id>
+        <link href="https://www.darkreading.com/remote-workforce/nearly-4-500-pulse-connect-secure-vpns-unpatched-vulnerable-"/>
+        <updated>2022-12-12T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Pulse Connect VPN server software received several updates over the years, and thousands of hosts haven't patched.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5772-1: QEMU vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5772-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5772-1"/>
+        <updated>2022-12-12T06:51:06.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that QEMU incorrectly handled bulk transfers from SPICE
+clients. A remote attacker could use this issue to cause QEMU to crash,
+resulting in a denial of service, or possibly execute arbitrary code. This
+issue only affected Ubuntu 14.04 ESM and Ubuntu 16.04 ESM. (CVE-2021-3682)
+
+It was discovered that QEMU did not properly manage memory when it
+transfers the USB packets. A malicious guest attacker could use this issue
+to cause QEMU to crash, resulting in a denial of service, or possibly
+execute arbitrary code. This issue only affected Ubuntu 18.04 LTS, Ubuntu
+20.04 LTS and Ubuntu 22.04 LTS. (CVE-2021-3750)
+
+It was discovered that the QEMU SCSI device emulation incorrectly handled
+certain MODE SELECT commands. An attacker inside the guest could possibly
+use this issue to cause QEMU to crash, resulting in a denial of service.
+This issue only affected Ubuntu 14.04 ESM and Ubuntu 16.04 ESM.
+(CVE-2021-3930)
+
+It was discovered that QEMU did not properly manage memory when it
+processing repeated messages to cancel the current SCSI request. A
+malicious privileged guest attacker could use this issue to cause QEMU to
+crash, resulting in a denial of service. (CVE-2022-0216)
+
+It was discovered that QEMU did not properly manage memory when it
+using Tulip device emulation. A malicious guest attacker could use this
+issue to cause QEMU to crash, resulting in a denial of service. This issue
+only affected Ubuntu 22.10. (CVE-2022-2962)
+
+It was discovered that QEMU did not properly manage memory when processing
+ClientCutText messages. A attacker could use this issue to cause QEMU to
+crash, resulting in a denial of service. This issue only affected Ubuntu
+22.04 LTS and Ubuntu 22.10. (CVE-2022-3165)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trilio Raises $17M, Appoints Massood Zarrabian as CEO]]></title>
+        <id>https://www.darkreading.com/cloud/trilio-raises-17m-appoints-massood-zarrabian-as-ceo</id>
+        <link href="https://www.darkreading.com/cloud/trilio-raises-17m-appoints-massood-zarrabian-as-ceo"/>
+        <updated>2022-12-12T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Funding and new leadership to drive innovation and growth in cloud-native application resiliency; round led by SKK Ventures with T-Mobile and Telefonica.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5771-1: Squid regression]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5771-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5771-1"/>
+        <updated>2022-12-12T00:46:49.000Z</updated>
+        <summary type="html"><![CDATA[USN-3557-1 fixed vulnerabilities in Squid. This update introduced a regression
+which could cause the cache log to be filled with many Vary loop messages. This
+update fixes the problem.
+
+We apologize for the inconvenience.
+
+Original advisory details:
+
+Mathias Fischer discovered that Squid incorrectly handled certain long
+strings in headers. A malicious remote server could possibly cause Squid to
+crash, resulting in a denial of service. This issue was only addressed in
+Ubuntu 16.04 LTS. (CVE-2016-2569)
+
+William Lima discovered that Squid incorrectly handled XML parsing when
+processing Edge Side Includes (ESI). A malicious remote server could
+possibly cause Squid to crash, resulting in a denial of service. This issue
+was only addressed in Ubuntu 16.04 LTS. (CVE-2016-2570)
+
+Alex Rousskov discovered that Squid incorrectly handled response-parsing
+failures. A malicious remote server could possibly cause Squid to crash,
+resulting in a denial of service. This issue only applied to Ubuntu 16.04
+LTS. (CVE-2016-2571)
+
+Santiago Ruano Rincón discovered that Squid incorrectly handled certain
+Vary headers. A remote attacker could possibly use this issue to cause
+Squid to crash, resulting in a denial of service. This issue was only
+addressed in Ubuntu 16.04 LTS. (CVE-2016-3948)
+
+Louis Dion-Marcil discovered that Squid incorrectly handled certain Edge
+Side Includes (ESI) responses. A malicious remote server could possibly
+cause Squid to crash, resulting in a denial of service. (CVE-2018-1000024)
+
+Louis Dion-Marcil discovered that Squid incorrectly handled certain Edge
+Side Includes (ESI) responses. A malicious remote server could possibly
+cause Squid to crash, resulting in a denial of service. (CVE-2018-1000027)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[As Wiretap Claims Rattle Government, Greece Bans Spyware]]></title>
+        <id>26218 at https://www.securityweek.com</id>
+        <link href="https://www.securityweek.com/wiretap-claims-rattle-government-greece-bans-spyware"/>
+        <updated>2022-12-11T11:36:02.000Z</updated>
+        <summary type="html"><![CDATA[Lawmakers in Greece on Friday approved legislation banning commercial spyware and reforming rules for legally-sanctioned wiretaps following allegations that senior government officials and journalists had been targeted by shadowy surveillance software. The 156-142 vote in parliament followed two days of debate, during which opposition lawmakers accused the government of attempting to cover up the illegal surveillance.
+read more]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Video: Deep Dive on PIPEDREAM/Incontroller ICS Attack Framework]]></title>
         <id>26216 at https://www.securityweek.com</id>
