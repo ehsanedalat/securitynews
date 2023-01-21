@@ -6,6 +6,26 @@
       "siteUrl": "https://portswigger.net/daily-swig",
       "articles": [
         {
+          "id": "git-security-audit-reveals-critical-overflow-bugs",
+          "author": null,
+          "description": "Uncovered vulnerabilities include several high, medium, and low-security issues",
+          "link": "https://portswigger.net/daily-swig/git-security-audit-reveals-critical-overflow-bugs",
+          "publishedOn": "2023-01-20T15:00:00.000Z",
+          "wordCount": 1243,
+          "title": "Git security audit reveals critical overflow bugs",
+          "imageUrl": "https://portswigger.net/cms/images/b5/b9/27b1-twittercard-230120-git-main_copy.jpg"
+        },
+        {
+          "id": "popular-password-managers-auto-filled-credentials-on-untrusted-websites",
+          "author": null,
+          "description": "Dashlane, Bitwarden, and Safari all cited by Google researchers",
+          "link": "https://portswigger.net/daily-swig/popular-password-managers-auto-filled-credentials-on-untrusted-websites",
+          "publishedOn": "2023-01-20T12:09:52.000Z",
+          "wordCount": 1024,
+          "title": "Popular password managers auto-filled credentials on untrusted websites",
+          "imageUrl": "https://portswigger.net/cms/images/23/51/559e-twittercard-230120-password-manager-main-image.png"
+        },
+        {
           "id": "google-pays-hacker-duo-22k-in-bug-bounties-for-flaws-in-multiple-cloud-projects",
           "author": null,
           "description": "Six payouts issued for bugs uncovered in Theia, Vertex AI, Compute Engine, and Cloud Workstations",
@@ -204,26 +224,6 @@
           "wordCount": 1538,
           "title": "Lean, green coding machine: How sustainable computing drive can reduce attack surfaces",
           "imageUrl": "https://portswigger.net/cms/images/ca/6f/1d7d-twittercard-sustainable_cloud.jpg"
-        },
-        {
-          "id": "zoom-whiteboard-patches-xss-bug",
-          "author": null,
-          "description": "Video conferencing platform fixes cross-site scripting vulnerability",
-          "link": "https://portswigger.net/daily-swig/zoom-whiteboard-patches-xss-bug",
-          "publishedOn": "2022-12-22T12:00:00.000Z",
-          "wordCount": 1138,
-          "title": "Zoom Whiteboard patches XSS bug",
-          "imageUrl": "https://portswigger.net/cms/images/d0/4d/e619-twittercard-200721-zoom-body-text1.jpg"
-        },
-        {
-          "id": "password-theft-bug-chain-patched-in-passwordstate-credential-manager",
-          "author": null,
-          "description": "Flaws could be combined to grab passwords in cleartext",
-          "link": "https://portswigger.net/daily-swig/password-theft-bug-chain-patched-in-passwordstate-credential-manager",
-          "publishedOn": "2022-12-21T16:16:53.000Z",
-          "wordCount": 997,
-          "title": "Password theft bug chain patched in Passwordstate credential manager",
-          "imageUrl": "https://portswigger.net/cms/images/ca/49/8b0c-twittercard-password_manager.jpg"
         }
       ]
     },
@@ -232,6 +232,70 @@
       "feedUrl": "https://feeds.feedburner.com/TheHackersNews",
       "siteUrl": "https://thehackernews.com",
       "articles": [
+        {
+          "id": "https://thehackernews.com/2023/01/roaming-mantis-spreading-mobile-malware.html",
+          "author": "info@thehackernews.com (The Hacker News)",
+          "description": "Threat actors associated with the Roaming Mantis attack campaign have been observed delivering an updated variant of their patent mobile malware known as Wroba to infiltrate Wi-Fi routers and undertake Domain Name System (DNS) hijacking.\nKaspersky, which carried out an analysis of the malicious artifact, said the feature is designed to target specific Wi-Fi routers located in South Korea.",
+          "link": "https://thehackernews.com/2023/01/roaming-mantis-spreading-mobile-malware.html",
+          "publishedOn": "2023-01-20T16:33:00.000Z",
+          "wordCount": null,
+          "title": "Roaming Mantis Spreading Mobile Malware That Hijacks Wi-Fi Routers' DNS Settings",
+          "itunes": {},
+          "enclosure": {
+            "length": "12216320",
+            "type": "image/jpeg",
+            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMaFWe4EaSSiU4iXIpLaHMiaSpY5aFKWh7tXxIZBEdu_gqZC9kl6y6VjUaMzneqGppCzITMkgkakZxTQJSpk2DulXQO4box7uGIgbZvsLKMBH9ZYOobhpHCHsY8k8_G_WzybyjN_-Sa6d6e_k6UwL0RfJc_cRaVBfwlSojpbp7gjF44muevXACUSM6/s1600/dns-hackng.png"
+          },
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMaFWe4EaSSiU4iXIpLaHMiaSpY5aFKWh7tXxIZBEdu_gqZC9kl6y6VjUaMzneqGppCzITMkgkakZxTQJSpk2DulXQO4box7uGIgbZvsLKMBH9ZYOobhpHCHsY8k8_G_WzybyjN_-Sa6d6e_k6UwL0RfJc_cRaVBfwlSojpbp7gjF44muevXACUSM6/s1600/dns-hackng.png"
+        },
+        {
+          "id": "https://thehackernews.com/2023/01/gamaredon-group-launches-cyberattacks.html",
+          "author": "info@thehackernews.com (The Hacker News)",
+          "description": "The Russian state-sponsored cyber espionage group known as Gamaredon has continued its digital onslaught against Ukraine, with recent attacks leveraging the popular messaging app Telegram to strike military and law enforcement sectors in the country.\n\"The Gamaredon group's network infrastructure relies on multi-stage Telegram accounts for victim profiling and confirmation of geographic location,",
+          "link": "https://thehackernews.com/2023/01/gamaredon-group-launches-cyberattacks.html",
+          "publishedOn": "2023-01-20T13:35:00.000Z",
+          "wordCount": null,
+          "title": "Gamaredon Group Launches Cyberattacks Against Ukraine Using Telegram",
+          "itunes": {},
+          "enclosure": {
+            "length": "12216320",
+            "type": "image/jpeg",
+            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigo210ObqgRzhoJott_rD-W6PlRZjR69UbRkcBHHEg2MfpRZcAVhc9mU1yVKjY2lbSSVuIJZyQJa0xjL78pqdWmJL6kdHlqm9wGDNLBE-OQWtM1rDQlkySi8U2M4lAgQ7ZyJlIrFB-JI_p31bBlqc473rf-jIOi-xZXbz_r9VRDOgVy5kx_XjLuvNc/s1600/telegram.png"
+          },
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigo210ObqgRzhoJott_rD-W6PlRZjR69UbRkcBHHEg2MfpRZcAVhc9mU1yVKjY2lbSSVuIJZyQJa0xjL78pqdWmJL6kdHlqm9wGDNLBE-OQWtM1rDQlkySi8U2M4lAgQ7ZyJlIrFB-JI_p31bBlqc473rf-jIOi-xZXbz_r9VRDOgVy5kx_XjLuvNc/s1600/telegram.png"
+        },
+        {
+          "id": "https://thehackernews.com/2023/01/whatsapp-hit-with-55-million-fine-for.html",
+          "author": "info@thehackernews.com (The Hacker News)",
+          "description": "The Irish Data Protection Commission (DPC) on Thursday imposed fresh fines of €5.5 million against Meta's WhatsApp for violating data protection laws when processing users' personal information.\nAt the heart of the ruling is an update to the messaging platform's Terms of Service that was enforced in the days leading to the enforcement of the General Data Protection Regulation (GDPR) in May 2018,",
+          "link": "https://thehackernews.com/2023/01/whatsapp-hit-with-55-million-fine-for.html",
+          "publishedOn": "2023-01-20T12:57:00.000Z",
+          "wordCount": null,
+          "title": "WhatsApp Hit with €5.5 Million Fine for Violating Data Protection Laws",
+          "itunes": {},
+          "enclosure": {
+            "length": "12216320",
+            "type": "image/jpeg",
+            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRz4kDVm5VaETLiETLTj3VvmC3_5X6o5i5Cq9Iddg42Pa1B25uupzm6Yg01u8QzAJ5YC0GXVafkSdmjIMEXlnIuC4tdfsQmrhLXA2AXHxZPuHZsChKdL33rKCjpyG11Dc8TFW02L9vDCYjivXMR_TBrNEhTV_zLv44GoKgZb4bKpITZlALiRRRarn9/s1600/whatsapp-lock.jpg"
+          },
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRz4kDVm5VaETLiETLTj3VvmC3_5X6o5i5Cq9Iddg42Pa1B25uupzm6Yg01u8QzAJ5YC0GXVafkSdmjIMEXlnIuC4tdfsQmrhLXA2AXHxZPuHZsChKdL33rKCjpyG11Dc8TFW02L9vDCYjivXMR_TBrNEhTV_zLv44GoKgZb4bKpITZlALiRRRarn9/s1600/whatsapp-lock.jpg"
+        },
+        {
+          "id": "https://thehackernews.com/2023/01/new-chinese-malware-spotted-exploiting.html",
+          "author": "info@thehackernews.com (The Hacker News)",
+          "description": "A suspected China-nexus threat actor exploited a recently patched vulnerability in Fortinet FortiOS SSL-VPN as a zero-day in attacks targeting a European government entity and a managed service provider (MSP) located in Africa.\nTelemetry evidence gathered by Google-owned Mandiant indicates that the exploitation occurred as early as October 2022, at least nearly two months before fixes were",
+          "link": "https://thehackernews.com/2023/01/new-chinese-malware-spotted-exploiting.html",
+          "publishedOn": "2023-01-20T06:59:00.000Z",
+          "wordCount": null,
+          "title": "Chinese Hackers Exploited Recent Fortinet Flaw as 0-Day to Drop Malware",
+          "itunes": {},
+          "enclosure": {
+            "length": "12216320",
+            "type": "image/jpeg",
+            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-E0mhwa5_OHdJ62OqBYhcaxkuoi-moj81nNUrh0UOHJm386L3icUjGFOdSwXXB8d6udDpJXF2qZ8ienmnlKXK5qhuXOFxIlrwxWBvS7CKVtpVf64tcE9ctXMah_LO0O0cMCPChY0E8fULbKDbHT0wBXgn8hxsqNAZJVEy-doG5sB9Vphm_v2ZHoBF/s1600/malware-attack.png"
+          },
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-E0mhwa5_OHdJ62OqBYhcaxkuoi-moj81nNUrh0UOHJm386L3icUjGFOdSwXXB8d6udDpJXF2qZ8ienmnlKXK5qhuXOFxIlrwxWBvS7CKVtpVf64tcE9ctXMah_LO0O0cMCPChY0E8fULbKDbHT0wBXgn8hxsqNAZJVEy-doG5sB9Vphm_v2ZHoBF/s1600/malware-attack.png"
+        },
         {
           "id": "https://thehackernews.com/2023/01/new-microsoft-azure-vulnerability.html",
           "author": "info@thehackernews.com (The Hacker News)",
@@ -1735,102 +1799,6 @@
             "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCTdxbQKamrLeVc8hOKLC92sJOQ58eChoyDPWiw2hlEPTuoWmCxQ34r8VEIAQ_2djIHM4_TUUWcuV46iloiI94oT2Zi6KYfs9SWDRzZjvw6708AY3Jh8S_Bx1UFHAZ08As4A3KCe4j-mGRRRx9iwnAOwMZWF_aRI0FmMaqgFdmTYG6WFoDI0qjxaCQ/s1600/lastpass.png"
           },
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCTdxbQKamrLeVc8hOKLC92sJOQ58eChoyDPWiw2hlEPTuoWmCxQ34r8VEIAQ_2djIHM4_TUUWcuV46iloiI94oT2Zi6KYfs9SWDRzZjvw6708AY3Jh8S_Bx1UFHAZ08As4A3KCe4j-mGRRRx9iwnAOwMZWF_aRI0FmMaqgFdmTYG6WFoDI0qjxaCQ/s1600/lastpass.png"
-        },
-        {
-          "id": "https://thehackernews.com/2022/12/fin7-cybercrime-syndicate-emerges-as.html",
-          "author": "info@thehackernews.com (The Hacker News)",
-          "description": "An exhaustive analysis of FIN7 has unmasked the cybercrime syndicate's organizational hierarchy, alongside unraveling its role as an affiliate for mounting ransomware attacks.\nIt has also exposed deeper associations between the group and the larger threat ecosystem comprising the now-defunct ransomware DarkSide, REvil, and LockBit families.\nThe highly active threat group, also known as Carbanak,",
-          "link": "https://thehackernews.com/2022/12/fin7-cybercrime-syndicate-emerges-as.html",
-          "publishedOn": "2022-12-22T13:13:00.000Z",
-          "wordCount": null,
-          "title": "FIN7 Cybercrime Syndicate Emerges as Major Player in Ransomware Landscape",
-          "itunes": {},
-          "enclosure": {
-            "length": "12216320",
-            "type": "image/jpeg",
-            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu9YKd02vdFX9q7nH_mj_COAplqIClED8G3-bIqGZfD9uEAVx2YkW4pnR4oTHEKnrj9qtpM11W6mYLnGXvGxEt9IFdVd2PCh0jnop8BOe_IT_acIv-VKs3Q-JjeXkZPvJplINEolBZljwID-Ev26al_uOtbkyFHFd7atp9dyswl66CcZIVuWykjyr6wg/s1600/cyber.png"
-          },
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu9YKd02vdFX9q7nH_mj_COAplqIClED8G3-bIqGZfD9uEAVx2YkW4pnR4oTHEKnrj9qtpM11W6mYLnGXvGxEt9IFdVd2PCh0jnop8BOe_IT_acIv-VKs3Q-JjeXkZPvJplINEolBZljwID-Ev26al_uOtbkyFHFd7atp9dyswl66CcZIVuWykjyr6wg/s1600/cyber.png"
-        },
-        {
-          "id": "https://thehackernews.com/2022/12/the-era-of-cyber-threat-intelligence.html",
-          "author": "info@thehackernews.com (The Hacker News)",
-          "description": "We spent forty years defending ourselves as individuals. Trying to outsmart cybercriminals, outpower them, and when all our efforts failed, only then we considered banding together with our peers to outnumber them.\nCybercriminals don't reinvent themselves each time. Their resources are limited, and they have a limited budget. Therefore they use playbooks to attack many people. Meaning most of",
-          "link": "https://thehackernews.com/2022/12/the-era-of-cyber-threat-intelligence.html",
-          "publishedOn": "2022-12-22T12:39:00.000Z",
-          "wordCount": null,
-          "title": "The Era of Cyber Threat Intelligence Sharing",
-          "itunes": {},
-          "enclosure": {
-            "length": "12216320",
-            "type": "image/jpeg",
-            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6TXiukTztUNl4dkKVwjBxTj-9gRMQqhzh3uB6v-njsmgPBTXr0cF02ZiuMjUWMJJbNE-Ih1XjGIagwNV89HiOCPZ_HvKLzo4j-TNcnjTyd_m-nMe6TFa66zB-YKhO8NoZ6EEeYtPv-cmt1p2kqDaFMok72FRwBkazZUzMt1YUM7t2i95GxJy8tN8y/s1600/cyberthreat.png"
-          },
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6TXiukTztUNl4dkKVwjBxTj-9gRMQqhzh3uB6v-njsmgPBTXr0cF02ZiuMjUWMJJbNE-Ih1XjGIagwNV89HiOCPZ_HvKLzo4j-TNcnjTyd_m-nMe6TFa66zB-YKhO8NoZ6EEeYtPv-cmt1p2kqDaFMok72FRwBkazZUzMt1YUM7t2i95GxJy8tN8y/s1600/cyberthreat.png"
-        },
-        {
-          "id": "https://thehackernews.com/2022/12/critical-security-flaw-reported-in.html",
-          "author": "info@thehackernews.com (The Hacker News)",
-          "description": "Multiple high-severity vulnerabilities have been disclosed in Passwordstate password management solution that could be exploited by an unauthenticated remote adversary to obtain a user's plaintext passwords.\n\"Successful exploitation allows an unauthenticated attacker to exfiltrate passwords from an instance, overwrite all stored passwords within the database, or elevate their privileges within",
-          "link": "https://thehackernews.com/2022/12/critical-security-flaw-reported-in.html",
-          "publishedOn": "2022-12-22T12:02:00.000Z",
-          "wordCount": null,
-          "title": "Critical Security Flaw Reported in Passwordstate Enterprise Password Manager",
-          "itunes": {},
-          "enclosure": {
-            "length": "12216320",
-            "type": "image/jpeg",
-            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgaCPSyzY1sDKD4a7YhOzTAgtYpKNWPslbv5UVX9ifToFSw6NPnkzcrmeIxV6p7oBgq8t5VrQ3NCGrRLgf5f3i1cAtzhkzd2_FsikfJSuyjjXl_H4yYSokSGVgBG-0anRNF7noeYvaTXopcxriyrle5Hc2iDIh87tPQ0HKgwz80loYsR3rmzTDtJp3ow/s1600/password.png"
-          },
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgaCPSyzY1sDKD4a7YhOzTAgtYpKNWPslbv5UVX9ifToFSw6NPnkzcrmeIxV6p7oBgq8t5VrQ3NCGrRLgf5f3i1cAtzhkzd2_FsikfJSuyjjXl_H4yYSokSGVgBG-0anRNF7noeYvaTXopcxriyrle5Hc2iDIh87tPQ0HKgwz80loYsR3rmzTDtJp3ow/s1600/password.png"
-        },
-        {
-          "id": "https://thehackernews.com/2022/12/two-new-security-flaws-reported-in.html",
-          "author": "info@thehackernews.com (The Hacker News)",
-          "description": "Cybersecurity researchers have detailed two security flaws in the JavaScript-based blogging platform known as Ghost, one of which could be abused to elevate privileges via specially crafted HTTP requests.\nTracked as CVE-2022-41654 (CVSS score: 8.5), the authentication bypass vulnerability allows unprivileged users (i.e., members) to make unauthorized modifications to newsletter settings.\nCisco",
-          "link": "https://thehackernews.com/2022/12/two-new-security-flaws-reported-in.html",
-          "publishedOn": "2022-12-22T10:09:00.000Z",
-          "wordCount": null,
-          "title": "Two New Security Flaws Reported in Ghost CMS Blogging Software",
-          "itunes": {},
-          "enclosure": {
-            "length": "12216320",
-            "type": "image/jpeg",
-            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFGDCfmj2ulxTT_aOBhz1mYaybmVN0KDOnq2eJZdz0u9KeNeTxlZPsxnMzLRzo60NfSgiBCDoMJ86HwXjm4fDdSNbl7Ev8odE88_oHB-YkUg_dAIT2ZGZpLF2ldEXcj2OEKJdJ3BTT8o5Dek52yZUMUXQ_vsPd40onj2zT7zhBJeDxAKkZR6lz6nXh/s1600/ghostcms.png"
-          },
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFGDCfmj2ulxTT_aOBhz1mYaybmVN0KDOnq2eJZdz0u9KeNeTxlZPsxnMzLRzo60NfSgiBCDoMJ86HwXjm4fDdSNbl7Ev8odE88_oHB-YkUg_dAIT2ZGZpLF2ldEXcj2OEKJdJ3BTT8o5Dek52yZUMUXQ_vsPd40onj2zT7zhBJeDxAKkZR6lz6nXh/s1600/ghostcms.png"
-        },
-        {
-          "id": "https://thehackernews.com/2022/12/zerobot-botnet-emerges-as-growing.html",
-          "author": "info@thehackernews.com (The Hacker News)",
-          "description": "The Zerobot DDoS botnet has received substantial updates that expand on its ability to target more internet-connected devices and scale its network.\nMicrosoft Threat Intelligence Center (MSTIC) is tracking the ongoing threat under the moniker DEV-1061, its designation for unknown, emerging, or developing activity clusters.\nZerobot, first documented by Fortinet FortiGuard Labs earlier this month,",
-          "link": "https://thehackernews.com/2022/12/zerobot-botnet-emerges-as-growing.html",
-          "publishedOn": "2022-12-22T09:39:00.000Z",
-          "wordCount": null,
-          "title": "Zerobot Botnet Emerges as a Growing Threat with New Exploits and Capabilities",
-          "itunes": {},
-          "enclosure": {
-            "length": "12216320",
-            "type": "image/jpeg",
-            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJBWFmrxDwR-sAo4MkstpZDQPMwx9CZoJ7eLDVV609rJ4xJiILdXB44Dafb3PyCE5s1Ri5Jc6Llzv9ukmTvySwFasYUJzauu1SqYJD4QX8qdHtcags8wJ6WoS1OaLCpXFYDBlpYFLUOeVxWgCihNnpgduGTo73ZJBiJ51PZ5t2Rm9dyerH2fDCOxle/s1600/zero-bot.png"
-          },
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJBWFmrxDwR-sAo4MkstpZDQPMwx9CZoJ7eLDVV609rJ4xJiILdXB44Dafb3PyCE5s1Ri5Jc6Llzv9ukmTvySwFasYUJzauu1SqYJD4QX8qdHtcags8wJ6WoS1OaLCpXFYDBlpYFLUOeVxWgCihNnpgduGTo73ZJBiJ51PZ5t2Rm9dyerH2fDCOxle/s1600/zero-bot.png"
-        },
-        {
-          "id": "https://thehackernews.com/2022/12/hackers-breach-oktas-github.html",
-          "author": "info@thehackernews.com (The Hacker News)",
-          "description": "Okta, a company that provides identity and access management services, disclosed on Wednesday that some of its source code repositories were accessed in an unauthorized manner earlier this month.\n\"There is no impact to any customers, including any HIPAA, FedRAMP, or DoD customers,\" the company said in a public statement. \"No action is required by customers.\"\nThe security event, which was first",
-          "link": "https://thehackernews.com/2022/12/hackers-breach-oktas-github.html",
-          "publishedOn": "2022-12-22T03:49:00.000Z",
-          "wordCount": null,
-          "title": "Hackers Breach Okta's GitHub Repositories, Steal Source Code",
-          "itunes": {},
-          "enclosure": {
-            "length": "12216320",
-            "type": "image/jpeg",
-            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilQfw7Jk21M4fiiZAuEJWrTtbH1iLYU0ZcHiBq9KpI0mShA5PVYxgQ43pxbsoRtFGgZYjLZKHYNxGNF_28fZRcbZuOen9Aw4c6SI9mwWl_6eEQ9lCEEVoIoYptj2peMV6b6BgzIR0wvKeU-eRl2Z6k5zuGvxAC3hoqkZYrCbaFtC9P9qbtlROd6COX/s1600/okta.png"
-          },
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilQfw7Jk21M4fiiZAuEJWrTtbH1iLYU0ZcHiBq9KpI0mShA5PVYxgQ43pxbsoRtFGgZYjLZKHYNxGNF_28fZRcbZuOen9Aw4c6SI9mwWl_6eEQ9lCEEVoIoYptj2peMV6b6BgzIR0wvKeU-eRl2Z6k5zuGvxAC3hoqkZYrCbaFtC9P9qbtlROd6COX/s1600/okta.png"
         }
       ]
     },
@@ -1839,6 +1807,116 @@
       "feedUrl": "https://feeds.feedburner.com/securityweek",
       "siteUrl": "https://www.securityweek.com",
       "articles": [
+        {
+          "id": "26417 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "Cloud risk management and threat detection firm Rapid7 warns that it has seen organizations being compromised in attacks exploiting a recently patched Zoho ManageEngine vulnerability.\nread more",
+          "link": "https://www.securityweek.com/wild-exploitation-recent-manageengine-vulnerability-commences",
+          "publishedOn": "2023-01-20T14:29:45.000Z",
+          "wordCount": 1282,
+          "title": "In-the-Wild Exploitation of Recent ManageEngine Vulnerability Commences",
+          "imageUrl": null
+        },
+        {
+          "id": "26416 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "A sophisticated ad fraud scheme that spoofed over 1,700 applications and 120 publishers peaked at 12 billion ad requests per day before being taken down, bot attack prevention firm Human says.\nread more",
+          "link": "https://www.securityweek.com/sophisticated-vastflux-ad-fraud-scheme-spoofed-1700-apps-disrupted",
+          "publishedOn": "2023-01-20T14:03:11.000Z",
+          "wordCount": 1439,
+          "title": "Sophisticated 'VastFlux' Ad Fraud Scheme That Spoofed 1,700 Apps Disrupted",
+          "imageUrl": null
+        },
+        {
+          "id": "26415 at https://www.securityweek.com",
+          "author": "Eduard Kovacs",
+          "description": "Several vulnerabilities described as having critical and high impact, including ones allowing unauthenticated remote code execution, have been found and patched in OpenText’s enterprise content management (ECM) product.\nread more",
+          "link": "https://www.securityweek.com/critical-vulnerabilities-patched-opentext-enterprise-content-management-system",
+          "publishedOn": "2023-01-20T13:37:47.000Z",
+          "wordCount": 1265,
+          "title": "Critical Vulnerabilities Patched in OpenText Enterprise Content Management System",
+          "imageUrl": null
+        },
+        {
+          "id": "26414 at https://www.securityweek.com",
+          "author": "Associated Press",
+          "description": "The European Union’s digital policy chief warned TikTok’s boss Thursday that the social media app will have to fall in line with tough new rules for online platforms set to take effect later this year.\nread more",
+          "link": "https://www.securityweek.com/eus-breton-warns-tiktok-ceo-comply-new-digital-rules",
+          "publishedOn": "2023-01-20T12:09:47.000Z",
+          "wordCount": 1449,
+          "title": "EU's Breton Warns TikTok CEO: Comply With New Digital Rules",
+          "imageUrl": null
+        },
+        {
+          "id": "26413 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "Online payments system PayPal is alerting roughly 35,000 individuals that their accounts have been targeted in a credential stuffing campaign.\nread more",
+          "link": "https://www.securityweek.com/paypal-warns-35000-users-credential-stuffing-attacks",
+          "publishedOn": "2023-01-20T11:29:00.000Z",
+          "wordCount": 1261,
+          "title": "PayPal Warns 35,000 Users of Credential Stuffing Attacks",
+          "imageUrl": null
+        },
+        {
+          "id": "26412 at https://www.securityweek.com",
+          "author": "Eduard Kovacs",
+          "description": "Cybercriminals earned significantly less from ransomware attacks in 2022 compared to 2021 as victims are increasingly refusing to pay ransom demands, according to data from Chainalysis.\nread more",
+          "link": "https://www.securityweek.com/ransomware-revenue-plunged-2022-more-victims-refuse-pay-report",
+          "publishedOn": "2023-01-20T11:12:05.000Z",
+          "wordCount": 1439,
+          "title": "Ransomware Revenue Plunged in 2022 as More Victims Refuse to Pay Up: Report",
+          "imageUrl": null
+        },
+        {
+          "id": "26411 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "A China-linked threat actor was observed exploiting a recently disclosed Fortinet FortiOS SSL-VPN vulnerability when it was still a zero-day, months before patches were released, Mandiant reports.\nread more",
+          "link": "https://www.securityweek.com/chinese-hackers-exploited-fortinet-vpn-vulnerability-zero-day",
+          "publishedOn": "2023-01-20T10:47:05.000Z",
+          "wordCount": 1405,
+          "title": "Chinese Hackers Exploited Fortinet VPN Vulnerability as Zero-Day",
+          "imageUrl": null
+        },
+        {
+          "id": "26410 at https://www.securityweek.com",
+          "author": "Marie Hattar",
+          "description": "Bad actors find themselves at a constant advantage. They can determine when, where, and how they will attack an enterprise, using time and patience to pick the moment they want to strike.\nread more",
+          "link": "https://www.securityweek.com/change-mindset-threat-based-risk-based-approach-security",
+          "publishedOn": "2023-01-20T10:44:51.000Z",
+          "wordCount": 1854,
+          "title": "A Change in Mindset: From a Threat-based to Risk-based Approach to Security",
+          "imageUrl": null
+        },
+        {
+          "id": "26409 at https://www.securityweek.com",
+          "author": "Associated Press",
+          "description": "A ransomware attack forced the parent company of KFC and Taco Bell to close several hundred restaurants in the United Kingdom this week.\nA government filing posted Thursday says the attack impacted information technology systems. Yum Brands said the attackers took company data, but that there is no evidence customer data was stolen.\nread more",
+          "link": "https://www.securityweek.com/ransomware-shuts-hundreds-yum-brands-restaurants-uk",
+          "publishedOn": "2023-01-20T10:25:55.000Z",
+          "wordCount": 1228,
+          "title": "Ransomware Shuts Hundreds of Yum Brands Restaurants in UK",
+          "imageUrl": null
+        },
+        {
+          "id": "26408 at https://www.securityweek.com",
+          "author": "Ionut Arghire",
+          "description": "Drupal this week announced software updates that resolve a total of four vulnerabilities in Drupal core and three plugins, and which could lead to unauthorized access to data.\nread more",
+          "link": "https://www.securityweek.com/drupal-patches-vulnerabilities-leading-information-disclosure",
+          "publishedOn": "2023-01-20T09:36:46.000Z",
+          "wordCount": 1293,
+          "title": "Drupal Patches Vulnerabilities Leading to Information Disclosure",
+          "imageUrl": null
+        },
+        {
+          "id": "26407 at https://www.securityweek.com",
+          "author": "Ryan Naraine",
+          "description": "Wireless carrier T-Mobile on Thursday fessed up to another massive data breach affecting  approximately 37 million current postpaid and prepaid customer accounts.\nread more",
+          "link": "https://www.securityweek.com/t-mobile-says-hackers-used-api-steal-data-37-million-accounts",
+          "publishedOn": "2023-01-20T01:01:01.000Z",
+          "wordCount": 1642,
+          "title": "T-Mobile Says Hackers Used API to Steal Data on 37 Million Accounts",
+          "imageUrl": null
+        },
         {
           "id": "26406 at https://www.securityweek.com",
           "author": "Ryan Naraine",
@@ -3038,116 +3116,6 @@
           "wordCount": 1200,
           "title": "France Seeks to Protect Hospitals After Series of Cyberattacks",
           "imageUrl": null
-        },
-        {
-          "id": "26286 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "The Federal Bureau of Investigation (FBI) this week raised the alarm on cybercriminals impersonating brands in advertisements that appear in search engine results. The agency has advised consumers to use ad blockers to protect themselves from such threats.\nread more",
-          "link": "https://www.securityweek.com/fbi-recommends-ad-blockers-cybercriminals-impersonate-brands-search-engine-ads",
-          "publishedOn": "2022-12-22T13:16:40.000Z",
-          "wordCount": 1329,
-          "title": "FBI Recommends Ad Blockers as Cybercriminals Impersonate Brands in Search Engine Ads",
-          "imageUrl": null
-        },
-        {
-          "id": "26285 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "The highly active Royal ransomware is operated by seasoned threat actors who used to be part of Conti Team One, cybersecurity firm Trend Micro reports.\nread more",
-          "link": "https://www.securityweek.com/researchers-link-royal-ransomware-conti-group",
-          "publishedOn": "2022-12-22T12:50:41.000Z",
-          "wordCount": 1315,
-          "title": "Researchers Link Royal Ransomware to Conti Group",
-          "imageUrl": null
-        },
-        {
-          "id": "26284 at https://www.securityweek.com",
-          "author": "Eduard Kovacs",
-          "description": "Identity and access management solutions provider Okta this week informed customers that some of the company’s source code was stolen recently from its GitHub repositories.\nread more",
-          "link": "https://www.securityweek.com/okta-source-code-stolen-hackers",
-          "publishedOn": "2022-12-22T12:12:35.000Z",
-          "wordCount": 1310,
-          "title": "Okta Source Code Stolen by Hackers",
-          "imageUrl": null
-        },
-        {
-          "id": "26283 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "British news organization The Guardian on Wednesday announced that a ransomware attack has been causing disruption to behind-the-scenes services.\nread more",
-          "link": "https://www.securityweek.com/ransomware-attack-causes-disruption-british-newspaper-guardian",
-          "publishedOn": "2022-12-22T11:38:23.000Z",
-          "wordCount": 1400,
-          "title": "Ransomware Attack Causes Disruption at British Newspaper The Guardian",
-          "imageUrl": null
-        },
-        {
-          "id": "26282 at https://www.securityweek.com",
-          "author": "Eduard Kovacs",
-          "description": "Companies have announced securing billions of dollars in cybersecurity-related contracts with the United States government in 2022.\nread more",
-          "link": "https://www.securityweek.com/companies-announced-billions-us-government-cybersecurity-contracts-2022",
-          "publishedOn": "2022-12-22T11:19:57.000Z",
-          "wordCount": 1759,
-          "title": "Companies Announced Billions in US Government Cybersecurity Contracts in 2022",
-          "imageUrl": null
-        },
-        {
-          "id": "26281 at https://www.securityweek.com",
-          "author": "AFP",
-          "description": "France's privacy watchdog said Thursday it has fined US tech giant Microsoft 60 million euros ($64 million) for foisting advertising cookies on users.\nread more",
-          "link": "https://www.securityweek.com/france-fines-microsoft-60-million-euros-over-advertising-cookies",
-          "publishedOn": "2022-12-22T11:07:16.000Z",
-          "wordCount": 1475,
-          "title": "France Fines Microsoft 60 Million Euros Over Advertising Cookies",
-          "imageUrl": null
-        },
-        {
-          "id": "26280 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "The Godfather Android banking trojan has been observed targeting over 400 banking and crypto applications in 16 countries, threat intelligence firm Group-IB warns.\nread more",
-          "link": "https://www.securityweek.com/godfather-android-banking-trojan-targeting-over-400-applications",
-          "publishedOn": "2022-12-22T09:27:59.000Z",
-          "wordCount": 1352,
-          "title": "Godfather Android Banking Trojan Targeting Over 400 Applications",
-          "imageUrl": null
-        },
-        {
-          "id": "26279 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "CyberCube, a provider of cyber risk analytics for insurance companies, this week announced that it has raised $50 million in a new funding round that brings the total raised by the firm to $105 million.\nread more",
-          "link": "https://www.securityweek.com/cyber-insurance-analytics-firm-cybercube-raises-50-million",
-          "publishedOn": "2022-12-21T14:54:19.000Z",
-          "wordCount": 1106,
-          "title": "Cyber Insurance Analytics Firm CyberCube Raises $50 Million",
-          "imageUrl": null
-        },
-        {
-          "id": "26278 at https://www.securityweek.com",
-          "author": "Eduard Kovacs",
-          "description": "Researchers discovered that the Passwordstate enterprise password manager made by Australian company Click Studios is affected by serious vulnerabilities that could allow an unauthenticated attacker to obtain a user’s passwords.\nread more",
-          "link": "https://www.securityweek.com/critical-vulnerabilities-found-passwordstate-enterprise-password-manager",
-          "publishedOn": "2022-12-21T14:44:57.000Z",
-          "wordCount": 1305,
-          "title": "Critical Vulnerabilities Found in Passwordstate Enterprise Password Manager",
-          "imageUrl": null
-        },
-        {
-          "id": "26277 at https://www.securityweek.com",
-          "author": "Ionut Arghire",
-          "description": "Russia-linked Gamaredon, a hacking group known for providing services to other advanced persistent threat (APT) actors, is one of the most intrusive, continuously active APTs targeting Ukraine, Palo Alto Networks’ Unit 42 warns.\nread more",
-          "link": "https://www.securityweek.com/russian-apt-gamaredon-changes-tactics-attacks-targeting-ukraine",
-          "publishedOn": "2022-12-21T13:52:07.000Z",
-          "wordCount": 1411,
-          "title": "Russian APT Gamaredon Changes Tactics in Attacks Targeting Ukraine",
-          "imageUrl": null
-        },
-        {
-          "id": "26276 at https://www.securityweek.com",
-          "author": "Torsten George",
-          "description": "While enterprise VPNs fill a vital role for business, they have several limitations that impact their usability and cybersecurity\nread more",
-          "link": "https://www.securityweek.com/enterprise-vpn-life-support-or-ripe-reinvention",
-          "publishedOn": "2022-12-21T13:30:38.000Z",
-          "wordCount": 1828,
-          "title": "Is Enterprise VPN on Life Support or Ripe for Reinvention?",
-          "imageUrl": null
         }
       ]
     },
@@ -3221,6 +3189,26 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://us-cert.cisa.gov/",
       "articles": [
+        {
+          "id": "18296 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 20, 2023\nDrupal has released security advisories to address vulnerabilities affecting multiple products. An attacker could exploit these vulnerabilities to access sensitive information.\nCISA encourages users and administrators to review Drupal’s security advisories SA-CORE-2023-001, SA-CONTRIB-2023-002, SA-CONTRIB-2023-003, and SA-CONTRIB-2023-004 and apply the necessary updates.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2023/01/20/drupal-releases-security-advisories-address-multiple",
+          "publishedOn": "2023-01-20T22:30:30.000Z",
+          "wordCount": 945,
+          "title": "Drupal Releases Security Advisories to Address Multiple Vulnerabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "18295 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 20, 2023\nCisco released a security advisory for a vulnerability affecting Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME). A remote attacker could exploit this vulnerability to cause a denial-of-service condition. For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page.\nCISA encourages users and administrators to review the advisories and apply the necessary updates.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2023/01/20/cisco-releases-security-advisory-unified-cm-and-unified-cm-sme",
+          "publishedOn": "2023-01-20T19:58:12.000Z",
+          "wordCount": 977,
+          "title": "Cisco Releases Security Advisory for Unified CM and Unified CM SME",
+          "imageUrl": null
+        },
         {
           "id": "18294 at https://us-cert.cisa.gov",
           "author": "CISA",
@@ -3398,6 +3386,96 @@
       "feedUrl": "https://www.darkreading.com/rss.xml",
       "siteUrl": "https://www.darkreading.com",
       "articles": [
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/t-mobile-breached-again-exposing-37m-customers-data",
+          "author": "Becky Bracken, Editor, Dark Reading",
+          "description": "This time around, weak API security allowed a threat actor to access account information, the mobile phone giant reported.",
+          "link": "https://www.darkreading.com/attacks-breaches/t-mobile-breached-again-exposing-37m-customers-data",
+          "publishedOn": "2023-01-20T21:37:22.000Z",
+          "wordCount": 13295,
+          "title": "T-Mobile Breached Again, This Time Exposing 37M Customers' Data",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/ransomware-profits-decline-victims-refuse-pay",
+          "author": "Jai Vijayan, Contributing Writer, Dark Reading",
+          "description": "Two new reports show ransomware revenues for threat actors dropped sharply in 2022 as more victims ignored ransom demands.",
+          "link": "https://www.darkreading.com/attacks-breaches/ransomware-profits-decline-victims-refuse-pay",
+          "publishedOn": "2023-01-20T21:18:04.000Z",
+          "wordCount": 16049,
+          "title": "Ransomware Profits Decline as Victims Dig In, Refuse to Pay",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg"
+        },
+        {
+          "id": "https://www.darkreading.com/application-security/compromised-zendesk-employee-credentials-breach",
+          "author": "Becky Bracken, Editor, Dark Reading",
+          "description": "Zendesk has alerted customers to a successful SMS phishing campaign that has exposed \"service data,\" but details remain scarce.",
+          "link": "https://www.darkreading.com/application-security/compromised-zendesk-employee-credentials-breach",
+          "publishedOn": "2023-01-20T21:10:26.000Z",
+          "wordCount": 11988,
+          "title": "Compromised Zendesk Employee Credentials Lead to Breach",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg"
+        },
+        {
+          "id": "https://www.darkreading.com/dr-tech/gpt-emerges-ai-tech-security-vendors",
+          "author": "Fahmida Y. Rashid, Managing Editor, Features, Dark Reading",
+          "description": "Orca Security is one of the companies integrating conversational AI technology into its products.",
+          "link": "https://www.darkreading.com/dr-tech/gpt-emerges-ai-tech-security-vendors",
+          "publishedOn": "2023-01-20T21:00:00.000Z",
+          "wordCount": 13775,
+          "title": "GPT Emerges as Key AI Tech for Security Vendors",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt93784ffee79538e7/60d4371522d24e38a3806ecf/fahmida.png",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt93784ffee79538e7/60d4371522d24e38a3806ecf/fahmida.png"
+        },
+        {
+          "id": "https://www.darkreading.com/ics-ot/critical-manufacturing-sector-in-the-bulls-eye",
+          "author": "Nathan Eddy, Contributing Writer, Dark Reading",
+          "description": "Serious security flaws go unpatched, and ransomware attacks increase against manufacturers.",
+          "link": "https://www.darkreading.com/ics-ot/critical-manufacturing-sector-in-the-bulls-eye",
+          "publishedOn": "2023-01-20T16:22:00.000Z",
+          "wordCount": 12678,
+          "title": "Critical Manufacturing Sector in the Bull's-eye",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf8b5a94afa71c53a/628e3799daa31875dc0c9fc0/NathanEddyHeadshot.PNG",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf8b5a94afa71c53a/628e3799daa31875dc0c9fc0/NathanEddyHeadshot.PNG"
+        },
+        {
+          "id": "https://www.darkreading.com/attacks-breaches/the-evolution-of-account-takeover-attacks-initial-access-brokers-for-iot",
+          "author": "Daniel dos Santos, Head of Security Research, Forescout's Vedere Labs",
+          "description": "Head off account takeover attacks by being proactive about IoT security. Start with designing and building better security protocols into IoT devices, always change weak default configurations, and regularly apply patches to ensure that IoT devices are secure.",
+          "link": "https://www.darkreading.com/attacks-breaches/the-evolution-of-account-takeover-attacks-initial-access-brokers-for-iot",
+          "publishedOn": "2023-01-20T15:00:00.000Z",
+          "wordCount": 14587,
+          "title": "The Evolution of Account Takeover Attacks: Initial Access Brokers for IoT",
+          "enclosure": {
+            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt7e04a106c6b38c7c/63c7086fdca28d3974fb95fb/Daniel_dos_Santos_2022_headshot.jpg",
+            "type": "image/*",
+            "length": "0"
+          },
+          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt7e04a106c6b38c7c/63c7086fdca28d3974fb95fb/Daniel_dos_Santos_2022_headshot.jpg"
+        },
         {
           "id": "https://www.darkreading.com/attacks-breaches/paypal-breach-exposed-pii-of-nearly-35k-accounts",
           "author": "Becky Bracken, Editor, Dark Reading",
@@ -5857,166 +5935,6 @@
             "length": "0"
           },
           "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbfd004d139d42d70/6303bca6236c2476a257760e/ElizabethMontalbano.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/risk/supply-chain-risks-got-you-down-keep-calm-and-get-strategic-",
-          "author": null,
-          "description": "Security leaders must maintain an effective cybersecurity strategy to help filter some of the noise on new vulnerabilities.",
-          "link": "https://www.darkreading.com/risk/supply-chain-risks-got-you-down-keep-calm-and-get-strategic-",
-          "publishedOn": "2022-12-21T22:00:00.000Z",
-          "wordCount": 12979,
-          "title": "Supply Chain Risks Got You Down? Keep Calm and Get Strategic!",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/application-security/ransomware-attackers-bypass-microsoft-mitigation-proxynotshell-exploit",
-          "author": "Jai Vijayan, Contributing Writer, Dark Reading",
-          "description": "The Play ransomware group was spotted exploiting another little-known SSRF bug to trigger RCE on affected Exchange servers.",
-          "link": "https://www.darkreading.com/application-security/ransomware-attackers-bypass-microsoft-mitigation-proxynotshell-exploit",
-          "publishedOn": "2022-12-21T20:45:00.000Z",
-          "wordCount": 12111,
-          "title": "Ransomware Attackers Bypass Microsoft's ProxyNotShell Mitigations With Fresh Exploit",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/heartland-alliance-provides-notice-of-data-security-incident",
-          "author": null,
-          "description": "",
-          "link": "https://www.darkreading.com/attacks-breaches/heartland-alliance-provides-notice-of-data-security-incident",
-          "publishedOn": "2022-12-21T20:12:00.000Z",
-          "wordCount": 10666,
-          "title": "Heartland Alliance Provides Notice of Data Security Incident",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/zscaler/best-practices-for-securing-and-governing-your-multicloud-deployment",
-          "author": "Rich Campagna, senior vice-president and general manager, CNAPP, Zscaler",
-          "description": "Organizations can start by integrating functions like detection, prioritization, and remediation on to a single platform.",
-          "link": "https://www.darkreading.com/zscaler/best-practices-for-securing-and-governing-your-multicloud-deployment",
-          "publishedOn": "2022-12-21T20:00:00.000Z",
-          "wordCount": 13109,
-          "title": "Best Practices for Securing and Governing Your Multicloud Deployment",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt071ec6475383627e/637ab01ec162df49beaad71c/Zscaler_Rich_Campagna2.png",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt071ec6475383627e/637ab01ec162df49beaad71c/Zscaler_Rich_Campagna2.png"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/name-that-toon-kiss-and-tell",
-          "author": "John Klossner, Cartoonist",
-          "description": "Feeling creative? Submit your caption and our panel of experts will reward the winner with a $25 Amazon gift card.",
-          "link": "https://www.darkreading.com/attacks-breaches/name-that-toon-kiss-and-tell",
-          "publishedOn": "2022-12-21T18:38:26.000Z",
-          "wordCount": 10116,
-          "title": "Name That Toon: Kiss and Tell",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf97d71984b60d7ed/60b1e88b5d34de550780a96e/Klossner_iwk_photo.gif",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf97d71984b60d7ed/60b1e88b5d34de550780a96e/Klossner_iwk_photo.gif"
-        },
-        {
-          "id": "https://www.darkreading.com/application-security/-trend-micro-joins-google-s-app-defense-alliance",
-          "author": null,
-          "description": "Trend Micro will be joining Google's App Defense Alliance (ADA) to help improve their ability to identify malicious apps before they are published to the Google Play store.",
-          "link": "https://www.darkreading.com/application-security/-trend-micro-joins-google-s-app-defense-alliance",
-          "publishedOn": "2022-12-21T18:05:00.000Z",
-          "wordCount": 10988,
-          "title": "Trend Micro Joins Google’s App Defense Alliance",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/two-indicted-for-hijacking-jfk-airport-taxi-dispatch-",
-          "author": "Dark Reading Staff, Dark Reading",
-          "description": "DoJ charges allege they hacked into the taxi dispatch system for profit, selling the ability for cab drivers to skip the line for picking up a fare at JFK terminals.",
-          "link": "https://www.darkreading.com/attacks-breaches/two-indicted-for-hijacking-jfk-airport-taxi-dispatch-",
-          "publishedOn": "2022-12-21T18:00:00.000Z",
-          "wordCount": 10568,
-          "title": "'Russian Hackers' Help Fraudsters Hijack JFK Airport's Taxi Dispatch",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte161b23f0fd3a84b/60b1ea374e7eb868c4c6a293/dr_staff_125x125.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/operations/kaspersky-research-finds-reverse-engineering-is-the-most-on-demand-skill-among-infosec-specialists-in-2022",
-          "author": null,
-          "description": "",
-          "link": "https://www.darkreading.com/operations/kaspersky-research-finds-reverse-engineering-is-the-most-on-demand-skill-among-infosec-specialists-in-2022",
-          "publishedOn": "2022-12-21T16:32:00.000Z",
-          "wordCount": 10898,
-          "title": "Kaspersky Research Finds Reverse Engineering Is the Most On-Demand Skill Among InfoSec Specialists",
-          "imageUrl": "https://beta.darkreading.com/images/og-image.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/edge-articles/understanding-the-3-classes-of-kubernetes-risk",
-          "author": "Dan Whalen, Principal Research Engineer, Expel",
-          "description": "The first step toward securing Kubernetes environments is understanding the risks they pose and identifying the ways in which those risks can be mitigated.",
-          "link": "https://www.darkreading.com/edge-articles/understanding-the-3-classes-of-kubernetes-risk",
-          "publishedOn": "2022-12-21T15:51:51.000Z",
-          "wordCount": 12823,
-          "title": "Understanding the 3 Classes of Kubernetes Risk",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt752a175f6bbcea91/63a20cc4ce61585927154038/Dan_Whalen_Headshot-sq.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt752a175f6bbcea91/63a20cc4ce61585927154038/Dan_Whalen_Headshot-sq.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/dr-tech/how-to-run-kubernetes-more-securely",
-          "author": "Kolawole Samuel Adebayo, Contributing Writer",
-          "description": "The open source container tool is quite popular among developers — and threat actors. Here are a few ways DevOps teams can take control.",
-          "link": "https://www.darkreading.com/dr-tech/how-to-run-kubernetes-more-securely",
-          "publishedOn": "2022-12-21T15:51:30.000Z",
-          "wordCount": 12594,
-          "title": "How to Run Kubernetes More Securely",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt0e633cacbfbbf0c2/6305337a9b7ae964b1821d09/kolawole-samuel-adebayo.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt0e633cacbfbbf0c2/6305337a9b7ae964b1821d09/kolawole-samuel-adebayo.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/attacks-breaches/godfather-banking-trojan-masquerades-legitimate-google-play-app",
-          "author": "Elizabeth Montalbano, Contributor, Dark Reading",
-          "description": "The malware has resurfaced, using an icon and name similar to the legitimate Google Play app MYT Music, a popular app with more than 10 million downloads.",
-          "link": "https://www.darkreading.com/attacks-breaches/godfather-banking-trojan-masquerades-legitimate-google-play-app",
-          "publishedOn": "2022-12-21T15:03:30.000Z",
-          "wordCount": 13118,
-          "title": "Godfather Banking Trojan Masquerades as Legitimate Google Play App",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbfd004d139d42d70/6303bca6236c2476a257760e/ElizabethMontalbano.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbfd004d139d42d70/6303bca6236c2476a257760e/ElizabethMontalbano.jpg"
-        },
-        {
-          "id": "https://www.darkreading.com/endpoint/why-security-teams-shouldn-t-snooze-on-mfa-fatigue",
-          "author": "Candid Wüest,  VP of Cyber Protection Research, Acronis",
-          "description": "Employee education, biometric and adaptive authentication, and zero trust can go a long way in strengthening security.",
-          "link": "https://www.darkreading.com/endpoint/why-security-teams-shouldn-t-snooze-on-mfa-fatigue",
-          "publishedOn": "2022-12-21T15:00:00.000Z",
-          "wordCount": 12274,
-          "title": "Why Security Teams Shouldn't Snooze on MFA Fatigue",
-          "enclosure": {
-            "url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt0f029423395999f1/63a1c573108fb02b515de560/Candid_Wuest_Headshot.jpg",
-            "type": "image/*",
-            "length": "0"
-          },
-          "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt0f029423395999f1/63a1c573108fb02b515de560/Candid_Wuest_Headshot.jpg"
         }
       ]
     },
@@ -6095,6 +6013,26 @@
       "feedUrl": "https://www.schneier.com/feed/atom",
       "siteUrl": "https://www.schneier.com",
       "articles": [
+        {
+          "id": "https://www.schneier.com/blog/archives/2023/01/friday-squid-blogging-another-giant-squid-captured-on-video.html",
+          "author": null,
+          "description": "<p><a href=\"https://www.sciencealert.com/couple-captures-rare-footage-of-a-giant-squid-swimming-off-the-coast-of-japan\">Here&#8217;s</a> a new video of a giant squid, filmed in the Sea of Japan.</p>\n<p>I believe it&#8217;s injured. It&#8217;s so close to the surface, and not really moving very much.</p>\n<blockquote><p>&#8220;We didn&#8217;t see the kinds of agile movements that many fish and marine creatures normally show,&#8221; he said. &#8220;Its tentacles and fins were moving very slowly.&#8221;</p></blockquote>\n<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>\n<p>Read my blog posting guidelines <a href=\"https://www.schneier.com/blog/archives/2017/03/commenting_poli.html\">here</a>.</p>",
+          "link": "https://www.schneier.com/blog/archives/2023/01/friday-squid-blogging-another-giant-squid-captured-on-video.html",
+          "publishedOn": "2023-01-20T22:00:55.000Z",
+          "wordCount": 769,
+          "title": "Friday Squid Blogging: Another Giant Squid Captured on Video",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.schneier.com/blog/archives/2023/01/real-world-steganography.html",
+          "author": null,
+          "description": "<p>From an <a href=\"https://www.bbc.com/news/world-asia-china-64206950\">article</a> about Zheng Xiaoqing, an American convicted of spying for China:</p>\n<blockquote><p>According to a Department of Justice (DOJ) indictment, the US citizen hid confidential files stolen from his employers in the binary code of a digital photograph of a sunset, which Mr Zheng then mailed to himself.</p></blockquote>",
+          "link": "https://www.schneier.com/blog/archives/2023/01/real-world-steganography.html",
+          "publishedOn": "2023-01-20T12:25:18.000Z",
+          "wordCount": 2039,
+          "title": "Real-World Steganography",
+          "imageUrl": null
+        },
         {
           "id": "https://www.schneier.com/blog/archives/2023/01/security-analysis-of-threema.html",
           "author": null,
@@ -6323,16 +6261,6 @@
           "publishedOn": "2022-12-23T12:03:48.000Z",
           "wordCount": 1323,
           "title": "Hacking the JFK Airport Taxi Dispatch System",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.schneier.com/blog/archives/2022/12/critical-microsoft-code-execution-vulnerability.html",
-          "author": null,
-          "description": "<p>A critical code-execution vulnerability in Microsoft Windows was patched in September. It seems that researchers <a href=\"https://arstechnica.com/information-technology/2022/12/critical-windows-code-execution-vulnerability-went-undetected-until-now/\">just realized</a> how serious it was (and is):</p>\n<blockquote><p>Like EternalBlue, CVE-2022-37958, as the latest vulnerability is tracked, allows attackers to execute malicious code with no authentication required. Also, like EternalBlue, it&#8217;s wormable, meaning that a single exploit can trigger a chain reaction of self-replicating follow-on exploits on other vulnerable systems. The wormability of EternalBlue allowed WannaCry and several other attacks to spread across the world in a matter of minutes with no user interaction required...</p></blockquote>",
-          "link": "https://www.schneier.com/blog/archives/2022/12/critical-microsoft-code-execution-vulnerability.html",
-          "publishedOn": "2022-12-22T12:01:37.000Z",
-          "wordCount": 1398,
-          "title": "Critical Microsoft Code-Execution Vulnerability",
           "imageUrl": null
         }
       ]
