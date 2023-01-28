@@ -2,10 +2,306 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2023-01-27T01:26:13.233Z</updated>
+    <updated>2023-01-28T01:25:25.423Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Friday Squid Blogging: Squid-Inspired Hydrogel]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/01/friday-squid-blogging-squid-inspired-hydrogel.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/01/friday-squid-blogging-squid-inspired-hydrogel.html"/>
+        <updated>2023-01-27T22:59:21.000Z</updated>
+        <summary type="html"><![CDATA[<p>Scientists have <a href="https://www.laboratoryequipment.com/593853-Squid-inspired-Hydrogel-is-Extremely-Versatile/">created</a> a hydrogel &#8220;using squid mantle and creative chemistry.&#8221;</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p>Read my blog posting guidelines <a href="https://www.schneier.com/blog/archives/2017/03/commenting_poli.html">here</a>.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Most Companies Still Don’t Know What’s on Their Network]]></title>
+        <id>https://www.darkreading.com/risk/why-most-companies-still-don-t-know-what-s-on-their-network</id>
+        <link href="https://www.darkreading.com/risk/why-most-companies-still-don-t-know-what-s-on-their-network"/>
+        <updated>2023-01-27T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chris Kirsch, CEO of runZero, sits down with Dark Reading’sTerry Sweeney for a Fast Chat on the importance of asset discovery.]]></summary>
+        <author>
+            <name>Terry Sweeney, Contributing Editor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kevin Mitnick Hacked California Law in 1983]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/01/kevin-mitnick-hacked-california-law-in-1983.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/01/kevin-mitnick-hacked-california-law-in-1983.html"/>
+        <updated>2023-01-27T20:19:36.000Z</updated>
+        <summary type="html"><![CDATA[<p>Early in his career, Kevin Mitnick successfully hacked California law. He told me the story when he heard about my <a href="https://www.schneier.com/books/a-hackers-mind/">new book</a>, which he partially recounts his 2012 book, <a href="https://www.mitnicksecurity.com/ghost-in-the-wires"><i>Ghost in the Wires</i></a>.</p>
+<p>The setup is that he just discovered that there&#8217;s warrant for his arrest by the California Youth Authority, and he&#8217;s trying to figure out if there&#8217;s any way out of it.</p>
+<blockquote><p>As soon as I was settled, I looked in the Yellow Pages for the nearest law school, and spent the next few days and evenings there poring over the Welfare and Institutions Code, but without much hope...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On Data Privacy Day, Organizations Fail Data Privacy Expectations]]></title>
+        <id>https://www.darkreading.com/omdia/on-data-privacy-day-organizations-fail-data-privacy-expectations</id>
+        <link href="https://www.darkreading.com/omdia/on-data-privacy-day-organizations-fail-data-privacy-expectations"/>
+        <updated>2023-01-27T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Data Privacy Day rolls around year after year, and data privacy breaches likewise. Two-thirds of data breaches result in data exposure.]]></summary>
+        <author>
+            <name>Maxine Holt, Research Director, Omdia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5831-1: Linux kernel (Azure CVM) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5831-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5831-1"/>
+        <updated>2023-01-27T19:01:20.000Z</updated>
+        <summary type="html"><![CDATA[Kyle Zeng discovered that the sysctl implementation in the Linux kernel
+contained a stack-based buffer overflow. A local attacker could use this to
+cause a denial of service (system crash) or execute arbitrary code.
+(CVE-2022-4378)
+
+Tamás Koczka discovered that the Bluetooth L2CAP handshake implementation
+in the Linux kernel contained multiple use-after-free vulnerabilities. A
+physically proximate attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2022-42896)
+
+It was discovered that the Xen netback driver in the Linux kernel did not
+properly handle packets structured in certain ways. An attacker in a guest
+VM could possibly use this to cause a denial of service (host NIC
+availability). (CVE-2022-3643)
+
+It was discovered that an integer overflow vulnerability existed in the
+Bluetooth subsystem in the Linux kernel. A physically proximate attacker
+could use this to cause a denial of service (system crash).
+(CVE-2022-45934)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-5830-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-5830-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-5830-1"/>
+        <updated>2023-01-27T18:49:52.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the NFSD implementation in the Linux kernel did not
+properly handle some RPC messages, leading to a buffer overflow. A remote
+attacker could use this to cause a denial of service (system crash) or
+possibly execute arbitrary code. (CVE-2022-43945)
+
+Tamás Koczka discovered that the Bluetooth L2CAP handshake implementation
+in the Linux kernel contained multiple use-after-free vulnerabilities. A
+physically proximate attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2022-42896)
+
+It was discovered that the Xen netback driver in the Linux kernel did not
+properly handle packets structured in certain ways. An attacker in a guest
+VM could possibly use this to cause a denial of service (host NIC
+availability). (CVE-2022-3643)
+
+It was discovered that an integer overflow vulnerability existed in the
+Bluetooth subsystem in the Linux kernel. A physically proximate attacker
+could use this to cause a denial of service (system crash).
+(CVE-2022-45934)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ISC Releases Security Advisories for Multiple Versions of BIND 9]]></title>
+        <id>18319 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2023/01/27/isc-releases-security-advisories-multiple-versions-bind-9"/>
+        <updated>2023-01-27T18:33:35.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: January 27, 2023
+The Internet Systems Consortium (ISC) has released security advisories that address vulnerabilities affecting multiple versions of the ISC’s Berkeley Internet Name Domain (BIND) 9. A remote attacker could exploit these vulnerabilities to potentially cause denial-of-service conditions and system failures.
+CISA encourages users and administrators to review the following ISC advisories CVE-2022-3094, CVE-2022-3488, CVE-2022-3736, and CVE-2022-3924 and apply the necessary mitigations.
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical RCE Lexmark Printer Bug Has Public Exploit]]></title>
+        <id>https://www.darkreading.com/cloud/critical-rce-lexmark-printer-bug-has-public-exploit</id>
+        <link href="https://www.darkreading.com/cloud/critical-rce-lexmark-printer-bug-has-public-exploit"/>
+        <updated>2023-01-27T18:02:00.000Z</updated>
+        <summary type="html"><![CDATA[A nasty SSRF bug in Web Services plagues a laundry list of enterprise printers.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deserialized web security roundup: ‘Catastrophic cyber events’, another T-Mobile breach, more LastPass problems]]></title>
+        <id>deserialized-web-security-roundup-catastrophic-cyber-events-another-t-mobile-breach-more-lastpass-problems</id>
+        <link href="https://portswigger.net/daily-swig/deserialized-web-security-roundup-catastrophic-cyber-events-another-t-mobile-breach-more-lastpass-problems"/>
+        <updated>2023-01-27T16:48:16.000Z</updated>
+        <summary type="html"><![CDATA[Your fortnightly rundown of AppSec vulnerabilities, new hacking techniques, and other cybersecurity news]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google: Influence Operator Dragonbridge Floods Social Media in Sprawling Cyber Campaign]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/google-influence-operator-dragonbridge-floods-social-media-sprawling-cyber-campaign</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/google-influence-operator-dragonbridge-floods-social-media-sprawling-cyber-campaign"/>
+        <updated>2023-01-27T16:11:00.000Z</updated>
+        <summary type="html"><![CDATA[Google has mounted a massive takedown, but Dragonbridge's extensive capabilities for generating and distributing vast amounts of largely spammy content calls into question the motivation behind the group.]]></summary>
+        <author>
+            <name>Nathan Eddy, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Noob Website Hackers Can Become Persistent Threats]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/noob-hackers-become-persistent-threats</id>
+        <link href="https://www.darkreading.com/attacks-breaches/noob-hackers-become-persistent-threats"/>
+        <updated>2023-01-27T15:49:00.000Z</updated>
+        <summary type="html"><![CDATA[An academic analysis of website defacement behavior by 241 new hackers shows there are four clear trajectories they can take in future, researchers say.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3 Ways ChatGPT Will Change Infosec in 2023]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/3-ways-chatgpt-will-change-infosec-in-2023</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/3-ways-chatgpt-will-change-infosec-in-2023"/>
+        <updated>2023-01-27T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI's chatbot has the promise to revolutionize how security practitioners work.]]></summary>
+        <author>
+            <name>Matt Georgy, Chief Technology Officer, Redacted</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Vulnerability Impacts Over 120 Lexmark Printers]]></title>
+        <id>https://www.securityweek.com/?p=32167</id>
+        <link href="https://www.securityweek.com/critical-vulnerability-impacts-over-120-lexmark-printers/"/>
+        <updated>2023-01-27T14:51:47.000Z</updated>
+        <summary type="html"><![CDATA[Lexmark warns of a remote code execution (RCE) vulnerability impacting over 120 printer models, for which PoC code has been published.
+The post Critical Vulnerability Impacts Over 120 Lexmark Printers appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BIND Updates Patch High-Severity, Remotely Exploitable DoS Flaws]]></title>
+        <id>https://www.securityweek.com/?p=32166</id>
+        <link href="https://www.securityweek.com/bind-updates-patch-high-severity-remotely-exploitable-dos-flaws/"/>
+        <updated>2023-01-27T14:06:35.000Z</updated>
+        <summary type="html"><![CDATA[The latest BIND updates patch multiple remotely exploitable vulnerabilities that could lead to denial-of-service (DoS).
+The post BIND Updates Patch High-Severity, Remotely Exploitable DoS Flaws appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Experts Uncover the Identity of Mastermind Behind Golden Chickens Malware Service]]></title>
+        <id>https://thehackernews.com/2023/01/experts-uncover-identity-of-mastermind.html</id>
+        <link href="https://thehackernews.com/2023/01/experts-uncover-identity-of-mastermind.html"/>
+        <updated>2023-01-27T13:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have discovered the real-world identity of the threat actor behind Golden Chickens malware-as-a-service, who goes by the online persona "badbullzvenom."
+eSentire's Threat Response Unit (TRU), in an exhaustive report published following a 16-month-long investigation, said it "found multiple mentions of the badbullzvenom account being shared between two people."
+The]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Industry Reactions to Hive Ransomware Takedown: Feedback Friday]]></title>
+        <id>https://www.securityweek.com/?p=32154</id>
+        <link href="https://www.securityweek.com/industry-reactions-to-hive-ransomware-takedown-feedback-friday/"/>
+        <updated>2023-01-27T12:55:54.000Z</updated>
+        <summary type="html"><![CDATA[Industry professionals comment on the recent disruption of the Hive ransomware operation and its hacking by law enforcement.
+The post Industry Reactions to Hive Ransomware Takedown: Feedback Friday appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Urges Customers to Patch Exchange Servers]]></title>
+        <id>https://www.securityweek.com/?p=32153</id>
+        <link href="https://www.securityweek.com/microsoft-urges-customers-to-patch-exchange-servers/"/>
+        <updated>2023-01-27T12:35:36.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft is urging customers to install the latest Exchange Server updates and harden their environments to prevent malicious attacks.
+The post Microsoft Urges Customers to Patch Exchange Servers appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Iranian APT Leaks Data From Saudi Arabia Government Under New Persona]]></title>
+        <id>https://www.securityweek.com/?p=32152</id>
+        <link href="https://www.securityweek.com/iranian-apt-leaks-data-from-saudi-arabia-government-under-new-persona/"/>
+        <updated>2023-01-27T12:23:34.000Z</updated>
+        <summary type="html"><![CDATA[Iranian APT Moses Staff is leaking data stolen from Saudi Arabia government ministries under the recently created Abraham's Ax persona
+The post Iranian APT Leaks Data From Saudi Arabia Government Under New Persona appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Guide to Phishing Attacks]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/01/a-guide-to-phishing-attacks.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/01/a-guide-to-phishing-attacks.html"/>
+        <updated>2023-01-27T12:02:19.000Z</updated>
+        <summary type="html"><![CDATA[<p>This is a <a href="https://tidbits.com/2023/01/16/an-annotated-field-guide-to-identifying-phish/">good list</a> of modern phishing techniques.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Discover New PlugX Malware Variant Spreading via Removable USB Devices]]></title>
+        <id>https://thehackernews.com/2023/01/researchers-discover-new-plugx-malware.html</id>
+        <link href="https://thehackernews.com/2023/01/researchers-discover-new-plugx-malware.html"/>
+        <updated>2023-01-27T11:53:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have uncovered a PlugX sample that employs sneaky methods to infect attached removable USB media devices in order to propagate the malware to additional systems.
+"This PlugX variant is wormable and infects USB devices in such a way that it conceals itself from the Windows operating file system," Palo Alto Networks Unit 42 researchers Mike Harbison and Jen Miller-Osborn]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Facebook two-factor authentication bypass issue patched]]></title>
+        <id>facebook-two-factor-authentication-bypass-issue-patched</id>
+        <link href="https://portswigger.net/daily-swig/facebook-two-factor-authentication-bypass-issue-patched"/>
+        <updated>2023-01-27T11:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Security vulnerability was one of Meta’s top bugs of 2022]]></summary>
+        <author>
+            <name>The Daily Swig | Cybersecurity news and views</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3 Lifehacks While Analyzing Orcus RAT in a Malware Sandbox]]></title>
+        <id>https://thehackernews.com/2023/01/3-lifehacks-while-analyzing-orcus-rat.html</id>
+        <link href="https://thehackernews.com/2023/01/3-lifehacks-while-analyzing-orcus-rat.html"/>
+        <updated>2023-01-27T10:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Orcus is a Remote Access Trojan with some distinctive characteristics. The RAT allows attackers to create plugins and offers a robust core feature set that makes it quite a dangerous malicious program in its class.
+RAT is quite a stable type that always makes it to the top.
+ANY.RUN’s top malware types in 2022
+That's why you'll definitely come across this type in your practice, and the Orcus]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[British Cyber Agency Warns of Russian and Iranian Hackers Targeting Key Industries]]></title>
+        <id>https://thehackernews.com/2023/01/british-cyber-agency-warns-of-russian.html</id>
+        <link href="https://thehackernews.com/2023/01/british-cyber-agency-warns-of-russian.html"/>
+        <updated>2023-01-27T10:37:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.K. National Cyber Security Centre (NCSC) on Thursday warned of spear-phishing attacks mounted by Russian and Iranian state-sponsored actors for information-gathering operations.
+"The attacks are not aimed at the general public but targets in specified sectors, including academia, defense, government organizations, NGOs, think tanks, as well as politicians, journalists and activists," the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Reiterates $10 Million Reward Offer After Disruption of Hive Ransomware]]></title>
+        <id>https://www.securityweek.com/?p=32145</id>
+        <link href="https://www.securityweek.com/us-reiterates-10-million-reward-offer-after-disruption-of-hive-ransomware/"/>
+        <updated>2023-01-27T09:37:49.000Z</updated>
+        <summary type="html"><![CDATA[US government reminds the public that a reward of up to $10 million is offered for information on cybercriminals, including members of the Hive operation.
+The post US Reiterates $10 Million Reward Offer After Disruption of Hive Ransomware appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Riot Games Latest Video-Game Maker to Suffer Breach]]></title>
         <id>https://www.darkreading.com/attacks-breaches/not-playing-games-riot-games-latest-video-game-maker-to-suffer-breach</id>
@@ -7669,145 +7965,6 @@ read more]]></summary>
         <summary type="html"><![CDATA[Concerns about recessionary trends impacting the cybersecurity sector in 2022 remained largely unfounded in Q4, as investment activity surged after a Q3 slowdown.]]></summary>
         <author>
             <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Several DoS, Code Execution Vulnerabilities Found in Rockwell Automation Controllers]]></title>
-        <id>26302 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/several-dos-code-execution-vulnerabilities-found-rockwell-automation-controllers"/>
-        <updated>2022-12-29T11:04:15.000Z</updated>
-        <summary type="html"><![CDATA[Organizations using controllers made by Rockwell Automation have been informed recently about several potentially serious vulnerabilities.
-read more]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Data Breach at Louisiana Healthcare Provider Impacts 270,000 Patients]]></title>
-        <id>26301 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/data-breach-louisiana-healthcare-provider-impacts-270000-patients"/>
-        <updated>2022-12-29T10:42:45.000Z</updated>
-        <summary type="html"><![CDATA[Southwest Louisiana healthcare provider Lake Charles Memorial Health System (LCMHS) is informing roughly 270,000 patients that their personal and medical information was compromised in a data breach.
-read more]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stupid security 2022 – this year’s infosec fails]]></title>
-        <id>stupid-security-2022-this-years-infosec-fails</id>
-        <link href="https://portswigger.net/daily-swig/stupid-security-2022-this-years-infosec-fails"/>
-        <updated>2022-12-29T10:04:27.000Z</updated>
-        <summary type="html"><![CDATA[Epic web security fails and salutary lessons from another inevitably eventful year in infosec]]></summary>
-        <author>
-            <name>The Daily Swig | Cybersecurity news and views</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thousands of Citrix Servers Still Unpatched for Critical Vulnerabilities]]></title>
-        <id>https://thehackernews.com/2022/12/thousands-of-citrix-servers-still.html</id>
-        <link href="https://thehackernews.com/2022/12/thousands-of-citrix-servers-still.html"/>
-        <updated>2022-12-29T09:43:00.000Z</updated>
-        <summary type="html"><![CDATA[Thousands of Citrix Application Delivery Controller (ADC) and Gateway endpoints remain vulnerable to two critical security flaws disclosed by the company over the last few months.
-The issues in question are CVE-2022-27510 and CVE-2022-27518 (CVSS scores: 9.8), which were addressed by the virtualization services provider on November 8 and December 13, 2022, respectively.
-While CVE-2022-27510]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Malvertising Campaign via Google Ads Targets Users Searching for Popular Software]]></title>
-        <id>https://thehackernews.com/2022/12/new-malvertising-campaign-via-google.html</id>
-        <link href="https://thehackernews.com/2022/12/new-malvertising-campaign-via-google.html"/>
-        <updated>2022-12-29T07:48:00.000Z</updated>
-        <summary type="html"><![CDATA[Users searching for popular software are being targeted by a new malvertising campaign that abuses Google Ads to serve trojanized variants that deploy malware, such as Raccoon Stealer and Vidar.
-The activity makes use of seemingly credible websites with typosquatted domain names that are surfaced on top of Google search results in the form of malicious ads by hijacking searches for specific]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[QR Code Scam]]></title>
-        <id>https://www.schneier.com/blog/archives/2022/12/qr-code-scam.html</id>
-        <link href="https://www.schneier.com/blog/archives/2022/12/qr-code-scam.html"/>
-        <updated>2022-12-28T18:14:31.000Z</updated>
-        <summary type="html"><![CDATA[<p>An enterprising individual made <a href="https://www.autoblog.com/2022/12/27/santa-cruz-fake-parking-tickets/">fake parking tickets</a> with a QR code for easy payment.</p>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Healthcare Providers and Hospitals Under Ransomware's Siege]]></title>
-        <id>https://www.darkreading.com/edge-articles/healthcare-providers-and-hospitals-under-ransomware-s-siege</id>
-        <link href="https://www.darkreading.com/edge-articles/healthcare-providers-and-hospitals-under-ransomware-s-siege"/>
-        <updated>2022-12-28T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[According to the FBI and Internet Crime Complaint Center, 25% of ransomware complaints involve healthcare providers.]]></summary>
-        <author>
-            <name>Jeffrey Schwartz, Contributing Writer, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When CISOs Are Ready to Hunt]]></title>
-        <id>https://www.darkreading.com/dr-tech/when-cisos-are-ready-to-hunt</id>
-        <link href="https://www.darkreading.com/dr-tech/when-cisos-are-ready-to-hunt"/>
-        <updated>2022-12-28T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is what happens when a CISO gets tired of reacting to attacks and goes on the offensive.]]></summary>
-        <author>
-            <name>Jonathan Care, Contributing Writer, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Netwrix Acquires Remediant for PAM Technology]]></title>
-        <id>26300 at https://www.securityweek.com</id>
-        <link href="https://www.securityweek.com/netwrix-acquires-remediant-pam-technology"/>
-        <updated>2022-12-28T16:06:10.000Z</updated>
-        <summary type="html"><![CDATA[Data security software vendor Netwrix has acquired Remediant, an early-stage startup working on technology in the PAM (privileged access management) category.
-Financial terms of the acquisition were not disclosed. 
-read more]]></summary>
-        <author>
-            <name>Ryan Naraine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Cyber Pros and Forensic Accountants Should Work Together to Mitigate Security Risk]]></title>
-        <id>https://www.darkreading.com/risk/why-cyber-pros-and-forensic-accountants-should-work-together-to-mitigate-security-risk</id>
-        <link href="https://www.darkreading.com/risk/why-cyber-pros-and-forensic-accountants-should-work-together-to-mitigate-security-risk"/>
-        <updated>2022-12-28T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It's time companies build a multilayered approach to cybersecurity.]]></summary>
-        <author>
-            <name>Brendan Horton, Security Analyst, The Bonadio Group</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Will the Crypto Crash Impact Cybersecurity in 2023? Maybe.]]></title>
-        <id>https://www.darkreading.com/threat-intelligence/crypto-crash-impact-cybersecurity-2023-maybe</id>
-        <link href="https://www.darkreading.com/threat-intelligence/crypto-crash-impact-cybersecurity-2023-maybe"/>
-        <updated>2022-12-28T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Will the bottom falling out of the cryptocurrency market have a profound impact on cybercriminal tactics and business models? Experts weigh in on what to expect.]]></summary>
-        <author>
-            <name>Ericka Chickowski, Contributing Writer, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerability Summary for the Week of December 19, 2022]]></title>
-        <id>18254 at https://us-cert.cisa.gov</id>
-        <link href="https://us-cert.cisa.gov/ncas/bulletins/sb22-361"/>
-        <updated>2022-12-28T13:38:51.000Z</updated>
-        <summary type="html"><![CDATA[Original release date: December 28, 2022
- 
-High Vulnerabilities
-Primary
-Description
-			Published
-			CVSS Score
-			Source & Patch Info
-		
-greenend -- sftpserver
-			** DISPUTED ** A vulnerability was found in ewxrjk sftpserver. It has been declared as problematic. Affected by this vulnerability is the function sftp_parse_path of the file parse.c. The manipulation leads to uninitialized pointer. The real existence of this vulnerability is still doubted at the moment. The name of the patch is bf4032f34832ee11d79aa60a226cc018e7ec5eed. It is recommended to apply a patch to fix this issue. The identifier VDB-216205 was assigned to this vulnerability. NOTE: In some deployment models this would be a vulnerability. README specifically warns about avoiding such deployment models.
-			2022-12-18
-			9.8…]]></summary>
-        <author>
-            <name>CISA</name>
         </author>
     </entry>
 </feed>
