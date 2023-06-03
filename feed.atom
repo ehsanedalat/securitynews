@@ -1,0 +1,2322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ehsanedalat.github.io/securitynews/index.html</id>
+    <title>News | S&amp;P Homepage</title>
+    <updated>2023-06-03T01:39:03.068Z</updated>
+    <generator>osmosfeed 1.15.1</generator>
+    <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
+    <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Friday Squid Blogging: Squid Chromolithographs]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/06/friday-squid-blogging-squid-chromolithographs.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/06/friday-squid-blogging-squid-chromolithographs.html"/>
+        <updated>2023-06-02T21:13:19.000Z</updated>
+        <summary type="html"><![CDATA[<p>Beautiful <a href="https://publicdomainreview.org/collection/verany-cephalopods">illustrations</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.</p>
+<p>Read my blog posting guidelines <a href="https://www.schneier.com/blog/archives/2017/03/commenting_poli.html">here</a>.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyPI's 2FA Requirements Don't Go Far Enough, Researchers Say]]></title>
+        <id>https://www.darkreading.com/application-security/pypi-2fa-requirements-dont-go-far-enough</id>
+        <link href="https://www.darkreading.com/application-security/pypi-2fa-requirements-dont-go-far-enough"/>
+        <updated>2023-06-02T20:39:00.000Z</updated>
+        <summary type="html"><![CDATA[The Python Package Index will require developers to better secure their accounts as cyberattacks ramp up, but protecting the software supply chain will take more than that.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Unveils Million-Dollar Cybersecurity Grant Program]]></title>
+        <id>https://www.securityweek.com/?p=33861</id>
+        <link href="https://www.securityweek.com/openai-unveils-million-dollar-cybersecurity-grant-program/"/>
+        <updated>2023-06-02T20:24:15.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI plans to shell out $1 million in grants for projects that empower defensive use-cases for generative AI technology.
+The post OpenAI Unveils Million-Dollar Cybersecurity Grant Program appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['PostalFurious' SMS Attacks Target UAE Citizens for Data Theft]]></title>
+        <id>https://www.darkreading.com/dr-global/postalfurious-sms-attacks-target-uae-citizens-data-theft</id>
+        <link href="https://www.darkreading.com/dr-global/postalfurious-sms-attacks-target-uae-citizens-data-theft"/>
+        <updated>2023-06-02T19:21:00.000Z</updated>
+        <summary type="html"><![CDATA[SMS campaigns targeting members of the public in the United Arab Emirates have been detected.]]></summary>
+        <author>
+            <name>Dan Raywood, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Galvanick Banks $10 Million for Industrial XDR Technology]]></title>
+        <id>https://www.securityweek.com/?p=33857</id>
+        <link href="https://www.securityweek.com/galvanick-banks-10-million-for-industrial-xdr-technology/"/>
+        <updated>2023-06-02T16:40:10.000Z</updated>
+        <summary type="html"><![CDATA[Los Angeles startup Galvanick scores $10 million seed capital to build a modern industrial detection and response platform.
+The post Galvanick Banks $10 Million for Industrial XDR Technology appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Picture-in-Picture' Obfuscation Spoofs Delta, Kohl's for Credential Harvesting]]></title>
+        <id>https://www.darkreading.com/endpoint/picture-in-picture-obfuscation-spoofs-delta-kohls-credential-harvesting</id>
+        <link href="https://www.darkreading.com/endpoint/picture-in-picture-obfuscation-spoofs-delta-kohls-credential-harvesting"/>
+        <updated>2023-06-02T16:36:00.000Z</updated>
+        <summary type="html"><![CDATA[A recent campaign tricks victims into visiting credential harvesting sites by hiding malicious URLs behind photos advertising deals from trusted brands.]]></summary>
+        <author>
+            <name>Nathan Eddy, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6135-1: Linux kernel (Azure CVM) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6135-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6135-1"/>
+        <updated>2023-06-02T15:52:36.000Z</updated>
+        <summary type="html"><![CDATA[Patryk Sondej and Piotr Krysiuk discovered that a race condition existed in
+the netfilter subsystem of the Linux kernel when processing batch requests,
+leading to a use-after-free vulnerability. A local attacker could use this
+to cause a denial of service (system crash) or possibly execute arbitrary
+code. (CVE-2023-32233)
+
+Gwangun Jung discovered that the Quick Fair Queueing scheduler
+implementation in the Linux kernel contained an out-of-bounds write
+vulnerability. A local attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2023-31436)
+
+Reima Ishii discovered that the nested KVM implementation for Intel x86
+processors in the Linux kernel did not properly validate control registers
+in certain situations. An attacker in a guest VM could use this to cause a
+denial of service (guest crash). (CVE-2023-30456)
+
+It was discovered that the Broadcom FullMAC USB WiFi driver in the Linux
+kernel did not properly perform data buffer size validation in some
+situations. A physically proximate attacker could use this to craft a
+malicious USB device that when inserted, could cause a denial of service
+(system crash) or possibly expose sensitive information. (CVE-2023-1380)
+
+Jean-Baptiste Cayrou discovered that the shiftfs file system in the Ubuntu
+Linux kernel contained a race condition when handling inode locking in some
+situations. A local attacker could use this to cause a denial of service
+(kernel deadlock). (CVE-2023-2612)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Streamers Ditch Netflix for Dark Web After Password Sharing Ban]]></title>
+        <id>https://www.darkreading.com/application-security/streamers-netflix-dark-web-password-sharing-ban</id>
+        <link href="https://www.darkreading.com/application-security/streamers-netflix-dark-web-password-sharing-ban"/>
+        <updated>2023-06-02T15:51:45.000Z</updated>
+        <summary type="html"><![CDATA[Disgruntled users are pursuing offers for "full Netflix access" at steeply discounted rates.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open-Source LLMs]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/06/open-source-llms.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/06/open-source-llms.html"/>
+        <updated>2023-06-02T14:21:40.000Z</updated>
+        <summary type="html"><![CDATA[<p>In February, Meta released its large language model: LLaMA. Unlike OpenAI and its ChatGPT, Meta didn&#8217;t just give the world a chat window to play with. Instead, it released the code into the open-source community, and shortly thereafter the model itself was leaked. Researchers and programmers immediately started modifying it, improving it, and getting it to do things no one else anticipated. And their results have been immediate, innovative, and an indication of how the future of this technology is going to play out. Training speeds have hugely increased, and the size of the models themselves has shrunk to the point that you can create and run them on a laptop. The world of AI research has dramatically changed...</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Want Sustainable Security? Find Middle Ground Between Tech & Education]]></title>
+        <id>https://www.darkreading.com/operations/want-sustainable-security-find-the-middle-ground-between-technology-and-education</id>
+        <link href="https://www.darkreading.com/operations/want-sustainable-security-find-the-middle-ground-between-technology-and-education"/>
+        <updated>2023-06-02T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The winning recipe for sustainable security combines strategic user education and tactical automation of well-constructed processes.]]></summary>
+        <author>
+            <name>Johanna Baum, CEO &amp; Founder, Strategic Security Solutions (S3)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Zero-Days, iMessage Used in 4-Year, Ongoing Spying Effort]]></title>
+        <id>https://www.darkreading.com/endpoint/apple-zero-days-imessage-4-year-spying-ios</id>
+        <link href="https://www.darkreading.com/endpoint/apple-zero-days-imessage-4-year-spying-ios"/>
+        <updated>2023-06-02T13:51:39.000Z</updated>
+        <summary type="html"><![CDATA[Russia's FSB intelligence agency says the zero-click attacks range far beyond Kaspersky, and it has blamed them on the United States' NSA. Those allegations are thus far uncorroborated.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How CISOs Can Manage the Intersection of Security, Privacy, And Trust]]></title>
+        <id>https://www.darkreading.com/microsoft/how-cisos-can-manage-the-intersection-of-security-privacy-and-trust</id>
+        <link href="https://www.darkreading.com/microsoft/how-cisos-can-manage-the-intersection-of-security-privacy-and-trust"/>
+        <updated>2023-06-02T13:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Integrating a subject rights request tool with security and compliance solutions can help identify potential data conflicts more efficiently and with greater accuracy.]]></summary>
+        <author>
+            <name>Microsoft Security, Microsoft</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Information of 2.5M People Stolen in Ransomware Attack at Massachusetts Health Insurer]]></title>
+        <id>https://www.securityweek.com/?p=33854</id>
+        <link href="https://www.securityweek.com/information-of-2-5m-people-stolen-in-ransomware-attack-at-massachusetts-health-insurer/"/>
+        <updated>2023-06-02T13:36:09.000Z</updated>
+        <summary type="html"><![CDATA[Point32Health says the personal and protected health information of 2.5 million Harvard Pilgrim Health Care subscribers was stolen in a recent ransomware attack.
+The post Information of 2.5M People Stolen in Ransomware Attack at Massachusetts Health Insurer appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US, South Korea Detail North Korea’s Social Engineering Techniques]]></title>
+        <id>https://www.securityweek.com/?p=33853</id>
+        <link href="https://www.securityweek.com/us-south-korea-detail-north-koreas-social-engineering-techniques/"/>
+        <updated>2023-06-02T13:10:33.000Z</updated>
+        <summary type="html"><![CDATA[The US and Korea are warning of North Korean social engineering attacks targeting employees of think tanks, academic and research institutions, and news media organizations.
+The post US, South Korea Detail North Korea’s Social Engineering Techniques appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[High-Severity Vulnerabilities Patched in Splunk Enterprise]]></title>
+        <id>https://www.securityweek.com/?p=33852</id>
+        <link href="https://www.securityweek.com/high-severity-vulnerabilities-patched-in-splunk-enterprise/"/>
+        <updated>2023-06-02T12:58:14.000Z</updated>
+        <summary type="html"><![CDATA[Splunk has resolved multiple high-severity vulnerabilities in Splunk Enterprise, including bugs in third-party packages used by the product.
+The post High-Severity Vulnerabilities Patched in Splunk Enterprise appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Idaho Hospitals Working to Resume Full Operations After Cyberattack]]></title>
+        <id>https://www.securityweek.com/?p=33850</id>
+        <link href="https://www.securityweek.com/idaho-hospitals-working-to-resume-full-operations-after-cyberattack/"/>
+        <updated>2023-06-02T12:32:37.000Z</updated>
+        <summary type="html"><![CDATA[Two eastern Idaho hospitals and their clinics are working to resume full operations after a cyberattack on their computer systems.
+The post Idaho Hospitals Working to Resume Full Operations After Cyberattack appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Botnet Malware 'Horabot' Targets Spanish-Speaking Users in Latin America]]></title>
+        <id>https://thehackernews.com/2023/06/new-botnet-malware-horabot-targets.html</id>
+        <link href="https://thehackernews.com/2023/06/new-botnet-malware-horabot-targets.html"/>
+        <updated>2023-06-02T12:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Spanish-speaking users in Latin America have been at the receiving end of a new botnet malware dubbed Horabot since at least November 2020.
+"Horabot enables the threat actor to control the victim's Outlook mailbox, exfiltrate contacts' email addresses, and send phishing emails with malicious HTML attachments to all addresses in the victim's mailbox," Cisco Talos researcher Chetan Raghuprasad]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
+        <id>/node/18272</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/06/02/cisa-adds-one-known-exploited-vulnerability-catalog"/>
+        <updated>2023-06-02T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2023-34362 Progress MOVEit Transfer SQL Injection Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the "Date Added to Catalog" column—which will sort by descending dates.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Importance of Managing Your Data Security Posture]]></title>
+        <id>https://thehackernews.com/2023/06/the-importance-of-managing-your-data.html</id>
+        <link href="https://thehackernews.com/2023/06/the-importance-of-managing-your-data.html"/>
+        <updated>2023-06-02T10:16:00.000Z</updated>
+        <summary type="html"><![CDATA[Data security is reinventing itself. As new data security posture management solutions come to market, organizations are increasingly recognizing the opportunity to provide evidence-based security that proves how their data is being protected. But what exactly is data security posture, and how do you manage it? 
+Data security posture management (DSPM) became mainstream following the publication]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Camaro Dragon Strikes with New TinyNote Backdoor for Intelligence Gathering]]></title>
+        <id>https://thehackernews.com/2023/06/camaro-dragon-strikes-with-new-tinynote.html</id>
+        <link href="https://thehackernews.com/2023/06/camaro-dragon-strikes-with-new-tinynote.html"/>
+        <updated>2023-06-02T10:08:00.000Z</updated>
+        <summary type="html"><![CDATA[The Chinese nation-stage group known as Camaro Dragon has been linked to yet another backdoor that's designed to meet its intelligence-gathering goals.
+Israeli cybersecurity firm Check Point, which dubbed the Go-based malware TinyNote, said it functions as a first-stage payload capable of "basic machine enumeration and command execution via PowerShell or Goroutines."
+What the malware lacks in]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enzo Biochem Ransomware Attack Exposes Information of 2.5M Individuals]]></title>
+        <id>https://www.securityweek.com/?p=33849</id>
+        <link href="https://www.securityweek.com/enzo-biochem-ransomware-attack-exposes-information-of-2-5m-individuals/"/>
+        <updated>2023-06-02T09:55:20.000Z</updated>
+        <summary type="html"><![CDATA[Enzo Biochem says the clinical test information of roughly 2.47 million individuals was exposed in a recent ransomware attack.  
+The post Enzo Biochem Ransomware Attack Exposes Information of 2.5M Individuals appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Denies Helping US Government Hack Russian iPhones]]></title>
+        <id>https://www.securityweek.com/?p=33847</id>
+        <link href="https://www.securityweek.com/apple-denies-helping-us-government-hack-russian-iphones/"/>
+        <updated>2023-06-02T09:47:24.000Z</updated>
+        <summary type="html"><![CDATA[Apple has denied working with any government to add backdoors to its products after Russia accused the company of helping the NSA hack iPhones. 
+The post Apple Denies Helping US Government Hack Russian iPhones appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero-Day in MOVEit File Transfer Software Exploited to Steal Data From Organizations]]></title>
+        <id>https://www.securityweek.com/?p=33845</id>
+        <link href="https://www.securityweek.com/zero-day-in-moveit-file-transfer-software-exploited-to-steal-data-from-organizations/"/>
+        <updated>2023-06-02T09:04:59.000Z</updated>
+        <summary type="html"><![CDATA[A zero-day vulnerability in Progress Software’s MOVEit Transfer product has been exploited to hack organizations and steal their data.
+The post Zero-Day in MOVEit File Transfer Software Exploited to Steal Data From Organizations appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[North Korea's Kimsuky Group Mimics Key Figures in Targeted Cyber Attacks]]></title>
+        <id>https://thehackernews.com/2023/06/north-koreas-kimsuky-group-mimics-key.html</id>
+        <link href="https://thehackernews.com/2023/06/north-koreas-kimsuky-group-mimics-key.html"/>
+        <updated>2023-06-02T05:45:00.000Z</updated>
+        <summary type="html"><![CDATA[U.S. and South Korean intelligence agencies have issued a new alert warning of North Korean cyber actors' use of social engineering tactics to strike think tanks, academia, and news media sectors.
+The "sustained information gathering efforts" have been attributed to a state-sponsored cluster dubbed Kimsuky, which is also known by the names APT43, ARCHIPELAGO, Black Banshee, Emerald Sleet (]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Temporarily Offering $180,000 for Full Chain Chrome Exploit]]></title>
+        <id>https://www.securityweek.com/?p=33843</id>
+        <link href="https://www.securityweek.com/google-temporarily-offering-180000-for-full-chain-chrome-exploit/"/>
+        <updated>2023-06-02T03:59:12.000Z</updated>
+        <summary type="html"><![CDATA[Google is offering a bug bounty reward of up to $180,000 for a full chain exploit leading to a sandbox escape in the Chrome browser.
+The post Google Temporarily Offering $180,000 for Full Chain Chrome Exploit appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MOVEit Transfer Under Attack: Zero-Day Vulnerability Actively Being Exploited]]></title>
+        <id>https://thehackernews.com/2023/06/moveit-transfer-under-attack-zero-day.html</id>
+        <link href="https://thehackernews.com/2023/06/moveit-transfer-under-attack-zero-day.html"/>
+        <updated>2023-06-02T03:25:00.000Z</updated>
+        <summary type="html"><![CDATA[A critical flaw in Progress Software's in MOVEit Transfer managed file transfer application has come under widespread exploitation in the wild to take over vulnerable systems.
+The shortcoming, which is yet to be assigned a CVE identifier, relates to a severe SQL injection vulnerability that could lead to escalated privileges and potential unauthorized access to the environment.
+"An SQL injection]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6134-1: Linux kernel (Intel IoTG) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6134-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6134-1"/>
+        <updated>2023-06-01T21:41:18.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the Traffic-Control Index (TCINDEX) implementation
+in the Linux kernel did not properly perform filter deactivation in some
+situations. A local attacker could possibly use this to gain elevated
+privileges. Please note that with the fix for this CVE, kernel support for
+the TCINDEX classifier has been removed. (CVE-2023-1829)
+
+It was discovered that the Traffic-Control Index (TCINDEX) implementation
+in the Linux kernel contained a use-after-free vulnerability. A local
+attacker could use this to cause a denial of service (system crash) or
+possibly execute arbitrary code. (CVE-2023-1281)
+
+It was discovered that the OverlayFS implementation in the Linux kernel did
+not properly handle copy up operation in some conditions. A local attacker
+could possibly use this to gain el…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6133-1: Linux kernel (Intel IoTG) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6133-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6133-1"/>
+        <updated>2023-06-01T21:39:50.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the Traffic-Control Index (TCINDEX) implementation
+in the Linux kernel did not properly perform filter deactivation in some
+situations. A local attacker could possibly use this to gain elevated
+privileges. Please note that with the fix for this CVE, kernel support for
+the TCINDEX classifier has been removed. (CVE-2023-1829)
+
+It was discovered that some AMD x86-64 processors with SMT enabled could
+speculatively execute instructions using a return address from a sibling
+thread. A local attacker could possibly use this to expose sensitive
+information. (CVE-2022-27672)
+
+Zheng Wang discovered that the Intel i915 graphics driver in the Linux
+kernel did not properly handle certain error conditions, leading to a
+double-free. A local attacker could possibly use this to cause …]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DNB Strengthens its Network Security Posture and Productivity With Ericsson Security Manager Solution]]></title>
+        <id>https://www.darkreading.com/operations/dnb-strengthens-its-network-security-posture-and-productivity-with-ericsson-security-manager-solution</id>
+        <link href="https://www.darkreading.com/operations/dnb-strengthens-its-network-security-posture-and-productivity-with-ericsson-security-manager-solution"/>
+        <updated>2023-06-01T21:20:00.000Z</updated>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cyversity and United Airlines to Provide Cybersecurity Training Scholarships to Cyversity Members]]></title>
+        <id>https://www.darkreading.com/operations/cyversity-and-united-airlines-to-provide-cybersecurity-training-scholarships-to-cyversity-members</id>
+        <link href="https://www.darkreading.com/operations/cyversity-and-united-airlines-to-provide-cybersecurity-training-scholarships-to-cyversity-members"/>
+        <updated>2023-06-01T21:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Program designed to equip women and underrepresented individuals with the necessary skills and knowledge to succeed in cybersecurity.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tel Aviv Stock Exchange Selects CardinalOps to Reduce Risk of Breaches Due to Undetected Attacks]]></title>
+        <id>https://www.darkreading.com/risk/tel-aviv-stock-exchange-selects-cardinalops-to-reduce-risk-of-breaches-due-to-undetected-attacks</id>
+        <link href="https://www.darkreading.com/risk/tel-aviv-stock-exchange-selects-cardinalops-to-reduce-risk-of-breaches-due-to-undetected-attacks"/>
+        <updated>2023-06-01T20:47:00.000Z</updated>
+        <summary type="html"><![CDATA[Enables financial services firm to operationalize MITRE ATT&CK with Splunk and eliminate detection coverage gaps based on organizational risk and priorities.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon Pays $30.8M to Settle Ring Spying & Alexa Privacy Lawsuits]]></title>
+        <id>https://www.darkreading.com/ics-ot/amazon-ring-and-alexa-pay-30-8m-to-settle-privacy-lawsuits</id>
+        <link href="https://www.darkreading.com/ics-ot/amazon-ring-and-alexa-pay-30-8m-to-settle-privacy-lawsuits"/>
+        <updated>2023-06-01T19:41:00.000Z</updated>
+        <summary type="html"><![CDATA[The global e-commerce company will pay millions of dollars in two separate lawsuits because of privacy and security violations, the FTC says.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6132-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6132-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6132-1"/>
+        <updated>2023-06-01T18:54:49.000Z</updated>
+        <summary type="html"><![CDATA[Patryk Sondej and Piotr Krysiuk discovered that a race condition existed in
+the netfilter subsystem of the Linux kernel when processing batch requests,
+leading to a use-after-free vulnerability. A local attacker could use this
+to cause a denial of service (system crash) or possibly execute arbitrary
+code. (CVE-2023-32233)
+
+Gwangun Jung discovered that the Quick Fair Queueing scheduler
+implementation in the Linux kernel contained an out-of-bounds write
+vulnerability. A local attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2023-31436)
+
+Reima Ishii discovered that the nested KVM implementation for Intel x86
+processors in the Linux kernel did not properly validate control registers
+in certain situations. An attacker in a guest VM cou…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6131-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6131-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6131-1"/>
+        <updated>2023-06-01T18:48:32.000Z</updated>
+        <summary type="html"><![CDATA[Patryk Sondej and Piotr Krysiuk discovered that a race condition existed in
+the netfilter subsystem of the Linux kernel when processing batch requests,
+leading to a use-after-free vulnerability. A local attacker could use this
+to cause a denial of service (system crash) or possibly execute arbitrary
+code. (CVE-2023-32233)
+
+Gwangun Jung discovered that the Quick Fair Queueing scheduler
+implementation in the Linux kernel contained an out-of-bounds write
+vulnerability. A local attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2023-31436)
+
+Reima Ishii discovered that the nested KVM implementation for Intel x86
+processors in the Linux kernel did not properly validate control registers
+in certain situations. An attacker in a guest VM could use this to cause a
+denial of service (guest crash). (CVE-2023-30456)
+
+It was discovered that the Broadcom FullMAC USB WiFi driver in the Linux
+kernel did not properly perform data buffer size validation in some
+situations. A physically proximate attacker could use this to craft a
+malicious USB device that when inserted, could cause a denial of service
+(system crash) or possibly expose sensitive information. (CVE-2023-1380)
+
+Jean-Baptiste Cayrou discovered that the shiftfs file system in the Ubuntu
+Linux kernel contained a race condition when handling inode locking in some
+situations. A local attacker could use this to cause a denial of service
+(kernel deadlock). (CVE-2023-2612)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jetpack WordPress Plug-in API Bug Triggers Mass Updates]]></title>
+        <id>https://www.darkreading.com/endpoint/jetpack-wordpress-plugin-api-bug-mass-updates</id>
+        <link href="https://www.darkreading.com/endpoint/jetpack-wordpress-plugin-api-bug-mass-updates"/>
+        <updated>2023-06-01T18:44:27.000Z</updated>
+        <summary type="html"><![CDATA[An audit uncovers an API-related security vulnerability dating back to Jetpack version 2.0 released in 2012 — and it affects millions of websites.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Do I Reduce Security Tool Sprawl in My Environment?]]></title>
+        <id>https://www.darkreading.com/edge-ask-the-experts/how-do-i-reduce-security-tool-sprawl-in-my-environment</id>
+        <link href="https://www.darkreading.com/edge-ask-the-experts/how-do-i-reduce-security-tool-sprawl-in-my-environment"/>
+        <updated>2023-06-01T18:42:00.000Z</updated>
+        <summary type="html"><![CDATA[When it comes to tool consolidation, focus on platforms over products.]]></summary>
+        <author>
+            <name>Yotam Segev, Co-Founder and CEO, Cyera</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6130-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6130-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6130-1"/>
+        <updated>2023-06-01T17:28:21.000Z</updated>
+        <summary type="html"><![CDATA[Patryk Sondej and Piotr Krysiuk discovered that a race condition existed in
+the netfilter subsystem of the Linux kernel when processing batch requests,
+leading to a use-after-free vulnerability. A local attacker could use this
+to cause a denial of service (system crash) or possibly execute arbitrary
+code. (CVE-2023-32233)
+
+Gwangun Jung discovered that the Quick Fair Queueing scheduler
+implementation in the Linux kernel contained an out-of-bounds write
+vulnerability. A local attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2023-31436)
+
+Reima Ishii discovered that the nested KVM implementation for Intel x86
+processors in the Linux kernel did not properly validate control registers
+in certain situations. An attacker in a guest VM could use this to cause a
+denial of service (guest crash). (CVE-2023-30456)
+
+It was discovered that the Broadcom FullMAC USB WiFi driver in the Linux
+kernel did not properly perform data buffer size validation in some
+situations. A physically proximate attacker could use this to craft a
+malicious USB device that when inserted, could cause a denial of service
+(system crash) or possibly expose sensitive information. (CVE-2023-1380)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sustained 'Red Deer' Phishing Attacks Impersonate Israel Post, Drop RATs]]></title>
+        <id>https://www.darkreading.com/dr-global/sustained-red-deer-phishing-attacks-israel-post-rats</id>
+        <link href="https://www.darkreading.com/dr-global/sustained-red-deer-phishing-attacks-israel-post-rats"/>
+        <updated>2023-06-01T17:17:00.000Z</updated>
+        <summary type="html"><![CDATA[The "missed package" phishing messages, likely the work of a hacking-for-hire group, bounds into inboxes, bearing ASyncRAT.]]></summary>
+        <author>
+            <name>Dan Raywood, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Drive Deficiency Allows Attackers to Exfiltrate Workspace Data Without a Trace]]></title>
+        <id>https://www.darkreading.com/endpoint/google-drive-deficiency-exfiltrate-workspace-data</id>
+        <link href="https://www.darkreading.com/endpoint/google-drive-deficiency-exfiltrate-workspace-data"/>
+        <updated>2023-06-01T17:00:58.000Z</updated>
+        <summary type="html"><![CDATA[No activity logging in the free subscription for Google's Web-based productivity suite exposes enterprises to insider and other threats, researchers say.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Where SBOMs Stand Today]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/where-sboms-stand-today</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/where-sboms-stand-today"/>
+        <updated>2023-06-01T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It's been two years since Executive Order 14028. By using SBOMs as a standard, organizations can manage software risks, protect their reputation, and improve their cybersecurity posture.]]></summary>
+        <author>
+            <name>Liran Tancman, CEO &amp; Co-Founder, Rezilion</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Novel PyPI Malware Uses Compiled Python Bytecode to Evade Detection]]></title>
+        <id>https://www.darkreading.com/application-security/novel-pypi-malware-compiled-python-bytecode-evade-detection</id>
+        <link href="https://www.darkreading.com/application-security/novel-pypi-malware-compiled-python-bytecode-evade-detection"/>
+        <updated>2023-06-01T16:47:00.000Z</updated>
+        <summary type="html"><![CDATA[In an already fraught environment surrounding the popular Python programming language software package manager, hackers are coming up with new ways to sneak malicious goodies past cybersecurity buffers.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Evasive QBot Malware Leverages Short-lived Residential IPs for Dynamic Attacks]]></title>
+        <id>https://thehackernews.com/2023/06/evasive-qbot-malware-leverages-short.html</id>
+        <link href="https://thehackernews.com/2023/06/evasive-qbot-malware-leverages-short.html"/>
+        <updated>2023-06-01T16:11:00.000Z</updated>
+        <summary type="html"><![CDATA[An analysis of the "evasive and tenacious" malware known as QBot has revealed that 25% of its command-and-control (C2) servers are merely active for a single day.
+What's more, 50% of the servers don't remain active for more than a week, indicating the use of an adaptable and dynamic C2 infrastructure, Lumen Black Lotus Labs said in a report shared with The Hacker News.
+"This botnet has adapted]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Biometric Bypass: BrutePrint Makes Short Work of Fingerprint Security]]></title>
+        <id>https://www.darkreading.com/endpoint/bruteprint-short-work-fingerprint-security</id>
+        <link href="https://www.darkreading.com/endpoint/bruteprint-short-work-fingerprint-security"/>
+        <updated>2023-06-01T15:50:34.000Z</updated>
+        <summary type="html"><![CDATA[Bugs in the biometric protections on Android phones and iPhones allow the limit on the number of tries to unlock the devices with a fingerprint can be bypassed, allowing automated brute-force attacks.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6128-2: CUPS vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6128-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-6128-2"/>
+        <updated>2023-06-01T15:14:55.000Z</updated>
+        <summary type="html"><![CDATA[USN-6128-1 fixed a vulnerability in CUPS. This update provides
+the corresponding update for Ubuntu 16.04 ESM.
+
+Original advisory details:
+
+ It was discovered that CUPS incorrectly handled logging. A remote attacker
+ could use this issue to cause CUPS to crash, resulting in a denial of
+ service, or possibly execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Zero-Click Hack Targets iOS Users with Stealthy Root-Privilege Malware]]></title>
+        <id>https://thehackernews.com/2023/06/new-zero-click-hack-targets-ios-users.html</id>
+        <link href="https://thehackernews.com/2023/06/new-zero-click-hack-targets-ios-users.html"/>
+        <updated>2023-06-01T15:14:00.000Z</updated>
+        <summary type="html"><![CDATA[A previously unknown advanced persistent threat (APT) is targeting iOS devices as part of a sophisticated and long-running mobile campaign dubbed Operation Triangulation that began in 2019.
+"The targets are infected using zero-click exploits via the iMessage platform, and the malware runs with root privileges, gaining complete control over the device and user data," Kaspersky said.
+The Russian]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unmasking XE Group: Experts Reveal Identity of Suspected Cybercrime Kingpin]]></title>
+        <id>https://thehackernews.com/2023/06/unmasking-xe-group-experts-reveal.html</id>
+        <link href="https://thehackernews.com/2023/06/unmasking-xe-group-experts-reveal.html"/>
+        <updated>2023-06-01T14:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have unmasked the identity of one of the individuals who is believed to be associated with the e-crime actor known as XE Group.
+According to Menlo Security, which pieced together the information from different online sources, "Nguyen Huu Tai, who also goes by the names Joe Nguyen and Thanh Nguyen, has the strongest likelihood of being involved with the XE Group."
+XE]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6129-1: Avahi vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6129-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6129-1"/>
+        <updated>2023-06-01T14:51:17.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Avahi incorrectly handled certain DBus messages. A
+local attacker could possibly use this issue to cause Avahi to crash,
+resulting in a denial of service.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolarWinds Transforms Brand to Signify Ongoing Evolution, Portfolio Expansion, and Customer Empowerment]]></title>
+        <id>https://www.darkreading.com/operations/solarwinds-transforms-brand-to-signify-ongoing-evolution-portfolio-expansion-and-customer-empowerment</id>
+        <link href="https://www.darkreading.com/operations/solarwinds-transforms-brand-to-signify-ongoing-evolution-portfolio-expansion-and-customer-empowerment"/>
+        <updated>2023-06-01T13:32:00.000Z</updated>
+        <summary type="html"><![CDATA[Refreshed version of iconic SolarWinds logo and vibrant new brand color palette honor company’s historic success while highlighting future vision.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Top macOS Malware Threats: Here Are 6 to Watch]]></title>
+        <id>https://www.darkreading.com/endpoint/top-macos-malware-threats-proliferate</id>
+        <link href="https://www.darkreading.com/endpoint/top-macos-malware-threats-proliferate"/>
+        <updated>2023-06-01T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple's growing market share — in a shrinking PC market — and the growing use of Golang for malware development is pushing a gradual increase in malicious tools targeting macOS environments.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6128-1: CUPS vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6128-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6128-1"/>
+        <updated>2023-06-01T12:56:34.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that CUPS incorrectly handled logging. A remote attacker
+could use this issue to cause CUPS to crash, resulting in a denial of
+service, or possibly execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dark Reading Launches Inaugural CISO Advisory Board]]></title>
+        <id>https://www.darkreading.com/operations/dark-reading-launches-inaugural-ciso-advisory-board</id>
+        <link href="https://www.darkreading.com/operations/dark-reading-launches-inaugural-ciso-advisory-board"/>
+        <updated>2023-06-01T12:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Ten chief information security officers from a variety of verticals will provide valuable insights to Dark Reading on what they see as the industry's most pressing issues.]]></summary>
+        <author>
+            <name>Kelly Jackson Higgins, Editor-in-Chief, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Malicious PyPI Packages Using Compiled Python Code to Bypass Detection]]></title>
+        <id>https://thehackernews.com/2023/06/malicious-pypi-packages-using-compiled.html</id>
+        <link href="https://thehackernews.com/2023/06/malicious-pypi-packages-using-compiled.html"/>
+        <updated>2023-06-01T12:16:00.000Z</updated>
+        <summary type="html"><![CDATA[Researchers have discovered a novel attack on the Python Package Index (PyPI) repository that employs compiled Python code to sidestep detection by application security tools.
+"It may be the first supply chain attack to take advantage of the fact that Python bytecode (PYC) files can be directly executed," ReversingLabs analyst Karlo Zanki said in a report shared with The Hacker News.
+The package]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Progress Software Releases Security Advisory for MOVEit Transfer]]></title>
+        <id>/node/18269</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/06/01/progress-software-releases-security-advisory-moveit-transfer"/>
+        <updated>2023-06-01T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Progress Software has released a security advisory for a SQL injection vulnerability (CVE-2023-34362) in MOVEit Transfer—a Managed File Transfer Software. A cyber threat actor could exploit this vulnerability to take over an affected system.
+CISA urgers users and organizations to review the MOVEit Transfer Advisory, follow the mitigation steps, apply the necessary updates, and hunt for any malicious activity.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Five Industrial Control Systems Advisories]]></title>
+        <id>/node/18265</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/06/01/cisa-releases-five-industrial-control-systems-advisories"/>
+        <updated>2023-06-01T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released five Industrial Control Systems (ICS) advisories on June 1, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS. 
+ICSA-23-152-01 Advantech WebAccess-SCADA
+ICSA-23-152-02 HID Global SAFE
+ICSA-22-256-03 Delta Electronics DIAEnergie (Update A)
+ICSA-22-333-05 Mitsubishi Electric FA Engineering Software (Update A)
+ICSA-21-096-01 Hitachi Energy Relion 670 650 SAM600IO (Update B)
+CISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Wazuh Improves IT Hygiene for Cyber Security Resilience]]></title>
+        <id>https://thehackernews.com/2023/06/how-wazuh-improves-it-hygiene-for-cyber.html</id>
+        <link href="https://thehackernews.com/2023/06/how-wazuh-improves-it-hygiene-for-cyber.html"/>
+        <updated>2023-06-01T11:54:00.000Z</updated>
+        <summary type="html"><![CDATA[IT hygiene is a security best practice that ensures that digital assets in an organization's environment are secure and running properly. Good IT hygiene includes vulnerability management, security configuration assessments, maintaining asset and system inventories, and comprehensive visibility into the activities occurring in an environment.
+As technology advances and the tools used by]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On the Catastrophic Risk of AI]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/06/on-the-catastrophic-risk-of-ai.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/06/on-the-catastrophic-risk-of-ai.html"/>
+        <updated>2023-06-01T11:17:46.000Z</updated>
+        <summary type="html"><![CDATA[<p>Earlier this week, I signed on to a short <a href="https://www.safe.ai/statement-on-ai-risk">group statement</a>, coordinated by the Center for AI Safety:</p>
+<blockquote><p>Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.</p></blockquote>
+<p><a href="https://www.nytimes.com/2023/05/30/technology/ai-threat-warning.html">The</a> <a href="https://www.theverge.com/2023/5/30/23742005/ai-risk-warning-22-word-statement-google-deepmind-openai">press</a> <a href="https://apnews.com/article/artificial-intelligence-risk-of-extinction-ai-54ea8aadc60d1503e5a65878219aad43">coverage</a> <a href="https://www.wired.com/story/runaway-ai-extinction-statement/">has</a> <a href="https://www.bbc.com/news/uk-65746524">been</a> extensive, and surprising to me. The <i>New York Times</i> headline is &#8220;A.I. Poses &#8216;Risk of Extinction,&#8217; Industry Leaders Warn.&#8221; <i>BBC</i>: &#8220;Artificial intelligence could lead to extinction, experts warn.&#8221; Other headlines are similar.</p>
+<p>I actually don&#8217;t think that AI poses a risk to human extinction. I think it poses a similar risk to pandemics and nuclear war&#8212;which is to say, a risk worth taking seriously, but not something to panic over. Which is what I thought the statement said...</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improved BlackCat Ransomware Strikes with Lightning Speed and Stealthy Tactics]]></title>
+        <id>https://thehackernews.com/2023/06/improved-blackcat-ransomware-strikes.html</id>
+        <link href="https://thehackernews.com/2023/06/improved-blackcat-ransomware-strikes.html"/>
+        <updated>2023-06-01T09:19:00.000Z</updated>
+        <summary type="html"><![CDATA[The threat actors behind BlackCat ransomware have come up with an improved variant that prioritizes speed and stealth in an attempt to bypass security guardrails and achieve their goals.
+The new version, dubbed Sphynx and announced in February 2023, packs a "number of updated capabilities that strengthen the group's efforts to evade detection," IBM Security X-Force said in a new analysis.
+The "]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[N. Korean ScarCruft Hackers Exploit LNK Files to Spread RokRAT]]></title>
+        <id>https://thehackernews.com/2023/06/n-korean-scarcruft-hackers-exploit.html</id>
+        <link href="https://thehackernews.com/2023/06/n-korean-scarcruft-hackers-exploit.html"/>
+        <updated>2023-06-01T06:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have offered a closer look at the RokRAT remote access trojan that's employed by the North Korean state-sponsored actor known as ScarCruft.
+"RokRAT is a sophisticated remote access trojan (RAT) that has been observed as a critical component within the attack chain, enabling the threat actors to gain unauthorized access, exfiltrate sensitive information, and potentially]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Active Mirai Botnet Variant Exploiting Zyxel Devices for DDoS Attacks]]></title>
+        <id>https://thehackernews.com/2023/06/active-mirai-botnet-variant-exploiting.html</id>
+        <link href="https://thehackernews.com/2023/06/active-mirai-botnet-variant-exploiting.html"/>
+        <updated>2023-06-01T04:17:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched critical security flaw in Zyxel gear to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
+Tracked as CVE-2023-28771 (CVSS score: 9.8), the issue relates to a command injection flaw impacting different firewall models that could enable an unauthenticated attacker]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Urgent WordPress Update Fixes Critical Flaw in Jetpack Plugin on Million of Sites]]></title>
+        <id>https://thehackernews.com/2023/06/urgent-wordpress-update-fixes-critical.html</id>
+        <link href="https://thehackernews.com/2023/06/urgent-wordpress-update-fixes-critical.html"/>
+        <updated>2023-06-01T04:01:00.000Z</updated>
+        <summary type="html"><![CDATA[WordPress has issued an automatic update to address a critical flaw in the Jetpack plugin that’s installed on over five million sites.
+The vulnerability, which was unearthed during an internal security audit, resides in an API present in the plugin since version 2.0, which was released in November 2012.
+“This vulnerability could be used by authors on a site to manipulate any files in the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6127-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6127-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6127-1"/>
+        <updated>2023-05-31T22:15:15.000Z</updated>
+        <summary type="html"><![CDATA[Patryk Sondej and Piotr Krysiuk discovered that a race condition existed in
+the netfilter subsystem of the Linux kernel when processing batch requests,
+leading to a use-after-free vulnerability. A local attacker could use this
+to cause a denial of service (system crash) or possibly execute arbitrary
+code. (CVE-2023-32233)
+
+Gwangun Jung discovered that the Quick Fair Queueing scheduler
+implementation in the Linux kernel contained an out-of-bounds write
+vulnerability. A local attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2023-31436)
+
+Reima Ishii discovered that the nested KVM implementation for Intel x86
+processors in the Linux kernel did not properly validate control registers
+in certain situations. An attacker in a guest VM could use this to cause a
+denial of service (guest crash). (CVE-2023-30456)
+
+It was discovered that the Broadcom FullMAC USB WiFi driver in the Linux
+kernel did not properly perform data buffer size validation in some
+situations. A physically proximate attacker could use this to craft a
+malicious USB device that when inserted, could cause a denial of service
+(system crash) or possibly expose sensitive information. (CVE-2023-1380)
+
+Jean-Baptiste Cayrou discovered that the shiftfs file system in the Ubuntu
+Linux kernel contained a race condition when handling inode locking in some
+situations. A local attacker could use this to cause a denial of service
+(kernel deadlock). (CVE-2023-2612)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet Charlotte, CrowdStrike's New Generative AI Assistant]]></title>
+        <id>https://www.darkreading.com/dr-tech/meet-charlotte-crowdstrike-s-new-generative-ai-assistant</id>
+        <link href="https://www.darkreading.com/dr-tech/meet-charlotte-crowdstrike-s-new-generative-ai-assistant"/>
+        <updated>2023-05-31T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Charlotte AI is the latest security-based generative AI assistant to hit the market.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yet Another Toyota Cloud Data Breach Jeopardizes Thousands of Customers]]></title>
+        <id>https://www.darkreading.com/ics-ot/toyota-cloud-data-breach-jeopardizes-thousands-customers</id>
+        <link href="https://www.darkreading.com/ics-ot/toyota-cloud-data-breach-jeopardizes-thousands-customers"/>
+        <updated>2023-05-31T21:08:00.000Z</updated>
+        <summary type="html"><![CDATA[The newly found misconfigured cloud services are discovered just two weeks after an initial data breach affecting millions came to light.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can Cloud Services Encourage Better Login Security? Netflix's Accidental Model]]></title>
+        <id>https://www.darkreading.com/endpoint/can-service-providers-encourage-better-login-security-netflix-accidental-model</id>
+        <link href="https://www.darkreading.com/endpoint/can-service-providers-encourage-better-login-security-netflix-accidental-model"/>
+        <updated>2023-05-31T20:30:23.000Z</updated>
+        <summary type="html"><![CDATA[Netflix's unpopular password-sharing policy change had a positive cybersecurity silver lining. Can more B2C service providers nudge their users toward secure authentication?]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MacOS 'Migraine' Bug: Big Headache for Device System Integrity]]></title>
+        <id>https://www.darkreading.com/endpoint/macos-migraine-bug-headache-device-system-integrity</id>
+        <link href="https://www.darkreading.com/endpoint/macos-migraine-bug-headache-device-system-integrity"/>
+        <updated>2023-05-31T20:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft says the vulnerability could allow cyberattackers with root access to bypass security protections and install malware.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ways to Help Cybersecurity's Essential Workers Avoid Burnout]]></title>
+        <id>https://www.darkreading.com/edge-articles/ways-to-help-cybersecurity-s-essential-workers-avoid-burnout</id>
+        <link href="https://www.darkreading.com/edge-articles/ways-to-help-cybersecurity-s-essential-workers-avoid-burnout"/>
+        <updated>2023-05-31T19:30:00.000Z</updated>
+        <summary type="html"><![CDATA[To support and retain the people who protect assets against bad actors, organizations should create a more defensible environment.]]></summary>
+        <author>
+            <name>Kris Lovejoy, Global Security and Resilience Practice Leader, Kyndryl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Apple's RSRs Reveal About Mac Patch Management]]></title>
+        <id>https://www.darkreading.com/endpoint/what-apple-rsrs-reveal-about-mac-patch-management</id>
+        <link href="https://www.darkreading.com/endpoint/what-apple-rsrs-reveal-about-mac-patch-management"/>
+        <updated>2023-05-31T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple's Rapid Security Response updates are designed to patch critical security vulnerabilities, but how much good can they do when patching is a weeks-long process?]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Investment May Be Down, but Cybersecurity Remains a Hot Sector]]></title>
+        <id>https://www.darkreading.com/operations/investment-may-be-down-cybersecurity-remains-hot</id>
+        <link href="https://www.darkreading.com/operations/investment-may-be-down-cybersecurity-remains-hot"/>
+        <updated>2023-05-31T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[There's still a great deal of capital available for innovative companies helping businesses secure their IT environments.]]></summary>
+        <author>
+            <name>Dave DeWalt, Founder &amp; CEO, NightDragon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Checkmarx Announces GenAI-powered AppSec Platform, Empowering Developers and AppSec Teams to Find and Fix Vulnerabilities Faster]]></title>
+        <id>https://www.darkreading.com/application-security/checkmarx-announces-genai-powered-appsec-platform-empowering-developers-and-appsec-teams-to-find-and-fix-vulnerabilities-faster</id>
+        <link href="https://www.darkreading.com/application-security/checkmarx-announces-genai-powered-appsec-platform-empowering-developers-and-appsec-teams-to-find-and-fix-vulnerabilities-faster"/>
+        <updated>2023-05-31T16:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Powered by GPT-4, innovative new AI-driven capabilities lower application security (AppSec) risk and help security teams "shift everywhere" with speed and accuracy.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New eID Scheme Gives EU Citizens Easy Access to Public Services Online]]></title>
+        <id>https://www.darkreading.com/operations/new-eid-scheme-gives-eu-citizens-easy-access-to-public-services-online</id>
+        <link href="https://www.darkreading.com/operations/new-eid-scheme-gives-eu-citizens-easy-access-to-public-services-online"/>
+        <updated>2023-05-31T16:24:00.000Z</updated>
+        <summary type="html"><![CDATA[The European Commission voted a new electronic identification scheme that creates new opportunities for EU citizens and businesses.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybercriminals Targeting Apache NiFi Instances for Cryptocurrency Mining]]></title>
+        <id>https://thehackernews.com/2023/05/cybercriminals-targeting-apache-nifi.html</id>
+        <link href="https://thehackernews.com/2023/05/cybercriminals-targeting-apache-nifi.html"/>
+        <updated>2023-05-31T15:44:00.000Z</updated>
+        <summary type="html"><![CDATA[A financially motivated threat actor is actively scouring the internet for unprotected Apache NiFi instances to covertly install a cryptocurrency miner and facilitate lateral movement.
+The findings come from the SANS Internet Storm Center (ISC), which detected a spike in HTTP requests for “/nifi” on May 19, 2023.
+“Persistence is achieved via timed processors or entries to cron,” said Dr.]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mirai Variant Opens Tenda, Zyxel Gear to RCE, DDoS]]></title>
+        <id>https://www.darkreading.com/endpoint/mirai-variant-tenda-zyxel-rce-ddos</id>
+        <link href="https://www.darkreading.com/endpoint/mirai-variant-tenda-zyxel-rce-ddos"/>
+        <updated>2023-05-31T15:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Researchers have observed several cyberattacks leveraging a botnet called IZ1H9, which exploits vulnerabilities in exposed devices and servers running on Linux.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chinese Hacking of US Critical Infrastructure]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/05/chinese-hacking-of-us-critical-infrastructure.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/05/chinese-hacking-of-us-critical-infrastructure.html"/>
+        <updated>2023-05-31T14:53:11.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://www.nytimes.com/2023/05/24/us/politics/china-guam-malware-cyber-microsoft.html">Everyone</a> <a href="https://www.washingtonpost.com/technology/2023/05/24/china-hack-guam-taiwan/">is</a> <a href="https://www.wsj.com/articles/china-hack-is-latest-challenge-for-wests-diplomatic-reset-with-beijing-9a7e880d">writing</a> <a href="https://www.wired.com/story/china-volt-typhoon-hack-us-critical-infrastructure/">about</a> an <a href="https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF">interagency and international report</a> on Chinese hacking of US critical infrastructure.</p>
+<p>Lots of interesting details about how the group, called <a href="https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/">Volt Typhoon</a>, accesses target networks and evades detection.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Focus Security Efforts on Choke Points, Not Visibility]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/focus-security-efforts-on-choke-points-not-visibility</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/focus-security-efforts-on-choke-points-not-visibility"/>
+        <updated>2023-05-31T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[By finding the places where attack paths converge, you can slash multiple exposures in one fix for more efficient remediation.]]></summary>
+        <author>
+            <name>Menachem Shafran, Senior Vice President of Product and Innovation, XM Cyber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Firmware Vulnerability in Gigabyte Systems Exposes ~7 Million Devices]]></title>
+        <id>https://thehackernews.com/2023/05/critical-firmware-vulnerability-in.html</id>
+        <link href="https://thehackernews.com/2023/05/critical-firmware-vulnerability-in.html"/>
+        <updated>2023-05-31T13:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have found "backdoor-like behavior" within Gigabyte systems, which they say enables the UEFI firmware of the devices to drop a Windows executable and retrieve updates in an unsecure format.
+Firmware security firm Eclypsium said it first detected the anomaly in April 2023. Gigabyte has since acknowledged and addressed the issue.
+"Most Gigabyte firmware includes a Windows]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beware of Ghost Sites: Silent Threat Lurking in Your Salesforce Communities]]></title>
+        <id>https://thehackernews.com/2023/05/beware-of-ghost-sites-silent-threat.html</id>
+        <link href="https://thehackernews.com/2023/05/beware-of-ghost-sites-silent-threat.html"/>
+        <updated>2023-05-31T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Improperly deactivated and abandoned Salesforce Sites and Communities (aka Experience Cloud) could pose severe risks to organizations, leading to unauthorized access to sensitive data.
+Data security firm Varonis dubbed the abandoned, unprotected, and unmonitored resources “ghost sites.”
+“When these Communities are no longer needed, though, they are often set aside but not deactivated,” Varonis]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Salesforce 'Ghost Sites' Expose Sensitive Corporate Data]]></title>
+        <id>https://www.darkreading.com/application-security/salesforce-ghost-sites-expose-sensitive-corporate-data</id>
+        <link href="https://www.darkreading.com/application-security/salesforce-ghost-sites-expose-sensitive-corporate-data"/>
+        <updated>2023-05-31T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Some companies have moved on from using Salesforce. But without remembering to fully deactivate their clouds, Salesforce won't move on from them.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
+        <id>/node/18256</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/05/31/cisa-adds-one-known-exploited-vulnerability-catalog"/>
+        <updated>2023-05-31T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2023-28771 Zyxel Multiple Firewalls OS Command Injection Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the "Date Added to Catalog" column—which will sort by descending dates.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Details Critical Apple macOS Vulnerability Allowing SIP Protection Bypass]]></title>
+        <id>https://thehackernews.com/2023/05/microsoft-details-critical-apple-macos.html</id>
+        <link href="https://thehackernews.com/2023/05/microsoft-details-critical-apple-macos.html"/>
+        <updated>2023-05-31T11:57:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft has shared details of a now-patched flaw in Apple macOS that could be abused by threat actors with root access to bypass security enforcements and perform arbitrary actions on affected devices.
+Specifically, the flaw – dubbed Migraine and tracked as CVE-2023-32369 – could be abused to get around a key security measure called System Integrity Protection (SIP), or “rootless,” which]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[6 Steps to Effectively Threat Hunting: Safeguard Critical Assets and Fight Cybercrime]]></title>
+        <id>https://thehackernews.com/2023/05/6-steps-to-effective-threat-hunting.html</id>
+        <link href="https://thehackernews.com/2023/05/6-steps-to-effective-threat-hunting.html"/>
+        <updated>2023-05-31T11:47:00.000Z</updated>
+        <summary type="html"><![CDATA[Finding threat actors before they find you is key to beefing up your cyber defenses. How to do that efficiently and effectively is no small task – but with a small investment of time, you can master threat hunting and save your organization millions of dollars.
+Consider this staggering statistic. Cybersecurity Ventures estimates that cybercrime will take a $10.5 trillion toll on the global]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dark Pink APT Group Leverages TelePowerBot and KamiKakaBot in Sophisticated Attacks]]></title>
+        <id>https://thehackernews.com/2023/05/dark-pink-apt-group-leverages.html</id>
+        <link href="https://thehackernews.com/2023/05/dark-pink-apt-group-leverages.html"/>
+        <updated>2023-05-31T08:58:00.000Z</updated>
+        <summary type="html"><![CDATA[The threat actor known as Dark Pink has been linked to five new attacks aimed at various entities in Belgium, Brunei, Indonesia, Thailand, and Vietnam between February 2022 and April 2023.
+This includes educational institutions, government agencies, military bodies, and non-profit organizations, indicating the adversarial crew’s continued focus on high-value targets.
+Dark Pink, also called]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RomCom RAT Using Deceptive Web of Rogue Software Sites for Covert Attacks]]></title>
+        <id>https://thehackernews.com/2023/05/romcom-rat-using-deceptive-web-of-rogue.html</id>
+        <link href="https://thehackernews.com/2023/05/romcom-rat-using-deceptive-web-of-rogue.html"/>
+        <updated>2023-05-31T08:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The threat actors behind RomCom RAT are leveraging a network of fake websites advertising rogue versions of popular software at least since July 2022 to infiltrate targets.
+Cybersecurity firm Trend Micro is tracking the activity cluster under the name Void Rabisu, which is also known as Tropical Scorpius (Unit 42) and UNC2596 (Mandiant).
+"These lure sites are most likely only meant for a small]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alert: Hackers Exploit Barracuda Email Security Gateway 0-Day Flaw for 7 Months]]></title>
+        <id>https://thehackernews.com/2023/05/alert-hackers-exploit-barracuda-email.html</id>
+        <link href="https://thehackernews.com/2023/05/alert-hackers-exploit-barracuda-email.html"/>
+        <updated>2023-05-31T05:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Enterprise security firm Barracuda on Tuesday disclosed that a recently patched zero-day flaw in its Email Security Gateway (ESG) appliances had been abused by threat actors since October 2022 to backdoor the devices.
+The latest findings show that the critical vulnerability, tracked as CVE-2023-2868 (CVSS score: N/A), has been actively exploited for at least seven months prior to its discovery.]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spotlight on 2023 Dan Kaminsky Fellow: Dr. Gus Andrews]]></title>
+        <id>https://www.darkreading.com/edge/spotlight-on-2023-dan-kaminsky-fellow-dr-gus-andrews</id>
+        <link href="https://www.darkreading.com/edge/spotlight-on-2023-dan-kaminsky-fellow-dr-gus-andrews"/>
+        <updated>2023-05-31T01:25:00.000Z</updated>
+        <summary type="html"><![CDATA[As the second Kaminsky Fellow, Andrews will study the use of threat intelligence to track campaigns against the human rights community.]]></summary>
+        <author>
+            <name>Ericka Chickowski, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Human-Assisted CAPTCHA-Cracking Services Supercharge Shopper Bots]]></title>
+        <id>https://www.darkreading.com/application-security/human-assisted-captcha-cracking-services-supercharge-shopper-bots</id>
+        <link href="https://www.darkreading.com/application-security/human-assisted-captcha-cracking-services-supercharge-shopper-bots"/>
+        <updated>2023-05-30T21:39:00.000Z</updated>
+        <summary type="html"><![CDATA[On-demand human solvers are now augmenting automated website cyberattacks, offering a better way around tougher anti-bot puzzles.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[421M Spyware Apps Downloaded Through Google Play]]></title>
+        <id>https://www.darkreading.com/application-security/421-spyware-apps-downloaded-google-play</id>
+        <link href="https://www.darkreading.com/application-security/421-spyware-apps-downloaded-google-play"/>
+        <updated>2023-05-30T21:18:00.000Z</updated>
+        <summary type="html"><![CDATA[A Trojan SDK snuck past Google Play protections to infest 101 Android applications, bent on exfiltrating infected device data.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Undetected Attacks Against Middle East Targets Conducted Since 2020]]></title>
+        <id>https://www.darkreading.com/dr-global/undetected-attacks-against-middle-east-conducted</id>
+        <link href="https://www.darkreading.com/dr-global/undetected-attacks-against-middle-east-conducted"/>
+        <updated>2023-05-30T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Targeted attacks against Saudi Arabia and other Middle East nations have been detected with a tool that's been in the wild since 2020.]]></summary>
+        <author>
+            <name>Dan Raywood, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[9M Dental Patients Affected by LockBit Attack on MCNA]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/9-million-dental-patients-affected-lockbit-attack-mcna</id>
+        <link href="https://www.darkreading.com/attacks-breaches/9-million-dental-patients-affected-lockbit-attack-mcna"/>
+        <updated>2023-05-30T16:34:00.000Z</updated>
+        <summary type="html"><![CDATA[The government-sponsored dental and oral healthcare provider warned its customers that a March attack exposed sensitive data, some of which was leaked online by the ransomware group.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of May 22, 2023]]></title>
+        <id>/node/18243</id>
+        <link href="https://www.cisa.gov/news-events/bulletins/sb23-150"/>
+        <updated>2023-05-30T16:03:24.000Z</updated>
+        <summary type="html"><![CDATA[The CISA Vulnerability Bulletin provides a summary of new vulnerabilities that have been recorded by the National Institute of Standards and Technology (NIST) National Vulnerability Database (NVD) in the past week. NVD is sponsored by CISA. In some cases, the vulnerabilities in the bulletin may not yet have assigned CVSS scores. Please visit NVD for updated vulnerability entries, which include CVSS scores once they are available.
+Vulnerabilities are based on the Common Vulnerabilities and Exposures (CVE) vulnerability naming standard and are organized according to severity, determined by the Common Vulnerability Scoring System (CVSS) standard. The division of high, medium, and low severities correspond to the following scores:
+High: vulnerabilities with a CVSS base score of 7.0–10.0
+Entrie…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pentagon Leaks Emphasize the Need for a Trusted Workforce]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/pentagon-leaks-emphasize-the-need-for-a-trusted-workforce</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/pentagon-leaks-emphasize-the-need-for-a-trusted-workforce"/>
+        <updated>2023-05-30T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Tightening access controls and security clearance alone won't prevent insider threat risks motivated by lack of trust or loyalty.]]></summary>
+        <author>
+            <name>Kellie Roessler, Insider Risk Advocate &amp; Author, DTEX Insider Intelligence &amp; Investigations (i3) Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackers Win $105,000 for Reporting Critical Security Flaws in Sonos One Speakers]]></title>
+        <id>https://thehackernews.com/2023/05/hackers-win-105000-for-reporting.html</id>
+        <link href="https://thehackernews.com/2023/05/hackers-win-105000-for-reporting.html"/>
+        <updated>2023-05-30T12:29:00.000Z</updated>
+        <summary type="html"><![CDATA[Multiple security flaws uncovered in Sonos One wireless speakers could be potentially exploited to achieve information disclosure and remote code execution, the Zero Day Initiative (ZDI) said in a report published last week.
+The vulnerabilities were demonstrated by three different teams from Qrious Secure, STAR Labs, and DEVCORE at the Pwn2Own hacking contest held in Toronto late last year,]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CAPTCHA-Breaking Services with Human Solvers Helping Cybercriminals Defeat Security]]></title>
+        <id>https://thehackernews.com/2023/05/captcha-breaking-services-with-human.html</id>
+        <link href="https://thehackernews.com/2023/05/captcha-breaking-services-with-human.html"/>
+        <updated>2023-05-30T12:16:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers are warning about CAPTCHA-breaking services that are being offered for sale to bypass systems designed to distinguish legitimate users from bot traffic.
+"Because cybercriminals are keen on breaking CAPTCHAs accurately, several services that are primarily geared toward this market demand have been created," Trend Micro said in a report published last week.
+"These]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases One Industrial Control Systems Advisory]]></title>
+        <id>/node/18241</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/05/30/cisa-releases-one-industrial-control-systems-advisory"/>
+        <updated>2023-05-30T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released one Industrial Control Systems (ICS) advisory on May 30, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS. 
+ICSA-23-150-01 Advantech WebAccess/SCADA
+CISA encourages users and administrators to review the newly released ICS advisory for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Implementing Risk-Based Vulnerability Discovery and Remediation]]></title>
+        <id>https://thehackernews.com/2023/05/implementing-risk-based-vulnerability.html</id>
+        <link href="https://thehackernews.com/2023/05/implementing-risk-based-vulnerability.html"/>
+        <updated>2023-05-30T11:55:00.000Z</updated>
+        <summary type="html"><![CDATA[In this day and age, vulnerabilities in software and systems pose a considerable danger to businesses, which is why it is essential to have an efficient vulnerability management program in place. To stay one step ahead of possible breaches and reduce the damage they may cause, it is crucial to automate the process of finding and fixing vulnerabilities depending on the level of danger they pose.]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brute-Forcing a Fingerprint Reader]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/05/brute-forcing-a-fingerprint-reader.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/05/brute-forcing-a-fingerprint-reader.html"/>
+        <updated>2023-05-30T11:16:43.000Z</updated>
+        <summary type="html"><![CDATA[<p>It&#8217;s <a href="https://arstechnica.com/information-technology/2023/05/hackers-can-brute-force-fingerprint-authentication-of-android-devices/#p3">neither hard nor expensive</a>:</p>
+<blockquote><p>Unlike password authentication, which requires a direct match between what is inputted and what&#8217;s stored in a database, fingerprint authentication determines a match using a reference threshold. As a result, a successful fingerprint brute-force attack requires only that an inputted image provides an acceptable approximation of an image in the fingerprint database. BrutePrint manipulates the false acceptance rate (FAR) to increase the threshold so fewer approximate images are accepted.</p>
+<p>BrutePrint acts as an adversary in the middle between the fingerprint sensor and the trusted execution environment and exploits vulnerabilities that allow for unlimited guesses...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sneaky DogeRAT Trojan Poses as Popular Apps, Targets Indian Android Users]]></title>
+        <id>https://thehackernews.com/2023/05/sneaky-dogerat-trojan-poses-as-popular.html</id>
+        <link href="https://thehackernews.com/2023/05/sneaky-dogerat-trojan-poses-as-popular.html"/>
+        <updated>2023-05-30T07:02:00.000Z</updated>
+        <summary type="html"><![CDATA[A new open source remote access trojan (RAT) called DogeRAT targets Android users primarily located in India as part of a sophisticated malware campaign.
+The malware is distributed via social media and messaging platforms under the guise of legitimate applications like Opera Mini, OpenAI ChatGPT, and Premium versions of YouTube, Netflix, and Instagram.
+"Once installed on a victim's device, the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New BrutePrint Attack Lets Attackers Unlock Smartphones with Fingerprint Brute-Force]]></title>
+        <id>https://thehackernews.com/2023/05/new-bruteprint-attack-lets-attackers.html</id>
+        <link href="https://thehackernews.com/2023/05/new-bruteprint-attack-lets-attackers.html"/>
+        <updated>2023-05-29T14:31:00.000Z</updated>
+        <summary type="html"><![CDATA[Researchers have discovered an inexpensive attack technique that could be leveraged to brute-force fingerprints on smartphones to bypass user authentication and seize control of the devices.
+The approach, dubbed BrutePrint, bypasses limits put in place to counter failed biometric authentication attempts by weaponizing two zero-day vulnerabilities in the smartphone fingerprint authentication (SFA]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Top Cyberattacks Revealed in New Threat Intelligence Report]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/top-cyberattacks-revealed-in-new-threat-intelligence-report</id>
+        <link href="https://www.darkreading.com/threat-intelligence/top-cyberattacks-revealed-in-new-threat-intelligence-report"/>
+        <updated>2023-05-29T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New report provides actionable intelligence about attacks, threat actors, and campaigns.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AceCryptor: Cybercriminals' Powerful Weapon, Detected in 240K+ Attacks]]></title>
+        <id>https://thehackernews.com/2023/05/acecryptor-cybercriminals-powerful.html</id>
+        <link href="https://thehackernews.com/2023/05/acecryptor-cybercriminals-powerful.html"/>
+        <updated>2023-05-29T12:15:00.000Z</updated>
+        <summary type="html"><![CDATA[A crypter (alternatively spelled cryptor) malware dubbed AceCryptor has been used to pack numerous strains of malware since 2016.
+Slovak cybersecurity firm ESET said it identified over 240,000 detections of the crypter in its telemetry in 2021 and 2022. This amounts to more than 10,000 hits per month.
+Some of the prominent malware families contained within AceCryptor are SmokeLoader, RedLine]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3 Challenges in Building a Continuous Threat Exposure Management (CTEM) Program and How to Beat Them]]></title>
+        <id>https://thehackernews.com/2023/05/3-challenges-in-building-continuous.html</id>
+        <link href="https://thehackernews.com/2023/05/3-challenges-in-building-continuous.html"/>
+        <updated>2023-05-29T11:47:00.000Z</updated>
+        <summary type="html"><![CDATA[If you're a cybersecurity professional, you're likely familiar with the sea of acronyms our industry is obsessed with. From CNAPP, to CWPP, to CIEM and all of the myriad others, there seems to be a new initialism born each day.
+In this article, we'll look at another trending acronym – CTEM, which stands for Continuous Threat Exposure Management – and the often-surprising challenges that come]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New GobRAT Remote Access Trojan Targeting Linux Routers in Japan]]></title>
+        <id>https://thehackernews.com/2023/05/new-gobrat-remote-access-trojan.html</id>
+        <link href="https://thehackernews.com/2023/05/new-gobrat-remote-access-trojan.html"/>
+        <updated>2023-05-29T09:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Linux routers in Japan are the target of a new Golang remote access trojan (RAT) called GobRAT.
+"Initially, the attacker targets a router whose WEBUI is open to the public, executes scripts possibly by using vulnerabilities, and finally infects the GobRAT," the JPCERT Coordination Center (JPCERT/CC) said in a report published today.
+The compromise of an internet-exposed router is followed by the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don't Click That ZIP File! Phishers Weaponizing .ZIP Domains to Trick Victims]]></title>
+        <id>https://thehackernews.com/2023/05/dont-click-that-zip-file-phishers.html</id>
+        <link href="https://thehackernews.com/2023/05/dont-click-that-zip-file-phishers.html"/>
+        <updated>2023-05-29T07:14:00.000Z</updated>
+        <summary type="html"><![CDATA[A new phishing technique called "file archiver in the browser" can be leveraged to "emulate" a file archiver software in a web browser when a victim visits a .ZIP domain.
+"With this phishing attack, you simulate a file archiver software (e.g., WinRAR) in the browser and use a .zip domain to make it appear more legitimate," security researcher mr.d0x disclosed last week.
+Threat actors, in a]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyPI Implements Mandatory Two-Factor Authentication for Project Owners]]></title>
+        <id>https://thehackernews.com/2023/05/pypi-implements-mandatory-two-factor.html</id>
+        <link href="https://thehackernews.com/2023/05/pypi-implements-mandatory-two-factor.html"/>
+        <updated>2023-05-29T04:58:00.000Z</updated>
+        <summary type="html"><![CDATA[The Python Package Index (PyPI) announced last week that every account that maintains a project on the official third-party software repository will be required to turn on two-factor authentication (2FA) by the end of the year.
+"Between now and the end of the year, PyPI will begin gating access to certain site functionality based on 2FA usage," PyPI administrator Donald Stufft said. "In addition]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Stealthy Bandit Stealer Targeting Web Browsers and Cryptocurrency Wallets]]></title>
+        <id>https://thehackernews.com/2023/05/new-stealthy-bandit-stealer-targeting.html</id>
+        <link href="https://thehackernews.com/2023/05/new-stealthy-bandit-stealer-targeting.html"/>
+        <updated>2023-05-27T08:10:00.000Z</updated>
+        <summary type="html"><![CDATA[A new stealthy information stealer malware called Bandit Stealer has caught the attention of cybersecurity researchers for its ability to target numerous web browsers and cryptocurrency wallets. 
+"It has the potential to expand to other platforms as Bandit Stealer was developed using the Go programming language, possibly allowing cross-platform compatibility," Trend Micro said in a Friday report]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical OAuth Vulnerability in Expo Framework Allows Account Hijacking]]></title>
+        <id>https://thehackernews.com/2023/05/critical-oauth-vulnerability-in-expo.html</id>
+        <link href="https://thehackernews.com/2023/05/critical-oauth-vulnerability-in-expo.html"/>
+        <updated>2023-05-27T07:45:00.000Z</updated>
+        <summary type="html"><![CDATA[A critical security vulnerability has been disclosed in the Open Authorization (OAuth) implementation of the application development framework Expo.io.
+The shortcoming, assigned the CVE identifier CVE-2023-28131, has a severity rating of 9.6 on the CVSS scoring system. API security firm Salt Labs said the issue rendered services using the framework susceptible to credential leakage, which could]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Friday Squid Blogging: Online Cephalopod Course]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/05/friday-squid-blogging-online-cephalopod-course.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/05/friday-squid-blogging-online-cephalopod-course.html"/>
+        <updated>2023-05-26T21:05:34.000Z</updated>
+        <summary type="html"><![CDATA[<p>Atlas Obscura has a <a href="https://www.atlasobscura.com/experiences/cephalopods-online-course">five-part online course</a> on cephalopods, taught by squid biologist Dr. Sarah McAnulty.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.</p>
+<p>Read my blog posting guidelines <a href="https://www.schneier.com/blog/archives/2017/03/commenting_poli.html">here</a>.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2 Lenses for Examining the Safety of Open Source Software]]></title>
+        <id>https://www.darkreading.com/dr-tech/2-lenses-examining-safety-open-source-software</id>
+        <link href="https://www.darkreading.com/dr-tech/2-lenses-examining-safety-open-source-software"/>
+        <updated>2023-05-26T21:03:04.000Z</updated>
+        <summary type="html"><![CDATA[Improving the security of open source repositories while keeping malicious components out requires a combination of technology and people.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[130K+ Patients' Social Security Numbers Leaked in UHS of Delaware Data Breach]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/130k-patients-social-security-numbers-leaked-in-uhs-of-delaware-data-breach</id>
+        <link href="https://www.darkreading.com/attacks-breaches/130k-patients-social-security-numbers-leaked-in-uhs-of-delaware-data-breach"/>
+        <updated>2023-05-26T19:47:00.000Z</updated>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tesla Whistleblower Leaks 100GB of Data, Revealing Safety Complaints]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/whistleblower-leaks-100gb-tesla-data-safety-complaints</id>
+        <link href="https://www.darkreading.com/attacks-breaches/whistleblower-leaks-100gb-tesla-data-safety-complaints"/>
+        <updated>2023-05-26T17:32:00.000Z</updated>
+        <summary type="html"><![CDATA[Informants have released data that includes thousands of safety complaints the company has received about its self-driving capability, as well as sensitive information regarding current and past employees.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Travel-Themed Phishing, BEC Campaigns Get Smarter as Summer Season Arrives]]></title>
+        <id>https://www.darkreading.com/endpoint/travel-themed-phishing-bec-campaigns-smarter-summer-season</id>
+        <link href="https://www.darkreading.com/endpoint/travel-themed-phishing-bec-campaigns-smarter-summer-season"/>
+        <updated>2023-05-26T16:45:26.000Z</updated>
+        <summary type="html"><![CDATA[Phishing campaigns targeting travelers have evolved from simple, easy-to-spot fraud attempts to highly sophisticated operations.]]></summary>
+        <author>
+            <name>Nathan Eddy, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Severe Flaw in Google Cloud's Cloud SQL Service Exposed Confidential Data]]></title>
+        <id>https://thehackernews.com/2023/05/severe-flaw-in-google-clouds-cloud-sql.html</id>
+        <link href="https://thehackernews.com/2023/05/severe-flaw-in-google-clouds-cloud-sql.html"/>
+        <updated>2023-05-26T16:25:00.000Z</updated>
+        <summary type="html"><![CDATA[A new security flaw has been disclosed in the Google Cloud Platform's (GCP) Cloud SQL service that could be potentially exploited to obtain access to confidential data.
+"The vulnerability could have enabled a malicious actor to escalate from a basic Cloud SQL user to a full-fledged sysadmin on a container, gaining access to internal GCP data like secrets, sensitive files, passwords, in addition]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Safe Is Your Wearable Device?]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/how-safe-is-your-wearable-device</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/how-safe-is-your-wearable-device"/>
+        <updated>2023-05-26T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[To mitigate risk, both developers and users must include security principles and technologies as core foundations in new devices.]]></summary>
+        <author>
+            <name>Ján Lunter, CEO &amp; CTO, Innovatrics</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Predator Android Spyware: Researchers Uncover New Data Theft Capabilities]]></title>
+        <id>https://thehackernews.com/2023/05/predator-android-spyware-researchers.html</id>
+        <link href="https://thehackernews.com/2023/05/predator-android-spyware-researchers.html"/>
+        <updated>2023-05-26T12:39:00.000Z</updated>
+        <summary type="html"><![CDATA[Security researchers have detailed the inner workings of the commercial Android spyware called Predator, which is marketed by the Israeli company Intellexa (previously Cytrox).
+Predator was first documented by Google's Threat Analysis Group (TAG) in May 2022 as part of attacks leveraging five different zero-day flaws in the Chrome web browser and Android.
+The spyware, which is delivered by means]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
+        <id>/node/18236</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/05/26/cisa-adds-one-known-exploited-vulnerability-catalog"/>
+        <updated>2023-05-26T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2023-2868 Barracuda Networks ESG Appliance Improper Input Validation Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the "Date Added to Catalog" column—which will sort by descending dates.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Must-Know Facts about 5G Network Security and Its Cloud Benefits]]></title>
+        <id>https://thehackernews.com/2023/05/5-must-know-facts-about-5g-network.html</id>
+        <link href="https://thehackernews.com/2023/05/5-must-know-facts-about-5g-network.html"/>
+        <updated>2023-05-26T11:48:00.000Z</updated>
+        <summary type="html"><![CDATA[5G is a game changer for mobile connectivity, including mobile connectivity to the cloud. The technology provides high speed and low latency when connecting smartphones and IoT devices to cloud infrastructure. 5G networks are a critical part of all infrastructure layers between the end user and the end service; these networks transmit sensitive data that can be vital for governments and]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Expeditionary Cyberspace Operations]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/05/expeditionary-cyberspace-operations.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/05/expeditionary-cyberspace-operations.html"/>
+        <updated>2023-05-26T11:12:59.000Z</updated>
+        <summary type="html"><![CDATA[<p>Cyberspace operations now <a href="https://defensescoop.com/2023/05/12/new-dod-doctrine-officially-outlines-and-defines-expeditionary-cyberspace-operations/">officially has</a> a physical dimension, meaning that the United States has official military doctrine about cyberattacks that also involve an actual human gaining physical access to a piece of computing infrastructure.</p>
+<blockquote><p>A revised version of Joint Publication 3-12 Cyberspace Operations&#8212;published in December 2022 and while unclassified, is only available to those with DoD common access cards, according to a Joint Staff spokesperson&#8212;officially provides a definition for &#8220;expeditionary cyberspace operations,&#8221; which are &#8220;[c]yberspace operations that require the deployment of cyberspace forces within the physical domains.&#8221;...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New COSMICENERGY Malware Exploits ICS Protocol to Sabotage Power Grids]]></title>
+        <id>https://thehackernews.com/2023/05/new-cosmicenergy-malware-exploits-ics.html</id>
+        <link href="https://thehackernews.com/2023/05/new-cosmicenergy-malware-exploits-ics.html"/>
+        <updated>2023-05-26T06:38:00.000Z</updated>
+        <summary type="html"><![CDATA[A new strain of malicious software that's engineered to penetrate and disrupt critical systems in industrial environments has been unearthed.
+Google-owned threat intelligence firm Mandiant dubbed the malware COSMICENERGY, adding it was uploaded to the VirusTotal public malware scanning utility in December 2021 by a submitter in Russia. There is no evidence that it has been put to use in the wild]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Barracuda Warns of Zero-Day Exploited to Breach Email Security Gateway Appliances]]></title>
+        <id>https://thehackernews.com/2023/05/barracuda-warns-of-zero-day-exploited.html</id>
+        <link href="https://thehackernews.com/2023/05/barracuda-warns-of-zero-day-exploited.html"/>
+        <updated>2023-05-26T04:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Email protection and network security services provider Barracuda is warning users about a zero-day flaw that it said has been exploited to breach the company's Email Security Gateway (ESG) appliances.
+The zero-day is being tracked as CVE-2023-2868 and has been described as a remote code injection vulnerability affecting versions 5.1.3.001 through 9.2.0.006.
+The California-headquartered firm]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Russia's War in Ukraine Shows Cyberattacks Can Be War Crimes]]></title>
+        <id>https://www.darkreading.com/edge-articles/russia-war-ukraine-shows-cyberattacks-are-war-crimes</id>
+        <link href="https://www.darkreading.com/edge-articles/russia-war-ukraine-shows-cyberattacks-are-war-crimes"/>
+        <updated>2023-05-26T00:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Ukraine head of cybersecurity Victor Zhora says the world needs "efficient legal instruments to confront cyber terrorism."]]></summary>
+        <author>
+            <name>Andrada Fiscutean, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Volt Typhoon' Breaks Fresh Ground for China-Backed Cyber Campaigns]]></title>
+        <id>https://www.darkreading.com/ics-ot/volt-typhoon-breaks-fresh-ground-china-backed-cyber-campaigns</id>
+        <link href="https://www.darkreading.com/ics-ot/volt-typhoon-breaks-fresh-ground-china-backed-cyber-campaigns"/>
+        <updated>2023-05-25T21:53:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the first incident where a threat actor from the country appears to be laying the groundwork for disruptive attacks in the future, researchers say.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Red Hat Tackles Software Supply Chain Security]]></title>
+        <id>https://www.darkreading.com/dr-tech/red-hat-tackles-software-supply-chain-security</id>
+        <link href="https://www.darkreading.com/dr-tech/red-hat-tackles-software-supply-chain-security"/>
+        <updated>2023-05-25T21:50:00.000Z</updated>
+        <summary type="html"><![CDATA[The new Red Hat Trusted Software Supply Chain services help developers take a secure-by-design approach to build, deploy, and monitor software.]]></summary>
+        <author>
+            <name>Jeffrey Schwartz, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CosmicEnergy Malware Emerges, Capable of Electric Grid Shutdown]]></title>
+        <id>https://www.darkreading.com/ics-ot/cosmicenergy-malware-emerges-electric-grid-shutdown</id>
+        <link href="https://www.darkreading.com/ics-ot/cosmicenergy-malware-emerges-electric-grid-shutdown"/>
+        <updated>2023-05-25T21:30:09.000Z</updated>
+        <summary type="html"><![CDATA[Russian code that could tamper with industrial machines and toggle RTUs on and off was floating around VirusTotal for years before being noticed. It raises new questions about the state of OT security.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lazarus Group Striking Vulnerable Windows IIS Web Servers]]></title>
+        <id>https://www.darkreading.com/cloud/lazarus-group-striking-vulnerable-windows-iis-web-servers</id>
+        <link href="https://www.darkreading.com/cloud/lazarus-group-striking-vulnerable-windows-iis-web-servers"/>
+        <updated>2023-05-25T21:18:00.000Z</updated>
+        <summary type="html"><![CDATA[The infamous North Korean APT group is using Log4Shell, the 3CX supply chain attack, and other known vectors to breach Microsoft Web servers.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Netflix's Password-Sharing Ban Offers Security Upsides]]></title>
+        <id>https://www.darkreading.com/endpoint/netflix-password-sharing-ban-offers-security-upsides</id>
+        <link href="https://www.darkreading.com/endpoint/netflix-password-sharing-ban-offers-security-upsides"/>
+        <updated>2023-05-25T20:52:00.000Z</updated>
+        <summary type="html"><![CDATA[The streaming giant is looking to bolster flagging subscription growth and profits, but security researchers say the move offers a perfect opportunity to encourage better password hygiene and account safety.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Perception Point Report Finds That Advanced Phishing Attacks Grew by 356% in 2022]]></title>
+        <id>https://www.darkreading.com/endpoint/perception-point-report-finds-that-advanced-phishing-attacks-grew-by-356-in-2022</id>
+        <link href="https://www.darkreading.com/endpoint/perception-point-report-finds-that-advanced-phishing-attacks-grew-by-356-in-2022"/>
+        <updated>2023-05-25T19:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Perception Point's 2023 Annual Report: Cybersecurity Trends & Insights' analyzes the most prevalent cyberattack trends amidst today's complex threat landscape, identifying an overall increase of 87% in the total number of attacks over the course of last year.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Memcyco Delivers Real-Time Brandjacking Detection and Protection Solution]]></title>
+        <id>https://www.darkreading.com/dr-global/memcyco-delivers-real-time-brandjacking-detection-and-protection-solution</id>
+        <link href="https://www.darkreading.com/dr-global/memcyco-delivers-real-time-brandjacking-detection-and-protection-solution"/>
+        <updated>2023-05-25T19:24:00.000Z</updated>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bank of Ghana Opens SOC to Enable Threat Intelligence Sharing]]></title>
+        <id>https://www.darkreading.com/dr-global/bank-of-ghana-opens-soc-enable-threat-intelligence-sharing</id>
+        <link href="https://www.darkreading.com/dr-global/bank-of-ghana-opens-soc-enable-threat-intelligence-sharing"/>
+        <updated>2023-05-25T17:24:00.000Z</updated>
+        <summary type="html"><![CDATA[Bank of Ghana's security operations center will boost visibility into threats and enable threat intelligence sharing, it says.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Operation Magalenha' Attacks Give a Window Into Brazil's Cybercrime Ecosystem]]></title>
+        <id>https://www.darkreading.com/endpoint/-operation-magalenha-attacks-window-brazil-cybercrime-ecosystem</id>
+        <link href="https://www.darkreading.com/endpoint/-operation-magalenha-attacks-window-brazil-cybercrime-ecosystem"/>
+        <updated>2023-05-25T14:56:00.000Z</updated>
+        <summary type="html"><![CDATA[A campaign against customers of Portuguese banks uses a capable financial malware strain dubbed PeepingTitle, written in the Delphi programming language.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dark Frost Botnet Launches Devastating DDoS Attacks on Gaming Industry]]></title>
+        <id>https://thehackernews.com/2023/05/dark-frost-botnet-launches-devastating.html</id>
+        <link href="https://thehackernews.com/2023/05/dark-frost-botnet-launches-devastating.html"/>
+        <updated>2023-05-25T14:53:00.000Z</updated>
+        <summary type="html"><![CDATA[A new botnet called Dark Frost has been observed launching distributed denial-of-service (DDoS) attacks against the gaming industry.
+"The Dark Frost botnet, modeled after Gafgyt, QBot, Mirai, and other malware strains, has expanded to encompass hundreds of compromised devices," Akamai security researcher Allen West said in a new technical analysis shared with The Hacker News.
+Targets include]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zyxel Issues Critical Security Patches for Firewall and VPN Products]]></title>
+        <id>https://thehackernews.com/2023/05/zyxel-issues-critical-security-patches.html</id>
+        <link href="https://thehackernews.com/2023/05/zyxel-issues-critical-security-patches.html"/>
+        <updated>2023-05-25T14:43:00.000Z</updated>
+        <summary type="html"><![CDATA[Zyxel has released software updates to address two critical security flaws affecting select firewall and VPN products that could be abused by remote attackers to achieve code execution.
+Both the flaws – CVE-2023-33009 and CVE-2023-33010 – are buffer overflow vulnerabilities and are rated 9.8 out of 10 on the CVSS scoring system.
+A brief description of the two issues is below -
+
+CVE-2023-33009 -]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Cloud Bug Allows Server Takeover From CloudSQL Service]]></title>
+        <id>https://www.darkreading.com/cloud/google-cloud-bug-server-takeover-cloudsql-service</id>
+        <link href="https://www.darkreading.com/cloud/google-cloud-bug-server-takeover-cloudsql-service"/>
+        <updated>2023-05-25T14:18:20.000Z</updated>
+        <summary type="html"><![CDATA[Researchers could access sensitive data and steal secrets by exploiting a vulnerability in GCP's security layer, eventually running rampant in the environment.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dangerous Regions: Isolating Branch Offices in High-Risk Countries]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/dangerous-regions-isolating-branch-offices-in-high-risk-countries</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/dangerous-regions-isolating-branch-offices-in-high-risk-countries"/>
+        <updated>2023-05-25T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Organizations must be cautious about how they interact with other regions around the world in order to operate safely in an at-times adversarial landscape.]]></summary>
+        <author>
+            <name>John A. Smith, CEO, Conversant Group</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cynet Protects Hospital From Lethal Infection]]></title>
+        <id>https://thehackernews.com/2023/05/cynet-protects-hospital-from-lethal.html</id>
+        <link href="https://thehackernews.com/2023/05/cynet-protects-hospital-from-lethal.html"/>
+        <updated>2023-05-25T13:47:00.000Z</updated>
+        <summary type="html"><![CDATA[A hospital with 2,000 employees in the E.U. deployed Cynet protections across its environment. The hospital was in the process of upgrading several expensive imaging systems that were still supported by Windows XP and Windows 7 machines. Cynet protections were in place on most of the Windows XP and Windows 7 machines during the upgrade process, ensuring that legacy operating systems would not]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New PowerExchange Backdoor Used in Iranian Cyber Attack on UAE Government]]></title>
+        <id>https://thehackernews.com/2023/05/new-powerexchange-backdoor-used-in.html</id>
+        <link href="https://thehackernews.com/2023/05/new-powerexchange-backdoor-used-in.html"/>
+        <updated>2023-05-25T13:39:00.000Z</updated>
+        <summary type="html"><![CDATA[An unnamed government entity associated with the United Arab Emirates (U.A.E.) was targeted by a likely Iranian threat actor to breach the victim's Microsoft Exchange Server with a "simple yet effective" backdoor dubbed PowerExchange.
+According to a new report from Fortinet FortiGuard Labs, the intrusion relied on email phishing as an initial access pathway, leading to the execution of a .NET]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISO Criminalization, Vague Cyber Disclosure Rules Create Angst for Security Teams]]></title>
+        <id>https://www.darkreading.com/operations/criminalization-of-cisos-creating-angst-among-cyber-teams</id>
+        <link href="https://www.darkreading.com/operations/criminalization-of-cisos-creating-angst-among-cyber-teams"/>
+        <updated>2023-05-25T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In the wake of the ex-Uber CISO verdict, CISOs ask for clearer rules and less uncertainty in managing disclosures, amid jail-time fears.]]></summary>
+        <author>
+            <name>Becky Bracken, Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Warns of Hurricane/Typhoon-Related Scams]]></title>
+        <id>/node/18231</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/05/25/cisa-warns-hurricanetyphoon-related-scams"/>
+        <updated>2023-05-25T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA urges users to remain on alert for malicious cyber activity following a natural disaster such as a hurricane or typhoon, as attackers target potential disaster victims by leveraging social engineering tactics, techniques, and procedures (TTPs). Social engineering TTPs include phishing attacks that use email or malicious websites to solicit personal information by posing as a trustworthy organization, notably as charities providing relief. Exercise caution in handling emails with hurricane/typhoon-related subject lines, attachments, or hyperlinks to avoid compromise. In addition, be wary of social media pleas, texts, or door-to-door solicitations related to severe weather events.
+Staying Alert to Disaster-related Scams and Before Giving to a Charity, and CISA’s Using Caution with Email Attachments and Tips on Avoiding Social Engineering and Phishing Attacks to avoid falling victim to malicious attacks.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases One Industrial Control Systems Advisory]]></title>
+        <id>/node/18233</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/05/25/cisa-releases-one-industrial-control-systems-advisory"/>
+        <updated>2023-05-25T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released one Industrial Control Systems (ICS) advisory on May 25, 2023. This advisory provides timely information about current security issues, vulnerabilities, and exploits surrounding ICS. 
+ICSA-23-145-01 Moxa MXsecurity Series
+CISA encourages users and administrators to review the newly released ICS advisory for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alert: Brazilian Hackers Targeting Users of Over 30 Portuguese Banks]]></title>
+        <id>https://thehackernews.com/2023/05/alert-brazilian-hackers-targeting-users.html</id>
+        <link href="https://thehackernews.com/2023/05/alert-brazilian-hackers-targeting-users.html"/>
+        <updated>2023-05-25T11:32:00.000Z</updated>
+        <summary type="html"><![CDATA[A Brazilian threat actor is targeting more than 30 Portuguese financial institutions with information-stealing malware as part of a long-running campaign that commenced in 2021.
+"The attackers can steal credentials and exfiltrate users' data and personal information, which can be leveraged for malicious activities beyond financial gain," SentinelOne researchers Aleksandar Milenkoski and Tom]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On the Poisoning of LLMs]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/05/on-the-poisoning-of-llms.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/05/on-the-poisoning-of-llms.html"/>
+        <updated>2023-05-25T11:05:43.000Z</updated>
+        <summary type="html"><![CDATA[<p>Interesting <a href="https://softwarecrisis.dev/letters/the-poisoning-of-chatgpt/">essay</a> on the poisoning of LLMs&#8212;ChatGPT in particular:</p>
+<blockquote><p>Given that we&#8217;ve known about model poisoning for years, and given the strong incentives the black-hat SEO crowd has to manipulate results, it&#8217;s entirely possible that bad actors have been poisoning ChatGPT for months. We don&#8217;t know because OpenAI doesn&#8217;t talk about their processes, how they validate the prompts they use for training, how they vet their training data set, or how they fine-tune ChatGPT. Their secrecy means we don&#8217;t know if ChatGPT has been safely managed.</p>
+<p>They&#8217;ll also have to update their training data set at some point. They can&#8217;t leave their models stuck in 2021 forever...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webinar with Guest Forrester: Browser Security New Approaches]]></title>
+        <id>https://thehackernews.com/2023/05/webinar-with-guest-forrester-browser.html</id>
+        <link href="https://thehackernews.com/2023/05/webinar-with-guest-forrester-browser.html"/>
+        <updated>2023-05-25T10:50:00.000Z</updated>
+        <summary type="html"><![CDATA[In today's digital landscape, browser security has become an increasingly pressing issue, making it essential for organizations to be aware of the latest threats to browser security. That's why the Browser Security platform LayerX is hosting a webinar featuring guest speaker Paddy Harrington, a senior analyst at Forrester and the lead author of Forrester's browser security report "Securing The]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Buhti Ransomware Gang Switches Tactics, Utilizes Leaked LockBit and Babuk Code]]></title>
+        <id>https://thehackernews.com/2023/05/buhti-ransomware-gang-switches-tactics.html</id>
+        <link href="https://thehackernews.com/2023/05/buhti-ransomware-gang-switches-tactics.html"/>
+        <updated>2023-05-25T10:40:00.000Z</updated>
+        <summary type="html"><![CDATA[The threat actors behind the nascent Buhti ransomware have eschewed their custom payload in favor of leaked LockBit and Babuk ransomware families to strike Windows and Linux systems.
+"While the group doesn't develop its own ransomware, it does utilize what appears to be one custom-developed tool, an information stealer designed to search for and archive specified file types," Symantec said in a]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China's Stealthy Hackers Infiltrate U.S. and Guam Critical Infrastructure Undetected]]></title>
+        <id>https://thehackernews.com/2023/05/chinas-stealthy-hackers-infiltrate-us.html</id>
+        <link href="https://thehackernews.com/2023/05/chinas-stealthy-hackers-infiltrate-us.html"/>
+        <updated>2023-05-25T08:28:00.000Z</updated>
+        <summary type="html"><![CDATA[A stealthy China-based group managed to establish a persistent foothold into critical infrastructure organizations in the U.S. and Guam without being detected, Microsoft and the "Five Eyes" nations said on Wednesday.
+The tech giant's threat intelligence team is tracking the activity, which includes post-compromise credential access and network system discovery, under the name Volt Typhoon.
+The]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Iranian Agrius Hackers Targeting Israeli Organizations with Moneybird Ransomware]]></title>
+        <id>https://thehackernews.com/2023/05/iranian-agrius-hackers-targeting.html</id>
+        <link href="https://thehackernews.com/2023/05/iranian-agrius-hackers-targeting.html"/>
+        <updated>2023-05-25T06:03:00.000Z</updated>
+        <summary type="html"><![CDATA[The Iranian threat actor known as Agrius is leveraging a new ransomware strain called Moneybird in its attacks targeting Israeli organizations.
+Agrius, also known as Pink Sandstorm (formerly Americium), has a track record of staging destructive data-wiping attacks aimed at Israel under the guise of ransomware infections.
+Microsoft has attributed the threat actor to Iran's Ministry of]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GUAC 0.1 Beta: Google's Breakthrough Framework for Secure Software Supply Chains]]></title>
+        <id>https://thehackernews.com/2023/05/guac-01-beta-googles-breakthrough.html</id>
+        <link href="https://thehackernews.com/2023/05/guac-01-beta-googles-breakthrough.html"/>
+        <updated>2023-05-25T05:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Google on Wednesday announced the 0.1 Beta version of GUAC (short for Graph for Understanding Artifact Composition) for organizations to secure their software supply chains.
+To that end, the search giant is making available the open source framework as an API for developers to integrate their own tools and policy engines.
+GUAC aims to aggregate software security metadata from different sources]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Volt Typhoon' China-Backed APT Infiltrates US Critical Infrastructure Orgs]]></title>
+        <id>https://www.darkreading.com/endpoint/-volt-typhoon-china-backed-apt-infiltrates-us-critical-infrastructure</id>
+        <link href="https://www.darkreading.com/endpoint/-volt-typhoon-china-backed-apt-infiltrates-us-critical-infrastructure"/>
+        <updated>2023-05-24T22:09:00.000Z</updated>
+        <summary type="html"><![CDATA[According to Microsoft and researchers, the state-sponsored threat actor could very well be setting up a contingency plan for disruptive attacks on the US in the wake of an armed conflict in the South China Sea.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Honeywell Releases Cyber Insights to Better Identify Cybersecurity Threats and Vulnerabilities]]></title>
+        <id>https://www.darkreading.com/ics-ot/honeywell-releases-cyber-insights-to-better-identify-cybersecurity-threats-and-vulnerabilities-</id>
+        <link href="https://www.darkreading.com/ics-ot/honeywell-releases-cyber-insights-to-better-identify-cybersecurity-threats-and-vulnerabilities-"/>
+        <updated>2023-05-24T21:52:00.000Z</updated>
+        <summary type="html"><![CDATA[The new software-led solution enables organizations to defend against cybersecurity threats in their operational technology (OT) environments.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Harvard Pilgrim Health Care Notifies Individuals of Privacy Incident]]></title>
+        <id>https://www.darkreading.com/endpoint/harvard-pilgrim-health-care-notifies-individuals-of-privacy-incident</id>
+        <link href="https://www.darkreading.com/endpoint/harvard-pilgrim-health-care-notifies-individuals-of-privacy-incident"/>
+        <updated>2023-05-24T21:29:00.000Z</updated>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Technology Veterans James Wickett and Ken Johnson Launch DryRun Security to Bring Security to Developers]]></title>
+        <id>https://www.darkreading.com/application-security/technology-veterans-james-wickett-and-ken-johnson-launch-dryrun-security-to-bring-security-to-developers</id>
+        <link href="https://www.darkreading.com/application-security/technology-veterans-james-wickett-and-ken-johnson-launch-dryrun-security-to-bring-security-to-developers"/>
+        <updated>2023-05-24T21:27:00.000Z</updated>
+        <summary type="html"><![CDATA[DryRun security seeks to bridge the gap between developers and security professionals by automating security analysis in code reviews before deployment.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Appdome Launches Build-to-Test, Automated Testing Option for Protected Mobile Apps]]></title>
+        <id>https://www.darkreading.com/mobile/appdome-launches-build-to-test-automated-testing-option-for-protected-mobile-apps</id>
+        <link href="https://www.darkreading.com/mobile/appdome-launches-build-to-test-automated-testing-option-for-protected-mobile-apps"/>
+        <updated>2023-05-24T21:20:00.000Z</updated>
+        <summary type="html"><![CDATA[New capability streamlines automated testing of cybersecurity and anti-fraud features in android and iOS apps in virtual and cloud testing suites.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Netwrix Report: Enterprises Suffer More Ransomware and Other Malware Attacks Than Smaller Organizations]]></title>
+        <id>https://www.darkreading.com/endpoint/netwrix-report-enterprises-suffer-more-ransomware-and-other-malware-attacks-than-smaller-organizations</id>
+        <link href="https://www.darkreading.com/endpoint/netwrix-report-enterprises-suffer-more-ransomware-and-other-malware-attacks-than-smaller-organizations"/>
+        <updated>2023-05-24T20:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Attackers primarily target on-premises IT infrastructures.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Threat Actors Compromise Barracuda Email Security Appliances]]></title>
+        <id>https://www.darkreading.com/endpoint/threat-actors-compromise-barracuda-email-security-appliances</id>
+        <link href="https://www.darkreading.com/endpoint/threat-actors-compromise-barracuda-email-security-appliances"/>
+        <updated>2023-05-24T19:54:00.000Z</updated>
+        <summary type="html"><![CDATA[The company's ESG appliances were breached, but their other services remain unaffected by the compromise.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google's .zip, .mov Domains Give Social Engineers a Shiny New Tool]]></title>
+        <id>https://www.darkreading.com/endpoint/google-zip-mov-domains-social-engineers-shiny-new-tool</id>
+        <link href="https://www.darkreading.com/endpoint/google-zip-mov-domains-social-engineers-shiny-new-tool"/>
+        <updated>2023-05-24T18:15:08.000Z</updated>
+        <summary type="html"><![CDATA[Security professionals warn that Google's new top-level domains, .zip and .mov, pose social engineering risks while providing little reason for their existence.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OAuth Flaw in Expo Platform Affects Hundreds of Third-Party Sites, Apps]]></title>
+        <id>https://www.darkreading.com/endpoint/oauth-flaw-in-expo-platform-affects-hundreds-of-third-party-sites-apps</id>
+        <link href="https://www.darkreading.com/endpoint/oauth-flaw-in-expo-platform-affects-hundreds-of-third-party-sites-apps"/>
+        <updated>2023-05-24T17:45:00.000Z</updated>
+        <summary type="html"><![CDATA[A cybersecurity vulnerability found in an implementation of the social login functionality opens the door to account takeovers and more.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Universities Can Bridge Cybersecurity's Gender Gap]]></title>
+        <id>https://www.darkreading.com/operations/how-universities-can-bridge-cybersecurity-s-gender-gap</id>
+        <link href="https://www.darkreading.com/operations/how-universities-can-bridge-cybersecurity-s-gender-gap"/>
+        <updated>2023-05-24T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It's time to invest in initiatives that engage young women in cybersecurity early and often.]]></summary>
+        <author>
+            <name>Dr. Ashley Podhradsky, Vice President for Research and Economic Development, Dakota State University</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Israeli Shipping, Logistics Companies Targeted in Watering Hole Attacks]]></title>
+        <id>https://www.darkreading.com/dr-global/israeli-shipping-logistics-companies-targeted-in-watering-hole-attacks</id>
+        <link href="https://www.darkreading.com/dr-global/israeli-shipping-logistics-companies-targeted-in-watering-hole-attacks"/>
+        <updated>2023-05-24T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Researchers say the Iranian nation-state actor known as Tortoiseshell could be behind the attacks.]]></summary>
+        <author>
+            <name>Dan Raywood, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How AI Can Help Organizations Adapt and Recover From Cyberattacks]]></title>
+        <id>https://www.darkreading.com/risk/how-ai-can-help-organizations-adapt-and-recover-from-cyberattacks</id>
+        <link href="https://www.darkreading.com/risk/how-ai-can-help-organizations-adapt-and-recover-from-cyberattacks"/>
+        <updated>2023-05-24T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Incident response playbooks and frameworks are leaving defenders ill-equipped to recover from the increasing number of successful cyberattacks. Developments in AI offer a new way for stretched teams to manage security incidents and heal swiftly.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Questions to Ask When Evaluating a New Cybersecurity Technology]]></title>
+        <id>https://www.darkreading.com/operations/5-questions-to-ask-when-evaluating-a-new-cybersecurity-technology-</id>
+        <link href="https://www.darkreading.com/operations/5-questions-to-ask-when-evaluating-a-new-cybersecurity-technology-"/>
+        <updated>2023-05-24T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Any new cybersecurity technology should be not just a neutral addition to a security stack but a benefit to the other technologies or people managing them.]]></summary>
+        <author>
+            <name>Brian McMahon, CEO &amp; President, ThreatBlockr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Iranian Tortoiseshell Hackers Targeting Israeli Logistics Industry]]></title>
+        <id>https://thehackernews.com/2023/05/iranian-tortoiseshell-hackers-targeting.html</id>
+        <link href="https://thehackernews.com/2023/05/iranian-tortoiseshell-hackers-targeting.html"/>
+        <updated>2023-05-24T13:49:00.000Z</updated>
+        <summary type="html"><![CDATA[At least eight websites associated with shipping, logistics, and financial services companies in Israel were targeted as part of a watering hole attack.
+Tel Aviv-based cybersecurity company ClearSky attributed the attacks with low confidence to an Iranian threat actor tracked as Tortoiseshell, which is also called Crimson Sandstorm (previously Curium), Imperial Kitten, and TA456.
+"The infected]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA and Partners Release Cybersecurity Advisory Guidance detailing PRC state-sponsored actors evading detection by “Living off the Land”]]></title>
+        <id>/node/18220</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/05/24/cisa-and-partners-release-cybersecurity-advisory-guidance-detailing-prc-state-sponsored-actors"/>
+        <updated>2023-05-24T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA joined the National Security Agency (NSA), the Federal Bureau of Investigation (FBI), and international partners in releasing a joint cybersecurity advisory highlighting recently discovered activities conducted by a People’s Republic of China (PRC) state-sponsored cyber threat actor. 
+This advisory highlights how PRC cyber actors use techniques called “living off the land” to evade detection by using built-in networking administration tools to compromise networks and conduct malicious activity. This enables the cyber actor to blend in with routine Windows system and network activities, limit activity and data captured in default logging configurations, and avoid endpoint detection and response (EDR) products that could alert to the introduction of third-party applications on the host or network. Private sector partners have identified that this activity affects networks across U.S. critical infrastructure sectors, and the authoring agencies believe the actor could apply the same techniques against these and other sectors worldwide.
+The authoring agencies have identified potential indicators associated with these techniques. To hunt for this activity, CISA and partners encourage network defenders to use the actor’s commands and detection signatures provided in this advisory. CISA and partners further encourage network defenders to view the indicators of compromise (IOCs) and mitigations summaries to detect this activity.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Indiana, Iowa, and Tennessee Pass Comprehensive Privacy Laws]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/05/indiana-iowa-and-tennessee-pass-comprehensive-privacy-laws.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/05/indiana-iowa-and-tennessee-pass-comprehensive-privacy-laws.html"/>
+        <updated>2023-05-24T11:23:31.000Z</updated>
+        <summary type="html"><![CDATA[<p>It&#8217;s been a big month for US data privacy. Indiana, Iowa, and Tennessee all passed state privacy laws, bringing the total number of states with a privacy law <a href="https://iapp.org/media/pdf/resource_center/State_Comp_Privacy_Law_Chart.pdf">up to eight</a>. No private right of action in any of those, which means it&#8217;s up to the states to enforce the laws.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Adds Guardrails to Keep AI in Check]]></title>
+        <id>https://www.darkreading.com/dr-tech/google-adds-guardrails-to-keep-ai-in-check</id>
+        <link href="https://www.darkreading.com/dr-tech/google-adds-guardrails-to-keep-ai-in-check"/>
+        <updated>2023-05-24T01:52:00.000Z</updated>
+        <summary type="html"><![CDATA[Companies are starting to address the misuse of artificial intelligence (AI). At Google I/O, for example, executives promised its AI has safety measures.]]></summary>
+        <author>
+            <name>Agam Shah, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SuperMailer Abuse Bypasses Email Security for Super-Sized Credential Theft]]></title>
+        <id>https://www.darkreading.com/endpoint/supermailer-abuse-email-security-super-sized-credential-theft</id>
+        <link href="https://www.darkreading.com/endpoint/supermailer-abuse-email-security-super-sized-credential-theft"/>
+        <updated>2023-05-23T21:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Secure email gateways and end users alike are being fooled by a cyberattack campaign that's enjoying skyrocketing volumes against businesses in every industry, globally.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Security Professionals Need to Know About Aggregate Cyber-Risk]]></title>
+        <id>https://www.darkreading.com/edge-articles/what-security-professionals-need-to-know-about-aggregate-cyber-risk</id>
+        <link href="https://www.darkreading.com/edge-articles/what-security-professionals-need-to-know-about-aggregate-cyber-risk"/>
+        <updated>2023-05-23T19:56:00.000Z</updated>
+        <summary type="html"><![CDATA[Widespread cyber incidents will happen, but unlike natural disasters, specific security controls can help prevent a catastrophe.]]></summary>
+        <author>
+            <name>Tiago Henriques, Vice President of Research, Coalition</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FBI: Human Trafficking Rings Force Job Seekers Into Cryptojacking Schemes]]></title>
+        <id>https://www.darkreading.com/cloud/fbi-human-trafficking-rings-force-job-seekers-cryptokjacking-schemes</id>
+        <link href="https://www.darkreading.com/cloud/fbi-human-trafficking-rings-force-job-seekers-cryptokjacking-schemes"/>
+        <updated>2023-05-23T19:38:00.000Z</updated>
+        <summary type="html"><![CDATA[Victims of the cybercrime schemes are coerced to participate through violence and having their belongings taken away.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[People's Republic of China State-Sponsored Cyber Actor Living off the Land to Evade Detection]]></title>
+        <id>/node/18218</id>
+        <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-144a"/>
+        <updated>2023-05-23T18:06:33.000Z</updated>
+        <summary type="html"><![CDATA[Summary
+The United States and international cybersecurity authorities are issuing this joint Cybersecurity Advisory (CSA) to highlight a recently discovered cluster of activity of interest associated with a People’s Republic of China (PRC) state-sponsored cyber actor, also known as Volt Typhoon. Private sector partners have identified that this activity affects networks across U.S. critical infrastructure sectors, and the authoring agencies believe the actor could apply the same techniques against these and other sectors worldwide.
+This advisory from the United States National Security Agency (NSA), the U.S. Cybersecurity and Infrastructure Security Agency (CISA), the U.S. Federal Bureau of Investigation (FBI), the Australian Signals Directorate’s Australian Cyber Security Centre (ACSC), t…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A New Look for Risk in Awareness Training]]></title>
+        <id>https://www.darkreading.com/omdia/a-new-look-for-risk-in-awareness-training</id>
+        <link href="https://www.darkreading.com/omdia/a-new-look-for-risk-in-awareness-training"/>
+        <updated>2023-05-23T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Changes in the way risk is viewed are leading to changes in the way training is conducted.]]></summary>
+        <author>
+            <name>Curtis Franklin, Senior Analyst, Omdia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft: BEC Attackers Evade 'Impossible Travel' Flags With Residential IP Addresses]]></title>
+        <id>https://www.darkreading.com/endpoint/microsoft-bec-attackers-evade-impossible-travel-residential-ip-addresses</id>
+        <link href="https://www.darkreading.com/endpoint/microsoft-bec-attackers-evade-impossible-travel-residential-ip-addresses"/>
+        <updated>2023-05-23T14:52:00.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors are circumventing geo-location-based security detections, using a combination of cybercrime-as-a-service platforms and the purchasing of local IP addresses.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bridgestone CISO: Lessons From Ransomware Attack Include Acting, Not Thinking]]></title>
+        <id>https://www.darkreading.com/ics-ot/bridgestone-ciso-lessons-ransomware-attack-acting-thinking</id>
+        <link href="https://www.darkreading.com/ics-ot/bridgestone-ciso-lessons-ransomware-attack-acting-thinking"/>
+        <updated>2023-05-23T14:00:42.000Z</updated>
+        <summary type="html"><![CDATA[A February 2022 attack knocked the giant tire maker's North American operations offline for several days.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enterprises Must Prepare Now for Shorter TLS Certificate Lifespans]]></title>
+        <id>https://www.darkreading.com/operations/enterprises-must-prepare-now-for-shorter-tls-certificate-lifespans</id>
+        <link href="https://www.darkreading.com/operations/enterprises-must-prepare-now-for-shorter-tls-certificate-lifespans"/>
+        <updated>2023-05-23T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Shorter certificate lifespans are beneficial, but they require a rethink of how to properly manage them.]]></summary>
+        <author>
+            <name>Ulrich Wisser, Head of Security Research, Red Sift</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA and Partners Update the #StopRansomware Guide, Developed through the Joint Ransomware Task Force (JRTF)]]></title>
+        <id>/node/18209</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/05/23/cisa-and-partners-update-stopransomware-guide-developed-through-joint-ransomware-task-force-jrtf"/>
+        <updated>2023-05-23T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA, the Federal Bureau of Investigation (FBI), the National Security Agency (NSA), and the Multi-State Information Sharing and Analysis Center (MS-ISAC) published an updated version of the #StopRansomware Guide, as ransomware actors have accelerated their tactics and techniques since its initial release in 2020. The update incorporates lessons learned from the past two years and includes additional recommended actions, resources, and tools to maximize its relevancy and effectiveness and to further help reduce the prevalence and impacts of ransomware.
+The #StopRansomware Guide serves as a one-stop resource to help organizations reduce the risk of ransomware incidents through best practices to detect, prevent, respond, and recover, including step-by-step approaches to address potential attacks. The authoring organizations recommend that entities review this joint guide to prepare and protect their facilities, personnel, and customers from the impacts of ransomware and data exfiltration. For more information and to access the latest resources about how to stop ransomware, please visit stopransomware.gov.
+This joint guide was developed through the Joint Ransomware Task Force (JRTF), an interagency collaborative effort to reduce the prevalence and impact of ransomware attacks. JRTF was established by Congress in 2022 and is co-chaired by CISA and FBI. For additional information about the JRTF, please visit CISA's newly launched Joint Ransomware Task Force (JRTF) webpage.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Credible Handwriting Machine]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/05/credible-handwriting-machine.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/05/credible-handwriting-machine.html"/>
+        <updated>2023-05-23T11:15:25.000Z</updated>
+        <summary type="html"><![CDATA[<p>In case you don&#8217;t have enough to worry about, someone has <a href="https://www.hackster.io/news/homework-machine-hand-writes-ai-generated-assignments-52a2ad5a46c1">built</a> a credible handwriting machine:</p>
+<blockquote><p>This is still a work in progress, but the project seeks to solve one of the biggest problems with other homework machines, such as <a href="https://www.hackster.io/news/clever-student-has-ai-write-their-homework-by-hand-4087f25994c2">this one that I covered a few months ago</a> after it blew up on social media. The problem with most homework machines is that they&#8217;re too perfect. Not only is their content output too well-written for most students, but they also have perfect grammar and punctuation ­ something even we professional writers fail to consistently achieve. Most importantly, the machine&#8217;s &#8220;handwriting&#8221; is too consistent. Humans always include small variations in their writing, no matter how honed their penmanship...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving Cybersecurity Requires Building Better Public-Private Cooperation]]></title>
+        <id>https://www.darkreading.com/edge-articles/improving-cybersecurity-requires-building-better-public-private-cooperation</id>
+        <link href="https://www.darkreading.com/edge-articles/improving-cybersecurity-requires-building-better-public-private-cooperation"/>
+        <updated>2023-05-22T21:42:00.000Z</updated>
+        <summary type="html"><![CDATA[Security vendors, businesses, and US government agencies need to work together to fight ransomware and protect critical infrastructure.]]></summary>
+        <author>
+            <name>Sue Poremba, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyPI Shuts Down Over the Weekend, Says Incident Was Overblown]]></title>
+        <id>https://www.darkreading.com/application-security/pypi-shuts-down-weekend-says-incident-overblown</id>
+        <link href="https://www.darkreading.com/application-security/pypi-shuts-down-weekend-says-incident-overblown"/>
+        <updated>2023-05-22T20:52:00.000Z</updated>
+        <summary type="html"><![CDATA[The climate of concern around open source security and supply chain attacks may have caused a small story to become a big one.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta Hit With $1.3B Record-Breaking Fine for GDPR Violations]]></title>
+        <id>https://www.darkreading.com/endpoint/meta-hit-1-3b-record-breaking-fine-gdpr-violations</id>
+        <link href="https://www.darkreading.com/endpoint/meta-hit-1-3b-record-breaking-fine-gdpr-violations"/>
+        <updated>2023-05-22T19:29:00.000Z</updated>
+        <summary type="html"><![CDATA[The technology conglomerate has until later this year to end its transfer of European user's data across the Atlantic.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IBM's Polar Buy Creates Focus on a New 'Shadow Data' Cloud Security Area]]></title>
+        <id>https://www.darkreading.com/cloud/ibm-s-polar-buy-focus-shadow-data-cloud-security</id>
+        <link href="https://www.darkreading.com/cloud/ibm-s-polar-buy-focus-shadow-data-cloud-security"/>
+        <updated>2023-05-22T15:21:00.000Z</updated>
+        <summary type="html"><![CDATA[The purchase gives IBM access to a new category of products called "data security posture management" for security data in cloud and SaaS repositories.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cyber Warfare Lessons From the Russia-Ukraine Conflict]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/cyber-warfare-lessons-from-russia-ukraine-conflict</id>
+        <link href="https://www.darkreading.com/attacks-breaches/cyber-warfare-lessons-from-russia-ukraine-conflict"/>
+        <updated>2023-05-22T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Techniques used in cyber warfare can be sold to anyone — irrespective of borders, authorities, or affiliations. We need to develop strategies to respond at scale.]]></summary>
+        <author>
+            <name>James Turgal, VP of Cyber Risk, Strategy &amp; Board Relations, Optiv</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of May 15, 2023]]></title>
+        <id>/node/18205</id>
+        <link href="https://www.cisa.gov/news-events/bulletins/sb23-142"/>
+        <updated>2023-05-22T13:37:57.000Z</updated>
+        <summary type="html"><![CDATA[The CISA Vulnerability Bulletin provides a summary of new vulnerabilities that have been recorded by the National Institute of Standards and Technology (NIST) National Vulnerability Database (NVD) in the past week. NVD is sponsored by CISA. In some cases, the vulnerabilities in the bulletin may not yet have assigned CVSS scores. Please visit NVD for updated vulnerability entries, which include CVSS scores once they are available.
+Vulnerabilities are based on the Common Vulnerabilities and Exposures (CVE) vulnerability naming standard and are organized according to severity, determined by the Common Vulnerability Scoring System (CVSS) standard. The division of high, medium, and low severities correspond to the following scores:
+High: vulnerabilities with a CVSS base score of 7.0–10.0
+Entrie…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CommonMagic APT Campaign Broadens Target Scope to Central and Western Ukraine]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/commonmagic-apt-campaign-broadens-target-scope-to-central-and-western-ukraine</id>
+        <link href="https://www.darkreading.com/attacks-breaches/commonmagic-apt-campaign-broadens-target-scope-to-central-and-western-ukraine"/>
+        <updated>2023-05-19T21:55:00.000Z</updated>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Patches 3 Zero-Days Possibly Already Exploited]]></title>
+        <id>https://www.darkreading.com/application-security/apple-patches-3-zero-days-possibly-already-exploited</id>
+        <link href="https://www.darkreading.com/application-security/apple-patches-3-zero-days-possibly-already-exploited"/>
+        <updated>2023-05-19T20:04:00.000Z</updated>
+        <summary type="html"><![CDATA[In an advisory released by the company, Apple revealed patches for three previously unknown bugs it  says may already have been used by attackers.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Siloes: Overcoming the Greatest Challenge in SecOps]]></title>
+        <id>https://www.darkreading.com/edge-articles/data-siloes-overcoming-the-greatest-challenge-in-secops</id>
+        <link href="https://www.darkreading.com/edge-articles/data-siloes-overcoming-the-greatest-challenge-in-secops"/>
+        <updated>2023-05-19T19:38:00.000Z</updated>
+        <summary type="html"><![CDATA[It's not lack of data that's the problem, but the inability to piece it together to truly understand and reduce risk.]]></summary>
+        <author>
+            <name>Allen Rogers, Co-founder &amp; Chief Product Officer, Noetic Cyber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3 Common Initial Attack Vectors Account for Most Ransomware Campaigns]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/three-common-initial-attack-vectors-account-for-most-ransomware-campaigns</id>
+        <link href="https://www.darkreading.com/threat-intelligence/three-common-initial-attack-vectors-account-for-most-ransomware-campaigns"/>
+        <updated>2023-05-19T19:00:01.000Z</updated>
+        <summary type="html"><![CDATA[The data shows how most cyberattacks start, so basic steps can help organizations avoid becoming the latest statistic.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Keep Your Friends Close and Your Identity Closer]]></title>
+        <id>https://www.darkreading.com/endpoint/keep-your-friends-close-and-your-identity-closer</id>
+        <link href="https://www.darkreading.com/endpoint/keep-your-friends-close-and-your-identity-closer"/>
+        <updated>2023-05-19T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As we share an increasing amount of personal information online, we create more opportunities for threat actors to steal our identities.]]></summary>
+        <author>
+            <name>Sameer Hajarnis, Chief Product Officer, OneSpan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Debuts Quality Ratings for Security Bug Disclosures]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/google-debuts-quality-ratings-for-security-bug-disclosures</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/google-debuts-quality-ratings-for-security-bug-disclosures"/>
+        <updated>2023-05-19T13:05:00.000Z</updated>
+        <summary type="html"><![CDATA[New rules aim to level up the quality of submissions to Google and Android device Vulnerability Reward Program.]]></summary>
+        <author>
+            <name>Becky Bracken, Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AppSec Teams Stuck in Catch-Up Cycle Due to Massive Cloud-Native Enablement Gap]]></title>
+        <id>https://www.darkreading.com/cloud/appsec-teams-stuck-in-catch-up-cycle-due-to-massive-cloud-native-enablement-gap</id>
+        <link href="https://www.darkreading.com/cloud/appsec-teams-stuck-in-catch-up-cycle-due-to-massive-cloud-native-enablement-gap"/>
+        <updated>2023-05-19T09:12:00.000Z</updated>
+        <summary type="html"><![CDATA[85% of AppSec pros say ability to differentiate between real risks and noise is critical, yet only 38% can do so today; mature DevOps organizations cite widespread impact due to lack of cloud-native tools]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enterprises Rely on Multicloud Security to Protect Cloud Workloads]]></title>
+        <id>https://www.darkreading.com/emerging-tech/enterprises-rely-on-multicloud-security-to-protect-cloud-workloads</id>
+        <link href="https://www.darkreading.com/emerging-tech/enterprises-rely-on-multicloud-security-to-protect-cloud-workloads"/>
+        <updated>2023-05-18T23:29:00.000Z</updated>
+        <summary type="html"><![CDATA[As enterprises adopt multicloud, the security picture has become foggy. Cloud workload protection platforms and distributed firewalls are creating clarity.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KeePass Vulnerability Imperils Master Passwords]]></title>
+        <id>https://www.darkreading.com/application-security/keepass-vulnerability-imperils-master-passwords</id>
+        <link href="https://www.darkreading.com/application-security/keepass-vulnerability-imperils-master-passwords"/>
+        <updated>2023-05-18T21:33:00.000Z</updated>
+        <summary type="html"><![CDATA[A newly discovered bug in the open source password manager, if exploited, lets attackers retrieve a target's master password — and proof-of-concept code is available.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trojan-Rigged Phishing Attacks Pepper China-Taiwan Conflict]]></title>
+        <id>https://www.darkreading.com/endpoint/trojan-rigged-phishing-attacks-pepper-china-taiwan-conflict</id>
+        <link href="https://www.darkreading.com/endpoint/trojan-rigged-phishing-attacks-pepper-china-taiwan-conflict"/>
+        <updated>2023-05-18T20:37:00.000Z</updated>
+        <summary type="html"><![CDATA[Plug X and other information-stealing remote-access Trojans are among the malware targeting networking, manufacturing, and logistics companies in Taiwan.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10 Types of AI Attacks CISOs Should Track]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/10-types-of-ai-attacks-cisos-should-track</id>
+        <link href="https://www.darkreading.com/threat-intelligence/10-types-of-ai-attacks-cisos-should-track"/>
+        <updated>2023-05-18T18:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Risk from artificial intelligence vectors presents a growing concern among security professionals in 2023.]]></summary>
+        <author>
+            <name>Ericka Chickowski, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Azure VMs Hijacked in Cloud Cyberattack]]></title>
+        <id>https://www.darkreading.com/cloud/microsoft-azure-vms-highjacked-in-cloud-cyberattack</id>
+        <link href="https://www.darkreading.com/cloud/microsoft-azure-vms-highjacked-in-cloud-cyberattack"/>
+        <updated>2023-05-18T17:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybercrime group that often uses smishing for initial access bypassed traditional OS targeting and evasion techniques to directly gain access to the cloud.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Embedding Security by Design: A Shared Responsibility]]></title>
+        <id>https://www.darkreading.com/application-security/embedding-security-by-design-a-shared-responsibility-</id>
+        <link href="https://www.darkreading.com/application-security/embedding-security-by-design-a-shared-responsibility-"/>
+        <updated>2023-05-18T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Security by design can't be just a best practice — it has to become a fundamental part of software development.]]></summary>
+        <author>
+            <name>Stephen de Vries, Co-Founder &amp; CEO, IriusRisk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OX Security Launches OX-GPT, AppSec's First ChatGPT Integration]]></title>
+        <id>https://www.darkreading.com/application-security/ox-security-launches-ox-gpt-appsec-s-first-chatgpt-integration</id>
+        <link href="https://www.darkreading.com/application-security/ox-security-launches-ox-gpt-appsec-s-first-chatgpt-integration"/>
+        <updated>2023-05-18T15:49:00.000Z</updated>
+        <summary type="html"><![CDATA[Customized fix recommendations and cut and paste code fixes dramatically reduce remediation times.]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Satori Augments Its Data Security Platform With Posture Management and Data Store Discovery Capabilities]]></title>
+        <id>https://www.darkreading.com/operations/satori-augments-its-data-security-platform-with-posture-management-and-data-store-discovery-capabilities-to-help-companies-proactively-protect-data</id>
+        <link href="https://www.darkreading.com/operations/satori-augments-its-data-security-platform-with-posture-management-and-data-store-discovery-capabilities-to-help-companies-proactively-protect-data"/>
+        <updated>2023-05-18T15:45:00.000Z</updated>
+        <summary type="html"><![CDATA[With the new additions to Satori's Data Security Platform, companies gain unprecedented visibility to answer "Where is all my data?" and "Who has access to it?"]]></summary>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Once Again, Malware Discovered Hidden in npm]]></title>
+        <id>https://www.darkreading.com/application-security/once-again-malware-discovered-hidden-in-npm</id>
+        <link href="https://www.darkreading.com/application-security/once-again-malware-discovered-hidden-in-npm"/>
+        <updated>2023-05-18T15:27:00.000Z</updated>
+        <summary type="html"><![CDATA[Turkorat-poisoned packages sat in the npm development library for months, researchers say.]]></summary>
+        <author>
+            <name>Nathan Eddy, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing The BlueHat Podcast: Listen and Subscribe Now!]]></title>
+        <id>/blog/2023/05/announcing-the-bluehat-podcast-listen-and-subscribe-now/</id>
+        <link href="https://msrc-blog.microsoft.com/blog/2023/05/announcing-the-bluehat-podcast-listen-and-subscribe-now/"/>
+        <updated>2023-05-17T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Available today on all major podcast platforms is The BlueHat Podcast, a new series of security research focused conversations, continuing the themes from the BlueHat 2023 conference (session recordings available to watch here).
+Since 2005, BlueHat has been where the security research community, and Microsoft, come together as peers: to debate, discuss, share, challenge, celebrate and learn.]]></summary>
+        <author>
+            <name>Microsoft Security Response Center</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#StopRansomware: BianLian Ransomware Group]]></title>
+        <id>/node/18174</id>
+        <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a"/>
+        <updated>2023-05-15T16:29:37.000Z</updated>
+        <summary type="html"><![CDATA[Summary
+Note: This joint Cybersecurity Advisory (CSA) is part of an ongoing #StopRansomware effort to publish advisories for network defenders that detail various ransomware variants and ransomware threat actors. These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware. Visit stopransomware.gov to see all #StopRansomware advisories and learn more about other ransomware threats and no-cost resources.
+The Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), and Australian Cyber Security Centre (ACSC) are releasing this joint Cybersecurity Advisory to disseminate known BianLian ransomware and data extortio…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of May 8, 2023]]></title>
+        <id>/node/18173</id>
+        <link href="https://www.cisa.gov/news-events/bulletins/sb23-135"/>
+        <updated>2023-05-15T12:09:48.000Z</updated>
+        <summary type="html"><![CDATA[The CISA Vulnerability Bulletin provides a summary of new vulnerabilities that have been recorded by the National Institute of Standards and Technology (NIST) National Vulnerability Database (NVD) in the past week. NVD is sponsored by CISA. In some cases, the vulnerabilities in the bulletin may not yet have assigned CVSS scores. Please visit NVD for updated vulnerability entries, which include CVSS scores once they are available.
+Vulnerabilities are based on the Common Vulnerabilities and Exposures (CVE) vulnerability naming standard and are organized according to severity, determined by the Common Vulnerability Scoring System (CVSS) standard. The division of high, medium, and low severities correspond to the following scores:
+High: vulnerabilities with a CVSS base score of 7.0–10.0
+
+High …]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Malicious Actors Exploit CVE-2023-27350 in PaperCut MF and NG]]></title>
+        <id>/node/18149</id>
+        <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-131a"/>
+        <updated>2023-05-10T21:35:23.000Z</updated>
+        <summary type="html"><![CDATA[SUMMARY
+The Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA) are releasing this joint Cybersecurity Advisory (CSA) in response to the active exploitation of CVE-2023-27350. This vulnerability occurs in certain versions of PaperCut NG and PaperCut MF and enables an unauthenticated actor to execute malicious code remotely without credentials. PaperCut released a patch in March 2023.
+According to FBI observed information, malicious actors exploited CVE-2023-27350 beginning in mid-April 2023 and continuing through the present. In early May 2023, also according to FBI information, a group self-identifying as the Bl00dy Ransomware Gang attempted to exploit vulnerable PaperCut servers against the Education Facilities Subsector.
+This joint advisory …]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023 年 5 月のセキュリティ更新プログラム (月例)]]></title>
+        <id>/blog/2023/05/202305-security-update/</id>
+        <link href="https://msrc-blog.microsoft.com/blog/2023/05/202305-security-update/"/>
+        <updated>2023-05-09T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2023 年 5 月 9 日 (米国時間)、マイクロソフトは、マイクロソフト製品に影響する脆弱性を修正するために、セキ]]></summary>
+        <author>
+            <name>Microsoft Security Response Center</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2023-24932 に関連するセキュア ブート マネージャーの変更に関するガイダンス]]></title>
+        <id>/blog/2023/05/guidance-related-to-secure-boot-manager-changes-associated-with-cve-2023-24932-ja/</id>
+        <link href="https://msrc-blog.microsoft.com/blog/2023/05/guidance-related-to-secure-boot-manager-changes-associated-with-cve-2023-24932-ja/"/>
+        <updated>2023-05-09T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本ブログは、Guidance related to Secure Boot Manager changes associated with CVE-2023-24932 の抄訳版です。最新の情報は原文を参照してください。 概要]]></summary>
+        <author>
+            <name>Microsoft Security Response Center</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Guidance related to Secure Boot Manager changes associated with CVE-2023-24932]]></title>
+        <id>/blog/2023/05/guidance-related-to-secure-boot-manager-changes-associated-with-cve-2023-24932/</id>
+        <link href="https://msrc-blog.microsoft.com/blog/2023/05/guidance-related-to-secure-boot-manager-changes-associated-with-cve-2023-24932/"/>
+        <updated>2023-05-09T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Summary Summary Today, Microsoft is releasing CVE-2023-24932, and associated configuration guidance, to address a Secure Boot bypass vulnerability used by the BlackLotus bootkit to exploit CVE-2022-21894. Customers will need to closely follow the configuration guidance to fully protect against this vulnerability.
+This vulnerability allows an attacker to execute self-signed code at the Unified Extensible Firmware Interface (UEFI) level while Secure Boot is enabled.]]></summary>
+        <author>
+            <name>Microsoft Security Response Center</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hunting Russian Intelligence “Snake” Malware]]></title>
+        <id>/node/18137</id>
+        <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-129a"/>
+        <updated>2023-05-08T21:02:56.000Z</updated>
+        <summary type="html"><![CDATA[SUMMARY
+The Snake implant is considered the most sophisticated cyber espionage tool designed and used by Center 16 of Russia’s Federal Security Service (FSB) for long-term intelligence collection on sensitive targets. To conduct operations using this tool, the FSB created a covert peer-to-peer (P2P) network of numerous Snake-infected computers worldwide. Many systems in this P2P network serve as relay nodes which route disguised operational traffic to and from Snake implants on the FSB’s ultimate targets. Snake’s custom communications protocols employ encryption and fragmentation for confidentiality and are designed to hamper detection and collection efforts.
+We have identified Snake infrastructure in over 50 countries across North America, South America, Europe, Africa, Asia, and Australi…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of May 1, 2023]]></title>
+        <id>/node/18132</id>
+        <link href="https://www.cisa.gov/news-events/bulletins/sb23-128"/>
+        <updated>2023-05-08T12:35:04.000Z</updated>
+        <summary type="html"><![CDATA[The CISA Vulnerability Bulletin provides a summary of new vulnerabilities that have been recorded by the National Institute of Standards and Technology (NIST) National Vulnerability Database (NVD) in the past week. NVD is sponsored by CISA. In some cases, the vulnerabilities in the bulletin may not yet have assigned CVSS scores. Please visit NVD for updated vulnerability entries, which include CVSS scores once they are available.
+Vulnerabilities are based on the Common Vulnerabilities and Exposures (CVE) vulnerability naming standard and are organized according to severity, determined by the Common Vulnerability Scoring System (CVSS) standard. The division of high, medium, and low severities correspond to the following scores:
+High: vulnerabilities with a CVSS base score of 7.0–10.0
+Medium…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+</feed>
