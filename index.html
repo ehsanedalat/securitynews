@@ -36,11 +36,128 @@ alt="Web Analytics Made Easy - StatCounter"></a></div></noscript>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-11 datetime="2023-08-11T00:02:00.000Z">2023-08-11</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-11 datetime="2023-08-11T00:02:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-11 datetime="2023-08-11T22:22:46.010Z">2023-08-11</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-11 datetime="2023-08-11T22:22:46.010Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >CERT Recently Published Vulnerability Notes</button>
+                  <a class="source-heading__link" href="https://kb.cert.org/vuls/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kb.cert.org/vuls/id/127587"
+                        open
+                      >
+                        <summary class="article-expander__title">VU#127587: Python Parsing Error Enabling Bypass CVE-2023-24329</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kb.cert.org/vuls/id/127587">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Overview
+urllib.parse is a very basic and widely used basic URL parsing function in various applications.
+Description
+An issue in the urllib.parse component of Python before v3.11 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.
+urlparse has a parsing problem when the entire URL starts with blank characters. This problem affects both the parsing of hostname and scheme, and eventually causes any blocklisting methods to fail.
+URL Parsing Security *
+The urlsplit() and urlparse() APIs do not perform validation of inputs. They may not raise errors on inputs that other applications consider invalid. They may also succeed on some inputs that might not be considered URLs elsewhere. Their purpose is for practical functionality rather than purity.
+Instead of raising an exception on unusual input, they may instead return some component parts as empty strings. Or components may contain more than perhaps they should.
+We recommend that users of these APIs where the values may be used anywhere with security implications code defensively. Do some verification within your code before trusting a returned component part. Does that scheme make sense? Is that a sensible path? Is there anything strange about thathostname? etc.
+What constitutes a URL is not universally well defined. Different applications have different needs and desired constraints. For instance the living WHATWG spec describes what user facing web clients such as a web browser require. While RFC 3986 is more general. These functions incorporate some aspects of both, but cannot be claimed compliant with either. The APIs and existing user code with expectations on specific behaviors predate both standards leading us to be very cautious about making API behavior changes.
+*Note: This was added as part of the documentation update in https://github.com/python/cpython/pull/102508
+Impact
+Due to this issue, attackers can bypass any domain or protocol filtering method implemented with a blocklist. Protocol filtering failures can lead to arbitrary file reads, arbitrary command execution, SSRF, and other problems. Failure of domain name filtering may lead to re-access of blocked bad or dangerous websites or to failure of CSRF referer type defense, etc.
+Because this vulnerability exists in the most basic parsing library, more advanced issues are possible.
+Solution
+The fixes are in the following releases:
+
+fixed in &gt;&#x3D; 3.12
+fixed in 3.11.x &gt;&#x3D; 3.11.4
+fixed in 3.10.x &gt;&#x3D; 3.10.12
+fixed in 3.9.x &gt;&#x3D; 3.9.17
+fixed in 3.8.x &gt;&#x3D; 3.8.17
+fixed in 3.7.x &gt;&#x3D; 3.7.17
+
+Acknowledgements
+Thanks to the reporter, Yebo Cao for researching and reporting this vulnerability.
+This document was written by Ben Koo.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Schneier on Security</button>
+                  <a class="source-heading__link" href="https://www.schneier.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.schneier.com/blog/archives/2023/08/friday-squid-blogging-niwa-annual-squid-survey.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Friday Squid Blogging: NIWA Annual Squid Survey</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.schneier.com/blog/archives/2023/08/friday-squid-blogging-niwa-annual-squid-survey.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Results from the National Institute of Water and Atmospheric Research Limited annual squid survey:
+This year, the team unearthed spectacular large hooked squids, weighing about 15kg and sitting at 2m long, a Taningia—­which has the largest known light organs in the animal kingdom­—and a few species that remain very rare in collections worldwide, such as the “scaled” squid Lepidoteuthis and the Batoteuthis skolops.
+
+As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.
+Read my blog posting guidelines ...</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.schneier.com/blog/archives/2023/08/the-inability-to-simultaneously-verify-sentience-location-and-identity.html"
+                        open
+                      >
+                        <summary class="article-expander__title">The Inability to Simultaneously Verify Sentience, Location, and Identity</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.schneier.com/blog/archives/2023/08/the-inability-to-simultaneously-verify-sentience-location-and-identity.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Really interesting “systematization of knowledge” paper:
+“SoK: The Ghost Trilemma”
+Abstract: Trolls, bots, and sybils distort online discourse and compromise the security of networked platforms. User identity is central to the vectors of attack and manipulation employed in these contexts. However it has long seemed that, try as it might, the security community has been unable to stem the rising tide of such problems. We posit the Ghost Trilemma, that there are three key properties of identity—sentience, location, and uniqueness—that cannot be simultaneously verified in a fully-decentralized setting. Many fully-decentralized systems—whether for communication or social coordination—grapple with this trilemma in some way, perhaps unknowingly. In this Systematization of Knowledge (SoK) paper, we examine the design space, use cases, problems with prior approaches, and possible paths forward. We sketch a proof of this trilemma and outline options for practical, incrementally deployable schemes to achieve an acceptable tradeoff of trust in centralized trust anchors, decentralized operation, and an ability to withstand a range of attacks, while protecting user privacy...</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -56,6 +173,206 @@ alt="Web Analytics Made Easy - StatCounter"></a></div></noscript>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/threat-intelligence/security-pressure-mounts-ai-promises-peril"
+                        open
+                      >
+                        <summary class="article-expander__title">Security Pressures Mount Around AI&#x27;s Promises &amp; Peril</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/threat-intelligence/security-pressure-mounts-ai-promises-peril">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc28007d0f8e926c8/643eca8732dfd37d9e9c750d/Dan_Raywoord_Headshot.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Both threats to enterprises and career opportunities are being created by the escalation of generative AI and ChatGPT, warns Maria &#x27;Azeria&#x27; Markstedter.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;48
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/operations/darpa-taps-rtx-to-attune-ai-decisions-to-human-values"
+                        open
+                      >
+                        <summary class="article-expander__title">DARPA Taps RTX to Attune AI Decisions to Human Values</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/operations/darpa-taps-rtx-to-attune-ai-decisions-to-human-values">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://beta.darkreading.com/images/og-image.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;48
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/careers-and-people/fortinet-announces-free-security-awareness-curriculum-for-k-12-students-tied-to-white-house-s-cyber-education-and-workforce-initiatives"
+                        open
+                      >
+                        <summary class="article-expander__title">Fortinet Announces Free Security Awareness Curriculum for K-12 Students Tied to White House&#x27;s Cyber Initiatives</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/careers-and-people/fortinet-announces-free-security-awareness-curriculum-for-k-12-students-tied-to-white-house-s-cyber-education-and-workforce-initiatives">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://beta.darkreading.com/images/og-image.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;50
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/attacks-breaches/as-phishing-gets-sneakier-browser-security-needs-to-step-up"
+                        open
+                      >
+                        <summary class="article-expander__title">As Phishing Gets Even Sneakier, Browser Security Needs to Step Up</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/attacks-breaches/as-phishing-gets-sneakier-browser-security-needs-to-step-up">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc28007d0f8e926c8/643eca8732dfd37d9e9c750d/Dan_Raywoord_Headshot.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Perception Point&#x27;s Din Serussi says browser extensions can help mitigate more sophisticated phishing techniques.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;46
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/threat-intelligence/oswap-releases-threat-intelligence-survey-reveals-need-for-enhancement"
+                        open
+                      >
+                        <summary class="article-expander__title">Threat Intelligence Efforts, Investment Lagging, Says Opswat</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/threat-intelligence/oswap-releases-threat-intelligence-survey-reveals-need-for-enhancement">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt99a085317510bed4/64c2d09eb4efdc3baa62182f/285801_DR23_Graphics_Website_Author_Logo_0.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>In an annual survey, 62% of respondents admited their threat intel efforts need stepping up.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;42
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/ics-ot/xworm-remcos-rat-evade-edrs-infect-critical-infrastructure"
+                        open
+                      >
+                        <summary class="article-expander__title">XWorm, Remcos RAT Evade EDRs to Infect Critical Infrastructure</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/ics-ot/xworm-remcos-rat-evade-edrs-infect-critical-infrastructure">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf8b5a94afa71c53a/628e3799daa31875dc0c9fc0/NathanEddyHeadshot.PNG" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Disguised as harmless PDF documents, LNK files trigger a PowerShell script, initiating a Rust-based injector called Freeze[.]rs and a host of malware infections.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;48
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/ics-ot/what-cisa-and-nsa-esf-guidance-means-for-critical-infrastructure-security"
+                        open
+                      >
+                        <summary class="article-expander__title">What CISA and NSA Guidance Means for Critical Infrastructure Security</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/ics-ot/what-cisa-and-nsa-esf-guidance-means-for-critical-infrastructure-security">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltcec80f9baeb42a56/64d1604461c61315f75f6d76/Josh_Cigna_headshot.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Strategically investing in solutions that meet you where you are makes all the difference in staying secure from cyber threats.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;52
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/dr-tech/mobb-wins-black-hat-startup-spotlight-competition"
+                        open
+                      >
+                        <summary class="article-expander__title">Mobb Wins Black Hat Startup Spotlight Competition</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/dr-tech/mobb-wins-black-hat-startup-spotlight-competition">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt93784ffee79538e7/60d4371522d24e38a3806ecf/fahmida.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The four finalists tackled firmware security, cloud infrastructure, open source software, and vulnerability remediation.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;54
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/dr-tech/microsoft-expands-cloud-security-posture-management-to-google-cloud"
+                        open
+                      >
+                        <summary class="article-expander__title">Microsoft Expands Cloud Security Posture Management to Google Cloud</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/dr-tech/microsoft-expands-cloud-security-posture-management-to-google-cloud">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blta28fcad87ff558b7/627c0108726e3315b16b464c/Jeff_Schwartz_headshot-sq.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Microsoft Defender for Cloud CSPM, which provides risk and compliance monitoring of AWS, Azure, and on-premises cloud, is finally adding GCP to the mix.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;51
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/edge-articles/whats-in-new-york-first-ever-cyber-strategy"
+                        open
+                      >
+                        <summary class="article-expander__title">What&#x27;s in New York&#x27;s &#x27;First-Ever&#x27; Cyber Strategy?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/edge-articles/whats-in-new-york-first-ever-cyber-strategy">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blta28fcad87ff558b7/627c0108726e3315b16b464c/Jeff_Schwartz_headshot-sq.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Governor Kathy Hochul has made cybersecurity a key priority, with New York&#x27;s first chief cyber officer, Colin Ahern, leading the effort.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;49
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.darkreading.com/attacks-breaches/nsa-talks-codebreaker-challenge-success-influence-on-education"
                         open
                       >
@@ -66,6 +383,389 @@ alt="Web Analytics Made Easy - StatCounter"></a></div></noscript>
                             <span class="media-object__text">
                               <span>The US National Security Agency aims to attract students to cybersecurity in general and its own open positions in particular: 3,000 new jobs this year.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;44
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Ubuntu security notices</button>
+                  <a class="source-heading__link" href="https://ubuntu.com/security/notices/rss.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ubuntu.com/security/notices/USN-6285-1"
+                        open
+                      >
+                        <summary class="article-expander__title">USN-6285-1: Linux kernel (OEM) vulnerabilities</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ubuntu.com/security/notices/USN-6285-1">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>It was discovered that the NTFS file system implementation in the Linux
+kernel did not properly check buffer indexes in certain situations, leading
+to an out-of-bounds read vulnerability. A local attacker could possibly use
+this to expose sensitive information (kernel memory). (CVE-2022-48502)
+
+Stonejiajia, Shir Tamari and Sagi Tzadik discovered that the OverlayFS
+implementation in the Ubuntu Linux kernel did not properly perform
+permission checks in certain situations. A local attacker could possibly
+use this to gain elevated privileges. (CVE-2023-2640)
+
+It was discovered that a race condition existed in the f2fs file system in
+the Linux kernel, leading to a null pointer dereference vulnerability. An
+attacker could use this to construct a malicious f2fs image that, when
+mounted and operat…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ubuntu.com/security/notices/USN-6284-1"
+                        open
+                      >
+                        <summary class="article-expander__title">USN-6284-1: Linux kernel vulnerabilities</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ubuntu.com/security/notices/USN-6284-1">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>It was discovered that the netlink implementation in the Linux kernel did
+not properly validate policies when parsing attributes in some situations.
+An attacker could use this to cause a denial of service (infinite
+recursion). (CVE-2020-36691)
+
+Billy Jheng Bing Jhong discovered that the CIFS network file system
+implementation in the Linux kernel did not properly validate arguments to
+ioctl() in some situations. A local attacker could possibly use this to
+cause a denial of service (system crash). (CVE-2022-0168)
+
+It was discovered that the ext4 file system implementation in the Linux
+kernel contained a use-after-free vulnerability. An attacker could use this
+to construct a malicious ext4 file system image that, when mounted, could
+cause a denial of service (system crash). (CVE-2022-1184)
+
+I…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ubuntu.com/security/notices/USN-6283-1"
+                        open
+                      >
+                        <summary class="article-expander__title">USN-6283-1: Linux kernel vulnerabilities</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ubuntu.com/security/notices/USN-6283-1">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Ruihan Li discovered that the bluetooth subsystem in the Linux kernel did
+not properly perform permissions checks when handling HCI sockets. A
+physically proximate attacker could use this to cause a denial of service
+(bluetooth communication). (CVE-2023-2002)
+
+Zheng Zhang discovered that the device-mapper implementation in the Linux
+kernel did not properly handle locking during table_clear() operations. A
+local attacker could use this to cause a denial of service (kernel
+deadlock). (CVE-2023-2269)
+
+It was discovered that the Ricoh R5C592 MemoryStick card reader driver in
+the Linux kernel contained a race condition during module unload, leading
+to a use-after-free vulnerability. A local attacker could use this to cause
+a denial of service (system crash) or possibly execute arbitrary code.
+(…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Hacker News</button>
+                  <a class="source-heading__link" href="https://thehackernews.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2023/08/researchers-uncover-decade-long-cyber.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Researchers Uncover Years-Long Cyber Espionage on Foreign Embassies in Belarus</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2023/08/researchers-uncover-decade-long-cyber.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhotMoFS2JqMGDnGRDU7jMvbpG6vsA7jmIZ7ZMJX3XaodFfNAZirhJYqlldC-7L8sEz37b9CGAOSh8ewWl89q9ayC6xSiYmqoUGf69SqjCN4fBBZ-Q7Yu47z8lz_ALLDDlSPYCW0Xt9xQXSkdiDjAPMZDKnKnhPagoKZiKUu9coWXWYOFJXZJLVG3W3Tn6x/s1600/hacking.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>A hitherto undocumented threat actor operating for nearly a decade and codenamed MoustachedBouncer has been attributed to cyber espionage attacks aimed at foreign embassies in Belarus.
+&quot;Since 2020, MoustachedBouncer has most likely been able to perform adversary-in-the-middle (AitM) attacks at the ISP level, within Belarus, in order to compromise its targets,&quot; ESET security researcher Matthieu</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2023/08/enhancing-tls-security-google-adds.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Enhancing TLS Security: Google Adds Quantum-Resistant Encryption in Chrome 116</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2023/08/enhancing-tls-security-google-adds.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJ4fmBqTDrYWnhNBGw02TXV7n2bb9hPS8V8Rsx7VKh60N_vI_Crx0y4wCF__KlibJgMjlj6ldQRjbpkrrMtW8jrHUkQMoX1UAvhEGP1x8TTUYPY52md5CNfG4z3KvuqmpYDBPNLqX-l-l5IXypRvrKPg_0CRWlVUzkqVSy508u0gtlm4LBxbKX4LbT790z/s1600/chrome.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Google has announced plans to add support for quantum-resistant encryption algorithms in its Chrome browser, starting with version 116.
+&quot;Chrome will begin supporting X25519Kyber768 for establishing symmetric secrets in TLS, starting in Chrome 116, and available behind a flag in Chrome 115,&quot; Devon O&#x27;Brien said in a post published Thursday.
+Kyber was chosen by the U.S. Department of Commerce&#x27;s</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2023/08/researchers-shed-light-on-apt31s.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Researchers Shed Light on APT31&#x27;s Advanced Backdoors and Data Exfiltration Tactics</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2023/08/researchers-shed-light-on-apt31s.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuGNa8T5VV5rml1Id-qDRzQ4ixrtVVVZ3rDXSzA2f7YgUrdkEJwo00dxSSZSTJv3SCCFAEorU5LfAMpvsLQjF5JzeI-Z9W_sKRTTqDpigxBfwTQVvx0wmoTz4zceIKZRkn45IUhuYq59GW7_nKFBneqwe51RMSoh6_2B4u41KahKoCa-HNPX2ojyG6YA30/s1600/code.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The Chinese threat actor known as APT31 (aka Bronze Vinewood, Judgement Panda, or Violet Typhoon) has been linked to a set of advanced backdoors that are capable of exfiltrating harvested sensitive information to Dropbox.
+The malware is part of a broader collection of more than 15 implants that have been put to use by the adversary in attacks targeting industrial organizations in Eastern Europe</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2023/08/new-systembc-malware-variant-targets.html"
+                        open
+                      >
+                        <summary class="article-expander__title">New SystemBC Malware Variant Targets Southern African Power Company</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2023/08/new-systembc-malware-variant-targets.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg20ZomS4Qwdhz0T-Xik__fVPCxpTSvaD1RsHZ-4yHSjROljl6bGOsv_zmlOHQAft7VbNVvjzufZdZiqpN80uXmywVZknFcCm86cSpB-zLWIm3a71Dr6J4rXIWWmHUR6K9JHPsPyFUClN8LoPWja-okUOzji2IRLCKl64fQJDM_2kYhheY_JAYgP7MmjpZ/s1600/power.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>An unknown threat actor has been linked to a cyber attack on a power generation company in southern Africa with a new variant of the SystemBC malware called DroxiDat as a precursor to a suspected ransomware attack.
+&quot;The proxy-capable backdoor was deployed alongside Cobalt Strike Beacons in a south African nation&#x27;s critical infrastructure,&quot; Kurt Baumgartner, principal security researcher at</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2023/08/15-new-codesys-sdk-flaws-expose-ot.html"
+                        open
+                      >
+                        <summary class="article-expander__title">16 New CODESYS SDK Flaws Expose OT Environments to Remote Attacks</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2023/08/15-new-codesys-sdk-flaws-expose-ot.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_TSm63Fsm28_7fymnUBsQl1JqPlB7XeKSgbizxUcYI9hHGHh18HjnGs8xQ_nnc3uIdt0yLvY5pKNdRsQGmZfDeTxjuJUCDrYlDIc5PfwNqSF-K-8PN9RmWCuudc63OsTiALipiTmIPKRX64EWHVUNwrv7AC0kDlr35j7rFFTn-oi19D6IXZ8x8xHtwPQi/s1600/exploit.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>A set of 16 high-severity security flaws have been disclosed in the CODESYS V3 software development kit (SDK) that could result in remote code execution and denial-of-service under specific conditions, posing risks to operational technology (OT) environments.
+The flaws, tracked from CVE-2022-47378 through CVE-2022-47393 and dubbed CoDe16, carry a CVSS score of 8.8 with the exception of</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2023/08/cisa-adds-microsoft-net-vulnerability.html"
+                        open
+                      >
+                        <summary class="article-expander__title">CISA Adds Microsoft .NET Vulnerability to KEV Catalog Due to Active Exploitation</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2023/08/cisa-adds-microsoft-net-vulnerability.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhot_0yHuskRFmk7-HKFEMEQ6NPAlef7-x_R9anOptXGPqnXdsWzrE98xrAp5Ly-2CLwfhtNWp23dyNzb0JeVL-ig4s3dHVNMPTIVfHnsthylnccmZcLgSxD8hMQCaiBniJYRMLpRx5sIVBv-UId_zpCiwudEWr0DP1tO5NutaUda7FRkmfT0qvMHG40cph/s1600/net.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched security flaw in Microsoft&#x27;s .NET and Visual Studio products to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
+Tracked as CVE-2023-38180 (CVSS score: 7.5), the high-severity flaw relates to a case denial-of-service (DoS) impacting .NET and Visual Studio.
+It</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >SecurityWeek RSS Feed</button>
+                  <a class="source-heading__link" href="https://www.securityweek.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;34646"
+                        open
+                      >
+                        <summary class="article-expander__title">In Other News: macOS Security Reports, Keyboard Spying, VPN Vulnerabilities</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/in-other-news-macos-security-reports-keyboard-spying-vpn-vulnerabilities/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.securityweek.com/wp-content/uploads/2023/06/cybersecurity-news.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Weekly cybersecurity news roundup that provides a summary of noteworthy stories that might have slipped under the radar for the week of August 7, 2023.
+The post In Other News: macOS Security Reports, Keyboard Spying, VPN Vulnerabilities appeared first on SecurityWeek.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;34645"
+                        open
+                      >
+                        <summary class="article-expander__title">Microsoft Discloses Codesys Flaws Allowing Shutdown of Industrial Operations, Spying</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/microsoft-discloses-codesys-flaws-allowing-shutdown-of-industrial-operations-spying/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.securityweek.com/wp-content/uploads/2023/02/dark_blue_ics.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Over a dozen Codesys vulnerabilities discovered by Microsoft researchers can be exploited to shut down industrial processes or deploy backdoors.
+The post Microsoft Discloses Codesys Flaws Allowing Shutdown of Industrial Operations, Spying appeared first on SecurityWeek.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;34644"
+                        open
+                      >
+                        <summary class="article-expander__title">Northern Ireland’s Top Police Officer Apologizes for ‘Industrial Scale’ Data Breach</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/northern-irelands-top-police-officer-apologizes-for-industrial-scale-data-breach/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Northern Ireland’s top police officer apologized for what he described as an “industrial scale” data breach in which the personal information of more than 10,000 officers and staff was released to the public.
+The post Northern Ireland’s Top Police Officer Apologizes for ‘Industrial Scale’ Data Breach appeared first on SecurityWeek.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;34643"
+                        open
+                      >
+                        <summary class="article-expander__title">Black Hat USA 2023 – Announcements Summary</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/black-hat-usa-2023-announcements-summary/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.securityweek.com/wp-content/uploads/2023/08/Black-Hat-News.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Hundreds of companies and organizations showcased their products and services this week at the 2023 edition of the Black Hat conference in Las Vegas.
+The post Black Hat USA 2023 – Announcements Summary appeared first on SecurityWeek.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;34642"
+                        open
+                      >
+                        <summary class="article-expander__title">India Passes Data Protection Legislation in Parliament. Critics Fear Privacy Violation</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/india-passes-data-protection-legislation-in-parliament-critics-fear-privacy-violation/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Indian lawmakers approved a data protection legislation that “seeks to better regulate big tech firms and penalize companies for data breaches” as several groups expressed concern over citizens’ privacy rights.
+The post India Passes Data Protection Legislation in Parliament. Critics Fear Privacy Violation appeared first on SecurityWeek.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;34640"
+                        open
+                      >
+                        <summary class="article-expander__title">MoustachedBouncer: Foreign Embassies in Belarus Likely Targeted via ISPs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/moustachedbouncer-foreign-embassies-in-belarus-likely-targeted-via-isps/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.securityweek.com/wp-content/uploads/2023/08/MoustachedBouncer-1024x576.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>MoustachedBouncer is a cyberespionage group that targets foreign diplomats in Belarus via ISP adversary-in-the-middle attacks.
+The post MoustachedBouncer: Foreign Embassies in Belarus Likely Targeted via ISPs appeared first on SecurityWeek.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -6048,8 +6748,8 @@ The User Registration plugin for WordPress is vulnerable to arbitrary file uploa
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/ehsanedalat/securitynews/actions/runs/5827747004">
-        <time id="build-timestamp" datetime="2023-08-11T01:03:26.084Z">2023-08-11T01:03:26.084Z</time>
+      <a class="footer-link" href="https://github.com/ehsanedalat/securitynews/actions/runs/5838442556">
+        <time id="build-timestamp" datetime="2023-08-12T01:02:38.699Z">2023-08-12T01:02:38.699Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

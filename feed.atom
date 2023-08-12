@@ -2,10 +2,373 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2023-08-11T01:03:26.118Z</updated>
+    <updated>2023-08-12T01:02:38.735Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[VU#127587: Python Parsing Error Enabling Bypass CVE-2023-24329]]></title>
+        <id>https://kb.cert.org/vuls/id/127587</id>
+        <link href="https://kb.cert.org/vuls/id/127587"/>
+        <updated>2023-08-11T22:22:46.010Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>urllib.parse is a very basic and widely used basic URL parsing function in various applications.</p>
+<h3 id="description">Description</h3>
+<p>An issue in the urllib.parse component of Python before v3.11 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.</p>
+<p>urlparse has a parsing problem when the entire URL starts with blank characters. This problem affects both the parsing of hostname and scheme, and eventually causes any blocklisting methods to fail.</p>
+<p><strong>URL Parsing Security</strong> *</p>
+<p>The <a href="https://docs.python.org/3/library/urllib.parse.html#urllib.parse.urlsplit" title="urllib.parse.urlsplit"><code>urlsplit()</code></a> and <a href="https://docs.python.org/3/library/urllib.parse.html#urllib.parse.urlparse" title="urllib.parse.urlparse"><code>urlparse()</code></a> APIs do not perform <strong>validation</strong> of inputs. They may not raise errors on inputs that other applications consider invalid. They may also succeed on some inputs that might not be considered URLs elsewhere. Their purpose is for practical functionality rather than purity.</p>
+<p>Instead of raising an exception on unusual input, they may instead return some component parts as empty strings. Or components may contain more than perhaps they should.</p>
+<p>We recommend that users of these APIs where the values may be used anywhere with security implications code defensively. Do some verification within your code before trusting a returned component part. Does that <code>scheme</code> make sense? Is that a sensible <code>path</code>? Is there anything strange about that<code>hostname</code>? etc.</p>
+<p>What constitutes a URL is not universally well defined. Different applications have different needs and desired constraints. For instance the living <a href="https://url.spec.whatwg.org/#concept-basic-url-parser">WHATWG spec</a> describes what user facing web clients such as a web browser require. While <a href="https://datatracker.ietf.org/doc/html/rfc3986.html"><strong>RFC 3986</strong></a> is more general. These functions incorporate some aspects of both, but cannot be claimed compliant with either. The APIs and existing user code with expectations on specific behaviors predate both standards leading us to be very cautious about making API behavior changes.</p>
+<p>*Note: This was added as part of the documentation update in https://github.com/python/cpython/pull/102508</p>
+<h3 id="impact">Impact</h3>
+<p>Due to this issue, attackers can bypass any domain or protocol filtering method implemented with a blocklist. Protocol filtering failures can lead to arbitrary file reads, arbitrary command execution, SSRF, and other problems. Failure of domain name filtering may lead to re-access of blocked bad or dangerous websites or to failure of CSRF referer type defense, etc.</p>
+<p>Because this vulnerability exists in the most basic parsing library, more advanced issues are possible.</p>
+<h3 id="solution">Solution</h3>
+<p>The fixes are in the following releases:
+</p><p>fixed in &gt;= 3.12
+<br>fixed in 3.11.x &gt;= 3.11.4
+<br>fixed in 3.10.x &gt;= 3.10.12
+<br>fixed in 3.9.x &gt;= 3.9.17
+<br>fixed in 3.8.x &gt;= 3.8.17
+<br>fixed in 3.7.x &gt;= 3.7.17</p><p></p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporter, Yebo Cao for researching and reporting this vulnerability.</p>
+<p>This document was written by Ben Koo.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Friday Squid Blogging: NIWA Annual Squid Survey]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/08/friday-squid-blogging-niwa-annual-squid-survey.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/08/friday-squid-blogging-niwa-annual-squid-survey.html"/>
+        <updated>2023-08-11T21:09:27.000Z</updated>
+        <summary type="html"><![CDATA[<p>Results from the National Institute of Water and Atmospheric Research Limited annual <a href="https://niwa.co.nz/news/fascinating-finds-from-niwas-annual-squid-survey">squid survey</a>:</p>
+<blockquote><p>This year, the team unearthed spectacular large hooked squids, weighing about 15kg and sitting at 2m long, a Taningia&#8212;­which has the largest known light organs in the animal kingdom­&#8212;and a few species that remain very rare in collections worldwide, such as the &#8220;scaled&#8221; squid Lepidoteuthis and the Batoteuthis skolops.</p></blockquote>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.</p>
+<p>Read my blog posting guidelines ...</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Security Pressures Mount Around AI's Promises & Peril]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/security-pressure-mounts-ai-promises-peril</id>
+        <link href="https://www.darkreading.com/threat-intelligence/security-pressure-mounts-ai-promises-peril"/>
+        <updated>2023-08-11T20:36:00.000Z</updated>
+        <summary type="html"><![CDATA[Both threats to enterprises and career opportunities are being created by the escalation of generative AI and ChatGPT, warns Maria 'Azeria' Markstedter.]]></summary>
+        <author>
+            <name>Dan Raywood, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DARPA Taps RTX to Attune AI Decisions to Human Values]]></title>
+        <id>https://www.darkreading.com/operations/darpa-taps-rtx-to-attune-ai-decisions-to-human-values</id>
+        <link href="https://www.darkreading.com/operations/darpa-taps-rtx-to-attune-ai-decisions-to-human-values"/>
+        <updated>2023-08-11T20:03:00.000Z</updated>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fortinet Announces Free Security Awareness Curriculum for K-12 Students Tied to White House's Cyber Initiatives]]></title>
+        <id>https://www.darkreading.com/careers-and-people/fortinet-announces-free-security-awareness-curriculum-for-k-12-students-tied-to-white-house-s-cyber-education-and-workforce-initiatives</id>
+        <link href="https://www.darkreading.com/careers-and-people/fortinet-announces-free-security-awareness-curriculum-for-k-12-students-tied-to-white-house-s-cyber-education-and-workforce-initiatives"/>
+        <updated>2023-08-11T19:55:00.000Z</updated>
+        <author>
+            <name>Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[As Phishing Gets Even Sneakier, Browser Security Needs to Step Up]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/as-phishing-gets-sneakier-browser-security-needs-to-step-up</id>
+        <link href="https://www.darkreading.com/attacks-breaches/as-phishing-gets-sneakier-browser-security-needs-to-step-up"/>
+        <updated>2023-08-11T19:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Perception Point's Din Serussi says browser extensions can help mitigate more sophisticated phishing techniques.]]></summary>
+        <author>
+            <name>Dan Raywood, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Threat Intelligence Efforts, Investment Lagging, Says Opswat]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/oswap-releases-threat-intelligence-survey-reveals-need-for-enhancement</id>
+        <link href="https://www.darkreading.com/threat-intelligence/oswap-releases-threat-intelligence-survey-reveals-need-for-enhancement"/>
+        <updated>2023-08-11T18:50:00.000Z</updated>
+        <summary type="html"><![CDATA[In an annual survey, 62% of respondents admited their threat intel efforts need stepping up.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6285-1: Linux kernel (OEM) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6285-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6285-1"/>
+        <updated>2023-08-11T17:51:46.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the NTFS file system implementation in the Linux
+kernel did not properly check buffer indexes in certain situations, leading
+to an out-of-bounds read vulnerability. A local attacker could possibly use
+this to expose sensitive information (kernel memory). (CVE-2022-48502)
+
+Stonejiajia, Shir Tamari and Sagi Tzadik discovered that the OverlayFS
+implementation in the Ubuntu Linux kernel did not properly perform
+permission checks in certain situations. A local attacker could possibly
+use this to gain elevated privileges. (CVE-2023-2640)
+
+It was discovered that a race condition existed in the f2fs file system in
+the Linux kernel, leading to a null pointer dereference vulnerability. An
+attacker could use this to construct a malicious f2fs image that, when
+mounted and operat…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XWorm, Remcos RAT Evade EDRs to Infect Critical Infrastructure]]></title>
+        <id>https://www.darkreading.com/ics-ot/xworm-remcos-rat-evade-edrs-infect-critical-infrastructure</id>
+        <link href="https://www.darkreading.com/ics-ot/xworm-remcos-rat-evade-edrs-infect-critical-infrastructure"/>
+        <updated>2023-08-11T17:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Disguised as harmless PDF documents, LNK files trigger a PowerShell script, initiating a Rust-based injector called Freeze[.]rs and a host of malware infections.]]></summary>
+        <author>
+            <name>Nathan Eddy, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6284-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6284-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6284-1"/>
+        <updated>2023-08-11T16:07:44.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the netlink implementation in the Linux kernel did
+not properly validate policies when parsing attributes in some situations.
+An attacker could use this to cause a denial of service (infinite
+recursion). (CVE-2020-36691)
+
+Billy Jheng Bing Jhong discovered that the CIFS network file system
+implementation in the Linux kernel did not properly validate arguments to
+ioctl() in some situations. A local attacker could possibly use this to
+cause a denial of service (system crash). (CVE-2022-0168)
+
+It was discovered that the ext4 file system implementation in the Linux
+kernel contained a use-after-free vulnerability. An attacker could use this
+to construct a malicious ext4 file system image that, when mounted, could
+cause a denial of service (system crash). (CVE-2022-1184)
+
+I…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6283-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6283-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6283-1"/>
+        <updated>2023-08-11T14:36:14.000Z</updated>
+        <summary type="html"><![CDATA[Ruihan Li discovered that the bluetooth subsystem in the Linux kernel did
+not properly perform permissions checks when handling HCI sockets. A
+physically proximate attacker could use this to cause a denial of service
+(bluetooth communication). (CVE-2023-2002)
+
+Zheng Zhang discovered that the device-mapper implementation in the Linux
+kernel did not properly handle locking during table_clear() operations. A
+local attacker could use this to cause a denial of service (kernel
+deadlock). (CVE-2023-2269)
+
+It was discovered that the Ricoh R5C592 MemoryStick card reader driver in
+the Linux kernel contained a race condition during module unload, leading
+to a use-after-free vulnerability. A local attacker could use this to cause
+a denial of service (system crash) or possibly execute arbitrary code.
+(…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Uncover Years-Long Cyber Espionage on Foreign Embassies in Belarus]]></title>
+        <id>https://thehackernews.com/2023/08/researchers-uncover-decade-long-cyber.html</id>
+        <link href="https://thehackernews.com/2023/08/researchers-uncover-decade-long-cyber.html"/>
+        <updated>2023-08-11T14:23:00.000Z</updated>
+        <summary type="html"><![CDATA[A hitherto undocumented threat actor operating for nearly a decade and codenamed MoustachedBouncer has been attributed to cyber espionage attacks aimed at foreign embassies in Belarus.
+"Since 2020, MoustachedBouncer has most likely been able to perform adversary-in-the-middle (AitM) attacks at the ISP level, within Belarus, in order to compromise its targets," ESET security researcher Matthieu]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What CISA and NSA Guidance Means for Critical Infrastructure Security]]></title>
+        <id>https://www.darkreading.com/ics-ot/what-cisa-and-nsa-esf-guidance-means-for-critical-infrastructure-security</id>
+        <link href="https://www.darkreading.com/ics-ot/what-cisa-and-nsa-esf-guidance-means-for-critical-infrastructure-security"/>
+        <updated>2023-08-11T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Strategically investing in solutions that meet you where you are makes all the difference in staying secure from cyber threats.]]></summary>
+        <author>
+            <name>Josh Cigna, Enterprise Solutions Architect, Yubico</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In Other News: macOS Security Reports, Keyboard Spying, VPN Vulnerabilities]]></title>
+        <id>https://www.securityweek.com/?p=34646</id>
+        <link href="https://www.securityweek.com/in-other-news-macos-security-reports-keyboard-spying-vpn-vulnerabilities/"/>
+        <updated>2023-08-11T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Weekly cybersecurity news roundup that provides a summary of noteworthy stories that might have slipped under the radar for the week of August 7, 2023.
+The post In Other News: macOS Security Reports, Keyboard Spying, VPN Vulnerabilities appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>SecurityWeek News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enhancing TLS Security: Google Adds Quantum-Resistant Encryption in Chrome 116]]></title>
+        <id>https://thehackernews.com/2023/08/enhancing-tls-security-google-adds.html</id>
+        <link href="https://thehackernews.com/2023/08/enhancing-tls-security-google-adds.html"/>
+        <updated>2023-08-11T12:22:00.000Z</updated>
+        <summary type="html"><![CDATA[Google has announced plans to add support for quantum-resistant encryption algorithms in its Chrome browser, starting with version 116.
+"Chrome will begin supporting X25519Kyber768 for establishing symmetric secrets in TLS, starting in Chrome 116, and available behind a flag in Chrome 115," Devon O'Brien said in a post published Thursday.
+Kyber was chosen by the U.S. Department of Commerce's]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mobb Wins Black Hat Startup Spotlight Competition]]></title>
+        <id>https://www.darkreading.com/dr-tech/mobb-wins-black-hat-startup-spotlight-competition</id>
+        <link href="https://www.darkreading.com/dr-tech/mobb-wins-black-hat-startup-spotlight-competition"/>
+        <updated>2023-08-11T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The four finalists tackled firmware security, cloud infrastructure, open source software, and vulnerability remediation.]]></summary>
+        <author>
+            <name>Fahmida Y. Rashid, Managing Editor, Features, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Discloses Codesys Flaws Allowing Shutdown of Industrial Operations, Spying]]></title>
+        <id>https://www.securityweek.com/?p=34645</id>
+        <link href="https://www.securityweek.com/microsoft-discloses-codesys-flaws-allowing-shutdown-of-industrial-operations-spying/"/>
+        <updated>2023-08-11T11:46:43.000Z</updated>
+        <summary type="html"><![CDATA[Over a dozen Codesys vulnerabilities discovered by Microsoft researchers can be exploited to shut down industrial processes or deploy backdoors.
+The post Microsoft Discloses Codesys Flaws Allowing Shutdown of Industrial Operations, Spying appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Northern Ireland’s Top Police Officer Apologizes for ‘Industrial Scale’ Data Breach]]></title>
+        <id>https://www.securityweek.com/?p=34644</id>
+        <link href="https://www.securityweek.com/northern-irelands-top-police-officer-apologizes-for-industrial-scale-data-breach/"/>
+        <updated>2023-08-11T11:24:56.000Z</updated>
+        <summary type="html"><![CDATA[Northern Ireland’s top police officer apologized for what he described as an “industrial scale” data breach in which the personal information of more than 10,000 officers and staff was released to the public.
+The post Northern Ireland’s Top Police Officer Apologizes for ‘Industrial Scale’ Data Breach appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Inability to Simultaneously Verify Sentience, Location, and Identity]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/08/the-inability-to-simultaneously-verify-sentience-location-and-identity.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/08/the-inability-to-simultaneously-verify-sentience-location-and-identity.html"/>
+        <updated>2023-08-11T11:08:17.000Z</updated>
+        <summary type="html"><![CDATA[<p>Really interesting &#8220;systematization of knowledge&#8221; <a href="https://arxiv.org/pdf/2308.02202.pdf">paper</a>:</p>
+<blockquote><p>&#8220;SoK: The Ghost Trilemma&#8221;</p>
+<p><b>Abstract:</b> Trolls, bots, and sybils distort online discourse and compromise the security of networked platforms. User identity is central to the vectors of attack and manipulation employed in these contexts. However it has long seemed that, try as it might, the security community has been unable to stem the rising tide of such problems. We posit the Ghost Trilemma, that there are three key properties of identity&#8212;sentience, location, and uniqueness&#8212;that cannot be simultaneously verified in a fully-decentralized setting. Many fully-decentralized systems&#8212;whether for communication or social coordination&#8212;grapple with this trilemma in some way, perhaps unknowingly. In this Systematization of Knowledge (SoK) paper, we examine the design space, use cases, problems with prior approaches, and possible paths forward. We sketch a proof of this trilemma and outline options for practical, incrementally deployable schemes to achieve an acceptable tradeoff of trust in centralized trust anchors, decentralized operation, and an ability to withstand a range of attacks, while protecting user privacy...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black Hat USA 2023 – Announcements Summary]]></title>
+        <id>https://www.securityweek.com/?p=34643</id>
+        <link href="https://www.securityweek.com/black-hat-usa-2023-announcements-summary/"/>
+        <updated>2023-08-11T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hundreds of companies and organizations showcased their products and services this week at the 2023 edition of the Black Hat conference in Las Vegas.
+The post Black Hat USA 2023 – Announcements Summary appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Shed Light on APT31's Advanced Backdoors and Data Exfiltration Tactics]]></title>
+        <id>https://thehackernews.com/2023/08/researchers-shed-light-on-apt31s.html</id>
+        <link href="https://thehackernews.com/2023/08/researchers-shed-light-on-apt31s.html"/>
+        <updated>2023-08-11T10:12:00.000Z</updated>
+        <summary type="html"><![CDATA[The Chinese threat actor known as APT31 (aka Bronze Vinewood, Judgement Panda, or Violet Typhoon) has been linked to a set of advanced backdoors that are capable of exfiltrating harvested sensitive information to Dropbox.
+The malware is part of a broader collection of more than 15 implants that have been put to use by the adversary in attacks targeting industrial organizations in Eastern Europe]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New SystemBC Malware Variant Targets Southern African Power Company]]></title>
+        <id>https://thehackernews.com/2023/08/new-systembc-malware-variant-targets.html</id>
+        <link href="https://thehackernews.com/2023/08/new-systembc-malware-variant-targets.html"/>
+        <updated>2023-08-11T09:40:00.000Z</updated>
+        <summary type="html"><![CDATA[An unknown threat actor has been linked to a cyber attack on a power generation company in southern Africa with a new variant of the SystemBC malware called DroxiDat as a precursor to a suspected ransomware attack.
+"The proxy-capable backdoor was deployed alongside Cobalt Strike Beacons in a south African nation's critical infrastructure," Kurt Baumgartner, principal security researcher at]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[India Passes Data Protection Legislation in Parliament. Critics Fear Privacy Violation]]></title>
+        <id>https://www.securityweek.com/?p=34642</id>
+        <link href="https://www.securityweek.com/india-passes-data-protection-legislation-in-parliament-critics-fear-privacy-violation/"/>
+        <updated>2023-08-11T09:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Indian lawmakers approved a data protection legislation that “seeks to better regulate big tech firms and penalize companies for data breaches” as several groups expressed concern over citizens’ privacy rights.
+The post India Passes Data Protection Legislation in Parliament. Critics Fear Privacy Violation appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MoustachedBouncer: Foreign Embassies in Belarus Likely Targeted via ISPs]]></title>
+        <id>https://www.securityweek.com/?p=34640</id>
+        <link href="https://www.securityweek.com/moustachedbouncer-foreign-embassies-in-belarus-likely-targeted-via-isps/"/>
+        <updated>2023-08-11T08:42:53.000Z</updated>
+        <summary type="html"><![CDATA[MoustachedBouncer is a cyberespionage group that targets foreign diplomats in Belarus via ISP adversary-in-the-middle attacks.
+The post MoustachedBouncer: Foreign Embassies in Belarus Likely Targeted via ISPs appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[16 New CODESYS SDK Flaws Expose OT Environments to Remote Attacks]]></title>
+        <id>https://thehackernews.com/2023/08/15-new-codesys-sdk-flaws-expose-ot.html</id>
+        <link href="https://thehackernews.com/2023/08/15-new-codesys-sdk-flaws-expose-ot.html"/>
+        <updated>2023-08-11T05:20:00.000Z</updated>
+        <summary type="html"><![CDATA[A set of 16 high-severity security flaws have been disclosed in the CODESYS V3 software development kit (SDK) that could result in remote code execution and denial-of-service under specific conditions, posing risks to operational technology (OT) environments.
+The flaws, tracked from CVE-2022-47378 through CVE-2022-47393 and dubbed CoDe16, carry a CVSS score of 8.8 with the exception of]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds Microsoft .NET Vulnerability to KEV Catalog Due to Active Exploitation]]></title>
+        <id>https://thehackernews.com/2023/08/cisa-adds-microsoft-net-vulnerability.html</id>
+        <link href="https://thehackernews.com/2023/08/cisa-adds-microsoft-net-vulnerability.html"/>
+        <updated>2023-08-11T03:38:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched security flaw in Microsoft's .NET and Visual Studio products to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
+Tracked as CVE-2023-38180 (CVSS score: 7.5), the high-severity flaw relates to a case denial-of-service (DoS) impacting .NET and Visual Studio.
+It]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Expands Cloud Security Posture Management to Google Cloud]]></title>
+        <id>https://www.darkreading.com/dr-tech/microsoft-expands-cloud-security-posture-management-to-google-cloud</id>
+        <link href="https://www.darkreading.com/dr-tech/microsoft-expands-cloud-security-posture-management-to-google-cloud"/>
+        <updated>2023-08-11T02:31:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Defender for Cloud CSPM, which provides risk and compliance monitoring of AWS, Azure, and on-premises cloud, is finally adding GCP to the mix.]]></summary>
+        <author>
+            <name>Jeffrey Schwartz, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What's in New York's 'First-Ever' Cyber Strategy?]]></title>
+        <id>https://www.darkreading.com/edge-articles/whats-in-new-york-first-ever-cyber-strategy</id>
+        <link href="https://www.darkreading.com/edge-articles/whats-in-new-york-first-ever-cyber-strategy"/>
+        <updated>2023-08-11T01:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Governor Kathy Hochul has made cybersecurity a key priority, with New York's first chief cyber officer, Colin Ahern, leading the effort.]]></summary>
+        <author>
+            <name>Jeffrey Schwartz, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NSA: Codebreaker Challenge Helps Drive Cybersecurity Education]]></title>
         <id>https://www.darkreading.com/attacks-breaches/nsa-talks-codebreaker-challenge-success-influence-on-education</id>
