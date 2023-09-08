@@ -2,10 +2,424 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2023-09-07T01:06:02.966Z</updated>
+    <updated>2023-09-08T01:06:27.043Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-6355-1: GRUB2 vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6355-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6355-1"/>
+        <updated>2023-09-08T00:00:46.000Z</updated>
+        <summary type="html"><![CDATA[Daniel Axtens discovered that specially crafted images could cause a
+heap-based out-of-bonds write. A local attacker could possibly use
+this to circumvent secure boot protections. (CVE-2021-3695)
+
+Daniel Axtens discovered that specially crafted images could cause
+out-of-bonds read and write. A local attacker could possibly use this
+to circumvent secure boot protections. (CVE-2021-3696)
+
+Daniel Axtens discovered that specially crafted images could cause
+buffer underwrite which allows arbitrary data to be written to a heap.
+A local attacker could possibly use this to circumvent secure
+boot protections. (CVE-2021-3697)
+
+It was discovered that GRUB2 configuration files were created with
+the wrong permissions. An attacker could possibly use this to leak
+encrypted passwords. (CVE-2021-3981)
+
+Daniel Axtens discovered that specially crafted IP packets could cause
+an integer underflow and write past the end of a bugger. An attacker
+could possibly use this to circumvent secure boot protections.
+(CVE-2022-28733)
+
+Daniel Axtens discovered that specially crafted HTTP headers can cause
+an out-of-bounds write of a NULL byte. An attacker could possibly use
+this to corrupt GRUB2's internal data. (CVE-2022-28734)
+
+Julian Andres Klode discovered that GRUB2 shim_lock allowed non-
+kernel files to be loaded. A local attack could possibly use this to
+circumvent secure boot protections. (CVE-2022-28735)
+
+Chris Coulson discovered that executing chainloaders more than once
+caused a use-after-free vulnerability. A local attack could possibly
+use this to circumvent secure boot protections. (CVE-2022-28736)
+
+Chris Coulson discovered that specially crafted executables could
+cause shim to make out-of-bound writes. A local attack could possibly
+use this to circumvent secure boot protections. (CVE-2022-28737)
+
+Zhang Boyang discovered that specially crafted unicode sequences
+could lead to an out-of-bounds write to a heap. A local attacker could
+possibly use this to circumvent secure boot protections.
+(CVE-2022-3775)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft ID Security Gaps That Let Threat Actor Steal Signing Key]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/microsoft-ids-security-gaps-that-let-threat-actor-steal-signing-key</id>
+        <link href="https://www.darkreading.com/attacks-breaches/microsoft-ids-security-gaps-that-let-threat-actor-steal-signing-key"/>
+        <updated>2023-09-07T22:12:00.000Z</updated>
+        <summary type="html"><![CDATA[China's Storm-0558 accessed user emails at some 25 enterprise organizations earlier this year using forged tokens.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[North Korean Hackers Target Security Researchers — Again]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/north-korean-hackers-target-security-researchers-again</id>
+        <link href="https://www.darkreading.com/threat-intelligence/north-korean-hackers-target-security-researchers-again"/>
+        <updated>2023-09-07T21:36:00.000Z</updated>
+        <summary type="html"><![CDATA[This time, they're creating elaborate impostor profiles and using a fresh zero-day and a fake Windows tool to lure in the suspecting.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MAR-10454006.r5.v1 SUBMARINE, SKIPJACK, SEASPRAY, WHIRLPOOL, and SALTWATER Backdoors]]></title>
+        <id>/node/18760</id>
+        <link href="https://www.cisa.gov/news-events/analysis-reports/ar23-250a-0"/>
+        <updated>2023-09-07T20:47:09.000Z</updated>
+        <summary type="html"><![CDATA[Notification
+This report is provided "as is" for informational purposes only. The Department of Homeland Security (DHS) does not provide any warranties of any kind regarding any information contained herein. The DHS does not endorse any commercial product or service referenced in this bulletin or otherwise.
+This document is marked TLP:CLEAR--Recipients may share this information without restriction. Sources may use TLP:CLEAR when information carries minimal or no foreseeable risk of misuse, in accordance with applicable rules and procedures for public release. Subject to standard copyright rules, TLP:CLEAR information may be shared without restriction. For more information on the Traffic Light Protocol (TLP), see http://www.cisa.gov/tlp.
+Summary
+Description
+CISA obtained five malware sampl…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Hit By 2 No-Click Zero-Days in Blastpass Exploit Chain]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/apple-hit-by-two-no-click-zero-days-in-blastpass-exploit-chain</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/apple-hit-by-two-no-click-zero-days-in-blastpass-exploit-chain"/>
+        <updated>2023-09-07T20:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Researchers at Citizen Lab recommend immediately updating any iPhones and iPads to the latest OSes.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Patches Actively Exploited iOS, macOS Zero-Days]]></title>
+        <id>https://www.securityweek.com/?p=34891</id>
+        <link href="https://www.securityweek.com/apple-patches-actively-exploited-ios-macos-zero-days/"/>
+        <updated>2023-09-07T20:20:04.000Z</updated>
+        <summary type="html"><![CDATA[Apple pushes out an urgent point-update to its flagship iOS and macOS platforms to fix a pair of security defects being exploited in the wild.
+The post Apple Patches Actively Exploited iOS, macOS Zero-Days appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rigged Software and Zero-Days: North Korean APT Caught Hacking Security Researchers]]></title>
+        <id>https://www.securityweek.com/?p=34890</id>
+        <link href="https://www.securityweek.com/rigged-software-and-zero-days-north-korean-apt-caught-hacking-security-researchers/"/>
+        <updated>2023-09-07T19:43:27.000Z</updated>
+        <summary type="html"><![CDATA[Google again catches a North Korean APT actor targeting security researchers with zero-days and rigged software tools.
+The post Rigged Software and Zero-Days: North Korean APT Caught Hacking Security Researchers appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rwanda Launches Smart-City Investment Program]]></title>
+        <id>https://www.darkreading.com/dr-global/rwanda-launches-smart-city-investment-program</id>
+        <link href="https://www.darkreading.com/dr-global/rwanda-launches-smart-city-investment-program"/>
+        <updated>2023-09-07T19:38:00.000Z</updated>
+        <summary type="html"><![CDATA[The ambitious move by the nation also comes with cybersecurity risks.]]></summary>
+        <author>
+            <name>Dan Raywood, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Security for Multicloud and Hybrid Cloud Environments]]></title>
+        <id>https://www.darkreading.com/google-cloud-security/security-for-multicloud-and-hybrid-cloud-environments</id>
+        <link href="https://www.darkreading.com/google-cloud-security/security-for-multicloud-and-hybrid-cloud-environments"/>
+        <updated>2023-09-07T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In multicloud environments, security challenges are most common at the connecting points between different clouds. Internal cloud security skill sets and cloud-native security tools are also key.]]></summary>
+        <author>
+            <name>Anton Chuvakin, Security Advisor at Office of the CISO, Google Cloud</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NFL Security Chief: Generative AI Threats a Concern as New Season Kicks Off]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/generative-ai-threats-a-concern-for-nfl-security-chief-as-new-season-kicks-off</id>
+        <link href="https://www.darkreading.com/attacks-breaches/generative-ai-threats-a-concern-for-nfl-security-chief-as-new-season-kicks-off"/>
+        <updated>2023-09-07T18:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Deepfake videos and audio of NFL players and phishing communications via ChatGPT-like tools are a worry, the NFL's CISO says.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weaponized Windows Installers Target Graphic Designers in Crypto Heist]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/weaponized-windows-installers-target-graphic-designers-in-crypto-heist</id>
+        <link href="https://www.darkreading.com/attacks-breaches/weaponized-windows-installers-target-graphic-designers-in-crypto-heist"/>
+        <updated>2023-09-07T18:06:00.000Z</updated>
+        <summary type="html"><![CDATA[Attackers use legitimate Windows installer to hide malicious scripts that install a backdoor and miners that leverage victims' graphics processing power.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How New SEC Rules Can Benefit Cybersecurity Teams]]></title>
+        <id>https://www.darkreading.com/risk/how-new-sec-rules-can-benefit-cybersecurity-teams</id>
+        <link href="https://www.darkreading.com/risk/how-new-sec-rules-can-benefit-cybersecurity-teams"/>
+        <updated>2023-09-07T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Securities and Exchange Commission rules elevate cybersecurity to a critical strategic concern and compel businesses to prioritize cyber resilience.]]></summary>
+        <author>
+            <name>Haywood Marsh, General Manager, NAVEX IRM &amp; NetClaim</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wealthy Russian With Kremlin Ties Gets 9 Years in Prison for Hacking and Insider Trading Scheme]]></title>
+        <id>https://www.securityweek.com/?p=34887</id>
+        <link href="https://www.securityweek.com/wealthy-russian-with-kremlin-ties-gets-9-years-in-prison-for-hacking-and-insider-trading-scheme/"/>
+        <updated>2023-09-07T16:23:41.000Z</updated>
+        <summary type="html"><![CDATA[Vladislav Klyushin was sentenced to nine years in prison for his role in a nearly $100M stock market cheating scheme that relied on information stolen by hacking.
+The post Wealthy Russian With Kremlin Ties Gets 9 Years in Prison for Hacking and Insider Trading Scheme appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6354-1: Python vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6354-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6354-1"/>
+        <updated>2023-09-07T16:00:44.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Python did not properly handle XML entity
+declarations in plist files. An attacker could possibly use this
+vulnerability to perform an XML External Entity (XXE) injection,
+resulting in a denial of service or information disclosure.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Team8 Foundry Method for Selecting Investable Startups]]></title>
+        <id>https://www.securityweek.com/?p=34883</id>
+        <link href="https://www.securityweek.com/the-team8-foundry-method-for-selecting-investable-startups/"/>
+        <updated>2023-09-07T15:39:04.000Z</updated>
+        <summary type="html"><![CDATA[Team8, a VC organization with added sauce, queried more than 130 CISOs from its own ‘CISO Village’ to discover the concerns of existing cybersecurity practitioners, and the technologies they are seeking for the future.
+The post The Team8 Foundry Method for Selecting Investable Startups appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac Users Beware: Malvertising Campaign Spreads Atomic Stealer macOS Malware]]></title>
+        <id>https://thehackernews.com/2023/09/mac-users-beware-malvertising-campaign.html</id>
+        <link href="https://thehackernews.com/2023/09/mac-users-beware-malvertising-campaign.html"/>
+        <updated>2023-09-07T15:08:00.000Z</updated>
+        <summary type="html"><![CDATA[A new malvertising campaign has been observed distributing an updated version of a macOS stealer malware called Atomic Stealer (or AMOS), indicating that it’s being actively maintained by its author.
+An off-the-shelf Golang malware available for $1,000 per month, Atomic Stealer first came to light in April 2023. Shortly after that, new variants with an expanded set of information-gathering]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Peril vs. Promise: Companies, Developers Worry Over Generative AI Risk]]></title>
+        <id>https://www.darkreading.com/application-security/peril-vs-promise-companies-developers-worry-over-generative-ai-risks</id>
+        <link href="https://www.darkreading.com/application-security/peril-vs-promise-companies-developers-worry-over-generative-ai-risks"/>
+        <updated>2023-09-07T14:45:11.000Z</updated>
+        <summary type="html"><![CDATA[Executives and developers believe AI can help businesses thrive, but worry that reliance on generative AI brings significant risks.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[See Tickets Alerts 300,000 Customers After Another Web Skimmer Attack]]></title>
+        <id>https://www.securityweek.com/?p=34882</id>
+        <link href="https://www.securityweek.com/see-tickets-alerts-300000-customers-after-another-web-skimmer-attack/"/>
+        <updated>2023-09-07T14:31:53.000Z</updated>
+        <summary type="html"><![CDATA[See Tickets is informing 300,000 individuals that their payment card information was stolen in a new web skimmer attack.
+The post See Tickets Alerts 300,000 Customers After Another Web Skimmer Attack appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Does Generative AI Comply With Asimov's 3 Laws of Robotics?]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/does-generative-ai-comply-asimov-3-laws-of-robotics-</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/does-generative-ai-comply-asimov-3-laws-of-robotics-"/>
+        <updated>2023-09-07T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Putting the top 10 generative AI tools to the ethical test reveals more about humanity than artificial intelligence.]]></summary>
+        <author>
+            <name>Martin Lee, Technical Lead of Security Research &amp; EMEA Lead, Cisco Talos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Guidance on Adopting DDoS Mitigations]]></title>
+        <id>https://www.securityweek.com/?p=34881</id>
+        <link href="https://www.securityweek.com/cisa-releases-guidance-on-adopting-ddos-mitigations/"/>
+        <updated>2023-09-07T13:42:27.000Z</updated>
+        <summary type="html"><![CDATA[CISA has released new guidance to help federal agencies decide upon and prioritize DDoS mitigations based on mission and reputational impact.
+The post CISA Releases Guidance on Adopting DDoS Mitigations appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘Atomic macOS Stealer’ Malware Delivered via Malvertising Campaign]]></title>
+        <id>https://www.securityweek.com/?p=34880</id>
+        <link href="https://www.securityweek.com/atomic-macos-stealer-malware-delivered-via-malvertising-campaign/"/>
+        <updated>2023-09-07T13:27:41.000Z</updated>
+        <summary type="html"><![CDATA[A malware named Atomic macOS Stealer (AMOS) has been delivered to users via a malvertising campaign. 
+The post ‘Atomic macOS Stealer’ Malware Delivered via Malvertising Campaign appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6353-1: PLIB vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6353-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6353-1"/>
+        <updated>2023-09-07T13:24:26.000Z</updated>
+        <summary type="html"><![CDATA[Wooseok Kang discovered that PLIB did not properly manage memory under
+certain circumstances. If a user were tricked into opening a specially
+crafted TGA file, an attacker could possibly use this issue to cause
+applications using PLIB to crash, resulting in a denial of service, or
+possibly execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cisco Patches Critical Vulnerability in BroadWorks Platform]]></title>
+        <id>https://www.securityweek.com/?p=34879</id>
+        <link href="https://www.securityweek.com/cisco-patches-critical-vulnerability-in-broadworks-platform/"/>
+        <updated>2023-09-07T12:36:01.000Z</updated>
+        <summary type="html"><![CDATA[Cisco has released patches for CVE-2023-20238, a critical authentication bypass vulnerability in the BroadWorks Application Delivery Platform.
+The post Cisco Patches Critical Vulnerability in BroadWorks Platform appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tenable to Acquire Cloud Security Firm Ermetic for $240 Million]]></title>
+        <id>https://www.securityweek.com/?p=34878</id>
+        <link href="https://www.securityweek.com/tenable-to-acquire-cloud-security-firm-ermetic-for-240-million/"/>
+        <updated>2023-09-07T12:17:20.000Z</updated>
+        <summary type="html"><![CDATA[Tenable is set to acquire cloud security firm Ermetic for $240 million as it looks to expand the capabilities of its exposure management platform.
+The post Tenable to Acquire Cloud Security Firm Ermetic for $240 Million appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cisco Releases Security Advisories for Multiple Products]]></title>
+        <id>/node/18749</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/09/07/cisco-releases-security-advisories-multiple-products"/>
+        <updated>2023-09-07T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cisco has released security advisories to address vulnerabilities affecting multiple Cisco products. A cyber threat actor can exploit some of these vulnerabilities to take control of an affected system or cause a denial-of service condition. 
+CISA encourages users and administrators to review the following advisories and apply the necessary updates.
+BroadWorks and BroadWorks Xtended
+Identity Services Engine RADIUS]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA, FBI, and CNMF Release Advisory on Multiple Nation-State Threat Actors Exploit CVE-2022-47966 and CVE-2022-42475]]></title>
+        <id>/node/18750</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/09/07/cisa-fbi-and-cnmf-release-advisory-multiple-nation-state-threat-actors-exploit-cve-2022-47966-and"/>
+        <updated>2023-09-07T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA, Federal Bureau of Investigation (FBI), and U.S. Cyber Command’s Cyber National Mission Force (CNMF) published a joint Cybersecurity Advisory (CSA), Multiple Nation-State Threat Actors Exploit CVE-2022-47966 and CVE-2022-42475. This CSA provides information on an incident at an Aeronautical Sector organization, with malicious activity occurring as early as January 2023. 
+CISA, FBI, and CNMF confirmed that nation-state advanced persistent threat (APT) actors exploited CVE-2022-47966 to gain unauthorized access to a public-facing application (Zoho ManageEngine ServiceDesk Plus), establish persistence, and move laterally through the network. This vulnerability allows for remote code execution on the ManageEngine application. Additional APT actors were also observed exploiting CVE-2022-42475 to establish presence on the organization’s firewall device.
+The authoring agencies urge organizations to review this CSA and implement the recommended mitigations, which align with CISA’s Cross-Sector Cybersecurity Performance Goals (CPGs)—developed by CISA and the National Institute of Standards and Technology (NIST)—as well as NSA-recommended best practices for securing infrastructure.
+All organizations should report suspicious or criminal activity related to information found in this joint Cybersecurity Advisory by contacting your local FBI field office and CISA’s 24/7 Operations Center at report@cisa.gov or (888) 282-0870.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Four Industrial Control Systems Advisories]]></title>
+        <id>/node/18748</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/09/07/cisa-releases-four-industrial-control-systems-advisories"/>
+        <updated>2023-09-07T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released four Industrial Control Systems (ICS) advisories on September 7, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+ICSA-23-250-01 Dover Fueling Solutions MAGLINK LX Console
+ICSA-23-250-02 Phoenix Contact TC ROUTER and TC CLOUD CLIENT
+ICSA-23-250-03 Socomec MOD3GP-SY-120K
+ICSA-23-157-01 Delta Electronics CNCSoft-B DOPSoft (Update)
+CISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The State of the Virtual CISO Report: MSP/MSSP Security Strategies for 2024]]></title>
+        <id>https://thehackernews.com/2023/09/the-state-of-virtual-ciso-report.html</id>
+        <link href="https://thehackernews.com/2023/09/the-state-of-virtual-ciso-report.html"/>
+        <updated>2023-09-07T11:27:00.000Z</updated>
+        <summary type="html"><![CDATA[By the end of 2024, the number of MSPs and MSSPs offering vCISO services is expected to grow by almost 5 fold, as can be seen in figure 1. This incredible surge reflects the growing business demand for specialized cybersecurity expertise and the lucrative opportunities for MSPs and MSSPs in vCISO services.
+Figure 1: Timeline for offering vCISO services
+The State of the Virtual CISO Survey Report]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Hacker Tool to Get Personal Data from Credit Bureaus]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/09/the-hacker-tool-to-get-personal-data-from-credit-bureaus.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/09/the-hacker-tool-to-get-personal-data-from-credit-bureaus.html"/>
+        <updated>2023-09-07T11:09:35.000Z</updated>
+        <summary type="html"><![CDATA[<p>The new site 404 Media has a <a href="https://www.404media.co/the-secret-weapon-hackers-can-use-to-dox-nearly-anyone-in-america-for-15-tlo-usinfosearch-transunion/">good article</a> on how hackers are cheaply getting personal information from credit bureaus:</p>
+<blockquote><p>This is the result of a secret weapon criminals are selling access to online that appears to tap into an especially powerful set of data: the target&#8217;s credit header. This is personal information that the credit bureaus Experian, Equifax, and TransUnion have on most adults in America via their credit cards. Through a complex web of agreements and purchases, that data trickles down from the credit bureaus to other companies who offer it to debt collectors, insurance companies, and law enforcement...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alert: Apache Superset Vulnerabilities Expose Servers to Remote Code Execution Attacks]]></title>
+        <id>https://thehackernews.com/2023/09/alert-apache-superset-vulnerabilities.html</id>
+        <link href="https://thehackernews.com/2023/09/alert-apache-superset-vulnerabilities.html"/>
+        <updated>2023-09-07T11:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Patches have been released to address two new security vulnerabilities in Apache Superset that could be exploited by an attacker to gain remote code execution on affected systems.
+The update (version 2.1.1) plugs CVE-2023-39265 and CVE-2023-37941, which make it possible to conduct nefarious actions once a bad actor is able to gain control of Superset’s metadata database.
+Outside of these]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mirai Botnet Variant 'Pandora' Hijacks Android TVs for Cyberattacks]]></title>
+        <id>https://thehackernews.com/2023/09/mirai-botnet-variant-pandora-hijacks.html</id>
+        <link href="https://thehackernews.com/2023/09/mirai-botnet-variant-pandora-hijacks.html"/>
+        <updated>2023-09-07T09:47:00.000Z</updated>
+        <summary type="html"><![CDATA[A Mirai botnet variant called Pandora has been observed infiltrating inexpensive Android-based TV sets and TV boxes and using them as part of a botnet to perform distributed denial-of-service (DDoS) attacks.
+Doctor Web said the compromises are likely to occur either during malicious firmware updates or when applications for viewing pirated video content are installed.
+"It is likely that this]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Outlook Hack: Microsoft Reveals How a Crash Dump Led to a Major Security Breach]]></title>
+        <id>https://thehackernews.com/2023/09/outlook-breach-microsoft-reveals-how.html</id>
+        <link href="https://thehackernews.com/2023/09/outlook-breach-microsoft-reveals-how.html"/>
+        <updated>2023-09-07T07:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft on Wednesday revealed that a China-based threat actor known as Storm-0558 acquired the inactive consumer signing key to forge tokens and access Outlook by compromising an engineer’s corporate account.
+This enabled the adversary to access a debugging environment that contained information pertaining to a crash of the consumer signing system and steal the key. The system crash took place]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6352-1: Apache Shiro vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6352-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6352-1"/>
+        <updated>2023-09-07T01:36:55.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Apache Shiro incorrectly handled certain HTTP
+requests. A remote attacker could possibly use this issue to bypass
+security restrictions. (CVE-2020-13933, CVE-2020-17510)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CybeReady Provides Cybersecurity Awareness Month Kits As CISOs Defend Against AI Driven Attacks]]></title>
         <id>https://www.darkreading.com/operations/cybeready-provides-cybersecurity-awareness-month-kits-as-cisos-defend-against-ai-driven-attacks</id>
@@ -33,6 +447,21 @@
         <summary type="html"><![CDATA[Improving an energy company's resistance to cyberattack does more than protect vital resources — it enhances trust from customers and investors.]]></summary>
         <author>
             <name>Leo Simonovich, VP &amp; Global Head, Industrial Cyber and Digital Security, Siemens Energy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MAR-10430311-1.v1 Multiple Nation-State Threat Actors Exploit CVE-2022-47966 and CVE-2022-42475]]></title>
+        <id>/node/18744</id>
+        <link href="https://www.cisa.gov/news-events/analysis-reports/ar23-250a"/>
+        <updated>2023-09-06T23:28:02.000Z</updated>
+        <summary type="html"><![CDATA[Notification
+This report is provided "as is" for informational purposes only. The Department of Homeland Security (DHS) does not provide any warranties of any kind regarding any information contained herein. The DHS does not endorse any commercial product or service referenced in this bulletin or otherwise.
+This document is marked TLP:CLEAR--Recipients may share this information without restriction. Sources may use TLP:CLEAR when information carries minimal or no foreseeable risk of misuse, in accordance with applicable rules and procedures for public release. Subject to standard copyright rules, TLP:CLEAR information may be shared without restriction. For more information on the Traffic Light Protocol (TLP), see http://www.cisa.gov/tlp.
+Summary
+Description
+CISA received 4 files for analys…]]></summary>
+        <author>
+            <name>CISA</name>
         </author>
     </entry>
     <entry>
@@ -207,6 +636,18 @@ arbitrary code. (CVE-2023-38429)]]></summary>
         <summary type="html"><![CDATA[The group, best known for 2016 US election interference and other attacks on Ukraine, used phishing emails offering pictures of women to lure its victim into opening a malicious attachment.]]></summary>
         <author>
             <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multiple Nation-State Threat Actors Exploit CVE-2022-47966 and CVE-2022-42475]]></title>
+        <id>/node/18743</id>
+        <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-250a"/>
+        <updated>2023-09-06T17:03:37.000Z</updated>
+        <summary type="html"><![CDATA[SUMMARY
+The Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), and Cyber National Mission Force (CNMF) identified the presence of indicators of compromise (IOCs) at an Aeronautical Sector organization as early as January 2023. Analysts confirmed that nation-state advanced persistent threat (APT) actors exploited CVE-2022-47966 to gain unauthorized access to a public-facing application (Zoho ManageEngine ServiceDesk Plus), establish persistence, and move laterally through the network. This vulnerability allows for remote code execution on the ManageEngine application. Additional APT actors were also observed exploiting CVE-2022-42475 to establish presence on the organization’s firewall device.
+CISA and co-sealers are releasing this joint Cybersec…]]></summary>
+        <author>
+            <name>CISA</name>
         </author>
     </entry>
     <entry>
