@@ -2,10 +2,391 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2023-09-08T01:06:27.043Z</updated>
+    <updated>2023-09-09T01:03:41.431Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-6338-2: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6338-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-6338-2"/>
+        <updated>2023-09-08T22:26:36.000Z</updated>
+        <summary type="html"><![CDATA[Zi Fan Tan discovered that the binder IPC implementation in the Linux
+kernel contained a use-after-free vulnerability. A local attacker could use
+this to cause a denial of service (system crash) or possibly execute
+arbitrary code. (CVE-2023-21255)
+
+It was discovered that a race condition existed in the f2fs file system in
+the Linux kernel, leading to a null pointer dereference vulnerability. An
+attacker could use this to construct a malicious f2fs image that, when
+mounted and operated on, could cause a denial of service (system crash).
+(CVE-2023-2898)
+
+It was discovered that the DVB Core driver in the Linux kernel did not
+properly handle locking events in certain situations. A local attacker
+could use this to cause a denial of service (kernel deadlock).
+(CVE-2023-31084)
+
+Quentin Minster di…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6339-2: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6339-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-6339-2"/>
+        <updated>2023-09-08T21:44:48.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the NTFS file system implementation in the Linux
+kernel did not properly validate MFT flags in certain situations. An
+attacker could use this to construct a malicious NTFS image that, when
+mounted and operated on, could cause a denial of service (system crash).
+(CVE-2022-48425)
+
+Zi Fan Tan discovered that the binder IPC implementation in the Linux
+kernel contained a use-after-free vulnerability. A local attacker could use
+this to cause a denial of service (system crash) or possibly execute
+arbitrary code. (CVE-2023-21255)
+
+It was discovered that a race condition existed in the f2fs file system in
+the Linux kernel, leading to a null pointer dereference vulnerability. An
+attacker could use this to construct a malicious f2fs image that, when
+mounted and operated on, could cause a denial of service (system crash).
+(CVE-2023-2898)
+
+It was discovered that the DVB Core driver in the Linux kernel did not
+properly handle locking events in certain situations. A local attacker
+could use this to cause a denial of service (kernel deadlock).
+(CVE-2023-31084)
+
+Yang Lan discovered that the GFS2 file system implementation in the Linux
+kernel could attempt to dereference a null pointer in some situations. An
+attacker could use this to construct a malicious GFS2 image that, when
+mounted and operated on, could cause a denial of service (system crash).
+(CVE-2023-3212)
+
+It was discovered that the KSMBD implementation in the Linux kernel did not
+properly validate buffer sizes in certain operations, leading to an out-of-
+bounds read vulnerability. A remote attacker could use this to cause a
+denial of service (system crash) or possibly expose sensitive information.
+(CVE-2023-38426, CVE-2023-38428)
+
+It was discovered that the KSMBD implementation in the Linux kernel did not
+properly calculate the size of certain buffers. A remote attacker could use
+this to cause a denial of service (system crash) or possibly execute
+arbitrary code. (CVE-2023-38429)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6340-2: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6340-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-6340-2"/>
+        <updated>2023-09-08T21:36:48.000Z</updated>
+        <summary type="html"><![CDATA[Ruihan Li discovered that the bluetooth subsystem in the Linux kernel did
+not properly perform permissions checks when handling HCI sockets. A
+physically proximate attacker could use this to cause a denial of service
+(bluetooth communication). (CVE-2023-2002)
+
+Zi Fan Tan discovered that the binder IPC implementation in the Linux
+kernel contained a use-after-free vulnerability. A local attacker could use
+this to cause a denial of service (system crash) or possibly execute
+arbitrary code. (CVE-2023-21255)
+
+Juan Jose Lopez Jaimez, Meador Inge, Simon Scannell, and Nenad Stojanovski
+discovered that the BPF verifier in the Linux kernel did not properly mark
+registers for precision tracking in certain situations, leading to an out-
+of-bounds access vulnerability. A local attacker could use this t…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Friday Squid Blogging: Glass Squid Video]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/09/friday-squid-blogging-glass-squid-video.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/09/friday-squid-blogging-glass-squid-video.html"/>
+        <updated>2023-09-08T21:03:23.000Z</updated>
+        <summary type="html"><![CDATA[<p>Here&#8217;s a <a href="https://www.youtube.com/watch?v=lAKQu9CiIfc">fantastic video</a> of <i>Taonius Borealis</i>, a glass squid, from NOAA.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.</p>
+<p>Read my blog posting guidelines <a href="https://www.schneier.com/blog/archives/2017/03/commenting_poli.html">here</a>.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6342-2: Linux kernel (Azure)]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6342-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-6342-2"/>
+        <updated>2023-09-08T20:18:28.000Z</updated>
+        <summary type="html"><![CDATA[Tavis Ormandy discovered that some AMD processors did not properly handle
+speculative execution of certain vector register instructions. A local
+attacker could use this to expose sensitive information. (CVE-2023-20593)
+
+Zheng Zhang discovered that the device-mapper implementation in the Linux
+kernel did not properly handle locking during table_clear() operations. A
+local attacker could use this to cause a denial of service (kernel
+deadlock). (CVE-2023-2269)
+
+It was discovered that a use-after-free vulnerability existed in the HFS+
+file system implementation in the Linux kernel. A local attacker could
+possibly use this to cause a denial of service (system crash).
+(CVE-2023-2985)
+
+It was discovered that the DVB Core driver in the Linux kernel did not
+properly handle locking events in certain situations. A local attacker
+could use this to cause a denial of service (kernel deadlock).
+(CVE-2023-31084)
+
+It was discovered that the Quick Fair Queueing network scheduler
+implementation in the Linux kernel contained an out-of-bounds write
+vulnerability. A local attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2023-3611)
+
+It was discovered that the network packet classifier with
+netfilter/firewall marks implementation in the Linux kernel did not
+properly handle reference counting, leading to a use-after-free
+vulnerability. A local attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2023-3776)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3 Ways to Expand the Cyber Talent Pool From Splash Pad to Watering Hole]]></title>
+        <id>https://www.darkreading.com/edge/3-ways-to-expand-cyber-talent-pool-from-splash-pad-to-watering-hole</id>
+        <link href="https://www.darkreading.com/edge/3-ways-to-expand-cyber-talent-pool-from-splash-pad-to-watering-hole"/>
+        <updated>2023-09-08T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Why — and how — "unqualified" candidates will fill the reservoir with the security workers America is thirsty for.]]></summary>
+        <author>
+            <name>Erin Weiss Kaya, Senior Cyber Talent and Organizational Strategist, Booz Allen Hamilton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Security Bug Opens Cisco BroadWorks to Complete Takeover]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/critical-security-bug-cisco-broadworks-complete-takeover</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/critical-security-bug-cisco-broadworks-complete-takeover"/>
+        <updated>2023-09-08T18:32:59.000Z</updated>
+        <summary type="html"><![CDATA[Cyberattackers could exploit CVE-2023-20238 to carry out a variety of nefarious deeds, from data theft and code execution to phishing, fraud, and DoS.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Evil Telegram' Spyware Campaign Infects 60K+ Mobile Users]]></title>
+        <id>https://www.darkreading.com/attacks-breaches/evil-telegram-spyware-campaign-infects-60k-mobile-users</id>
+        <link href="https://www.darkreading.com/attacks-breaches/evil-telegram-spyware-campaign-infects-60k-mobile-users"/>
+        <updated>2023-09-08T18:25:33.000Z</updated>
+        <summary type="html"><![CDATA[Legitimate-seeming Telegram "mods" available in the official Google Play store for the encrypted messaging app signal the rise of a new enterprise threat.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[U.K. and U.S. Sanction 11 Russia-based Trickbot Cybercrime Gang Members]]></title>
+        <id>https://thehackernews.com/2023/09/uk-and-us-sanction-11-russia-based.html</id>
+        <link href="https://thehackernews.com/2023/09/uk-and-us-sanction-11-russia-based.html"/>
+        <updated>2023-09-08T17:04:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.K. and U.S. governments on Thursday sanctioned 11 individuals who are alleged to be part of the notorious Russia-based TrickBot cybercrime gang.
+“Russia has long been a safe haven for cybercriminals, including the TrickBot group,” the U.S. Treasury Department said, adding it has “ties to Russian intelligence services and has targeted the U.S. Government and U.S. companies, including]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft, Google Take on Obsolete TLS Protocols]]></title>
+        <id>https://www.darkreading.com/dr-tech/microsoft-google-take-on-obsolete-tls-protocols</id>
+        <link href="https://www.darkreading.com/dr-tech/microsoft-google-take-on-obsolete-tls-protocols"/>
+        <updated>2023-09-08T16:18:43.000Z</updated>
+        <summary type="html"><![CDATA[Google shortened the lifetime of Transport Layer Security (TLS) certificates, and Microsoft plans to downgrade support for older versions, giving companies more data security but also removing visibility into their own traffic.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kenya Initiates Public Sector Digital Skills Training, No Mention of Cybersecurity]]></title>
+        <id>https://www.darkreading.com/dr-global/kenya-initiates-public-sector-digital-skills-training-no-mention-of-cyber</id>
+        <link href="https://www.darkreading.com/dr-global/kenya-initiates-public-sector-digital-skills-training-no-mention-of-cyber"/>
+        <updated>2023-09-08T16:15:12.000Z</updated>
+        <summary type="html"><![CDATA[Training will cover cloud skills and working in a paperless environment, but any mention of a cybersecurity element is conspicuously lacking.]]></summary>
+        <author>
+            <name>Dan Raywood, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trickbot, Conti Sanctions Affect Top Cybercrime Brass]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/trickbot-conti-sanctions-affect-top-cybercrime-brass</id>
+        <link href="https://www.darkreading.com/threat-intelligence/trickbot-conti-sanctions-affect-top-cybercrime-brass"/>
+        <updated>2023-09-08T15:40:09.000Z</updated>
+        <summary type="html"><![CDATA[US Treasury officials said the sanctions move is part of its effort to combat Russian state-sponsored cybercrime.]]></summary>
+        <author>
+            <name>Dark Reading Staff, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3 Strategies to Defend Against Resurging Infostealers]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/3-strategies-to-defend-against-resurging-infostealers</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/3-strategies-to-defend-against-resurging-infostealers"/>
+        <updated>2023-09-08T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Infostealer incidents have more than doubled recently, making it critical to bolster your defenses to mitigate this growing threat.]]></summary>
+        <author>
+            <name>Ganesh Pai, Founder &amp; CEO, Uptycs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cisco ASA Zero-Day Exploited in Akira Ransomware Attacks]]></title>
+        <id>https://www.securityweek.com/?p=34898</id>
+        <link href="https://www.securityweek.com/cisco-asa-zero-day-exploited-in-akira-ransomware-attacks/"/>
+        <updated>2023-09-08T13:28:22.000Z</updated>
+        <summary type="html"><![CDATA[Cisco is warning of a zero-day vulnerability in Cisco ASA and FTD that can be exploited remotely, without authentication, in brute force attacks.
+The post Cisco ASA Zero-Day Exploited in Akira Ransomware Attacks appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Phishing Campaign Launched via Google Looker Studio]]></title>
+        <id>https://www.securityweek.com/?p=34897</id>
+        <link href="https://www.securityweek.com/new-phishing-campaign-launched-via-google-looker-studio/"/>
+        <updated>2023-09-08T13:03:22.000Z</updated>
+        <summary type="html"><![CDATA[Check Point has observed a wave of phishing attacks launched via Google Looker Studio to steal credentials and funds from intended victims.
+The post New Phishing Campaign Launched via Google Looker Studio appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In Other News: LastPass Vault Hacking, Russia Targets Ukraine Energy Facility, NXP Breach]]></title>
+        <id>https://www.securityweek.com/?p=34896</id>
+        <link href="https://www.securityweek.com/in-other-news-lastpass-vault-hacking-russia-targets-ukraine-energy-facility-nxp-breach/"/>
+        <updated>2023-09-08T12:44:31.000Z</updated>
+        <summary type="html"><![CDATA[Noteworthy stories that might have slipped under the radar: LastPass vault hacking, Russia targets energy facility in Ukraine, NXP data breach.
+The post In Other News: LastPass Vault Hacking, Russia Targets Ukraine Energy Facility, NXP Breach  appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>SecurityWeek News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Rushes to Patch Zero-Day Flaws Exploited for Pegasus Spyware on iPhones]]></title>
+        <id>https://thehackernews.com/2023/09/apple-rushes-to-patch-zero-day-flaws.html</id>
+        <link href="https://thehackernews.com/2023/09/apple-rushes-to-patch-zero-day-flaws.html"/>
+        <updated>2023-09-08T11:27:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple on Thursday released emergency security updates for iOS, iPadOS, macOS, and watchOS to address two zero-day flaws that have been exploited in the wild to deliver NSO Group's Pegasus mercenary spyware.
+The issues are described as below -
+
+CVE-2023-41061 - A validation issue in Wallet that could result in arbitrary code execution when handling a maliciously crafted attachment.
+CVE-2023-41064]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cisco Issues Urgent Fix for Authentication Bypass Bug Affecting BroadWorks Platform]]></title>
+        <id>https://thehackernews.com/2023/09/cisco-issues-urgent-fix-for.html</id>
+        <link href="https://thehackernews.com/2023/09/cisco-issues-urgent-fix-for.html"/>
+        <updated>2023-09-08T11:26:00.000Z</updated>
+        <summary type="html"><![CDATA[Cisco has released security fixes to address multiple security flaws, including a critical bug, that could be exploited by a threat actor to take control of an affected system or cause a denial-of service (DoS) condition.
+The most severe of the issues is CVE-2023-20238, which has the maximum CVSS severity rating of 10.0. It’s described as an authentication bypass flaw in the Cisco BroadWorks]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protecting Your Microsoft IIS Servers Against Malware Attacks]]></title>
+        <id>https://thehackernews.com/2023/09/protecting-your-microsoft-iis-servers.html</id>
+        <link href="https://thehackernews.com/2023/09/protecting-your-microsoft-iis-servers.html"/>
+        <updated>2023-09-08T11:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Internet Information Services (IIS) is a web server software package designed for Windows Server. Organizations commonly use Microsoft IIS servers to host websites, files, and other content on the web. Threat actors increasingly target these Internet-facing resources as low-hanging fruit for finding and exploiting vulnerabilities that facilitate access to IT environments. 
+Recently, a]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLMs and Tool Use]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/09/ai-tool-use.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/09/ai-tool-use.html"/>
+        <updated>2023-09-08T11:05:08.000Z</updated>
+        <summary type="html"><![CDATA[<p>Last March, just two weeks after <a href="https://www.wired.com/story/gpt-4-openai-will-make-chatgpt-smarter-but-wont-fix-its-flaws/">GPT-4 was released</a>, researchers at Microsoft quietly <a href="https://arxiv.org/abs/2303.16434" data-offer-url="https://arxiv.org/abs/2303.16434">announced</a> a plan to compile millions of APIs&#8212;tools that can do everything from ordering a pizza to solving physics equations to controlling the TV in your living room&#8212;into a compendium that would be made accessible to large language models (LLMs). This was just one milestone in the race across industry and academia to find the <a href="https://arxiv.org/abs/2305.11554" data-offer-url="https://arxiv.org/abs/2305.11554">best</a> <a href="https://arxiv.org/abs/2303.09014" data-offer-url="https://arxiv.org/abs/2303.09014">ways</a> <a href="https://arxiv.org/abs/2304.08244" data-offer-url="https://arxiv.org/abs/2304.08244">to</a> <a href="https://arxiv.org/abs/2304.09842" data-offer-url="https://arxiv.org/abs/2304.09842">teach</a> <a href="https://arxiv.org/pdf/2307.16789.pdf" data-offer-url="https://arxiv.org/pdf/2307.16789.pdf">LLMs</a> how to manipulate tools, which would supercharge the potential of AI more than any of the impressive advancements we&#8217;ve seen to date...</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emsisoft Tells Users to Update Products, Reboot Systems Due to Certificate Mishap]]></title>
+        <id>https://www.securityweek.com/?p=34895</id>
+        <link href="https://www.securityweek.com/emsisoft-tells-users-to-update-products-reboot-systems-due-to-certificate-mishap/"/>
+        <updated>2023-09-08T10:53:35.000Z</updated>
+        <summary type="html"><![CDATA[Emsisoft urges its users to update anti-malware and other security products after signing them with an improperly issued digital certificate.
+The post Emsisoft Tells Users to Update Products, Reboot Systems Due to Certificate Mishap appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US, UK Sanction More Members of Trickbot Russian Cybercrime Group]]></title>
+        <id>https://www.securityweek.com/?p=34894</id>
+        <link href="https://www.securityweek.com/us-uk-sanction-more-members-of-trickbot-russian-cybercrime-group/"/>
+        <updated>2023-09-08T09:34:33.000Z</updated>
+        <summary type="html"><![CDATA[The US and UK have announced sanctions against 11 more alleged members of the Russian cybercrime group Trickbot. 
+The post US, UK Sanction More Members of Trickbot Russian Cybercrime Group  appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Aeronautical Organization Hacked via Zoho, Fortinet Vulnerabilities]]></title>
+        <id>https://www.securityweek.com/?p=34893</id>
+        <link href="https://www.securityweek.com/us-aeronautical-organization-hacked-via-zoho-fortinet-vulnerabilities/"/>
+        <updated>2023-09-08T09:13:29.000Z</updated>
+        <summary type="html"><![CDATA[APTs exploited vulnerabilities in Zoho ManageEngine and Fortinet VPNs to hack an aerospace organization in early January 2023.
+The post US Aeronautical Organization Hacked via Zoho, Fortinet Vulnerabilities  appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[North Korean Hackers Exploit Zero-Day Bug to Target Cybersecurity Researchers]]></title>
+        <id>https://thehackernews.com/2023/09/north-korean-hackers-exploit-zero-day.html</id>
+        <link href="https://thehackernews.com/2023/09/north-korean-hackers-exploit-zero-day.html"/>
+        <updated>2023-09-08T08:52:00.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors associated with North Korea are continuing to target the cybersecurity community using a zero-day bug in an unspecified software over the past several weeks to infiltrate their machines.
+The findings come from Google’s Threat Analysis Group (TAG), which found the adversary setting up fake accounts on social media platforms like X (formerly Twitter) and Mastodon to forge]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Warning: Nation-State Hackers Exploit Fortinet and Zoho Vulnerabilities]]></title>
+        <id>https://thehackernews.com/2023/09/cisa-warning-nation-state-hackers.html</id>
+        <link href="https://thehackernews.com/2023/09/cisa-warning-nation-state-hackers.html"/>
+        <updated>2023-09-08T05:36:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday warned that multiple nation-state actors are exploiting security flaws in Fortinet FortiOS SSL-VPN and Zoho ManageEngine ServiceDesk Plus to gain unauthorized access and establish persistence on compromised systems.
+“Nation-state advanced persistent threat (APT) actors exploited CVE-2022-47966 to gain unauthorized]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Software Supply Chain Strategies to Parry Dependency Confusion Attacks]]></title>
+        <id>https://www.darkreading.com/edge-articles/software-supply-chain-strategies-to-parry-dependency-confusion-attacks</id>
+        <link href="https://www.darkreading.com/edge-articles/software-supply-chain-strategies-to-parry-dependency-confusion-attacks"/>
+        <updated>2023-09-08T01:09:00.000Z</updated>
+        <summary type="html"><![CDATA[Bad actors practice to deceive package managers with a tangled web of methods. Here's how to hoist them by their own petard.]]></summary>
+        <author>
+            <name>Liad Cohen, Security Researcher &amp; Developer, OX Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thoma Bravo Makes 'Practical' Decision to Merge ForgeRock Into Ping Identity]]></title>
+        <id>https://www.darkreading.com/dr-tech/thoma-bravo-practical-decision-merge-forgerock-into-ping-identity</id>
+        <link href="https://www.darkreading.com/dr-tech/thoma-bravo-practical-decision-merge-forgerock-into-ping-identity"/>
+        <updated>2023-09-08T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The private equity from has invested billions of dollars in identity and access management (IAM), but now it's on Ping founder and CEO Andre Durand and his team to rationalize overlapping product lines.]]></summary>
+        <author>
+            <name>Jeffrey Schwartz, Contributing Writer, Dark Reading</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[USN-6355-1: GRUB2 vulnerabilities]]></title>
         <id>https://ubuntu.com/security/notices/USN-6355-1</id>
@@ -2871,31 +3252,6 @@ MISC
 
 joomla -- joomla
 Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulne…]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azure Serial Console Attack and Defense - Part 1]]></title>
-        <id>https://msrc.microsoft.com/blog/2023/08/azure-serial-console-attack-and-defense-part-1/</id>
-        <link href="https://msrc.microsoft.com/blog/2023/08/azure-serial-console-attack-and-defense-part-1/"/>
-        <updated>2023-08-10T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ever had a virtual machine crash? Azure Serial console is a great way to directly connect to your Virtual machine and debug what went wrong. Azure Serial Console is a feature that’s available for free for everyone. While the primary intent of this feature is to assist users debug their machine, there are several interesting ways to abuse the features and compromise sensitive information.]]></summary>
-        <author>
-            <name>Microsoft Security Response Center</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MAR-10454006.r4.v2 SEASPY and WHIRLPOOL Backdoors]]></title>
-        <id>/node/18600</id>
-        <link href="https://www.cisa.gov/news-events/analysis-reports/ar23-221a"/>
-        <updated>2023-08-09T16:50:36.000Z</updated>
-        <summary type="html"><![CDATA[Notification
-This report is provided "as is" for informational purposes only. The Department of Homeland Security (DHS) does not provide any warranties of any kind regarding any information contained herein. The DHS does not endorse any commercial product or service referenced in this bulletin or otherwise.
-This document is marked TLP:CLEAR--Recipients may share this information without restriction. Sources may use TLP:CLEAR when information carries minimal or no foreseeable risk of misuse, in accordance with applicable rules and procedures for public release. Subject to standard copyright rules, TLP:CLEAR information may be shared without restriction. For more information on the Traffic Light Protocol (TLP), see http://www.cisa.gov/tlp.
-Summary
-Description
-CISA obtained four malware sampl…]]></summary>
         <author>
             <name>CISA</name>
         </author>
