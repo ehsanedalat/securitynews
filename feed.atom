@@ -2,10 +2,457 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2023-12-11T01:11:40.490Z</updated>
+    <updated>2023-12-12T01:11:34.237Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-6548-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6548-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6548-1"/>
+        <updated>2023-12-11T23:25:20.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Spectre-BHB mitigations were missing for Ampere
+processors. A local attacker could potentially use this to expose sensitive
+information. (CVE-2023-3006)
+
+It was discovered that the USB subsystem in the Linux kernel contained a
+race condition while handling device descriptors in certain situations,
+leading to a out-of-bounds read vulnerability. A local attacker could
+possibly use this to cause a denial of service (system crash).
+(CVE-2023-37453)
+
+Lucas Leong discovered that the netfilter subsystem in the Linux kernel did
+not properly validate some attributes passed from userspace. A local
+attacker could use this to cause a denial of service (system crash) or
+possibly expose sensitive information (kernel memory). (CVE-2023-39189)
+
+Sunjoo Park discovered that the netfil…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6549-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6549-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6549-1"/>
+        <updated>2023-12-11T23:13:39.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the USB subsystem in the Linux kernel contained a
+race condition while handling device descriptors in certain situations,
+leading to a out-of-bounds read vulnerability. A local attacker could
+possibly use this to cause a denial of service (system crash).
+(CVE-2023-37453)
+
+Lin Ma discovered that the Netlink Transformation (XFRM) subsystem in the
+Linux kernel did not properly initialize a policy data structure, leading
+to an out-of-bounds vulnerability. A local privileged attacker could use
+this to cause a denial of service (system crash) or possibly expose
+sensitive information (kernel memory). (CVE-2023-3773)
+
+Lucas Leong discovered that the netfilter subsystem in the Linux kernel did
+not properly validate some attributes passed from userspace. A local
+attacker could…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybercrime Orgs Increasingly Use Human Trafficking to Staff Scam Mills]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/cybercrime-orgs-human-trafficking-staff-scam-mills</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/cybercrime-orgs-human-trafficking-staff-scam-mills"/>
+        <updated>2023-12-11T22:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Interpol breaks up Southeast Asian cybercrime rings, rescuing 149 victims of human trafficking, but the agency warns the human cost of cybercrime is mounting across the globe.]]></summary>
+        <author>
+            <name>Becky Bracken, Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fortress Information Security & CodeSecure Team Up to Analyze SBOMs & Remediate Critical Vulnerabilities]]></title>
+        <id>https://www.darkreading.com/application-security/fortress-information-security-codesecure-team-up-to-analyze-sboms-remediate-critical-vulnerabilities</id>
+        <link href="https://www.darkreading.com/application-security/fortress-information-security-codesecure-team-up-to-analyze-sboms-remediate-critical-vulnerabilities"/>
+        <updated>2023-12-11T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Partnership expands comprehensive approach to software supply chain security.]]></summary>
+        <author>
+            <name>darkreading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Ships iOS 17.2 With Urgent Security Patches]]></title>
+        <id>https://www.securityweek.com/?p=36036</id>
+        <link href="https://www.securityweek.com/apple-ships-ios-17-2-with-urgent-security-patches/"/>
+        <updated>2023-12-11T21:34:27.000Z</updated>
+        <summary type="html"><![CDATA[Cupertino’s flagship mobile OS vulnerable to arbitrary code execution and data exposure security vulnerabilities.
+The post Apple Ships iOS 17.2 With Urgent Security Patches appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Convincing LinkedIn 'Profiles' Target Saudi Workers for Information Leakage]]></title>
+        <id>https://www.darkreading.com/cloud-security/convincing-linkedin-profiles-target-saudi-workers-information-leakage</id>
+        <link href="https://www.darkreading.com/cloud-security/convincing-linkedin-profiles-target-saudi-workers-information-leakage"/>
+        <updated>2023-12-11T21:23:00.000Z</updated>
+        <summary type="html"><![CDATA[Social engineering attacks in the Kingdom collect information on professionals — and offer fake profiles for sale.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘5Ghoul’ Vulnerabilities Haunt Qualcomm, MediaTek 5G Modems]]></title>
+        <id>https://www.securityweek.com/?p=36035</id>
+        <link href="https://www.securityweek.com/5ghoul-vulnerabilities-haunt-qualcomm-mediatek-5g-modems/"/>
+        <updated>2023-12-11T20:58:19.000Z</updated>
+        <summary type="html"><![CDATA[Researchers call attention to 14 security defects taht can be exploited to drop and freeze 5G connections on smartphones and routers.
+The post ‘5Ghoul’ Vulnerabilities Haunt Qualcomm, MediaTek 5G Modems appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ghana Official to Head Africa's New Cybersecurity Authority]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/african-cybersecurity-authority-body-announces-inaugural-chair</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/african-cybersecurity-authority-body-announces-inaugural-chair"/>
+        <updated>2023-12-11T20:10:00.000Z</updated>
+        <summary type="html"><![CDATA[ANCA comprises 17 members, representing less than half of the countries in Africa.]]></summary>
+        <author>
+            <name>Dark Reading Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6547-1: Python vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6547-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6547-1"/>
+        <updated>2023-12-11T18:00:21.000Z</updated>
+        <summary type="html"><![CDATA[it was discovered that Python incorrectly handled null bytes when
+normalizing pathnames. An attacker could possibly use this issue to bypass
+certain filename checks.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lazarus Group Is Still Juicing Log4Shell, Using RATs Written in 'D']]></title>
+        <id>https://www.darkreading.com/threat-intelligence/lazarus-group-still-juicing-log4shell-rats-written-d</id>
+        <link href="https://www.darkreading.com/threat-intelligence/lazarus-group-still-juicing-log4shell-rats-written-d"/>
+        <updated>2023-12-11T16:15:00.000Z</updated>
+        <summary type="html"><![CDATA[The infamous vulnerability may be on the older side at this point, but North Korea's primo APT Lazarus is creating new, unique malware around it at a remarkable clip.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft: Mystery Group Targeting Telcos Linked to Chinese APTs]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/microsoft-mystery-group-targeting-telcos-chinese-apts</id>
+        <link href="https://www.darkreading.com/threat-intelligence/microsoft-mystery-group-targeting-telcos-chinese-apts"/>
+        <updated>2023-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Analysis shows evidence the previously unknown Sandman group shares backdoor malware with various Chinese APT groups.]]></summary>
+        <author>
+            <name>Becky Bracken, Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Norton Healthcare Ransomware Hack: 2.5 Million Personal Records Stolen]]></title>
+        <id>https://www.securityweek.com/?p=36032</id>
+        <link href="https://www.securityweek.com/norton-healthcare-ransomware-hack-2-5-million-personal-records-stolen/"/>
+        <updated>2023-12-11T15:19:30.000Z</updated>
+        <summary type="html"><![CDATA[Compromised data includes names, dates of birth, Social Security numbers, health and insurance information, and driver’s license numbers.
+The post Norton Healthcare Ransomware Hack: 2.5 Million Personal Records Stolen appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Patches Chromecast Vulnerabilities Exploited at Hacking Contest]]></title>
+        <id>https://www.securityweek.com/?p=36033</id>
+        <link href="https://www.securityweek.com/google-patches-chromecast-vulnerabilities-exploited-at-hacking-contest/"/>
+        <updated>2023-12-11T15:02:21.000Z</updated>
+        <summary type="html"><![CDATA[Google has patched several high and moderate-severity Chromecast vulnerabilities demonstrated earlier this year at a hacking competition. 
+The post Google Patches Chromecast Vulnerabilities Exploited at Hacking Contest appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Responsibly Implementing AI, the Unstoppable Force]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/responsibly-implementing-ai-unstoppable-force</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/responsibly-implementing-ai-unstoppable-force"/>
+        <updated>2023-12-11T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Balancing the good and bad of AI/ML means being able to control what data you're feeding into AI systems and solving the privacy issues to securely enable generative AI.]]></summary>
+        <author>
+            <name>Sanjay Beri</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[North Korean Hackers Developing Malware in Dlang Programming Language]]></title>
+        <id>https://www.securityweek.com/?p=36031</id>
+        <link href="https://www.securityweek.com/north-korean-hackers-developing-malware-in-dlang-programming-language/"/>
+        <updated>2023-12-11T14:19:01.000Z</updated>
+        <summary type="html"><![CDATA[North Korean hackers have used Dlang-based malware in attacks against manufacturing, agriculture, and physical security organizations.
+The post North Korean Hackers Developing Malware in Dlang Programming Language appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Unmask Sandman APT's Hidden Link to China-Based KEYPLUG Backdoor]]></title>
+        <id>https://thehackernews.com/2023/12/researchers-unmask-sandman-apts-hidden.html</id>
+        <link href="https://thehackernews.com/2023/12/researchers-unmask-sandman-apts-hidden.html"/>
+        <updated>2023-12-11T13:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Tactical and targeting overlaps have been discovered between the enigmatic advanced persistent threat (APT) called Sandman and a China-based threat cluster that's known to use a backdoor known as KEYPLUG.
+The assessment comes jointly from SentinelOne, PwC, and the Microsoft Threat Intelligence team based on the fact that the adversary's Lua-based malware LuaDream and KEYPLUG have been]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of December 4, 2023]]></title>
+        <id>/node/20467</id>
+        <link href="https://www.cisa.gov/news-events/bulletins/sb23-345"/>
+        <updated>2023-12-11T13:40:00.000Z</updated>
+        <summary type="html"><![CDATA[High Vulnerabilities
+
+Primary
+Description
+Published
+CVSS Score
+Source & Patch Info
+
+arm -- bifrost_gpu_kernel_driver
+Use After Free vulnerability in Arm Ltd Bifrost GPU Kernel Driver, Arm Ltd Valhall GPU Kernel Driver, Arm Ltd Arm 5th Gen GPU Architecture Kernel Driver allows a local non-privileged user to make improper GPU processing operations to gain access to already freed memory. This issue affects Bifrost GPU Kernel Driver: from r44p0 through r45p0; Valhall GPU Kernel Driver: from r44p0 through r45p0; Arm 5th Gen GPU Architecture Kernel Driver: from r44p0 through r45p0.
+2023-12-01
+7.8
+CVE-2023-5427
+arm -- midgard_gpu_kernel_driver
+Out-of-bounds Write vulnerability in Arm Ltd Midgard GPU Userspace Driver, Arm Ltd Bifrost GPU Userspace Driver, Arm Ltd Valhall GPU Userspace Driver, Arm …]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6546-1: LibreOffice vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6546-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6546-1"/>
+        <updated>2023-12-11T13:03:46.000Z</updated>
+        <summary type="html"><![CDATA[Reginaldo Silva discovered that LibreOffice incorrectly handled filenames
+when passing embedded videos to GStreamer. If a user were tricked into
+opening a specially crafted file, a remote attacker could possibly use this
+issue to execute arbitrary GStreamer plugins. (CVE-2023-6185)
+
+Reginaldo Silva discovered that LibreOffice incorrectly handled certain
+non-typical hyperlinks. If a user were tricked into opening a specially
+crafted file, a remote attacker could possibly use this issue to execute
+arbitrary scripts. (CVE-2023-6186)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lazarus Group Using Log4j Exploits to Deploy Remote Access Trojans]]></title>
+        <id>https://thehackernews.com/2023/12/lazarus-group-using-log4j-exploits-to.html</id>
+        <link href="https://thehackernews.com/2023/12/lazarus-group-using-log4j-exploits-to.html"/>
+        <updated>2023-12-11T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The notorious North Korea-linked threat actor known as the Lazarus Group has been attributed to a new global campaign that involves the opportunistic exploitation of security flaws in Log4j to deploy previously undocumented remote access trojans (RATs) on compromised hosts.
+Cisco Talos is tracking the activity under the name Operation Blacksmith, noting the use of three DLang-based]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Outside the Comfort Zone: Why a Change in Mindset is Crucial for Better Network Security]]></title>
+        <id>https://www.securityweek.com/?p=36029</id>
+        <link href="https://www.securityweek.com/outside-the-comfort-zone-why-a-change-in-mindset-is-crucial-for-better-network-security/"/>
+        <updated>2023-12-11T12:34:56.000Z</updated>
+        <summary type="html"><![CDATA[Stepping outside the confines of our comfort zone and embracing a mindset that prioritizes adaptability, shared responsibility, risk-awareness, and preparednessis indispensable in fortifying defenses in the modern distributed network. 
+The post Outside the Comfort Zone: Why a Change in Mindset is Crucial for Better Network Security appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Matt Wilson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6545-1: WebKitGTK vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6545-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6545-1"/>
+        <updated>2023-12-11T12:32:24.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the WebKitGTK Web and JavaScript
+engines. If a user were tricked into viewing a malicious website, a remote
+attacker could exploit a variety of issues related to web browser security,
+including cross-site scripting attacks, denial of service attacks, and
+arbitrary code execution.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Facebook Enables Messenger End-to-End Encryption by Default]]></title>
+        <id>https://www.schneier.com/blog/archives/2023/12/facebook-enables-messenger-end-to-end-encryption-by-default.html</id>
+        <link href="https://www.schneier.com/blog/archives/2023/12/facebook-enables-messenger-end-to-end-encryption-by-default.html"/>
+        <updated>2023-12-11T12:10:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>It&#8217;s <a href="https://arstechnica.com/tech-policy/2023/12/meta-defies-fbi-opposition-to-encryption-brings-e2ee-to-facebook-messenger/">happened</a>. Details <a href="https://engineering.fb.com/2023/12/06/security/building-end-to-end-security-for-messenger/">here</a>, and tech details <a href="https://engineering.fb.com/wp-content/uploads/2023/12/MessengerEnd-to-EndEncryptionOverview_12-6-2023.pdf">here</a> (for messages in transit) and <a href="https://engineering.fb.com/wp-content/uploads/2023/12/TheLabyrinthEncryptedMessageStorageProtocol_12-6-2023.pdf">here</a> (for messages in storage)</p>
+<p>Rollout to everyone will take months, but it&#8217;s a good day for both privacy and security.</p>
+<p>Slashdot <a href="https://it.slashdot.org/story/23/12/07/2243245/meta-defies-fbi-opposition-to-encryption-brings-e2ee-to-facebook-messenger">thread</a>.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flaws in Delta OT Monitoring Product Can Allow Hackers to Hide Destructive Activities]]></title>
+        <id>https://www.securityweek.com/?p=36030</id>
+        <link href="https://www.securityweek.com/flaws-in-delta-ot-monitoring-product-can-allow-hackers-to-hide-destructive-activities/"/>
+        <updated>2023-12-11T12:01:04.000Z</updated>
+        <summary type="html"><![CDATA[Critical vulnerabilities in a Delta OT monitoring product can allow hackers to hide their destructive activities from the victim.
+The post Flaws in Delta OT Monitoring Product Can Allow Hackers to Hide Destructive Activities appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
+        <id>/node/20469</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/12/11/cisa-adds-one-known-exploited-vulnerability-catalog"/>
+        <updated>2023-12-11T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2023-6448 Unitronics Vision PLC and HMI Insecure Default Password 
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Playbook: Your First 100 Days as a vCISO - 5 Steps to Success]]></title>
+        <id>https://thehackernews.com/2023/12/playbook-your-first-100-days-as-vciso-5.html</id>
+        <link href="https://thehackernews.com/2023/12/playbook-your-first-100-days-as-vciso-5.html"/>
+        <updated>2023-12-11T11:45:00.000Z</updated>
+        <summary type="html"><![CDATA[In an increasingly digital world, no organization is spared from cyber threats. Yet, not every organization has the luxury of hiring a full-time, in-house CISO. This gap in cybersecurity leadership is where you, as a vCISO, come in. You are the person who will establish, develop, and solidify the organization's cybersecurity infrastructure, blending strategic guidance with actionable]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache Patches Critical RCE Vulnerability in Struts 2]]></title>
+        <id>https://www.securityweek.com/?p=36028</id>
+        <link href="https://www.securityweek.com/apache-patches-critical-rce-vulnerability-in-struts-2/"/>
+        <updated>2023-12-11T11:40:50.000Z</updated>
+        <summary type="html"><![CDATA[Apache has addressed a critical-severity Struts 2 file upload vulnerability that could lead to remote code execution.
+The post Apache Patches Critical RCE Vulnerability in Struts 2 appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6500-2: Squid vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6500-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-6500-2"/>
+        <updated>2023-12-11T11:40:02.000Z</updated>
+        <summary type="html"><![CDATA[USN-6500-1 fixed several vulnerabilities in Squid. This update provides
+the corresponding update for Ubuntu 16.04 LTS and Ubuntu 18.04 LTS.
+
+Original advisory details:
+
+ Joshua Rogers discovered that Squid incorrectly handled the Gopher
+ protocol. A remote attacker could possibly use this issue to cause Squid to
+ crash, resulting in a denial of service. Gopher support has been disabled
+ in this update. (CVE-2023-46728)
+
+ Joshua Rogers discovered that Squid incorrectly handled HTTP Digest
+ Authentication. A remote attacker could possibly use this issue to cause
+ Squid to crash, resulting in a denial of service. (CVE-2023-46847)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SpyLoan Scandal: 18 Malicious Loan Apps Defraud Millions of Android Users]]></title>
+        <id>https://thehackernews.com/2023/12/spyloan-scandal-18-malicious-loan-apps.html</id>
+        <link href="https://thehackernews.com/2023/12/spyloan-scandal-18-malicious-loan-apps.html"/>
+        <updated>2023-12-11T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have discovered 18 malicious loan apps for Android on the Google Play Store that have been collectively downloaded over 12 million times.
+"Despite their attractive appearance, these services are in fact designed to defraud users by offering them high-interest-rate loans endorsed with deceitful descriptions, all while collecting their victims' personal and]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6544-1: GNU binutils vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6544-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6544-1"/>
+        <updated>2023-12-11T11:18:13.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that GNU binutils incorrectly handled certain COFF files.
+An attacker could possibly use this issue to cause a crash or execute
+arbitrary code. This issue only affected Ubuntu 14.04 LTS. (CVE-2022-38533)
+
+It was discovered that GNU binutils was not properly performing bounds
+checks in several functions, which could lead to a buffer overflow. An
+attacker could possibly use this issue to cause a denial of service,
+expose sensitive information or execute arbitrary code. This issue only
+affected Ubuntu 20.04 LTS and Ubuntu 22.04 LTS. 
+(CVE-2022-4285, CVE-2020-19726, CVE-2021-46174)
+
+It was discovered that GNU binutils contained a reachable assertion, which
+could lead to an intentional assertion failure when processing certain
+crafted DWARF files. An attacker could possibly use this issue to cause a
+denial of service. This issue only affected Ubuntu 20.04 LTS 
+and Ubuntu 22.04 LTS. (CVE-2022-35205)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Top White House Cyber Aide Says Recent Iran Hack on Water System Is Call to Tighten Cybersecurity]]></title>
+        <id>https://www.securityweek.com/?p=36027</id>
+        <link href="https://www.securityweek.com/top-white-house-cyber-aide-says-recent-iran-hack-on-water-wystem-is-call-to-tighten-cybersecurity/"/>
+        <updated>2023-12-11T11:05:09.000Z</updated>
+        <summary type="html"><![CDATA[A top White House national security official said recent cyber attacks by Iranian hackers on US water authorities should be seen as a call to action by utilities and industry to tighten cybersecurity.
+The post Top White House Cyber Aide Says Recent Iran Hack on Water System Is Call to Tighten Cybersecurity appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webinar — Psychology of Social Engineering: Decoding the Mind of a Cyber Attacker]]></title>
+        <id>https://thehackernews.com/2023/12/webinar-psychology-of-social.html</id>
+        <link href="https://thehackernews.com/2023/12/webinar-psychology-of-social.html"/>
+        <updated>2023-12-11T10:53:00.000Z</updated>
+        <summary type="html"><![CDATA[In the ever-evolving cybersecurity landscape, one method stands out for its chilling effectiveness – social engineering. But why does it work so well? The answer lies in the intricate dance between the attacker's mind and human psychology.
+Our upcoming webinar, "Think Like a Hacker, Defend Like a Pro," highlights this alarming trend. We delve deep into social engineering, exploring its]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Law Enforcement Reportedly Behind Takedown of BlackCat/Alphv Ransomware Website]]></title>
+        <id>https://www.securityweek.com/?p=36024</id>
+        <link href="https://www.securityweek.com/law-enforcement-reportedly-behind-takedown-of-blackcat-alphv-ransomware-website/"/>
+        <updated>2023-12-11T09:58:35.000Z</updated>
+        <summary type="html"><![CDATA[The leak website of the notorious BlackCat/Alphv ransomware group has been offline for days and law enforcement is reportedly behind the takedown.
+The post Law Enforcement Reportedly Behind Takedown of BlackCat/Alphv Ransomware Website appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New PoolParty Process Injection Techniques Outsmart Top EDR Solutions]]></title>
+        <id>https://thehackernews.com/2023/12/new-poolparty-process-injection.html</id>
+        <link href="https://thehackernews.com/2023/12/new-poolparty-process-injection.html"/>
+        <updated>2023-12-11T05:58:00.000Z</updated>
+        <summary type="html"><![CDATA[A new collection of eight process injection techniques, collectively dubbed PoolParty, could be exploited to achieve code execution in Windows systems while evading endpoint detection and response (EDR) systems.
+SafeBreach researcher Alon Leviev said the methods are "capable of working across all processes without any limitations, making them more flexible than existing process]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6543-1: GNU Tar vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6543-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6543-1"/>
+        <updated>2023-12-11T00:26:33.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that tar incorrectly handled extended attributes in PAX
+archives. An attacker could use this issue to cause tar to crash, resulting in a
+denial of service.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Europe Reaches a Deal on the World’s First Comprehensive AI Rules]]></title>
         <id>https://www.securityweek.com/?p=36021</id>
@@ -37,6 +484,16 @@ The attack is an end-to-end exploit for Spectre based on a new feature in Intel 
 "While GuLoader's core functionality hasn't changed drastically over the past few years, these constant updates in their obfuscation techniques make analyzing GuLoader a time-consuming and resource-intensive process," Elastic Security Labs]]></summary>
         <author>
             <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ALPHV/BlackCat Takedown Appears to Be Law Enforcement Related]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/alphv-blackcat-takedown-appears-to-be-law-enforcement-related</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/alphv-blackcat-takedown-appears-to-be-law-enforcement-related"/>
+        <updated>2023-12-09T01:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Threat intel sources confirm the ransomware group's site has been shuttered by law enforcement.]]></summary>
+        <author>
+            <name>Becky Bracken, Editor, Dark Reading</name>
         </author>
     </entry>
     <entry>
