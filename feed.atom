@@ -2,10 +2,244 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-01-15T01:14:12.933Z</updated>
+    <updated>2024-01-16T01:11:48.764Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-6585-1: libssh2 vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6585-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6585-1"/>
+        <updated>2024-01-15T18:31:03.000Z</updated>
+        <summary type="html"><![CDATA[Fabian Bäumer, Marcus Brinkmann, Jörg Schwenk discovered that the SSH
+protocol was vulnerable to a prefix truncation attack. If a remote attacker
+was able to intercept SSH communications, extension negotiation messages
+could be truncated, possibly leading to certain algorithms and features
+being downgraded. This issue is known as the Terrapin attack. This update
+adds protocol extensions to mitigate this issue.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6584-1: Libspf2 vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6584-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6584-1"/>
+        <updated>2024-01-15T17:17:57.000Z</updated>
+        <summary type="html"><![CDATA[Philipp Jeitner and Haya Shulman discovered that Libspf2 incorrectly handled
+certain inputs. If a user or an automated system were tricked into opening a
+specially crafted input file, a remote attacker could possibly use this issue
+to cause a denial of service or execute arbitrary code. (CVE-2021-20314)
+
+It was discovered that Libspf2 incorrectly handled certain inputs. If a user or
+an automated system were tricked into opening a specially crafted input file, a
+remote attacker could possibly use this issue to cause a denial of service or
+execute arbitrary code. This issue only affected Ubuntu 18.04 LTS and 
+Ubuntu 20.04 LTS. (CVE-2021-33912, CVE-2021-33913)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6583-1: MySQL vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6583-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6583-1"/>
+        <updated>2024-01-15T15:23:32.000Z</updated>
+        <summary type="html"><![CDATA[Multiple security issues were discovered in MySQL and this update includes
+new upstream MySQL versions to fix these issues.
+
+MySQL has been updated to 5.7.44 in Ubuntu 16.04 LTS and Ubuntu 18.04 LTS.
+
+In addition to security fixes, the updated packages contain bug fixes, new
+features, and possibly incompatible changes.
+
+Please see the following for more information:
+
+https://dev.mysql.com/doc/relnotes/mysql/5.7/en/news-5-7-44.html
+https://www.oracle.com/security-alerts/cpuoct2023.html]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Name That Toon: Cast Adrift]]></title>
+        <id>https://www.darkreading.com/ics-ot-security/name-that-toon-cast-adrift</id>
+        <link href="https://www.darkreading.com/ics-ot-security/name-that-toon-cast-adrift"/>
+        <updated>2024-01-15T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Feeling creative? Submit your caption and our panel of experts will reward the winner with a $25 Amazon gift card.]]></summary>
+        <author>
+            <name>John Klossner, Cartoonist</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hacker Behind $2 Million Cryptocurrency Mining Scheme Arrested in Ukraine]]></title>
+        <id>https://www.securityweek.com/?p=36356</id>
+        <link href="https://www.securityweek.com/hacker-accused-of-running-2-million-cryptocurrency-mining-scheme-arrested-in-ukraine/"/>
+        <updated>2024-01-15T14:47:20.000Z</updated>
+        <summary type="html"><![CDATA[Ukrainian authorities have arrested an individual allegedly involved in a $2 million cryptojacking operation.
+The post Hacker Behind $2 Million Cryptocurrency Mining Scheme Arrested in Ukraine appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Opera MyFlaw Bug Could Let Hackers Run ANY File on Your Mac or Windows]]></title>
+        <id>https://thehackernews.com/2024/01/opera-myflaw-bug-could-let-hackers-run.html</id>
+        <link href="https://thehackernews.com/2024/01/opera-myflaw-bug-could-let-hackers-run.html"/>
+        <updated>2024-01-15T13:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed a security flaw in the Opera web browser for Microsoft Windows and Apple macOS that could be exploited to execute any file on the underlying operating system.
+The remote code execution vulnerability has been codenamed MyFlaw by the Guardio Labs research team owing to the fact that it takes advantage of a feature called My Flow that makes it]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3 Ransomware Group Newcomers to Watch in 2024]]></title>
+        <id>https://thehackernews.com/2024/01/3-ransomware-group-newcomers-to-watch.html</id>
+        <link href="https://thehackernews.com/2024/01/3-ransomware-group-newcomers-to-watch.html"/>
+        <updated>2024-01-15T13:58:00.000Z</updated>
+        <summary type="html"><![CDATA[The ransomware industry surged in 2023 as it saw an alarming 55.5% increase in victims worldwide, reaching a staggering 4,368 cases. 
+Figure 1: Year over year victims per quarter
+The rollercoaster ride from explosive growth in 2021 to a momentary dip in 2022 was just a teaser—2023 roared back with the same fervor as 2021, propelling existing groups and ushering in a wave of formidable]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6582-1: WebKitGTK vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6582-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6582-1"/>
+        <updated>2024-01-15T13:52:06.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the WebKitGTK Web and JavaScript
+engines. If a user were tricked into viewing a malicious website, a remote
+attacker could exploit a variety of issues related to web browser security,
+including cross-site scripting attacks, denial of service attacks, and
+arbitrary code execution.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Information Stealer Exploits Windows SmartScreen Bypass]]></title>
+        <id>https://www.securityweek.com/?p=36355</id>
+        <link href="https://www.securityweek.com/information-stealer-exploits-windows-smartscreen-bypass/"/>
+        <updated>2024-01-15T12:29:47.000Z</updated>
+        <summary type="html"><![CDATA[Attackers exploit a recent Windows SmartScreen bypass vulnerability to deploy the Phemedrone information stealer.
+The post Information Stealer Exploits Windows SmartScreen Bypass appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Voice Cloning with Very Short Samples]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/01/voice-cloning-with-very-short-samples.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/01/voice-cloning-with-very-short-samples.html"/>
+        <updated>2024-01-15T12:09:20.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://research.myshell.ai/open-voice">New research</a> demonstrates voice cloning, in multiple languages, using samples ranging from one to twelve seconds.</p>
+<p>Research <a href="https://arxiv.org/pdf/2312.01479.pdf">paper</a>.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6581-1: GNU binutils vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6581-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6581-1"/>
+        <updated>2024-01-15T11:57:53.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that GNU binutils was not properly performing bounds
+checks in several functions, which could lead to a buffer overflow. An
+attacker could possibly use this issue to cause a denial of service,
+expose sensitive information or execute arbitrary code.
+(CVE-2022-44840, CVE-2022-45703)
+
+It was discovered that GNU binutils incorrectly handled memory management
+operations in several of its functions, which could lead to excessive
+memory consumption due to memory leaks. An attacker could possibly use
+these issues to cause a denial of service. 
+(CVE-2022-47007, CVE-2022-47008, CVE-2022-47010, CVE-2022-47011)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6580-1: w3m vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6580-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6580-1"/>
+        <updated>2024-01-15T11:45:46.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that w3m incorrectly handled certain HTML files.
+An attacker could possibly use this issue to cause a crash or
+execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Patches Critical Password Reset Vulnerability]]></title>
+        <id>https://www.securityweek.com/?p=36352</id>
+        <link href="https://www.securityweek.com/gitlab-patches-critical-password-reset-vulnerability/"/>
+        <updated>2024-01-15T11:33:27.000Z</updated>
+        <summary type="html"><![CDATA[GitLab has resolved a critical authentication vulnerability allowing attackers to hijack password reset emails.
+The post GitLab Patches Critical Password Reset Vulnerability appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloud Server Abuse Leads to Huge Spike in Botnet Scanning]]></title>
+        <id>https://www.securityweek.com/?p=36350</id>
+        <link href="https://www.securityweek.com/cloud-server-abuse-leads-to-huge-spike-in-botnet-scanning/"/>
+        <updated>2024-01-15T11:04:27.000Z</updated>
+        <summary type="html"><![CDATA[Netscout sees over one million IPs conducting reconnaissance scanning on the web due to increase in use of cheap or free cloud servers.
+The post Cloud Server Abuse Leads to Huge Spike in Botnet Scanning appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Juniper Networks Patches Critical Remote Code Execution Flaw in Firewalls, Switches]]></title>
+        <id>https://www.securityweek.com/?p=36349</id>
+        <link href="https://www.securityweek.com/juniper-networks-patches-critical-remote-code-execution-flaw-in-firewalls-switches/"/>
+        <updated>2024-01-15T09:41:29.000Z</updated>
+        <summary type="html"><![CDATA[Juniper Networks patches over 100 vulnerabilities, including a critical flaw that can be exploited for remote code execution against firewalls and switches.
+The post Juniper Networks Patches Critical Remote Code Execution Flaw in Firewalls, Switches appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[High-Severity Flaws Uncovered in Bosch Thermostats and Smart Nutrunners]]></title>
+        <id>https://thehackernews.com/2024/01/high-severity-flaws-uncovered-in-bosch.html</id>
+        <link href="https://thehackernews.com/2024/01/high-severity-flaws-uncovered-in-bosch.html"/>
+        <updated>2024-01-15T08:16:00.000Z</updated>
+        <summary type="html"><![CDATA[Multiple security vulnerabilities have been disclosed in Bosch BCC100 thermostats and Rexroth NXA015S-36V-B smart nutrunners that, if successfully exploited, could allow attackers to execute arbitrary code on affected systems.
+Romanian cybersecurity firm Bitdefender, which discovered the flaw in Bosch BCC100 thermostats last August, said the issue could be weaponized by an attacker to]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Balada Injector Infects Over 7,100 WordPress Sites Using Plugin Vulnerability]]></title>
+        <id>https://thehackernews.com/2024/01/balada-injector-infects-over-7100.html</id>
+        <link href="https://thehackernews.com/2024/01/balada-injector-infects-over-7100.html"/>
+        <updated>2024-01-15T07:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Thousands of WordPress sites using a vulnerable version of the Popup Builder plugin have been compromised with a malware called Balada Injector.
+First documented by Doctor Web in January 2023, the campaign takes place in a series of periodic attack waves, weaponizing security flaws WordPress plugins to inject backdoor designed to redirect visitors of infected sites to bogus tech]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DDoS Attacks on the Environmental Services Industry Surge by 61,839% in 2023]]></title>
+        <id>https://thehackernews.com/2024/01/ddos-attacks-on-environmental-services.html</id>
+        <link href="https://thehackernews.com/2024/01/ddos-attacks-on-environmental-services.html"/>
+        <updated>2024-01-15T05:55:00.000Z</updated>
+        <summary type="html"><![CDATA[The environmental services industry witnessed an “unprecedented surge” in HTTP-based distributed denial-of-service (DDoS) attacks, accounting for half of all its HTTP traffic.
+This marks a 61,839% increase in DDoS attack traffic year-over-year, web infrastructure and security company Cloudflare said in its DDoS threat report for 2023 Q4 published last week.
+“This surge in cyber attacks coincided]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Upcoming Speaking Engagements]]></title>
         <id>https://www.schneier.com/blog/archives/2024/01/upcoming-speaking-engagements-33.html</id>
@@ -5688,17 +5922,6 @@ In an alert published last week, the agency called out Iranian threat actors aff
 The post MongoDB Confirms Hack, Says Customer Data Stolen appeared first on SecurityWeek.]]></summary>
         <author>
             <name>Ryan Naraine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MongoDB Suffers Security Breach, Exposing Customer Data]]></title>
-        <id>https://thehackernews.com/2023/12/mongodb-suffers-security-breach.html</id>
-        <link href="https://thehackernews.com/2023/12/mongodb-suffers-security-breach.html"/>
-        <updated>2023-12-17T04:48:00.000Z</updated>
-        <summary type="html"><![CDATA[MongoDB on Saturday disclosed it's actively investigating a security incident that has led to unauthorized access to "certain" corporate systems, resulting in the exposure of customer account metadata and contact information.
-The American database software company said it first detected anomalous activity on December 13, 2023, and that it immediately activated its incident response]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
         </author>
     </entry>
 </feed>
