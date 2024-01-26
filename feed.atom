@@ -2,10 +2,682 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-01-25T01:13:36.948Z</updated>
+    <updated>2024-01-26T01:08:06.686Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-6609-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6609-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6609-1"/>
+        <updated>2024-01-26T00:10:39.000Z</updated>
+        <summary type="html"><![CDATA[Lin Ma discovered that the netfilter subsystem in the Linux kernel did not
+properly validate network family support while creating a new netfilter
+table. A local attacker could use this to cause a denial of service or
+possibly execute arbitrary code. (CVE-2023-6040)
+
+It was discovered that the CIFS network file system implementation in the
+Linux kernel did not properly validate the server frame size in certain
+situation, leading to an out-of-bounds read vulnerability. An attacker
+could use this to construct a malicious CIFS image that, when operated on,
+could cause a denial of service (system crash) or possibly expose sensitive
+information. (CVE-2023-6606)
+
+Xingyuan Mo discovered that the netfilter subsystem in the Linux kernel did
+not properly handle inactive elements in its PIPAPO data structure, leading
+to a use-after-free vulnerability. A local attacker could use this to cause
+a denial of service (system crash) or possibly execute arbitrary code.
+(CVE-2023-6817)
+
+Budimir Markovic, Lucas De Marchi, and Pengfei Xu discovered that the perf
+subsystem in the Linux kernel did not properly validate all event sizes
+when attaching new events, leading to an out-of-bounds write vulnerability.
+A local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code. (CVE-2023-6931)
+
+It was discovered that the IGMP protocol implementation in the Linux kernel
+contained a race condition, leading to a use-after-free vulnerability. A
+local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code. (CVE-2023-6932)
+
+Kevin Rich discovered that the netfilter subsystem in the Linux kernel did
+not properly check deactivated elements in certain situations, leading to a
+use-after-free vulnerability. A local attacker could use this to cause a
+denial of service (system crash) or possibly execute arbitrary code.
+(CVE-2024-0193)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6608-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6608-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6608-1"/>
+        <updated>2024-01-25T23:50:17.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the CIFS network file system implementation in the
+Linux kernel did not properly validate the server frame size in certain
+situation, leading to an out-of-bounds read vulnerability. An attacker
+could use this to construct a malicious CIFS image that, when operated on,
+could cause a denial of service (system crash) or possibly expose sensitive
+information. (CVE-2023-6606)
+
+Xingyuan Mo discovered that the netfilter subsystem in the Linux kernel did
+not properly handle inactive elements in its PIPAPO data structure, leading
+to a use-after-free vulnerability. A local attacker could use this to cause
+a denial of service (system crash) or possibly execute arbitrary code.
+(CVE-2023-6817)
+
+Budimir Markovic, Lucas De Marchi, and Pengfei Xu discovered that the perf
+subsystem in the Linux kernel did not properly validate all event sizes
+when attaching new events, leading to an out-of-bounds write vulnerability.
+A local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code. (CVE-2023-6931)
+
+It was discovered that the IGMP protocol implementation in the Linux kernel
+contained a race condition, leading to a use-after-free vulnerability. A
+local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code. (CVE-2023-6932)
+
+Kevin Rich discovered that the netfilter subsystem in the Linux kernel did
+not properly check deactivated elements in certain situations, leading to a
+use-after-free vulnerability. A local attacker could use this to cause a
+denial of service (system crash) or possibly execute arbitrary code.
+(CVE-2024-0193)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6607-1: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6607-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6607-1"/>
+        <updated>2024-01-25T23:35:20.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the SMB network file sharing protocol implementation
+in the Linux kernel did not properly handle certain error conditions,
+leading to a use-after-free vulnerability. A local attacker could use this
+to cause a denial of service (system crash) or possibly execute arbitrary
+code. (CVE-2023-5345)
+
+Lin Ma discovered that the netfilter subsystem in the Linux kernel did not
+properly validate network family support while creating a new netfilter
+table. A local attacker could use this to cause a denial of service or
+possibly execute arbitrary code. (CVE-2023-6040)
+
+It was discovered that the CIFS network file system implementation in the
+Linux kernel did not properly validate the server frame size in certain
+situation, leading to an out-of-bounds read vulnerability. An attack…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6606-1: Linux kernel (OEM) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6606-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6606-1"/>
+        <updated>2024-01-25T22:11:29.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that a race condition existed in the Bluetooth subsystem
+of the Linux kernel, leading to a use-after-free vulnerability. A local
+attacker could use this to cause a denial of service (system crash) or
+possibly execute arbitrary code. (CVE-2023-51779)
+
+It was discovered that the CIFS network file system implementation in the
+Linux kernel did not properly validate the server frame size in certain
+situation, leading to an out-of-bounds read vulnerability. An attacker
+could use this to construct a malicious CIFS image that, when operated on,
+could cause a denial of service (system crash) or possibly expose sensitive
+information. (CVE-2023-6606)
+
+Xingyuan Mo discovered that the netfilter subsystem in the Linux kernel did
+not properly handle inactive elements in its PIPAPO data structure, leading
+to a use-after-free vulnerability. A local attacker could use this to cause
+a denial of service (system crash) or possibly execute arbitrary code.
+(CVE-2023-6817)
+
+Budimir Markovic, Lucas De Marchi, and Pengfei Xu discovered that the perf
+subsystem in the Linux kernel did not properly validate all event sizes
+when attaching new events, leading to an out-of-bounds write vulnerability.
+A local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code. (CVE-2023-6931)
+
+Kevin Rich discovered that the netfilter subsystem in the Linux kernel did
+not properly check deactivated elements in certain situations, leading to a
+use-after-free vulnerability. A local attacker could use this to cause a
+denial of service (system crash) or possibly execute arbitrary code.
+(CVE-2024-0193)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6605-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6605-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6605-1"/>
+        <updated>2024-01-25T22:06:42.000Z</updated>
+        <summary type="html"><![CDATA[Lin Ma discovered that the netfilter subsystem in the Linux kernel did not
+properly validate network family support while creating a new netfilter
+table. A local attacker could use this to cause a denial of service or
+possibly execute arbitrary code. (CVE-2023-6040)
+
+It was discovered that the CIFS network file system implementation in the
+Linux kernel did not properly validate the server frame size in certain
+situation, leading to an out-of-bounds read vulnerability. An attacker
+could use this to construct a malicious CIFS image that, when operated on,
+could cause a denial of service (system crash) or possibly expose sensitive
+information. (CVE-2023-6606)
+
+Budimir Markovic, Lucas De Marchi, and Pengfei Xu discovered that the perf
+subsystem in the Linux kernel did not properly validate all event sizes
+when attaching new events, leading to an out-of-bounds write vulnerability.
+A local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code. (CVE-2023-6931)
+
+It was discovered that the IGMP protocol implementation in the Linux kernel
+contained a race condition, leading to a use-after-free vulnerability. A
+local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code. (CVE-2023-6932)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Airline Gets SASE to Modernize Operations]]></title>
+        <id>https://www.darkreading.com/cloud-security/airline-experiments-with-sase-to-improve-overall-security</id>
+        <link href="https://www.darkreading.com/cloud-security/airline-experiments-with-sase-to-improve-overall-security"/>
+        <updated>2024-01-25T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cathay, a travel lifestyle brand that includes the Cathay Pacific airline, had a growing cybersecurity problem made worse by its aging technology infrastructure. It solved part of the problem by replacing legacy technology with a modern one that has security built in.]]></summary>
+        <author>
+            <name>Karen D. Schwartz, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SecurityScorecard Launches MAX]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/securityscorecard-launches-max</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/securityscorecard-launches-max"/>
+        <updated>2024-01-25T21:30:00.000Z</updated>
+        <author>
+            <name>darkreading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Help Wanted From Convicted Cybercriminals]]></title>
+        <id>https://www.darkreading.com/cybersecurity-careers/help-wanted-from-convicted-cybercriminals</id>
+        <link href="https://www.darkreading.com/cybersecurity-careers/help-wanted-from-convicted-cybercriminals"/>
+        <updated>2024-01-25T21:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Rather than languishing in jail for their crimes, could former fraudsters turn to legitimate cybersecurity work? African cyber expert's recommendation resurrects that debate.]]></summary>
+        <author>
+            <name>Dan Raywood, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6604-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6604-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6604-1"/>
+        <updated>2024-01-25T21:06:58.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the ASUS HID driver in the Linux kernel did not
+properly handle device removal, leading to a use-after-free vulnerability.
+A local attacker with physical access could plug in a specially crafted USB
+device to cause a denial of service (system crash). (CVE-2023-1079)
+
+Jana Hofmann, Emanuele Vannacci, Cedric Fournet, Boris Kopf, and Oleksii
+Oleksenko discovered that some AMD processors could leak stale data from
+division operations in certain situations. A local attacker could possibly
+use this to expose sensitive information. (CVE-2023-20588)
+
+It was discovered that a race condition existed in the Linux kernel when
+performing operations with kernel objects, leading to an out-of-bounds
+write. A local attacker could use this to cause a denial of service (system
+crash) or execute arbitrary code. (CVE-2023-45863)
+
+It was discovered that the CIFS network file system implementation in the
+Linux kernel did not properly validate the server frame size in certain
+situation, leading to an out-of-bounds read vulnerability. An attacker
+could use this to construct a malicious CIFS image that, when operated on,
+could cause a denial of service (system crash) or possibly expose sensitive
+information. (CVE-2023-6606)
+
+Budimir Markovic, Lucas De Marchi, and Pengfei Xu discovered that the perf
+subsystem in the Linux kernel did not properly validate all event sizes
+when attaching new events, leading to an out-of-bounds write vulnerability.
+A local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code. (CVE-2023-6931)
+
+It was discovered that the IGMP protocol implementation in the Linux kernel
+contained a race condition, leading to a use-after-free vulnerability. A
+local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code. (CVE-2023-6932)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pwn2Own 2024: Tesla Hacks, Dozens of Zero-Days in Electrical Vehicles]]></title>
+        <id>https://www.darkreading.com/ics-ot-security/pwn2own-2024-teslas-hacked-dozens-new-zero-days-evs</id>
+        <link href="https://www.darkreading.com/ics-ot-security/pwn2own-2024-teslas-hacked-dozens-new-zero-days-evs"/>
+        <updated>2024-01-25T20:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Hacking teams pick apart electrical vehicles (EVs), exposing them for what they are: safety-critical computers without commensurate security.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6603-1: Linux kernel (AWS) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6603-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6603-1"/>
+        <updated>2024-01-25T20:24:48.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the CIFS network file system implementation in the
+Linux kernel did not properly validate the server frame size in certain
+situation, leading to an out-of-bounds read vulnerability. An attacker
+could use this to construct a malicious CIFS image that, when operated on,
+could cause a denial of service (system crash) or possibly expose sensitive
+information. (CVE-2023-6606)
+
+Budimir Markovic, Lucas De Marchi, and Pengfei Xu discovered that the perf
+subsystem in the Linux kernel did not properly validate all event sizes
+when attaching new events, leading to an out-of-bounds write vulnerability.
+A local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code. (CVE-2023-6931)
+
+It was discovered that the IGMP protocol implementation in the Linux kernel
+contained a race condition, leading to a use-after-free vulnerability. A
+local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code. (CVE-2023-6932)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6602-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6602-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6602-1"/>
+        <updated>2024-01-25T20:15:48.000Z</updated>
+        <summary type="html"><![CDATA[Jana Hofmann, Emanuele Vannacci, Cedric Fournet, Boris Kopf, and Oleksii
+Oleksenko discovered that some AMD processors could leak stale data from
+division operations in certain situations. A local attacker could possibly
+use this to expose sensitive information. (CVE-2023-20588)
+
+It was discovered that a race condition existed in the Linux kernel when
+performing operations with kernel objects, leading to an out-of-bounds
+write. A local attacker could use this to cause a denial of service (system
+crash) or execute arbitrary code. (CVE-2023-45863)
+
+It was discovered that the CIFS network file system implementation in the
+Linux kernel did not properly validate the server frame size in certain
+situation, leading to an out-of-bounds read vulnerability. An attacker
+could use this to construct a malicious CIFS image that, when operated on,
+could cause a denial of service (system crash) or possibly expose sensitive
+information. (CVE-2023-6606)
+
+Budimir Markovic, Lucas De Marchi, and Pengfei Xu discovered that the perf
+subsystem in the Linux kernel did not properly validate all event sizes
+when attaching new events, leading to an out-of-bounds write vulnerability.
+A local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code. (CVE-2023-6931)
+
+It was discovered that the IGMP protocol implementation in the Linux kernel
+contained a race condition, leading to a use-after-free vulnerability. A
+local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code. (CVE-2023-6932)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6601-1: Linux kernel vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6601-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6601-1"/>
+        <updated>2024-01-25T19:32:56.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the IGMP protocol implementation in the Linux kernel
+contained a race condition, leading to a use-after-free vulnerability. A
+local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Midnight Blizzard' Breached HPE Email Months Before Microsoft Hack]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/midnight-blizzard-breached-hpe-email-before-microsoft-hack</id>
+        <link href="https://www.darkreading.com/threat-intelligence/midnight-blizzard-breached-hpe-email-before-microsoft-hack"/>
+        <updated>2024-01-25T19:05:00.000Z</updated>
+        <summary type="html"><![CDATA[The Russian APT behind the SolarWinds attacks exfiltrated data from HPE email accounts last May.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Panorays Study Finds 94% of CISOs Are Concerned About Third-party Cyber Threats, Yet Only 3% Have Implemented Security Measures]]></title>
+        <id>https://www.darkreading.com/cyber-risk/panorays-study-finds-94-of-cisos-are-concerned-about-third-party-cyber-threats-yet-only-3-have-implemented-security-measures</id>
+        <link href="https://www.darkreading.com/cyber-risk/panorays-study-finds-94-of-cisos-are-concerned-about-third-party-cyber-threats-yet-only-3-have-implemented-security-measures"/>
+        <updated>2024-01-25T19:00:00.000Z</updated>
+        <author>
+            <name>darkreading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6600-1: MariaDB vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6600-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6600-1"/>
+        <updated>2024-01-25T18:32:58.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in MariaDB and this update
+includes new upstream MariaDB versions to fix these issues.
+
+MariaDB has been updated to 10.3.39 in Ubuntu 20.04 LTS, 10.6.16
+in Ubuntu 22.04 LTS and 10.11.6 in Ubuntu 23.10.
+
+CVE-2022-47015 only affected the MariaDB packages in Ubuntu 20.04 LTS
+and Ubuntu 22.04 LTS.
+
+In addition to security fixes, the updated packages contain bug fixes,
+new features, and possibly incompatible changes.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protecting Children's Data Needs to Be a Priority for All]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/protecting-childrens-data-needs-priority-for-all</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/protecting-childrens-data-needs-priority-for-all"/>
+        <updated>2024-01-25T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With rampant K-12 breaches fueling a fraud epidemic, cooperation and resolve are needed for progress.]]></summary>
+        <author>
+            <name>Steve Yin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Cisco Unified Communications RCE Bug Allows Root Access]]></title>
+        <id>https://www.darkreading.com/remote-workforce/critical-cisco-unified-communications-rce-bug-root-access</id>
+        <link href="https://www.darkreading.com/remote-workforce/critical-cisco-unified-communications-rce-bug-root-access"/>
+        <updated>2024-01-25T17:46:00.000Z</updated>
+        <summary type="html"><![CDATA[The vulnerability, tracked as CVE-2024-20253, makes enterprise communications infrastructure and customer service call centers sitting ducks for unauthenticated cyberattackers.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['CherryLoader' Malware Allows Serious Privilege Execution]]></title>
+        <id>https://www.darkreading.com/endpoint-security/cherryloader-downloader-serious-privilege-execution</id>
+        <link href="https://www.darkreading.com/endpoint-security/cherryloader-downloader-serious-privilege-execution"/>
+        <updated>2024-01-25T17:40:00.000Z</updated>
+        <summary type="html"><![CDATA[A sporty, modular downloader allows hackers to cherry-pick their exploits — in this case, two powerful tools for gaining admin access in a Windows system.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Abu Dhabi Investment Firm Warns About Scam Efforts]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/abu-dhabi-investment-firm-warns-scam-efforts</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/abu-dhabi-investment-firm-warns-scam-efforts"/>
+        <updated>2024-01-25T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A top financial entity warned that its brand is being used to spread cyber scams, as fraud efforts persist throughout the country.]]></summary>
+        <author>
+            <name>Dark Reading Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Kubernetes Clusters Suffer Widespread Exposure to External Attackers]]></title>
+        <id>https://www.darkreading.com/cloud-security/anyone-with-google-account-can-hack-misconfigured-kubernetes-clusters</id>
+        <link href="https://www.darkreading.com/cloud-security/anyone-with-google-account-can-hack-misconfigured-kubernetes-clusters"/>
+        <updated>2024-01-25T16:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Misunderstanding the permissions of an authentication group in Google Kubernetes Engine (GKE) opens millions of containers to anyone with a Google account.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In the Context of Cloud, Security and Mobility, It’s Time Organizations Ditch Legacy MPLS]]></title>
+        <id>https://www.securityweek.com/?p=36500</id>
+        <link href="https://www.securityweek.com/in-the-context-of-cloud-security-and-mobility-its-time-organizations-ditch-legacy-mpls/"/>
+        <updated>2024-01-25T16:10:09.000Z</updated>
+        <summary type="html"><![CDATA[If organizations understand the benefits SASE offers over MPLS and traditional SD-WAN, they will realize that SASE is poised to replace aging MPLS in due time.
+The post In the Context of Cloud, Security and Mobility, It’s Time Organizations Ditch Legacy MPLS appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Etay Maor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackers Blast Violent Gaza Message at a Popular Israeli Movie Theater]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/hackers-blast-violent-gaza-message-popular-israeli-movie-theater</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/hackers-blast-violent-gaza-message-popular-israeli-movie-theater"/>
+        <updated>2024-01-25T15:40:00.000Z</updated>
+        <summary type="html"><![CDATA[A psyop targeting ordinary moviegoers is the latest in a string of similar attacks in the country since Oct. 7.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The CISO Role Undergoes a Major Evolution]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/ciso-role-undergoes-major-evolution</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/ciso-role-undergoes-major-evolution"/>
+        <updated>2024-01-25T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Post-SolarWinds, it's no longer enough for chief information security officers to remain compliant and call it a day.]]></summary>
+        <author>
+            <name>Mark Bowling</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[$1.7 Billion Stolen in Cryptocurrency Hacks in 2023: Analysis]]></title>
+        <id>https://www.securityweek.com/?p=36494</id>
+        <link href="https://www.securityweek.com/1-7-billion-stolen-in-cryptocurrency-hacks-in-2023-report/"/>
+        <updated>2024-01-25T14:47:11.000Z</updated>
+        <summary type="html"><![CDATA[$1.7 billion were stolen last year as a result of 231 cryptocurrency platform hacks, according to a report from Chainalysis. 
+The post $1.7 Billion Stolen in Cryptocurrency Hacks in 2023: Analysis appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Offerings From Protect AI, Venafi Tackle Software Supply Chain Security]]></title>
+        <id>https://www.securityweek.com/?p=36484</id>
+        <link href="https://www.securityweek.com/new-offerings-from-protect-ai-venafi-tackle-software-supply-chain-security/"/>
+        <updated>2024-01-25T14:42:06.000Z</updated>
+        <summary type="html"><![CDATA[Two new products aim to secure the traditional OSS supply chain, and the new AI model software supply chain.
+The post New Offerings From Protect AI, Venafi Tackle Software Supply Chain Security appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fintech Company EquiLend Restoring Systems Following Cyberattack]]></title>
+        <id>https://www.securityweek.com/?p=36493</id>
+        <link href="https://www.securityweek.com/fintech-company-equilend-restoring-systems-following-cyberattack/"/>
+        <updated>2024-01-25T14:35:01.000Z</updated>
+        <summary type="html"><![CDATA[Fintech firm EquiLend is investigating a cyberattack (possibly a ransomware attack) that knocked some of its systems offline.
+The post Fintech Company EquiLend Restoring Systems Following Cyberattack appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SystemBC Malware's C2 Server Analysis Exposes Payload Delivery Tricks]]></title>
+        <id>https://thehackernews.com/2024/01/systembc-malwares-c2-server-analysis.html</id>
+        <link href="https://thehackernews.com/2024/01/systembc-malwares-c2-server-analysis.html"/>
+        <updated>2024-01-25T14:23:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have shed light on the command-and-control (C2) server of a known malware family called SystemBC.
+"SystemBC can be purchased on underground marketplaces and is supplied in an archive containing the implant, a command-and-control (C2) server, and a web administration portal written in PHP," Kroll said in an analysis published last week.
+The risk and]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cisco Patches Critical Vulnerability in Enterprise Collaboration Products]]></title>
+        <id>https://www.securityweek.com/?p=36491</id>
+        <link href="https://www.securityweek.com/cisco-patches-critical-vulnerability-in-enterprise-collaboration-products/"/>
+        <updated>2024-01-25T13:09:44.000Z</updated>
+        <summary type="html"><![CDATA[A critical flaw in Cisco Unified Communications and Contact Center Solutions products could lead to remote code execution.
+The post Cisco Patches Critical Vulnerability in Enterprise Collaboration Products appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tesla Infotainment Hack Earns Researchers $100,000 at Pwn2Own Automotive]]></title>
+        <id>https://www.securityweek.com/?p=36489</id>
+        <link href="https://www.securityweek.com/tesla-infotainment-hack-earns-researchers-100000-at-pwn2own-automotive/"/>
+        <updated>2024-01-25T12:32:18.000Z</updated>
+        <summary type="html"><![CDATA[Over $1 million paid out in the first two days of Pwn2Own Automotive for Tesla, infotainment and EV charger hacks.
+The post Tesla Infotainment Hack Earns Researchers $100,000 at Pwn2Own Automotive appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quantum Computing Skeptics]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/01/quantum-computing-skeptics.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/01/quantum-computing-skeptics.html"/>
+        <updated>2024-01-25T12:04:15.000Z</updated>
+        <summary type="html"><![CDATA[<p>Interesting <a href="https://spectrum.ieee.org/quantum-computing-skeptics">article</a>. I am also skeptical that we are going to see useful quantum computers anytime soon. Since at least 2019, I <a href="https://www.schneier.com/blog/archives/2019/10/factoring_2048.html">have been saying</a> that this is hard. And that we don&#8217;t know if it&#8217;s &#8220;land a person on the surface of the moon&#8221; hard,  or &#8220;land a person on the surface of the sun&#8221; hard. They&#8217;re both hard, but very different.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Two Industrial Control Systems Advisories]]></title>
+        <id>/node/20797</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/01/25/cisa-releases-two-industrial-control-systems-advisories"/>
+        <updated>2024-01-25T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released two Industrial Control Systems (ICS) advisories on January 25, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+ICSA-24-025-01 Opteev MachineSense FeverWarn
+ICSA-24-025-02 SystemK NVR 504/508/516
+CISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cisco Releases Security Advisory for Multiple Unified Communications and Contact Center Solutions Products]]></title>
+        <id>/node/20793</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/01/25/cisco-releases-security-advisory-multiple-unified-communications-and-contact-center-solutions"/>
+        <updated>2024-01-25T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cisco released a security advisory to address a vulnerability (CVE-2024-20253) affecting multiple Unified Communications Products. A cyber threat actor could exploit this vulnerability to take control of an affected system.
+CISA encourages users and administrators to review the Cisco Unified Communications Products Remote Code Execution Vulnerability advisory and apply the necessary updates.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Jenkins Vulnerability Exposes Servers to RCE Attacks - Patch ASAP!]]></title>
+        <id>https://thehackernews.com/2024/01/critical-jenkins-vulnerability-exposes.html</id>
+        <link href="https://thehackernews.com/2024/01/critical-jenkins-vulnerability-exposes.html"/>
+        <updated>2024-01-25T11:57:00.000Z</updated>
+        <summary type="html"><![CDATA[The maintainers of the open-source continuous integration/continuous delivery and deployment (CI/CD) automation software Jenkins have resolved nine security flaws, including a critical bug that, if successfully exploited, could result in remote code execution (RCE).
+The issue, assigned the CVE identifier CVE-2024-23897, has been described as an arbitrary file read vulnerability through the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thousands of GitLab Instances Unpatched Against Critical Password Reset Bug]]></title>
+        <id>https://www.securityweek.com/?p=36488</id>
+        <link href="https://www.securityweek.com/thousands-of-gitlab-instances-unpatched-against-critical-password-reset-bug/"/>
+        <updated>2024-01-25T11:53:21.000Z</updated>
+        <summary type="html"><![CDATA[Over 5,000 GitLab servers have yet to be patched against CVE-2023-7028, a critical password reset vulnerability.
+The post Thousands of GitLab Instances Unpatched Against Critical Password Reset Bug appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firefox 122 Patches 15 Vulnerabilities]]></title>
+        <id>https://www.securityweek.com/?p=36487</id>
+        <link href="https://www.securityweek.com/firefox-122-patches-15-vulnerabilities/"/>
+        <updated>2024-01-25T11:32:11.000Z</updated>
+        <summary type="html"><![CDATA[Updates released for Firefox and Thunderbird resolve 15 vulnerabilities, including five high-severity bugs.
+The post Firefox 122 Patches 15 Vulnerabilities appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LODEINFO Fileless Malware Evolves with Anti-Analysis and Remote Code Tricks]]></title>
+        <id>https://thehackernews.com/2024/01/lodeinfo-fileless-malware-evolves-with.html</id>
+        <link href="https://thehackernews.com/2024/01/lodeinfo-fileless-malware-evolves-with.html"/>
+        <updated>2024-01-25T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have uncovered an updated version of a backdoor called LODEINFO that's distributed via spear-phishing attacks.
+The findings come from Japanese company ITOCHU Cyber & Intelligence, which said the malware "has been updated with new features, as well as changes to the anti-analysis (analysis avoidance) techniques."
+LODEINFO (versions 0.6.6 and 0.6.7]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cyber Threat Landscape: 7 Key Findings and Upcoming Trends for 2024]]></title>
+        <id>https://thehackernews.com/2024/01/cyber-threat-landscape-7-key-findings.html</id>
+        <link href="https://thehackernews.com/2024/01/cyber-threat-landscape-7-key-findings.html"/>
+        <updated>2024-01-25T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The 2023/2024 Axur Threat Landscape Report provides a comprehensive analysis of the latest cyber threats. The information combines data from the platform's surveillance of the Surface, Deep, and Dark Web with insights derived from the in-depth research and investigations conducted by the Threat Intelligence team.
+Discover the full scope of digital threats in the Axur Report 2023/2024.
+Overview]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ring Will No Longer Allow Police to Request Doorbell Camera Footage From Users]]></title>
+        <id>https://www.securityweek.com/?p=36486</id>
+        <link href="https://www.securityweek.com/ring-will-no-longer-allow-police-to-request-doorbell-camera-footage-from-users/"/>
+        <updated>2024-01-25T11:26:59.000Z</updated>
+        <summary type="html"><![CDATA[Amazon-owned Ring will stop allowing police to request doorbell camera footage from users following criticism from privacy advocates.
+The post Ring Will No Longer Allow Police to Request Doorbell Camera Footage From Users appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China-backed Hackers Hijack Software Updates to Implant "NSPX30" Spyware]]></title>
+        <id>https://thehackernews.com/2024/01/china-backed-hackers-hijack-software.html</id>
+        <link href="https://thehackernews.com/2024/01/china-backed-hackers-hijack-software.html"/>
+        <updated>2024-01-25T10:08:00.000Z</updated>
+        <summary type="html"><![CDATA[A previously undocumented China-aligned threat actor has been linked to a set of adversary-in-the-middle (AitM) attacks that hijack update requests from legitimate software to deliver a sophisticated implant named NSPX30.
+Slovak cybersecurity firm ESET is tracking the advanced persistent threat (APT) group under the name Blackwood. It's said to be active since at least 2018.
+The NSPX30]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HPE Says Russian Government Hackers Had Access to Emails for 6 Months]]></title>
+        <id>https://www.securityweek.com/?p=36480</id>
+        <link href="https://www.securityweek.com/hpe-says-russian-government-hackers-had-access-to-emails-for-6-months/"/>
+        <updated>2024-01-25T09:51:17.000Z</updated>
+        <summary type="html"><![CDATA[HPE told the SEC that Russian state-sponsored threat group Midnight Blizzard had access to an email system for several months.
+The post HPE Says Russian Government Hackers Had Access to Emails for 6 Months appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New CherryLoader Malware Mimics CherryTree to Deploy PrivEsc Exploits]]></title>
+        <id>https://thehackernews.com/2024/01/new-cherryloader-malware-mimics.html</id>
+        <link href="https://thehackernews.com/2024/01/new-cherryloader-malware-mimics.html"/>
+        <updated>2024-01-25T07:21:00.000Z</updated>
+        <summary type="html"><![CDATA[A new Go-based malware loader called CherryLoader has been discovered by threat hunters in the wild to deliver additional payloads onto compromised hosts for follow-on exploitation.
+Arctic Wolf Labs, which discovered the new attack tool in two recent intrusions, said the loader's icon and name masquerades as the legitimate CherryTree note-taking application to dupe potential victims]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tech Giant HP Enterprise Hacked by Russian Hackers Linked to DNC Breach]]></title>
+        <id>https://thehackernews.com/2024/01/tech-giant-hp-enterprise-hacked-by.html</id>
+        <link href="https://thehackernews.com/2024/01/tech-giant-hp-enterprise-hacked-by.html"/>
+        <updated>2024-01-25T05:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Hackers with links to the Kremlin are suspected to have infiltrated information technology company Hewlett Packard Enterprise's (HPE) cloud email environment to exfiltrate mailbox data.
+"The threat actor accessed and exfiltrated data beginning in May 2023 from a small percentage of HPE mailboxes belonging to individuals in our cybersecurity, go-to-market, business segments, and other functions,"]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hook Younger Users With Cybersecurity Education Designed for Them]]></title>
+        <id>https://www.darkreading.com/endpoint-security/hook-younger-users-with-cybersecurity-education-designed-for-them</id>
+        <link href="https://www.darkreading.com/endpoint-security/hook-younger-users-with-cybersecurity-education-designed-for-them"/>
+        <updated>2024-01-25T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Security should not be treated as one-size-fits all, and that is doubly true when it comes to security awareness education. Training should be customized by age, learning styles, and preferred media if it is to be effective.]]></summary>
+        <author>
+            <name>Tatiana Walk-Morris</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Darktrace and Garland Technology Collaborate to Help Businesses Secure Operational Technology Environments]]></title>
         <id>https://www.darkreading.com/cybersecurity-operations/darktrace-and-garland-technology-collaborate-to-help-businesses-secure-operational-technology-environments</id>
@@ -7147,126 +7819,6 @@ The post Cyberattack Disrupts Operations of First American, Subsidiaries appeare
 The post Refocusing on Cybersecurity Essentials in 2024: A Critical Review appeared first on SecurityWeek.]]></summary>
         <author>
             <name>Torsten George</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Police Warn Hundreds of Online Merchants of Skimmer Infections]]></title>
-        <id>https://www.securityweek.com/?p=36175</id>
-        <link href="https://www.securityweek.com/police-warn-hundreds-of-online-merchants-of-skimmer-infections/"/>
-        <updated>2023-12-27T12:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Law enforcement authorities in 17 countries discovered more than 400 online merchants infected with skimmers.
-The post Police Warn Hundreds of Online Merchants of Skimmer Infections appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chinese Hackers Exploited New Zero-Day in Barracuda's ESG Appliances]]></title>
-        <id>https://thehackernews.com/2023/12/chinese-hackers-exploited-new-zero-day.html</id>
-        <link href="https://thehackernews.com/2023/12/chinese-hackers-exploited-new-zero-day.html"/>
-        <updated>2023-12-27T12:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Barracuda has revealed that Chinese threat actors exploited a new zero-day in its Email Security Gateway (ESG) appliances to deploy backdoors on a "limited number" of devices.
-Tracked as CVE-2023-7102, the issue relates to a case of arbitrary code execution that resides within a third-party and open-source library Spreadsheet::ParseExcel that's used by the Amavis scanner within]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ransomware Group Claims 100 Gb of Data Stolen From Nissan]]></title>
-        <id>https://www.securityweek.com/?p=36177</id>
-        <link href="https://www.securityweek.com/ransomware-group-claims-100-gb-of-data-stolen-from-nissan/"/>
-        <updated>2023-12-27T12:32:54.000Z</updated>
-        <summary type="html"><![CDATA[The Akira ransomware group has taken credit for the recent attack that impacted Nissan Australia and New Zealand.
-The post Ransomware Group Claims 100 Gb of Data Stolen From Nissan appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CBS Parent National Amusements Discloses Year-Old Data Breach]]></title>
-        <id>https://www.securityweek.com/?p=36174</id>
-        <link href="https://www.securityweek.com/cbs-parent-national-amusements-discloses-year-old-data-breach/"/>
-        <updated>2023-12-27T12:20:00.000Z</updated>
-        <summary type="html"><![CDATA[CBS parent company National Amusements is informing 80,000 individuals of a December 2022 data breach.
-The post CBS Parent National Amusements Discloses Year-Old Data Breach appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New iPhone Security Features to Protect Stolen Devices]]></title>
-        <id>https://www.schneier.com/blog/archives/2023/12/new-iphone-security-features-to-protect-stolen-devices.html</id>
-        <link href="https://www.schneier.com/blog/archives/2023/12/new-iphone-security-features-to-protect-stolen-devices.html"/>
-        <updated>2023-12-27T12:01:25.000Z</updated>
-        <summary type="html"><![CDATA[<p>Apple is <a href="https://www.macrumors.com/2023/12/12/ios-17-3-stolen-device-protection-feature/">rolling out</a> a new &#8220;Stolen Device Protection&#8221; feature that seems well thought out:</p>
-<blockquote><p>When Stolen Device Protection is turned on, Face ID or Touch ID authentication is required for additional actions, including viewing passwords or passkeys stored in iCloud Keychain, applying for a new Apple Card, turning off Lost Mode, erasing all content and settings, using payment methods saved in Safari, and more. No passcode fallback is available in the event that the user is unable to complete Face ID or Touch ID authentication.</p>
-<p>For especially sensitive actions, including changing the password of the Apple ID account associated with the iPhone, the feature adds a security delay on top of biometric authentication. In these cases, the user must authenticate with Face ID or Touch ID, wait one hour, and authenticate with Face ID or Touch ID again. However, Apple said there will be no delay when the iPhone is in familiar locations, such as at home or work...</p></blockquote>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Integris Health Data Breach Could Impact Millions]]></title>
-        <id>https://www.securityweek.com/?p=36173</id>
-        <link href="https://www.securityweek.com/integris-health-data-breach-could-impact-millions/"/>
-        <updated>2023-12-27T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Integris Health has started informing patients of a data breach impacting their personal information.
-The post Integris Health Data Breach Could Impact Millions appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chinese Hackers Deliver Malware to Barracuda Email Security Appliances via New Zero-Day]]></title>
-        <id>https://www.securityweek.com/?p=36172</id>
-        <link href="https://www.securityweek.com/chinese-hackers-deliver-malware-to-barracuda-email-security-appliances-via-new-zero-day/"/>
-        <updated>2023-12-27T11:05:30.000Z</updated>
-        <summary type="html"><![CDATA[Chinese hackers exploited a zero-day tracked as CVE-2023-7102 to deliver malware to Barracuda Email Security Gateway (ESG) appliances.
-The post Chinese Hackers Deliver Malware to Barracuda Email Security Appliances via New Zero-Day appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Sneaky Xamalicious Android Malware Hits Over 327,000 Devices]]></title>
-        <id>https://thehackernews.com/2023/12/new-sneaky-xamalicious-android-malware.html</id>
-        <link href="https://thehackernews.com/2023/12/new-sneaky-xamalicious-android-malware.html"/>
-        <updated>2023-12-27T08:24:00.000Z</updated>
-        <summary type="html"><![CDATA[A new Android backdoor has been discovered with potent capabilities to carry out a range of malicious actions on infected devices.
-Dubbed Xamalicious by the McAfee Mobile Research Team, the malware is so named for the fact that it's developed using an open-source mobile app framework called Xamarin and abuses the operating system's accessibility permissions to fulfill its objectives.]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Warning: Poorly Secured Linux SSH Servers Under Attack for Cryptocurrency Mining]]></title>
-        <id>https://thehackernews.com/2023/12/warning-poorly-secured-linux-ssh.html</id>
-        <link href="https://thehackernews.com/2023/12/warning-poorly-secured-linux-ssh.html"/>
-        <updated>2023-12-27T05:29:00.000Z</updated>
-        <summary type="html"><![CDATA[Poorly secured Linux SSH servers are being targeted by bad actors to install port scanners and dictionary attack tools with the goal of targeting other vulnerable servers and co-opting them into a network to carry out cryptocurrency mining and distributed denial-of-service (DDoS) attacks.
-"Threat actors can also choose to install only scanners and sell the breached IP and account credentials on]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cyber Employment 2024: Sky-High Expectations Fail Businesses & Job Seekers]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/cyber-employment-2024-sky-high-expectations-fail-businesses-job-seekers</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/cyber-employment-2024-sky-high-expectations-fail-businesses-job-seekers"/>
-        <updated>2023-12-26T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Unreasonable requirements, low salaries, and a lack of commitment to training leaves businesses unable to hire their perfect cybersecurity pros. So, is there really a workforce "shortage"?]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Europe Sees More Hacktivism, GDPR Echoes, and New Security Laws Ahead for 2024]]></title>
-        <id>https://www.darkreading.com/cyber-risk/europe-hacktivism-gdpr-new-security-laws-ahead-2024</id>
-        <link href="https://www.darkreading.com/cyber-risk/europe-hacktivism-gdpr-new-security-laws-ahead-2024"/>
-        <updated>2023-12-26T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Political and economic motivations impel nation-state and independent hackers, while the European Union strives to keep its members secure and prepared.]]></summary>
-        <author>
-            <name>Nathan Eddy, Contributing Writer</name>
         </author>
     </entry>
 </feed>
