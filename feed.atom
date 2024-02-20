@@ -2,10 +2,249 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-02-19T01:07:32.669Z</updated>
+    <updated>2024-02-20T01:05:21.558Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-6644-1: LibTIFF vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6644-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6644-1"/>
+        <updated>2024-02-19T20:07:28.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that LibTIFF incorrectly handled certain files. If
+a user were tricked into opening a specially crafted file, an attacker
+could possibly use this issue to cause the application to crash, resulting
+in a denial of service. (CVE-2023-52356)
+
+It was discovered that LibTIFF incorrectly handled certain image files
+with the tiffcp utility. If a user were tricked into opening a specially
+crafted image file, an attacker could possibly use this issue to cause
+tiffcp to crash, resulting in a denial of service. (CVE-2023-6228)
+
+It was discovered that LibTIFF incorrectly handled certain files. If
+a user were tricked into opening a specially crafted file, an attacker
+could possibly use this issue to cause the application to consume
+resources, resulting in a denial of service. (CVE-2023-6277)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6643-1: NPM IP vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6643-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6643-1"/>
+        <updated>2024-02-19T17:14:36.000Z</updated>
+        <summary type="html"><![CDATA[Emre Durmaz discovered that NPM IP package incorrectly distinguished
+between private and public IP addresses. A remote attacker could
+possibly use this issue to perform
+Server-Side Request Forgery (SSRF) attacks.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EU Court of Human Rights Rejects Encryption Backdoors]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/02/eu-court-of-human-rights-rejects-encryption-backdoors.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/02/eu-court-of-human-rights-rejects-encryption-backdoors.html"/>
+        <updated>2024-02-19T16:15:17.000Z</updated>
+        <summary type="html"><![CDATA[<p>The European Court of Human Rights has <a href="https://hudoc.echr.coe.int/eng/#{%22itemid%22:[%22001-230854%22]}">ruled</a> that breaking end-to-end encryption by adding backdoors <a href="https://arstechnica.com/tech-policy/2024/02/human-rights-court-takes-stand-against-weakening-of-end-to-end-encryption/">violates human rights</a>:</p>
+<blockquote><p>Seemingly most critically, the [Russian] government told the ECHR that any intrusion on private lives resulting from decrypting messages was &#8220;necessary&#8221; to combat terrorism in a democratic society. To back up this claim, the government pointed to a 2017 terrorist attack that was &#8220;coordinated from abroad through secret chats via Telegram.&#8221; The government claimed that a second terrorist attack that year was prevented after the government discovered it was being coordinated through Telegram chats...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Name That Toon: Keys to the Kingdom]]></title>
+        <id>https://www.darkreading.com/application-security/name-that-toon-keys-to-the-kingdom</id>
+        <link href="https://www.darkreading.com/application-security/name-that-toon-keys-to-the-kingdom"/>
+        <updated>2024-02-19T15:01:11.000Z</updated>
+        <summary type="html"><![CDATA[Feeling creative? Submit your caption and our panel of experts will reward the winner with a $25 Amazon gift card.]]></summary>
+        <author>
+            <name>John Klossner, Cartoonist</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6642-1: Bind vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6642-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6642-1"/>
+        <updated>2024-02-19T14:00:14.000Z</updated>
+        <summary type="html"><![CDATA[Shoham Danino, Anat Bremler-Barr, Yehuda Afek, and Yuval Shavitt discovered
+that Bind incorrectly handled parsing large DNS messages. A remote attacker
+could possibly use this issue to cause Bind to consume resources, leading
+to a denial of service. (CVE-2023-4408)
+
+Elias Heftrig, Haya Schulmann, Niklas Vogel, and Michael Waidner discovered
+that Bind icorrectly handled validating DNSSEC messages. A remote attacker
+could possibly use this issue to cause Bind to consume resources, leading
+to a denial of service. (CVE-2023-50387)
+
+It was discovered that Bind incorrectly handled preparing an NSEC3 closest
+encloser proof. A remote attacker could possibly use this issue to cause
+Bind to consume resources, leading to a denial of service. (CVE-2023-50868)
+
+It was discovered that Bind incorrectly handled reverse zone queries when
+nxdomain-redirect is enabled. A remote attacker could possibly use this
+issue to cause Bind to crash, leading to a denial of service.
+(CVE-2023-5517)
+
+It was discovered that Bind incorrectly handled certain specific recursive
+query patterns. A remote attacker could possibly use this issue to cause
+Bind to consume memory, leading to a denial of service. (CVE-2023-6516)
+
+Bind has been updated to 9.6.48. In addition to security fixes, the updated
+packages contain bug fixes, new features, and possibly incompatible
+changes.
+
+Please see the following for more information:
+https://downloads.isc.org/isc/bind9/9.16.48/doc/arm/html/notes.html]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NSO Group Adds 'MMS Fingerprinting' Zero-Click Attack to Spyware Arsenal]]></title>
+        <id>https://www.darkreading.com/application-security/nso-group-adds-mms-fingerprinting-zero-click-attack-spyware-arsenal</id>
+        <link href="https://www.darkreading.com/application-security/nso-group-adds-mms-fingerprinting-zero-click-attack-spyware-arsenal"/>
+        <updated>2024-02-19T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The purveyor of the infamous Pegasus mobile spyware now has a new method for obtaining critical information from target iPhones and other mobile devices.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ukrainian Raccoon Infostealer Operator Extradited to US]]></title>
+        <id>https://www.securityweek.com/?p=36797</id>
+        <link href="https://www.securityweek.com/ukrainian-raccoon-infostealer-operator-extradited-to-us/"/>
+        <updated>2024-02-19T13:57:07.000Z</updated>
+        <summary type="html"><![CDATA[Alleged Raccoon Infostealer operator Mark Sokolovsky is awaiting trial in the US, after being extradited from the Netherlands.
+The post Ukrainian Raccoon Infostealer Operator Extradited to US appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta Warns of 8 Spyware Firms Targeting iOS, Android, and Windows Devices]]></title>
+        <id>https://thehackernews.com/2024/02/meta-warns-of-8-spyware-firms-targeting.html</id>
+        <link href="https://thehackernews.com/2024/02/meta-warns-of-8-spyware-firms-targeting.html"/>
+        <updated>2024-02-19T13:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Meta Platforms said it took a series of steps to curtail malicious activity from eight different firms based in Italy, Spain, and the United Arab Emirates (U.A.E.) operating in the surveillance-for-hire industry.
+The findings are part of its Adversarial Threat Report for the fourth quarter of 2023. The spyware targeted iOS, Android, and Windows devices.
+"Their various malware included]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Russian Cyberspies Exploit Roundcube Flaws Against European Governments]]></title>
+        <id>https://www.securityweek.com/?p=36796</id>
+        <link href="https://www.securityweek.com/russian-cyberspies-exploit-roundcube-flaws-against-european-governments/"/>
+        <updated>2024-02-19T12:57:08.000Z</updated>
+        <summary type="html"><![CDATA[Russian cyberespionage group targets European government, military, and critical infrastructure entities via Roundcube vulnerabilities.
+The post Russian Cyberspies Exploit Roundcube Flaws Against European Governments appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ransomware Group Takes Credit for LoanDepot, Prudential Financial Attacks]]></title>
+        <id>https://www.securityweek.com/?p=36795</id>
+        <link href="https://www.securityweek.com/ransomware-group-takes-credit-for-loandepot-prudential-financial-attacks/"/>
+        <updated>2024-02-19T12:32:44.000Z</updated>
+        <summary type="html"><![CDATA[The BlackCat/Alphv ransomware group has taken credit for the LoanDepot and Prudential Financial attacks, threatening to sell or leak data.
+The post Ransomware Group Takes Credit for LoanDepot, Prudential Financial Attacks appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Achieve the Best Risk-Based Alerting (Bye-Bye SIEM)]]></title>
+        <id>https://thehackernews.com/2024/02/bye-bye-siem-hello-risk-based-alerting.html</id>
+        <link href="https://thehackernews.com/2024/02/bye-bye-siem-hello-risk-based-alerting.html"/>
+        <updated>2024-02-19T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Did you know that Network Detection and Response (NDR) has become the most effective technology to detect cyber threats? In contrast to SIEM, NDR offers adaptive cybersecurity with reduced false alerts and efficient threat response.
+Are you aware of Network Detection and Response (NDR) and how it’s become the most effective technology to detect cyber threats? 
+NDR massively]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Q&amp;A: The Cybersecurity Training Gap in Industrial Networks]]></title>
+        <id>https://www.darkreading.com/ics-ot-security/q-a-learning-secure-ot-environments</id>
+        <link href="https://www.darkreading.com/ics-ot-security/q-a-learning-secure-ot-environments"/>
+        <updated>2024-02-19T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cyberattacks and threats increasingly are honed in on ICS/OT networks, but security training for operators of these critical infrastructure environments is perilously scarce.]]></summary>
+        <author>
+            <name>Dan Raywood, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anatsa Android Trojan Bypasses Google Play Security, Expands Reach to New Countries]]></title>
+        <id>https://thehackernews.com/2024/02/anatsa-android-trojan-bypasses-google.html</id>
+        <link href="https://thehackernews.com/2024/02/anatsa-android-trojan-bypasses-google.html"/>
+        <updated>2024-02-19T10:29:00.000Z</updated>
+        <summary type="html"><![CDATA[The Android banking trojan known as Anatsa has expanded its focus to include Slovakia, Slovenia, and Czechia as part of a new campaign observed in November 2023.
+"Some of the droppers in the campaign successfully exploited the accessibility service, despite Google Play's enhanced detection and protection mechanisms," ThreatFabric said in a report shared with The Hacker News.]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Google Initiative to Foster AI in Cybersecurity]]></title>
+        <id>https://www.securityweek.com/?p=36794</id>
+        <link href="https://www.securityweek.com/new-google-initiative-to-foster-ai-in-cybersecurity/"/>
+        <updated>2024-02-19T10:27:24.000Z</updated>
+        <summary type="html"><![CDATA[Google’s new AI Cyber Defense Initiative focuses on boosting cybersecurity through artificial intelligence.
+The post New Google Initiative to Foster AI in Cybersecurity appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iOS Trojan Collects Face and Other Data for Bank Account Hacking]]></title>
+        <id>https://www.securityweek.com/?p=36793</id>
+        <link href="https://www.securityweek.com/ios-trojan-collects-face-and-other-data-for-bank-account-hacking/"/>
+        <updated>2024-02-19T10:10:05.000Z</updated>
+        <summary type="html"><![CDATA[Chinese hackers use Android and iOS trojans to obtain information needed to steal money from victims’ bank accounts.
+The post iOS Trojan Collects Face and Other Data for Bank Account Hacking  appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6641-1: curl vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6641-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6641-1"/>
+        <updated>2024-02-19T08:44:03.000Z</updated>
+        <summary type="html"><![CDATA[Harry Sintonen discovered that curl incorrectly handled mixed case cookie
+domains. A remote attacker could possibly use this issue to set cookies
+that get sent to different and unrelated sites and domains.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Russian-Linked Hackers Target 80+ Organizations via Roundcube Flaws]]></title>
+        <id>https://thehackernews.com/2024/02/russian-linked-hackers-breach-80.html</id>
+        <link href="https://thehackernews.com/2024/02/russian-linked-hackers-breach-80.html"/>
+        <updated>2024-02-19T05:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors operating with interests aligned to Belarus and Russia have been linked to a new cyber espionage campaign that likely exploited cross-site scripting (XSS) vulnerabilities in Roundcube webmail servers to target over 80 organizations.
+These entities are primarily located in Georgia, Poland, and Ukraine, according to Recorded Future, which attributed the intrusion set to a threat]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Iranian Hackers Target Middle East Policy Experts with New BASICSTAR Backdoor]]></title>
+        <id>https://thehackernews.com/2024/02/iranian-hackers-target-middle-east.html</id>
+        <link href="https://thehackernews.com/2024/02/iranian-hackers-target-middle-east.html"/>
+        <updated>2024-02-19T04:39:00.000Z</updated>
+        <summary type="html"><![CDATA[The Iranian-origin threat actor known as Charming Kitten has been linked to a new set of attacks aimed at Middle East policy experts with a new backdoor called BASICSTAR by creating a fake webinar portal.
+Charming Kitten, also called APT35, CharmingCypress, Mint Sandstorm, TA453, and Yellow Garuda, has a history of orchestrating a wide range of social engineering campaigns that cast a]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tech Companies Sign Accord to Combat AI-Generated Election Trickery]]></title>
         <id>https://www.securityweek.com/?p=36791</id>
