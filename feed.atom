@@ -2,10 +2,438 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-03-13T01:07:28.196Z</updated>
+    <updated>2024-03-14T01:06:26.183Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Claroty Team82: 63% of Known Exploited Vulnerabilities Tracked by CISA Are on Healthcare Organization Networks]]></title>
+        <id>https://www.darkreading.com/ics-ot-security/claroty-team-82-63-of-known-exploited-vulnerabilities-tracked-by-cisa-are-on-healthcare-organization-networks</id>
+        <link href="https://www.darkreading.com/ics-ot-security/claroty-team-82-63-of-known-exploited-vulnerabilities-tracked-by-cisa-are-on-healthcare-organization-networks"/>
+        <updated>2024-03-13T23:16:34.000Z</updated>
+        <author>
+            <name>darkreading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Codezero Raises $3.5M Seed Funding From Ballistic Ventures to Secure Multicloud Application Development]]></title>
+        <id>https://www.darkreading.com/cloud-security/codezero-raises-3-5m-seed-funding-from-ballistic-ventures-to-secure-multicloud-application-development</id>
+        <link href="https://www.darkreading.com/cloud-security/codezero-raises-3-5m-seed-funding-from-ballistic-ventures-to-secure-multicloud-application-development"/>
+        <updated>2024-03-13T23:08:42.000Z</updated>
+        <author>
+            <name>darkreading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claroty Launches Advanced Anomaly Threat Detection for Medigate]]></title>
+        <id>https://www.darkreading.com/ics-ot-security/claroty-launches-advanced-anomaly-threat-detection-for-medigate</id>
+        <link href="https://www.darkreading.com/ics-ot-security/claroty-launches-advanced-anomaly-threat-detection-for-medigate"/>
+        <updated>2024-03-13T22:52:13.000Z</updated>
+        <author>
+            <name>darkreading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT Spills Secrets in Novel PoC Attack]]></title>
+        <id>https://www.darkreading.com/cyber-risk/researchers-develop-new-attack-for-extracting-secrets-from-chatgpt-other-genai-tools</id>
+        <link href="https://www.darkreading.com/cyber-risk/researchers-develop-new-attack-for-extracting-secrets-from-chatgpt-other-genai-tools"/>
+        <updated>2024-03-13T21:59:23.000Z</updated>
+        <summary type="html"><![CDATA[Research is latest in a growing body of work to highlight troubling weaknesses in widely used generative AI tools.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yacht Retailer MarineMax Files 'Cyber Incident' with SEC]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/yacht-retailer-marinemax-files-cyber-incident-sec</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/yacht-retailer-marinemax-files-cyber-incident-sec"/>
+        <updated>2024-03-13T20:44:14.000Z</updated>
+        <summary type="html"><![CDATA[The Florida-based boat purveyor's operations were seemingly minimally disrupted and "not material," but it's filing an SEC notice anyway.]]></summary>
+        <author>
+            <name>Kristina Beek, Associate Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Heated Seats? Advanced Telematics? Software-Defined Cars Drive Risk]]></title>
+        <id>https://www.darkreading.com/ics-ot-security/heated-seats-advanced-telematics-software-defined-cars-drive-risk</id>
+        <link href="https://www.darkreading.com/ics-ot-security/heated-seats-advanced-telematics-software-defined-cars-drive-risk"/>
+        <updated>2024-03-13T20:30:19.000Z</updated>
+        <summary type="html"><![CDATA[Carmakers are offering all kinds of over-the-air subscriptions and features, many of which benefit the businesses that use them. But this also opens up a wider attack surface for vehicle attackers.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6587-5: X.Org X Server vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6587-5</id>
+        <link href="https://ubuntu.com/security/notices/USN-6587-5"/>
+        <updated>2024-03-13T20:19:27.000Z</updated>
+        <summary type="html"><![CDATA[USN-6587-1 fixed several vulnerabilities in X.Org. This update provides
+the corresponding update for Ubuntu 14.04 LTS.
+
+Original advisory details:
+
+ Jan-Niklas Sohn discovered that the X.Org X Server incorrectly handled
+ memory when processing the RRChangeOutputProperty and
+ RRChangeProviderProperty APIs. An attacker could possibly use this issue to
+ cause the X Server to crash, or obtain sensitive information.
+ (CVE-2023-6478)
+
+ Jan-Niklas Sohn discovered that the X.Org X Server incorrectly handled
+ memory when processing the DeviceFocusEvent and ProcXIQueryPointer APIs. An
+ attacker could possibly use this issue to cause the X Server to crash,
+ obtain sensitive information, or execute arbitrary code. (CVE-2023-6816)
+
+ Jan-Niklas Sohn discovered that the X.Org X Server incorrectly handled
+ reattaching to a different master device. An attacker could use this issue
+ to cause the X Server to crash, leading to a denial of service, or possibly
+ execute arbitrary code. (CVE-2024-0229)
+
+ Olivier Fourdan and Donn Seeley discovered that the X.Org X Server
+ incorrectly labeled GLX PBuffers when used with SELinux. An attacker could
+ use this issue to cause the X Server to crash, leading to a denial of
+ service. (CVE-2024-0408)
+
+ Olivier Fourdan discovered that the X.Org X Server incorrectly handled
+ the curser code when used with SELinux. An attacker could use this issue to
+ cause the X Server to crash, leading to a denial of service.
+ (CVE-2024-0409)
+
+ Jan-Niklas Sohn discovered that the X.Org X Server incorrectly handled
+ memory when processing the XISendDeviceHierarchyEvent API. An attacker
+ could possibly use this issue to cause the X Server to crash, or execute
+ arbitrary code. (CVE-2024-21885)
+
+ Jan-Niklas Sohn discovered that the X.Org X Server incorrectly handled
+ devices being disabled. An attacker could possibly use this issue to cause
+ the X Server to crash, or execute arbitrary code. (CVE-2024-21886)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nissan Oceania Breached; 100K People Affected Down Under]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/nissan-oceania-breached-100k-customers-employees-dealers-affected</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/nissan-oceania-breached-100k-customers-employees-dealers-affected"/>
+        <updated>2024-03-13T19:24:53.000Z</updated>
+        <summary type="html"><![CDATA[A possible ransomware attack has exposed government and personal data of Australians and New Zealanders, encompassing the carmaker's customers, dealers, and employees.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6686-2: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6686-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-6686-2"/>
+        <updated>2024-03-13T17:17:13.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the DesignWare USB3 for Qualcomm SoCs driver in the
+Linux kernel did not properly handle certain error conditions during device
+registration. A local attacker could possibly use this to cause a denial of
+service (system crash). (CVE-2023-22995)
+
+It was discovered that a race condition existed in the Cypress touchscreen
+driver in the Linux kernel during device removal, leading to a use-after-
+free vulnerability. A physically proximate attacker could use this to cause
+a denial of service (system crash) or possibly execute arbitrary code.
+(CVE-2023-4134)
+
+黄思聪 discovered that the NFC Controller Interface (NCI) implementation in
+the Linux kernel did not properly handle certain memory allocation failure
+conditions, leading to a null pointer dereference vulnerability. A loc…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Patch Now: Kubernetes RCE Flaw Allows Full Takeover of Windows Nodes]]></title>
+        <id>https://www.darkreading.com/cloud-security/patch-now-kubernetes-flaw-allows-for-full-takeover-of-windows-nodes</id>
+        <link href="https://www.darkreading.com/cloud-security/patch-now-kubernetes-flaw-allows-for-full-takeover-of-windows-nodes"/>
+        <updated>2024-03-13T17:13:35.000Z</updated>
+        <summary type="html"><![CDATA[Attackers can remotely execute code with system privileges by exploiting a vulnerability in the source code of the open source container management system.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6681-3: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6681-3</id>
+        <link href="https://ubuntu.com/security/notices/USN-6681-3"/>
+        <updated>2024-03-13T16:43:52.000Z</updated>
+        <summary type="html"><![CDATA[Wenqing Liu discovered that the f2fs file system implementation in the
+Linux kernel did not properly validate inode types while performing garbage
+collection. An attacker could use this to construct a malicious f2fs image
+that, when mounted and operated on, could cause a denial of service (system
+crash). (CVE-2021-44879)
+
+It was discovered that the DesignWare USB3 for Qualcomm SoCs driver in the
+Linux kernel did not properly handle certain error conditions during device
+registration. A local attacker could possibly use this to cause a denial of
+service (system crash). (CVE-2023-22995)
+
+Bien Pham discovered that the netfiler subsystem in the Linux kernel
+contained a race condition, leading to a use-after-free vulnerability. A
+local user could use this to cause a denial of service (system cr…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Demystifying a Common Cybersecurity Myth]]></title>
+        <id>https://thehackernews.com/2024/03/demystifying-common-cybersecurity-myth.html</id>
+        <link href="https://thehackernews.com/2024/03/demystifying-common-cybersecurity-myth.html"/>
+        <updated>2024-03-13T15:39:00.000Z</updated>
+        <summary type="html"><![CDATA[One of the most common misconceptions in file upload cybersecurity is that certain tools are “enough” on their own—this is simply not the case. In our latest whitepaper OPSWAT CEO and Founder, Benny Czarny, takes a comprehensive look at what it takes to prevent malware threats in today’s ever-evolving file upload security landscape, and a big part of that is understanding where the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LockBit Ransomware Affiliate Sentenced to Prison in Canada]]></title>
+        <id>https://www.securityweek.com/?p=37152</id>
+        <link href="https://www.securityweek.com/lockbit-ransomware-affiliate-sentenced-to-prison-in-canada/"/>
+        <updated>2024-03-13T15:24:35.000Z</updated>
+        <summary type="html"><![CDATA[Mikhail Vasiliev was sentenced to prison in Canada and faces additional charges in the US for his role in the LockBit ransomware operation.
+The post LockBit Ransomware Affiliate Sentenced to Prison in Canada appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Europe’s World-First AI Rules Get Final Approval From Lawmakers. Here’s What Happens Next]]></title>
+        <id>https://www.securityweek.com/?p=37151</id>
+        <link href="https://www.securityweek.com/europes-world-first-ai-rules-get-final-approval-from-lawmakers-heres-what-happens-next/"/>
+        <updated>2024-03-13T15:15:13.000Z</updated>
+        <summary type="html"><![CDATA[Lawmakers in the European Parliament voted overwhelmingly in favor of the Artificial Intelligence Act, five years after regulations were first proposed. 
+The post Europe’s World-First AI Rules Get Final Approval From Lawmakers. Here’s What Happens Next appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chipmaker Patch Tuesday: Intel, AMD Address New Microarchitectural Vulnerabilities]]></title>
+        <id>https://www.securityweek.com/?p=37150</id>
+        <link href="https://www.securityweek.com/chipmaker-patch-tuesday-intel-amd-address-new-microarchitectural-vulnerabilities/"/>
+        <updated>2024-03-13T15:07:14.000Z</updated>
+        <summary type="html"><![CDATA[Intel and AMD publish 10 new security advisories this Patch Tuesday to inform customers about vulnerabilities impacting their products. 
+The post Chipmaker Patch Tuesday: Intel, AMD Address New Microarchitectural Vulnerabilities appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Healthcare’s Ransomware Epidemic: Why Cyberattacks Hit the Medical Sector With Alarming Frequency]]></title>
+        <id>https://www.securityweek.com/?p=37142</id>
+        <link href="https://www.securityweek.com/healthcares-ransomware-epidemic-why-cyberattacks-hit-the-medical-sector-with-alarming-frequency/"/>
+        <updated>2024-03-13T14:31:11.000Z</updated>
+        <summary type="html"><![CDATA[Healthcare has long been a primary target for ransomware attacks. This is not changing and is not likely to change. 
+The post Healthcare’s Ransomware Epidemic: Why Cyberattacks Hit the Medical Sector With Alarming Frequency appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[White House Budget Proposal Seeks Cybersecurity Funding Boost]]></title>
+        <id>https://www.securityweek.com/?p=37141</id>
+        <link href="https://www.securityweek.com/white-house-budget-proposal-seeks-cybersecurity-funding-boost/"/>
+        <updated>2024-03-13T14:08:12.000Z</updated>
+        <summary type="html"><![CDATA[The White House again wants to boost cybersecurity spending, proposing a $3 billion budget for CISA and billions more for other initiatives.
+The post White House Budget Proposal Seeks Cybersecurity Funding Boost  appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why You Need to Know Your AI's Ancestry]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/why-you-need-to-know-your-ai-ancestry</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/why-you-need-to-know-your-ai-ancestry"/>
+        <updated>2024-03-13T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Securing AI can't wait an hour, let alone a decade.]]></summary>
+        <author>
+            <name>Leo Scott</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PixPirate Android Banking Trojan Using New Evasion Tactic to Target Brazilian Users]]></title>
+        <id>https://thehackernews.com/2024/03/pixpirate-android-banking-trojan-using.html</id>
+        <link href="https://thehackernews.com/2024/03/pixpirate-android-banking-trojan-using.html"/>
+        <updated>2024-03-13T13:55:00.000Z</updated>
+        <summary type="html"><![CDATA[The threat actors behind the PixPirate Android banking trojan are leveraging a new trick to evade detection on compromised devices and harvest sensitive information from users in Brazil.
+The approach allows it to hide the malicious app’s icon from the home screen of the victim’s device, IBM said in a technical report published today.
+“Thanks to this new technique, during PixPirate reconnaissance]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT Plugin Vulnerabilities Exposed Data, Accounts]]></title>
+        <id>https://www.securityweek.com/?p=37140</id>
+        <link href="https://www.securityweek.com/chatgpt-plugin-vulnerabilities-exposed-data-accounts/"/>
+        <updated>2024-03-13T13:02:11.000Z</updated>
+        <summary type="html"><![CDATA[Three types of vulnerabilities related to ChatGPT plugins could have led to data exposure and account takeovers. 
+The post ChatGPT Plugin Vulnerabilities Exposed Data, Accounts appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nozomi Networks Raises $100 Million to Expand Industrial Cybersecurity Business]]></title>
+        <id>https://www.securityweek.com/?p=37137</id>
+        <link href="https://www.securityweek.com/nozomi-networks-raises-100-million-to-expand-industrial-cybersecurity-business/"/>
+        <updated>2024-03-13T12:31:17.000Z</updated>
+        <summary type="html"><![CDATA[Series E funding of $100 million includes investments from Mitsubishi Electric and Schneider Electric.
+The post Nozomi Networks Raises $100 Million to Expand Industrial Cybersecurity Business appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Mike Lennon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stanford University Data Breach Impacts 27,000 Individuals]]></title>
+        <id>https://www.securityweek.com/?p=37136</id>
+        <link href="https://www.securityweek.com/stanford-university-data-breach-impacts-27000-individuals/"/>
+        <updated>2024-03-13T12:05:09.000Z</updated>
+        <summary type="html"><![CDATA[Stanford University is notifying 27,000 people of a data breach impacting their personal information.
+The post Stanford University Data Breach Impacts 27,000 Individuals appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical ChatGPT Plug-in Vulnerabilities Expose Sensitive Data]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/critical-chatgpt-plugin-vulnerabilities-expose-sensitive-data</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/critical-chatgpt-plugin-vulnerabilities-expose-sensitive-data"/>
+        <updated>2024-03-13T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The vulnerabilities found in ChatGPT plug-ins — since remediated — heighten the risk of proprietary information being stolen and the threat of account takeover attacks.]]></summary>
+        <author>
+            <name>Nathan Eddy, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Seizes $1.4 Million in Cryptocurrency From Tech Scammers]]></title>
+        <id>https://www.securityweek.com/?p=37135</id>
+        <link href="https://www.securityweek.com/us-seizes-1-4-million-in-cryptocurrency-from-tech-scammers/"/>
+        <updated>2024-03-13T11:58:12.000Z</updated>
+        <summary type="html"><![CDATA[The US seized approximately $1.4 million worth of Tether tokens suspected of being fraud proceeds from tech scams.
+The post US Seizes $1.4 Million in Cryptocurrency From Tech Scammers appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webinar Today: CISO Strategies for Boardroom Success]]></title>
+        <id>https://www.securityweek.com/?p=37133</id>
+        <link href="https://www.securityweek.com/webinar-today-ciso-strategies-for-boardroom-success/"/>
+        <updated>2024-03-13T11:19:42.000Z</updated>
+        <summary type="html"><![CDATA[You're invited join SecurityWeek and Gutsy for the webinar, "From Protector to Influencer: CISO Strategies for Boardroom Success," as we address the emerging responsibilities for the CISO role.
+The post Webinar Today: CISO Strategies for Boardroom Success appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>SecurityWeek News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Burglars Using Wi-Fi Jammers to Disable Security Cameras]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/03/burglars-using-wi-fi-jammers-to-disable-security-cameras.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/03/burglars-using-wi-fi-jammers-to-disable-security-cameras.html"/>
+        <updated>2024-03-13T11:07:18.000Z</updated>
+        <summary type="html"><![CDATA[<p>The arms race continues, as burglars are learning how to <a href="https://www.tomshardware.com/networking/wi-fi-jamming-to-knock-out-cameras-suspected-in-nine-minnesota-burglaries-smart-security-systems-vulnerable-as-tech-becomes-cheaper-and-easier-to-acquire">use</a> <a href="https://ktla.com/news/local-news/police-warn-of-thieves-using-wifi-jamming-tech-to-disarm-cameras-alarms/">jammers</a> to disable Wi-Fi security cameras.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Join Our Webinar on Protecting Human and Non-Human Identities in SaaS Platforms]]></title>
+        <id>https://thehackernews.com/2024/03/join-our-webinar-on-protecting-human.html</id>
+        <link href="https://thehackernews.com/2024/03/join-our-webinar-on-protecting-human.html"/>
+        <updated>2024-03-13T10:33:00.000Z</updated>
+        <summary type="html"><![CDATA[Identities are the latest sweet spot for cybercriminals, now heavily targeting SaaS applications that are especially vulnerable in this attack vector. 
+The use of SaaS applications involves a wide range of identities, including human and non-human, such as service accounts, API keys, and OAuth authorizations. Consequently, any identity in a SaaS app can create an opening for cybercriminals to]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Highlight Google's Gemini AI Susceptibility to LLM Threats]]></title>
+        <id>https://thehackernews.com/2024/03/researchers-highlight-googles-gemini-ai.html</id>
+        <link href="https://thehackernews.com/2024/03/researchers-highlight-googles-gemini-ai.html"/>
+        <updated>2024-03-13T10:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Google's Gemini large language model (LLM) is susceptible to security threats that could cause it to divulge system prompts, generate harmful content, and carry out indirect injection attacks.
+The findings come from HiddenLayer, which said the issues impact consumers using Gemini Advanced with Google Workspace as well as companies using the LLM API.
+The first vulnerability involves]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['PixPirate' RAT Invisibly Triggers Wire Transfers From Android Devices]]></title>
+        <id>https://www.darkreading.com/application-security/pixpirate-rat-invisibly-triggers-wire-transfers-android-devices</id>
+        <link href="https://www.darkreading.com/application-security/pixpirate-rat-invisibly-triggers-wire-transfers-android-devices"/>
+        <updated>2024-03-13T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A multitooled Trojan cuts apart Brazil's premier wire transfer app. Could similar malware do the same to Venmo, Zelle, or PayPal?]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alert: Cybercriminals Deploying VCURMS and STRRAT Trojans via AWS and GitHub]]></title>
+        <id>https://thehackernews.com/2024/03/alert-cybercriminals-deploying-vcurms.html</id>
+        <link href="https://thehackernews.com/2024/03/alert-cybercriminals-deploying-vcurms.html"/>
+        <updated>2024-03-13T09:43:00.000Z</updated>
+        <summary type="html"><![CDATA[A new phishing campaign has been observed delivering remote access trojans (RAT) such as VCURMS and STRRAT by means of a malicious Java-based downloader.
+“The attackers stored malware on public services like Amazon Web Services (AWS) and GitHub, employing a commercial protector to avoid detection of the malware,” Fortinet FortiGuard Labs researcher Yurren Wan said.
+An unusual aspect of the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6663-2: OpenSSL update]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6663-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-6663-2"/>
+        <updated>2024-03-13T08:04:31.000Z</updated>
+        <summary type="html"><![CDATA[USN-6663-1 provided a security update for OpenSSL.
+This update provides the corresponding update for
+Ubuntu 16.04 LTS.
+
+Original advisory details:
+
+ As a security improvement, this update prevents OpenSSL
+ from returning an error when detecting wrong padding
+ in PKCS#1 v1.5 RSA, to prevent its use in possible
+ Bleichenbacher timing attacks.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Israeli Universities Hit by Supply Chain Cyberattack Campaign]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/israeli-universities-hit-by-supply-chain-cyberattack-campaign</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/israeli-universities-hit-by-supply-chain-cyberattack-campaign"/>
+        <updated>2024-03-13T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Iranian hacktivist group known as Lord Nemesis and Nemesis Kitten targeted an academic sector software firm in Israel to gain access to its customers.]]></summary>
+        <author>
+            <name>John Leyden, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft's March Updates Fix 61 Vulnerabilities, Including Critical Hyper-V Flaws]]></title>
+        <id>https://thehackernews.com/2024/03/microsofts-march-updates-fix-61.html</id>
+        <link href="https://thehackernews.com/2024/03/microsofts-march-updates-fix-61.html"/>
+        <updated>2024-03-13T05:38:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft on Tuesday released its monthly security update, addressing 61 different security flaws spanning its software, including two critical issues impacting Windows Hyper-V that could lead to denial-of-service (DoS) and remote code execution.
+Of the 61 vulnerabilities, two are rated Critical, 58 are rated Important, and one is rated Low in severity. None of the flaws are listed as]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google's Post-Quantum Upgrade Doesn't Mean We're All Protected Yet]]></title>
+        <id>https://www.darkreading.com/cloud-security/google-s-post-quantum-upgrade-doesn-t-mean-we-re-all-protected-yet</id>
+        <link href="https://www.darkreading.com/cloud-security/google-s-post-quantum-upgrade-doesn-t-mean-we-re-all-protected-yet"/>
+        <updated>2024-03-13T01:46:02.000Z</updated>
+        <summary type="html"><![CDATA[Just because Google has put in the work to quantum-proof Chrome doesn't mean post-quantum security is all set.]]></summary>
+        <author>
+            <name>Andersen Cheng</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GAO: CISA's OT Teams Inadequately Staffed]]></title>
         <id>https://www.darkreading.com/ics-ot-security/cisa-ot-teams-are-inadequately-staffed-reports-gao</id>
@@ -8696,318 +9124,6 @@ The post JFK Airport Taxi Hackers Sentenced to Prison appeared first on Security
 The post Ivanti Vulnerability Exploited to Deliver New ‘DSLog’ Backdoor appeared first on SecurityWeek.]]></summary>
         <author>
             <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ICS Patch Tuesday: Siemens Addresses 270 Vulnerabilities]]></title>
-        <id>https://www.securityweek.com/?p=36724</id>
-        <link href="https://www.securityweek.com/ics-patch-tuesday-siemens-addresses-270-vulnerabilities/"/>
-        <updated>2024-02-13T12:35:19.000Z</updated>
-        <summary type="html"><![CDATA[February 2024 ICS Patch Tuesday: Siemens and Schneider Electric release a total of 18 new security advisories.
-The post ICS Patch Tuesday: Siemens Addresses 270 Vulnerabilities appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Seeing is Believing… and Securing]]></title>
-        <id>https://www.securityweek.com/?p=36723</id>
-        <link href="https://www.securityweek.com/seeing-is-believing-and-securing/"/>
-        <updated>2024-02-13T12:08:51.000Z</updated>
-        <summary type="html"><![CDATA[Because you can’t secure what you can’t see, having real-time asset visibility across the network is vital to maximizing security, minimizing risk, and protecting the enterprise.
-The post Seeing is Believing… and Securing appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Danelle Au</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Molly White Reviews Blockchain Book]]></title>
-        <id>https://www.schneier.com/blog/archives/2024/02/molly-white-reviews-blockchain-book.html</id>
-        <link href="https://www.schneier.com/blog/archives/2024/02/molly-white-reviews-blockchain-book.html"/>
-        <updated>2024-02-13T12:07:03.000Z</updated>
-        <summary type="html"><![CDATA[<p>Molly White&#8212;of &#8220;<a href="https://www.web3isgoinggreat.com/">Web3 is Going Just Great</a>&#8221; fame&#8212;<a href="https://www.citationneeded.news/review-read-write-own-by-chris-dixon/">reviews</a> Chris Dixon&#8217;s blockchain solutions book: <a href="https://readwriteown.com/"><i>Read Write Own</i></a>:</p>
-<blockquote><p>In fact, throughout the entire book, Dixon fails to identify a <em>single</em> blockchain project that has successfully provided a non-speculative service at any kind of scale. The closest he ever comes is when he speaks of how &#8220;for decades, technologists have dreamed of building a grassroots internet access provider&#8221;. He describes one project that &#8220;got further than anyone else&#8221;: Helium. He&#8217;s right, as long as you ignore the fact that Helium was providing LoRaWAN, not Internet, that by the time he was writing his book Helium hotspots had long since passed the phase where they might generate even enough tokens for their operators to merely break even, and that the network was pulling in somewhere around $1,150 in usage fees a month despite the company being valued at $1.2 billion. Oh, and that the company had widely lied to the public about its supposed big-name clients, and that its executives have been accused of hoarding the project&#8217;s token to enrich themselves. But hey, a16z sunk millions into Helium (a fact Dixon never mentions), so might as well try to drum up some new interest!...</p></blockquote>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Adds Two Known Exploited Vulnerabilities to Catalog]]></title>
-        <id>/node/20920</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/02/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"/>
-        <updated>2024-02-13T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
-CVE-2024-21412 Microsoft Windows Internet Shortcut Files Security Feature Bypass Vulnerability
-CVE-2024-21351 Microsoft Windows SmartScreen Security Feature Bypass Vulnerability
-These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. 
-Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
-Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Releases Security Updates for Multiple Products]]></title>
-        <id>/node/20930</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/02/13/microsoft-releases-security-updates-multiple-products"/>
-        <updated>2024-02-13T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has released security updates to address vulnerabilities in multiple products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.
-CISA encourages users and administrators to review Microsoft’s February Security Update Guide and apply the necessary updates.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Releases One Industrial Control Systems Advisory]]></title>
-        <id>/node/20924</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/02/13/cisa-releases-one-industrial-control-systems-advisory"/>
-        <updated>2024-02-13T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA released one Industrial Control Systems (ICS) advisory on February 13, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
-ICSA-24-044-01 Mitsubishi Electric MELSEC iQ-R Series Safety CPU
-CISA encourages users and administrators to review the newly released ICS advisory for technical details and mitigations.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adobe Releases Security Updates for Multiple Products]]></title>
-        <id>/node/20931</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/02/13/adobe-releases-security-updates-multiple-products"/>
-        <updated>2024-02-13T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Adobe has released security updates to address vulnerabilities in Adobe software. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system. 
-CISA encourages users and administrators to review the following Adobe Security Bulletins and apply the necessary updates. 
-Adobe Commerce and Magento
-Adobe Substance 3D Painter
-Adobe Acrobat and Reader
-Adobe FrameMaker Publishing Server
-Adobe Audition 
-Adobe Substance 3D Designer]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ISC Releases Security Advisories for BIND 9]]></title>
-        <id>/node/20926</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/02/13/isc-releases-security-advisories-bind-9"/>
-        <updated>2024-02-13T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Internet Systems Consortium (ISC) released security advisories to address vulnerabilities affecting multiple versions of ISC’s Berkeley Internet Name Domain (BIND) 9. A cyber threat actor could exploit one of these vulnerabilities to cause a denial-of-service condition.
-CISA encourages users and administrators to review the following advisories and apply the necessary updates:
-CVE-2023-50868
-CVE-2023-50387
-CVE-2023-6516
-CVE-2023-5680
-CVE-2023-5679
-CVE-2023-5517
-CVE-2023-4408]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ransomware Attack Knocks 100 Romanian Hospitals Offline]]></title>
-        <id>https://www.securityweek.com/?p=36722</id>
-        <link href="https://www.securityweek.com/ransomware-attack-knocks-100-romanian-hospitals-offline/"/>
-        <updated>2024-02-13T11:28:40.000Z</updated>
-        <summary type="html"><![CDATA[Romanian hospitals turn to pen and paper after ransomware attack on centralized healthcare management system.
-The post Ransomware Attack Knocks 100 Romanian Hospitals Offline appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Midnight Blizzard and Cloudflare-Atlassian Cybersecurity Incidents: What to Know]]></title>
-        <id>https://thehackernews.com/2024/02/midnight-blizzard-and-cloudflare.html</id>
-        <link href="https://thehackernews.com/2024/02/midnight-blizzard-and-cloudflare.html"/>
-        <updated>2024-02-13T11:10:00.000Z</updated>
-        <summary type="html"><![CDATA[The Midnight Blizzard and Cloudflare-Atlassian cybersecurity incidents raised alarms about the vulnerabilities inherent in major SaaS platforms. These incidents illustrate the stakes involved in SaaS breaches — safeguarding the integrity of SaaS apps and their sensitive data is critical but is not easy. Common threat vectors such as sophisticated spear-phishing, misconfigurations and]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-6632-1: OpenSSL vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-6632-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-6632-1"/>
-        <updated>2024-02-13T10:29:56.000Z</updated>
-        <summary type="html"><![CDATA[David Benjamin discovered that OpenSSL incorrectly handled excessively long
-X9.42 DH keys. A remote attacker could possibly use this issue to cause
-OpenSSL to consume resources, leading to a denial of service.
-(CVE-2023-5678)
-
-Bahaa Naamneh discovered that OpenSSL incorrectly handled certain malformed
-PKCS12 files. A remote attacker could possibly use this issue to cause
-OpenSSL to crash, resulting in a denial of service. (CVE-2024-0727)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ivanti Vulnerability Exploited to Install 'DSLog' Backdoor on 670+ IT Infrastructures]]></title>
-        <id>https://thehackernews.com/2024/02/ivanti-vulnerability-exploited-to.html</id>
-        <link href="https://thehackernews.com/2024/02/ivanti-vulnerability-exploited-to.html"/>
-        <updated>2024-02-13T07:03:00.000Z</updated>
-        <summary type="html"><![CDATA[Threat actors are leveraging a recently disclosed security flaw impacting Ivanti Connect Secure, Policy Secure, and ZTA gateways to deploy a backdoor codenamed DSLog on susceptible devices.
-That's according to findings from Orange Cyberdefense, which said it observed the exploitation of CVE-2024-21893 within hours of the public release of the proof-the-concept (PoC) code.]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alert: CISA Warns of Active 'Roundcube' Email Attacks - Patch Now]]></title>
-        <id>https://thehackernews.com/2024/02/alert-cisa-warns-of-active-roundcube.html</id>
-        <link href="https://thehackernews.com/2024/02/alert-cisa-warns-of-active-roundcube.html"/>
-        <updated>2024-02-13T04:51:00.000Z</updated>
-        <summary type="html"><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a medium-severity security flaw impacting Roundcube email software to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.
-The issue, tracked as CVE-2023-43770 (CVSS score: 6.1), relates to a cross-site scripting (XSS) flaw that stems from the handling of]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raspberry Robin Jumps on 1-Day Bugs to Nest Deep in Windows Networks]]></title>
-        <id>https://www.darkreading.com/application-security/raspberry-robin-1-days-escalate-unpatched-networks</id>
-        <link href="https://www.darkreading.com/application-security/raspberry-robin-1-days-escalate-unpatched-networks"/>
-        <updated>2024-02-12T22:14:47.000Z</updated>
-        <summary type="html"><![CDATA[The developers behind a widespread worm are nesting further into networks by exploiting Windows escalation opportunities faster than organizations can patch them.]]></summary>
-        <author>
-            <name>Nate Nelson, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSC Partners With NetDiligence to Help Mitigate Cyber Risks]]></title>
-        <id>https://www.darkreading.com/cyber-risk/csc-partners-with-netdiligence-to-help-mitigate-cyber-risks</id>
-        <link href="https://www.darkreading.com/cyber-risk/csc-partners-with-netdiligence-to-help-mitigate-cyber-risks"/>
-        <updated>2024-02-12T21:11:48.000Z</updated>
-        <author>
-            <name>darkreading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United Nations Digging Into DPRK Crypto Cyberattacks Totaling $3B]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/un-digging-into-dprk-crypto-cyberattacks-totaling-3b</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/un-digging-into-dprk-crypto-cyberattacks-totaling-3b"/>
-        <updated>2024-02-12T20:42:30.000Z</updated>
-        <summary type="html"><![CDATA[The UN is reportedly investigating dozens of crypto cyberattacks suspected to have earned the North Korean regime billions to fund its nuclear program.]]></summary>
-        <author>
-            <name>Dark Reading Staff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Govt. Offers Millions in Bounties to Find Hive Ransomware Actors]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/us-department-of-state-offers-millions-to-find-hive-ransomware-actors</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/us-department-of-state-offers-millions-to-find-hive-ransomware-actors"/>
-        <updated>2024-02-12T20:24:09.000Z</updated>
-        <summary type="html"><![CDATA[The move by the State Department complements a Hive infrastructure takedown by international law enforcement.]]></summary>
-        <author>
-            <name>Dark Reading Staff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bugcrowd Secures $102M in Strategic Growth Funding to Scale AI-Powered Crowdsourced Security Platform]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/bugcrowd-secures-102-million-in-strategic-growth-funding-to-scale-ai-powered-crowdsourced-security-platform</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/bugcrowd-secures-102-million-in-strategic-growth-funding-to-scale-ai-powered-crowdsourced-security-platform"/>
-        <updated>2024-02-12T20:14:12.000Z</updated>
-        <author>
-            <name>darkreading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[33M French Citizens Impacted in Country's Largest-Ever Breach]]></title>
-        <id>https://www.darkreading.com/cloud-security/33m-french-citizens-countrys-largest-ever-breach</id>
-        <link href="https://www.darkreading.com/cloud-security/33m-french-citizens-countrys-largest-ever-breach"/>
-        <updated>2024-02-12T18:59:27.000Z</updated>
-        <summary type="html"><![CDATA[Viamedis and Almerys, two payment processors widely used by French health insurers, were victims of cyberattackers who struck five days apart.]]></summary>
-        <author>
-            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Changes in State CIO Priorities for 2024 Apply to API Security]]></title>
-        <id>https://www.darkreading.com/application-security/how-changes-in-state-cio-priorities-for-2024-apply-to-api-security</id>
-        <link href="https://www.darkreading.com/application-security/how-changes-in-state-cio-priorities-for-2024-apply-to-api-security"/>
-        <updated>2024-02-12T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The National Association of State Chief Information Officers' top 10 list sheds light on where state and local governments need to direct their cybersecurity efforts. Here's what it means for application security.]]></summary>
-        <author>
-            <name>Joshua Goldfarb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Passkey Usability]]></title>
-        <id>https://www.schneier.com/blog/archives/2024/02/on-passkey-usability.html</id>
-        <link href="https://www.schneier.com/blog/archives/2024/02/on-passkey-usability.html"/>
-        <updated>2024-02-12T16:49:36.000Z</updated>
-        <summary type="html"><![CDATA[<p>Matt Burgess tries to <a href="https://www.wired.com/story/stopped-using-passwords-passkeys/">only use passkeys</a>. The results are mixed.</p>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ongoing Azure Cloud Account Takeover Campaign Targeting Senior Personnel]]></title>
-        <id>https://www.securityweek.com/?p=36714</id>
-        <link href="https://www.securityweek.com/ongoing-azure-cloud-account-takeover-campaign-targeting-senior-personnel/"/>
-        <updated>2024-02-12T15:06:28.000Z</updated>
-        <summary type="html"><![CDATA[An active cloud account takeover campaign has impacted dozens of Azure environments and compromised hundreds of user accounts.
-The post Ongoing Azure Cloud Account Takeover Campaign Targeting Senior Personnel appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Kevin Townsend</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It's Time to Rethink Third-Party Risk Assessment]]></title>
-        <id>https://www.darkreading.com/cyber-risk/it-s-time-to-rethink-third-party-risk-assessment-</id>
-        <link href="https://www.darkreading.com/cyber-risk/it-s-time-to-rethink-third-party-risk-assessment-"/>
-        <updated>2024-02-12T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Continuously evaluating and updating your third-party risk assessment can improve your security posture and ensure your company doesn't have the next headline-making incident.]]></summary>
-        <author>
-            <name>AJ Sunder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fortinet, Ivanti Keep Customers Busy With Yet More Critical Bugs]]></title>
-        <id>https://www.darkreading.com/cloud-security/fortinet-ivanti-keep-customers-busy-with-yet-more-critical-bugs</id>
-        <link href="https://www.darkreading.com/cloud-security/fortinet-ivanti-keep-customers-busy-with-yet-more-critical-bugs"/>
-        <updated>2024-02-12T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Brand-new vulnerabilities from both vendors this week — one exploited in the wild — add to a steady stream of critical security issues in the security platforms.]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ExpressVPN User Data Exposed Due to Bug]]></title>
-        <id>https://www.securityweek.com/?p=36712</id>
-        <link href="https://www.securityweek.com/expressvpn-user-data-exposed-due-to-bug/"/>
-        <updated>2024-02-12T13:51:23.000Z</updated>
-        <summary type="html"><![CDATA[ExpressVPN disables split tunneling on Windows after learning that DNS requests were not properly directed.
-The post ExpressVPN User Data Exposed Due to Bug appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rhysida Ransomware Cracked, Free Decryption Tool Released]]></title>
-        <id>https://thehackernews.com/2024/02/rhysida-ransomware-cracked-free.html</id>
-        <link href="https://thehackernews.com/2024/02/rhysida-ransomware-cracked-free.html"/>
-        <updated>2024-02-12T13:12:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have uncovered an "implementation vulnerability" that has made it possible to reconstruct encryption keys and decrypt data locked by Rhysida ransomware.
-The findings were published last week by a group of researchers from Kookmin University and the Korea Internet and Security Agency (KISA).
-"Through a comprehensive analysis of Rhysida Ransomware, we identified an]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-6631-1: WebKitGTK vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-6631-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-6631-1"/>
-        <updated>2024-02-12T13:07:31.000Z</updated>
-        <summary type="html"><![CDATA[Several security issues were discovered in the WebKitGTK Web and JavaScript
-engines. If a user were tricked into viewing a malicious website, a remote
-attacker could exploit a variety of issues related to web browser security,
-including cross-site scripting attacks, denial of service attacks, and
-arbitrary code execution.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
         </author>
     </entry>
 </feed>
