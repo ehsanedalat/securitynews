@@ -2,10 +2,443 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-03-18T01:07:37.041Z</updated>
+    <updated>2024-03-19T01:06:54.620Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[North Korea-Linked Group Levels Multistage Cyberattack on South Korea]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/north-korea-linked-group-level-multistage-cyberattack-on-south-korea</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/north-korea-linked-group-level-multistage-cyberattack-on-south-korea"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kimsuky-attributed campaign uses eight steps to compromise systems — from initial execution to downloading additional code from Dropbox, and executing code to establish stealth and persistence.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6700-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6700-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6700-1"/>
+        <updated>2024-03-18T23:57:25.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the Layer 2 Tunneling Protocol (L2TP) implementation
+in the Linux kernel contained a race condition when releasing PPPoL2TP
+sockets in certain conditions, leading to a use-after-free vulnerability.
+A local attacker could use this to cause a denial of service (system crash)
+or possibly execute arbitrary code. (CVE-2022-20567)
+
+It was discovered that the ext4 file system implementation in the Linux
+kernel did not properly handle block device modification while it is
+mounted. A privileged attacker could use this to cause a denial of service
+(system crash) or possibly expose sensitive information. (CVE-2023-34256)
+
+Eric Dumazet discovered that the netfilter subsystem in the Linux kernel
+did not properly handle DCCP conntrack buffers in certain situations,
+leading to an o…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6701-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6701-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6701-1"/>
+        <updated>2024-03-18T23:43:16.000Z</updated>
+        <summary type="html"><![CDATA[Ruihan Li discovered that the bluetooth subsystem in the Linux kernel did
+not properly perform permissions checks when handling HCI sockets. A
+physically proximate attacker could use this to cause a denial of service
+(bluetooth communication). (CVE-2023-2002)
+
+It was discovered that the NVIDIA Tegra XUSB pad controller driver in the
+Linux kernel did not properly handle return values in certain error
+conditions. A local attacker could use this to cause a denial of service
+(system crash). (CVE-2023-23000)
+
+It was discovered that Spectre-BHB mitigations were missing for Ampere
+processors. A local attacker could potentially use this to expose sensitive
+information. (CVE-2023-3006)
+
+It was discovered that the ext4 file system implementation in the Linux
+kernel did not properly handle block devi…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6699-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6699-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6699-1"/>
+        <updated>2024-03-18T23:07:09.000Z</updated>
+        <summary type="html"><![CDATA[Reima Ishii discovered that the nested KVM implementation for Intel x86
+processors in the Linux kernel did not properly validate control registers
+in certain situations. An attacker in a guest VM could use this to cause a
+denial of service (guest crash). (CVE-2023-30456)
+
+It was discovered that the Quick Fair Queueing scheduler implementation in
+the Linux kernel did not properly handle network packets in certain
+conditions, leading to a use after free vulnerability. A local attacker
+could use this to cause a denial of service (system crash) or possibly
+execute arbitrary code. (CVE-2023-4921)
+
+It was discovered that a race condition existed in the SCSI Emulex
+LightPulse Fibre Channel driver in the Linux kernel when unregistering FCF
+and re-scanning an HBA FCF table, leading to a null pointer dereference
+vulnerability. A local attacker could use this to cause a denial of service
+(system crash). (CVE-2024-24855)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ML Model Repositories: The Next Big Supply Chain Attack Target]]></title>
+        <id>https://www.darkreading.com/cloud-security/ml-model-repositories-next-big-supply-chain-attack-target</id>
+        <link href="https://www.darkreading.com/cloud-security/ml-model-repositories-next-big-supply-chain-attack-target"/>
+        <updated>2024-03-18T22:07:48.000Z</updated>
+        <summary type="html"><![CDATA[Machine-learning model platforms like Hugging Face are suspectible to the same kind of attacks that threat actors have executed successfully for years via npm, PyPI, and other open source repos.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chinese APT 'Earth Krahang' Compromises 48 Gov't Orgs on 5 Continents]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/chinese-apt-earth-krahang-compromised-48-gov-orgs-5-continents</id>
+        <link href="https://www.darkreading.com/threat-intelligence/chinese-apt-earth-krahang-compromised-48-gov-orgs-5-continents"/>
+        <updated>2024-03-18T21:49:10.000Z</updated>
+        <summary type="html"><![CDATA[The group uses pretty standard open source tooling and social engineering to burrow into high-level government agencies across the globe.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Saudi Arabia's National Cybersecurity Authority Announces the GCF Annual Meeting 2024]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/saudi-arabia-s-national-cybersecurity-authority-announces-the-gcf-annual-meeting-2024</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/saudi-arabia-s-national-cybersecurity-authority-announces-the-gcf-annual-meeting-2024"/>
+        <updated>2024-03-18T20:27:38.000Z</updated>
+        <author>
+            <name>darkreading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brazilian Authorities Arrest Members of Banking Trojan Cybercrime Group]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/brazilian-authorities-arrest-members-of-banking-trojan-cybercrime-group</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/brazilian-authorities-arrest-members-of-banking-trojan-cybercrime-group"/>
+        <updated>2024-03-18T20:25:03.000Z</updated>
+        <summary type="html"><![CDATA[Interpol assisted in the operation, in which analysts identified Grandoreiro group members by analyzing and matching malware samples.]]></summary>
+        <author>
+            <name>Dark Reading Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fujitsu: Malware on Company Computers Exposed Customer Data]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/fujitsu-malware-on-company-computers-exposed-customer-data</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/fujitsu-malware-on-company-computers-exposed-customer-data"/>
+        <updated>2024-03-18T20:20:40.000Z</updated>
+        <summary type="html"><![CDATA[It remains unclear how long the IT services giant's systems were infiltrated and just how the cyberattack unfolded.]]></summary>
+        <author>
+            <name>Becky Bracken, Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New DEEP#GOSU Malware Campaign Targets Windows Users with Advanced Tactics]]></title>
+        <id>https://thehackernews.com/2024/03/new-deepgosu-malware-campaign-targets.html</id>
+        <link href="https://thehackernews.com/2024/03/new-deepgosu-malware-campaign-targets.html"/>
+        <updated>2024-03-18T17:56:00.000Z</updated>
+        <summary type="html"><![CDATA[A new elaborate attack campaign has been observed employing PowerShell and VBScript malware to infect Windows systems and harvest sensitive information.
+Cybersecurity company Securonix, which dubbed the campaign DEEP#GOSU, said it's likely associated with the North Korean state-sponsored group tracked as Kimsuky.
+"The malware payloads used in the DEEP#GOSU represent a]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6698-1: Vim vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6698-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6698-1"/>
+        <updated>2024-03-18T16:48:35.000Z</updated>
+        <summary type="html"><![CDATA[Zhen Zhou discovered that Vim did not properly manage memory. An
+attacker could possibly use this issue to cause a denial of service]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UK Government Releases Cloud SCADA Security Guidance]]></title>
+        <id>https://www.securityweek.com/?p=37201</id>
+        <link href="https://www.securityweek.com/uk-government-releases-cloud-scada-security-guidance/"/>
+        <updated>2024-03-18T14:33:42.000Z</updated>
+        <summary type="html"><![CDATA[UK’s NCSC releases security guidance for OT organizations considering migrating their SCADA solutions to the cloud.
+The post UK Government Releases Cloud SCADA Security Guidance appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fujitsu Data Breach Impacts Personal, Customer Information]]></title>
+        <id>https://www.securityweek.com/?p=37200</id>
+        <link href="https://www.securityweek.com/fujitsu-data-breach-impacts-personal-customer-information/"/>
+        <updated>2024-03-18T14:10:38.000Z</updated>
+        <summary type="html"><![CDATA[Fujitsu says hackers infected internal systems with malware, stole personal and customer information.
+The post Fujitsu Data Breach Impacts Personal, Customer Information appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tracking Everything on the Dark Web Is Mission Critical]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/tracking-everything-on-dark-web-is-mission-critical</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/tracking-everything-on-dark-web-is-mission-critical"/>
+        <updated>2024-03-18T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On the Dark Web, stolen secrets are your enemy, and context is your friend.]]></summary>
+        <author>
+            <name>Itzik Alvas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cisco Completes $28 Billion Acquisition of Splunk]]></title>
+        <id>https://www.securityweek.com/?p=37199</id>
+        <link href="https://www.securityweek.com/cisco-completes-28-billion-acquisition-of-splunk/"/>
+        <updated>2024-03-18T13:41:30.000Z</updated>
+        <summary type="html"><![CDATA[The networking giant paid $157 per share in cash for Splunk, a powerhouse in data analysis, security and observability tools, in a deal first announced in September 2023.
+The post Cisco Completes $28 Billion Acquisition of Splunk appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>SecurityWeek News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6697-1: Bash vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6697-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6697-1"/>
+        <updated>2024-03-18T13:00:33.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Bash incorrectly handled certain memory operations
+when processing commands. If a user or automated system were tricked into
+running a specially crafted bash file, a remote attacker could use this
+issue to cause Bash to crash, resulting in a denial of service, or possibly
+execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fortra Patches Critical RCE Vulnerability in FileCatalyst Transfer Tool]]></title>
+        <id>https://thehackernews.com/2024/03/fortra-patches-critical-rce.html</id>
+        <link href="https://thehackernews.com/2024/03/fortra-patches-critical-rce.html"/>
+        <updated>2024-03-18T12:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Fortra has released details of a now-patched critical security flaw impacting its FileCatalyst file transfer solution that could allow unauthenticated attackers to gain remote code execution on susceptible servers.
+Tracked as CVE-2024-25153, the shortcoming carries a CVSS score of 9.8 out of a maximum of 10.
+"A directory traversal within the 'ftpservlet' of the FileCatalyst Workflow]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackers Using Sneaky HTML Smuggling to Deliver Malware via Fake Google Sites]]></title>
+        <id>https://thehackernews.com/2024/03/hackers-using-sneaky-html-smuggling-to.html</id>
+        <link href="https://thehackernews.com/2024/03/hackers-using-sneaky-html-smuggling-to.html"/>
+        <updated>2024-03-18T12:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have discovered a new malware campaign that leverages bogus Google Sites pages and HTML smuggling to distribute a commercial malware called AZORult in order to facilitate information theft.
+"It uses an unorthodox HTML smuggling technique where the malicious payload is embedded in a separate JSON file hosted on an external website," Netskope Threat Labs]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pentagon Received Over 50,000 Vulnerability Reports Since 2016]]></title>
+        <id>https://www.securityweek.com/?p=37198</id>
+        <link href="https://www.securityweek.com/pentagon-received-over-50000-vulnerability-reports-since-2016/"/>
+        <updated>2024-03-18T12:28:40.000Z</updated>
+        <summary type="html"><![CDATA[Since 2016, the US DoD has received over 50,000 submissions through its vulnerability disclosure program.
+The post Pentagon Received Over 50,000 Vulnerability Reports Since 2016 appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hacker Conversations: Stephanie ‘Snow’ Carruthers, Chief People Hacker at IBM X-Force Red]]></title>
+        <id>https://www.securityweek.com/?p=37193</id>
+        <link href="https://www.securityweek.com/hacker-conversations-stephanie-snow-carruthers-chief-people-hacker-at-ibm-x-force-red/"/>
+        <updated>2024-03-18T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The desire to be a hacker is usually innate, and commonly emerges in early life. This did not happen with Snow: she was a married freelance special effects makeup artist when it all began.
+The post Hacker Conversations: Stephanie ‘Snow’ Carruthers, Chief People Hacker at IBM X-Force Red appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Repository for Software Attestation and Artifacts Now Live]]></title>
+        <id>/node/21121</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/03/18/repository-software-attestation-and-artifacts-now-live"/>
+        <updated>2024-03-18T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Software producers who partner with the federal government can now upload their Secure Software Development Attestation Forms to CISA's Repository for Software Attestation and Artifacts. Software producers that provide the government software can fill out the form to attest to implementation of specific security practices.
+CISA and the Office of Management and Budget (OMB) released the form on March 11, 2024, following extensive stakeholder and industry engagement. See the recent blog post from Federal CISO and Deputy National Cyber Director Chris DeRusha and CISA Executive Assistant Director for Cybersecurity Eric Goldstein for additional information.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Attack Shows Risks of Browsers Giving Websites Access to GPU]]></title>
+        <id>https://www.securityweek.com/?p=37196</id>
+        <link href="https://www.securityweek.com/new-attack-shows-risks-of-browsers-giving-websites-access-to-gpu/"/>
+        <updated>2024-03-18T11:52:21.000Z</updated>
+        <summary type="html"><![CDATA[Researchers demonstrate remote GPU cache side-channel attack from within browsers against AMD and NVIDIA graphics cards.
+The post New Attack Shows Risks of Browsers Giving Websites Access to GPU  appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of March 11, 2024]]></title>
+        <id>/node/21118</id>
+        <link href="https://www.cisa.gov/news-events/bulletins/sb24-078"/>
+        <updated>2024-03-18T11:17:37.000Z</updated>
+        <summary type="html"><![CDATA[High Vulnerabilities
+Primary
+Description
+Published
+CVSS Score
+Source & Patch Info
+
+
+
+
+academylms -- academy_lms_-_elearning_and_online_course_solution_for_wordpress
+The Academy LMS - eLearning and online course solution for WordPress plugin for WordPress is vulnerable to privilege escalation in all versions up to, and including, 1.9.19. This is due to plugin allowing arbitrary user meta updates through the saved_user_info() function. This makes it possible for authenticated attackers, with minimal permissions such as students, to elevate their user role to that of an administrator.
+2024-03-13
+8.8
+CVE-2024-1505
+security@wordfence.com
+security@wordfence.com
+
+
+andrei_ivasiuc -- fontific_|_google_fonts
+Cross-Site Request Forgery (CSRF) vulnerability in Andrei Ivasiuc Fontific | Google Fonts al…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Drones and the US Air Force]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/03/drones-and-the-us-air-force.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/03/drones-and-the-us-air-force.html"/>
+        <updated>2024-03-18T11:03:14.000Z</updated>
+        <summary type="html"><![CDATA[<p>Fascinating <a href="https://warontherocks.com/2024/03/drones-the-air-littoral-and-the-looming-irrelevance-of-the-u-s-air-force/">analysis</a> of the use of drones on a modern battlefield&#8212;that is, Ukraine&#8212;and the inability of the US Air Force to react to this change.</p>
+<blockquote><p>The F-35A certainly remains an important platform for high-intensity conventional warfare. But the Air Force is planning to buy 1,763 of the aircraft, which will remain in service through the year 2070. These jets, which are wholly unsuited for countering proliferated low-cost enemy drones in the air littoral, present <i>enormous</i> opportunity costs for the service as a whole. In a set of comments <a href="https://www.linkedin.com/posts/kevin-murray-1507a055_deadly-cheap-and-widespread-how-iran-supplied-activity-7162108210366119938-VVMi">posted on LinkedIn...</a></p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Moldovan Operator of Credential Marketplace Sentenced to US Prison]]></title>
+        <id>https://www.securityweek.com/?p=37192</id>
+        <link href="https://www.securityweek.com/moldovan-operator-of-credential-marketplace-sentenced-to-us-prison/"/>
+        <updated>2024-03-18T10:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Sandu Diaconu has been sentenced to 42 months in prison for operating a marketplace for compromised credentials.
+The post Moldovan Operator of Credential Marketplace Sentenced to US Prison appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PoC Published for Critical Fortra Code Execution Vulnerability]]></title>
+        <id>https://www.securityweek.com/?p=37191</id>
+        <link href="https://www.securityweek.com/poc-published-for-critical-fortra-code-execution-vulnerability/"/>
+        <updated>2024-03-18T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A critical directory traversal vulnerability in Fortra FileCatalyst Workflow could lead to remote code execution.
+The post PoC Published for Critical Fortra Code Execution Vulnerability appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WordPress Admins Urged to Remove miniOrange Plugins Due to Critical Flaw]]></title>
+        <id>https://thehackernews.com/2024/03/wordpress-admins-urged-to-remove.html</id>
+        <link href="https://thehackernews.com/2024/03/wordpress-admins-urged-to-remove.html"/>
+        <updated>2024-03-18T09:46:00.000Z</updated>
+        <summary type="html"><![CDATA[WordPress users of miniOrange's Malware Scanner and Web Application Firewall plugins are being urged to delete them from their websites following the discovery of a critical security flaw.
+The flaw, tracked as CVE-2024-2172, is rated 9.8 out of a maximum of 10 on the CVSS scoring system and discovered by Stiofan. It impacts the following versions of the two plugins -
+
+Malware Scanner (]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IMF Emails Hacked]]></title>
+        <id>https://www.securityweek.com/?p=37189</id>
+        <link href="https://www.securityweek.com/imf-emails-hacked/"/>
+        <updated>2024-03-18T08:28:43.000Z</updated>
+        <summary type="html"><![CDATA[The International Monetary Fund (IMF) detects a cybersecurity incident that involved nearly a dozen email accounts getting hacked.
+The post IMF Emails Hacked appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[South African Government Pension Data Leak Fears Spark Probe]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/south-african-government-pension-data-leak-fears-spark-probe</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/south-african-government-pension-data-leak-fears-spark-probe"/>
+        <updated>2024-03-18T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[LockBit ransomware gang claims 668GB of data it dumped online was stolen from South Africa's pension agency.]]></summary>
+        <author>
+            <name>John Leyden, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[APT28 Hacker Group Targeting Europe, Americas, Asia in Widespread Phishing Scheme]]></title>
+        <id>https://thehackernews.com/2024/03/apt28-hacker-group-targeting-europe.html</id>
+        <link href="https://thehackernews.com/2024/03/apt28-hacker-group-targeting-europe.html"/>
+        <updated>2024-03-18T05:59:00.000Z</updated>
+        <summary type="html"><![CDATA[The Russia-linked threat actor known as APT28 has been linked to multiple ongoing phishing campaigns that employ lure documents imitating government and non-governmental organizations (NGOs) in Europe, the South Caucasus, Central Asia, and North and South America.
+"The uncovered lures include a mixture of internal and publicly available documents, as well as possible actor-generated]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3 Ways Businesses Can Overcome the Cybersecurity Skills Shortage]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/3-ways-businesses-can-overcome-cybersecurity-skills-shortage</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/3-ways-businesses-can-overcome-cybersecurity-skills-shortage"/>
+        <updated>2024-03-18T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With budget constraints and a limited supply of skilled talent, businesses need to get creative to defend against rampant cybersecurity threats.]]></summary>
+        <author>
+            <name>Jesper Trolle</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6696-1: OpenJDK 8 vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6696-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6696-1"/>
+        <updated>2024-03-18T04:06:20.000Z</updated>
+        <summary type="html"><![CDATA[Yi Yang discovered that the Hotspot component of OpenJDK 8 incorrectly
+handled array accesses in the C1 compiler. An attacker could possibly
+use this issue to cause a denial of service, execute arbitrary code or
+bypass Java sandbox restrictions. (CVE-2024-20918)
+
+It was discovered that the Hotspot component of OpenJDK 8 did not
+properly verify bytecode in certain situations. An attacker could
+possibly use this issue to bypass Java sandbox restrictions.
+(CVE-2024-20919)
+
+It was discovered that the Hotspot component of OpenJDK 8 had an
+optimization flaw when generating range check loop predicates. An attacker
+could possibly use this issue to cause a denial of service, execute
+arbitrary code or bypass Java sandbox restrictions. (CVE-2024-20921)
+
+Valentin Eudeline discovered that OpenJDK 8 incorrectly handled certain
+options in the Nashorn JavaScript subcomponent. An attacker could
+possibly use this issue to execute arbitrary code. (CVE-2024-20926)
+
+It was discovered that OpenJDK 8 could produce debug logs that contained
+private keys used for digital signatures. An attacker could possibly use
+this issue to obtain sensitive information. (CVE-2024-20945)
+
+Hubert Kario discovered that the TLS implementation in OpenJDK 8 had a
+timing side-channel and incorrectly handled RSA padding. A remote attacker
+could possibly use this issue to recover sensitive information.
+(CVE-2024-20952)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hackers Using Cracked Software on GitHub to Spread RisePro Info Stealer]]></title>
         <id>https://thehackernews.com/2024/03/hackers-using-cracked-software-on.html</id>
@@ -8124,29 +8557,6 @@ These entities are primarily located in Georgia, Poland, and Ukraine, according 
         <updated>2024-02-19T04:39:00.000Z</updated>
         <summary type="html"><![CDATA[The Iranian-origin threat actor known as Charming Kitten has been linked to a new set of attacks aimed at Middle East policy experts with a new backdoor called BASICSTAR by creating a fake webinar portal.
 Charming Kitten, also called APT35, CharmingCypress, Mint Sandstorm, TA453, and Yellow Garuda, has a history of orchestrating a wide range of social engineering campaigns that cast a]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tech Companies Sign Accord to Combat AI-Generated Election Trickery]]></title>
-        <id>https://www.securityweek.com/?p=36791</id>
-        <link href="https://www.securityweek.com/tech-companies-sign-accord-to-combat-ai-generated-election-trickery/"/>
-        <updated>2024-02-18T13:02:48.000Z</updated>
-        <summary type="html"><![CDATA[Executives from Adobe, Amazon, Google, IBM, Meta, Microsoft, OpenAI and TikTok gathered at the Munich Security Conference to announce a framework for how they respond to AI-generated deepfakes that deliberately trick voters. 
-The post Tech Companies Sign Accord to Combat AI-Generated Election Trickery appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Associated Press</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FBI's Most-Wanted Zeus and IcedID Malware Mastermind Pleads Guilty]]></title>
-        <id>https://thehackernews.com/2024/02/fbis-most-wanted-zeus-and-icedid.html</id>
-        <link href="https://thehackernews.com/2024/02/fbis-most-wanted-zeus-and-icedid.html"/>
-        <updated>2024-02-18T07:12:00.000Z</updated>
-        <summary type="html"><![CDATA[A Ukrainian national has pleaded guilty in the U.S. to his role in two different malware schemes, Zeus and IcedID, between May 2009 and February 2021.
-Vyacheslav Igorevich Penchukov (aka Vyacheslav Igoravich Andreev, father, and tank), 37, was arrested by Swiss authorities in October 2022 and extradited to the U.S. last year. He was added to the FBI's most-wanted list in 2012.
-The U.S.]]></summary>
         <author>
             <name>info@thehackernews.com (The Hacker News)</name>
         </author>
