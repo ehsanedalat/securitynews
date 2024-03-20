@@ -2,10 +2,469 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-03-19T01:06:54.620Z</updated>
+    <updated>2024-03-20T01:05:57.986Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Airbus Calls Off Planned Acquisition of Atos Cybersecurity Group]]></title>
+        <id>https://www.darkreading.com/cyber-risk/airbus-calls-off-planned-acquisition-of-atos-cybersecurity-group</id>
+        <link href="https://www.darkreading.com/cyber-risk/airbus-calls-off-planned-acquisition-of-atos-cybersecurity-group"/>
+        <updated>2024-03-19T21:39:47.000Z</updated>
+        <summary type="html"><![CDATA[The purchase would have given Airbus more capabilities to address rising cyber threats in the aviation and aerospace industry.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fortra Releases Update on Critical Severity RCE Flaw]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/fortra-releases-update-on-critical-severity-rce-flaw</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/fortra-releases-update-on-critical-severity-rce-flaw"/>
+        <updated>2024-03-19T21:38:49.000Z</updated>
+        <summary type="html"><![CDATA[The flaw has a CVSS rating of 9.8, and the company recommends product upgrades to fix the issue.]]></summary>
+        <author>
+            <name>Dark Reading Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cheating Hack Halts Apex Legends E-Sports Tourney]]></title>
+        <id>https://www.darkreading.com/cyber-risk/apex-legends-tourney-spoiled-by-hackers</id>
+        <link href="https://www.darkreading.com/cyber-risk/apex-legends-tourney-spoiled-by-hackers"/>
+        <updated>2024-03-19T21:10:11.000Z</updated>
+        <summary type="html"><![CDATA[Electronic Arts is trying to track down the RCE exploit that allowed hackers to inject cheats into games during the recent Apex Legends Global Series.]]></summary>
+        <author>
+            <name>Becky Bracken, Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6702-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6702-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6702-1"/>
+        <updated>2024-03-19T21:00:37.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the NVIDIA Tegra XUSB pad controller driver in the
+Linux kernel did not properly handle return values in certain error
+conditions. A local attacker could use this to cause a denial of service
+(system crash). (CVE-2023-23000)
+
+It was discovered that the ARM Mali Display Processor driver implementation
+in the Linux kernel did not properly handle certain error conditions. A
+local attacker could possibly use this to cause a denial of service (system
+crash). (CVE-2023-23004)
+
+Notselwyn discovered that the netfilter subsystem in the Linux kernel did
+not properly handle verdict parameters in certain cases, leading to a use-
+after-free vulnerability. A local attacker could use this to cause a denial
+of service (system crash) or possibly execute arbitrary code.
+(CVE-2024-1086)
+
+It was discovered that a race condition existed in the SCSI Emulex
+LightPulse Fibre Channel driver in the Linux kernel when unregistering FCF
+and re-scanning an HBA FCF table, leading to a null pointer dereference
+vulnerability. A local attacker could use this to cause a denial of service
+(system crash). (CVE-2024-24855)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Ways CISOs Can Navigate Their New Business Role]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/5-ways-cisos-can-navigate-new-business-role</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/5-ways-cisos-can-navigate-new-business-role"/>
+        <updated>2024-03-19T20:57:41.000Z</updated>
+        <summary type="html"><![CDATA[CISOs can successfully make their business operations more secure and play a larger role in the organization's overall strategy, but there are pitfalls to avoid, Forrester analysts warn.]]></summary>
+        <author>
+            <name>David Strom</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#417980: UDP-based, application-layer protocol implementations are vulnerable to network loops]]></title>
+        <id>https://kb.cert.org/vuls/id/417980</id>
+        <link href="https://kb.cert.org/vuls/id/417980"/>
+        <updated>2024-03-19T19:49:45.063Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>A novel traffic-loop vulnerability has been identified against certain implementations of UDP-based applications protocols.  An unauthenticated attacker can use maliciously-crafted packets against a UDP-based vulnerable implementation of application protocols (e.g., DNS, NTP, TFTP) that can lead to Denial-of-Service (DOS) and/or abuse of resources.</p>
+<h3 id="description">Description</h3>
+<p>The User Datagram Protocol (<a href="https://datatracker.ietf.org/doc/html/rfc768">UDP</a>) is a simple, connectionless protocol that is still commonly used in many internet-based applications. UDP has a limited packet-verification capability and is susceptible to IP spoofing.  Security researchers have identified that certain implementations of the UDP protocol in applications can be triggered to create a network-loop of seemingly never-ending packets. Software implementations of UDP-based application protocols DNS, NTP, TFTP, Echo (RFC862), Chargen (RFC864), and QOTD (RFC865) were specifically found to be vulnerable to such network loops. </p>
+<p>As an example, if two application servers have a vulnerable implementation of said protocol, an attacker can initiate a communication with the first server, spoofing the network address of the second server (victim). In many cases, the first server will respond with an error message to the victim, which will also trigger a similar behavior of another error message back to the first server. This behavior has been demonstrated to be resource exhausting and can cause services to become either unresponsive or unstable.  </p>
+<h3 id="impact">Impact</h3>
+<p>Successful exploitation of this vulnerability could result in the following scenarios: 
+1. Overload of a vulnerable service, causing it to become unstable or unusable.
+2. DOS attack of the network backbone, causing network outage to other services.
+3. Amplification attacks that involve network loops causing amplified DOS or DDOS attacks.</p>
+<h3 id="solution">Solution</h3>
+<h4 id="apply-updates">Apply updates</h4>
+<p>CERT/CC recommends that you apply the latest patch provided by the affected vendor that addresses this vulnerability in the vendor-specific implementations. Review the vendor-specific information below. If the product is end-of-life/unsupported, vendors will be unlikely to release a patch; thus, we recommend replacing the device.</p>
+<h4 id="protect-or-replace-udp-applications">Protect or replace UDP applications</h4>
+<p>When possible, protect UDP-based applications using network firewall rules and/or other access-control lists to prevent unauthorized access. If the same service can be implemented using a TCP or with any request-validation capability (e.g., <a href="https://freeradius.org/rfc/rfc2869.html#Message-Authenticator">Message-Authenticator</a>) available in the UDP-based application protocol, implement such protection to prevent unknown or spoofed requests. It is recommended that you disable unnecessary and unused UDP services that may be enabled as part of your operating system to prevent exposure of these services for abuse.</p>
+<h4 id="deploy-anti-spoofing">Deploy anti-spoofing</h4>
+<p>Network providers should deploy available anti-spoofing techniques (<a href="https://www.rfc-editor.org/info/bcp38">BCP38</a>) such as Unicast Reverse Path Forwarding (<a href="https://datatracker.ietf.org/doc/html/rfc3704">uRPF</a>) to prevent IP spoofing in protecting their internet-facing resources against spoofing and abuse.  </p>
+<h4 id="enforce-network-rate-limiting">Enforce network rate-limiting</h4>
+<p>Service providers should employ network rate-limiting capabilities, such Quality-of-Service (QoS) to protect their network from abuse from network loops and amplifications and to ensure their critical resources/services are protected.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporters Yepeng Pan and Christian Rossow from the CISPA Helmholtz Center for Information Security, Germany. This document was written by Elke Drennan and Vijay Sarvepalli.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6681-4: Linux kernel (AWS) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6681-4</id>
+        <link href="https://ubuntu.com/security/notices/USN-6681-4"/>
+        <updated>2024-03-19T19:02:21.000Z</updated>
+        <summary type="html"><![CDATA[Wenqing Liu discovered that the f2fs file system implementation in the
+Linux kernel did not properly validate inode types while performing garbage
+collection. An attacker could use this to construct a malicious f2fs image
+that, when mounted and operated on, could cause a denial of service (system
+crash). (CVE-2021-44879)
+
+It was discovered that the DesignWare USB3 for Qualcomm SoCs driver in the
+Linux kernel did not properly handle certain error conditions during device
+registration. A local attacker could possibly use this to cause a denial of
+service (system crash). (CVE-2023-22995)
+
+Bien Pham discovered that the netfiler subsystem in the Linux kernel
+contained a race condition, leading to a use-after-free vulnerability. A
+local user could use this to cause a denial of service (system cr…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Regulations Make D&amp;O Insurance a Must for CISOs]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/new-regulations-make-d-o-insurance-a-must-for-cisos</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/new-regulations-make-d-o-insurance-a-must-for-cisos"/>
+        <updated>2024-03-19T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISOs currently hold all of the responsibility to stop cyberattacks yet have none of the authority to fund the technological defenses that regulations require.]]></summary>
+        <author>
+            <name>Stephen Lawton, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Name That Toon: Bridge the Gap]]></title>
+        <id>https://www.darkreading.com/cloud-security/name-that-toon-bridge-the-gap</id>
+        <link href="https://www.darkreading.com/cloud-security/name-that-toon-bridge-the-gap"/>
+        <updated>2024-03-19T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Feeling creative? Submit your caption and our panel of experts will reward the winner with a $25 Amazon gift card.]]></summary>
+        <author>
+            <name>John Klossner, Cartoonist</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[APIs Drive the Majority of Internet Traffic and Cybercriminals are Taking Advantage]]></title>
+        <id>https://thehackernews.com/2024/03/apis-drive-majority-of-internet-traffic.html</id>
+        <link href="https://thehackernews.com/2024/03/apis-drive-majority-of-internet-traffic.html"/>
+        <updated>2024-03-19T16:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Application programming interfaces (APIs) are the connective tissue behind digital modernization, helping applications and databases exchange data more effectively. The State of API Security in 2024 Report from Imperva, a Thales company, found that the majority of internet traffic (71%) in 2023 was API calls. What’s more, a typical enterprise site saw an average of 1.5 billion API]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6686-3: Linux kernel (Oracle) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6686-3</id>
+        <link href="https://ubuntu.com/security/notices/USN-6686-3"/>
+        <updated>2024-03-19T15:27:23.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the DesignWare USB3 for Qualcomm SoCs driver in the
+Linux kernel did not properly handle certain error conditions during device
+registration. A local attacker could possibly use this to cause a denial of
+service (system crash). (CVE-2023-22995)
+
+It was discovered that a race condition existed in the Cypress touchscreen
+driver in the Linux kernel during device removal, leading to a use-after-
+free vulnerability. A physically proximate attacker could use this to cause
+a denial of service (system crash) or possibly execute arbitrary code.
+(CVE-2023-4134)
+
+黄思聪 discovered that the NFC Controller Interface (NCI) implementation in
+the Linux kernel did not properly handle certain memory allocation failure
+conditions, leading to a null pointer dereference vulnerability. A loc…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['PhantomBlu' Cyberattackers Backdoor Microsoft Office Users via OLE]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/phantomblu-cyberattackers-backdoor-microsoft-office-users-ole</id>
+        <link href="https://www.darkreading.com/threat-intelligence/phantomblu-cyberattackers-backdoor-microsoft-office-users-ole"/>
+        <updated>2024-03-19T14:53:31.000Z</updated>
+        <summary type="html"><![CDATA[The cyber campaign uses social engineering and sophisticated evasion tactics, including a novel malware-delivery method, to compromise hundreds of Microsoft Office users.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6680-3: Linux kernel (AWS) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6680-3</id>
+        <link href="https://ubuntu.com/security/notices/USN-6680-3"/>
+        <updated>2024-03-19T14:49:49.000Z</updated>
+        <summary type="html"><![CDATA[黄思聪 discovered that the NFC Controller Interface (NCI) implementation in
+the Linux kernel did not properly handle certain memory allocation failure
+conditions, leading to a null pointer dereference vulnerability. A local
+attacker could use this to cause a denial of service (system crash).
+(CVE-2023-46343)
+
+It was discovered that a race condition existed in the Bluetooth subsystem
+of the Linux kernel, leading to a use-after-free vulnerability. A local
+attacker could use this to cause a denial of service (system crash) or
+possibly execute arbitrary code. (CVE-2023-51779)
+
+It was discovered that a race condition existed in the Rose X.25 protocol
+implementation in the Linux kernel, leading to a use-after- free
+vulnerability. A local attacker could use this to cause a denial of service
+(system crash) or possibly execute arbitrary code. (CVE-2023-51782)
+
+Alon Zahavi discovered that the NVMe-oF/TCP subsystem of the Linux kernel
+did not properly handle connect command payloads in certain situations,
+leading to an out-of-bounds read vulnerability. A remote attacker could use
+this to expose sensitive information (kernel memory). (CVE-2023-6121)
+
+Jann Horn discovered that the io_uring subsystem in the Linux kernel
+contained an out-of-bounds access vulnerability. A local attacker could use
+this to cause a denial of service (system crash). (CVE-2023-6560)
+
+Dan Carpenter discovered that the netfilter subsystem in the Linux kernel
+did not store data in properly sized memory locations. A local user could
+use this to cause a denial of service (system crash). (CVE-2024-0607)
+
+Supraja Sridhara, Benedict Schlüter, Mark Kuhne, Andrin Bertschi, and
+Shweta Shinde discovered that the Confidential Computing framework in the
+Linux kernel for x86 platforms did not properly handle 32-bit emulation on
+TDX and SEV. An attacker with access to the VMM could use this to cause a
+denial of service (guest crash) or possibly execute arbitrary code.
+(CVE-2024-25744)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The New CISO: Rethinking the Role]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/new-ciso-rethinking-the-role</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/new-ciso-rethinking-the-role"/>
+        <updated>2024-03-19T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Rising cybersecurity demands are changing the role of the head security officer. CISOs need to make a list, check it at least twice, and document every step.]]></summary>
+        <author>
+            <name>James Doggett</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Deepfakes to Malware: AI's Expanding Role in Cyber Attacks]]></title>
+        <id>https://thehackernews.com/2024/03/from-deepfakes-to-malware-ais-expanding.html</id>
+        <link href="https://thehackernews.com/2024/03/from-deepfakes-to-malware-ais-expanding.html"/>
+        <updated>2024-03-19T13:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Large language models (LLMs) powering artificial intelligence (AI) tools today could be exploited to develop self-augmenting malware capable of bypassing YARA rules.
+"Generative AI can be used to evade string-based YARA rules by augmenting the source code of small malware variants, effectively lowering detection rates," Recorded Future said in a new report shared with The Hacker News.]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Airbus Pulls Out of Deal to Buy Atos Cybersecurity Unit]]></title>
+        <id>https://www.securityweek.com/?p=37217</id>
+        <link href="https://www.securityweek.com/airbus-pulls-out-of-deal-to-buy-atos-cybersecurity-unit/"/>
+        <updated>2024-03-19T13:54:56.000Z</updated>
+        <summary type="html"><![CDATA[Atos shares tank after Airbus decides not to move ahead with discussions to acquire its cybersecurity business.
+The post Airbus Pulls Out of Deal to Buy Atos Cybersecurity Unit appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chinese APT Hacks 48 Government Organizations]]></title>
+        <id>https://www.securityweek.com/?p=37213</id>
+        <link href="https://www.securityweek.com/chinese-apt-hacks-48-government-organizations/"/>
+        <updated>2024-03-19T13:00:37.000Z</updated>
+        <summary type="html"><![CDATA[Earth Krahang, likely a penetration team of Chinese government contractor I-Soon, has compromised 48 government entities worldwide.
+The post Chinese APT Hacks 48 Government Organizations appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BigID Raises $60 Million at $1 Billion Valuation]]></title>
+        <id>https://www.securityweek.com/?p=37212</id>
+        <link href="https://www.securityweek.com/bigid-raises-60-million-at-1-billion-valuation/"/>
+        <updated>2024-03-19T12:46:12.000Z</updated>
+        <summary type="html"><![CDATA[Data security firm BigID raises $60 million in a growth round that brings the total to $320 million and values the company at over $1 billion.
+The post BigID Raises $60 Million at $1 Billion Valuation appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases One Industrial Control Systems Advisory]]></title>
+        <id>/node/21125</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/03/19/cisa-releases-one-industrial-control-systems-advisory"/>
+        <updated>2024-03-19T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released one Industrial Control Systems (ICS) advisory on March 19, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+ICSA-24-079-01 Franklin Fueling System EVO 550/5000
+CISA encourages users and administrators to review the newly released ICS advisory for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA and Partners Release Joint Fact Sheet for Leaders on PRC-sponsored Volt Typhoon Cyber Activity]]></title>
+        <id>/node/21126</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/03/19/cisa-and-partners-release-joint-fact-sheet-leaders-prc-sponsored-volt-typhoon-cyber-activity"/>
+        <updated>2024-03-19T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA, the National Security Agency (NSA), Federal Bureau of Investigation (FBI), and other U.S. and international partners are issuing a joint fact sheet, People’s Republic of China State-Sponsored Cyber Activity: Actions for Critical Infrastructure Leaders. Partners of this publication include: 
+U.S. Department of Energy (DOE) 
+U.S. Environmental Protection Agency (EPA) 
+U.S. Transportation Security Administration (TSA) 
+U.S. Department of Treasury  
+Australian Signals Directorate’s (ASD’s) Australian Cyber Security Centre (ACSC) 
+Canadian Centre for Cyber Security (CCCS) a part of the Communications Security Establishment (CSE) 
+United Kingdom’s National Cyber Security Centre (NCSC-UK) 
+New Zealand’s National Cyber Security Centre (NCSC-NZ) 
+The U.S. authoring agencies assess that the PRC-sponsored advanced persistent threat group known as “Volt Typhoon” are seeking to pre-position themselves—using living off the land (LOTL) techniques—on IT networks for disruptive or destructive cyber activity against U.S. critical infrastructure in the event of a major crisis or conflict with the United States. The fact sheet warns critical infrastructure leaders of the urgent risk posed by Volt Typhoon and provides guidance on specific actions to prioritize the protection of their organization from this threat activity.  
+CISA and its partners strongly urge critical infrastructure organizations leaders to read the guidance provided in the joint fact sheet to defend against this threat. For more information on Volt Typhoon related activity, see PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure alongside supplemental Joint Guidance: Identifying and Mitigating Living off the Land Techniques. To learn more about secure by design principles and practices, visit Secure by Design.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Conversation Overflow' Cyberattacks Bypass AI Security to Target Execs]]></title>
+        <id>https://www.darkreading.com/cloud-security/conversation-overflow-cyberattacks-bypass-ai-security</id>
+        <link href="https://www.darkreading.com/cloud-security/conversation-overflow-cyberattacks-bypass-ai-security"/>
+        <updated>2024-03-19T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Credential-stealing emails are getting past artificial intelligence's "known good" email security controls by cloaking malicious payloads within seemingly benign emails. The tactic poses a significant threat to enterprise networks.]]></summary>
+        <author>
+            <name>Nathan Eddy, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nations Direct Mortgage Data Breach Impacts 83,000 Individuals]]></title>
+        <id>https://www.securityweek.com/?p=37211</id>
+        <link href="https://www.securityweek.com/nations-direct-mortgage-data-breach-impacts-83000-individuals/"/>
+        <updated>2024-03-19T11:42:58.000Z</updated>
+        <summary type="html"><![CDATA[Nations Direct informs 83,000 individuals that their personal information was compromised in a data breach.
+The post Nations Direct Mortgage Data Breach Impacts 83,000 Individuals appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Preparing Society for AI-Driven Disinformation in the 2024 Election Cycle]]></title>
+        <id>https://www.securityweek.com/?p=37209</id>
+        <link href="https://www.securityweek.com/preparing-society-for-ai-driven-disinformation-in-the-2024-election-cycle/"/>
+        <updated>2024-03-19T11:26:04.000Z</updated>
+        <summary type="html"><![CDATA[The rapid evolution of AI and analytics engines will put campaign-year disinformation into hyperspeed in terms of false content creation, dissemination and impact. 
+The post Preparing Society for AI-Driven Disinformation in the 2024 Election Cycle appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Rik Ferguson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI and the Evolution of Social Media]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/03/ai-and-the-evolution-of-social-media.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/03/ai-and-the-evolution-of-social-media.html"/>
+        <updated>2024-03-19T11:05:23.000Z</updated>
+        <summary type="html"><![CDATA[<p>Oh, how the mighty have fallen. A decade ago, social media was <a href="https://www.technologyreview.com/2016/04/16/160609/remaking-social-media-for-the-next-revolution/">celebrated</a> for sparking democratic uprisings in the Arab world and beyond. Now front pages are splashed with stories of social platforms’ role in <a href="https://www.washingtonpost.com/politics/2023/05/09/trump-false-election-claims-elon-musk-twitter/">misinformation</a>, business <a href="https://www.nytimes.com/2021/01/17/technology/google-facebook-ad-deal-antitrust.html">conspiracy</a>, <a href="https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-proposes-blanket-prohibition-preventing-facebook-monetizing-youth-data">malfeasance</a>, and risks to <a href="https://www.theatlantic.com/ideas/archive/2021/11/facebooks-dangerous-experiment-teen-girls/620767/">mental health</a>. In a 2022 <a href="https://www.pewresearch.org/global/2022/12/06/social-media-seen-as-mostly-good-for-democracy-across-many-nations-but-u-s-is-a-major-outlier/">survey</a>, Americans blamed social media for the coarsening of our political discourse, the spread of misinformation, and the increase in partisan polarization.</p>
+<p>Today, tech’s darling is artificial intelligence. Like social media, it has the potential to change the world in many ways, some favorable to democracy. But at the same time, it has the potential to do incredible damage to society...</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crafting and Communicating Your Cybersecurity Strategy for Board Buy-In]]></title>
+        <id>https://thehackernews.com/2024/03/crafting-and-communicating-your.html</id>
+        <link href="https://thehackernews.com/2024/03/crafting-and-communicating-your.html"/>
+        <updated>2024-03-19T10:37:00.000Z</updated>
+        <summary type="html"><![CDATA[In an era where digital transformation drives business across sectors, cybersecurity has transcended its traditional operational role to become a cornerstone of corporate strategy and risk management. This evolution demands a shift in how cybersecurity leaders—particularly Chief Information Security Officers (CISOs)—articulate the value and urgency of cybersecurity investments to their boards.&]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackers Exploiting Popular Document Publishing Sites for Phishing Attacks]]></title>
+        <id>https://thehackernews.com/2024/03/hackers-exploiting-popular-document.html</id>
+        <link href="https://thehackernews.com/2024/03/hackers-exploiting-popular-document.html"/>
+        <updated>2024-03-19T10:32:00.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors are leveraging digital document publishing (DDP) sites hosted on platforms like FlipSnack, Issuu, Marq, Publuu, RelayTo, and Simplebooklet for carrying out phishing, credential harvesting, and session token theft, once again underscoring how threat actors are repurposing legitimate services for malicious ends.
+"Hosting phishing lures on DDP sites increases the likelihood]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Suspected Russian Data-Wiping 'AcidPour' Malware Targeting Linux x86 Devices]]></title>
+        <id>https://thehackernews.com/2024/03/suspected-russian-data-wiping-acidpour.html</id>
+        <link href="https://thehackernews.com/2024/03/suspected-russian-data-wiping-acidpour.html"/>
+        <updated>2024-03-19T09:59:00.000Z</updated>
+        <summary type="html"><![CDATA[A new variant of a data wiping malware called AcidRain has been detected in the wild that's specifically designed for targeting Linux x86 devices.
+The malware, dubbed AcidPour, is compiled for Linux x86 devices, SentinelOne's Juan Andres Guerrero-Saade said in a series of posts on X.
+"The new variant [...] is an ELF binary compiled for x86 (not MIPS) and while it refers to similar devices/]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Misconfigured Firebase Instances Expose 125 Million User Records]]></title>
+        <id>https://www.securityweek.com/?p=37206</id>
+        <link href="https://www.securityweek.com/misconfigured-firebase-instances-expose-125-million-user-records/"/>
+        <updated>2024-03-19T09:54:05.000Z</updated>
+        <summary type="html"><![CDATA[A weakness in a Firebase implementation allowed researchers to gain access to names, phone numbers, email addresses, plaintext passwords, confidential messages, and more.
+The post Misconfigured Firebase Instances Expose 125 Million User Records appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mintlify Data Breach Leads to Exposure of Customer GitHub Tokens]]></title>
+        <id>https://www.securityweek.com/?p=37205</id>
+        <link href="https://www.securityweek.com/mintlify-data-breach-leads-to-exposure-of-customer-github-tokens/"/>
+        <updated>2024-03-19T09:26:34.000Z</updated>
+        <summary type="html"><![CDATA[Mintlify announces vulnerability disclosure program after a data breach exposed 91 customer GitHub tokens.
+The post Mintlify Data Breach Leads to Exposure of Customer GitHub Tokens appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aiohttp Vulnerability in Attacker Crosshairs]]></title>
+        <id>https://www.securityweek.com/?p=37204</id>
+        <link href="https://www.securityweek.com/aiohttp-vulnerability-in-attacker-crosshairs/"/>
+        <updated>2024-03-19T09:05:30.000Z</updated>
+        <summary type="html"><![CDATA[A recently patched Aiohttp vulnerability tracked as CVE-2024-23334 is being targeted by threat actors, including by a ransomware group.
+The post Aiohttp Vulnerability in Attacker Crosshairs appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Phishing Attack Uses Clever Microsoft Office Trick to Deploy NetSupport RAT]]></title>
+        <id>https://thehackernews.com/2024/03/new-phishing-attack-uses-clever.html</id>
+        <link href="https://thehackernews.com/2024/03/new-phishing-attack-uses-clever.html"/>
+        <updated>2024-03-19T05:28:00.000Z</updated>
+        <summary type="html"><![CDATA[A new phishing campaign is targeting U.S. organizations with the intent to deploy a remote access trojan called NetSupport RAT.
+Israeli cybersecurity company Perception Point is tracking the activity under the moniker Operation PhantomBlu.
+"The PhantomBlu operation introduces a nuanced exploitation method, diverging from NetSupport RAT’s typical delivery mechanism by leveraging OLE (Object]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[E-Root Marketplace Admin Sentenced to 42 Months for Selling 350K Stolen Credentials]]></title>
+        <id>https://thehackernews.com/2024/03/e-root-marketplace-admin-sentenced-to.html</id>
+        <link href="https://thehackernews.com/2024/03/e-root-marketplace-admin-sentenced-to.html"/>
+        <updated>2024-03-19T04:47:00.000Z</updated>
+        <summary type="html"><![CDATA[A 31-year-old Moldovan national has been sentenced to 42 months in prison in the U.S. for operating an illicit marketplace called E-Root Marketplace that offered for sale hundreds of thousands of compromised credentials, the Department of Justice (DoJ) announced.
+Sandu Boris Diaconu was charged with conspiracy to commit access device and computer fraud and possession of 15 or more unauthorized]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UnitedHealth Says It Has Made Progress on Recovering From  Massive Cyberattack]]></title>
+        <id>https://www.securityweek.com/?p=37203</id>
+        <link href="https://www.securityweek.com/unitedhealth-says-it-has-made-progress-on-recovering-from-massive-cyberattack/"/>
+        <updated>2024-03-19T02:25:20.000Z</updated>
+        <summary type="html"><![CDATA[UnitedHealth is testing the last major system it must restore from last month’s Change Healthcare cyberattack, but it has no date yet for finishing the recovery.
+The post UnitedHealth Says It Has Made Progress on Recovering From  Massive Cyberattack appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[North Korea-Linked Group Levels Multistage Cyberattack on South Korea]]></title>
         <id>https://www.darkreading.com/vulnerabilities-threats/north-korea-linked-group-level-multistage-cyberattack-on-south-korea</id>
@@ -8446,117 +8905,6 @@ The post Ukrainian Raccoon Infostealer Operator Extradited to US appeared first 
         <summary type="html"><![CDATA[Meta Platforms said it took a series of steps to curtail malicious activity from eight different firms based in Italy, Spain, and the United Arab Emirates (U.A.E.) operating in the surveillance-for-hire industry.
 The findings are part of its Adversarial Threat Report for the fourth quarter of 2023. The spyware targeted iOS, Android, and Windows devices.
 "Their various malware included]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russian Cyberspies Exploit Roundcube Flaws Against European Governments]]></title>
-        <id>https://www.securityweek.com/?p=36796</id>
-        <link href="https://www.securityweek.com/russian-cyberspies-exploit-roundcube-flaws-against-european-governments/"/>
-        <updated>2024-02-19T12:57:08.000Z</updated>
-        <summary type="html"><![CDATA[Russian cyberespionage group targets European government, military, and critical infrastructure entities via Roundcube vulnerabilities.
-The post Russian Cyberspies Exploit Roundcube Flaws Against European Governments appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ransomware Group Takes Credit for LoanDepot, Prudential Financial Attacks]]></title>
-        <id>https://www.securityweek.com/?p=36795</id>
-        <link href="https://www.securityweek.com/ransomware-group-takes-credit-for-loandepot-prudential-financial-attacks/"/>
-        <updated>2024-02-19T12:32:44.000Z</updated>
-        <summary type="html"><![CDATA[The BlackCat/Alphv ransomware group has taken credit for the LoanDepot and Prudential Financial attacks, threatening to sell or leak data.
-The post Ransomware Group Takes Credit for LoanDepot, Prudential Financial Attacks appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Achieve the Best Risk-Based Alerting (Bye-Bye SIEM)]]></title>
-        <id>https://thehackernews.com/2024/02/bye-bye-siem-hello-risk-based-alerting.html</id>
-        <link href="https://thehackernews.com/2024/02/bye-bye-siem-hello-risk-based-alerting.html"/>
-        <updated>2024-02-19T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Did you know that Network Detection and Response (NDR) has become the most effective technology to detect cyber threats? In contrast to SIEM, NDR offers adaptive cybersecurity with reduced false alerts and efficient threat response.
-Are you aware of Network Detection and Response (NDR) and how it’s become the most effective technology to detect cyber threats? 
-NDR massively]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Q&amp;A: The Cybersecurity Training Gap in Industrial Networks]]></title>
-        <id>https://www.darkreading.com/ics-ot-security/q-a-learning-secure-ot-environments</id>
-        <link href="https://www.darkreading.com/ics-ot-security/q-a-learning-secure-ot-environments"/>
-        <updated>2024-02-19T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cyberattacks and threats increasingly are honed in on ICS/OT networks, but security training for operators of these critical infrastructure environments is perilously scarce.]]></summary>
-        <author>
-            <name>Dan Raywood, Senior Editor, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anatsa Android Trojan Bypasses Google Play Security, Expands Reach to New Countries]]></title>
-        <id>https://thehackernews.com/2024/02/anatsa-android-trojan-bypasses-google.html</id>
-        <link href="https://thehackernews.com/2024/02/anatsa-android-trojan-bypasses-google.html"/>
-        <updated>2024-02-19T10:29:00.000Z</updated>
-        <summary type="html"><![CDATA[The Android banking trojan known as Anatsa has expanded its focus to include Slovakia, Slovenia, and Czechia as part of a new campaign observed in November 2023.
-"Some of the droppers in the campaign successfully exploited the accessibility service, despite Google Play's enhanced detection and protection mechanisms," ThreatFabric said in a report shared with The Hacker News.]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Google Initiative to Foster AI in Cybersecurity]]></title>
-        <id>https://www.securityweek.com/?p=36794</id>
-        <link href="https://www.securityweek.com/new-google-initiative-to-foster-ai-in-cybersecurity/"/>
-        <updated>2024-02-19T10:27:24.000Z</updated>
-        <summary type="html"><![CDATA[Google’s new AI Cyber Defense Initiative focuses on boosting cybersecurity through artificial intelligence.
-The post New Google Initiative to Foster AI in Cybersecurity appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iOS Trojan Collects Face and Other Data for Bank Account Hacking]]></title>
-        <id>https://www.securityweek.com/?p=36793</id>
-        <link href="https://www.securityweek.com/ios-trojan-collects-face-and-other-data-for-bank-account-hacking/"/>
-        <updated>2024-02-19T10:10:05.000Z</updated>
-        <summary type="html"><![CDATA[Chinese hackers use Android and iOS trojans to obtain information needed to steal money from victims’ bank accounts.
-The post iOS Trojan Collects Face and Other Data for Bank Account Hacking  appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-6641-1: curl vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-6641-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-6641-1"/>
-        <updated>2024-02-19T08:44:03.000Z</updated>
-        <summary type="html"><![CDATA[Harry Sintonen discovered that curl incorrectly handled mixed case cookie
-domains. A remote attacker could possibly use this issue to set cookies
-that get sent to different and unrelated sites and domains.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russian-Linked Hackers Target 80+ Organizations via Roundcube Flaws]]></title>
-        <id>https://thehackernews.com/2024/02/russian-linked-hackers-breach-80.html</id>
-        <link href="https://thehackernews.com/2024/02/russian-linked-hackers-breach-80.html"/>
-        <updated>2024-02-19T05:05:00.000Z</updated>
-        <summary type="html"><![CDATA[Threat actors operating with interests aligned to Belarus and Russia have been linked to a new cyber espionage campaign that likely exploited cross-site scripting (XSS) vulnerabilities in Roundcube webmail servers to target over 80 organizations.
-These entities are primarily located in Georgia, Poland, and Ukraine, according to Recorded Future, which attributed the intrusion set to a threat]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Iranian Hackers Target Middle East Policy Experts with New BASICSTAR Backdoor]]></title>
-        <id>https://thehackernews.com/2024/02/iranian-hackers-target-middle-east.html</id>
-        <link href="https://thehackernews.com/2024/02/iranian-hackers-target-middle-east.html"/>
-        <updated>2024-02-19T04:39:00.000Z</updated>
-        <summary type="html"><![CDATA[The Iranian-origin threat actor known as Charming Kitten has been linked to a new set of attacks aimed at Middle East policy experts with a new backdoor called BASICSTAR by creating a fake webinar portal.
-Charming Kitten, also called APT35, CharmingCypress, Mint Sandstorm, TA453, and Yellow Garuda, has a history of orchestrating a wide range of social engineering campaigns that cast a]]></summary>
         <author>
             <name>info@thehackernews.com (The Hacker News)</name>
         </author>
