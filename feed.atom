@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-03-24T01:13:02.016Z</updated>
+    <updated>2024-03-25T01:08:35.491Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[N. Korea-linked Kimsuky Shifts to Compiled HTML Help Files in Ongoing Cyberattacks]]></title>
+        <id>https://thehackernews.com/2024/03/n-korea-linked-kimsuky-shifts-to.html</id>
+        <link href="https://thehackernews.com/2024/03/n-korea-linked-kimsuky-shifts-to.html"/>
+        <updated>2024-03-24T05:38:00.000Z</updated>
+        <summary type="html"><![CDATA[The North Korea-linked threat actor known as Kimsuky (aka Black Banshee, Emerald Sleet, or Springtail) has been observed shifting its tactics, leveraging Compiled HTML Help (CHM) files as vectors to deliver malware for harvesting sensitive data.
+Kimsuky, active since at least 2012, is known to target entities located in South Korea as well as North America, Asia, and Europe.
+According]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[German Police Seize 'Nemesis Market' in Major International Darknet Raid]]></title>
+        <id>https://thehackernews.com/2024/03/german-police-seize-nemesis-market-in.html</id>
+        <link href="https://thehackernews.com/2024/03/german-police-seize-nemesis-market-in.html"/>
+        <updated>2024-03-24T05:24:00.000Z</updated>
+        <summary type="html"><![CDATA[German authorities have announced the takedown of an illicit underground marketplace called Nemesis Market that peddled narcotics, stolen data, and various cybercrime services.
+The Federal Criminal Police Office (aka Bundeskriminalamt or BKA) said it seized the digital infrastructure associated with the darknet service located in Germany and Lithuania and confiscated €94,000 ($102,107)]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Russian Hackers Use 'WINELOADER' Malware to Target German Political Parties]]></title>
         <id>https://thehackernews.com/2024/03/russian-hackers-use-wineloader-malware.html</id>
@@ -8502,315 +8525,6 @@ The development comes following the takedown of the prolific ransomware-as-a-s
 The post White House Wades Into Debate on ‘Open’ Versus ‘Closed’ Artificial Intelligence Systems appeared first on SecurityWeek.]]></summary>
         <author>
             <name>Associated Press</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Expands Free Logging Capabilities for all U.S. Federal Agencies]]></title>
-        <id>https://thehackernews.com/2024/02/microsoft-expands-free-logging.html</id>
-        <link href="https://thehackernews.com/2024/02/microsoft-expands-free-logging.html"/>
-        <updated>2024-02-24T11:49:00.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has expanded free logging capabilities to all U.S. federal agencies using Microsoft Purview Audit irrespective of the license tier, more than six months after a China-linked cyber espionage campaign targeting two dozen organizations came to light.
-"Microsoft will automatically enable the logs in customer accounts and increase the default log retention period from 90 days to 180 days,"]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Friday Squid Blogging: Illex Squid and Climate Change]]></title>
-        <id>https://www.schneier.com/blog/archives/2024/02/friday-squid-blogging-illex-squid-and-climate-change.html</id>
-        <link href="https://www.schneier.com/blog/archives/2024/02/friday-squid-blogging-illex-squid-and-climate-change.html"/>
-        <updated>2024-02-23T22:04:28.000Z</updated>
-        <summary type="html"><![CDATA[<p>There <a href="https://bnnbreaking.com/world/argentina/unraveling-the-dance-of-the-elusive-illex-argentines-squid-and-climate-change-in-the-southwest-atlantic">are</a> <a href="https://en.mercopress.com/2024/02/15/illex-squid-correlation-between-abundance-and-sea-surface-temperatures-taiwanese-experience-1998-2018">correlations</a> between the populations of the Illex Argentines squid and water temperatures.</p>
-<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.</p>
-<p>Read my blog posting guidelines <a href="https://www.schneier.com/blog/archives/2017/03/commenting_poli.html">here</a>.</p>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-6653-1: Linux kernel vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-6653-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-6653-1"/>
-        <updated>2024-02-23T21:40:59.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that a race condition existed in the ATM (Asynchronous
-Transfer Mode) subsystem of the Linux kernel, leading to a use-after-free
-vulnerability. A local attacker could use this to cause a denial of service
-(system crash) or possibly execute arbitrary code. (CVE-2023-51780)
-
-It was discovered that a race condition existed in the AppleTalk networking
-subsystem of the Linux kernel, leading to a use-after-free vulnerability. A
-local attacker could use this to cause a denial of service (system crash)
-or possibly execute arbitrary code. (CVE-2023-51781)
-
-Zhenghan Wang discovered that the generic ID allocator implementation in
-the Linux kernel did not properly check for null bitmap when releasing IDs.
-A local attacker could use this to cause a denial of service (system
-crash). (CVE-2023-6915)
-
-Robert Morris discovered that the CIFS network file system implementation
-in the Linux kernel did not properly validate certain server commands
-fields, leading to an out-of-bounds read vulnerability. An attacker could
-use this to cause a denial of service (system crash) or possibly expose
-sensitive information. (CVE-2024-0565)
-
-Jann Horn discovered that the TLS subsystem in the Linux kernel did not
-properly handle spliced messages, leading to an out-of-bounds write
-vulnerability. A local attacker could use this to cause a denial of service
-(system crash) or possibly execute arbitrary code. (CVE-2024-0646)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond Identity Introduces Device360 for Security Risk Visibility Across All Devices]]></title>
-        <id>https://www.darkreading.com/cyber-risk/beyond-identity-introduces-device360-for-security-risk-visibility-across-all-devices</id>
-        <link href="https://www.darkreading.com/cyber-risk/beyond-identity-introduces-device360-for-security-risk-visibility-across-all-devices"/>
-        <updated>2024-02-23T20:50:39.000Z</updated>
-        <author>
-            <name>darkreading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Palo Alto Networks Launches Cortex Platform Offer]]></title>
-        <id>https://www.darkreading.com/endpoint-security/palo-alto-networks-launches-cortex-platform-offer</id>
-        <link href="https://www.darkreading.com/endpoint-security/palo-alto-networks-launches-cortex-platform-offer"/>
-        <updated>2024-02-23T20:47:26.000Z</updated>
-        <author>
-            <name>darkreading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-6652-1: Linux kernel (Azure) vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-6652-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-6652-1"/>
-        <updated>2024-02-23T20:20:01.000Z</updated>
-        <summary type="html"><![CDATA[Marek Marczykowski-Górecki discovered that the Xen event channel
-infrastructure implementation in the Linux kernel contained a race
-condition. An attacker in a guest VM could possibly use this to cause a
-denial of service (paravirtualized device unavailability). (CVE-2023-34324)
-
-Zheng Wang discovered a use-after-free in the Renesas Ethernet AVB driver
-in the Linux kernel during device removal. A privileged attacker could use
-this to cause a denial of service (system crash). (CVE-2023-35827)
-
-Tom Dohrmann discovered that the Secure Encrypted Virtualization (SEV)
-implementation for AMD processors in the Linux kernel contained a race
-condition when accessing MMIO registers. A local attacker in a SEV guest VM
-could possibly use this to cause a denial of service (system crash) or
-possibly exec…]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-6651-1: Linux kernel vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-6651-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-6651-1"/>
-        <updated>2024-02-23T19:36:52.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that a race condition existed in the ATM (Asynchronous
-Transfer Mode) subsystem of the Linux kernel, leading to a use-after-free
-vulnerability. A local attacker could use this to cause a denial of service
-(system crash) or possibly execute arbitrary code. (CVE-2023-51780)
-
-It was discovered that a race condition existed in the AppleTalk networking
-subsystem of the Linux kernel, leading to a use-after-free vulnerability. A
-local attacker could use this to cause a denial of service (system crash)
-or possibly execute arbitrary code. (CVE-2023-51781)
-
-Zhenghan Wang discovered that the generic ID allocator implementation in
-the Linux kernel did not properly check for null bitmap when releasing IDs.
-A local attacker could use this to cause a denial of service (system
-crash). (CVE-2023-6915)
-
-Robert Morris discovered that the CIFS network file system implementation
-in the Linux kernel did not properly validate certain server commands
-fields, leading to an out-of-bounds read vulnerability. An attacker could
-use this to cause a denial of service (system crash) or possibly expose
-sensitive information. (CVE-2024-0565)
-
-Jann Horn discovered that the io_uring subsystem in the Linux kernel did
-not properly handle the release of certain buffer rings. A local attacker
-could use this to cause a denial of service (system crash) or possibly
-execute arbitrary code. (CVE-2024-0582)
-
-Jann Horn discovered that the TLS subsystem in the Linux kernel did not
-properly handle spliced messages, leading to an out-of-bounds write
-vulnerability. A local attacker could use this to cause a denial of service
-(system crash) or possibly execute arbitrary code. (CVE-2024-0646)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Beefs Up iMessage With Quantum-Resistant Encryption]]></title>
-        <id>https://www.darkreading.com/endpoint-security/apple-beefs-up-imessage-with-quantum-resistant-encryption</id>
-        <link href="https://www.darkreading.com/endpoint-security/apple-beefs-up-imessage-with-quantum-resistant-encryption"/>
-        <updated>2024-02-23T19:21:00.000Z</updated>
-        <summary type="html"><![CDATA[The revamped iMessage app uses Apple's new PQ3 post-quantum cryptographic protocol, which its engineers say will make it the most secure messaging app — but Signal's president begs to differ.]]></summary>
-        <author>
-            <name>Jeffrey Schwartz, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Redesigning the Network to Fend Off Living-Off-the-Land Tactics]]></title>
-        <id>https://www.darkreading.com/identity-access-management-security/redesigning-the-network-to-fend-off-living-off-the-land-tactics</id>
-        <link href="https://www.darkreading.com/identity-access-management-security/redesigning-the-network-to-fend-off-living-off-the-land-tactics"/>
-        <updated>2024-02-23T19:20:39.000Z</updated>
-        <summary type="html"><![CDATA[The growing threat of living-off-the-land tactics requires a rethink of network traffic visibility to prevent these types of attacks.]]></summary>
-        <author>
-            <name>Nathan Eddy, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lovers' Spat? North Korea Backdoors Russian Foreign Affairs Ministry]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/north-korea-backdoors-russian-foreign-affairs-ministry</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/north-korea-backdoors-russian-foreign-affairs-ministry"/>
-        <updated>2024-02-23T18:52:05.000Z</updated>
-        <summary type="html"><![CDATA[First Brad and Jennifer, now Kim and Putin? Romance truly is dead, as North Korea is caught spying (again) on its partner to the north with the Konni malware.]]></summary>
-        <author>
-            <name>Nate Nelson, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Orgs Face Major SEC Penalties for Failing to Disclose Breaches]]></title>
-        <id>https://www.darkreading.com/cyber-risk/orgs-face-major-sec-penalties-failing-disclose-breaches</id>
-        <link href="https://www.darkreading.com/cyber-risk/orgs-face-major-sec-penalties-failing-disclose-breaches"/>
-        <updated>2024-02-23T18:27:40.000Z</updated>
-        <summary type="html"><![CDATA[In what could be an enforcement nightmare, potentially millions of dollars in fines, reputational damage, shareholder lawsuits, and other penalties await companies that fail to comply with the SEC's new data-breach disclosure rules.]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-6650-1: Linux kernel (OEM) vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-6650-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-6650-1"/>
-        <updated>2024-02-23T17:54:23.000Z</updated>
-        <summary type="html"><![CDATA[Zhenghan Wang discovered that the generic ID allocator implementation in
-the Linux kernel did not properly check for null bitmap when releasing IDs.
-A local attacker could use this to cause a denial of service (system
-crash).]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SVR Cyber Actors Adapt Tactics for Initial Cloud Access]]></title>
-        <id>/node/21015</id>
-        <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-057a"/>
-        <updated>2024-02-23T17:37:53.000Z</updated>
-        <summary type="html"><![CDATA[How SVR-Attributed Actors are Adapting to the Move of Government and Corporations to Cloud Infrastructure
-OVERVIEW
-This advisory details recent tactics, techniques, and procedures (TTPs) of the group commonly known as APT29, also known as Midnight Blizzard, the Dukes, or Cozy Bear.
-The UK National Cyber Security Centre (NCSC) and international partners assess that APT29 is a cyber espionage group, almost certainly part of the SVR, an element of the Russian intelligence services. The US National Security Agency (NSA), the US Cybersecurity and Infrastructure Security Agency (CISA), the US Cyber National Mission Force (CNMF), the Federal Bureau of Investigation (FBI), Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the Canadian Centre for Cyber Security (CCCS),…]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Privacy Beats Ransomware as Top Insurance Concern]]></title>
-        <id>https://www.darkreading.com/data-privacy/privacy-ransomware-top-2024-cyber-insurance</id>
-        <link href="https://www.darkreading.com/data-privacy/privacy-ransomware-top-2024-cyber-insurance"/>
-        <updated>2024-02-23T17:23:34.000Z</updated>
-        <summary type="html"><![CDATA[Despite ransomware losses remaining high, privacy violations have quickly risen to second in a list of expected cyber insurance claims costs.]]></summary>
-        <author>
-            <name>Stephen Lawton, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Avast to Pay $16.5M Fine for Selling Consumer Browsing Data]]></title>
-        <id>https://www.darkreading.com/cyber-risk/ftc-orders-avast-to-pay-16-5m-for-selling-consumer-browsing-data</id>
-        <link href="https://www.darkreading.com/cyber-risk/ftc-orders-avast-to-pay-16-5m-for-selling-consumer-browsing-data"/>
-        <updated>2024-02-23T17:09:10.000Z</updated>
-        <summary type="html"><![CDATA[The FTC found that Avast collected reams of personal data through its antivirus product, then sold it to more than 100 third parties without disclosing its practices.]]></summary>
-        <author>
-            <name>Dark Reading Staff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dormant PyPI Package Compromised to Spread Nova Sentinel Malware]]></title>
-        <id>https://thehackernews.com/2024/02/dormant-pypi-package-compromised-to.html</id>
-        <link href="https://thehackernews.com/2024/02/dormant-pypi-package-compromised-to.html"/>
-        <updated>2024-02-23T17:08:00.000Z</updated>
-        <summary type="html"><![CDATA[A dormant package available on the Python Package Index (PyPI) repository was updated nearly after two years to propagate an information stealer malware called Nova Sentinel.
-The package, named django-log-tracker, was first published to PyPI in April 2022, according to software supply chain security firm Phylum, which detected an anomalous update to the library on February 21,]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AIs Hacking Websites]]></title>
-        <id>https://www.schneier.com/blog/archives/2024/02/ais-hacking-websites.html</id>
-        <link href="https://www.schneier.com/blog/archives/2024/02/ais-hacking-websites.html"/>
-        <updated>2024-02-23T16:14:27.000Z</updated>
-        <summary type="html"><![CDATA[<p>New <a href="https://arxiv.org/abs/2402.06664">research</a>:</p>
-<blockquote><p>LLM Agents can Autonomously Hack Websites</p>
-<p><b>Abstract:</b> In recent years, large language models (LLMs) have become increasingly capable and can now interact with tools (i.e., call functions), read documents, and recursively call themselves. As a result, these LLMs can now function autonomously as agents. With the rise in capabilities of these agents, recent work has speculated on how LLM agents would affect cybersecurity. However, not much is known about the offensive capabilities of LLM agents.</p>
-<p>In this work, we show that LLM agents can autonomously hack websites, performing tasks as complex as blind database schema extraction and SQL injections without human feedback. Importantly, the agent does not need to know the vulnerability beforehand. This capability is uniquely enabled by frontier models that are highly capable of tool use and leveraging extended context. Namely, we show that GPT-4 is capable of such hacks, but existing open-source models are not. Finally, we show that GPT-4 is capable of autonomously finding vulnerabilities in websites in the wild. Our findings raise questions about the widespread deployment of LLMs...</p></blockquote>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Malawi Immigration Dept. Halts Passport Services Amid Cyberattack]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/malawi-immigration-department-halts-services-amid-cyberattack</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/malawi-immigration-department-halts-services-amid-cyberattack"/>
-        <updated>2024-02-23T16:11:24.000Z</updated>
-        <summary type="html"><![CDATA[President of Malawi vows not to pay ransom to "appease criminals."]]></summary>
-        <author>
-            <name>Dark Reading Staff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ConnectWise ScreenConnect Mass Exploitation Delivers Ransomware]]></title>
-        <id>https://www.darkreading.com/remote-workforce/connectwise-screenconnect-mass-exploitation-delivers-ransomware</id>
-        <link href="https://www.darkreading.com/remote-workforce/connectwise-screenconnect-mass-exploitation-delivers-ransomware"/>
-        <updated>2024-02-23T15:07:43.000Z</updated>
-        <summary type="html"><![CDATA[Hundreds of initial access brokers and cybercrime gangs are jumping on the max-critical CVE-2024-1709 authentication bypass, threatening orgs and downstream customers.]]></summary>
-        <author>
-            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alarm Over GenAI Risk Fuels Security Spending in Middle East &amp; Africa]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/alarm-over-generative-ai-fuels-security-spending-in-middle-east-africa</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/alarm-over-generative-ai-fuels-security-spending-in-middle-east-africa"/>
-        <updated>2024-02-23T15:00:20.000Z</updated>
-        <summary type="html"><![CDATA[Organizations boost cybersecurity budgets to tackle data-privacy and cloud-security threats amid speedy adoption of generative AI.]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fostering Collaboration for Standardized Threat Investigation &amp; Response]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/fostering-collaboration-standardized-threat-investigation-response</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/fostering-collaboration-standardized-threat-investigation-response"/>
-        <updated>2024-02-23T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Working together can bring much-needed trust to the industry and help safeguard people, organizations, and government — now and in the future.]]></summary>
-        <author>
-            <name>Paul Agbabian, Mark Terenzoni, Sridhar Muppidi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Toward Better Patching — A New Approach with a Dose of AI]]></title>
-        <id>https://www.securityweek.com/?p=36864</id>
-        <link href="https://www.securityweek.com/toward-better-patching-a-new-approach-with-a-dose-of-ai/"/>
-        <updated>2024-02-23T13:54:02.000Z</updated>
-        <summary type="html"><![CDATA[Use of AI to cut through the noise and confusion of the current vulnerability prioritization approaches suggests an exciting future for AI-assisted operations to vulnerability triaging.
-The post Toward Better Patching — A New Approach with a Dose of AI appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Kevin Townsend</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Shortcuts Vulnerability Exposes Sensitive Information]]></title>
-        <id>https://www.securityweek.com/?p=36862</id>
-        <link href="https://www.securityweek.com/apple-shortcuts-vulnerability-exposes-sensitive-information/"/>
-        <updated>2024-02-23T13:21:51.000Z</updated>
-        <summary type="html"><![CDATA[High-severity vulnerability in Apple Shortcuts could lead to sensitive information leak without user’s knowledge.
-The post Apple Shortcuts Vulnerability Exposes Sensitive Information appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
         </author>
     </entry>
 </feed>
