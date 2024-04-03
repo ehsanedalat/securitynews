@@ -2,10 +2,308 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-04-02T01:11:09.588Z</updated>
+    <updated>2024-04-03T01:07:05.956Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[China-Linked Threat Actor Taps 'Peculiar' Malware to Evade Detection]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/china-linked-threat-actor-using-peculiar-malware-to-hide-malicious-activities</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/china-linked-threat-actor-using-peculiar-malware-to-hide-malicious-activities"/>
+        <updated>2024-04-02T23:05:39.000Z</updated>
+        <summary type="html"><![CDATA[UNAPIMON works by meticulously disabling hooks in Windows APIs for detecting malicious processes.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NIST Wants Help Digging Out of Its NVD Backlog]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/nist-needs-help-digging-out-of-its-vulnerability-backlog</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/nist-needs-help-digging-out-of-its-vulnerability-backlog"/>
+        <updated>2024-04-02T20:54:44.000Z</updated>
+        <summary type="html"><![CDATA[The National Vulnerability Database can't keep up, and the agency is calling for a public-private partnership to manage it going forward.]]></summary>
+        <author>
+            <name>Becky Bracken, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HHS Plans for Cyber 'One-Stop Shop' After United Healthcare Attack]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/hhs-plans-for-cyber-one-stop-shop-after-change-healthcare-attack</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/hhs-plans-for-cyber-one-stop-shop-after-change-healthcare-attack"/>
+        <updated>2024-04-02T19:52:39.000Z</updated>
+        <summary type="html"><![CDATA[The initiative is meant to provide more resources and better strategies for healthcare entities that face an increasing amount of cybersecurity challenges.]]></summary>
+        <author>
+            <name>Dark Reading Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Attackers Abuse Google Ad Feature to Target Slack, Notion Users]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-google-ad-feature-to-target-slack-notion-users</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-google-ad-feature-to-target-slack-notion-users"/>
+        <updated>2024-04-02T19:23:59.000Z</updated>
+        <summary type="html"><![CDATA[Campaign distributes malware disguised as legitimate installers for popular workplace collaboration apps by abusing a traffic-tracking feature.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[xz Utils Backdoor]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/04/xz-utils-backdoor.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/04/xz-utils-backdoor.html"/>
+        <updated>2024-04-02T18:50:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>The cybersecurity world got really lucky last week. An intentionally placed backdoor in xz Utils, an open-source compression utility, was pretty much <a href="https://www.openwall.com/lists/oss-security/2024/03/29/4">accidentally discovered</a> by a Microsoft engineer&#8212;weeks before it would have been incorporated into both Debian and Red Hat Linux. From <a href="https://arstechnica.com/security/2024/04/what-we-know-about-the-xz-utils-backdoor-that-almost-infected-the-world/">ArsTehnica</a>:</p>
+<blockquote><p>Malicious code added to xz Utils versions 5.6.0 and 5.6.1 modified the way the software functions. The backdoor manipulated sshd, the executable file used to make remote SSH connections. Anyone in possession of a predetermined encryption key could stash any code of their choice in an SSH login certificate, upload it, and execute it on the backdoored device. No one has actually seen code uploaded, so it&#8217;s not known what code the attacker planned to run. In theory, the code could allow for just about anything, including stealing encryption keys or installing malware...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Declassified NSA Newsletters]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/04/declassified-nsa-newsletters.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/04/declassified-nsa-newsletters.html"/>
+        <updated>2024-04-02T17:05:15.000Z</updated>
+        <summary type="html"><![CDATA[<p>Through a 2010 FOIA request (yes, it took that long), we have copies of the NSA&#8217;s KRYPTOS Society Newsletter, &#8220;<a href="https://www.governmentattic.org/53docs/NSAkryptosSocNwsltrs1994-2003.pdf">Tales of the Krypt</a>,&#8221; from 1994 to 2003.</p>
+<p>There are many interesting things in the 800 pages of newsletter. There are many redactions. And a 1994 review of <i>Applied Cryptography</i> by <b>redacted</b>:</p>
+<blockquote><p>Applied Cryptography, for those who don&#8217;t read the internet news, is a book written by Bruce Schneier last year. According to the jacket, Schneier is a data security expert with a master&#8217;s degree in computer science. According to his followers, he is a hero who has finally brought together the loose threads of cryptography for the general public to understand. Schneier has gathered academic research, internet gossip, and everything he could find on cryptography into one 600-page jumble...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chrome to Fight Cookie Theft With Device Bound Session Credentials]]></title>
+        <id>https://www.securityweek.com/?p=37408</id>
+        <link href="https://www.securityweek.com/chrome-to-fight-cookie-theft-with-device-bound-session-credentials/"/>
+        <updated>2024-04-02T16:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Google is bringing to Chrome new features to bind browser sessions to the device and protect users against cookie theft.
+The post Chrome to Fight Cookie Theft With Device Bound Session Credentials  appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Security Flaw in WP-Members Plugin Leads to Script Injection]]></title>
+        <id>https://www.securityweek.com/?p=37413</id>
+        <link href="https://www.securityweek.com/security-flaw-in-wp-members-plugin-leads-to-script-injection/"/>
+        <updated>2024-04-02T14:36:24.000Z</updated>
+        <summary type="html"><![CDATA[A cross-site scripting vulnerability in the WP-Members Membership plugin could allow attackers to inject scripts into user profile pages.
+The post Security Flaw in WP-Members Plugin Leads to Script Injection appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Instilling the Hacker Mindset Organizationwide]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/instilling-hacker-mindset-organizationwide</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/instilling-hacker-mindset-organizationwide"/>
+        <updated>2024-04-02T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It's critical for security teams to stay vigilant not only when it comes to major security issues, but also with minor lags in security best practice.]]></summary>
+        <author>
+            <name>Tim Chase</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hotel Self Check-In Kiosks Exposed Room Access Codes]]></title>
+        <id>https://www.securityweek.com/?p=37409</id>
+        <link href="https://www.securityweek.com/hotel-self-check-in-kiosks-exposed-room-access-codes/"/>
+        <updated>2024-04-02T13:47:42.000Z</updated>
+        <summary type="html"><![CDATA[Self check-in kiosks at Ibis Budget hotels were affected by a vulnerability that exposed keypad codes that could be used to enter rooms. 
+The post Hotel Self Check-In Kiosks Exposed Room Access Codes appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Malicious Code in XZ Utils for Linux Systems Enables Remote Code Execution]]></title>
+        <id>https://thehackernews.com/2024/04/malicious-code-in-xz-utils-for-linux.html</id>
+        <link href="https://thehackernews.com/2024/04/malicious-code-in-xz-utils-for-linux.html"/>
+        <updated>2024-04-02T13:18:00.000Z</updated>
+        <summary type="html"><![CDATA[The malicious code inserted into the open-source library XZ Utils, a widely used package present in major Linux distributions, is also capable of facilitating remote code execution, a new analysis has revealed.
+The audacious supply chain compromise, tracked as CVE-2024-3094 (CVSS score: 10.0), came to light last week when Microsoft engineer and PostgreSQL developer Andres Freund]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases One Industrial Control Systems Advisory]]></title>
+        <id>/node/21227</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/04/02/cisa-releases-one-industrial-control-systems-advisory"/>
+        <updated>2024-04-02T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released one Industrial Control Systems (ICS) advisory on April 2, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+ICSA-24-093-01 IOSIX IO-1020 Micro ELD
+CISA encourages users and administrators to review the newly released ICS advisory for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Publishes New Webpage Dedicated to Providing Resources for High-Risk Communities]]></title>
+        <id>/node/21228</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/04/02/cisa-publishes-new-webpage-dedicated-providing-resources-high-risk-communities"/>
+        <updated>2024-04-02T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA published a new dedicated High-Risk Communities webpage comprised of cybersecurity resources to support civil society communities at heighted risk of digital security threats, including cyber hygiene guidance, a repository of local cyber volunteer programs, and free or discounted tools and services.
+Despite their vulnerability to advanced cyber threats, many civil society organizations operate on lean budgets and cannot significantly invest in cybersecurity. CISA’s High-Risk Communities webpage provides resources specifically for civil society organizations, such as:
+Project Upskill, a suite of cyber hygiene guides designed to arm individuals of high-risk organizations with simple steps to meaningfully improve their cyber hygiene.
+Cybersecurity Resources for High-Risk Communities, which offers a wide selection of free or steeply discounted tools and services.
+Cyber Volunteer Resource Center, a repository of cyber volunteer programs across the country that provide free, hands-on cybersecurity support to under-resourced organizations.
+For more information on the initiative, read Associate Director Clayton Roman’s blog post, JCDC Working and Collaborating to Build Cyber Defense for Civil Society and High-Risk Communities. Visit Joint Cyber Defense Collaborative to learn more about the planning effort that aided in developing these valuable resources.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cyberattacks Wreaking Physical Disruption on the Rise]]></title>
+        <id>https://www.darkreading.com/ics-ot-security/cyberattacks-wreaking-physical-disruption-on-the-rise</id>
+        <link href="https://www.darkreading.com/ics-ot-security/cyberattacks-wreaking-physical-disruption-on-the-rise"/>
+        <updated>2024-04-02T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ransomware groups tore into manufacturing other parts of the OT sector in 2023, and a few attacks caused eight- and nine-figure damages. But worse is yet to come in 2024.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity M&A Roundup: 27 Deals Announced in March 2024]]></title>
+        <id>https://www.securityweek.com/?p=37407</id>
+        <link href="https://www.securityweek.com/cybersecurity-ma-roundup-27-deals-announced-in-march-2024/"/>
+        <updated>2024-04-02T11:56:08.000Z</updated>
+        <summary type="html"><![CDATA[Twenty-seven cybersecurity-related merger and acquisition (M&A) deals were announced in March 2024.
+The post Cybersecurity M&A Roundup: 27 Deals Announced in March 2024 appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6720-1: Cacti vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6720-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6720-1"/>
+        <updated>2024-04-02T11:41:26.000Z</updated>
+        <summary type="html"><![CDATA[Kentaro Kawane discovered that Cacti incorrectly handled user provided 
+input sent through request parameters to the graph_view.php script. 
+A remote authenticated attacker could use this issue to perform 
+SQL injection attacks.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Harnessing the Power of CTEM for Cloud Security]]></title>
+        <id>https://thehackernews.com/2024/04/harnessing-power-of-ctem-for-cloud.html</id>
+        <link href="https://thehackernews.com/2024/04/harnessing-power-of-ctem-for-cloud.html"/>
+        <updated>2024-04-02T11:27:00.000Z</updated>
+        <summary type="html"><![CDATA[Cloud solutions are more mainstream – and therefore more exposed – than ever before.
+In 2023 alone, a staggering 82% of data breaches were against public, private, or hybrid cloud environments. What’s more, nearly 40% of breaches spanned multiple cloud environments. The average cost of a cloud breach was above the overall average, at $4.75 million. In a time where cloud has become the de facto]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China-linked Hackers Deploy New 'UNAPIMON' Malware for Stealthy Operations]]></title>
+        <id>https://thehackernews.com/2024/04/china-linked-hackers-deploy-new.html</id>
+        <link href="https://thehackernews.com/2024/04/china-linked-hackers-deploy-new.html"/>
+        <updated>2024-04-02T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A threat activity cluster tracked as Earth Freybug has been observed using a new malware called UNAPIMON to fly under the radar.
+"Earth Freybug is a cyberthreat group that has been active since at least 2012 that focuses on espionage and financially motivated activities," Trend Micro security researcher Christopher So said in a report published today.
+"It has been observed to]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Heartbleed is 10 Years Old – Farewell Heartbleed, Hello QuantumBleed!]]></title>
+        <id>https://www.securityweek.com/?p=37403</id>
+        <link href="https://www.securityweek.com/heartbleed-is-10-years-old-farewell-heartbleed-hello-quantumbleed/"/>
+        <updated>2024-04-02T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Heartbleed made most certificates vulnerable. The future problem is that quantum decryption will make all certificates and everything else using RSA encryption vulnerable to everyone.
+The post Heartbleed is 10 Years Old – Farewell Heartbleed, Hello QuantumBleed! appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prudential Financial Data Breach Impacts 36,000]]></title>
+        <id>https://www.securityweek.com/?p=37404</id>
+        <link href="https://www.securityweek.com/36000-impacted-by-prudential-financial-data-breach/"/>
+        <updated>2024-04-02T10:10:29.000Z</updated>
+        <summary type="html"><![CDATA[Prudential Financial says the names, addresses, and ID numbers of over 36,000 were stolen in a February data breach.
+The post Prudential Financial Data Breach Impacts 36,000 appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OWASP Data Breach Caused by Server Misconfiguration]]></title>
+        <id>https://www.securityweek.com/?p=37401</id>
+        <link href="https://www.securityweek.com/owasp-data-breach-caused-by-server-misconfiguration/"/>
+        <updated>2024-04-02T09:55:32.000Z</updated>
+        <summary type="html"><![CDATA[The OWASP Foundation says a wiki misconfiguration exposed resumes filed over a decade ago by aspiring members.
+The post OWASP Data Breach Caused by Server Misconfiguration appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Boat Dealer MarineMax Confirms Data Breach]]></title>
+        <id>https://www.securityweek.com/?p=37399</id>
+        <link href="https://www.securityweek.com/boat-dealer-marinemax-confirms-data-breach/"/>
+        <updated>2024-04-02T08:41:20.000Z</updated>
+        <summary type="html"><![CDATA[MarineMax confirms suffering a data breach as a result of a recent ransomware attack, with the attackers claiming to have obtained 180,000 files. 
+The post Boat Dealer MarineMax Confirms Data Breach  appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google to Delete Billions of Browsing Records in 'Incognito Mode' Privacy Lawsuit Settlement]]></title>
+        <id>https://thehackernews.com/2024/04/google-to-delete-billions-of-browsing.html</id>
+        <link href="https://thehackernews.com/2024/04/google-to-delete-billions-of-browsing.html"/>
+        <updated>2024-04-02T07:08:00.000Z</updated>
+        <summary type="html"><![CDATA[Google has agreed to purge billions of data records reflecting users' browsing activities to settle a class action lawsuit that claimed the search giant tracked them without their knowledge or consent in its Chrome browser.
+The class action, filed in 2020, alleged the company misled users by tracking their internet browsing activity who thought that it remained private when using the "]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity Threats Intensify in the Middle East During Ramadan]]></title>
+        <id>https://www.darkreading.com/cyber-risk/cyber-threats-intensify-in-middle-east-during-ramadan</id>
+        <link href="https://www.darkreading.com/cyber-risk/cyber-threats-intensify-in-middle-east-during-ramadan"/>
+        <updated>2024-04-02T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How security teams in the region fortify their defenses amid short-staffing — and increased DDoS, phishing, and ransomware campaigns — during the Muslim holy month.]]></summary>
+        <author>
+            <name>Alicia Buller, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Massive Phishing Campaign Strikes Latin America: Venom RAT Targeting Multiple Sectors]]></title>
+        <id>https://thehackernews.com/2024/04/massive-phishing-campaign-strikes-latin.html</id>
+        <link href="https://thehackernews.com/2024/04/massive-phishing-campaign-strikes-latin.html"/>
+        <updated>2024-04-02T04:54:00.000Z</updated>
+        <summary type="html"><![CDATA[The threat actor known as TA558 has been attributed to a new massive phishing campaign that targets a wide range of sectors in Latin America with the goal of deploying Venom RAT.
+The attacks primarily singled out hotel, travel, trading, financial, manufacturing, industrial, and government verticals in Spain, Mexico, United States, Colombia, Portugal, Brazil, Dominican Republic, and]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Funding the Organizations That Secure the Internet]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/funding-the-organizations-that-secure-the-internet</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/funding-the-organizations-that-secure-the-internet"/>
+        <updated>2024-04-02T01:31:32.000Z</updated>
+        <summary type="html"><![CDATA[Common Good Cyber is a global consortium connecting nonprofit, private sector, and government organizations to fund organizations focused on securing Internet infrastructure.]]></summary>
+        <author>
+            <name>Jennifer Lawinski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google to Purge Billions of Files Containing Personal Data in Settlement of Chrome Privacy Case]]></title>
+        <id>https://www.securityweek.com/?p=37395</id>
+        <link href="https://www.securityweek.com/google-to-purge-billions-of-files-containing-personal-data-in-settlement-of-chrome-privacy-case/"/>
+        <updated>2024-04-02T01:26:06.000Z</updated>
+        <summary type="html"><![CDATA[Google agreed to purge billions of records containing personal information collected from more than 136 million people using its Chrome web browser as part of settlement in a lawsuit accusing it of illegal surveillance. 
+The post Google to Purge Billions of Files Containing Personal Data in Settlement of Chrome Privacy Case appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft Beefs Up Defenses in Azure AI]]></title>
         <id>https://www.darkreading.com/application-security/microsoft-adds-tools-for-protecting-against-prompt-injection-other-threats-in-azure-ai</id>
@@ -398,6 +696,16 @@ See the following advisory for more information: 
 Red Hat: Urgent security alert for Fedora 41 and Rawhide users]]></summary>
         <author>
             <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Iran's Evolving Cyber-Enabled Influence Operations to Support Hamas]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/iran-s-evolving-cyber-enabled-influence-operations-to-support-hamas</id>
+        <link href="https://www.darkreading.com/threat-intelligence/iran-s-evolving-cyber-enabled-influence-operations-to-support-hamas"/>
+        <updated>2024-03-29T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Understanding Iran's techniques, coupled with comprehensive threat intel, can give organizations an edge in identifying and defending against these attacks.]]></summary>
+        <author>
+            <name>Microsoft Security</name>
         </author>
     </entry>
     <entry>
@@ -8198,199 +8506,6 @@ Details about the scam]]></summary>
 The post Hikvision Patches High-Severity Vulnerability in Security Management System appeared first on SecurityWeek.]]></summary>
         <author>
             <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Webinar Tomorrow: OT Cybersecurity Risk Mitigation Strategies]]></title>
-        <id>https://www.securityweek.com/?p=36990</id>
-        <link href="https://www.securityweek.com/webinar-tomorrow-ot-cybersecurity-risk-mitigation-strategies/"/>
-        <updated>2024-03-04T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Webinar will provide valuable insights from Honeywell professionals who will guide you through the intricacies of industrial cybersecurity. 
-The post Webinar Tomorrow: OT Cybersecurity Risk Mitigation Strategies appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>SecurityWeek News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Millions of Malicious Repositories Flood GitHub]]></title>
-        <id>https://www.darkreading.com/application-security/millions-of-malicious-repositories-flood-github</id>
-        <link href="https://www.darkreading.com/application-security/millions-of-malicious-repositories-flood-github"/>
-        <updated>2024-03-04T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[GitHub and cyberattackers are waging a quiet, automated war over malicious repos.]]></summary>
-        <author>
-            <name>Nate Nelson, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Traffic, State, and Organizational Data Help Fortify Your Network]]></title>
-        <id>https://www.securityweek.com/?p=36995</id>
-        <link href="https://www.securityweek.com/how-traffic-state-and-organizational-data-help-fortify-your-network/"/>
-        <updated>2024-03-04T12:32:38.000Z</updated>
-        <summary type="html"><![CDATA[Traffic data is the lifeblood of network security, representing the raw, unfiltered truth of what is happening on the network.
-The post How Traffic, State, and Organizational Data Help Fortify Your Network appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Matt Wilson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Foundation Tackles Financial Fraud With Open Source Platform]]></title>
-        <id>https://www.securityweek.com/?p=36998</id>
-        <link href="https://www.securityweek.com/linux-foundation-tackles-financial-fraud-with-open-source-platform/"/>
-        <updated>2024-03-04T12:31:20.000Z</updated>
-        <summary type="html"><![CDATA[The open source platform Tazama provides cost-effective monitoring of digital financial transactions to prevent fraud in real time.
-The post Linux Foundation Tackles Financial Fraud With Open Source Platform appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FCC Employees Targeted in Sophisticated Phishing Attacks]]></title>
-        <id>https://www.securityweek.com/?p=36996</id>
-        <link href="https://www.securityweek.com/fcc-employees-targeted-in-sophisticated-phishing-attacks/"/>
-        <updated>2024-03-04T12:12:51.000Z</updated>
-        <summary type="html"><![CDATA[Advanced phishing kit employs novel tactics in attack targeting cryptocurrency platforms and FCC employees.
-The post FCC Employees Targeted in Sophisticated Phishing Attacks appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LLM Prompt Injection Worm]]></title>
-        <id>https://www.schneier.com/blog/archives/2024/03/llm-prompt-injection-worm.html</id>
-        <link href="https://www.schneier.com/blog/archives/2024/03/llm-prompt-injection-worm.html"/>
-        <updated>2024-03-04T12:01:52.000Z</updated>
-        <summary type="html"><![CDATA[<p>Researchers have <a href="https://sites.google.com/view/compromptmized">demonstrated</a> a worm that spreads through prompt injection. <a href="https://www.wired.com/story/here-come-the-ai-worms/">Details</a>:</p>
-<blockquote><p>In one instance, the researchers, acting as attackers, wrote an email including the adversarial text prompt, which &#8220;poisons&#8221; the database of an email assistant using <a href="https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/">retrieval-augmented generation (RAG)</a>, a way for LLMs to pull in extra data from outside its system. When the email is retrieved by the RAG, in response to a user query, and is sent to GPT-4 or Gemini Pro to create an answer, it &#8220;jailbreaks the GenAI service&#8221; and ultimately steals data from the emails, Nassi says. &#8220;The generated response containing the sensitive user data later infects new hosts when it is used to reply to an email sent to a new client and then stored in the database of the new client,&#8221; Nassi says...</p></blockquote>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
-        <id>/node/21040</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/03/04/cisa-adds-one-known-exploited-vulnerability-catalog"/>
-        <updated>2024-03-04T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
-CVE-2024-21338 Microsoft Windows Kernel Exposed IOCTL with Insufficient Access Control Vulnerability
-These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
-Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
-Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Remote Stuxnet-Style Attack Possible With Web-Based PLC Malware: Researchers]]></title>
-        <id>https://www.securityweek.com/?p=36991</id>
-        <link href="https://www.securityweek.com/remote-stuxnet-style-attack-possible-with-web-based-plc-malware-researchers/"/>
-        <updated>2024-03-04T11:43:47.000Z</updated>
-        <summary type="html"><![CDATA[Researchers demonstrate that remote Stuxnet-style attacks are possible against many modern PLCs using web-based malware.
-The post Remote Stuxnet-Style Attack Possible With Web-Based PLC Malware: Researchers appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From 500 to 5000 Employees - Securing 3rd Party App-Usage in Mid-Market Companies]]></title>
-        <id>https://thehackernews.com/2024/03/from-500-to-5000-employees-securing-3rd.html</id>
-        <link href="https://thehackernews.com/2024/03/from-500-to-5000-employees-securing-3rd.html"/>
-        <updated>2024-03-04T11:12:00.000Z</updated>
-        <summary type="html"><![CDATA[A company’s lifecycle stage, size, and state have a significant impact on its security needs, policies, and priorities. This is particularly true for modern mid-market companies that are either experiencing or have experienced rapid growth. As requirements and tasks continue to accumulate and malicious actors remain active around the clock, budgets are often stagnant at best. Yet, it is crucial]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-6672-1: Node.js vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-6672-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-6672-1"/>
-        <updated>2024-03-04T11:09:06.000Z</updated>
-        <summary type="html"><![CDATA[Morgan Jones discovered that Node.js incorrectly handled certain inputs that
-leads to false positive errors during some cryptographic operations. If a user
-or an automated system were tricked into opening a specially crafted input
-file, a remote attacker could possibly use this issue to cause a denial of
-service. This issue only affected Ubuntu 23.10. (CVE-2023-23919)
-
-It was discovered that Node.js incorrectly handled certain inputs leaded to a
-untrusted search path vulnerability. If a user or an automated system were
-tricked into opening a specially crafted input file, a remote attacker could
-possibly use this issue to perform a privilege escalation. (CVE-2023-23920)
-
-Matt Caswell discovered that Node.js incorrectly handled certain inputs with
-specially crafted ASN.1 object identifiers or data containing them. If a user
-or an automated system were tricked into opening a specially crafted input
-file, a remote attacker could possibly use this issue to cause a denial of
-service. This issue only affected Ubuntu 22.04 LTS. (CVE-2023-2650)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Over 100 Malicious AI/ML Models Found on Hugging Face Platform]]></title>
-        <id>https://thehackernews.com/2024/03/over-100-malicious-aiml-models-found-on.html</id>
-        <link href="https://thehackernews.com/2024/03/over-100-malicious-aiml-models-found-on.html"/>
-        <updated>2024-03-04T09:22:00.000Z</updated>
-        <summary type="html"><![CDATA[As many as 100 malicious artificial intelligence (AI)/machine learning (ML) models have been discovered in the Hugging Face platform.
-These include instances where loading a pickle file leads to code execution, software supply chain security firm JFrog said.
-"The model's payload grants the attacker a shell on the compromised machine, enabling them to gain full control over victims']]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Phobos Ransomware Aggressively Targeting U.S. Critical Infrastructure]]></title>
-        <id>https://thehackernews.com/2024/03/phobos-ransomware-aggressively.html</id>
-        <link href="https://thehackernews.com/2024/03/phobos-ransomware-aggressively.html"/>
-        <updated>2024-03-04T05:24:00.000Z</updated>
-        <summary type="html"><![CDATA[U.S. cybersecurity and intelligence agencies have warned of Phobos ransomware attacks targeting government and critical infrastructure entities, outlining the various tactics and techniques the threat actors have adopted to deploy the file-encrypting malware.
-“Structured as a ransomware as a service (RaaS) model, Phobos ransomware actors have targeted entities including municipal and]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-6669-1: Thunderbird vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-6669-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-6669-1"/>
-        <updated>2024-03-04T03:02:03.000Z</updated>
-        <summary type="html"><![CDATA[Multiple security issues were discovered in Thunderbird. If a user were
-tricked into opening a specially crafted website in a browsing context, an
-attacker could potentially exploit these to cause a denial of service,
-obtain sensitive information, bypass security restrictions, cross-site
-tracing, or execute arbitrary code. (CVE-2024-0741, CVE-2024-0742,
-CVE-2024-0747, CVE-2024-0749, CVE-2024-0750, CVE-2024-0751, CVE-2024-0753,
-CVE-2024-0755, CVE-2024-1547, CVE-2024-1548, CVE-2024-1549, CVE-2024-1550,
-CVE-2024-1553)
-
-Cornel Ionce discovered that Thunderbird did not properly manage memory when
-opening the print preview dialog. An attacker could potentially exploit
-this issue to cause a denial of service. (CVE-2024-0746)
-
-Alfred Peters discovered that Thunderbird did not properly manage memory when
-storing and re-accessing data on a networking channel. An attacker could
-potentially exploit this issue to cause a denial of service. (CVE-2024-1546)
-
-Johan Carlsson discovered that Thunderbird incorrectly handled Set-Cookie
-response headers in multipart HTTP responses. An attacker could potentially
-exploit this issue to inject arbitrary cookie values. (CVE-2024-1551)
-
-Gary Kwong discovered that Thunderbird incorrectly generated codes on 32-bit
-ARM devices, which could lead to unexpected numeric conversions or undefined
-behaviour. An attacker could possibly use this issue to cause a denial of
-service. (CVE-2024-1552)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Georgia’s Largest County Is Still Repairing Damage From January Cyberattack]]></title>
-        <id>https://www.securityweek.com/?p=36986</id>
-        <link href="https://www.securityweek.com/georgias-largest-county-is-still-repairing-damage-from-january-cyberattack/"/>
-        <updated>2024-03-03T13:22:08.000Z</updated>
-        <summary type="html"><![CDATA[Georgia’s largest county is still repairing damage inflicted on its government offices by a cyberattack in January 2024.
-The post Georgia’s Largest County Is Still Repairing Damage From January Cyberattack appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Associated Press</name>
         </author>
     </entry>
 </feed>
