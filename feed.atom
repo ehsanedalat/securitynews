@@ -2,10 +2,509 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-04-29T01:10:39.345Z</updated>
+    <updated>2024-04-30T01:09:22.729Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ESET PROTECT Portfolio Now Includes New MDR Tiers and Features]]></title>
+        <id>https://www.darkreading.com/endpoint-security/eset-protect-portfolio-now-includes-new-mdr-tiers-and-features</id>
+        <link href="https://www.darkreading.com/endpoint-security/eset-protect-portfolio-now-includes-new-mdr-tiers-and-features"/>
+        <updated>2024-04-29T20:52:07.000Z</updated>
+        <author>
+            <name>darkreading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[R Programming Bug Exposes Orgs to Vast Supply Chain Risk]]></title>
+        <id>https://www.darkreading.com/application-security/r-programming-language-exposes-orgs-to-supply-chain-risk</id>
+        <link href="https://www.darkreading.com/application-security/r-programming-language-exposes-orgs-to-supply-chain-risk"/>
+        <updated>2024-04-29T20:51:03.000Z</updated>
+        <summary type="html"><![CDATA[The CVE-2024-27322 security vulnerability in R's deserialization process gives attackers a way to execute arbitrary code in target environments via specially crafted files.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Okta: Credential-Stuffing Attacks Spike via Proxy Networks]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/okta-credential-stuffing-attacks-spike-via-proxy-networks</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/okta-credential-stuffing-attacks-spike-via-proxy-networks"/>
+        <updated>2024-04-29T20:25:57.000Z</updated>
+        <summary type="html"><![CDATA[Okta warns users that the attack requests are made through an anonymizing service like Tor or various commercial proxy networks.]]></summary>
+        <author>
+            <name>Dark Reading Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#238194: R Programming Language implementations are vulnerable to arbitrary code execution during deserialization of .rds and .rdx files]]></title>
+        <id>https://kb.cert.org/vuls/id/238194</id>
+        <link href="https://kb.cert.org/vuls/id/238194"/>
+        <updated>2024-04-29T20:07:02.219Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>A vulnerability in the R language that allows for arbitrary code to be executed directly after the deserialization of untrusted data has been discovered. This vulnerability can be exploited through RDS (R Data Serialization) format files and .rdx files. An attacker can create malicious RDS or .rdx formatted files to execute arbitrary commands on the victim's target device.</p>
+<h3 id="description">Description</h3>
+<p>R supports data serialization, which is the process of turning R objects and data into a format that can then be deserialized in another R session. This will provide a copy of the R objects from the original session.</p>
+<p>The RDS format, which mainly comprises .rds files, is used to save and load serialized R objects. These objects are utilized to share states and transfer data sets across programs. They are not expected to run code when they are loaded by an R implementation unless prompted by the user. R Packages use .rdx files, which contain a list of offsets, lengths, and names, and are accompanied by a .rdb file, which is used to extract more information about those offsets. .rdx and .rdb files contain RDS formatted data within themselves. A .rds file functions similarly to a .rdx file but only allows for storing a single R object. When loading a .rds or .rdx file, the readRDS function is utilized. An R implementation using the readRDS function given that information will then read the offsets and load the data.</p>
+<p>R supports lazy evaluation. This can be implemented through a type called Promise, which can be represented in the RDS format as PROMSXP. This type is used to manage expressions that are called and completed in a asynchronous manner when their associated values are needed to be used by the program. When constructing an unserialized object in this context from the RDS format, the Promise object will require three pieces of data. These are the value of the Promise, the expression, and the environment. This information is loaded by the <code>eval</code> function. The <code>eval</code> function in R takes an expression, in this case the Promise, and evaluates it within the environment specified. </p>
+<p>The vulnerability occurs when the <code>eval</code> function evaluates a promise type that has an unevaluated value. The Promise expression will not be properly evaluated and will execute the expression when it is referenced in the program that contains it. A threat actor can include malicious code within a .rds or .rdx file that is referenced by an unevaluated value. When an R implemention loads a package that contains an .rds or .rdx file and the promise value is reached, it will execute the referenced code. This code is arbitrary and and will be executed prior to any opportunity for the victim to explore and see what functions or objects are within the file loaded.</p>
+<h3 id="impact">Impact</h3>
+<p>An attacker can create malicious .rds and .rdx files and use social engineering to distribute those files to execute arbitrary code on the victim's device. Projects that use readRDS on untrusted files are also vulnerable to the attack. Attackers can also leverage system commands to access resources available to the application and exfiltrate data from any environment available to the application on the target device. The code in the malicious files can also be used to access adjacent resources such other computers/devices, devices in a cluster and shared documents/folders available to the application.</p>
+<h3 id="solution">Solution</h3>
+<h4 id="apply-updates">Apply Updates</h4>
+<p>R project has provided R Core Version 4.4.0, which addresses the vulnerability. R Core version 4.4.0 now restricts promises in the serialization stream so that they are now used for implementing lazy evaluation. Apply the update at your earliest convenience. </p>
+<h4 id="secure-or-sandbox-rds-file-usage">Secure or Sandbox RDS file usage</h4>
+<p>Protect and use untrusted/third-party .rds, rdb, and .rdx files either in Containers or in a Sandbox environment to prevent unexpected access to resources. </p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporter, Kasimir Schulz and Kieran Evans of HiddenLayer for reporting this vulnerability. This document was written by Christopher Cullen.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity Is Becoming More Diverse … Except by Gender]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/cybersecurity-is-becoming-more-diverse-except-by-gender</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/cybersecurity-is-becoming-more-diverse-except-by-gender"/>
+        <updated>2024-04-29T19:56:12.000Z</updated>
+        <summary type="html"><![CDATA[While other professions are making up ground, cybersecurity still lags behind in female representation, thanks to a lack of respect and inclusion.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[13.4M Kaiser Insurance Members Affected by Data Leak to Online Advertisers]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/13-4m-kaiser-insurance-members-affected-by-data-leak-to-online-advertisers</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/13-4m-kaiser-insurance-members-affected-by-data-leak-to-online-advertisers"/>
+        <updated>2024-04-29T19:46:08.000Z</updated>
+        <summary type="html"><![CDATA[Tracking code used for keeping tabs on how members navigated through the healthcare giant's online and mobile sites was oversharing a concerning amount of information.]]></summary>
+        <author>
+            <name>Dark Reading Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Rolls Out New Guidelines to Mitigate AI Risks to US Critical Infrastructure]]></title>
+        <id>https://www.securityweek.com/?p=37775</id>
+        <link href="https://www.securityweek.com/cisa-rolls-out-new-guidelines-to-mitigate-ai-risks-to-us-critical-infrastructure/"/>
+        <updated>2024-04-29T17:57:49.000Z</updated>
+        <summary type="html"><![CDATA[New CISA guidelines categorize AI risks into three significant types and pushes a four-part mitigation strategy.
+The post CISA Rolls Out New Guidelines to Mitigate AI Risks to US Critical Infrastructure appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How TikTok Grew From a Fun App for Teens Into a Potential National Security Threat]]></title>
+        <id>https://www.securityweek.com/?p=37774</id>
+        <link href="https://www.securityweek.com/how-tiktok-grew-from-a-fun-app-for-teens-into-a-potential-national-security-threat/"/>
+        <updated>2024-04-29T17:29:55.000Z</updated>
+        <summary type="html"><![CDATA[History of TikTok and how it many view it as a national security threat.
+The post How TikTok Grew From a Fun App for Teens Into a Potential National Security Threat appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Prevented 2.28 Million Malicious Apps from Reaching Play Store in 2023]]></title>
+        <id>https://thehackernews.com/2024/04/google-prevented-228-million-malicious.html</id>
+        <link href="https://thehackernews.com/2024/04/google-prevented-228-million-malicious.html"/>
+        <updated>2024-04-29T17:07:00.000Z</updated>
+        <summary type="html"><![CDATA[Google on Monday revealed that almost 200,000 app submissions to its Play Store for Android were either rejected or remediated to address issues with access to sensitive data such as location or SMS messages over the past year.
+The tech giant also said it blocked 333,000 bad accounts from the app storefront in 2023 for attempting to distribute malware or for repeated policy violations.
+"In 2023,]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6759-1: FreeRDP vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6759-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6759-1"/>
+        <updated>2024-04-29T16:44:07.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that FreeRDP incorrectly handled certain memory
+operations. If a user were tricked into connecting to a malicious server, a
+remote attacker could possibly use this issue to cause FreeRDP to crash,
+resulting in a denial of service.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Says it Blocked 2.28 Million Apps from Google Play Store]]></title>
+        <id>https://www.securityweek.com/?p=37770</id>
+        <link href="https://www.securityweek.com/google-says-it-blocked-2-28-million-apps-from-google-play-store/"/>
+        <updated>2024-04-29T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In 2023, Google said it blocked 2.28 million bad applications from being published on Google Play and banned 333,000 developer accounts.
+The post Google Says it Blocked 2.28 Million Apps from Google Play Store appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Muddling Meerkat' Poses Nation-State DNS Mystery]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/muddling-meerkat-poses-nation-state-dns-mystery</id>
+        <link href="https://www.darkreading.com/threat-intelligence/muddling-meerkat-poses-nation-state-dns-mystery"/>
+        <updated>2024-04-29T15:43:05.000Z</updated>
+        <summary type="html"><![CDATA[Likely China-linked adversary has blanketed the Internet with DNS mail requests over the past five years via open resolvers, furthering Great Firewall of China ambitions. But the exact nature of its activity is unclear.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Should Cybersecurity Leadership Finally be Professionalized?]]></title>
+        <id>https://www.securityweek.com/?p=37762</id>
+        <link href="https://www.securityweek.com/should-cybersecurity-leadership-finally-be-professionalized/"/>
+        <updated>2024-04-29T15:18:29.000Z</updated>
+        <summary type="html"><![CDATA[The majority opinion is that a cybersecurity professional body is long overdue and would benefit cybersecurity and cybersecurity practitioners.
+The post Should Cybersecurity Leadership Finally be Professionalized? appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kaiser Permanente Data Breach Impacts 13.4 Million Patients]]></title>
+        <id>https://www.securityweek.com/?p=37766</id>
+        <link href="https://www.securityweek.com/kaiser-permanente-discloses-data-breach-impacting-13-4-million-patients/"/>
+        <updated>2024-04-29T14:43:26.000Z</updated>
+        <summary type="html"><![CDATA[US healthcare giant is warning millions of current and former patients that their personal information was exposed to third-party advertisers.
+The post Kaiser Permanente Data Breach Impacts 13.4 Million Patients appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6757-1: PHP vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6757-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6757-1"/>
+        <updated>2024-04-29T14:19:01.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that PHP incorrectly handled PHP_CLI_SERVER_WORKERS variable.
+An attacker could possibly use this issue to cause a crash or execute
+arbitrary code. This issue only affected Ubuntu 20.04 LTS, and
+Ubuntu 22.04 LTS. (CVE-2022-4900)
+
+It was discovered that PHP incorrectly handled certain cookies.
+An attacker could possibly use this issue to cookie by pass.
+(CVE-2024-2756)
+
+It was discovered that PHP incorrectly handled some passwords.
+An attacker could possibly use this issue to cause an account takeover
+attack. (CVE-2024-3096)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Addressing Risk Caused by Innovation]]></title>
+        <id>https://www.darkreading.com/cyber-risk/addressing-risk-caused-by-innovation</id>
+        <link href="https://www.darkreading.com/cyber-risk/addressing-risk-caused-by-innovation"/>
+        <updated>2024-04-29T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[By embracing a proactive approach to cyber-risk management, companies can better detect, prevent, and mitigate cyber threats while integrating the latest state-of-the-art technology.]]></summary>
+        <author>
+            <name>Steve Soukup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Red Team GenAI: Challenges, Best Practices, and Learnings]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/how-to-red-team-genai-challenges-best-practices-and-learnings</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/how-to-red-team-genai-challenges-best-practices-and-learnings"/>
+        <updated>2024-04-29T13:57:39.000Z</updated>
+        <summary type="html"><![CDATA[Red teaming is a crucial part of proactive GenAI security that helps map and measure AI risks.]]></summary>
+        <author>
+            <name>Microsoft Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China-Linked 'Muddling Meerkat' Hijacks DNS to Map Internet on Global Scale]]></title>
+        <id>https://thehackernews.com/2024/04/china-linked-muddling-meerkat-hijacks.html</id>
+        <link href="https://thehackernews.com/2024/04/china-linked-muddling-meerkat-hijacks.html"/>
+        <updated>2024-04-29T13:46:00.000Z</updated>
+        <summary type="html"><![CDATA[A previously undocumented cyber threat dubbed Muddling Meerkat has been observed undertaking sophisticated domain name system (DNS) activities in a likely effort to evade security measures and conduct reconnaissance of networks across the world since October 2019.
+Cloud security firm Infoblox described the threat actor as likely affiliated with the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyond the Buzz: Rethinking Alcohol as a Cybersecurity Bonding Ritual]]></title>
+        <id>https://www.securityweek.com/?p=37760</id>
+        <link href="https://www.securityweek.com/beyond-the-buzz-rethinking-alcohol-as-a-cybersecurity-bonding-ritual/"/>
+        <updated>2024-04-29T13:45:32.000Z</updated>
+        <summary type="html"><![CDATA[Jennifer Leggio makes the case for more alcohol-free networking events at conferences, and community-building opportunities for sober individuals working in cybersecurity.
+The post Beyond the Buzz: Rethinking Alcohol as a Cybersecurity Bonding Ritual appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Jennifer Leggio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of April 22, 2024]]></title>
+        <id>/node/21367</id>
+        <link href="https://www.cisa.gov/news-events/bulletins/sb24-120"/>
+        <updated>2024-04-29T13:38:42.000Z</updated>
+        <summary type="html"><![CDATA[High Vulnerabilities
+Primary
+Vendor -- Product
+Description
+Published
+CVSS Score
+Source & Patch Info
+
+
+
+
+abdul_hakeem -- build_app_online
+Improper Authentication vulnerability in Abdul Hakeem Build App Online allows Privilege Escalation.This issue affects Build App Online: from n/a through 1.0.19.
+2024-04-25
+9.8
+CVE-2023-51478
+audit@patchstack.com
+
+
+algolplus -- advanced_order_export_for_woocommerce
+Improper Control of Generation of Code ('Code Injection') vulnerability in AlgolPlus Advanced Order Export For WooCommerce allows Code Injection.This issue affects Advanced Order Export For WooCommerce: from n/a through 3.4.4.
+2024-04-25
+9.1
+CVE-2024-31266
+audit@patchstack.com
+
+
+andondesign -- udesign
+Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerabil…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6744-3: Pillow vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6744-3</id>
+        <link href="https://ubuntu.com/security/notices/USN-6744-3"/>
+        <updated>2024-04-29T13:04:18.000Z</updated>
+        <summary type="html"><![CDATA[USN-6744-1 fixed a vulnerability in Pillow. This update
+provides the corresponding updates for Ubuntu 24.04 LTS.
+
+Original advisory details:
+
+ Hugo van Kemenade discovered that Pillow was not properly performing 
+ bounds checks when processing an ICC file, which could lead to a buffer
+ overflow. If a user or automated system were tricked into processing a 
+ specially crafted ICC file, an attacker could possibly use this issue 
+ to cause a denial of service or execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Honeywell: USB Malware Attacks on Industrial Orgs Becoming More Sophisticated]]></title>
+        <id>https://www.securityweek.com/?p=37742</id>
+        <link href="https://www.securityweek.com/honeywell-usb-malware-attacks-on-industrial-orgs-becoming-more-sophisticated/"/>
+        <updated>2024-04-29T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An analysis conducted by Honeywell shows that much of the USB-borne malware targeting industrial organizations can still cause OT disruption.
+The post Honeywell: USB Malware Attacks on Industrial Orgs Becoming More Sophisticated appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6734-2: libvirt vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6734-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-6734-2"/>
+        <updated>2024-04-29T11:43:27.000Z</updated>
+        <summary type="html"><![CDATA[USN-6734-1 fixed vulnerabilities in libvirt. This update provides the
+corresponding updates for Ubuntu 24.04 LTS.
+
+Original advisory details:
+
+ Alexander Kuznetsov discovered that libvirt incorrectly handled certain API
+ calls. An attacker could possibly use this issue to cause libvirt to crash,
+ resulting in a denial of service. (CVE-2024-1441)
+ 
+ It was discovered that libvirt incorrectly handled certain RPC library API
+ calls. An attacker could possibly use this issue to cause libvirt to crash,
+ resulting in a denial of service. (CVE-2024-2494)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6733-2: GnuTLS vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6733-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-6733-2"/>
+        <updated>2024-04-29T11:38:34.000Z</updated>
+        <summary type="html"><![CDATA[USN-6733-1 fixed vulnerabilities in GnuTLS. This update provides the
+corresponding updates for Ubuntu 24.04 LTS.
+
+Original advisory details:
+
+ It was discovered that GnuTLS had a timing side-channel when performing
+ certain ECDSA operations. A remote attacker could possibly use this issue
+ to recover sensitive information. (CVE-2024-28834)
+ 
+ It was discovered that GnuTLS incorrectly handled verifying certain PEM
+ bundles. A remote attacker could possibly use this issue to cause GnuTLS to
+ crash, resulting in a denial of service. This issue only affected Ubuntu
+ 22.04 LTS and Ubuntu 23.10. (CVE-2024-28835)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6718-3: curl vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6718-3</id>
+        <link href="https://ubuntu.com/security/notices/USN-6718-3"/>
+        <updated>2024-04-29T11:34:42.000Z</updated>
+        <summary type="html"><![CDATA[USN-6718-1 fixed vulnerabilities in curl. This update provides the
+corresponding updates for Ubuntu 24.04 LTS.
+
+Original advisory details:
+
+ Dan Fandrich discovered that curl would incorrectly use the default set of
+ protocols when a parameter option disabled all protocols without adding
+ any, contrary to expectations. This issue only affected Ubuntu 23.10.
+ (CVE-2024-2004)
+ 
+ It was discovered that curl incorrectly handled memory when limiting the
+ amount of headers when HTTP/2 server push is allowed. A remote attacker
+ could possibly use this issue to cause curl to consume resources, leading
+ to a denial of service. (CVE-2024-2398)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6729-3: Apache HTTP Server vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6729-3</id>
+        <link href="https://ubuntu.com/security/notices/USN-6729-3"/>
+        <updated>2024-04-29T11:31:21.000Z</updated>
+        <summary type="html"><![CDATA[USN-6729-1 fixed vulnerabilities in Apache HTTP Server. This update
+provides the corresponding updates for Ubuntu 24.04 LTS.
+
+Original advisory details:
+
+ Orange Tsai discovered that the Apache HTTP Server incorrectly handled
+ validating certain input. A remote attacker could possibly use this
+ issue to perform HTTP request splitting attacks. (CVE-2023-38709)
+ 
+ Keran Mu and Jianjun Chen discovered that the Apache HTTP Server
+ incorrectly handled validating certain input. A remote attacker could
+ possibly use this issue to perform HTTP request splitting attacks.
+ (CVE-2024-24795)
+ 
+ Bartek Nowotarski discovered that the Apache HTTP Server HTTP/2 module
+ incorrectly handled endless continuation frames. A remote attacker could
+ possibly use this issue to cause the server to consume resources, leading
+ to a denial of service. (CVE-2024-27316)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6737-2: GNU C Library vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6737-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-6737-2"/>
+        <updated>2024-04-29T11:27:19.000Z</updated>
+        <summary type="html"><![CDATA[USN-6737-1 fixed a vulnerability in the GNU C Library. This update provides
+the corresponding update for Ubuntu 24.04 LTS.
+
+Original advisory details:
+
+ Charles Fol discovered that the GNU C Library iconv feature incorrectly
+ handled certain input sequences. An attacker could use this issue to cause
+ the GNU C Library to crash, resulting in a denial of service, or possibly
+ execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6755-1: GNU cpio vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6755-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6755-1"/>
+        <updated>2024-04-29T11:23:13.000Z</updated>
+        <summary type="html"><![CDATA[Ingo Brückl discovered that cpio contained a path traversal vulnerability.
+If a user or automated system were tricked into extracting a specially
+crafted cpio archive, an attacker could possibly use this issue to write
+arbitrary files outside the target directory on the host, even if using the
+option --no-absolute-filenames.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Whale Song Code]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/04/whale-song-code.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/04/whale-song-code.html"/>
+        <updated>2024-04-29T11:07:42.000Z</updated>
+        <summary type="html"><![CDATA[<p>During the Cold War, the US Navy tried to make a <a href="https://www.twz.com/8778/the-u-s-navy-tried-to-turn-whale-songs-into-secret-code">secret code</a> out of whale song.</p>
+<blockquote><p>The basic plan was to develop coded messages from recordings of whales, dolphins, sea lions, and seals. The submarine would broadcast the noises and a computer&#8212;the Combo Signal Recognizer (CSR)&#8212;would detect the specific patterns and decode them on the other end. In theory, this idea was relatively simple. As work progressed, the Navy found a number of complicated problems to overcome, the bulk of which centered on the authenticity of the code itself.</p>
+<p>The message structure couldn&#8217;t just substitute the moaning of a whale or a crying seal for As and Bs or even whole words. In addition, the sounds Navy technicians recorded between 1959 and 1965 all had natural background noise. With the technology available, it would have been hard to scrub that out. Repeated blasts of the same sounds with identical extra noise would stand out to even untrained sonar operators...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Navigating the Threat Landscape: Understanding Exposure Management, Pentesting, Red Teaming and RBVM]]></title>
+        <id>https://thehackernews.com/2024/04/navigating-threat-landscape.html</id>
+        <link href="https://thehackernews.com/2024/04/navigating-threat-landscape.html"/>
+        <updated>2024-04-29T10:54:00.000Z</updated>
+        <summary type="html"><![CDATA[It comes as no surprise that today's cyber threats are orders of magnitude more complex than those of the past. And the ever-evolving tactics that attackers use demand the adoption of better, more holistic and consolidated ways to meet this non-stop challenge. Security teams constantly look for ways to reduce risk while improving security posture, but many]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New R Programming Vulnerability Exposes Projects to Supply Chain Attacks]]></title>
+        <id>https://thehackernews.com/2024/04/new-r-programming-vulnerability-exposes.html</id>
+        <link href="https://thehackernews.com/2024/04/new-r-programming-vulnerability-exposes.html"/>
+        <updated>2024-04-29T10:50:00.000Z</updated>
+        <summary type="html"><![CDATA[A security vulnerability has been discovered in the R programming language that could be exploited by a threat actor to create a malicious RDS (R Data Serialization) file such that it results in code execution when loaded and referenced.
+The flaw, assigned the CVE identifier CVE-2024-27322, "involves the use of promise objects and lazy evaluation in R," AI application security]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Okta Warns of Credential Stuffing Attacks Using Tor, Residential Proxies]]></title>
+        <id>https://www.securityweek.com/?p=37759</id>
+        <link href="https://www.securityweek.com/okta-warns-of-credential-stuffing-attacks-using-tor-residential-proxies/"/>
+        <updated>2024-04-29T10:23:41.000Z</updated>
+        <summary type="html"><![CDATA[Okta warned of a spike in credential stuffing attacks using anonymizing services such as Tor, DataImpulse, Luminati, and NSocks.
+The post Okta Warns of Credential Stuffing Attacks Using Tor, Residential Proxies appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6756-1: less vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6756-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6756-1"/>
+        <updated>2024-04-29T10:18:57.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that less mishandled newline characters in file names. If
+a user or automated system were tricked into opening specially crafted
+files, an attacker could possibly use this issue to execute arbitrary
+commands on the host.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Collection Agency FBCS Says Data Breach Exposed Nearly 2 million People]]></title>
+        <id>https://www.securityweek.com/?p=37757</id>
+        <link href="https://www.securityweek.com/2-million-impacted-by-data-breach-at-debt-collector-fbcs/"/>
+        <updated>2024-04-29T09:59:19.000Z</updated>
+        <summary type="html"><![CDATA[Financial Business and Consumer Solutions (FBCS) says compromised information may include names, dates of birth, Social Security numbers, and account information.
+The post Collection Agency FBCS Says Data Breach Exposed Nearly 2 million People appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sandbox Escape Vulnerabilities in Judge0 Expose Systems to Complete Takeover]]></title>
+        <id>https://thehackernews.com/2024/04/sandbox-escape-vulnerabilities-in.html</id>
+        <link href="https://thehackernews.com/2024/04/sandbox-escape-vulnerabilities-in.html"/>
+        <updated>2024-04-29T09:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Multiple critical security flaws have been disclosed in the Judge0 open-source online code execution system that could be exploited to obtain code execution on the target system.
+The three flaws, all critical in nature, allow an "adversary with sufficient access to perform a sandbox escape and obtain root permissions on the host machine," Australian]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hackers Claim to Have Infiltrated Belarus’ Main Security Service]]></title>
         <id>https://www.securityweek.com/?p=37754</id>
@@ -7486,17 +7985,6 @@ The findings come from HUMAN's Satori Threat Intelligence team, which said the c
 <p>I can&#8217;t remember when I first met Ross. Of course it was before 2008, when we created the <a href="https://www.schneier.com/blog/archives/2023/06/security-and-human-behavior-shb-2023.html">Security and Human Behavior</a> workshop. It was well before 2001, when we created the <a href="https://econinfosec.org/">Workshop on Economics and Information Security</a>. (Okay, he created both&#8212;I helped.) It was before 1998, when we <a href="https://www.schneier.com/academic/archives/1997/04/the_risks_of_key_rec.html">wrote about</a> the problems with key escrow systems. I was one of the people he brought to the Newton Institute for the six-month cryptography residency program he ran (I mistakenly didn&#8217;t stay the whole time)&#8212;that was in 1996...</p>]]></summary>
         <author>
             <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AT&T Says Data on 73 Million Customers Leaked on Dark Web]]></title>
-        <id>https://www.securityweek.com/?p=37382</id>
-        <link href="https://www.securityweek.com/att-says-data-on-73-million-customers-leaked-on-dark-web/"/>
-        <updated>2024-03-31T02:32:52.000Z</updated>
-        <summary type="html"><![CDATA[AT&T used the Easter holiday weekend to quietly share details on data that surfaced on the dark web roughly two weeks ago.
-The post AT&T Says Data on 73 Million Customers Leaked on Dark Web appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Mike Lennon</name>
         </author>
     </entry>
 </feed>
