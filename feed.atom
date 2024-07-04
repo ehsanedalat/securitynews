@@ -2,10 +2,443 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-07-03T01:15:39.942Z</updated>
+    <updated>2024-07-04T01:16:11.769Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-6868-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6868-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6868-1"/>
+        <updated>2024-07-03T23:04:31.000Z</updated>
+        <summary type="html"><![CDATA[Sander Wiebing, Alvise de Faveri Tron, Herbert Bos, and Cristiano Giuffrida
+discovered that the Linux kernel mitigations for the initial Branch History
+Injection vulnerability (CVE-2022-0001) were insufficient for Intel
+processors. A local attacker could potentially use this to expose sensitive
+information. (CVE-2024-2201)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - Netfilter;
+(CVE-2024-26925, CVE-2024-26643)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6866-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6866-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6866-1"/>
+        <updated>2024-07-03T20:45:10.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the ext4 file system implementation in the Linux
+kernel did not properly validate data state on write operations. An
+attacker could use this to construct a malicious ext4 file system image
+that, when mounted, could cause a denial of service (system crash).
+(CVE-2021-33631)
+
+It was discovered that the ATA over Ethernet (AoE) driver in the Linux
+kernel contained a race condition, leading to a use-after-free
+vulnerability. An attacker could use this to cause a denial of service or
+possibly execute arbitrary code. (CVE-2023-6270)
+
+Sander Wiebing, Alvise de Faveri Tron, Herbert Bos, and Cristiano Giuffrida
+discovered that the Linux kernel mitigations for the initial Branch History
+Injection vulnerability (CVE-2022-0001) were insufficient for Intel
+processors. A local attacker could potentially use this to expose sensitive
+information. (CVE-2024-2201)
+
+Gui-Dong Han discovered that the software RAID driver in the Linux kernel
+contained a race condition, leading to an integer overflow vulnerability. A
+privileged attacker could possibly use this to cause a denial of service
+(system crash). (CVE-2024-23307)
+
+Bai Jiaju discovered that the Xceive XC4000 silicon tuner device driver in
+the Linux kernel contained a race condition, leading to an integer overflow
+vulnerability. An attacker could possibly use this to cause a denial of
+service (system crash). (CVE-2024-24861)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - Block layer subsystem;
+  - Hardware random number generator core;
+  - GPU drivers;
+  - AFS file system;
+  - Memory management;
+  - Netfilter;
+(CVE-2024-26642, CVE-2024-26922, CVE-2024-26720, CVE-2024-26736,
+CVE-2024-26898, CVE-2021-47063, CVE-2023-52615)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6305-3: PHP regression]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6305-3</id>
+        <link href="https://ubuntu.com/security/notices/USN-6305-3"/>
+        <updated>2024-07-03T20:42:18.000Z</updated>
+        <summary type="html"><![CDATA[USN-6305-2 fixed a vulnerability in PHP. The update caused a regression
+in Ubuntu 16.04 LTS and Ubuntu 18.04 LTS. This update fix it.
+
+Original advisory details:
+
+ It was discovered that PHP incorrectly handled certain XML files.
+ An attacker could possibly use this issue to expose sensitive information.
+ (CVE-2023-3823)
+
+ It was discovered that PHP incorrectly handled certain PHAR files.
+ An attacker could possibly use this issue to cause a crash,
+ expose sensitive information or execute arbitrary code.
+ (CVE-2023-3824)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6865-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6865-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6865-1"/>
+        <updated>2024-07-03T20:23:39.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the ext4 file system implementation in the Linux
+kernel did not properly validate data state on write operations. An
+attacker could use this to construct a malicious ext4 file system image
+that, when mounted, could cause a denial of service (system crash).
+(CVE-2021-33631)
+
+It was discovered that the ATA over Ethernet (AoE) driver in the Linux
+kernel contained a race condition, leading to a use-after-free
+vulnerability. An attacker could use this to cause a denial of service or
+possibly execute arbitrary code. (CVE-2023-6270)
+
+Sander Wiebing, Alvise de Faveri Tron, Herbert Bos, and Cristiano Giuffrida
+discovered that the Linux kernel mitigations for the initial Branch History
+Injection vulnerability (CVE-2022-0001) were insufficient for Intel
+processors. A local attacker could potentially use this to expose sensitive
+information. (CVE-2024-2201)
+
+Gui-Dong Han discovered that the software RAID driver in the Linux kernel
+contained a race condition, leading to an integer overflow vulnerability. A
+privileged attacker could possibly use this to cause a denial of service
+(system crash). (CVE-2024-23307)
+
+Bai Jiaju discovered that the Xceive XC4000 silicon tuner device driver in
+the Linux kernel contained a race condition, leading to an integer overflow
+vulnerability. An attacker could possibly use this to cause a denial of
+service (system crash). (CVE-2024-24861)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - Block layer subsystem;
+  - Hardware random number generator core;
+  - Memory management;
+  - Netfilter;
+(CVE-2024-26898, CVE-2023-52615, CVE-2024-26642, CVE-2024-26720)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Any IoT Device Can Be Hacked, Even Grills]]></title>
+        <id>https://www.darkreading.com/iot/any-iot-device-can-be-hacked-even-grills</id>
+        <link href="https://www.darkreading.com/iot/any-iot-device-can-be-hacked-even-grills"/>
+        <updated>2024-07-03T19:55:50.000Z</updated>
+        <summary type="html"><![CDATA[Researchers uncover a way to hack the summer cookout — but firmware updates will stop that grilled meat (or tofu) from turning into an inedible mess.]]></summary>
+        <author>
+            <name>Fahmida Y. Rashid, Managing Editor, Features, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bay Area Credit Union Struggles to Recover After Ransomware Attack]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/bay-area-credit-union-struggles-to-recover-after-ransomware-attack</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/bay-area-credit-union-struggles-to-recover-after-ransomware-attack"/>
+        <updated>2024-07-03T19:24:45.000Z</updated>
+        <summary type="html"><![CDATA[Tens of thousands of Patelco customers remain without access to their accounts, with no estimates for when systems will be restored.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Europol Announces Crackdown on Cobalt Strike Servers Used by Cybercriminals]]></title>
+        <id>https://www.securityweek.com/?p=38539</id>
+        <link href="https://www.securityweek.com/europol-announces-crackdown-on-cobalt-strike-servers-used-by-cybercriminals/"/>
+        <updated>2024-07-03T19:02:30.000Z</updated>
+        <summary type="html"><![CDATA[European law enforcement agency announces the takedown of nearly 600 Cobalt Strike servers linked to criminal activity.
+The post Europol Announces Crackdown on Cobalt Strike Servers Used by Cybercriminals appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hacker Busted for 'Evil Twin' Wi-Fi That Steals Airline Passenger Data]]></title>
+        <id>https://www.darkreading.com/remote-workforce/hacker-busted-for-evil-twin-wi-fi-that-steals-airline-passenger-data</id>
+        <link href="https://www.darkreading.com/remote-workforce/hacker-busted-for-evil-twin-wi-fi-that-steals-airline-passenger-data"/>
+        <updated>2024-07-03T17:54:12.000Z</updated>
+        <summary type="html"><![CDATA[Australian cops arrest man found with a portable Wi-Fi access device in his carry-on luggage, allegedly used for standing up scam Wi-Fi networks on flights.]]></summary>
+        <author>
+            <name>Dark Reading Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Networking Without the Hangover]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/networking-without-the-hangover</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/networking-without-the-hangover"/>
+        <updated>2024-07-03T16:51:29.000Z</updated>
+        <summary type="html"><![CDATA[How Sober in Cyber is redefining professional connections in the security industry.]]></summary>
+        <author>
+            <name>Joan Goodchild</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ransomware Eruption: Novel Locker Malware Flows From ‘Volcano Demon']]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/ransomware-eruption-novel-locker-malware-flows-from-volcano-demon</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/ransomware-eruption-novel-locker-malware-flows-from-volcano-demon"/>
+        <updated>2024-07-03T16:41:09.000Z</updated>
+        <summary type="html"><![CDATA[Attackers clear logs before exploitation and use "no caller ID" numbers to negotiate ransoms, complicating detection and forensics efforts.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ransomware Extortion Demands Soar to $5.2M per Attack]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/extortion-demands-reach-average-of-5-2m-per-ransomware-attack</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/extortion-demands-reach-average-of-5-2m-per-ransomware-attack"/>
+        <updated>2024-07-03T15:59:11.000Z</updated>
+        <summary type="html"><![CDATA[The highest ransom demanded by threat actors this year so far was nearly 20 times last year's average.]]></summary>
+        <author>
+            <name>Dark Reading Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Open SSH Vulnerability]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/07/new-open-ssh-vulnerability.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/07/new-open-ssh-vulnerability.html"/>
+        <updated>2024-07-03T15:27:11.000Z</updated>
+        <summary type="html"><![CDATA[<p>It&#8217;s a <a href="https://blog.qualys.com/vulnerabilities-threat-research/2024/07/01/regresshion-remote-unauthenticated-code-execution-vulnerability-in-openssh-server">serious one</a>:</p>
+<blockquote><p>The vulnerability, which is a signal handler race condition in OpenSSH&#8217;s server (sshd), allows unauthenticated remote code execution (RCE) as root on glibc-based Linux systems; that presents a significant security risk. This race condition affects sshd in its default configuration.</p>
+<p>[&#8230;]</p>
+<p>This vulnerability, if exploited, could lead to full system compromise where an attacker can execute arbitrary code with the highest privileges, resulting in a complete system takeover, installation of malware, data manipulation, and the creation of backdoors for persistent access. It could facilitate network propagation, allowing attackers to use a compromised system as a foothold to traverse and exploit other vulnerable systems within the organization...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel CPUs Face Spectre-Like 'Indirector' Attack That Leaks Data]]></title>
+        <id>https://www.darkreading.com/endpoint-security/intel-cpus-spectre-like-indirector-attack-leaks-data</id>
+        <link href="https://www.darkreading.com/endpoint-security/intel-cpus-spectre-like-indirector-attack-leaks-data"/>
+        <updated>2024-07-03T14:23:12.000Z</updated>
+        <summary type="html"><![CDATA["Indirector" targets a speculative execution component in silicon that previous research has largely overlooked.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Friend or Foe? AI's Complicated Role in Cybersecurity]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/friend-or-foe-ai-complicated-role-in-cybersecurity</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/friend-or-foe-ai-complicated-role-in-cybersecurity"/>
+        <updated>2024-07-03T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Staying informed about the latest AI security solutions and best practices is critical in remaining a step ahead of increasingly clever cyberattacks.]]></summary>
+        <author>
+            <name>Dilip Bachwani</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Over 380k Hosts Still Referencing Malicious Polyfill Domain: Censys]]></title>
+        <id>https://www.securityweek.com/?p=38535</id>
+        <link href="https://www.securityweek.com/over-380k-hosts-still-referencing-malicious-polyfill-domain-censys/"/>
+        <updated>2024-07-03T12:57:15.000Z</updated>
+        <summary type="html"><![CDATA[Censys has discovered more than 380,000 hosts, including major platforms, still referencing the malicious polyfill.io domain.
+The post Over 380k Hosts Still Referencing Malicious Polyfill Domain: Censys appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Odaseva Raises $54 Million for Salesforce Enterprise Data Security Platform]]></title>
+        <id>https://www.securityweek.com/?p=38534</id>
+        <link href="https://www.securityweek.com/odaseva-raises-54-million-for-salesforce-enterprise-data-security-platform/"/>
+        <updated>2024-07-03T12:49:33.000Z</updated>
+        <summary type="html"><![CDATA[Enterprise data security platform Odaseva raises $54 million in a Series C funding round led by Silver Lake Waterman.
+The post Odaseva Raises $54 Million for Salesforce Enterprise Data Security Platform appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity M&A Roundup: 29 Deals Announced in June 2024]]></title>
+        <id>https://www.securityweek.com/?p=38533</id>
+        <link href="https://www.securityweek.com/cybersecurity-ma-roundup-29-deals-announced-in-june-2024/"/>
+        <updated>2024-07-03T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Roundup of the more than two dozen cybersecurity-related merger and acquisition (M&A) deals announced in June 2024.
+The post Cybersecurity M&A Roundup: 29 Deals Announced in June 2024 appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brazil Data Regulator Bans Meta From Mining Data to Train AI Models]]></title>
+        <id>https://www.securityweek.com/?p=38532</id>
+        <link href="https://www.securityweek.com/brazil-data-regulator-bans-meta-from-mining-data-to-train-ai-models/"/>
+        <updated>2024-07-03T11:42:46.000Z</updated>
+        <summary type="html"><![CDATA[Brazil’s national data protection authority has determined that Meta cannot use data originating in the country to train its artificial intelligence.
+The post Brazil Data Regulator Bans Meta From Mining Data to Train AI Models appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[300k Affected by Year-Old Data Breach at Florida Community Health Centers]]></title>
+        <id>https://www.securityweek.com/?p=38531</id>
+        <link href="https://www.securityweek.com/300k-affected-by-year-old-data-breach-at-florida-community-health-centers/"/>
+        <updated>2024-07-03T11:15:31.000Z</updated>
+        <summary type="html"><![CDATA[Florida Community Health Centers says the information of 300,000 individuals was stolen in a June 2023 ransomware attack.
+The post 300k Affected by Year-Old Data Breach at Florida Community Health Centers appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Emerging Role of AI in Open-Source Intelligence]]></title>
+        <id>https://thehackernews.com/2024/07/the-emerging-role-of-ai-in-open-source.html</id>
+        <link href="https://thehackernews.com/2024/07/the-emerging-role-of-ai-in-open-source.html"/>
+        <updated>2024-07-03T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Recently the Office of the Director of National Intelligence (ODNI) unveiled a new strategy for open-source intelligence (OSINT) and referred to OSINT as the “INT of first resort”. Public and private sector organizations are realizing the value that the discipline can provide but are also finding that the exponential growth of digital data in recent years has overwhelmed many traditional OSINT]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Patelco Credit Union Scrambling to Restore Systems Following Ransomware Attack]]></title>
+        <id>https://www.securityweek.com/?p=38530</id>
+        <link href="https://www.securityweek.com/patelco-credit-union-scrambling-to-restore-systems-following-ransomware-attack/"/>
+        <updated>2024-07-03T10:58:46.000Z</updated>
+        <summary type="html"><![CDATA[Patelco Credit Union shuts down banking systems and suspends electronic operations in response to a ransomware attack.
+The post Patelco Credit Union Scrambling to Restore Systems Following Ransomware Attack appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Says No New Mitigations Required for Indirector CPU Attack]]></title>
+        <id>https://www.securityweek.com/?p=38529</id>
+        <link href="https://www.securityweek.com/intel-says-no-new-mitigations-required-for-indirector-cpu-attack/"/>
+        <updated>2024-07-03T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Researchers disclosed a new high-precision Branch Target Injection attack method named Indirector, but Intel says no new mitigations are needed.
+The post Intel Says No New Mitigations Required for Indirector CPU Attack appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft MSHTML Flaw Exploited to Deliver MerkSpy Spyware Tool]]></title>
+        <id>https://thehackernews.com/2024/07/microsoft-mshtml-flaw-exploited-to.html</id>
+        <link href="https://thehackernews.com/2024/07/microsoft-mshtml-flaw-exploited-to.html"/>
+        <updated>2024-07-03T09:53:00.000Z</updated>
+        <summary type="html"><![CDATA[Unknown threat actors have been observed exploiting a now-patched security flaw in Microsoft MSHTML to deliver a surveillance tool called MerkSpy as part of a campaign primarily targeting users in Canada, India, Poland, and the U.S.
+"MerkSpy is designed to clandestinely monitor user activities, capture sensitive information, and establish persistence on compromised systems," Fortinet FortiGuard]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[regreSSHion OpenSSH Flaw: Potential Exploitation Attempts Seen, but Mass Attacks Unlikely]]></title>
+        <id>https://www.securityweek.com/?p=38528</id>
+        <link href="https://www.securityweek.com/regresshion-openssh-flaw-potential-exploitation-attempts-seen-but-mass-attacks-unlikely/"/>
+        <updated>2024-07-03T09:05:00.000Z</updated>
+        <summary type="html"><![CDATA[The critical OpenSSH vulnerability tracked as regreSSHion and CVE-2024-6387 may already be targeted by attackers, but mass exploitation is unlikely.
+The post regreSSHion OpenSSH Flaw: Potential Exploitation Attempts Seen, but Mass Attacks Unlikely appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FakeBat Loader Malware Spreads Widely Through Drive-by Download Attacks]]></title>
+        <id>https://thehackernews.com/2024/07/fakebat-loader-malware-spreads-widely.html</id>
+        <link href="https://thehackernews.com/2024/07/fakebat-loader-malware-spreads-widely.html"/>
+        <updated>2024-07-03T07:05:00.000Z</updated>
+        <summary type="html"><![CDATA[The loader-as-a-service (LaaS) known as FakeBat has become one of the most widespread loader malware families distributed using the drive-by download technique this year, findings from Sekoia reveal.
+"FakeBat primarily aims to download and execute the next-stage payload, such as IcedID, Lumma, RedLine, SmokeLoader, SectopRAT, and Ursnif," the company said in a Tuesday analysis.
+Drive-by attacks]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[South Africa National Healthcare Lab Still Reeling From Ransomware Attack]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/south-africa-healthcare-lab-still-reeling-from-ransomware-attack</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/south-africa-healthcare-lab-still-reeling-from-ransomware-attack"/>
+        <updated>2024-07-03T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The cyberattack disrupted national laboratory services, which could slow response to disease outbreaks such as mpox, experts warn.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s new in the MSRC Report Abuse Portal and API]]></title>
+        <id>https://msrc.microsoft.com/blog/2024/07/whats-new-in-the-msrc-report-abuse-portal-and-api/</id>
+        <link href="https://msrc.microsoft.com/blog/2024/07/whats-new-in-the-msrc-report-abuse-portal-and-api/"/>
+        <updated>2024-07-03T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Microsoft Security Response Center (MSRC) has always been at the forefront of addressing cyber threats, privacy issues, and abuse arising from Microsoft Online Services. Building on our commitment, we have introduced several key updates to the Report Abuse Portal and API, which will significantly improve the way we handle and respond to abuse reports.]]></summary>
+        <author>
+            <name>Microsoft Security Response Center</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6862-1: Firefox vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6862-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6862-1"/>
+        <updated>2024-07-03T05:46:30.000Z</updated>
+        <summary type="html"><![CDATA[Multiple security issues were discovered in Firefox. If a user were
+tricked into opening a specially crafted website, an attacker could
+potentially exploit these to cause a denial of service, obtain sensitive
+information across domains, or execute arbitrary code. (CVE-2024-5689,
+CVE-2024-5690, CVE-2024-5691, CVE-2024-5693, CVE-2024-5697, CVE-2024-5698,
+CVE-2024-5699, CVE-2024-5700, CVE-2024-5701)
+
+Lukas Bernhard discovered that Firefox did not properly manage memory
+during garbage collection. An attacker could potentially exploit this
+issue to cause a denial of service, or  execute arbitrary code.
+(CVE-2024-5688)
+
+Lukas Bernhard discovered that Firefox did not properly manage memory in
+the JavaScript engine. An attacker could potentially exploit this issue to
+obtain sensitive information. (CVE-2024-5694)
+
+Irvan Kurniawan discovered that Firefox did not properly handle certain
+allocations in the probabilistic heap checker. An attacker could 
+potentially exploit this issue to cause a denial of service. 
+(CVE-2024-5695)
+
+Irvan Kurniawan discovered that Firefox did not properly handle certain
+text fragments in input tags. An attacker could potentially exploit this
+issue to cause a denial of service. (CVE-2024-5696)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Israeli Entities Targeted by Cyberattack Using Donut and Sliver Frameworks]]></title>
+        <id>https://thehackernews.com/2024/07/israeli-entities-targeted-by.html</id>
+        <link href="https://thehackernews.com/2024/07/israeli-entities-targeted-by.html"/>
+        <updated>2024-07-03T03:56:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have discovered an attack campaign that targets various Israeli entities with publicly-available frameworks like Donut and Sliver.
+The campaign, believed to be highly targeted in nature, "leverage target-specific infrastructure and custom WordPress websites as a payload delivery mechanism, but affect a variety of entities across unrelated verticals, and rely on]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[South Korean ERP Vendor's Server Hacked to Spread Xctdoor Malware]]></title>
+        <id>https://thehackernews.com/2024/07/south-korean-erp-vendors-server-hacked.html</id>
+        <link href="https://thehackernews.com/2024/07/south-korean-erp-vendors-server-hacked.html"/>
+        <updated>2024-07-03T03:33:00.000Z</updated>
+        <summary type="html"><![CDATA[An unnamed South Korean enterprise resource planning (ERP) vendor's product update server has been found to be compromised to deliver a Go-based backdoor dubbed Xctdoor.
+The AhnLab Security Intelligence Center (ASEC), which identified the attack in May 2024, did not attribute it to a known threat actor or group, but noted that the tactics overlap with that of Andariel, a sub-cluster within the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[3 Ways to Chill Attacks on Snowflake]]></title>
         <id>https://www.darkreading.com/cybersecurity-operations/three-ways-to-chill-attacks-on-snowflake</id>
@@ -6802,295 +7235,6 @@ An attacker could possibly use this issue to execute arbitrary code
 or cause a crash.]]></summary>
         <author>
             <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ISC2 Provides Opportunity for Employers to Connect With Cybersecurity Job Seekers]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/isc2-provides-opportunity-for-employers-to-connect-with-cybersecurity-job-seekers</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/isc2-provides-opportunity-for-employers-to-connect-with-cybersecurity-job-seekers"/>
-        <updated>2024-06-04T13:14:50.000Z</updated>
-        <author>
-            <name>darkreading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NIST Commits to Plan to Resume NVD Work]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/nist-commits-to-plan-resume-nvd-work</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/nist-commits-to-plan-resume-nvd-work"/>
-        <updated>2024-06-04T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The agency aims to burn down the backlog of vulnerabilities waiting to be added to the National Vulnerabilities Database via additional funding, third-party contract, and a partnership with CISA.]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Progress Patches Critical Vulnerability in Telerik Report Server]]></title>
-        <id>https://www.securityweek.com/?p=38181</id>
-        <link href="https://www.securityweek.com/progress-patches-critical-vulnerability-in-telerik-report-server/"/>
-        <updated>2024-06-04T12:28:02.000Z</updated>
-        <summary type="html"><![CDATA[A critical vulnerability in the Progress Telerik Report Server could allow unauthenticated attackers to access restricted functionality.
-The post Progress Patches Critical Vulnerability in Telerik Report Server appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Releases Four Industrial Control Systems Advisories]]></title>
-        <id>/node/21567</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/06/04/cisa-releases-four-industrial-control-systems-advisories"/>
-        <updated>2024-06-04T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA released four Industrial Control Systems (ICS) advisories on June 4, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
-ICSA-24-156-01 Uniview NVR301-04S2-P4
-ICSA-23-278-03 Mitsubishi Electric CC-Link IE TSN Industrial Managed Switch (Update A)
-ICSA-22-172-01 Mitsubishi Electric MELSEC iQ-R, Q, L Series and MELIPC Series (Update C)
-ICSA-24-151-02 Fuji Electric Monitouch V-SFT (Update A)
-CISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Warns of Attacks Exploiting Old Oracle WebLogic Vulnerability]]></title>
-        <id>https://www.securityweek.com/?p=38180</id>
-        <link href="https://www.securityweek.com/cisa-warns-of-attacks-exploiting-old-oracle-weblogic-vulnerability/"/>
-        <updated>2024-06-04T11:57:46.000Z</updated>
-        <summary type="html"><![CDATA[CISA has added an old Oracle WebLogic flaw tracked as CVE-2017-3506 to its known exploited vulnerabilities catalog.
-The post CISA Warns of Attacks Exploiting Old Oracle WebLogic Vulnerability appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Next Generation of RBI (Remote Browser Isolation)]]></title>
-        <id>https://thehackernews.com/2024/06/the-next-generation-of-rbi-remote.html</id>
-        <link href="https://thehackernews.com/2024/06/the-next-generation-of-rbi-remote.html"/>
-        <updated>2024-06-04T11:19:00.000Z</updated>
-        <summary type="html"><![CDATA[The landscape of browser security has undergone significant changes over the past decade. While Browser Isolation was once considered the gold standard for protecting against browser exploits and malware downloads, it has become increasingly inadequate and insecure in today's SaaS-centric world.
-The limitations of Browser Isolation, such as degraded browser performance and inability to tackle]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Breaking a Password Manager]]></title>
-        <id>https://www.schneier.com/blog/archives/2024/06/breaking-a-password-manager.html</id>
-        <link href="https://www.schneier.com/blog/archives/2024/06/breaking-a-password-manager.html"/>
-        <updated>2024-06-04T11:08:16.000Z</updated>
-        <summary type="html"><![CDATA[<p>Interesting <a href="https://www.wired.com/story/roboform-password-3-million-dollar-crypto-wallet/">story</a> of breaking the security of the RoboForm password manager in order to recover a cryptocurrency wallet password.</p>
-<blockquote><p>Grand and Bruno spent months reverse engineering the version of the RoboForm program that they thought Michael had used in 2013 and found that the pseudo-random number generator used to generate passwords in that version­and subsequent versions until 2015­did indeed have a significant flaw that made the random number generator not so random. The RoboForm program unwisely tied the random passwords it generated to the date and time on the user’s computer­it determined the computer’s date and time, and then generated passwords that were predictable. If you knew the date and time and other parameters, you could compute any password that would have been generated on a certain date and time in the past...</p></blockquote>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hackers Use MS Excel Macro to Launch Multi-Stage Malware Attack in Ukraine]]></title>
-        <id>https://thehackernews.com/2024/06/hackers-use-ms-excel-macro-to-launch.html</id>
-        <link href="https://thehackernews.com/2024/06/hackers-use-ms-excel-macro-to-launch.html"/>
-        <updated>2024-06-04T11:07:00.000Z</updated>
-        <summary type="html"><![CDATA[A new sophisticated cyber attack has been observed targeting endpoints geolocated to Ukraine with an aim to deploy Cobalt Strike and seize control of the compromised hosts.
-The attack chain, per Fortinet FortiGuard Labs, involves a Microsoft Excel file that carries an embedded VBA macro to initiate the infection,
-"The attacker uses a multi-stage malware strategy to deliver the notorious 'Cobalt]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ransomware Group Claims Cyberattack on Frontier Communications]]></title>
-        <id>https://www.securityweek.com/?p=38177</id>
-        <link href="https://www.securityweek.com/ransomware-group-claims-cyberattack-on-frontier-communications/"/>
-        <updated>2024-06-04T10:57:30.000Z</updated>
-        <summary type="html"><![CDATA[The RansomHub ransomware group claims to have stolen the information of over 2 million Frontier Communications customers.
-The post Ransomware Group Claims Cyberattack on Frontier Communications appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Snowflake Warns: Targeted Credential Theft Campaign Hits Cloud Customers]]></title>
-        <id>https://thehackernews.com/2024/06/snowflake-warns-targeted-credential.html</id>
-        <link href="https://thehackernews.com/2024/06/snowflake-warns-targeted-credential.html"/>
-        <updated>2024-06-04T10:28:00.000Z</updated>
-        <summary type="html"><![CDATA[Cloud computing and analytics company Snowflake said a "limited number" of its customers have been singled out as part of a targeted campaign.
-"We have not identified evidence suggesting this activity was caused by a vulnerability, misconfiguration, or breach of Snowflake’s platform," the company said in a joint statement along with CrowdStrike and Google-owned Mandiant.
-"We have not identified]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cybersecurity M&A Roundup: 28 Deals Announced in May 2024]]></title>
-        <id>https://www.securityweek.com/?p=38176</id>
-        <link href="https://www.securityweek.com/cybersecurity-ma-roundup-28-deals-announced-in-may-2024/"/>
-        <updated>2024-06-04T09:52:48.000Z</updated>
-        <summary type="html"><![CDATA[Roundup of the more than two dozen cybersecurity-related merger and acquisition (M&A) deals announced in May 2024.
-The post Cybersecurity M&A Roundup: 28 Deals Announced in May 2024 appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerabilities Exposed Millions of Cox Modems to Remote Hacking]]></title>
-        <id>https://www.securityweek.com/?p=38174</id>
-        <link href="https://www.securityweek.com/vulnerabilities-exposed-millions-of-cox-modems-to-remote-hacking/"/>
-        <updated>2024-06-04T09:48:37.000Z</updated>
-        <summary type="html"><![CDATA[Cox recently patched a series of vulnerabilities that could have allowed hackers to remotely take control of millions of modems.
-The post Vulnerabilities Exposed Millions of Cox Modems to Remote Hacking appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[37 Vulnerabilities Patched in Android]]></title>
-        <id>https://www.securityweek.com/?p=38173</id>
-        <link href="https://www.securityweek.com/37-vulnerabilities-patched-in-android/"/>
-        <updated>2024-06-04T08:49:50.000Z</updated>
-        <summary type="html"><![CDATA[Android’s June 2024 security update resolves 37 vulnerabilities, including high-severity flaws in Framework and System.
-The post 37 Vulnerabilities Patched in Android appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DarkGate Malware Replaces AutoIt with AutoHotkey in Latest Cyber Attacks]]></title>
-        <id>https://thehackernews.com/2024/06/darkgate-malware-replaces-autoit-with.html</id>
-        <link href="https://thehackernews.com/2024/06/darkgate-malware-replaces-autoit-with.html"/>
-        <updated>2024-06-04T06:33:00.000Z</updated>
-        <summary type="html"><![CDATA[Cyber attacks involving the DarkGate malware-as-a-service (MaaS) operation have shifted away from AutoIt scripts to an AutoHotkey mechanism to deliver the last stages, underscoring continued efforts on the part of the threat actors to continuously stay ahead of the detection curve.
-The updates have been observed in version 6 of DarkGate released in March 2024 by its developer RastaFarEye, who]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oracle WebLogic Server OS Command Injection Flaw Under Active Attack]]></title>
-        <id>https://thehackernews.com/2024/06/oracle-weblogic-server-os-command.html</id>
-        <link href="https://thehackernews.com/2024/06/oracle-weblogic-server-os-command.html"/>
-        <updated>2024-06-04T03:25:00.000Z</updated>
-        <summary type="html"><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a security flaw impacting the Oracle WebLogic Server to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
-Tracked as CVE-2017-3506 (CVSS score: 7.4), the issue concerns an operating system (OS) command injection vulnerability that could be exploited to obtain unauthorized]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ways iOS Sideloading Can Be More Secure]]></title>
-        <id>https://www.darkreading.com/mobile-security/ways-apple-ios-sideloading-can-be-more-secure</id>
-        <link href="https://www.darkreading.com/mobile-security/ways-apple-ios-sideloading-can-be-more-secure"/>
-        <updated>2024-06-03T21:45:11.000Z</updated>
-        <summary type="html"><![CDATA[Sideloading apps is now possible on iOS devices, forcing Apple to add some security features in an attempt to mitigate the dangers of loading unknown apps.]]></summary>
-        <author>
-            <name>Benjamin Adolphi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KnowBe4 and MobileMind Collaborate to Provide Cybersecurity Training for K12 School Districts]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/knowbe4-and-mobilemind-collaborate-to-provide-cybersecurity-training-for-k12-school-districts</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/knowbe4-and-mobilemind-collaborate-to-provide-cybersecurity-training-for-k12-school-districts"/>
-        <updated>2024-06-03T21:19:16.000Z</updated>
-        <author>
-            <name>darkreading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ockam and Redpanda Partner to Launch Zero-Trust Streaming Data Platform]]></title>
-        <id>https://www.darkreading.com/cloud-security/ockam-and-redpanda-partner-to-launch-zero-trust-streaming-data-platform</id>
-        <link href="https://www.darkreading.com/cloud-security/ockam-and-redpanda-partner-to-launch-zero-trust-streaming-data-platform"/>
-        <updated>2024-06-03T21:14:11.000Z</updated>
-        <author>
-            <name>darkreading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Portkey Announces Integration of Zero-Knowledge Proofs for Enhanced Identity Management and Security]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/portkey-announces-integration-of-zero-knowledge-proofs-for-enhanced-identity-management-and-security</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/portkey-announces-integration-of-zero-knowledge-proofs-for-enhanced-identity-management-and-security"/>
-        <updated>2024-06-03T21:05:56.000Z</updated>
-        <author>
-            <name>darkreading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Atlassian Confluence High-Severity Bug Allows Code Execution]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/atlassian-confluence-high-severity-bug-allows-code-execution</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/atlassian-confluence-high-severity-bug-allows-code-execution"/>
-        <updated>2024-06-03T21:00:50.000Z</updated>
-        <summary type="html"><![CDATA[Because of the role the Confluence Server plays in managing documentation and knowledge data bases, the researchers recommend users upgrade to patch CVE-2024-21683 as soon as possible.]]></summary>
-        <author>
-            <name>Dark Reading Staff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia Aims Cyber Operations at Summer Olympics]]></title>
-        <id>https://www.darkreading.com/threat-intelligence/russia-cyber-operations-summer-olympics</id>
-        <link href="https://www.darkreading.com/threat-intelligence/russia-cyber-operations-summer-olympics"/>
-        <updated>2024-06-03T20:47:50.000Z</updated>
-        <summary type="html"><![CDATA[As always, Russian APTs are hoping to foment unrest by stoking existing societal divides and fears, this time around the Olympics and EU politics; and, concerns remain around physical disruption.]]></summary>
-        <author>
-            <name>Nate Nelson, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Europol's Hunt Begins for Emotet Malware Mastermind]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/europols-hunt-begins-for-emotet-malware-mastermind</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/europols-hunt-begins-for-emotet-malware-mastermind"/>
-        <updated>2024-06-03T19:48:34.000Z</updated>
-        <summary type="html"><![CDATA[International law enforcement Operation Endgame shifts its crackdown to focus on individual adversaries.]]></summary>
-        <author>
-            <name>Dark Reading Staff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ticketmaster Confirms Cloud Breach, Amid Murky Details]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/ticketmaster-confirms-cloud-breach-murky-details</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/ticketmaster-confirms-cloud-breach-murky-details"/>
-        <updated>2024-06-03T17:20:05.000Z</updated>
-        <summary type="html"><![CDATA[Ticketmaster parent Live Nation has filed a voluntary SEC data breach notification, while one of its cloud providers, Snowflake, also confirmed targeted cyberactivity against some of its customers.]]></summary>
-        <author>
-            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Name That Edge Toon: Zonked Out]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/name-that-edge-toon-zonked-out</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/name-that-edge-toon-zonked-out"/>
-        <updated>2024-06-03T16:36:25.000Z</updated>
-        <summary type="html"><![CDATA[Feeling creative? Submit your caption and our panel of experts will reward the winner with a $25 Amazon gift card.]]></summary>
-        <author>
-            <name>John Klossner, Cartoonist</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers Uncover RAT-Dropping npm Package Targeting Gulp Users]]></title>
-        <id>https://thehackernews.com/2024/06/researchers-uncover-rat-dropping-npm.html</id>
-        <link href="https://thehackernews.com/2024/06/researchers-uncover-rat-dropping-npm.html"/>
-        <updated>2024-06-03T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have uncovered a new suspicious package uploaded to the npm package registry that's designed to drop a remote access trojan (RAT) on compromised systems.
-The package in question is glup-debugger-log, which targets users of the gulp toolkit by masquerading as a "logger for gulp and gulp plugins." It has been downloaded 175 times to date.
-Software supply chain security]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA's Secure by Design Initiative at 1: A Report Card]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/cisas-secure-by-design-initiative-at-1-report-card</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/cisas-secure-by-design-initiative-at-1-report-card"/>
-        <updated>2024-06-03T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[There is more that needs to be done, but, so far, the initiative is a success.]]></summary>
-        <author>
-            <name>Stephen de Vries</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Authorities Ramp Up Efforts to Capture the Mastermind Behind Emotet]]></title>
-        <id>https://thehackernews.com/2024/06/authorities-ramp-up-efforts-to-capture.html</id>
-        <link href="https://thehackernews.com/2024/06/authorities-ramp-up-efforts-to-capture.html"/>
-        <updated>2024-06-03T13:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Law enforcement authorities behind Operation Endgame are seeking information related to an individual who goes by the name Odd and is allegedly the mastermind behind the Emotet malware. 
-Odd is also said to go by the nicknames Aron, C700, Cbd748, Ivanov Odd, Mors, Morse, Veron over the past few years, according to a video released by the agencies.
-"Who is he working with? What is his]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
         </author>
     </entry>
 </feed>
