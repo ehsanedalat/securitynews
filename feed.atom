@@ -2,10 +2,404 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-07-08T01:17:58.577Z</updated>
+    <updated>2024-07-09T01:16:59.069Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA['CloudSorcerer' Leverages Cloud Services in Cyber-Espionage Campaign]]></title>
+        <id>https://www.darkreading.com/cloud-security/cloudsorceror-public-cloud-cyberespionage-campaign</id>
+        <link href="https://www.darkreading.com/cloud-security/cloudsorceror-public-cloud-cyberespionage-campaign"/>
+        <updated>2024-07-08T21:25:26.000Z</updated>
+        <summary type="html"><![CDATA[The newly discovered APT's main weapon is a malware tool that can change behavior depending on the process in which it is running.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10B Passwords Pop Up on Dark Web 'RockYou2024' Release]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/10b-passwords-pop-up-on-dark-web-rockyou2024-release</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/10b-passwords-pop-up-on-dark-web-rockyou2024-release"/>
+        <updated>2024-07-08T20:12:32.000Z</updated>
+        <summary type="html"><![CDATA[The passwords, dumped on a cyber-underground forum on July 4 by a hacker called "ObamaCare," were collected from a variety of older and more recent breaches.]]></summary>
+        <author>
+            <name>Dark Reading Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Banning Android Phones for Staff in China]]></title>
+        <id>https://www.securityweek.com/?p=38570</id>
+        <link href="https://www.securityweek.com/microsoft-banning-chinese-staff-from-using-android-phones/"/>
+        <updated>2024-07-08T19:56:14.000Z</updated>
+        <summary type="html"><![CDATA[Starting in September, Microsoft will mandate the the use of Apple’s iPhones to authenticate identities when logging into work machines. 
+The post Microsoft Banning Android Phones for Staff in China appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>SecurityWeek News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Identity Orchestration Is Gaining Traction]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/identity-orchestration-is-gaining-traction</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/identity-orchestration-is-gaining-traction"/>
+        <updated>2024-07-08T18:22:27.000Z</updated>
+        <summary type="html"><![CDATA[Identity orchestration products are increasingly projected to be introduced to the market in the next couple of years. Market trends and benefits of identity orchestration are explored.]]></summary>
+        <author>
+            <name>Don Tait</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Geolocation API Exposes Wi-Fi Access Points Worldwide]]></title>
+        <id>https://www.darkreading.com/endpoint-security/apple-geolocation-api-exposes-wi-fi-access-points-worldwide</id>
+        <link href="https://www.darkreading.com/endpoint-security/apple-geolocation-api-exposes-wi-fi-access-points-worldwide"/>
+        <updated>2024-07-08T18:10:25.000Z</updated>
+        <summary type="html"><![CDATA[Beyond the devices that use them, Wi-Fi hubs themselves can leak interesting data, thanks to some quirks in Apple's geolocation system.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On the CSRB’s Non-Investigation of the SolarWinds Attack]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/07/on-the-csrbs-non-investigation-of-the-solarwinds-attack.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/07/on-the-csrbs-non-investigation-of-the-solarwinds-attack.html"/>
+        <updated>2024-07-08T17:59:33.000Z</updated>
+        <summary type="html"><![CDATA[<p>ProPublica has a <a href="https://www.propublica.org/article/cyber-safety-board-never-investigated-solarwinds-breach-microsoft">long investigative article</a> on how the Cyber Safety Review Board failed to investigate the SolarWinds attack, and specifically Microsoft&#8217;s culpability, even though they were directed by President Biden to do so.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6885-1: Apache HTTP Server vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6885-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6885-1"/>
+        <updated>2024-07-08T17:56:11.000Z</updated>
+        <summary type="html"><![CDATA[Marc Stern discovered that the Apache HTTP Server incorrectly handled
+serving WebSocket protocol upgrades over HTTP/2 connections. A remote
+attacker could possibly use this issue to cause the server to crash,
+resulting in a denial of service. (CVE-2024-36387)
+
+Orange Tsai discovered that the Apache HTTP Server mod_proxy module
+incorrectly sent certain request URLs with incorrect encodings to backends.
+A remote attacker could possibly use this issue to bypass authentication.
+(CVE-2024-38473)
+
+Orange Tsai discovered that the Apache HTTP Server mod_rewrite module
+incorrectly handled certain substitutions. A remote attacker could possibly
+use this issue to execute scripts in directories not directly reachable
+by any URL, or cause a denial of service. Some environments may require
+using the new UnsafeAllow3F flag to handle unsafe substitutions.
+(CVE-2024-38474, CVE-2024-38475, CVE-2024-39573)
+
+Orange Tsai discovered that the Apache HTTP Server incorrectly handled
+certain response headers. A remote attacker could possibly use this issue
+to obtain sensitive information, execute local scripts, or perform SSRF
+attacks. (CVE-2024-38476)
+
+Orange Tsai discovered that the Apache HTTP Server mod_proxy module
+incorrectly handled certain requests. A remote attacker could possibly use
+this issue to cause the server to crash, resulting in a denial of service.
+(CVE-2024-38477)
+
+It was discovered that the Apache HTTP Server incorrectly handled certain
+handlers configured via AddType. A remote attacker could possibly use this
+issue to obtain source code. (CVE-2024-39884)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cyber-Insurance Prices Plummet as Market Competition Grows]]></title>
+        <id>https://www.darkreading.com/cyber-risk/cyber-insurance-prices-decline-market-competition-grows</id>
+        <link href="https://www.darkreading.com/cyber-risk/cyber-insurance-prices-decline-market-competition-grows"/>
+        <updated>2024-07-08T17:47:22.000Z</updated>
+        <summary type="html"><![CDATA[Now may be a good time to find good deals on insurance coverage for ransomware and security incidents.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mandiant Highlights Russian and Chinese Cyber Threats to NATO on Eve of 75th Anniversary Summit]]></title>
+        <id>https://www.securityweek.com/?p=38567</id>
+        <link href="https://www.securityweek.com/mandiant-highlights-russian-and-chinese-cyber-threats-to-nato-on-eve-of-75th-anniversary-summit/"/>
+        <updated>2024-07-08T16:40:29.000Z</updated>
+        <summary type="html"><![CDATA[On the eve of NATO’s 75th anniversary summit in Washington DC, Mandiant outlines the current state of cyberthreats facing NATO and aligned countries.
+The post Mandiant Highlights Russian and Chinese Cyber Threats to NATO on Eve of 75th Anniversary Summit appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New APT Group "CloudSorcerer" Targets Russian Government Entities]]></title>
+        <id>https://thehackernews.com/2024/07/new-apt-group-cloudsorcerer-targets.html</id>
+        <link href="https://thehackernews.com/2024/07/new-apt-group-cloudsorcerer-targets.html"/>
+        <updated>2024-07-08T15:42:00.000Z</updated>
+        <summary type="html"><![CDATA[A previously undocumented advanced persistent threat (APT) group dubbed CloudSorcerer has been observed targeting Russian government entities by leveraging cloud services for command-and-control (C2) and data exfiltration.
+Cybersecurity firm Kaspersky, which discovered the activity in May 2024, the tradecraft adopted by the threat actor bears similarities with that of CloudWizard, but pointed]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dark Web Malware Logs Expose 3,300 Users Linked to Child Abuse Sites]]></title>
+        <id>https://thehackernews.com/2024/07/dark-web-malware-logs-expose-3300-users.html</id>
+        <link href="https://thehackernews.com/2024/07/dark-web-malware-logs-expose-3300-users.html"/>
+        <updated>2024-07-08T15:08:00.000Z</updated>
+        <summary type="html"><![CDATA[An analysis of information-stealing malware logs published on the dark web has led to the discovery of thousands of consumers of child sexual abuse material (CSAM), indicating how such information could be used to combat serious crimes.
+"Approximately 3,300 unique users were found with accounts on known CSAM sources," Recorded Future said in a proof-of-concept (PoC) report published last week. "]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hacked Ethereum Foundation Account Used to Send 35,000 Phishing Emails]]></title>
+        <id>https://www.securityweek.com/?p=38566</id>
+        <link href="https://www.securityweek.com/hacked-ethereum-foundation-account-used-to-send-35000-phishing-emails/"/>
+        <updated>2024-07-08T14:20:47.000Z</updated>
+        <summary type="html"><![CDATA[A threat actor sent over 35,000 phishing emails after hacking into Ethereum Foundation's account on a mailing list platform.
+The post Hacked Ethereum Foundation Account Used to Send 35,000 Phishing Emails appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kaspersky Flags Cyberespionage APT ‘CloudSorcerer’ Targeting Russian Government]]></title>
+        <id>https://www.securityweek.com/?p=38564</id>
+        <link href="https://www.securityweek.com/kaspersky-flags-cyberespionage-apt-cloudsorcerer-targeting-russian-government/"/>
+        <updated>2024-07-08T14:01:38.000Z</updated>
+        <summary type="html"><![CDATA[Kaspersky said the CloudSorcerer APT has been abusing public cloud services to exfiltrate data from Russian government entities.
+The post Kaspersky Flags Cyberespionage APT ‘CloudSorcerer’ Targeting Russian Government appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Ways to Run Security as a Meritocracy]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/5-ways-to-run-security-as-a-meritocracy</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/5-ways-to-run-security-as-a-meritocracy"/>
+        <updated>2024-07-08T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Actions speak louder than words. Here are five tips for encouraging a security culture based on achievements.]]></summary>
+        <author>
+            <name>Joshua Goldfarb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deconstructing Security Assumptions to Ensure Future Resilience]]></title>
+        <id>https://www.darkreading.com/cyber-risk/deconstructing-security-assumptions-to-ensure-future-resilience</id>
+        <link href="https://www.darkreading.com/cyber-risk/deconstructing-security-assumptions-to-ensure-future-resilience"/>
+        <updated>2024-07-08T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[By breaking down fundamental assumptions, we can proactively plan for, and begin to achieve, future resilience.]]></summary>
+        <author>
+            <name>Maurice Uenuma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action]]></title>
+        <id>/node/21723</id>
+        <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-190a"/>
+        <updated>2024-07-08T13:52:05.000Z</updated>
+        <summary type="html"><![CDATA[Overview
+Background
+This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Policy A…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Ransomware-as-a-Service 'Eldorado' Targets Windows and Linux Systems]]></title>
+        <id>https://thehackernews.com/2024/07/new-ransomware-as-service-eldorado.html</id>
+        <link href="https://thehackernews.com/2024/07/new-ransomware-as-service-eldorado.html"/>
+        <updated>2024-07-08T13:15:00.000Z</updated>
+        <summary type="html"><![CDATA[An emerging ransomware-as-a-service (RaaS) operation called Eldorado comes with locker variants to encrypt files on Windows and Linux systems.
+Eldorado first appeared on March 16, 2024, when an advertisement for the affiliate program was posted on the ransomware forum RAMP, Singapore-headquartered Group-IB said.
+The cybersecurity firm, which infiltrated the ransomware group, noted that its]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of July 1, 2024]]></title>
+        <id>/node/21722</id>
+        <link href="https://www.cisa.gov/news-events/bulletins/sb24-190"/>
+        <updated>2024-07-08T12:51:14.000Z</updated>
+        <summary type="html"><![CDATA[High Vulnerabilities
+Primary
+Vendor -- Product
+Description
+Published
+CVSS Score
+Source & Patch Info
+
+
+
+
+2code -- wpqa_builder
+ 
+The WPQA Builder WordPress plugin before 6.1.1 does not have CSRF checks in some places, which could allow attackers to make logged in users perform unwanted actions via CSRF attacks
+2024-07-03
+8.8
+CVE-2024-2376
+contact@wpscan.com
+
+
+ABB--ASPECT Enterprise (ASP-ENT-x)
+ 
+Default credential in install package in ABB ASPECT; NEXUS Series; MATRIX Series version 3.07 allows attacker to login to product instances wrongly configured.
+2024-07-01
+8.8
+CVE-2024-4007
+cybersecurity@ch.abb.com
+
+
+Adobe--Acrobat for Edge
+ 
+Acrobat for Edge versions 126.0.2592.68 and earlier are affected by an out-of-bounds read vulnerability when parsing a crafted file, which could result in a rea…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supreme Court Ruling Threatens the Framework of Cybersecurity Regulation]]></title>
+        <id>https://www.securityweek.com/?p=38559</id>
+        <link href="https://www.securityweek.com/supreme-court-ruling-threatens-the-framework-of-cybersecurity-regulation/"/>
+        <updated>2024-07-08T12:47:52.000Z</updated>
+        <summary type="html"><![CDATA[The Supreme Court's striking down of the Chevron Doctrine will have a major effect on the determination and enforcement of cyber regulation in the US.
+The post Supreme Court Ruling Threatens the Framework of Cybersecurity Regulation appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Former Nuance Employee Arrested After Geisinger Data Breach Exposed 1.2 Million Records]]></title>
+        <id>https://www.securityweek.com/?p=38558</id>
+        <link href="https://www.securityweek.com/former-nuance-employee-arrested-after-geisinger-data-breach-exposed-1-2-million-records/"/>
+        <updated>2024-07-08T12:07:56.000Z</updated>
+        <summary type="html"><![CDATA[A class action lawsuit was filed against Geisinger for failing to properly secure patients’ personal and health information.
+The post Former Nuance Employee Arrested After Geisinger Data Breach Exposed 1.2 Million Records appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA and Partners join ASD’S ACSC to Release Advisory on PRC State-Sponsored Group, APT 40]]></title>
+        <id>/node/21730</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/07/08/cisa-and-partners-join-asds-acsc-release-advisory-prc-state-sponsored-group-apt-40"/>
+        <updated>2024-07-08T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has collaborated with the Australian Signals Directorate’s Australian Cyber Security Centre (ASD's ACSC) to release an advisory, People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action outlining a PRC state-sponsored cyber group’s activity. The following organizations also collaborated with ASD's ACSC on the guidance:
+The National Security Agency (NSA);
+The Federal Bureau of Investigation (FBI);
+The United Kingdom’s National Cyber Security Centre (NCSC-UK);
+The Canadian Centre for Cyber Security (CCCS);
+The New Zealand National Cyber Security Centre (NCSC-NZ);
+The German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV);
+The Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Se…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6884-1: Nova vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6884-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6884-1"/>
+        <updated>2024-07-08T11:59:21.000Z</updated>
+        <summary type="html"><![CDATA[Martin Kaesberger discovered that Nova incorrectly handled QCOW2 image
+processing. An authenticated user could use this issue to access arbitrary
+files on the server, possibly exposing sensitive information.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6883-1: OpenStack Glance vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6883-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6883-1"/>
+        <updated>2024-07-08T11:55:01.000Z</updated>
+        <summary type="html"><![CDATA[Martin Kaesberger discovered that Glance incorrectly handled QCOW2 image
+processing. An authenticated user could use this issue to access arbitrary
+files on the server, possibly exposing sensitive information.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6882-1: Cinder vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6882-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6882-1"/>
+        <updated>2024-07-08T11:49:10.000Z</updated>
+        <summary type="html"><![CDATA[Martin Kaesberger discovered that Cinder incorrectly handled QCOW2 image
+processing. An authenticated user could use this issue to access arbitrary
+files on the server, possibly exposing sensitive information.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Attackers Exploiting Remote Code Execution Vulnerability in Ghostscript]]></title>
+        <id>https://www.securityweek.com/?p=38557</id>
+        <link href="https://www.securityweek.com/attackers-exploiting-remote-code-execution-vulnerability-in-ghostscript/"/>
+        <updated>2024-07-08T11:00:16.000Z</updated>
+        <summary type="html"><![CDATA[Vulnerability in Ghostscript (CVE-2024-29510) allows attackers to bypass sandbox for remote code execution.
+The post Attackers Exploiting Remote Code Execution Vulnerability in Ghostscript appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Key Questions CISOs Must Ask Themselves About Their Cybersecurity Strategy]]></title>
+        <id>https://thehackernews.com/2024/07/5-key-questions-cisos-must-ask.html</id>
+        <link href="https://thehackernews.com/2024/07/5-key-questions-cisos-must-ask.html"/>
+        <updated>2024-07-08T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Events like the recent massive CDK ransomware attack – which shuttered car dealerships across the U.S. in late June 2024 – barely raise public eyebrows anymore. 
+Yet businesses, and the people that lead them, are justifiably jittery. Every CISO knows that cybersecurity is an increasingly hot topic for executives and board members alike. And when the inevitable CISO/Board briefing rolls]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudy with a Chance of Cyberattack: Understanding LOTC Attacks and How ZTNA Can Prevent Them]]></title>
+        <id>https://www.securityweek.com/?p=38556</id>
+        <link href="https://www.securityweek.com/cloudy-with-a-chance-of-cyberattack-understanding-lotc-attacks-and-how-ztna-can-prevent-them/"/>
+        <updated>2024-07-08T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With Living Off the Cloud (LOTC) attacks, hackers abuse APIs of trusted cloud services to remotely control botnets but also to make malicious traffic appear as trusted cloud traffic.
+The post Cloudy with a Chance of Cyberattack: Understanding LOTC Attacks and How ZTNA Can Prevent Them appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Etay Maor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Experts Warn of Mekotio Banking Trojan Targeting Latin American Countries]]></title>
+        <id>https://thehackernews.com/2024/07/experts-warn-of-mekotio-banking-trojan.html</id>
+        <link href="https://thehackernews.com/2024/07/experts-warn-of-mekotio-banking-trojan.html"/>
+        <updated>2024-07-08T09:53:00.000Z</updated>
+        <summary type="html"><![CDATA[Financial institutions in Latin America are being threatened by a banking trojan called Mekotio (aka Melcoz).
+That's according to findings from Trend Micro, which said it recently observed a surge in cyber attacks distributing the Windows malware.
+Mekotio, known to be actively put to use since 2015, is known to target Latin American countries like Brazil, Chile, Mexico, Spain, Peru, and Portugal]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Unpatched Flaws Disclosed in Popular Gogs Open-Source Git Service]]></title>
+        <id>https://thehackernews.com/2024/07/critical-vulnerabilities-disclosed-in.html</id>
+        <link href="https://thehackernews.com/2024/07/critical-vulnerabilities-disclosed-in.html"/>
+        <updated>2024-07-08T06:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Four unpatched security flaws, including three critical ones, have been disclosed in the Gogs open-source, self-hosted Git service that could enable an authenticated attacker to breach susceptible instances, steal or wipe source code, and even plant backdoors.
+The vulnerabilities, according to SonarSource researchers Thomas Chauchefoin and Paul Gerste, are listed below -
+
+CVE-2024-39930 (CVSS]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Removes VPN Apps from Russian App Store Amid Government Pressure]]></title>
+        <id>https://thehackernews.com/2024/07/apple-removes-vpn-apps-from-russian-app.html</id>
+        <link href="https://thehackernews.com/2024/07/apple-removes-vpn-apps-from-russian-app.html"/>
+        <updated>2024-07-08T06:28:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple removed a number of virtual private network (VPN) apps in Russia from its App Store on July 4, 2024, following a request by Russia's state communications watchdog Roskomnadzor, Russian news media reported.
+This includes the mobile apps of 25 VPN service providers, including ProtonVPN, Red Shield VPN, NordVPN and Le VPN, according to MediaZona. It's worth noting that NordVPN previously shut]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Russian-Linked Cybercampaigns put a Bull’s-Eye on France. Their Focus? The Olympics and Elections]]></title>
         <id>https://www.securityweek.com/?p=38555</id>
