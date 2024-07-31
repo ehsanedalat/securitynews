@@ -2,10 +2,428 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-07-30T01:18:18.943Z</updated>
+    <updated>2024-07-31T01:05:05.518Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Criminal Hackers Add GenAI Credentials to Underground Markets]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/criminal-hackers-add-genai-credentials-to-underground-markets</id>
+        <link href="https://www.darkreading.com/threat-intelligence/criminal-hackers-add-genai-credentials-to-underground-markets"/>
+        <updated>2024-07-30T20:42:59.000Z</updated>
+        <summary type="html"><![CDATA[According to the study, around 400 stolen GenAI credentials are being sold by threat actors per day.]]></summary>
+        <author>
+            <name>Dark Reading Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ransomware Gangs Exploit ESXi Bug for Instant, Mass Encryption of VMs]]></title>
+        <id>https://www.darkreading.com/cloud-security/ransomware-gangs-exploit-esxi-bug-for-instant-mass-encryption-of-vms</id>
+        <link href="https://www.darkreading.com/cloud-security/ransomware-gangs-exploit-esxi-bug-for-instant-mass-encryption-of-vms"/>
+        <updated>2024-07-30T20:07:08.000Z</updated>
+        <summary type="html"><![CDATA[With sufficient privileges in Active Directory, attackers only have to create an "ESX Admins" group in the targeted domain and add a user to it.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#244112: Multiple SMTP services are susceptible to spoofing attacks due to insufficient enforcement]]></title>
+        <id>https://kb.cert.org/vuls/id/244112</id>
+        <link href="https://kb.cert.org/vuls/id/244112"/>
+        <updated>2024-07-30T16:33:38.100Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Multiple hosted, outbound SMTP servers are vulnerable to email impersonation. This allows authenticated users and certain trusted networks to send emails containing spoofed sender information. Two vulnerabilities were identified that reduce the authentication and verification of the sender, provided by the combination of Sender Policy Framework (SPF) and Domain Key Identified Mail (<a href="https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/">DKIM</a>). Domain-based Message Authentication, Reporting, and Conformance (<a href="https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/">DMARC</a>) builds on <a href="https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/">SPF</a> and DKIM, adding linkage to the author (FROM:) domain name, published policies for recipient handling of authentication failures, and reporting from receivers to senders to improve and monitor protection of the domain from fraudulent email (DMARC.org). An authenticated remote attacker can spoof the identity of a sender when sending emails using a hosted service provider.  </p>
+<h3 id="description">Description</h3>
+<p>As identified in <a href="https://www.rfc-editor.org/rfc/rfc5321.html#section-7.1">RFC 5321 #7.1</a>, the SMTP protocol is inherently insecure and susceptible to spoofing the sender identity that is present in the various parts of the SMTP transaction. Various facilities, such as SPF and DKIM, continued to evolve to address these issues. SPF records identify the IP networks that are allowed to send email on behalf of a domain. Receiving servers can check SPF records to verify that incoming messages that appear to be from an organization are sent by permitted (allowed) networks. DKIM goes further in email security by providing a digital signature that verifies specific portions of the SMTP-relayed message, allowing to digitally assert specific information that is part of a message such as the FROM: address, subject, and date fields. While SPF verifies the network source of an email transaction, DKIM looks into an email message to prevent message tampering. DMARC is an email authentication, policy, and reporting protocol that builds on the widely deployed SPF and DKIM protocols. As a useful combination of these two capabilities, DMARC helps both email senders and receivers work together to better secure emails, protecting users and brands from costly abuse.  </p>
+<p>A set of vulnerabilities were discovered by researchers in the practical usage of these capabilities exposing the potential abuse of sender trust in email communications. Many of the hosted, email services provide hosting for multiple domains and use a wide range of network resources to deliver emails from their domain addresses. The hosting service providers typically provide a way to authenticate before allowing emails to be sent on behalf of the sender. However, due to the nature of their shared hosting, many of them do not verify the authenticated sender against their allowed domain identities. Hosting providers who have published SPF records, and, in some cases, also add DKIM signatures, do not sufficiently verify the trust relationship of authenticated user against the allowed domains.  This allows an authenticated attacker to spoof an identity in the email Message Header to send emails as anyone in the hosted domains of the hosting provider, while authenticated as a user of a different domain name.  </p>
+<p>Any remote email receiving services may incorrectly identify the sender’s identity as it passes the cursory check of DMARC policy adherence. The DMARC policy is thus circumvented, allowing spoofed messages to be seen as an attested and a valid message. </p>
+<p><strong> CVE-2024-7208</strong> 
+A vulnerability in hosted email services allows an authenticated sender to spoof the identity of a shared, hosted domain, thus bypass security measures provided by DMARC (or SPF or DKIM) policies.  </p>
+<p><strong> CVE-2024-7209</strong> 
+A vulnerability exists in the use of shared SPF records in multi-tenant hosting providers, allowing attackers to use network authorization to be abused to spoof the email identify of the sender. </p>
+<h3 id="impact">Impact</h3>
+<p>An authenticated attacker using network or SMTP authentication can spoof the identity of a shared hosting facility, circumventing any DMARC policy and sender verification provided by a domain name owner.  </p>
+<h3 id="solution">Solution</h3>
+<h4 id="hosting-providers">Hosting providers</h4>
+<p>Domain hosting providers that provide email relay should verify the identity of an authenticated sender against authorized domain identities. The email service providers should use reliable ways to verify that the network sender identity (MAIL FROM) and the Message Header (FROM:) are the same or related. As much as SMTP software does not verify the Message Header with the network sender, identity mail filter software, such as (Milter) <a href="https://github.com/magcks/milterfrom">Milterfrom</a>, may provide ways to enforce such requirements.  </p>
+<h4 id="domain-owners">Domain owners</h4>
+<p>Domain owners should use strict measures to ensure their domain, DNS-based DMARC policy (DKIM and SPF) protects their sender identity and their users and brands from abuse caused by spoofing. If a domain is expected to provide high assurance of identity, the domain owner should use their own DKIM facility, independent of the hosting provider, to reduce the risk of spoofing attacks. </p>
+<h4 id="email-senders">Email Senders</h4>
+<p>Email senders that require high fidelity of their identity can use facilities such as S/MIME and PGP, as suggested in <a href="https://www.rfc-editor.org/rfc/rfc5321.html#section-7.1">RFC 5321 #7.1</a>.  </p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporters, Caleb Sargent and Hao Wang, for raising awareness of these vulnerabilities. This document was written by Dr. Elke Drennan, Vijay Sarvepalli, and Timur Snoke.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Cloud CISO Phil Venables: ‘I’m short-term pessimistic, long-term optimistic’]]></title>
+        <id>https://www.securityweek.com/?p=38787</id>
+        <link href="https://www.securityweek.com/google-cloud-ciso-phil-venables-im-short-term-pessimistic-long-term-optimistic/"/>
+        <updated>2024-07-30T14:50:57.000Z</updated>
+        <summary type="html"><![CDATA[SecurityWeek fireside chat: Google Cloud  CISO on CISA’s secure-by-design initiatives, government regulations, holding vendors accountable, and transformational security leadership.
+The post Google Cloud CISO Phil Venables: ‘I’m short-term pessimistic, long-term optimistic’ appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The CrowdStrike Meltdown: A Wake-up Call for Cybersecurity]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/crowdstrike-meltdown-wake-up-call-for-cybersecurity</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/crowdstrike-meltdown-wake-up-call-for-cybersecurity"/>
+        <updated>2024-07-30T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The incident serves as a stark reminder of the fragility of our digital infrastructure. By adopting a diversified, resilient approach to cybersecurity, we can mitigate the risks and build a more secure digital future.]]></summary>
+        <author>
+            <name>Arun Vishwanath</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Indian APT Targeting Mediterranean Ports and Maritime Facilities]]></title>
+        <id>https://www.securityweek.com/?p=38838</id>
+        <link href="https://www.securityweek.com/indian-apt-targeting-mediterranean-ports-and-maritime-facilities/"/>
+        <updated>2024-07-30T13:55:18.000Z</updated>
+        <summary type="html"><![CDATA[The SideWinder APT has been targeting ports and maritime facilities in the Indian Ocean and Mediterranean Sea in recent attacks.
+The post Indian APT Targeting Mediterranean Ports and Maritime Facilities appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cyberattackers Accessed HealthEquity Customer Info via Third Party]]></title>
+        <id>https://www.darkreading.com/cloud-security/cyberattackers-accessed-healthequity-customer-info-third-party</id>
+        <link href="https://www.darkreading.com/cloud-security/cyberattackers-accessed-healthequity-customer-info-third-party"/>
+        <updated>2024-07-30T13:53:03.000Z</updated>
+        <summary type="html"><![CDATA[Data thieves heisted the HSA provider's data repository for 4.5 million people's HR information, including employer and dependents intel.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6928-1: Python vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6928-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6928-1"/>
+        <updated>2024-07-30T13:20:37.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the Python ssl module contained a memory race
+condition when handling the APIs to obtain the CA certificates and
+certificate store statistics. This could possibly result in applications
+obtaining wrong results, leading to various SSL issues. (CVE-2024-0397)
+
+It was discovered that the Python ipaddress module contained incorrect
+information about which IP address ranges were considered "private" or
+"globally reachable". This could possibly result in applications applying
+incorrect security policies. (CVE-2024-4032)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI, Cybersecurity Top Investment Areas for Industrial Organizations: Cisco]]></title>
+        <id>https://www.securityweek.com/?p=38832</id>
+        <link href="https://www.securityweek.com/ai-cybersecurity-top-investment-areas-for-industrial-organizations-cisco/"/>
+        <updated>2024-07-30T13:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Cisco has published its inaugural State of Industrial Networking report, based on a survey of 1,000 individuals.
+The post AI, Cybersecurity Top Investment Areas for Industrial Organizations: Cisco appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Mandrake Spyware Found in Google Play Store Apps After Two Years]]></title>
+        <id>https://thehackernews.com/2024/07/new-mandrake-spyware-found-in-google.html</id>
+        <link href="https://thehackernews.com/2024/07/new-mandrake-spyware-found-in-google.html"/>
+        <updated>2024-07-30T13:04:00.000Z</updated>
+        <summary type="html"><![CDATA[A new iteration of a sophisticated Android spyware called Mandrake has been discovered in five applications that were available for download from the Google Play Store and remained undetected for two years.
+The applications attracted a total of more than 32,000 installations before being pulled from the app storefront, Kaspersky said in a Monday write-up. A majority of the downloads originated]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Software Supply Chain Security Firm Lineaje Raises $20M in Series A Funding]]></title>
+        <id>https://www.securityweek.com/?p=38828</id>
+        <link href="https://www.securityweek.com/software-supply-chain-security-firm-lineaje-raises-20m-in-series-a-funding/"/>
+        <updated>2024-07-30T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Software supply chain security startup Lineaje has raised $20 million in a Series A funding round that brings the total to $27 million. 
+The post Software Supply Chain Security Firm Lineaje Raises $20M in Series A Funding appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6924-2: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6924-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-6924-2"/>
+        <updated>2024-07-30T12:04:43.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - ARM SCMI message protocol;
+  - InfiniBand drivers;
+  - TTY drivers;
+  - TLS protocol;
+(CVE-2022-48655, CVE-2024-36016, CVE-2024-26584, CVE-2021-47131,
+CVE-2024-26907, CVE-2024-26585, CVE-2024-26583)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Releases Security Updates for Multiple Products]]></title>
+        <id>/node/21868</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/07/30/apple-releases-security-updates-multiple-products"/>
+        <updated>2024-07-30T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple released security updates to address vulnerabilities in Safari, iOS, iPadOS, macOS, watchOS, tvOS, and visionOS. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system. 
+CISA encourages users and administrators to review the following advisories and apply necessary updates: 
+Safari 17.6
+iOS 17.6 and iPadOS 17.6
+iOS 16.7.9 and iPadOS 16.7.9
+macOS Sonoma 14.6
+macOS Ventura 13.6.8
+macOS Monterey 12.7.6
+watchOS 10.6
+tvOS 17.6
+visionOS 1.3]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DigiCert Certificate Revocations]]></title>
+        <id>/node/21876</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/07/30/digicert-certificate-revocations"/>
+        <updated>2024-07-30T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[DigiCert, a certificate authority (CA) organization, is revoking a subset of transport layer security (TLS) certificates due to a non-compliance issue with domain control verification (DCV). Revocation of these certificates may cause temporary disruptions to websites, services, and applications relying on these certificates for secure communication. DigiCert has notified affected customers and provided instructions on how to replace non-compliant certificates.
+CISA urges DigiCert customers to check their DigiCert account to view any non-compliant certificates and reissue/rekey certificates. See DigiCert’s Revocation Incident Notice for customer instructions and more information.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
+        <id>/node/21862</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/07/30/cisa-adds-one-known-exploited-vulnerability-catalog"/>
+        <updated>2024-07-30T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2024-37085 VMware ESXi Authentication Bypass Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6927-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6927-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6927-1"/>
+        <updated>2024-07-30T11:26:31.000Z</updated>
+        <summary type="html"><![CDATA[Ziming Zhang discovered that the DRM driver for VMware Virtual GPU did not
+properly handle certain error conditions, leading to a NULL pointer
+dereference. A local attacker could possibly trigger this vulnerability to
+cause a denial of service. (CVE-2022-38096)
+
+Gui-Dong Han discovered that the software RAID driver in the Linux kernel
+contained a race condition, leading to an integer overflow vulnerability. A
+privileged attacker could possibly use this to cause a denial of service
+(system crash). (CVE-2024-23307)
+
+It was discovered that a race condition existed in the Bluetooth subsystem
+in the Linux kernel when modifying certain settings values through debugfs.
+A privileged local attacker could use this to cause a denial of service.
+(CVE-2024-24857, CVE-2024-24858, CVE-2024-24859)
+
+Bai Ji…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Power and Peril of RMM Tools]]></title>
+        <id>https://thehackernews.com/2024/07/the-power-and-peril-of-rmm-tools.html</id>
+        <link href="https://thehackernews.com/2024/07/the-power-and-peril-of-rmm-tools.html"/>
+        <updated>2024-07-30T11:26:00.000Z</updated>
+        <summary type="html"><![CDATA[As more people work remotely, IT departments must manage devices distributed over different cities and countries relying on VPNs and remote monitoring and management (RMM) tools for system administration. 
+However, like any new technology, RMM tools can also be used maliciously. Threat actors can establish connections to a victim's device and run commands, exfiltrate data, and stay]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Providing Security Updates to Automobile Software]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/07/providing-security-updates-to-automobile-software.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/07/providing-security-updates-to-automobile-software.html"/>
+        <updated>2024-07-30T11:07:05.000Z</updated>
+        <summary type="html"><![CDATA[<p>Auto manufacturers are <a href="https://www.wired.com/story/cars-are-now-rolling-computers-so-how-long-will-they-get-updates-automakers-cant-say/">just starting to realize</a> the problems of supporting the software in older models:</p>
+<blockquote><p>Today’s phones are able to receive updates six to eight years after their purchase date. Samsung and Google provide Android OS updates and security updates for seven years. Apple <a href="https://support.apple.com/en-us/102772">halts servicing</a> products seven years after they stop selling them.</p>
+<p>That might not cut it in the auto world, where the average age of cars on US roads is only going up. A <a href="https://www.spglobal.com/mobility/en/research-analysis/average-age-vehicles-united-states-2024.html">recent report</a> found that cars and trucks just reached a new record average age of 12.6 years, up two months from 2023. That means the car software hitting the road today needs to work­&#8212;and maybe even improve&#8212;­beyond 2036. The average length of smartphone ownership is just ...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybercriminals Target Polish Businesses with Agent Tesla and Formbook Malware]]></title>
+        <id>https://thehackernews.com/2024/07/cybercriminals-target-polish-businesses.html</id>
+        <link href="https://thehackernews.com/2024/07/cybercriminals-target-polish-businesses.html"/>
+        <updated>2024-07-30T11:06:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have detailed widespread phishing campaigns targeting small and medium-sized businesses (SMBs) in Poland during May 2024 that led to the deployment of several malware families like Agent Tesla, Formbook, and Remcos RAT.
+Some of the other regions targeted by the campaigns include Italy and Romania, according to cybersecurity firm ESET.
+"Attackers used previously]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6923-2: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6923-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-6923-2"/>
+        <updated>2024-07-30T10:59:46.000Z</updated>
+        <summary type="html"><![CDATA[Benedict Schlüter, Supraja Sridhara, Andrin Bertschi, and Shweta Shinde
+discovered that an untrusted hypervisor could inject malicious #VC
+interrupts and compromise the security guarantees of AMD SEV-SNP. This flaw
+is known as WeSee. A local attacker in control of the hypervisor could use
+this to expose sensitive information or possibly execute arbitrary code in
+the trusted execution environment. (CVE-2024-25742)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - TTY drivers;
+  - SMB network file system;
+  - Netfilter;
+  - Bluetooth subsystem;
+(CVE-2024-26886, CVE-2023-52752, CVE-2024-36016, CVE-2024-26952,
+CVE-2024-27017)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cyber Threat Intelligence: Illuminating the Deep, Dark Cybercriminal Underground]]></title>
+        <id>https://thehackernews.com/2024/07/cyber-threat-intelligence-illuminating.html</id>
+        <link href="https://thehackernews.com/2024/07/cyber-threat-intelligence-illuminating.html"/>
+        <updated>2024-07-30T10:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn about critical threats that can impact your organization and the bad actors behind them from Cybersixgill’s threat experts. Each story shines a light on underground activities, the threat actors involved, and why you should care, along with what you can do to mitigate risk. 
+The deep and dark web, otherwise known as the cybercriminal underground, is where malicious actors gather to]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6921-2: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6921-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-6921-2"/>
+        <updated>2024-07-30T10:33:56.000Z</updated>
+        <summary type="html"><![CDATA[Benedict Schlüter, Supraja Sridhara, Andrin Bertschi, and Shweta Shinde
+discovered that an untrusted hypervisor could inject malicious #VC
+interrupts and compromise the security guarantees of AMD SEV-SNP. This flaw
+is known as WeSee. A local attacker in control of the hypervisor could use
+this to expose sensitive information or possibly execute arbitrary code in
+the trusted execution environment. (CVE-2024-25742)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - DMA engine subsystem;
+  - HID subsystem;
+  - I2C subsystem;
+  - PHY drivers;
+  - TTY drivers;
+  - IPv4 networking;
+(CVE-2024-35997, CVE-2024-36016, CVE-2024-35990, CVE-2024-35984,
+CVE-2024-35992, CVE-2024-36008)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cyber Insurance Provider Cowbell Raises $60 Million]]></title>
+        <id>https://www.securityweek.com/?p=38836</id>
+        <link href="https://www.securityweek.com/cyber-insurance-provider-cowbell-raises-60-million/"/>
+        <updated>2024-07-30T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Zurich Insurance Group has invested $60 million in cyber insurance firm Cowbell to help it scale operations and deliver new products.
+The post Cyber Insurance Provider Cowbell Raises $60 Million appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thousands Download New Mandrake Android Spyware Version From Google Play]]></title>
+        <id>https://www.securityweek.com/?p=38835</id>
+        <link href="https://www.securityweek.com/thousands-download-new-mandrake-android-spyware-version-from-google-play/"/>
+        <updated>2024-07-30T09:12:16.000Z</updated>
+        <summary type="html"><![CDATA[Five Android applications containing the Mandrake spyware have been downloaded over 32,000 times from Google Play since 2022.
+The post Thousands Download New Mandrake Android Spyware Version From Google Play appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Rolls Out Security Updates for iOS, macOS]]></title>
+        <id>https://www.securityweek.com/?p=38831</id>
+        <link href="https://www.securityweek.com/apple-rolls-out-security-updates-for-ios-macos/"/>
+        <updated>2024-07-30T08:28:52.000Z</updated>
+        <summary type="html"><![CDATA[Apple has released security patches for dozens of vulnerabilities in iOS, macOS, tvOS, visionOS, watchOS, and Safari.
+The post Apple Rolls Out Security Updates for iOS, macOS appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New SideWinder Cyber Attacks Target Maritime Facilities in Multiple Countries]]></title>
+        <id>https://thehackernews.com/2024/07/new-sidewinder-cyber-attacks-target.html</id>
+        <link href="https://thehackernews.com/2024/07/new-sidewinder-cyber-attacks-target.html"/>
+        <updated>2024-07-30T07:32:00.000Z</updated>
+        <summary type="html"><![CDATA[The nation-state threat actor known as SideWinder has been attributed to a new cyber espionage campaign targeting ports and maritime facilities in the Indian Ocean and Mediterranean Sea.
+The BlackBerry Research and Intelligence Team, which discovered the activity, said targets of the spear-phishing campaign include countries like Pakistan, Egypt, Sri Lanka, Bangladesh, Myanmar, Nepal, and the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ZeroTier Raises $13.5 Million in Series A Funding]]></title>
+        <id>https://www.securityweek.com/?p=38829</id>
+        <link href="https://www.securityweek.com/zerotier-raises-13-5-million-in-series-a-funding/"/>
+        <updated>2024-07-30T06:45:38.000Z</updated>
+        <summary type="html"><![CDATA[Virtual networking provider ZeroTier has raised $13.5 million in a Series A funding round led by Battery Ventures.
+The post ZeroTier Raises $13.5 Million in Series A Funding appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OneDrive Phishing Scam Tricks Users into Running Malicious PowerShell Script]]></title>
+        <id>https://thehackernews.com/2024/07/onedrive-phishing-scam-tricks-users.html</id>
+        <link href="https://thehackernews.com/2024/07/onedrive-phishing-scam-tricks-users.html"/>
+        <updated>2024-07-30T06:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers are warning about a new phishing campaign that targets Microsoft OneDrive users with the aim of executing a malicious PowerShell script.
+"This campaign heavily relies on social engineering tactics to deceive users into executing a PowerShell script, thereby compromising their systems," Trellix security researcher Rafael Pena said in a Monday analysis.
+The cybersecurity]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VMware ESXi Flaw Exploited by Ransomware Groups for Admin Access]]></title>
+        <id>https://thehackernews.com/2024/07/vmware-esxi-flaw-exploited-by.html</id>
+        <link href="https://thehackernews.com/2024/07/vmware-esxi-flaw-exploited-by.html"/>
+        <updated>2024-07-30T04:20:00.000Z</updated>
+        <summary type="html"><![CDATA[A recently patched security flaw impacting VMware ESXi hypervisors has been actively exploited by "several" ransomware groups to gain elevated permissions and deploy file-encrypting malware.
+The attacks involve the exploitation of CVE-2024-37085 (CVSS score: 6.8), an Active Directory integration authentication bypass that allows an attacker to obtain administrative access to the host.
+"A]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVD Backlog Continues to Grow]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/nvd-backlog-continues-to-grow</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/nvd-backlog-continues-to-grow"/>
+        <updated>2024-07-29T21:55:38.000Z</updated>
+        <summary type="html"><![CDATA[Despite getting help, NIST is not keeping up with new vulnerability reports for the National Vulnerabilities Database, according to an analysis from Fortress Information Security.]]></summary>
+        <author>
+            <name>Edge Editors</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cowbell Secures $60 Million Series C Funding From Zurich Insurance Group]]></title>
         <id>https://www.darkreading.com/cybersecurity-operations/cowbell-secures-60-million-series-c-funding-from-zurich-insurance-group</id>
@@ -7924,153 +8342,6 @@ The post Landmark Admin Discloses Data Breach Impacting Personal, Medical Inform
 The post Google Offering $250,000 for Full VM Escape in New KVM Bug Bounty Program appeared first on SecurityWeek.]]></summary>
         <author>
             <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CapraRAT Spyware Disguised as Popular Apps Threatens Android Users]]></title>
-        <id>https://thehackernews.com/2024/07/caprarat-spyware-disguised-as-popular.html</id>
-        <link href="https://thehackernews.com/2024/07/caprarat-spyware-disguised-as-popular.html"/>
-        <updated>2024-07-01T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The threat actor known as Transparent Tribe has continued to unleash malware-laced Android apps as part of a social engineering campaign to target individuals of interest.
-"These APKs continue the group's trend of embedding spyware into curated video browsing applications, with a new expansion targeting mobile gamers, weapons enthusiasts, and TikTok fans," SentinelOne security researcher Alex]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Indian Software Firm's Products Hacked to Spread Data-Stealing Malware]]></title>
-        <id>https://thehackernews.com/2024/07/indian-software-firms-products-hacked.html</id>
-        <link href="https://thehackernews.com/2024/07/indian-software-firms-products-hacked.html"/>
-        <updated>2024-07-01T12:44:00.000Z</updated>
-        <summary type="html"><![CDATA[Installers for three different software products developed by an Indian company named Conceptworld have been trojanized to distribute information-stealing malware.
-The installers correspond to Notezilla, RecentX, and Copywhiz, according to cybersecurity firm Rapid7, which discovered the supply chain compromise on June 18, 2024. The issue has since been remediated by Conceptworld as of June 24]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hackers Target Vulnerability Found Recently in Long-Discontinued D-Link Routers]]></title>
-        <id>https://www.securityweek.com/?p=38493</id>
-        <link href="https://www.securityweek.com/hackers-target-vulnerability-found-recently-in-long-discontinued-d-link-routers/"/>
-        <updated>2024-07-01T11:53:22.000Z</updated>
-        <summary type="html"><![CDATA[GreyNoise observes the first attempts to exploit a path traversal vulnerability in discontinued D-Link DIR-859 WiFi routers.
-The post Hackers Target Vulnerability Found Recently in Long-Discontinued D-Link Routers appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Millions of OpenSSH Servers Potentially Vulnerable to Remote regreSSHion Attack]]></title>
-        <id>https://www.securityweek.com/?p=38491</id>
-        <link href="https://www.securityweek.com/millions-of-openssh-servers-potentially-vulnerable-to-remote-regresshion-attack/"/>
-        <updated>2024-07-01T11:20:59.000Z</updated>
-        <summary type="html"><![CDATA[Millions of OpenSSH servers could be vulnerable to unauthenticated remote code execution due to a vulnerability tracked as regreSSHion and CVE-2024-6387.
-The post Millions of OpenSSH Servers Potentially Vulnerable to Remote regreSSHion Attack appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Model Extraction from Neural Networks]]></title>
-        <id>https://www.schneier.com/blog/archives/2024/07/model-extraction-from-neural-networks.html</id>
-        <link href="https://www.schneier.com/blog/archives/2024/07/model-extraction-from-neural-networks.html"/>
-        <updated>2024-07-01T11:05:25.000Z</updated>
-        <summary type="html"><![CDATA[<p>A <a href="https://eprint.iacr.org/2023/1526">new paper</a>, &#8220;Polynomial Time Cryptanalytic Extraction of Neural Network Models,&#8221; by Adi Shamir and others, uses ideas from differential cryptanalysis to extract the weights inside a neural network using specific queries and their results. This is much more theoretical than practical, but it&#8217;s a really interesting result.</p>
-<blockquote><p><b>Abstract:</b></p>
-<p>Billions of dollars and countless GPU hours are currently spent on training Deep Neural Networks (DNNs) for a variety of tasks. Thus, it is essential to determine the difficulty of extracting all the parameters of such neural networks when given access to their black-box implementations. Many versions of this problem have been studied over the last 30 years, and the best current attack on ReLU-based deep neural networks was presented at Crypto’20 by Carlini, Jagielski, and Mironov. It resembles a differential chosen plaintext attack on a cryptosystem, which has a secret key embedded in its black-box implementation and requires a polynomial number of queries but an exponential amount of time (as a function of the number of neurons). In this paper, we improve this attack by developing several new techniques that enable us to extract with arbitrarily high precision all the real-valued parameters of a ReLU-based DNN using a polynomial number of queries and a polynomial amount of time. We demonstrate its practical efficiency by applying it to a full-sized neural network for classifying the CIFAR10 dataset, which has 3072 inputs, 8 hidden layers with 256 neurons each, and about 1.2 million neuronal parameters. An attack following the approach by Carlini et al. requires an exhaustive search over 2^256 possibilities. Our attack replaces this with our new techniques, which require only 30 minutes on a 256-core computer...</p></blockquote>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[End-to-End Secrets Security: Making a Plan to Secure Your Machine Identities]]></title>
-        <id>https://thehackernews.com/2024/07/end-to-end-secrets-security-making-plan.html</id>
-        <link href="https://thehackernews.com/2024/07/end-to-end-secrets-security-making-plan.html"/>
-        <updated>2024-07-01T10:51:00.000Z</updated>
-        <summary type="html"><![CDATA[At the heart of every application are secrets. Credentials that allow human-to-machine and machine-to-machine communication. Machine identities outnumber human identities by a factor of 45-to-1 and represent the majority of secrets we need to worry about. According to CyberArk's recent research, 93% of organizations had two or more identity-related breaches in the past year. It is clear that we]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New OpenSSH Vulnerability Could Lead to RCE as Root on Linux Systems]]></title>
-        <id>https://thehackernews.com/2024/07/new-openssh-vulnerability-could-lead-to.html</id>
-        <link href="https://thehackernews.com/2024/07/new-openssh-vulnerability-could-lead-to.html"/>
-        <updated>2024-07-01T10:50:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenSSH maintainers have released security updates to contain a critical security flaw that could result in unauthenticated remote code execution with root privileges in glibc-based Linux systems.
-The vulnerability, codenamed regreSSHion, has been assigned the CVE identifier CVE-2024-6387. It resides in the OpenSSH server component, also known as sshd, which is designed to listen for connections]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Juniper Networks Warns of Critical Authentication Bypass Vulnerability]]></title>
-        <id>https://www.securityweek.com/?p=38490</id>
-        <link href="https://www.securityweek.com/juniper-networks-warns-of-critical-authentication-bypass-vulnerability/"/>
-        <updated>2024-07-01T10:06:19.000Z</updated>
-        <summary type="html"><![CDATA[Juniper Networks warns of a critical authentication bypass flaw impacting Session Smart routers and conductors.
-The post Juniper Networks Warns of Critical Authentication Bypass Vulnerability appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Prudential Financial Data Breach Impacts 2.5 Million]]></title>
-        <id>https://www.securityweek.com/?p=38489</id>
-        <link href="https://www.securityweek.com/prudential-financial-data-breach-impacts-2-5-million/"/>
-        <updated>2024-07-01T09:58:53.000Z</updated>
-        <summary type="html"><![CDATA[Prudential Financial has updated the February data breach impact estimate to 2.5 million individuals.
-The post Prudential Financial Data Breach Impacts 2.5 Million appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-6859-1: OpenSSH vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-6859-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-6859-1"/>
-        <updated>2024-07-01T09:06:31.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that OpenSSH incorrectly handled signal management. A
-remote attacker could use this issue to bypass authentication and remotely
-access systems without proper credentials.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TeamViewer Hack Officially Attributed to Russian Cyberspies]]></title>
-        <id>https://www.securityweek.com/?p=38487</id>
-        <link href="https://www.securityweek.com/teamviewer-hack-officially-attributed-to-russian-cyberspies/"/>
-        <updated>2024-07-01T07:32:38.000Z</updated>
-        <summary type="html"><![CDATA[TeamViewer has confirmed that the Russian cyberespionage group APT29 appears to be behind the recent hack.
-The post TeamViewer Hack Officially Attributed to Russian Cyberspies appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Juniper Networks Releases Critical Security Update for Routers]]></title>
-        <id>https://thehackernews.com/2024/07/juniper-networks-releases-critical.html</id>
-        <link href="https://thehackernews.com/2024/07/juniper-networks-releases-critical.html"/>
-        <updated>2024-07-01T06:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Juniper Networks has released out-of-band security updates to address a critical security flaw that could lead to an authentication bypass in some of its routers.
-The vulnerability, tracked as CVE-2024-2973, carries a CVSS score of 10.0, indicating maximum severity.
-“An Authentication Bypass Using an Alternate Path or Channel vulnerability in Juniper Networks Session Smart Router or Conductor]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-6858-1: eSpeak NG vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-6858-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-6858-1"/>
-        <updated>2024-07-01T04:21:23.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that eSpeak NG did not properly manage memory under certain
-circumstances. An attacker could possibly use this issue to cause a denial
-of service, or execute arbitrary code. (CVE-2023-49990, CVE-2023-49991,
-CVE-2023-49992, CVE-2023-49993, CVE-2023-49994)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
         </author>
     </entry>
 </feed>
