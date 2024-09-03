@@ -2,10 +2,130 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-09-02T01:24:08.931Z</updated>
+    <updated>2024-09-03T01:21:56.179Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-6973-4: Linux kernel (Raspberry Pi) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6973-4</id>
+        <link href="https://ubuntu.com/security/notices/USN-6973-4"/>
+        <updated>2024-09-02T18:35:41.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that a race condition existed in the Bluetooth subsystem
+in the Linux kernel, leading to a null pointer dereference vulnerability. A
+privileged local attacker could use this to possibly cause a denial of
+service (system crash). (CVE-2024-24860)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - SuperH RISC architecture;
+  - MMC subsystem;
+  - Network drivers;
+  - SCSI drivers;
+  - GFS2 file system;
+  - IPv4 networking;
+  - IPv6 networking;
+  - HD-audio driver;
+(CVE-2024-26830, CVE-2024-39484, CVE-2024-36901, CVE-2024-26929,
+CVE-2024-26921, CVE-2021-46926, CVE-2023-52629, CVE-2023-52760)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6983-1: FFmpeg vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6983-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6983-1"/>
+        <updated>2024-09-02T14:36:52.000Z</updated>
+        <summary type="html"><![CDATA[Zeng Yunxiang discovered that FFmpeg incorrectly handled memory during
+video encoding. An attacker could possibly use this issue to perform a
+denial of service, or execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6984-1: WebOb vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6984-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6984-1"/>
+        <updated>2024-09-02T14:34:14.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that WebOb incorrectly handled certain URLs.
+An attacker could possibly use this issue to control a redirect or
+forward to another URL.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RansomHub Ransomware Group Targets 210 Victims Across Critical Sectors]]></title>
+        <id>https://thehackernews.com/2024/09/ransomhub-ransomware-group-targets-210.html</id>
+        <link href="https://thehackernews.com/2024/09/ransomhub-ransomware-group-targets-210.html"/>
+        <updated>2024-09-02T13:33:00.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors linked to the RansomHub ransomware group encrypted and exfiltrated data from at least 210 victims since its inception in February 2024, the U.S. government said.
+The victims span various sectors, including water and wastewater, information technology, government services and facilities, healthcare and public health, emergency services, food and agriculture, financial services,]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SQL Injection Attack on Airport Security]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/09/sql-injection-attack-on-airport-security.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/09/sql-injection-attack-on-airport-security.html"/>
+        <updated>2024-09-02T11:07:04.000Z</updated>
+        <summary type="html"><![CDATA[<p>Interesting <a href="https://ian.sh/tsa">vulnerability</a>:</p>
+<blockquote><p>&#8230;a special lane at airport security called Known Crewmember (KCM). KCM is a TSA program that allows pilots and flight attendants to bypass security screening, even when flying on domestic personal trips.</p>
+<p>The KCM process is fairly simple: the employee uses the dedicated lane and presents their KCM barcode or provides the TSA agent their employee number and airline. <a href="https://www.apfa.org/wp-content/uploads/2019/10/KCM-Program-Changes_OCT19.pdf">Various forms of ID</a> need to be presented while the TSA agent&#8217;s laptop verifies the employment status with the airline. If successful, the employee can access the sterile area without any screening at all...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webinar: Learn to Boost Cybersecurity with AI-Powered Vulnerability Management]]></title>
+        <id>https://thehackernews.com/2024/09/webinar-learn-to-boost-cybersecurity.html</id>
+        <link href="https://thehackernews.com/2024/09/webinar-learn-to-boost-cybersecurity.html"/>
+        <updated>2024-09-02T08:55:00.000Z</updated>
+        <summary type="html"><![CDATA[The world of cybersecurity is in a constant state of flux. New vulnerabilities emerge daily, and attackers are becoming more sophisticated.
+In this high-stakes game, security leaders need every advantage they can get. That's where Artificial Intelligence (AI) comes in. AI isn't just a buzzword; it's a game-changer for vulnerability management.
+AI is poised to revolutionize vulnerability]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next-Generation Attacks, Same Targets - How to Protect Your Users' Identities]]></title>
+        <id>https://thehackernews.com/2024/09/next-generation-attacks-same-targets.html</id>
+        <link href="https://thehackernews.com/2024/09/next-generation-attacks-same-targets.html"/>
+        <updated>2024-09-02T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The FBI and CISA Issue Joint Advisory on New Threats and How to Stop Ransomware
+Note: on August 29, the FBI and CISA issued a joint advisory as part of their ongoing #StopRansomware effort to help organizations protect against ransomware. The latest advisory, AA24-242A, describes a new cybercriminal group and its attack methods. It also details three important actions to take today to mitigate]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Malicious npm Packages Mimicking 'noblox.js' Compromise Roblox Developers’ Systems]]></title>
+        <id>https://thehackernews.com/2024/09/malicious-npm-packages-mimicking.html</id>
+        <link href="https://thehackernews.com/2024/09/malicious-npm-packages-mimicking.html"/>
+        <updated>2024-09-02T03:36:00.000Z</updated>
+        <summary type="html"><![CDATA[Roblox developers are the target of a persistent campaign that seeks to compromise systems through bogus npm packages, once again underscoring how threat actors continue to exploit the trust in the open-source ecosystem to deliver malware.
+"By mimicking the popular 'noblox.js' library, attackers have published dozens of packages designed to steal sensitive data and compromise systems," Checkmarx]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-6982-1: Dovecot vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-6982-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-6982-1"/>
+        <updated>2024-09-02T03:31:37.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Dovecot did not not properly have restrictions on
+ithe size of address headers. A remote attacker could possibly use this
+issue to cause denial of service. (CVE-2024-23184, CVE-2024-23185)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ransomware Gangs Pummel Southeast Asia]]></title>
         <id>https://www.darkreading.com/cyber-risk/ransomware-gangs-pummel-southeast-asia</id>
@@ -7763,17 +7883,6 @@ The flaw, which is assigned the CVE identifier CVE-2024-6242, carries a CVSS v3.
 Evasive Panda, also known by the names Bronze Highland, Daggerfly, and StormBamboo, is a cyber espionage group that's been active since at least 2012,]]></summary>
         <author>
             <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Names Lisa Einstein as First Chief AI Officer]]></title>
-        <id>https://www.securityweek.com/?p=38892</id>
-        <link href="https://www.securityweek.com/cisa-names-lisa-einstein-as-first-chief-ai-officer/"/>
-        <updated>2024-08-03T15:20:07.000Z</updated>
-        <summary type="html"><![CDATA[Einstein has led CISA’s AI efforts since 2023 as CISA’s Senior Advisor for AI. 
-The post CISA Names Lisa Einstein as First Chief AI Officer appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>SecurityWeek News</name>
         </author>
     </entry>
 </feed>
