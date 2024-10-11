@@ -2,10 +2,322 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-10-10T01:27:16.188Z</updated>
+    <updated>2024-10-11T01:27:07.004Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Critical Mozilla Firefox Zero-Day Allows Code Execution]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/critical-mozilla-firefox-zero-day-code-execution</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/critical-mozilla-firefox-zero-day-code-execution"/>
+        <updated>2024-10-10T21:10:13.000Z</updated>
+        <summary type="html"><![CDATA[The bug is already being exploited in the wild, but Firefox has provided patches for those who may be vulnerable.]]></summary>
+        <author>
+            <name>Dark Reading Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fidelity Notifies 77K Customers of Data Breach]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/fidelity-notifies-77k-customers-data-breach</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/fidelity-notifies-77k-customers-data-breach"/>
+        <updated>2024-10-10T19:56:16.000Z</updated>
+        <summary type="html"><![CDATA[The third-party actor had access for two days, in the financial services company's second major breach of the year.]]></summary>
+        <author>
+            <name>Dark Reading Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Previews New Windows Feature to Limit Admin Privileges]]></title>
+        <id>https://www.darkreading.com/endpoint-security/windows-preview-limit-administrator-privileges</id>
+        <link href="https://www.darkreading.com/endpoint-security/windows-preview-limit-administrator-privileges"/>
+        <updated>2024-10-10T19:13:17.000Z</updated>
+        <summary type="html"><![CDATA[In its latest Windows preview, Microsoft adds a feature — Administrator Protection — designed to prevent threat actors from easily escalating privileges and restrict lateral movement.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Walking the Tightrope Between Innovation &amp; Risk]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/walking-tightrope-innovation-risk</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/walking-tightrope-innovation-risk"/>
+        <updated>2024-10-10T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When employees and leaders engage with CISOs early in innovation projects, security concerns are addressed proactively, building trust and ensuring innovation and security coexist.]]></summary>
+        <author>
+            <name>Jill Knesek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Prioritization &amp; the Magic 8 Ball]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/vulnerability-prioritization-magic-8-ball</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/vulnerability-prioritization-magic-8-ball"/>
+        <updated>2024-10-10T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Vulnerability prioritization has evolved over the years. Several frameworks exist to help organizations make the right decisions when it comes to deciding which patches to apply and when. But are these better than a Magic 8 Ball?]]></summary>
+        <author>
+            <name>Paul Asadoorian</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Blocks 20 Global Malicious Campaigns Using AI for Cybercrime and Disinformation]]></title>
+        <id>https://thehackernews.com/2024/10/openai-blocks-20-global-malicious.html</id>
+        <link href="https://thehackernews.com/2024/10/openai-blocks-20-global-malicious.html"/>
+        <updated>2024-10-10T13:27:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI on Wednesday said it has disrupted more than 20 operations and deceptive networks across the world that attempted to use its platform for malicious purposes since the start of the year.
+This activity encompassed debugging malware, writing articles for websites, generating biographies for social media accounts, and creating AI-generated profile pictures for fake accounts on X.
+"Threat]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7061-1: Go vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7061-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7061-1"/>
+        <updated>2024-10-10T12:55:01.000Z</updated>
+        <summary type="html"><![CDATA[Hunter Wittenborn discovered that Go incorrectly handled the sanitization
+of environment variables. An attacker could possibly use this issue to run
+arbitrary commands. (CVE-2023-24531)
+
+Sohom Datta discovered that Go did not properly validate backticks (`) as
+Javascript string delimiters, and did not escape them as expected. An
+attacker could possibly use this issue to inject arbitrary Javascript code
+into the Go template. (CVE-2023-24538)
+
+Juho Nurminen discovered that Go incorrectly handled certain special
+characters in directory or file paths. An attacker could possibly use
+this issue to inject code into the resulting binaries. (CVE-2023-29402)
+
+Vincent Dehors discovered that Go incorrectly handled permission bits.
+An attacker could possibly use this issue to read or write files with
+elevated privileges. (CVE-2023-29403)
+
+Juho Nurminen discovered that Go incorrectly handled certain crafted
+arguments. An attacker could possibly use this issue to execute arbitrary
+code at build time. (CVE-2023-29405)
+
+It was discovered that Go incorrectly validated the contents of host
+headers. A remote attacker could possibly use this issue to inject
+additional headers or entire requests. (CVE-2023-29406)
+
+Takeshi Kaneko discovered that Go did not properly handle comments and
+special tags in the script context of html/template module. An attacker
+could possibly use this issue to inject Javascript code and perform a
+cross-site scripting attack. (CVE-2023-39318, CVE-2023-39319)
+
+It was discovered that Go did not limit the number of simultaneously
+executing handler goroutines in the net/http module. An attacker could
+possibly use this issue to cause a panic resulting in a denial of service.
+(CVE-2023-39325)
+
+It was discovered that the Go html/template module did not validate errors
+returned from MarshalJSON methods. An attacker could possibly use this
+issue to inject arbitrary code into the Go template. (CVE-2024-24785)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Experts Warn of Critical Unpatched Vulnerability in Linear eMerge E3 Systems]]></title>
+        <id>https://thehackernews.com/2024/10/experts-warn-of-critical-unpatched.html</id>
+        <link href="https://thehackernews.com/2024/10/experts-warn-of-critical-unpatched.html"/>
+        <updated>2024-10-10T12:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity security researchers are warning about an unpatched vulnerability in Nice Linear eMerge E3 access controller systems that could allow for the execution of arbitrary operating system (OS) commands.
+The flaw, assigned the CVE identifier CVE-2024-9441, carries a CVSS score of 9.8 out of a maximum of 10.0, according to VulnCheck.
+"A vulnerability in the Nortek Linear eMerge E3 allows]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7062-1: libgsf vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7062-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7062-1"/>
+        <updated>2024-10-10T12:06:46.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that libgsf incorrectly handled certain Compound Document
+Binary files. If a user or automated system were tricked into opening
+a specially crafted file, a remote attacker could possibly use this issue
+to execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Twenty-One Industrial Control Systems Advisories]]></title>
+        <id>/node/22398</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/10/10/cisa-releases-twenty-one-industrial-control-systems-advisories"/>
+        <updated>2024-10-10T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released twenty-one Industrial Control Systems (ICS) advisories on October 10, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+ICSA-24-284-01 Siemens SIMATIC S7-1500 and S7-1200 CPUs
+ICSA-24-284-02 Siemens Simcenter Nastran
+ICSA-24-284-03 Siemens Teamcenter Visualization and JT2Go
+ICSA-24-284-04 Siemens SENTRON PAC3200 Devices
+ICSA-24-284-05 Siemens Questa and ModelSim
+ICSA-24-284-06 Siemens SINEC Security Monitor
+ICSA-24-284-07 Siemens JT2Go
+ICSA-24-284-08 Siemens HiMed Cockpit
+ICSA-24-284-09 Siemens PSS SINCAL
+ICSA-24-284-10 Siemens SIMATIC S7-1500 CPUs
+ICSA-24-284-11 Siemens RUGGEDCOM APE1808
+ICSA-24-284-12 Siemens Sentron Powercenter 1000
+ICSA-24-284-13 Siemens Tecnomatix Plant Simulation
+ICSA-24-284-14 Schneider Electric Zelio Soft 2
+ICSA-24-284-15 Rockwell Automation DataMosaix Private Cloud
+ICSA-24-284-16 Rockwell Automation DataMosaix Private Cloud
+ICSA-24-284-17 Rockwell Automation Verve Asset Manager
+ICSA-24-284-18 Rockwell Automation Logix Controllers
+ICSA-24-284-19 Rockwell Automation PowerFlex 6000T
+ICSA-24-284-20 Rockwell Automation ControlLogix
+ICSA-24-284-21 Delta Electronics CNCSoft-G2
+CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best Practices to Configure BIG-IP LTM Systems to Encrypt HTTP Persistence Cookies]]></title>
+        <id>/node/22376</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/10/10/best-practices-configure-big-ip-ltm-systems-encrypt-http-persistence-cookies"/>
+        <updated>2024-10-10T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has observed cyber threat actors leveraging unencrypted persistent cookies managed by the F5 BIG-IP Local Traffic Manager (LTM) module to enumerate other non-internet facing devices on the network. F5 BIG-IP is a suite of hardware and software solutions designed to manage and secure network traffic. A malicious cyber actor could leverage the information gathered from unencrypted persistence cookies to infer or identify additional network resources and potentially exploit vulnerabilities found in other devices present on the network.  
+ 
+CISA urges organizations to encrypt persistent cookies employed in F5 BIG-IP devices and review the following article for details on how to configure the BIG-IP LTM system to encrypt HTTP cookies. Additionally, F5 has developed an iHealth heuristic to detect and alert customers when cookie persistence profiles do not have encryption enabled. BIG-IP iHealth is a diagnostic tool that "evaluates the logs, command output, and configuration of a BIG-IP system against a database of known issues, common mistakes, and published F5 best practices" to help users verify the optimal operation of their BIG-IP systems.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deebot Robot Vacuums Are Using Photos and Audio to Train Their AI]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/10/deebot-robot-vacuums-are-using-photos-and-audio-to-train-their-ai.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/10/deebot-robot-vacuums-are-using-photos-and-audio-to-train-their-ai.html"/>
+        <updated>2024-10-10T11:00:59.000Z</updated>
+        <summary type="html"><![CDATA[<p>An Australian news agency is <a href="https://www.abc.net.au/news/2024-10-05/robot-vacuum-deebot-ecovacs-photos-ai/104416632">reporting</a> that robot vacuum cleaners from the Chinese company Deebot are surreptitiously taking photos and recording audio, and sending that data back to the vendor to train their AIs.</p>
+<blockquote><p>Ecovacs&#8217;s privacy policy&#8212;<a href="https://gl-us-wap.ecovacs.com/content/agreementNewest/PRIVACY/DEFAULT/DEFAULT">available elsewhere in the app</a>&#8212;allows for blanket collection of user data for research purposes, including:</p>
+<ul>
+<li>The 2D or 3D map of the user&#8217;s house generated by the device
+<li>Voice recordings from the device&#8217;s microphone
+<li>Photos or videos recorded by the device&#8217;s camera</ul>
+<p>It also states that voice recordings, videos and photos that are deleted via the app may continue to be held and used by Ecovacs...</p></li></li></li></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[6 Simple Steps to Eliminate SOC Analyst Burnout]]></title>
+        <id>https://thehackernews.com/2024/10/6-simple-steps-to-eliminate-soc-analyst.html</id>
+        <link href="https://thehackernews.com/2024/10/6-simple-steps-to-eliminate-soc-analyst.html"/>
+        <updated>2024-10-10T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The current SOC model relies on a scarce resource: human analysts. These professionals are expensive, in high demand, and increasingly difficult to retain. Their work is not only highly technical and high-risk, but also soul-crushingly repetitive, dealing with a constant flood of alerts and incidents. As a result, SOC analysts often leave in search of better pay, the opportunity to move beyond]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft: BYOD, QR Codes Lead Rampant Education Attacks]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/byod-qr-codes-education-attacks</id>
+        <link href="https://www.darkreading.com/threat-intelligence/byod-qr-codes-education-attacks"/>
+        <updated>2024-10-10T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The average higher education institution is getting hit once a week now, and as one Oregon State University attack shows, the sector often lacks the resources to keep pace.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7022-3: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7022-3</id>
+        <link href="https://ubuntu.com/security/notices/USN-7022-3"/>
+        <updated>2024-10-10T08:26:17.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - GPU drivers;
+  - Modular ISDN driver;
+  - MMC subsystem;
+  - SCSI drivers;
+  - F2FS file system;
+  - GFS2 file system;
+  - Netfilter;
+  - RxRPC session sockets;
+  - Integrity Measurement Architecture(IMA) framework;
+(CVE-2021-47188, CVE-2024-39494, CVE-2022-48791, CVE-2022-48863,
+CVE-2024-42228, CVE-2024-38570, CVE-2024-42160, CVE-2024-26787,
+CVE-2024-27012, CVE-2024-26677)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybercriminals Use Unicode to Hide Mongolian Skimmer in E-Commerce Platforms]]></title>
+        <id>https://thehackernews.com/2024/10/cybercriminals-use-unicode-to-hide.html</id>
+        <link href="https://thehackernews.com/2024/10/cybercriminals-use-unicode-to-hide.html"/>
+        <updated>2024-10-10T07:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have shed light on a new digital skimmer campaign that leverages Unicode obfuscation techniques to conceal a skimmer dubbed Mongolian Skimmer.
+"At first glance, the thing that stood out was the script's obfuscation, which seemed a bit bizarre because of all the accented characters," Jscrambler researchers said in an analysis. "The heavy use of Unicode characters, many]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Warns of Critical Fortinet Flaw as Palo Alto and Cisco Issue Urgent Security Patches]]></title>
+        <id>https://thehackernews.com/2024/10/cisa-warns-of-critical-fortinet-flaw-as.html</id>
+        <link href="https://thehackernews.com/2024/10/cisa-warns-of-critical-fortinet-flaw-as.html"/>
+        <updated>2024-10-10T05:44:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical security flaw impacting Fortinet products to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
+The vulnerability, tracked as CVE-2024-23113 (CVSS score: 9.8), relates to cases of remote code execution that affects FortiOS, FortiPAM, FortiProxy, and FortiWeb.
+"A]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firefox Zero-Day Under Attack: Update Your Browser Immediately]]></title>
+        <id>https://thehackernews.com/2024/10/mozilla-warns-of-active-exploitation-in.html</id>
+        <link href="https://thehackernews.com/2024/10/mozilla-warns-of-active-exploitation-in.html"/>
+        <updated>2024-10-10T04:24:00.000Z</updated>
+        <summary type="html"><![CDATA[Mozilla has revealed that a critical security flaw impacting Firefox and Firefox Extended Support Release (ESR) has come under active exploitation in the wild.
+The vulnerability, tracked as CVE-2024-9680 (CVSS score: 9.8), has been described as a use-after-free bug in the Animation timeline component.
+"An attacker was able to achieve code execution in the content process by exploiting a]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7060-1: EDK II vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7060-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7060-1"/>
+        <updated>2024-10-10T03:41:37.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that EDK II did not check the buffer length in XHCI, 
+which could lead to a stack overflow. A local attacker could potentially
+use this issue to cause a denial of service. This issue only affected 
+Ubuntu 16.04 LTS and Ubuntu 18.04 LTS. (CVE-2019-0161)
+
+Laszlo Ersek discovered that EDK II incorrectly handled recursion. A
+remote attacker could possibly use this issue to cause EDK II to consume
+resources, leading to a denial of service. This issue only affected 
+Ubuntu 16.04 LTS and Ubuntu 18.04 LTS. (CVE-2021-28210)
+
+Satoshi Tanda discovered that EDK II incorrectly handled decompressing
+certain images. A remote attacker could use this issue to cause EDK II to
+crash, resulting in a denial of service, or possibly execute arbitrary
+code. This issue only affected Ubuntu 16.04 LTS and Ubuntu 18.04 LTS.
+(CVE-2021-28211)
+
+It was discovered that EDK II incorrectly decoded certain strings. A remote
+attacker could use this issue to cause EDK II to crash, resulting in a
+denial of service, or possibly execute arbitrary code. This issue only 
+affected Ubuntu 16.04 LTS and Ubuntu 18.04 LTS. (CVE-2021-38575)
+
+It was discovered that EDK II had integer underflow vulnerability in 
+SmmEntryPoint, which could result in a buffer overflow. An attacker
+could potentially use this issue to cause a denial of service.
+(CVE-2021-38578)
+
+Elison Niven discovered that OpenSSL, vendored in EDK II, incorrectly 
+handled the c_rehash script. A local attacker could possibly use this 
+issue to execute arbitrary commands when c_rehash is run. This issue 
+only affected Ubuntu 16.04 LTS. (CVE-2022-1292)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI-Powered Cybercrime Cartels on the Rise in Asia]]></title>
         <id>https://www.darkreading.com/threat-intelligence/ai-powered-cybercrime-cartels-asia</id>
@@ -14,6 +326,16 @@
         <summary type="html"><![CDATA[All across the Asia-Pacific region, large and diverse marketplaces for AI cybercrime tools have developed, with deepfakes proving most popular.]]></summary>
         <author>
             <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Launches Data-Sharing Initiative to Fight Fraud]]></title>
+        <id>https://www.darkreading.com/cyber-risk/google-data-sharing-initiative-fight-fraud</id>
+        <link href="https://www.darkreading.com/cyber-risk/google-data-sharing-initiative-fight-fraud"/>
+        <updated>2024-10-09T22:32:52.000Z</updated>
+        <summary type="html"><![CDATA[Global Signal Exchange will act as a global clearing house for online scams and fraud signals.]]></summary>
+        <author>
+            <name>Dark Reading Staff</name>
         </author>
     </entry>
     <entry>
@@ -90,6 +412,16 @@
         <summary type="html"><![CDATA[The security bugs were found susceptible to exploitation in connection to the previously disclosed, critical CVE-2024-8963 vulnerability in the security vendor's Cloud Services Appliance (CSA).]]></summary>
         <author>
             <name>Dark Reading Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Risk Strategies Drawn From the EU AI Act]]></title>
+        <id>https://www.darkreading.com/cyber-risk/risk-strategies-drawn-from-the-eu-ai-act</id>
+        <link href="https://www.darkreading.com/cyber-risk/risk-strategies-drawn-from-the-eu-ai-act"/>
+        <updated>2024-10-09T18:08:41.000Z</updated>
+        <summary type="html"><![CDATA[The EU AI Act provides a governance, risk, and compliance (GRC) framework that helps organizations take a risk-based approach to using AI.]]></summary>
+        <author>
+            <name>Kyle McLaughlin</name>
         </author>
     </entry>
     <entry>
@@ -8134,291 +8466,6 @@ The post Intel Warns of 20+ Processor Vulnerabilities, Advises Firmware Updates 
 The post Beyond Immature Rhetoric: The Case Against Mockery and Ambulance Chasing in the Security Industry appeared first on SecurityWeek.]]></summary>
         <author>
             <name>Joshua Goldfarb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Air-Gapped Networks Vulnerable to Acoustic Attack via LCD Screens]]></title>
-        <id>https://www.darkreading.com/ics-ot-security/air-gapped-networks-vulnerable-to-acoustic-attack-via-lcd-screens</id>
-        <link href="https://www.darkreading.com/ics-ot-security/air-gapped-networks-vulnerable-to-acoustic-attack-via-lcd-screens"/>
-        <updated>2024-09-11T13:00:44.000Z</updated>
-        <summary type="html"><![CDATA[In the "PixHell" attack, sound waves generated by pixels on a screen can transmit information across seemingly impenetrable air gaps.]]></summary>
-        <author>
-            <name>Nate Nelson, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PIXHELL Attack Allows Air-Gap Jumping via Noise From Screens]]></title>
-        <id>https://www.securityweek.com/?p=39344</id>
-        <link href="https://www.securityweek.com/pixhell-attack-allows-air-gap-jumping-via-noise-from-screens/"/>
-        <updated>2024-09-11T12:59:53.000Z</updated>
-        <summary type="html"><![CDATA[Noise generated by the pixels on a screen can be leveraged to exfiltrate data from air-gapped computers in what is called a PIXHELL attack.
-The post PIXHELL Attack Allows Air-Gap Jumping via Noise From Screens appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Singapore Police Arrest Six Hackers Linked to Global Cybercrime Syndicate]]></title>
-        <id>https://thehackernews.com/2024/09/singapore-police-arrest-six-for-alleged.html</id>
-        <link href="https://thehackernews.com/2024/09/singapore-police-arrest-six-for-alleged.html"/>
-        <updated>2024-09-11T12:07:00.000Z</updated>
-        <summary type="html"><![CDATA[The Singapore Police Force (SPF) has announced the arrest of five Chinese nationals and one Singaporean man for their alleged involvement in illicit cyber activities in the country.
-The development comes after a group of about 160 law enforcement officials conducted a series of raids on September 9, 2024, simultaneously at several locations.
-The six men, aged between 32 and 42, are suspected of]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Ancient' MSFT Word Bug Anchors Taiwanese Drone-Maker Attacks]]></title>
-        <id>https://www.darkreading.com/ics-ot-security/ancient-msft-word-bug-taiwanese-drone-maker-attacks</id>
-        <link href="https://www.darkreading.com/ics-ot-security/ancient-msft-word-bug-taiwanese-drone-maker-attacks"/>
-        <updated>2024-09-11T11:08:07.000Z</updated>
-        <summary type="html"><![CDATA[An attack dubbed "WordDrone" that uses an old flaw to install a backdoor could be related to previously reported cyber incidents against Taiwan's military and satellite industrial supply chain.]]></summary>
-        <author>
-            <name>Elizabeth Montalbano, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Evaluating the Effectiveness of Reward Modeling of Generative AI Systems]]></title>
-        <id>https://www.schneier.com/blog/archives/2024/09/evaluating-the-effectiveness-of-reward-modeling-of-generative-ai-systems-2.html</id>
-        <link href="https://www.schneier.com/blog/archives/2024/09/evaluating-the-effectiveness-of-reward-modeling-of-generative-ai-systems-2.html"/>
-        <updated>2024-09-11T11:03:11.000Z</updated>
-        <summary type="html"><![CDATA[<p>New research evaluating the effectiveness of reward modeling during Reinforcement Learning from Human Feedback (RLHF): &#8220;<a href="https://arxiv.org/pdf/2408.10270">SEAL: Systematic Error Analysis for Value ALignment</a>.&#8221; The paper introduces quantitative metrics for evaluating the effectiveness of modeling and aligning human values:</p>
-<blockquote><p><b>Abstract</b>: Reinforcement Learning from Human Feedback (RLHF) aims to align language models (LMs) with human values by training reward models (RMs) on binary preferences and using these RMs to fine-tune the base LMs. Despite its importance, the internal mechanisms of RLHF remain poorly understood. This paper introduces new metrics to evaluate the effectiveness of modeling and aligning human values, namely feature imprint, alignment resistance and alignment robustness. We categorize alignment datasets into target features (desired values) and spoiler features (undesired concepts). By regressing RM scores against these features, we quantify the extent to which RMs reward them ­ a metric we term feature imprint. We define alignment resistance as the proportion of the preference dataset where RMs fail to match human preferences, and we assess alignment robustness by analyzing RM responses to perturbed inputs. Our experiments, utilizing open-source components like the Anthropic preference dataset and OpenAssistant RMs, reveal significant imprints of target features and a notable sensitivity to spoiler features. We observed a 26% incidence of alignment resistance in portions of the dataset where LM-labelers disagreed with human preferences. Furthermore, we find that misalignment often arises from ambiguous entries within the alignment dataset. These findings underscore the importance of scrutinizing both RMs and alignment datasets for a deeper understanding of value alignment...</p></blockquote>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Is It So Challenging to Go Passwordless?]]></title>
-        <id>https://thehackernews.com/2024/09/why-is-it-so-challenging-to-go.html</id>
-        <link href="https://thehackernews.com/2024/09/why-is-it-so-challenging-to-go.html"/>
-        <updated>2024-09-11T10:41:00.000Z</updated>
-        <summary type="html"><![CDATA[Imagine a world where you never have to remember another password. Seems like a dream come true for both end users and IT teams, right? But as the old saying goes, "If it sounds too good to be true, it probably is." 
-If your organization is like many, you may be contemplating a move to passwordless authentication. But the reality is that a passwordless security approach comes with its own]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Adds Support for Post-Quantum Algorithms in SymCrypt Library]]></title>
-        <id>https://www.securityweek.com/?p=39343</id>
-        <link href="https://www.securityweek.com/microsoft-adds-support-for-post-quantum-algorithms-in-symcrypt-library/"/>
-        <updated>2024-09-11T10:32:45.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has started introducing support for post-quantum algorithms in SymCrypt, its main cryptographic library.
-The post Microsoft Adds Support for Post-Quantum Algorithms in SymCrypt Library appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ivanti Patches Critical Vulnerabilities in Endpoint Manager]]></title>
-        <id>https://www.securityweek.com/?p=39342</id>
-        <link href="https://www.securityweek.com/ivanti-patches-critical-vulnerabilities-in-endpoint-manager/"/>
-        <updated>2024-09-11T10:18:31.000Z</updated>
-        <summary type="html"><![CDATA[Ivanti has released patches for multiple vulnerabilities in Endpoint Manager, Cloud Service Appliance, and Workspace Control.
-The post Ivanti Patches Critical Vulnerabilities in Endpoint Manager appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Developers Beware: Lazarus Group Uses Fake Coding Tests to Spread Malware]]></title>
-        <id>https://thehackernews.com/2024/09/developers-beware-lazarus-group-uses.html</id>
-        <link href="https://thehackernews.com/2024/09/developers-beware-lazarus-group-uses.html"/>
-        <updated>2024-09-11T09:46:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have uncovered a new set of malicious Python packages that target software developers under the guise of coding assessments.
-"The new samples were tracked to GitHub projects that have been linked to previous, targeted attacks in which developers are lured using fake job interviews," ReversingLabs researcher Karlo Zanki said.
-The activity has been assessed to be part of]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Data Breach at Golf Course Management Firm KemperSports Impacts 62,000]]></title>
-        <id>https://www.securityweek.com/?p=39341</id>
-        <link href="https://www.securityweek.com/data-breach-at-golf-course-management-firm-kempersports-impacts-62000/"/>
-        <updated>2024-09-11T08:47:49.000Z</updated>
-        <summary type="html"><![CDATA[Golf course management company KemperSports has disclosed a cyberattack and data breach impacting over 62,000 individuals. 
-The post Data Breach at Golf Course Management Firm KemperSports Impacts 62,000 appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Issues Patches for 79 Flaws, Including 3 Actively Exploited Windows Flaws]]></title>
-        <id>https://thehackernews.com/2024/09/microsoft-issues-patches-for-79-flaws.html</id>
-        <link href="https://thehackernews.com/2024/09/microsoft-issues-patches-for-79-flaws.html"/>
-        <updated>2024-09-11T06:53:00.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft on Tuesday disclosed that three new security flaws impacting the Windows platform have come under active exploitation as part of its Patch Tuesday update for September 2024.
-The monthly security release addresses a total of 79 vulnerabilities, of which seven are rated Critical, 71 are rated Important, and one is rated Moderate in severity. This is aside from 26 flaws that the tech]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ivanti Releases Urgent Security Updates for Endpoint Manager Vulnerabilities]]></title>
-        <id>https://thehackernews.com/2024/09/ivanti-releases-urgent-security-updates.html</id>
-        <link href="https://thehackernews.com/2024/09/ivanti-releases-urgent-security-updates.html"/>
-        <updated>2024-09-11T06:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Ivanti has released software updates to address multiple security flaws impacting Endpoint Manager (EPM), including 10 critical vulnerabilities that could result in remote code execution.
-A brief description of the issues is as follows -
-
-CVE-2024-29847 (CVSS score: 10.0) - A deserialization of untrusted data vulnerability that allows a remote unauthenticated attacker to achieve code execution.]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[India Needs Better Cybersecurity for Space, Critical Infrastructure]]></title>
-        <id>https://www.darkreading.com/ics-ot-security/india-cybersecurity-space-critical-infrastructure</id>
-        <link href="https://www.darkreading.com/ics-ot-security/india-cybersecurity-space-critical-infrastructure"/>
-        <updated>2024-09-11T03:30:00.000Z</updated>
-        <summary type="html"><![CDATA[As attacks on satellites rise with nation-state conflicts, the South Asian nation joins other space-capable countries in doubling down on cybersecurity.]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-6998-1: Unbound vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-6998-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-6998-1"/>
-        <updated>2024-09-11T01:33:35.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that Unbound incorrectly handled string comparisons,
-which could lead to a NULL pointer dereference. An attacker could 
-potentially use this issue to cause a denial of service. (CVE-2024-43167)
-
-It was discovered that Unbound incorrectly handled memory in 
-cfg_mark_ports, which could lead to a heap buffer overflow. A local 
-attacker could potentially use this issue to cause a denial of service
-or execute arbitrary code. (CVE-2024-43168)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Updates Cloud Backup, Disaster Recovery Service]]></title>
-        <id>https://www.darkreading.com/cloud-security/google-updates-cloud-backup-disaster-recovery-service</id>
-        <link href="https://www.darkreading.com/cloud-security/google-updates-cloud-backup-disaster-recovery-service"/>
-        <updated>2024-09-10T22:55:48.000Z</updated>
-        <summary type="html"><![CDATA[The combination of immutability, indelibility, centralized governance, and user empowerment provides a comprehensive backup strategy, Google said.]]></summary>
-        <author>
-            <name>Jennifer Lawinski, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wiz Launches Wiz Code Application Security Tool]]></title>
-        <id>https://www.darkreading.com/application-security/wiz-launches-wiz-code-application-security-tool</id>
-        <link href="https://www.darkreading.com/application-security/wiz-launches-wiz-code-application-security-tool"/>
-        <updated>2024-09-10T21:47:40.000Z</updated>
-        <summary type="html"><![CDATA[Wiz Code identifies and flags cloud risks in code to help improve collaboration between security and development teams.]]></summary>
-        <author>
-            <name>Jennifer Lawinski, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Discloses 4 Zero-Days in September Update]]></title>
-        <id>https://www.darkreading.com/application-security/microsoft-discloses-4-zero-days-in-september-update</id>
-        <link href="https://www.darkreading.com/application-security/microsoft-discloses-4-zero-days-in-september-update"/>
-        <updated>2024-09-10T21:08:47.000Z</updated>
-        <summary type="html"><![CDATA[This month's Patch Tuesday contains a total of 79 vulnerabilities — the fourth largest of the year.]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How a Centuries-Old Company Reached Security Maturity]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/how-a-centuries-old-company-reached-security-maturity</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/how-a-centuries-old-company-reached-security-maturity"/>
-        <updated>2024-09-10T20:43:34.000Z</updated>
-        <summary type="html"><![CDATA[In this case study, a 180-year-old life and pension insurer brought its security infrastructure into the modern age.]]></summary>
-        <author>
-            <name>Karen D. Schwartz, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Says Windows Update Zero-Day Being Exploited to Undo Security Fixes]]></title>
-        <id>https://www.securityweek.com/?p=39336</id>
-        <link href="https://www.securityweek.com/microsoft-says-windows-update-zero-day-being-exploited-to-undo-security-fixes/"/>
-        <updated>2024-09-10T19:06:20.000Z</updated>
-        <summary type="html"><![CDATA[Patch Tuesday: Microsoft raises an alarm for in-the-wild exploitation of a critical flaw in Windows Update.
-The post Microsoft Says Windows Update Zero-Day Being Exploited to Undo Security Fixes appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ryan Naraine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cyber Staffing Shortages Remain CISOs' Biggest Challenge]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/cyber-staffing-shortages-remain-cisos-biggest-challenge</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/cyber-staffing-shortages-remain-cisos-biggest-challenge"/>
-        <updated>2024-09-10T18:43:37.000Z</updated>
-        <summary type="html"><![CDATA[Besides operational issues connected to a talent shortage, the cost of running security platforms — and their training costs — also keeps CISOs up at night.]]></summary>
-        <author>
-            <name>Kristina Beek, Associate Editor, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adobe Patches Critical, Code Execution Flaws in Multiple Products]]></title>
-        <id>https://www.securityweek.com/?p=39335</id>
-        <link href="https://www.securityweek.com/adobe-patches-critical-code-execution-flaws-in-multiple-products/"/>
-        <updated>2024-09-10T16:34:17.000Z</updated>
-        <summary type="html"><![CDATA[Patch Tuesday: Adobe releases patches for 28 security vulnerabilities and warned of code execution risks on Windows and macOS platforms.
-The post Adobe Patches Critical, Code Execution Flaws in Multiple Products appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ryan Naraine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CosmicBeetle Deploys Custom ScRansom Ransomware, Partnering with RansomHub]]></title>
-        <id>https://thehackernews.com/2024/09/cosmicbeetle-deploys-custom-scransom.html</id>
-        <link href="https://thehackernews.com/2024/09/cosmicbeetle-deploys-custom-scransom.html"/>
-        <updated>2024-09-10T15:48:00.000Z</updated>
-        <summary type="html"><![CDATA[The threat actor known as CosmicBeetle has debuted a new custom ransomware strain called ScRansom in attacks targeting small- and medium-sized businesses (SMBs) in Europe, Asia, Africa, and South America, while also likely working as an affiliate for RansomHub.
-"CosmicBeetle replaced its previously deployed ransomware, Scarab, with ScRansom, which is continually improved," ESET researcher Jakub]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mustang Panda Feeds Worm-Driven USB Attack Strategy]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/mustang-panda-worm-driven-usb-attack</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/mustang-panda-worm-driven-usb-attack"/>
-        <updated>2024-09-10T15:27:10.000Z</updated>
-        <summary type="html"><![CDATA[A fresh wave of attacks on APAC government entities involves both self-propagating malware spreading via removable drives and a spear-phishing campaign.]]></summary>
-        <author>
-            <name>Elizabeth Montalbano, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Epic AI Fails And What We Can Learn From Them]]></title>
-        <id>https://www.securityweek.com/?p=39331</id>
-        <link href="https://www.securityweek.com/epic-ai-fails-and-what-we-can-learn-from-them/"/>
-        <updated>2024-09-10T14:45:10.000Z</updated>
-        <summary type="html"><![CDATA[Large language models (LLMs) are trained on vast amounts of data to learn patterns and recognize relationships in language usage. But they can’t discern fact from fiction.
-The post Epic AI Fails And What We Can Learn From Them appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Stu Sjouwerman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Platform Engineering Is Security Engineering]]></title>
-        <id>https://www.darkreading.com/application-security/platform-engineering-is-security-engineering</id>
-        <link href="https://www.darkreading.com/application-security/platform-engineering-is-security-engineering"/>
-        <updated>2024-09-10T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[For modern applications built on Kubernetes and microservices, platform engineering is not just about building functional systems but also about embedding security into the fabric of those systems.]]></summary>
-        <author>
-            <name>Michelle Ensey</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dark Reading Confidential: Pen Test Arrests, Five Years Later]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/dark-reading-confidential-pen-test-arrests-five-years-later</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/dark-reading-confidential-pen-test-arrests-five-years-later"/>
-        <updated>2024-09-10T13:54:39.000Z</updated>
-        <summary type="html"><![CDATA[Episode 3: On September 11, 2019, two cybersecurity professionals were arrested in Dallas County, Iowa and forced to spend the night in jail -- just for doing their jobs. Gary De Mercurio and Justin Wynn. Despite the criminal charges against them eventually being dropped, the saga that night five years ago continues to haunt De Mercurio and Wynn personally and professionally. In this episode, the pair and Coalfire's CEO Tom McAndrew share how the arrest and fallout has shaped their lives and careers as well as how it has transformed physical penetration tests for the cybersecurity industry as a whole.]]></summary>
-        <author>
-            <name>Dark Reading Staff</name>
         </author>
     </entry>
 </feed>
