@@ -2,10 +2,329 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-12-10T01:45:41.062Z</updated>
+    <updated>2024-12-11T01:44:07.835Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Actively Exploited Zero-Day, Critical RCEs Lead Microsoft Patch Tuesday]]></title>
+        <id>https://www.darkreading.com/application-security/microsoft-zero-day-critical-rces-patch-tuesday</id>
+        <link href="https://www.darkreading.com/application-security/microsoft-zero-day-critical-rces-patch-tuesday"/>
+        <updated>2024-12-10T22:21:02.000Z</updated>
+        <summary type="html"><![CDATA[The zero-day (CVE-2024-49138), plus a worryingly critical unauthenticated RCE security vulnerability (CVE-2024-49112), are unwanted gifts for security admins this season.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Termite' Ransomware Likely Behind Cleo Zero-Day Attacks]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/termite-ransomware-behind-cleo-zero-day-attacks</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/termite-ransomware-behind-cleo-zero-day-attacks"/>
+        <updated>2024-12-10T21:03:08.000Z</updated>
+        <summary type="html"><![CDATA[The threat actor group recently took credit for a similar attack on Blue Yonder that affected multiple organizations, including Starbucks.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7148-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7148-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7148-1"/>
+        <updated>2024-12-10T19:52:07.000Z</updated>
+        <summary type="html"><![CDATA[Lyu Tao discovered that the NFS implementation in the Linux kernel did not
+properly handle requests to open a directory on a regular file. A local
+attacker could use this to expose sensitive information (kernel memory).
+
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - x86 architecture;
+  - ATM drivers;
+  - Device frequency scaling framework;
+  - GPU drivers;
+  - Hardware monitoring drivers;
+  - VMware VMCI Driver;
+  - MTD block device drivers;
+  - Network drivers;
+  - Device tree and open firmware driver;
+  - SCSI subsystem;
+  - USB Serial drivers;
+  - BTRFS file system;
+  - File systems infrastructure;
+  - F2FS file system;
+  - JFS file system;
+  - NILFS2 file system;
+  - Netfilter;
+  - Memory management;
+  - Ethernet bridge;
+  - IPv6 networking;
+  - Logical Link layer;
+  - MAC80211 subsystem;
+  - NFC subsystem;
+  - Network traffic control;
+(CVE-2021-47055, CVE-2024-26675, CVE-2024-42244, CVE-2024-46743,
+CVE-2024-41095, CVE-2024-46756, CVE-2024-46723, CVE-2024-46759,
+CVE-2024-35877, CVE-2024-38538, CVE-2024-26668, CVE-2024-44998,
+CVE-2024-42309, CVE-2024-46758, CVE-2024-46800, CVE-2022-48733,
+CVE-2023-52531, CVE-2023-52599, CVE-2024-46722, CVE-2024-42240,
+CVE-2024-44987, CVE-2023-52502, CVE-2023-52578, CVE-2024-41059,
+CVE-2024-41071, CVE-2024-44942, CVE-2024-46738, CVE-2022-48943,
+CVE-2023-52614, CVE-2024-27397, CVE-2024-38560, CVE-2024-43882,
+CVE-2024-42104, CVE-2024-46757, CVE-2024-26636, CVE-2024-26633,
+CVE-2024-41089, CVE-2024-42310, CVE-2022-48938)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7147-1: Apache Shiro vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7147-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7147-1"/>
+        <updated>2024-12-10T18:08:44.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Apache Shiro incorrectly handled path traversal when
+used with other web frameworks or path rewriting. An attacker could
+possibly use this issue to obtain sensitive information or administrative
+privileges. This update provides the corresponding fix for Ubuntu 24.04 LTS
+and Ubuntu 24.10. (CVE-2023-34478, CVE-2023-46749)
+
+It was discovered that Apache Shiro incorrectly handled web redirects when
+used together with the form authentication method. An attacker could
+possibly use this issue to perform phishing attacks. This update provides
+the corresponding fix for Ubuntu 24.04 LTS and Ubuntu 24.10.
+(CVE-2023-46750)
+
+It was discovered that Apache Shiro incorrectly handled requests through
+servlet filtering. An attacker could possibly use this issue to obtain
+administrative privileges. This update provides the corresponding fix for
+Ubuntu 16.04 LTS. (CVE-2016-6802)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scottish Parliament TV at Risk From Deepfakes]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/scottish-parliament-tv-risk-deepfakes</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/scottish-parliament-tv-risk-deepfakes"/>
+        <updated>2024-12-10T17:51:18.000Z</updated>
+        <summary type="html"><![CDATA[Because the streaming service website offers no content restrictions, attackers are able to hijack and manipulate live streams.]]></summary>
+        <author>
+            <name>Kristina Beek, Associate Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybercrime Gangs Abscond With Thousands of AWS Credentials]]></title>
+        <id>https://www.darkreading.com/endpoint-security/cybercrime-gangs-steal-thousands-aws-credentials</id>
+        <link href="https://www.darkreading.com/endpoint-security/cybercrime-gangs-steal-thousands-aws-credentials"/>
+        <updated>2024-12-10T16:12:01.000Z</updated>
+        <summary type="html"><![CDATA[The Nemesis and ShinyHunters attackers scanned millions of IP addresses to find exploitable cloud-based flaws, though their operation ironically was discovered due to a cloud misconfiguration of their own doing.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cleo File Transfer Vulnerability Under Exploitation – Patch Pending, Mitigation Urged]]></title>
+        <id>https://thehackernews.com/2024/12/cleo-file-transfer-vulnerability-under.html</id>
+        <link href="https://thehackernews.com/2024/12/cleo-file-transfer-vulnerability-under.html"/>
+        <updated>2024-12-10T15:57:00.000Z</updated>
+        <summary type="html"><![CDATA[Users of Cleo-managed file transfer software are being urged to ensure that their instances are not exposed to the internet following reports of mass exploitation of a vulnerability affecting fully patched systems.
+Cybersecurity company Huntress said it discovered evidence of threat actors exploiting the issue en masse on December 3, 2024. The vulnerability, which impacts Cleo's LexiCom,]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lessons From the Largest Software Supply Chain Incidents]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/lessons-largest-software-supply-chain-incidents</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/lessons-largest-software-supply-chain-incidents"/>
+        <updated>2024-12-10T15:00:01.000Z</updated>
+        <summary type="html"><![CDATA[The software supply chain is a growing target, and organizations need to take special care to safeguard it.]]></summary>
+        <author>
+            <name>Eldan Ben-Haim</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fake Recruiters Distribute Banking Trojan via Malicious Apps in Phishing Scam]]></title>
+        <id>https://thehackernews.com/2024/12/fake-recruiters-distribute-banking.html</id>
+        <link href="https://thehackernews.com/2024/12/fake-recruiters-distribute-banking.html"/>
+        <updated>2024-12-10T14:13:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have shed light on a sophisticated mobile phishing (aka mishing) campaign that's designed to distribute an updated version of the Antidot banking trojan.
+"The attackers presented themselves as recruiters, luring unsuspecting victims with job offers," Zimperium zLabs Vishnu Pratapagiri researcher said in a new report.
+"As part of their fraudulent hiring process, the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Full-Face Masks to Frustrate Identification]]></title>
+        <id>https://www.schneier.com/blog/archives/2024/12/full-face-masks-to-frustrate-identification.html</id>
+        <link href="https://www.schneier.com/blog/archives/2024/12/full-face-masks-to-frustrate-identification.html"/>
+        <updated>2024-12-10T12:06:20.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7270576541816745985/">This</a> is going to be interesting.</p>
+<p>It&#8217;s a video of someone trying on a variety of printed full-face masks. They won&#8217;t fool anyone for long, but will survive casual scrutiny. And they&#8217;re cheap and easy to swap.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Releases December 2024 Security Updates]]></title>
+        <id>/node/22686</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/12/10/microsoft-releases-december-2024-security-updates"/>
+        <updated>2024-12-10T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft released security updates to address vulnerabilities in multiple Microsoft products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.
+CISA encourages users and administrators to review the following and apply necessary updates:
+Microsoft Security Update Guide for December]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adobe Releases Security Updates for Multiple Products]]></title>
+        <id>/node/22685</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/12/10/adobe-releases-security-updates-multiple-products"/>
+        <updated>2024-12-10T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Adobe released security updates to address vulnerabilities in multiple Adobe software products including Adobe Acrobat, Adobe Illustrator, and Adobe InDesign. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.     
+ CISA encourages users and administrators to review the following Adobe Security Bulletin and apply necessary updates:   
+Adobe Product Security Updates for December]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Seven Industrial Control Systems Advisories]]></title>
+        <id>/node/22680</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/12/10/cisa-releases-seven-industrial-control-systems-advisories"/>
+        <updated>2024-12-10T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released seven Industrial Control Systems (ICS) advisories on December 10, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+ICSA-24-345-01 MOBATIME Network Master Clock
+ICSA-24-345-02 Schneider Electric EcoStruxure Foxboro DCS Core Control Services
+ICSA-24-345-03 Schneider Electric FoxRTU Station
+ICSA-24-345-04 National Instruments LabVIEW
+ICSA-24-345-05 Horner Automation Cscape
+ICSA-24-345-06 Rockwell Automation Arena
+ICSA-24-338-01 Ruijie Reyee OS (Update A)
+CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
+        <id>/node/22673</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/12/10/cisa-adds-one-known-exploited-vulnerability-catalog"/>
+        <updated>2024-12-10T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2024-49138 Microsoft Windows Common Log File System (CLFS) Driver Heap-Based Buffer Overflow Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Future of Network Security: Automated Internal and External Pentesting]]></title>
+        <id>https://thehackernews.com/2024/12/the-future-of-network-security.html</id>
+        <link href="https://thehackernews.com/2024/12/the-future-of-network-security.html"/>
+        <updated>2024-12-10T11:50:00.000Z</updated>
+        <summary type="html"><![CDATA[In today’s rapidly evolving threat landscape, safeguarding your organization against cyberattacks is more critical than ever. Traditional penetration testing (pentesting), while effective, often falls short due to its high costs, resource requirements, and infrequent implementation. Automated internal and external network pentesting is a game-changing solution, empowering organizations to stay]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Phone Phishing Gang Busted: Eight Arrested in Belgium and Netherlands]]></title>
+        <id>https://thehackernews.com/2024/12/phone-phishing-gang-busted-eight.html</id>
+        <link href="https://thehackernews.com/2024/12/phone-phishing-gang-busted-eight.html"/>
+        <updated>2024-12-10T11:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Belgian and Dutch authorities have arrested eight suspects in connection with a "phone phishing" gang that primarily operated out of the Netherlands with an aim to steal victims' financial data and funds.
+As part of the international operation, law enforcement agencies carried out 17 searches in different locations in Belgium and the Netherlands, Europol said. In addition, large amounts of cash,]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackers Weaponize Visual Studio Code Remote Tunnels for Cyber Espionage]]></title>
+        <id>https://thehackernews.com/2024/12/hackers-weaponize-visual-studio-code.html</id>
+        <link href="https://thehackernews.com/2024/12/hackers-weaponize-visual-studio-code.html"/>
+        <updated>2024-12-10T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A suspected China-nexus cyber espionage group has been attributed to an attacks targeting large business-to-business IT service providers in Southern Europe as part of a campaign codenamed Operation Digital Eye.
+The intrusions took place from late June to mid-July 2024, cybersecurity companies SentinelOne SentinelLabs and Tinexta Cyber said in a joint report shared with The Hacker News, adding]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sprawling 'Operation Digital Eye' Attack Targets European IT Orgs]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/operation-digital-eye-attack-targets-european-it-orgs</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/operation-digital-eye-attack-targets-european-it-orgs"/>
+        <updated>2024-12-10T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A Chinese threat actor infiltrated several IT and security companies in a bring-your-own VS code, with an eye to carrying out a supply-chain-based espionage attack.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ongoing Phishing and Malware Campaigns in December 2024]]></title>
+        <id>https://thehackernews.com/2024/12/ongoing-phishing-and-malware-campaigns.html</id>
+        <link href="https://thehackernews.com/2024/12/ongoing-phishing-and-malware-campaigns.html"/>
+        <updated>2024-12-10T10:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Cyber attackers never stop inventing new ways to compromise their targets. That's why organizations must stay updated on the latest threats. 
+Here's a quick rundown of the current malware and phishing attacks you need to know about to safeguard your infrastructure before they reach you.
+Zero-day Attack: Corrupted Malicious Files Evade Detection by Most Security Systems 
+The analyst]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CERT-UA Warns of Phishing Attacks Targeting Ukraine’s Defense and Security Force]]></title>
+        <id>https://thehackernews.com/2024/12/cert-ua-warns-of-phishing-attacks.html</id>
+        <link href="https://thehackernews.com/2024/12/cert-ua-warns-of-phishing-attacks.html"/>
+        <updated>2024-12-10T09:12:00.000Z</updated>
+        <summary type="html"><![CDATA[The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new set of cyber attacks that it said were aimed at defense companies in the country as well as its security and defense forces.
+The phishing attacks have been attributed to a Russia-linked threat actor called UAC-0185 (aka UNC4221), which has been active since at least 2022.
+"The phishing emails mimicked official messages]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7146-1: Dogtag PKI vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7146-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7146-1"/>
+        <updated>2024-12-10T08:54:16.000Z</updated>
+        <summary type="html"><![CDATA[Christina Fu discovered that Dogtag PKI accidentally enabled a mock
+authentication plugin by default. An attacker could potentially use
+this flaw to bypass the regular authentication process and trick the
+CA server into issuing certificates. This issue only affected Ubuntu
+16.04 LTS. (CVE-2017-7537)
+
+It was discovered that Dogtag PKI did not properly sanitize user
+input. An attacker could possibly use this issue to perform cross site
+scripting and obtain sensitive information. This issue only affected
+Ubuntu 22.04 LTS. (CVE-2020-25715)
+
+It was discovered that the XML parser did not properly handle entity
+expansion. A remote attacker could potentially retrieve the content of
+arbitrary files by sending specially crafted HTTP requests. This issue
+only affected Ubuntu 16.04 LTS. (CVE-2022-2414)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7145-1: Expat vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7145-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7145-1"/>
+        <updated>2024-12-10T01:42:55.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Expat did not properly handle its internal state
+when attempting to resume an unstarted parser. An attacker could use this
+issue to cause a denial of service (application crash).]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[USN-7141-1: oFono vulnerabilities]]></title>
         <id>https://ubuntu.com/security/notices/USN-7141-1</id>
@@ -5508,175 +5827,6 @@ This update corrects flaws in the following subsystems:
         <summary type="html"><![CDATA[Companies and organizations need to recognize the importance of investing in engineers who possess both the soft and hard skills required to secure open source software effectively.]]></summary>
         <author>
             <name>Michael Lieberman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[THN Recap: Top Cybersecurity Threats, Tools, and Practices (Nov 04 - Nov 10)]]></title>
-        <id>https://thehackernews.com/2024/11/thn-recap-top-cybersecurity-threats_11.html</id>
-        <link href="https://thehackernews.com/2024/11/thn-recap-top-cybersecurity-threats_11.html"/>
-        <updated>2024-11-11T11:57:00.000Z</updated>
-        <summary type="html"><![CDATA[⚠️ Imagine this: the very tools you trust to protect you online—your two-factor authentication, your car’s tech system, even your security software—turned into silent allies for hackers. Sounds like a scene from a thriller, right? Yet, in 2024, this isn’t fiction; it’s the new cyber reality. Today’s attackers have become so sophisticated that they’re using our trusted tools as secret pathways,]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New GootLoader Campaign Targets Users Searching for Bengal Cat Laws in Australia]]></title>
-        <id>https://thehackernews.com/2024/11/new-gootloader-campaign-targets-users.html</id>
-        <link href="https://thehackernews.com/2024/11/new-gootloader-campaign-targets-users.html"/>
-        <updated>2024-11-11T11:55:00.000Z</updated>
-        <summary type="html"><![CDATA[In an unusually specific campaign, users searching about the legality of Bengal Cats in Australia are being targeted with the GootLoader malware.
-"In this case, we found the GootLoader actors using search results for information about a particular cat and a particular geography being used to deliver the payload: 'Are Bengal Cats legal in Australia?,'" Sophos researchers Trang Tang, Hikaru Koike,]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The ROI of Security Investments: How Cybersecurity Leaders Prove It]]></title>
-        <id>https://thehackernews.com/2024/11/the-roi-of-security-investments-how.html</id>
-        <link href="https://thehackernews.com/2024/11/the-roi-of-security-investments-how.html"/>
-        <updated>2024-11-11T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Cyber threats are intensifying, and cybersecurity has become critical to business operations. As security budgets grow, CEOs and boardrooms are demanding concrete evidence that cybersecurity initiatives deliver value beyond regulation compliance.
-Just like you wouldn’t buy a car without knowing it was first put through a crash test, security systems must also be validated to confirm their value.]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security Flaws in Popular ML Toolkits Enable Server Hijacks, Privilege Escalation]]></title>
-        <id>https://thehackernews.com/2024/11/security-flaws-in-popular-ml-toolkits.html</id>
-        <link href="https://thehackernews.com/2024/11/security-flaws-in-popular-ml-toolkits.html"/>
-        <updated>2024-11-11T10:11:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have uncovered nearly two dozen security flaws spanning 15 different machine learning (ML) related open-source projects.
-These comprise vulnerabilities discovered both on the server- and client-side, software supply chain security firm JFrog said in an analysis published last week.
-The server-side weaknesses "allow attackers to hijack important servers in the]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HPE Issues Critical Security Patches for Aruba Access Point Vulnerabilities]]></title>
-        <id>https://thehackernews.com/2024/11/hpe-issues-critical-security-patches.html</id>
-        <link href="https://thehackernews.com/2024/11/hpe-issues-critical-security-patches.html"/>
-        <updated>2024-11-11T09:57:00.000Z</updated>
-        <summary type="html"><![CDATA[Hewlett Packard Enterprise (HPE) has released security updates to address multiple vulnerabilities impacting Aruba Networking Access Point products, including two critical bugs that could result in unauthenticated command execution.
-The flaws affect Access Points running Instant AOS-8 and AOS-10 -
-
-AOS-10.4.x.x: 10.4.1.4 and below
-Instant AOS-8.12.x.x: 8.12.0.2 and below
-Instant AOS-8.10.x.x:]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cybercriminals Use Excel Exploit to Spread Fileless Remcos RAT Malware]]></title>
-        <id>https://thehackernews.com/2024/11/cybercriminals-use-excel-exploit-to.html</id>
-        <link href="https://thehackernews.com/2024/11/cybercriminals-use-excel-exploit-to.html"/>
-        <updated>2024-11-11T06:13:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have discovered a new phishing campaign that spreads a new fileless variant of known commercial malware called Remcos RAT.
-Remcos RAT "provides purchases with a wide range of advanced features to remotely control computers belonging to the buyer," Fortinet FortiGuard Labs researcher Xiaopeng Zhang said in an analysis published last week.
-"However, threat actors have]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7098-1: OpenJDK 17 vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7098-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7098-1"/>
-        <updated>2024-11-11T01:04:46.000Z</updated>
-        <summary type="html"><![CDATA[Andy Boothe discovered that the Networking component of OpenJDK 17 did not
-properly handle access under certain circumstances. An unauthenticated
-attacker could possibly use this issue to cause a denial of service.
-(CVE-2024-21208)
-
-It was discovered that the Hotspot component of OpenJDK 17 did not properly
-handle vectorization under certain circumstances. An unauthenticated
-attacker could possibly use this issue to access unauthorized resources
-and expose sensitive information. (CVE-2024-21210, CVE-2024-21235)
-
-It was discovered that the Serialization component of OpenJDK 17 did not
-properly handle deserialization under certain circumstances. An 
-unauthenticated attacker could possibly use this issue to cause a denial 
-of service. (CVE-2024-21217)
-
-It was discovered that the Hotspot compo…]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7097-1: OpenJDK 11 vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7097-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7097-1"/>
-        <updated>2024-11-11T01:02:19.000Z</updated>
-        <summary type="html"><![CDATA[Andy Boothe discovered that the Networking component of OpenJDK 11 did not
-properly handle access under certain circumstances. An unauthenticated 
-attacker could possibly use this issue to cause a denial of service.
-(CVE-2024-21208)
-
-It was discovered that the Hotspot component of OpenJDK 11 did not properly
-handle vectorization under certain circumstances. An unauthenticated
-attacker could possibly use this issue to access unauthorized resources
-and expose sensitive information. (CVE-2024-21210, CVE-2024-21235)
-
-It was discovered that the Serialization component of OpenJDK 11 did not
-properly handle deserialization under certain circumstances. An
-unauthenticated attacker could possibly use this issue to cause a denial
-of service. (CVE-2024-21217)
-
-It was discovered that the Hotspot compon…]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7096-1: OpenJDK 8 vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7096-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7096-1"/>
-        <updated>2024-11-11T01:00:09.000Z</updated>
-        <summary type="html"><![CDATA[Andy Boothe discovered that the Networking component of OpenJDK 8 did not
-properly handle access under certain circumstances. An unauthenticated 
-attacker could possibly use this issue to cause a denial of service. 
-(CVE-2024-21208)
-
-It was discovered that the Hotspot component of OpenJDK 8 did not properly
-handle vectorization under certain circumstances. An unauthenticated 
-attacker could possibly use this issue to access unauthorized resources 
-and expose sensitive information. (CVE-2024-21210, CVE-2024-21235)
-
-It was discovered that the Serialization component of OpenJDK 8 did not 
-properly handle deserialization under certain circumstances. An 
-unauthenticated attacker could possibly use this issue to cause a denial
-of service. (CVE-2024-21217)
-
-It was discovered that the Hotspot comp…]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7099-1: OpenJDK 21 vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7099-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7099-1"/>
-        <updated>2024-11-10T23:54:46.000Z</updated>
-        <summary type="html"><![CDATA[Andy Boothe discovered that the Networking component of OpenJDK 21 did not
-properly handle access under certain circumstances. An unauthenticated
-attacker could possibly use this issue to cause a denial of service.
-(CVE-2024-21208)
-
-It was discovered that the Hotspot component of OpenJDK 21 did not properly
-handle vectorization under certain circumstances. An unauthenticated
-attacker could possibly use this issue to access unauthorized resources
-and expose sensitive information. (CVE-2024-21210, CVE-2024-21235)
-
-It was discovered that the Serialization component of OpenJDK 21 did not
-properly handle deserialization under certain circumstances. An 
-unauthenticated attacker could possibly use this issue to cause a denial
-of service. (CVE-2024-21217)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
         </author>
     </entry>
     <entry>
