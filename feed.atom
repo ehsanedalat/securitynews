@@ -2,10 +2,391 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2024-12-12T01:43:45.443Z</updated>
+    <updated>2024-12-13T01:45:09.869Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-7158-1: Smarty vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7158-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7158-1"/>
+        <updated>2024-12-12T21:51:34.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Smarty incorrectly handled query parameters in
+requests. An attacker could possibly use this issue to inject arbitrary
+Javascript code, resulting in denial of service or potential execution of
+arbitrary code. This issue only affected Ubuntu 18.04 LTS, Ubuntu 20.04
+LTS, Ubuntu 22.04 LTS and Ubuntu 24.04 LTS.
+(CVE-2018-25047, CVE-2023-28447)
+
+It was discovered that Smarty did not properly sanitize user input when
+generating templates. An attacker could, through PHP injection, possibly
+use this issue to execute arbitrary code. (CVE-2024-35226)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[336K Prometheus Instances Exposed to DoS, 'Repojacking']]></title>
+        <id>https://www.darkreading.com/cloud-security/336k-prometheus-instances-exposed-dos-repojacking</id>
+        <link href="https://www.darkreading.com/cloud-security/336k-prometheus-instances-exposed-dos-repojacking"/>
+        <updated>2024-12-12T21:45:35.000Z</updated>
+        <summary type="html"><![CDATA[Open source Prometheus servers and exporters are leaking plaintext passwords and tokens, along with API addresses of internal locations.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chinese Cops Caught Using Android Spyware to Track Mobile Devices]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/chinese-cops-using-android-spyware-track-mobile-devices</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/chinese-cops-using-android-spyware-track-mobile-devices"/>
+        <updated>2024-12-12T21:21:31.000Z</updated>
+        <summary type="html"><![CDATA[Law enforcement across mainland China have been using EagleMsgSpy surveillance tool to collect mobile device data since at least 2017, new research shows.]]></summary>
+        <author>
+            <name>Becky Bracken, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IoT Cloud Cracked by 'Open Sesame' Over-the-Air Attack]]></title>
+        <id>https://www.darkreading.com/ics-ot-security/iot-cloud-cracked-open-sesame-attack</id>
+        <link href="https://www.darkreading.com/ics-ot-security/iot-cloud-cracked-open-sesame-attack"/>
+        <updated>2024-12-12T20:47:27.000Z</updated>
+        <summary type="html"><![CDATA[Researchers demonstrate how to hack Ruijie Reyee access points without Wi-Fi credentials or even physical access to the device.]]></summary>
+        <author>
+            <name>Becky Bracken, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7159-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7159-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7159-1"/>
+        <updated>2024-12-12T20:26:07.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - ARM32 architecture;
+  - ARM64 architecture;
+  - S390 architecture;
+  - x86 architecture;
+  - Power management core;
+  - GPU drivers;
+  - InfiniBand drivers;
+  - Network drivers;
+  - S/390 drivers;
+  - TTY drivers;
+  - BTRFS file system;
+  - EROFS file system;
+  - F2FS file system;
+  - File systems infrastructure;
+  - BPF subsystem;
+  - Socket messages infrastructure;
+  - Bluetooth subsystem;
+  - Ethernet bridge;
+  - Networking core;
+  - IPv4 networking;
+  - SELinux security module;
+(CVE-2022-48938, CVE-2024-42156, CVE-2024-36953, CVE-2024-38538,
+CVE-2021-47501, CVE-2024-42068, CVE-2024-26947, CVE-2024-46724,
+CVE-2024-36968, CVE-2023-52497, CVE-2024-35951, CVE-2023-52488,
+CVE-2024-44940, CVE-2022-48733, CVE-2023-52498, CVE-2022-48943,
+CVE-2024-35904, CVE-2024-42077, CVE-2024-36938, CVE-2023-52639,
+CVE-2024-42240, CVE-2024-44942, CVE-2021-47076)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Europol Cracks Down on Holiday DDoS Attacks]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/europol-holiday-ddos-attacks</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/europol-holiday-ddos-attacks"/>
+        <updated>2024-12-12T19:57:24.000Z</updated>
+        <summary type="html"><![CDATA[In Operation PowerOFF, global authorities aim to deter individuals from engaging in malicious cyber acts.]]></summary>
+        <author>
+            <name>Kristina Beek, Associate Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Efforts to Secure US Telcos Beset by Salt Typhoon Might Fall Flat]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/efforts-secure-us-telcos-salt-typhoon</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/efforts-secure-us-telcos-salt-typhoon"/>
+        <updated>2024-12-12T18:51:21.000Z</updated>
+        <summary type="html"><![CDATA[The rules necessary to secure US communications have already been in place for 30 years, argues Sen. Wyden, the FCC just hasn't enforced them. It's unclear if they will help.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7156-1: Linux kernel (GKE) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7156-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7156-1"/>
+        <updated>2024-12-12T17:47:43.000Z</updated>
+        <summary type="html"><![CDATA[Chenyuan Yang discovered that the USB Gadget subsystem in the Linux kernel
+did not properly check for the device to be enabled before writing. A local
+attacker could possibly use this to cause a denial of service.
+(CVE-2024-25741)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - ARM32 architecture;
+  - ARM64 architecture;
+  - MIPS architecture;
+  - PA-RISC architecture;
+  - PowerPC architecture;
+  - RISC-V architecture;
+  - S390 architecture;
+  - User-Mode Linux (UML);
+  - x86 architecture;
+  - Block layer subsystem;
+  - Cryptographic API;
+  - Android drivers;
+  - Serial ATA and Parallel ATA drivers;
+  - ATM drivers;
+  - Drivers core;
+  - Null block device…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7155-1: Linux kernel (NVIDIA) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7155-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7155-1"/>
+        <updated>2024-12-12T17:27:40.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - ARM64 architecture;
+  - MIPS architecture;
+  - PowerPC architecture;
+  - RISC-V architecture;
+  - S390 architecture;
+  - User-Mode Linux (UML);
+  - x86 architecture;
+  - Block layer subsystem;
+  - Android drivers;
+  - ATM drivers;
+  - Drivers core;
+  - Ublk userspace block driver;
+  - Bluetooth drivers;
+  - Character device driver;
+  - Hardware crypto device drivers;
+  - Buffer Sharing and Synchronization framework;
+  - DMA engine subsystem;
+  - Qualcomm firmware drivers;
+  - GPIO subsystem;
+  - GPU drivers;
+  - HID subsystem;
+  - Hardware monitoring drivers;
+  - I2C subsystem;
+  - I3C subsystem;
+  - IIO subs…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7154-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7154-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7154-1"/>
+        <updated>2024-12-12T17:09:44.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - ARM64 architecture;
+  - MIPS architecture;
+  - PowerPC architecture;
+  - RISC-V architecture;
+  - S390 architecture;
+  - User-Mode Linux (UML);
+  - x86 architecture;
+  - Block layer subsystem;
+  - Android drivers;
+  - ATM drivers;
+  - Drivers core;
+  - Ublk userspace block driver;
+  - Bluetooth drivers;
+  - Character device driver;
+  - Hardware crypto device drivers;
+  - Buffer Sharing and Synchronization framework;
+  - DMA engine subsystem;
+  - Qualcomm firmware drivers;
+  - GPIO subsystem;
+  - GPU drivers;
+  - HID subsystem;
+  - Hardware monitoring drivers;
+  - I2C subsystem;
+  - I3C subsystem;
+  - IIO subs…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7153-1: PHP vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7153-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7153-1"/>
+        <updated>2024-12-12T16:17:13.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that PHP incorrectly handled long string inputs
+in two database drivers. An attacker could possibly use this 
+issue to write files in locations they would not normally have
+access to. (CVE-2024-11236)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cultivating a Hacker Mindset in Cybersecurity Defense]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/cultivating-hacker-mindset-cybersecurity-defense</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/cultivating-hacker-mindset-cybersecurity-defense"/>
+        <updated>2024-12-12T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Security isn't just about tools — it's about understanding how the enemy thinks and why they make certain choices.]]></summary>
+        <author>
+            <name>Roei Sherman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Over 300K Prometheus Instances Exposed: Credentials and API Keys Leaking Online]]></title>
+        <id>https://thehackernews.com/2024/12/296000-prometheus-instances-exposed.html</id>
+        <link href="https://thehackernews.com/2024/12/296000-prometheus-instances-exposed.html"/>
+        <updated>2024-12-12T14:24:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers are warning that thousands of servers hosting the Prometheus monitoring and alerting toolkit are at risk of information leakage and exposure to denial-of-service (DoS) as well as remote code execution (RCE) attacks.
+"Prometheus servers or exporters, often lacking proper authentication, allowed attackers to easily gather sensitive information, such as credentials and API]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gamaredon Deploys Android Spyware "BoneSpy" and "PlainGnome" in Former Soviet States]]></title>
+        <id>https://thehackernews.com/2024/12/gamaredon-deploys-android-spyware.html</id>
+        <link href="https://thehackernews.com/2024/12/gamaredon-deploys-android-spyware.html"/>
+        <updated>2024-12-12T13:35:00.000Z</updated>
+        <summary type="html"><![CDATA[The Russia-linked state-sponsored threat actor tracked as Gamaredon has been attributed to two new Android spyware tools called BoneSpy and PlainGnome, marking the first time the adversary has been discovered using mobile-only malware families in its attack campaigns.
+"BoneSpy and PlainGnome target former Soviet states and focus on Russian-speaking victims," Lookout said in an analysis. "Both]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Uncover Symlink Exploit Allowing TCC Bypass in iOS and macOS]]></title>
+        <id>https://thehackernews.com/2024/12/researchers-uncover-symlink-exploit.html</id>
+        <link href="https://thehackernews.com/2024/12/researchers-uncover-symlink-exploit.html"/>
+        <updated>2024-12-12T12:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Details have emerged about a now-patched security vulnerability in Apple's iOS and macOS that, if successfully exploited, could sidestep the Transparency, Consent, and Control (TCC) framework and result in unauthorized access to sensitive information.
+The flaw, tracked as CVE-2024-44131 (CVSS score: 5.3), resides in the FileProvider component, per Apple, and has been addressed with improved]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Ten Industrial Control Systems Advisories]]></title>
+        <id>/node/22704</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/12/12/cisa-releases-ten-industrial-control-systems-advisories"/>
+        <updated>2024-12-12T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released ten Industrial Control Systems (ICS) advisories on December 12, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+ICSA-24-347-01 Siemens CPCI85 Central Processing/Communication
+ICSA-24-347-02 Siemens Engineering Platforms
+ICSA-24-347-03 Siemens RUGGEDCOM ROX II
+ICSA-24-347-04 Siemens Parasolid
+ICSA-24-347-05 Siemens Engineering Platforms
+ICSA-24-347-06 Siemens Simcenter Femap
+ICSA-24-347-07 Siemens Solid Edge SE2024
+ICSA-24-347-08 Siemens COMOS
+ICSA-24-347-09 Siemens Teamcenter Visualization
+ICSA-24-347-10 Siemens SENTRON Powercenter 1000
+CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Releases Security Updates for Multiple Products]]></title>
+        <id>/node/22693</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/12/12/apple-releases-security-updates-multiple-products"/>
+        <updated>2024-12-12T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple released security updates to address vulnerabilities in multiple Apple products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.
+CISA encourages users and administrators to review the following advisories and apply necessary updates:
+iOS 18.2 and iPadOS 18.2
+iPadOS 17.7.3
+macOS Sequoia 15.2
+macOS Sonoma 14.7.2
+macOS Ventura 13.7.2
+watchOS 11.2
+tvOS 18.2
+visionOS 2.2]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SaaS Budget Planning Guide for IT Professionals]]></title>
+        <id>https://thehackernews.com/2024/12/saas-budget-planning-guide-for-it.html</id>
+        <link href="https://thehackernews.com/2024/12/saas-budget-planning-guide-for-it.html"/>
+        <updated>2024-12-12T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[SaaS services are one of the biggest drivers of OpEx (operating expenses) for modern businesses. With Gartner projecting $247.2 billion in global SaaS spending this year, it’s no wonder SaaS budgets are a big deal in the world of finance and IT. Efficient SaaS utilization can significantly affect both the bottom line and employee productivity. 
+In this article, we’ll break down this topic]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WordPress Hunk Companion Plugin Flaw Exploited to Silently Install Vulnerable Plugins]]></title>
+        <id>https://thehackernews.com/2024/12/wordpress-hunk-companion-plugin-flaw.html</id>
+        <link href="https://thehackernews.com/2024/12/wordpress-hunk-companion-plugin-flaw.html"/>
+        <updated>2024-12-12T09:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Malicious actors are exploiting a critical vulnerability in the Hunk Companion plugin for WordPress to install other vulnerable plugins that could open the door to a variety of attacks.
+The flaw, tracked as CVE-2024-11972 (CVSS score: 9.8), affects all versions of the plugin prior to 1.9.0. The plugin has over 10,000 active installations.
+"This flaw poses a significant security risk, as it]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7108-2: AsyncSSH vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7108-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-7108-2"/>
+        <updated>2024-12-12T06:58:08.000Z</updated>
+        <summary type="html"><![CDATA[USN-7108-1 fixed vulnerabilities in AysncSSH. This update provides the
+corresponding update for Ubuntu 18.04 LTS.
+
+Original advisory details:
+
+ Fabian Bäumer, Marcus Brinkmann, and Jörg Schwenk discovered that AsyncSSH
+ did not properly handle the extension info message. An attacker able to
+ intercept communications could possibly use this issue to downgrade
+ the algorithm used for client authentication. (CVE-2023-46445)
+
+ Fabian Bäumer, Marcus Brinkmann, and Jörg Schwenk discovered that AsyncSSH
+ did not properly handle the user authentication request message. An
+ attacker could possibly use this issue to control the remote end of an SSH
+ client session via packet injection/removal and shell emulation.
+ (CVE-2023-46446)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Europol Dismantles 27 DDoS Attack Platforms Across 15 Nations; Admins Arrested]]></title>
+        <id>https://thehackernews.com/2024/12/europol-dismantles-27-ddos-attack.html</id>
+        <link href="https://thehackernews.com/2024/12/europol-dismantles-27-ddos-attack.html"/>
+        <updated>2024-12-12T06:15:00.000Z</updated>
+        <summary type="html"><![CDATA[A global law enforcement operation has failed 27 stresser services that were used to conduct distributed denial-of-service (DDoS) attacks and took them offline as part of a multi-year international exercise called PowerOFF.
+The effort, coordinated by Europol and involving 15 countries, dismantled several booter and stresser websites, including zdstresser.net, orbitalstress.net, and]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7151-1: oFono vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7151-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7151-1"/>
+        <updated>2024-12-11T23:11:27.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that oFono incorrectly handled decoding SMS messages
+leading to a stack overflow. A remote attacker could potentially use
+this issue to cause a denial of service. (CVE-2023-4232, CVE-2023-4235)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chinese Hacker Pwns 81K Sophos Devices With Zero-Day Bug]]></title>
         <id>https://www.darkreading.com/cyberattacks-data-breaches/chinese-hacker-pwns-81k-sophos-devices-with-zero-day-bug</id>
@@ -5481,331 +5862,6 @@ of service, or execute arbitrary code.]]></summary>
         <summary type="html"><![CDATA[CISOs understand the risk scenarios that can help create safeguards so everyone can use AI safely and focus on the technology's promises and opportunities.]]></summary>
         <author>
             <name>Lucas Moody</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Free Decryptor Released for BitLocker-Based ShrinkLocker Ransomware Victims]]></title>
-        <id>https://thehackernews.com/2024/11/free-decryptor-released-for-bitlocker.html</id>
-        <link href="https://thehackernews.com/2024/11/free-decryptor-released-for-bitlocker.html"/>
-        <updated>2024-11-13T13:38:00.000Z</updated>
-        <summary type="html"><![CDATA[Romanian cybersecurity company Bitdefender has released a free decryptor to help victims recover data encrypted using the ShrinkLocker ransomware.
-The decryptor is the result of a comprehensive analysis of ShrinkLocker's inner workings, allowing the researchers to discover a "specific window of opportunity for data recovery immediately after the removal of protectors from BitLocker-encrypted]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mapping License Plate Scanners in the US]]></title>
-        <id>https://www.schneier.com/blog/archives/2024/11/mapping-license-plate-scanners-in-the-us.html</id>
-        <link href="https://www.schneier.com/blog/archives/2024/11/mapping-license-plate-scanners-in-the-us.html"/>
-        <updated>2024-11-13T12:06:21.000Z</updated>
-        <summary type="html"><![CDATA[<p><a href="https://deflock.me/">DeFlock</a> is a crowd-sourced project to <a href="https://www.404media.co/email/86114692-d4b0-4794-b1e8-ec0adedcfcfa/">map license plate scanners</a>.</p>
-<p>It only records the fixed scanners, of course. The mobile scanners on cars are not mapped.</p>
-<p>The post <a href="https://www.schneier.com/blog/archives/2024/11/mapping-license-plate-scanners-in-the-us.html">Mapping License Plate Scanners in the US</a> appeared first on <a href="https://www.schneier.com">Schneier on Security</a>.</p>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7089-4: Linux kernel vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7089-4</id>
-        <link href="https://ubuntu.com/security/notices/USN-7089-4"/>
-        <updated>2024-11-13T12:05:57.000Z</updated>
-        <summary type="html"><![CDATA[Chenyuan Yang discovered that the USB Gadget subsystem in the Linux
-kernel did not properly check for the device to be enabled before
-writing. A local attacker could possibly use this to cause a denial of
-service. (CVE-2024-25741)
-
-Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - ARM32 architecture;
-  - MIPS architecture;
-  - PA-RISC architecture;
-  - PowerPC architecture;
-  - RISC-V architecture;
-  - S390 architecture;
-  - x86 architecture;
-  - Cryptographic API;
-  - Serial ATA and Parallel ATA drivers;
-  - Null block device driver;
-  - Bluetooth drivers;
-  - Cdrom driver;
-  - Clock framework and drivers;
-  - Hardware crypto device drivers;
-  - CXL (Comput…]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Palo Alto Networks Emphasizes Hardening Guidance]]></title>
-        <id>/node/22531</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/11/13/palo-alto-networks-emphasizes-hardening-guidance"/>
-        <updated>2024-11-13T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Palo Alto Networks (PAN) has released an important informational bulletin on securing management interfaces after becoming aware of claims of an unverified remote code execution vulnerability via the PAN-OS management interface.
-CISA urges users and administrators to review the following for more information, follow PAN’s guidance for hardening network devices, review PAN’s instruction for accessing organization’s scan results for internet-facing management interfaces, and take immediate action if required:
-PAN-SA-2024-0015 Important Informational Bulletin: Ensure Access to Management Interface is Secured
-Tips & Tricks: How to Secure the Management Access of Your Palo Alto Networks Device]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Comprehensive Guide to Building a Strong Browser Security Program]]></title>
-        <id>https://thehackernews.com/2024/11/comprehensive-guide-to-building-strong.html</id>
-        <link href="https://thehackernews.com/2024/11/comprehensive-guide-to-building-strong.html"/>
-        <updated>2024-11-13T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The rise of SaaS and cloud-based work environments has fundamentally altered the cyber risk landscape. With more than 90% of organizational network traffic flowing through browsers and web applications, companies are facing new and serious cybersecurity threats. These include phishing attacks, data leakage, and malicious extensions. As a result, the browser also becomes a vulnerability that]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OvrC Platform Vulnerabilities Expose IoT Devices to Remote Attacks and Code Execution]]></title>
-        <id>https://thehackernews.com/2024/11/ovrc-platform-vulnerabilities-expose.html</id>
-        <link href="https://thehackernews.com/2024/11/ovrc-platform-vulnerabilities-expose.html"/>
-        <updated>2024-11-13T09:28:00.000Z</updated>
-        <summary type="html"><![CDATA[A security analysis of the OvrC cloud platform has uncovered 10 vulnerabilities that could be chained to allow potential attackers to execute code remotely on connected devices.
-"Attackers successfully exploiting these vulnerabilities can access, control, and disrupt devices supported by OvrC; some of those include smart electrical power supplies, cameras, routers, home automation systems, and]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Iranian Hackers Use "Dream Job" Lures to Deploy SnailResin Malware in Aerospace Attacks]]></title>
-        <id>https://thehackernews.com/2024/11/iranian-hackers-use-dream-job-lures-to.html</id>
-        <link href="https://thehackernews.com/2024/11/iranian-hackers-use-dream-job-lures-to.html"/>
-        <updated>2024-11-13T07:14:00.000Z</updated>
-        <summary type="html"><![CDATA[The Iranian threat actor known as TA455 has been observed taking a leaf out of a North Korean hacking group's playbook to orchestrate its own version of the Dream Job campaign targeting the aerospace industry by offering fake jobs since at least September 2023.
-"The campaign distributed the SnailResin malware, which activates the SlugResin backdoor," Israeli cybersecurity company ClearSky said]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Fixes 90 New Flaws, Including Actively Exploited NTLM and Task Scheduler Bugs]]></title>
-        <id>https://thehackernews.com/2024/11/microsoft-fixes-90-new-vulnerabilities.html</id>
-        <link href="https://thehackernews.com/2024/11/microsoft-fixes-90-new-vulnerabilities.html"/>
-        <updated>2024-11-13T07:14:00.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft on Tuesday revealed that two security flaws impacting Windows NT LAN Manager (NTLM) and Task Scheduler have come under active exploitation in the wild.
-The security vulnerabilities are among the 90 security bugs the tech giant addressed as part of its Patch Tuesday update for November 2024. Of the 90 flaws, four are rated Critical, 85 are rated Important, and one is rated Moderate in]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Middle East Cybersecurity Efforts Catch Up After Late Start]]></title>
-        <id>https://www.darkreading.com/cyber-risk/middle-east-cybersecurity-efforts-catch-up</id>
-        <link href="https://www.darkreading.com/cyber-risk/middle-east-cybersecurity-efforts-catch-up"/>
-        <updated>2024-11-13T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Despite having only a scant focus on cybersecurity regulations a decade ago, countries in the Middle East — led by Saudi Arabia and other Gulf nations — have adopted mature frameworks and regulations amid escalating volumes of attacks.]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2 Zero-Day Bugs in Microsoft's Nov. Update Under Active Exploit]]></title>
-        <id>https://www.darkreading.com/cloud-security/2-zero-day-bugs-microsoft-nov-update-active-exploit</id>
-        <link href="https://www.darkreading.com/cloud-security/2-zero-day-bugs-microsoft-nov-update-active-exploit"/>
-        <updated>2024-11-12T22:41:11.000Z</updated>
-        <summary type="html"><![CDATA[The November 2024 Patch Tuesday update contains a substantially high percentage of remote code execution (RCE) vulnerabilities (including a critical issue in Windows Kerberos), and two other zero-day bugs that have been previously disclosed and could soon come under attack.]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon Employee Data Compromised in MOVEit Breach]]></title>
-        <id>https://www.darkreading.com/cloud-security/amazon-employee-data-compromised-moveit-breach</id>
-        <link href="https://www.darkreading.com/cloud-security/amazon-employee-data-compromised-moveit-breach"/>
-        <updated>2024-11-12T22:18:29.000Z</updated>
-        <summary type="html"><![CDATA[The data leak was not actually due to a breach in Amazon's systems but rather that of a third-party vendor; the supply chain incident affected several other clients as well.]]></summary>
-        <author>
-            <name>Dark Reading Staff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7105-1: .NET vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7105-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7105-1"/>
-        <updated>2024-11-12T22:03:29.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that the NrbfDecoder component in .NET did not properly
-handle an instance of a type confusion vulnerability. An authenticated
-attacker could possibly use this issue to gain the privileges of another
-user and execute arbitrary code. (CVE-2024-43498)
-
-It was discovered that the NrbfDecoder component in .NET did not properly
-perform input validation. An unauthenticated remote attacker could possibly
-use this issue to cause a denial of service. (CVE-2024-43499)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Essay Competition Explores AI's Role in Cybersecurity]]></title>
-        <id>https://www.darkreading.com/remote-workforce/new-essay-competition-explores-ai-role-cybersecurity</id>
-        <link href="https://www.darkreading.com/remote-workforce/new-essay-competition-explores-ai-role-cybersecurity"/>
-        <updated>2024-11-12T20:48:52.000Z</updated>
-        <summary type="html"><![CDATA[The essays are to focus on the impact that artificial intelligence will have on European policy.]]></summary>
-        <author>
-            <name>Edge Editors</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CrowdStrike Spends to Boost Identity Threat Detection]]></title>
-        <id>https://www.darkreading.com/identity-access-management-security/crowdstrike-spends-boost-identity-threat-detection</id>
-        <link href="https://www.darkreading.com/identity-access-management-security/crowdstrike-spends-boost-identity-threat-detection"/>
-        <updated>2024-11-12T19:46:24.000Z</updated>
-        <summary type="html"><![CDATA[Adaptive Shield is the third security posture management provider the company has acquired in the last 14 months as identity-based attacks continue to rise.]]></summary>
-        <author>
-            <name>Jeffrey Schwartz, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['GoIssue' Cybercrime Tool Targets GitHub Developers En Masse]]></title>
-        <id>https://www.darkreading.com/cloud-security/goissue-cybercrime-tool-github-developers-en-masse</id>
-        <link href="https://www.darkreading.com/cloud-security/goissue-cybercrime-tool-github-developers-en-masse"/>
-        <updated>2024-11-12T17:44:24.000Z</updated>
-        <summary type="html"><![CDATA[Marketed on a cybercriminal forum, the $700 tool harvests email addresses from public GitHub profiles, priming cyberattackers for further credential theft, malware delivery, OAuth subversion, supply chain attacks, and other corporate breaches.]]></summary>
-        <author>
-            <name>Elizabeth Montalbano, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Citrix Issues Patches for Zero-Day Recording Manager Bugs]]></title>
-        <id>https://www.darkreading.com/cloud-security/citrix-patches-zero-day-recording-manager-bugs</id>
-        <link href="https://www.darkreading.com/cloud-security/citrix-patches-zero-day-recording-manager-bugs"/>
-        <updated>2024-11-12T16:31:25.000Z</updated>
-        <summary type="html"><![CDATA[There is some disagreement over whether the remote code execution (RCE) security flaws allow for unauthenticated exploitation or not. Citrix says no, but researchers say the company is downplaying a "good old unauthenticated RCE."]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerability Summary for the Week of November 4, 2024]]></title>
-        <id>/node/22545</id>
-        <link href="https://www.cisa.gov/news-events/bulletins/sb24-317"/>
-        <updated>2024-11-12T16:20:06.000Z</updated>
-        <summary type="html"><![CDATA[High Vulnerabilities
-Primary
-Vendor -- Product
-Description
-Published
-CVSS Score
-Source Info
-
-
-
-
-1000 Projects--Beauty Parlour Management System
- 
-A vulnerability, which was classified as critical, has been found in 1000 Projects Beauty Parlour Management System 1.0. This issue affects some unknown processing of the file /admin/admin-profile.php. The manipulation of the argument adminname leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
-2024-11-10
-7.3
-CVE-2024-11055
-
-
-1000 Projects--Bookstore Management System
- 
-A vulnerability was found in 1000 Projects Bookstore Management System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /contact_process.php. The m…]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7103-1: Ghostscript vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7103-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7103-1"/>
-        <updated>2024-11-12T15:54:53.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that Ghostscript incorrectly handled parsing certain PS
-files. An attacker could use this issue to cause Ghostscript to crash,
-resulting in a denial of service, or possibly execute arbitrary code.
-(CVE-2024-46951, CVE-2024-46953, CVE-2024-46955, CVE-2024-46956)
-
-It was discovered that Ghostscript incorrectly handled parsing certain PDF
-files. An attacker could use this issue to cause Ghostscript to crash,
-resulting in a denial of service, or possibly execute arbitrary code. This
-issue only affected Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 24.10.
-(CVE-2024-46952)
-
-It was discovered that Ghostscript incorrectly handled parsing certain PS
-files. An attacker could use this issue to cause Ghostscript to crash,
-resulting in a denial of service, or possibly bypass file path validation.
-This issue only affected Ubuntu 24.04 LTS and Ubuntu 24.10.
-(CVE-2024-46954)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Citrix 'Recording Manager' Zero-Day Bug Allows Unauthenticated RCE]]></title>
-        <id>https://www.darkreading.com/cloud-security/citrix-recording-manager-zero-day-bug-unauthenticated-rce</id>
-        <link href="https://www.darkreading.com/cloud-security/citrix-recording-manager-zero-day-bug-unauthenticated-rce"/>
-        <updated>2024-11-12T15:09:12.000Z</updated>
-        <summary type="html"><![CDATA[The security vulnerability is due to an exposed Microsoft Message Queuing (MSMQ) instance and the use of the insecure BinaryFormatter.]]></summary>
-        <author>
-            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Power of the Purse: How to Ensure Security by Design]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/power-purse-ensure-security-by-design</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/power-purse-ensure-security-by-design"/>
-        <updated>2024-11-12T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA should make its recommended goals mandatory and perform audits to ensure compliance.]]></summary>
-        <author>
-            <name>Gary Barlet</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7100-2: Linux kernel vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7100-2</id>
-        <link href="https://ubuntu.com/security/notices/USN-7100-2"/>
-        <updated>2024-11-12T14:54:50.000Z</updated>
-        <summary type="html"><![CDATA[Supraja Sridhara, Benedict Schlüter, Mark Kuhne, Andrin Bertschi, and
-Shweta Shinde discovered that the Confidential Computing framework in
-the Linux kernel for x86 platforms did not properly handle 32-bit
-emulation on TDX and SEV. An attacker with access to the VMM could use
-this to cause a denial of service (guest crash) or possibly execute
-arbitrary code. (CVE-2024-25744)
-
-Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - ARM64 architecture;
-  - MIPS architecture;
-  - PowerPC architecture;
-  - RISC-V architecture;
-  - User-Mode Linux (UML);
-  - x86 architecture;
-  - Block layer subsystem;
-  - Android drivers;
-  - Serial ATA and Parallel ATA drivers;
-  - A…]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Flaws in Citrix Virtual Apps Enable RCE Attacks via MSMQ Misconfiguration]]></title>
-        <id>https://thehackernews.com/2024/11/new-flaws-in-citrix-virtual-apps-enable.html</id>
-        <link href="https://thehackernews.com/2024/11/new-flaws-in-citrix-virtual-apps-enable.html"/>
-        <updated>2024-11-12T14:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed new security flaws impacting Citrix Virtual Apps and Desktop that could be exploited to achieve unauthenticated remote code execution (RCE)
-The issue, per findings from watchTowr, is rooted in the Session Recording component that allows system administrators to capture user activity, and record keyboard and mouse input, along with a video stream of the]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Phishing Tool GoIssue Targets GitHub Developers in Bulk Email Campaigns]]></title>
-        <id>https://thehackernews.com/2024/11/new-phishing-tool-goissue-targets.html</id>
-        <link href="https://thehackernews.com/2024/11/new-phishing-tool-goissue-targets.html"/>
-        <updated>2024-11-12T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers are calling attention to a new sophisticated tool called GoIssue that can be used to send phishing messages at scale targeting GitHub users.
-The program, first marketed by a threat actor named cyberdluffy (aka Cyber D' Luffy) on the Runion forum earlier this August, is advertised as a tool that allows criminal actors to extract email addresses from public GitHub]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
         </author>
     </entry>
     <entry>
