@@ -2,10 +2,420 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-01-09T02:08:59.538Z</updated>
+    <updated>2025-01-10T01:38:02.139Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-7198-1: rlottie vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7198-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7198-1"/>
+        <updated>2025-01-10T01:11:01.000Z</updated>
+        <summary type="html"><![CDATA[Paolo Giai discovered a series of stack-based overflow vulnerabilities in
+the blit and gray_render_cubic functions of a custom fork of the rlottie
+library. An attacker could possibly use this issue to leak sensitive 
+information. This issue only affected Ubuntu 20.04 LTS and Ubuntu 22.04
+LTS. (CVE-2021-31315, CVE-2021-31321)
+
+Paolo Giai discovered a series of type confusion vulnerabilities in the
+VDasher constructor and the LOTCompLayerItem::LOTCompLayerItem function
+of a custom fork of the rlottie library. An attacker could possibly use
+this issue to leak sensitive information. This issue only affected Ubuntu
+20.04 LTS. (CVE-2021-31317, CVE-2021-31318)
+
+Paolo Giai discovered an integer overflow vulnerability in the 
+LOTGradient::populate function of a custom fork of the rlottie library.
+An attacker could possibly use this issue to leak sensitive information.
+This issue only affected Ubuntu 20.04 LTS. (CVE-2021-31319)
+
+Paolo Giai discovered a series of heap buffer overflow vulnerabilities
+in the VGradientCache::generateGradientColorTable and
+LOTGradient::populate functions of a custom fork of the rlottie library.
+An attacker could possibly use this issue to achieve remote code execution.
+This issue only affected Ubuntu 20.04 LTS. (CVE-2021-31320, CVE-2021-31322)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Banshee 2.0 Malware Steals Apple's Encryption to Hide on Macs]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/banshee-malware-steals-apple-encryption-macs</id>
+        <link href="https://www.darkreading.com/threat-intelligence/banshee-malware-steals-apple-encryption-macs"/>
+        <updated>2025-01-09T22:47:15.000Z</updated>
+        <summary type="html"><![CDATA[The most recent iteration of the open source infostealer skates by antivirus programs on Macs, using an encryption mechanism stolen from Apple's own antivirus product.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hacking Group 'Silk Typhoon' Linked to US Treasury Breach]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/hacking-group-silk-typhoon-linked-us-treasury-breach</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/hacking-group-silk-typhoon-linked-us-treasury-breach"/>
+        <updated>2025-01-09T21:11:38.000Z</updated>
+        <summary type="html"><![CDATA[The attack used a stolen remote support SaaS API key to exfiltrate data from workstations in the Treasury Department's Office of Foreign Assets Control.]]></summary>
+        <author>
+            <name>Kristina Beek, Associate Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Major Vulnerabilities Patched in SonicWall, Palo Alto Expedition, and Aviatrix Controllers]]></title>
+        <id>https://thehackernews.com/2025/01/major-vulnerabilities-patched-in.html</id>
+        <link href="https://thehackernews.com/2025/01/major-vulnerabilities-patched-in.html"/>
+        <updated>2025-01-09T17:29:00.000Z</updated>
+        <summary type="html"><![CDATA[Palo Alto Networks has released software patches to address several security flaws in its Expedition migration tool, including a high-severity bug that an authenticated attacker could exploit to access sensitive data.
+"Multiple vulnerabilities in the Palo Alto Networks Expedition migration tool enable an attacker to read Expedition database contents and arbitrary files, as well as create and]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero-Day Vulnerability in Ivanti VPN]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/01/zero-day-vulnerability-in-ivanti-vpn.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/01/zero-day-vulnerability-in-ivanti-vpn.html"/>
+        <updated>2025-01-09T17:16:38.000Z</updated>
+        <summary type="html"><![CDATA[<p>It&#8217;s being <a href="https://techcrunch.com/2025/01/09/hackers-are-exploiting-a-new-ivanti-vpn-security-bug-to-hack-into-company-networks/">actively exploited</a>.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7197-1: Go Networking vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7197-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7197-1"/>
+        <updated>2025-01-09T16:31:08.000Z</updated>
+        <summary type="html"><![CDATA[Guido Vranken discovered that Go Networking handled input to the Parse
+functions inefficiently. An attacker could possibly use this issue to
+cause denial of service. This update addresses the issue in the
+golang-golang-x-net and golang-golang-x-net-dev packages, as well as the
+library vendored within adsys and juju-core.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New AI Challenges Will Test CISOs &amp; Their Teams in 2025]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/new-ai-challenges-test-ciso-teams-2025</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/new-ai-challenges-test-ciso-teams-2025"/>
+        <updated>2025-01-09T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISOs need to recognize the new threats AI can present — while also embracing AI-powered solutions to stay ahead of those threats.]]></summary>
+        <author>
+            <name>Josh Lemos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Banshee Stealer Variant Bypasses Antivirus with Apple’s XProtect-Inspired Encryption]]></title>
+        <id>https://thehackernews.com/2025/01/new-banshee-stealer-variant-bypasses.html</id>
+        <link href="https://thehackernews.com/2025/01/new-banshee-stealer-variant-bypasses.html"/>
+        <updated>2025-01-09T13:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have uncovered a new, stealthier version of a macOS-focused information-stealing malware called Banshee Stealer.
+"Once thought dormant after its source code leak in late 2024, this new iteration introduces advanced string encryption inspired by Apple's XProtect," Check Point Research said in a new analysis shared with The Hacker News. "This development allows it to]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7185-2: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7185-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-7185-2"/>
+        <updated>2025-01-09T13:12:14.000Z</updated>
+        <summary type="html"><![CDATA[Ziming Zhang discovered that the VMware Virtual GPU DRM driver in the Linux
+kernel contained an integer overflow vulnerability. A local attacker could
+use this to cause a denial of service (system crash). (CVE-2022-36402)
+
+Zheng Wang discovered a use-after-free in the Renesas Ethernet AVB driver
+in the Linux kernel during device removal. A privileged attacker could use
+this to cause a denial of service (system crash). (CVE-2023-35827)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - GPU drivers;
+  - I2C subsystem;
+  - InfiniBand drivers;
+  - IRQ chip drivers;
+  - Network drivers;
+  - Pin controllers subsystem;
+  - S/390 drivers;
+  - TTY drivers;
+  - USB Host Controller drivers;
+  - USB Mass Storage drivers;
+  - Framebuffer layer;
+  - Ext4 file system;
+  - File systems infrastructure;
+  - Bluetooth subsystem;
+  - DMA mapping infrastructure;
+  - Memory management;
+  - 9P file system network protocol;
+  - IPv4 networking;
+  - IPv6 networking;
+  - Logical Link layer;
+  - MAC80211 subsystem;
+  - Netfilter;
+  - NFC subsystem;
+  - Phonet protocol;
+  - Network traffic control;
+  - VMware vSockets driver;
+  - Wireless networking;
+(CVE-2024-42090, CVE-2024-42156, CVE-2021-47082, CVE-2024-26921,
+CVE-2023-52594, CVE-2024-36968, CVE-2024-38633, CVE-2024-42077,
+CVE-2021-47076, CVE-2021-47501, CVE-2023-52507, CVE-2024-42153,
+CVE-2024-39301, CVE-2024-36946, CVE-2024-43884, CVE-2023-52509,
+CVE-2024-36004, CVE-2023-52486, CVE-2024-50264, CVE-2024-45006,
+CVE-2024-36941, CVE-2024-43856, CVE-2024-40912, CVE-2024-49967,
+CVE-2024-53057, CVE-2024-26777, CVE-2024-36270, CVE-2024-26625,
+CVE-2024-45021, CVE-2024-35886, CVE-2024-44947, CVE-2024-44944,
+CVE-2024-35847, CVE-2024-40959, CVE-2024-42101, CVE-2024-38619)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7169-4: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7169-4</id>
+        <link href="https://ubuntu.com/security/notices/USN-7169-4"/>
+        <updated>2025-01-09T13:00:24.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - Ext4 file system;
+  - Network traffic control;
+  - VMware vSockets driver;
+(CVE-2024-49967, CVE-2024-53057, CVE-2024-50264)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7196-1: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7196-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7196-1"/>
+        <updated>2025-01-09T12:34:21.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - ARM64 architecture;
+  - MIPS architecture;
+  - PowerPC architecture;
+  - RISC-V architecture;
+  - S390 architecture;
+  - User-Mode Linux (UML);
+  - x86 architecture;
+  - Block layer subsystem;
+  - Android drivers;
+  - ATM drivers;
+  - Drivers core;
+  - Ublk userspace block driver;
+  - Bluetooth drivers;
+  - Character device driver;
+  - Hardware crypto device drivers;
+  - Buffer Sharing and Synchronization framework;
+  - DMA engine subsystem;
+  - Qualcomm firmware drivers;
+  - GPIO subsystem;
+  - GPU drivers;
+  - HID subsystem;
+  - Hardware monitoring drivers;
+  - I2C subsystem;
+  - I3C subsystem;
+  - IIO subs…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7195-1: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7195-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7195-1"/>
+        <updated>2025-01-09T12:19:02.000Z</updated>
+        <summary type="html"><![CDATA[Ziming Zhang discovered that the DRM driver for VMware Virtual GPU did not
+properly handle certain error conditions, leading to a NULL pointer
+dereference. A local attacker could possibly trigger this vulnerability to
+cause a denial of service. (CVE-2022-38096)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - ARM32 architecture;
+  - ARM64 architecture;
+  - S390 architecture;
+  - x86 architecture;
+  - Power management core;
+  - GPU drivers;
+  - InfiniBand drivers;
+  - Network drivers;
+  - S/390 drivers;
+  - SCSI subsystem;
+  - TTY drivers;
+  - BTRFS file system;
+  - Ext4 file system;
+  - EROFS file system;
+  - F2FS file system;
+  - File systems infrastructure;
+  - BPF subsystem;
+  - Socket messages infrastructure;
+  - Bluetooth subsystem;
+  - Memory management;
+  - Amateur Radio drivers;
+  - Ethernet bridge;
+  - Networking core;
+  - IPv4 networking;
+  - Network traffic control;
+  - Sun RPC protocol;
+  - VMware vSockets driver;
+  - SELinux security module;
+(CVE-2024-42240, CVE-2024-36938, CVE-2024-35967, CVE-2024-36953,
+CVE-2022-48938, CVE-2024-38553, CVE-2024-35904, CVE-2024-35965,
+CVE-2024-26947, CVE-2024-36968, CVE-2024-43892, CVE-2024-38597,
+CVE-2023-52498, CVE-2021-47501, CVE-2024-44942, CVE-2024-42077,
+CVE-2024-53057, CVE-2024-46724, CVE-2024-35963, CVE-2022-48943,
+CVE-2024-42068, CVE-2024-42156, CVE-2022-48733, CVE-2023-52639,
+CVE-2021-47101, CVE-2023-52821, CVE-2024-44940, CVE-2024-36952,
+CVE-2021-47001, CVE-2024-38538, CVE-2024-40910, CVE-2021-47076,
+CVE-2024-35966, CVE-2024-50264, CVE-2024-35951, CVE-2023-52488,
+CVE-2023-52497, CVE-2024-49967)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7194-1: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7194-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7194-1"/>
+        <updated>2025-01-09T11:58:43.000Z</updated>
+        <summary type="html"><![CDATA[Andy Nguyen discovered that the Bluetooth L2CAP implementation in the Linux
+kernel contained a type-confusion error. A physically proximate remote
+attacker could use this to cause a denial of service (system crash) or
+possibly execute arbitrary code. (CVE-2020-12351)
+
+Andy Nguyen discovered that the Bluetooth A2MP implementation in the Linux
+kernel did not properly initialize memory in some situations. A physically
+proximate remote attacker could use this to expose sensitive information
+(kernel memory). (CVE-2020-12352)
+
+Andy Nguyen discovered that the Bluetooth HCI event packet parser in the
+Linux kernel did not properly handle event advertisements of certain sizes,
+leading to a heap-based buffer overflow. A physically proximate remote
+attacker could use this to cause a denial of service …]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Product Walkthrough: How Reco Discovers Shadow AI in SaaS]]></title>
+        <id>https://thehackernews.com/2025/01/product-review-how-reco-discovers.html</id>
+        <link href="https://thehackernews.com/2025/01/product-review-how-reco-discovers.html"/>
+        <updated>2025-01-09T11:55:00.000Z</updated>
+        <summary type="html"><![CDATA[As SaaS providers race to integrate AI into their product offerings to stay competitive and relevant, a new challenge has emerged in the world of AI: shadow AI. 
+Shadow AI refers to the unauthorized use of AI tools and copilots at organizations. For example, a developer using ChatGPT to assist with writing code, a salesperson downloading an AI-powered meeting transcription tool, or a]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7186-2: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7186-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-7186-2"/>
+        <updated>2025-01-09T11:22:33.000Z</updated>
+        <summary type="html"><![CDATA[Andy Nguyen discovered that the Bluetooth L2CAP implementation in the Linux
+kernel contained a type-confusion error. A physically proximate remote
+attacker could use this to cause a denial of service (system crash) or
+possibly execute arbitrary code. (CVE-2020-12351)
+
+Andy Nguyen discovered that the Bluetooth A2MP implementation in the Linux
+kernel did not properly initialize memory in some situations. A physically
+proximate remote attacker could use this to expose sensitive information
+(kernel memory). (CVE-2020-12352)
+
+Andy Nguyen discovered that the Bluetooth HCI event packet parser in the
+Linux kernel did not properly handle event advertisements of certain sizes,
+leading to a heap-based buffer overflow. A physically proximate remote
+attacker could use this to cause a denial of service …]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MirrorFace Leverages ANEL and NOOPDOOR in Multi-Year Cyberattacks on Japan]]></title>
+        <id>https://thehackernews.com/2025/01/mirrorface-leverages-anel-and-noopdoor.html</id>
+        <link href="https://thehackernews.com/2025/01/mirrorface-leverages-anel-and-noopdoor.html"/>
+        <updated>2025-01-09T10:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Japan's National Police Agency (NPA) and National Center of Incident Readiness and Strategy for Cybersecurity (NCSC) accused a China-linked threat actor named MirrorFace of orchestrating a persistent attack campaign targeting organizations, businesses, and individuals in the country since 2019.
+The primary objective of the attack campaign is to steal information related to Japan's national]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webinar: Learn How to Stop Encrypted Attacks Before They Cost You Millions]]></title>
+        <id>https://thehackernews.com/2025/01/webinar-learn-how-to-stop-encrypted.html</id>
+        <link href="https://thehackernews.com/2025/01/webinar-learn-how-to-stop-encrypted.html"/>
+        <updated>2025-01-09T10:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Ransomware isn’t slowing down—it’s getting smarter. Encryption, designed to keep our online lives secure, is now being weaponized by cybercriminals to hide malware, steal data, and avoid detection.The result? A 10.3% surge in encrypted attacks over the past year and some of the most shocking ransom payouts in history, including a $75 million ransom in 2024.
+Are you prepared to fight back?
+Join]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical RCE Flaw in GFI KerioControl Allows Remote Code Execution via CRLF Injection]]></title>
+        <id>https://thehackernews.com/2025/01/critical-rce-flaw-in-gfi-keriocontrol.html</id>
+        <link href="https://thehackernews.com/2025/01/critical-rce-flaw-in-gfi-keriocontrol.html"/>
+        <updated>2025-01-09T09:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors are attempting to take advantage of a recently disclosed security flaw impacting GFI KerioControl firewalls that, if successfully exploited, could allow malicious actors to achieve remote code execution (RCE).
+The vulnerability in question, CVE-2024-52875, refers to a carriage return line feed (CRLF) injection attack, paving the way for HTTP response splitting, which could then]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[E.U. Commission Fined for Transferring User Data to Meta in Violation of Privacy Laws]]></title>
+        <id>https://thehackernews.com/2025/01/eu-commission-fined-for-transferring.html</id>
+        <link href="https://thehackernews.com/2025/01/eu-commission-fined-for-transferring.html"/>
+        <updated>2025-01-09T07:13:00.000Z</updated>
+        <summary type="html"><![CDATA[The European General Court on Wednesday fined the European Commission, the primary executive arm of the European Union responsible for proposing and enforcing laws for member states, for violating the bloc's own data privacy regulations.
+The development marks the first time the Commission has been held liable for infringing stringent data protection laws in the region.
+The court determined that]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ivanti Flaw CVE-2025-0282 Actively Exploited, Impacts Connect Secure and Policy Secure]]></title>
+        <id>https://thehackernews.com/2025/01/ivanti-flaw-cve-2025-0282-actively.html</id>
+        <link href="https://thehackernews.com/2025/01/ivanti-flaw-cve-2025-0282-actively.html"/>
+        <updated>2025-01-09T07:13:00.000Z</updated>
+        <summary type="html"><![CDATA[Ivanti is warning that a critical security flaw impacting Ivanti Connect Secure, Policy Secure, and ZTA Gateways has come under active exploitation in the wild beginning mid-December 2024.
+The security vulnerability in question is CVE-2025-0282 (CVSS score: 9.0), a stack-based buffer overflow that affects Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7193-1: Thunderbird vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7193-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7193-1"/>
+        <updated>2025-01-09T03:54:42.000Z</updated>
+        <summary type="html"><![CDATA[Masato Kinugawa discovered that Thunderbird did not properly validate the
+CSP policy in the Web Compatibility extension. An attacker could
+potentially exploit this issue to perform a cross-site scripting attack.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7192-1: xfpt vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7192-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7192-1"/>
+        <updated>2025-01-09T03:48:41.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that xfpt did not properly manage memory under certain
+circumstances. If a user were tricked into opening a specially crafted
+file, an attacker could possibly use this issue to cause the application
+to crash or execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[India Readies Overhauled National Data Privacy Rules]]></title>
         <id>https://www.darkreading.com/cybersecurity-operations/india-overhauled-national-data-privacy-rules</id>
@@ -4219,292 +4629,6 @@ utilization leading to a denial of service. (CVE-2024-52804)]]></summary>
         <updated>2024-12-11T14:07:00.000Z</updated>
         <summary type="html"><![CDATA[Cybersecurity researchers have discovered a new version of the ZLoader malware that employs a Domain Name System (DNS) tunnel for command-and-control (C2) communications, indicating that the threat actors are continuing to refine the tool after resurfacing a year ago.
 "Zloader 2.9.4.0 adds notable improvements including a custom DNS tunnel protocol for C2 communications and an interactive shell]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jailbreaking LLM-Controlled Robots]]></title>
-        <id>https://www.schneier.com/blog/archives/2024/12/jailbreaking-llm-controlled-robots.html</id>
-        <link href="https://www.schneier.com/blog/archives/2024/12/jailbreaking-llm-controlled-robots.html"/>
-        <updated>2024-12-11T12:02:50.000Z</updated>
-        <summary type="html"><![CDATA[<p>Surprising no one, it&#8217;s <a href="https://spectrum.ieee.org/jailbreak-llm">easy</a> <a href="https://robopair.org/">to</a> trick an LLM-controlled robot into ignoring its safety instructions.</p>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chinese EagleMsgSpy Spyware Found Exploiting Mobile Devices Since 2017]]></title>
-        <id>https://thehackernews.com/2024/12/chinese-eaglemsgspy-spyware-found.html</id>
-        <link href="https://thehackernews.com/2024/12/chinese-eaglemsgspy-spyware-found.html"/>
-        <updated>2024-12-11T11:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have discovered a novel surveillance program that's suspected to be used by Chinese police departments as a lawful intercept tool to gather a wide range of information from mobile devices.
-The Android tool, codenamed EagleMsgSpy by Lookout, has been operational since at least 2017, with artifacts uploaded to the VirusTotal malware scanning platform as recently as]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Nudge Security and How Does it Work?]]></title>
-        <id>https://thehackernews.com/2024/01/what-is-nudge-security-and-how-does-it.html</id>
-        <link href="https://thehackernews.com/2024/01/what-is-nudge-security-and-how-does-it.html"/>
-        <updated>2024-12-11T11:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Regain control of SaaS sprawl with Day One discovery of all SaaS and GenAI accounts along with workflows to help you mitigate security risks, curb rogue app usage, and manage SaaS spend.
-In today’s highly distributed workplace, every employee has the ability to act as their own CIO, adopting new cloud and SaaS technologies whenever and wherever they need. While this has been a critical boon to]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers Uncover Espionage Tactics of China-Based APT Groups in Southeast Asia]]></title>
-        <id>https://thehackernews.com/2024/12/researchers-uncover-espionage-tactics.html</id>
-        <link href="https://thehackernews.com/2024/12/researchers-uncover-espionage-tactics.html"/>
-        <updated>2024-12-11T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A suspected China-based threat actor has been linked to a series of cyber attacks targeting high-profile organizations in Southeast Asia since at least October 2023.
-The espionage campaign targeted organizations in various sectors spanning government ministries in two different countries, an air traffic control organization, a telecoms company, and a media outlet, the Symantec Threat Hunter Team]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Fixes 72 Flaws, Including Patch for Actively Exploited CLFS Vulnerability]]></title>
-        <id>https://thehackernews.com/2024/12/microsoft-fixes-72-flaws-including.html</id>
-        <link href="https://thehackernews.com/2024/12/microsoft-fixes-72-flaws-including.html"/>
-        <updated>2024-12-11T07:16:00.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft closed out its Patch Tuesday updates for 2024 with fixes for a total of 72 security flaws spanning its software portfolio, including one that it said has been exploited in the wild.
-Of the 72 flaws, 17 are rated Critical, 54 are rated Important, and one is rated Moderate in severity. Thirty-one of the vulnerabilities are remote code execution flaws, and 27 of them allow for the]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Governments, Telcos Ward Off China's Hacking Typhoons]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/governments-telcos-chinas-hacking-typhoons</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/governments-telcos-chinas-hacking-typhoons"/>
-        <updated>2024-12-11T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Infiltrating other nations' telecom networks is a cornerstone of China's geopolitical strategy, and it's having the unintended consequence of driving the uptake of encrypted communications.]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[U.S. Charges Chinese Hacker for Exploiting Zero-Day in 81,000 Sophos Firewalls]]></title>
-        <id>https://thehackernews.com/2024/12/us-charges-chinese-hacker-for.html</id>
-        <link href="https://thehackernews.com/2024/12/us-charges-chinese-hacker-for.html"/>
-        <updated>2024-12-11T06:29:00.000Z</updated>
-        <summary type="html"><![CDATA[The U.S. government on Tuesday unsealed charges against a Chinese national for allegedly breaking into thousands of Sophos firewall devices globally in 2020.
-Guan Tianfeng (aka gbigmao and gxiaomao), who is said to have worked at Sichuan Silence Information Technology Company, Limited, has been charged with conspiracy to commit computer fraud and conspiracy to commit wire fraud. Guan has been]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ivanti Issues Critical Security Updates for CSA and Connect Secure Vulnerabilities]]></title>
-        <id>https://thehackernews.com/2024/12/ivanti-issues-critical-security-updates.html</id>
-        <link href="https://thehackernews.com/2024/12/ivanti-issues-critical-security-updates.html"/>
-        <updated>2024-12-11T02:59:00.000Z</updated>
-        <summary type="html"><![CDATA[Ivanti has released security updates to address multiple critical flaws in its Cloud Services Application (CSA) and Connect Secure products that could lead to privilege escalation and code execution.
-The list of vulnerabilities is as follows -
-
-CVE-2024-11639 (CVSS score: 10.0) - An authentication bypass vulnerability in the admin web console of Ivanti CSA before 5.0.3 that allows a remote]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7149-1: Intel Microcode vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7149-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7149-1"/>
-        <updated>2024-12-11T00:14:40.000Z</updated>
-        <summary type="html"><![CDATA[Avraham Shalev and Nagaraju N Kodalapura discovered that some Intel(R)
-Xeon(R) processors did not properly restrict access to the memory
-controller when using Intel(R) SGX. This may allow a local privileged
-attacker to further escalate their privileges. (CVE-2024-21820,
-CVE-2024-23918)
-
-It was discovered that some 4th and 5th Generation Intel(R) Xeon(R)
-Processors did not properly implement finite state machines (FSMs) in
-hardware logic. THis may allow a local privileged attacker to cause a
-denial of service (system crash). (CVE-2024-21853)
-
-It was discovered that some Intel(R) Processors did not properly restrict
-access to the Running Average Power Limit (RAPL) interface. This may allow
-a local privileged attacker to obtain sensitive information.
-(CVE-2024-23984)
-
-It was discovered that some Intel(R) Processors did not properly implement
-finite state machines (FSMs) in hardware logic. This may allow a local
-privileged attacker to cause a denial of service (system crash).
-(CVE-2024-24968)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Snowflake Rolls Out Mandatory MFA Plan]]></title>
-        <id>https://www.darkreading.com/identity-access-management-security/snowflake-rolls-out-mandatory-mfa-plan</id>
-        <link href="https://www.darkreading.com/identity-access-management-security/snowflake-rolls-out-mandatory-mfa-plan"/>
-        <updated>2024-12-10T23:11:53.000Z</updated>
-        <summary type="html"><![CDATA[As part of the commitment to CISA's Secure by Design pledge, Snowflake will begin blocking sign-ins using single-factor authentication next year.]]></summary>
-        <author>
-            <name>Dark Reading Staff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FCC Proposes New Cybersecurity Rules for Telecoms]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/fcc-new-cybersecurity-rules-telecoms</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/fcc-new-cybersecurity-rules-telecoms"/>
-        <updated>2024-12-10T22:30:34.000Z</updated>
-        <summary type="html"><![CDATA[FCC Chairwoman Jessica Rosenworcel recommended "urgent action" to safeguard the nation's communications systems from real and present cybersecurity threats.]]></summary>
-        <author>
-            <name>Jennifer Lawinski</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Actively Exploited Zero-Day, Critical RCEs Lead Microsoft Patch Tuesday]]></title>
-        <id>https://www.darkreading.com/application-security/microsoft-zero-day-critical-rces-patch-tuesday</id>
-        <link href="https://www.darkreading.com/application-security/microsoft-zero-day-critical-rces-patch-tuesday"/>
-        <updated>2024-12-10T22:21:02.000Z</updated>
-        <summary type="html"><![CDATA[The zero-day (CVE-2024-49138), plus a worryingly critical unauthenticated RCE security vulnerability (CVE-2024-49112), are unwanted gifts for security admins this season.]]></summary>
-        <author>
-            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Termite' Ransomware Likely Behind Cleo Zero-Day Attacks]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/termite-ransomware-behind-cleo-zero-day-attacks</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/termite-ransomware-behind-cleo-zero-day-attacks"/>
-        <updated>2024-12-10T21:03:08.000Z</updated>
-        <summary type="html"><![CDATA[The threat actor group recently took credit for a similar attack on Blue Yonder that affected multiple organizations, including Starbucks.]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7148-1: Linux kernel vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7148-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7148-1"/>
-        <updated>2024-12-10T19:52:07.000Z</updated>
-        <summary type="html"><![CDATA[Lyu Tao discovered that the NFS implementation in the Linux kernel did not
-properly handle requests to open a directory on a regular file. A local
-attacker could use this to expose sensitive information (kernel memory).
-
-
-Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - x86 architecture;
-  - ATM drivers;
-  - Device frequency scaling framework;
-  - GPU drivers;
-  - Hardware monitoring drivers;
-  - VMware VMCI Driver;
-  - MTD block device drivers;
-  - Network drivers;
-  - Device tree and open firmware driver;
-  - SCSI subsystem;
-  - USB Serial drivers;
-  - BTRFS file system;
-  - File systems infrastructure;
-  - F2FS file system;
-  - JFS file system;
-  - NILFS2 file system;
-  - Netfilter;
-  - Memory management;
-  - Ethernet bridge;
-  - IPv6 networking;
-  - Logical Link layer;
-  - MAC80211 subsystem;
-  - NFC subsystem;
-  - Network traffic control;
-(CVE-2021-47055, CVE-2024-26675, CVE-2024-42244, CVE-2024-46743,
-CVE-2024-41095, CVE-2024-46756, CVE-2024-46723, CVE-2024-46759,
-CVE-2024-35877, CVE-2024-38538, CVE-2024-26668, CVE-2024-44998,
-CVE-2024-42309, CVE-2024-46758, CVE-2024-46800, CVE-2022-48733,
-CVE-2023-52531, CVE-2023-52599, CVE-2024-46722, CVE-2024-42240,
-CVE-2024-44987, CVE-2023-52502, CVE-2023-52578, CVE-2024-41059,
-CVE-2024-41071, CVE-2024-44942, CVE-2024-46738, CVE-2022-48943,
-CVE-2023-52614, CVE-2024-27397, CVE-2024-38560, CVE-2024-43882,
-CVE-2024-42104, CVE-2024-46757, CVE-2024-26636, CVE-2024-26633,
-CVE-2024-41089, CVE-2024-42310, CVE-2022-48938)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7147-1: Apache Shiro vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7147-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7147-1"/>
-        <updated>2024-12-10T18:08:44.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that Apache Shiro incorrectly handled path traversal when
-used with other web frameworks or path rewriting. An attacker could
-possibly use this issue to obtain sensitive information or administrative
-privileges. This update provides the corresponding fix for Ubuntu 24.04 LTS
-and Ubuntu 24.10. (CVE-2023-34478, CVE-2023-46749)
-
-It was discovered that Apache Shiro incorrectly handled web redirects when
-used together with the form authentication method. An attacker could
-possibly use this issue to perform phishing attacks. This update provides
-the corresponding fix for Ubuntu 24.04 LTS and Ubuntu 24.10.
-(CVE-2023-46750)
-
-It was discovered that Apache Shiro incorrectly handled requests through
-servlet filtering. An attacker could possibly use this issue to obtain
-administrative privileges. This update provides the corresponding fix for
-Ubuntu 16.04 LTS. (CVE-2016-6802)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scottish Parliament TV at Risk From Deepfakes]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/scottish-parliament-tv-risk-deepfakes</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/scottish-parliament-tv-risk-deepfakes"/>
-        <updated>2024-12-10T17:51:18.000Z</updated>
-        <summary type="html"><![CDATA[Because the streaming service website offers no content restrictions, attackers are able to hijack and manipulate live streams.]]></summary>
-        <author>
-            <name>Kristina Beek, Associate Editor, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cybercrime Gangs Abscond With Thousands of AWS Credentials]]></title>
-        <id>https://www.darkreading.com/endpoint-security/cybercrime-gangs-steal-thousands-aws-credentials</id>
-        <link href="https://www.darkreading.com/endpoint-security/cybercrime-gangs-steal-thousands-aws-credentials"/>
-        <updated>2024-12-10T16:12:01.000Z</updated>
-        <summary type="html"><![CDATA[The Nemesis and ShinyHunters attackers scanned millions of IP addresses to find exploitable cloud-based flaws, though their operation ironically was discovered due to a cloud misconfiguration of their own doing.]]></summary>
-        <author>
-            <name>Elizabeth Montalbano, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cleo File Transfer Vulnerability Under Exploitation – Patch Pending, Mitigation Urged]]></title>
-        <id>https://thehackernews.com/2024/12/cleo-file-transfer-vulnerability-under.html</id>
-        <link href="https://thehackernews.com/2024/12/cleo-file-transfer-vulnerability-under.html"/>
-        <updated>2024-12-10T15:57:00.000Z</updated>
-        <summary type="html"><![CDATA[Users of Cleo-managed file transfer software are being urged to ensure that their instances are not exposed to the internet following reports of mass exploitation of a vulnerability affecting fully patched systems.
-Cybersecurity company Huntress said it discovered evidence of threat actors exploiting the issue en masse on December 3, 2024. The vulnerability, which impacts Cleo's LexiCom,]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lessons From the Largest Software Supply Chain Incidents]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/lessons-largest-software-supply-chain-incidents</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/lessons-largest-software-supply-chain-incidents"/>
-        <updated>2024-12-10T15:00:01.000Z</updated>
-        <summary type="html"><![CDATA[The software supply chain is a growing target, and organizations need to take special care to safeguard it.]]></summary>
-        <author>
-            <name>Eldan Ben-Haim</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fake Recruiters Distribute Banking Trojan via Malicious Apps in Phishing Scam]]></title>
-        <id>https://thehackernews.com/2024/12/fake-recruiters-distribute-banking.html</id>
-        <link href="https://thehackernews.com/2024/12/fake-recruiters-distribute-banking.html"/>
-        <updated>2024-12-10T14:13:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have shed light on a sophisticated mobile phishing (aka mishing) campaign that's designed to distribute an updated version of the Antidot banking trojan.
-"The attackers presented themselves as recruiters, luring unsuspecting victims with job offers," Zimperium zLabs Vishnu Pratapagiri researcher said in a new report.
-"As part of their fraudulent hiring process, the]]></summary>
         <author>
             <name>info@thehackernews.com (The Hacker News)</name>
         </author>
