@@ -2,10 +2,470 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-01-14T01:24:36.602Z</updated>
+    <updated>2025-01-15T01:26:09.147Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-7206-1: rsync vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7206-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7206-1"/>
+        <updated>2025-01-14T23:32:20.000Z</updated>
+        <summary type="html"><![CDATA[Simon Scannell, Pedro Gallegos, and Jasiel Spelman discovered that rsync
+did not properly handle checksum lengths. An attacker could use this
+issue to execute arbitrary code. (CVE-2024-12084)
+
+Simon Scannell, Pedro Gallegos, and Jasiel Spelman discovered that rsync
+compared checksums with uninitialized memory. An attacker could exploit
+this issue to leak sensitive information. (CVE-2024-12085)
+
+Simon Scannell, Pedro Gallegos, and Jasiel Spelman discovered that rsync
+incorrectly handled file checksums. A malicious server could use this
+to expose arbitrary client files. (CVE-2024-12086)
+
+Simon Scannell, Pedro Gallegos, and Jasiel Spelman discovered that rsync
+mishandled symlinks for some settings. An attacker could exploit this
+to write files outside the intended directory. (CVE-2024-12087)
+
+Simon Scannell, Pedro Gallegos, and Jasiel Spelman discovered that rsync
+failed to verify symbolic link destinations for some settings. An
+attacker could exploit this for path traversal attacks. (CVE-2024-12088)
+
+Aleksei Gorban discovered a race condition in rsync's handling of
+symbolic links. An attacker could use this to access sensitive
+information or escalate privileges. (CVE-2024-12747)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Rings in 2025 With Record Security Update]]></title>
+        <id>https://www.darkreading.com/application-security/microsoft-january-2025-record-security-update</id>
+        <link href="https://www.darkreading.com/application-security/microsoft-january-2025-record-security-update"/>
+        <updated>2025-01-14T22:56:16.000Z</updated>
+        <summary type="html"><![CDATA[Company has issued patches for an unprecedented 159 CVEs, including eight zero-days, three of which attackers are already exploiting.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Bug Allows Root Protections Bypass Without Physical Access]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/apple-bug-root-protections-bypass-physical-access</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/apple-bug-root-protections-bypass-physical-access"/>
+        <updated>2025-01-14T21:45:43.000Z</updated>
+        <summary type="html"><![CDATA[Emergent macOS vulnerability lets adversaries circumvent Apple's System Integrity Protection (SIP) by loading third-party kernels.]]></summary>
+        <author>
+            <name>Becky Bracken, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FBI Wraps Up Eradication Effort of Chinese 'PlugX' Malware]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/fbi-wraps-up-eradication-chinese-plugx-malware</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/fbi-wraps-up-eradication-chinese-plugx-malware"/>
+        <updated>2025-01-14T21:24:34.000Z</updated>
+        <summary type="html"><![CDATA[Two hacker groups were paid to develop malware targeting victims in the US, Europe, and Asia, as well as various Chinese dissident groups.]]></summary>
+        <author>
+            <name>Kristina Beek, Associate Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7207-1: Git vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7207-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7207-1"/>
+        <updated>2025-01-14T19:55:30.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Git incorrectly handled certain URLs when
+asking for credentials. An attacker could possibly use this
+issue to mislead the user into typing passwords for trusted
+sites that would then be sent to untrusted sites instead.
+(CVE-2024-50349)
+
+It was discovered that git incorrectly handled line endings when
+using credential helpers. (CVE-2024-52006)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero-Day Security Bug Likely Fueling Fortinet Firewall Attacks]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/zero-day-security-bug-fortinet-firewall-attacks</id>
+        <link href="https://www.darkreading.com/threat-intelligence/zero-day-security-bug-fortinet-firewall-attacks"/>
+        <updated>2025-01-14T17:50:24.000Z</updated>
+        <summary type="html"><![CDATA[An ongoing campaign targeting FortiGate devices with management interfaces exposed on the public Internet is leading to unauthorized administrative logins and configuration changes, creating new accounts, and performing SSL VPN authentication.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7195-2: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7195-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-7195-2"/>
+        <updated>2025-01-14T17:27:31.000Z</updated>
+        <summary type="html"><![CDATA[Ziming Zhang discovered that the DRM driver for VMware Virtual GPU did not
+properly handle certain error conditions, leading to a NULL pointer
+dereference. A local attacker could possibly trigger this vulnerability to
+cause a denial of service. (CVE-2022-38096)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - ARM32 architecture;
+  - ARM64 architecture;
+  - S390 architecture;
+  - x86 architecture;
+  - Power management core;
+  - GPU drivers;
+  - InfiniBand drivers;
+  - Network drivers;
+  - S/390 drivers;
+  - SCSI subsystem;
+  - TTY drivers;
+  - BTRFS file system;
+  - Ext4 file system;
+  - EROFS file system;
+  - F2FS file system;
+  - File systems infrastructure;
+  - BPF subsystem;
+  - Socket messages infrastructure;
+  - Bluetooth subsystem;
+  - Memory management;
+  - Amateur Radio drivers;
+  - Ethernet bridge;
+  - Networking core;
+  - IPv4 networking;
+  - Network traffic control;
+  - Sun RPC protocol;
+  - VMware vSockets driver;
+  - SELinux security module;
+(CVE-2024-42240, CVE-2024-36938, CVE-2024-35967, CVE-2024-36953,
+CVE-2022-48938, CVE-2024-38553, CVE-2024-35904, CVE-2024-35965,
+CVE-2024-26947, CVE-2024-36968, CVE-2024-43892, CVE-2024-38597,
+CVE-2023-52498, CVE-2021-47501, CVE-2024-44942, CVE-2024-42077,
+CVE-2024-53057, CVE-2024-46724, CVE-2024-35963, CVE-2022-48943,
+CVE-2024-42068, CVE-2024-42156, CVE-2022-48733, CVE-2023-52639,
+CVE-2021-47101, CVE-2023-52821, CVE-2024-44940, CVE-2024-36952,
+CVE-2021-47001, CVE-2024-38538, CVE-2024-40910, CVE-2021-47076,
+CVE-2024-35966, CVE-2024-50264, CVE-2024-35951, CVE-2023-52488,
+CVE-2023-52497, CVE-2024-49967)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Upcoming Speaking Engagements]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/01/upcoming-speaking-engagements-42.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/01/upcoming-speaking-engagements-42.html"/>
+        <updated>2025-01-14T17:05:17.000Z</updated>
+        <summary type="html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>I’m speaking on “AI: Trust &#38; Power” at <a href="https://capricon.org/">Capricon 45</a> in Chicago, Illinois, USA, at 11:30 AM on February 7, 2025. I’m also signing books there on Saturday, February 8, starting at 1:45 PM.</li>
+<li>I’m speaking at <a href="https://boskone.org/">Boskone 62</a> in Boston, Massachusetts, USA, which runs from February 14-16, 2025.</li>
+<li>I’m speaking at the <a href="https://www.cl.cam.ac.uk/events/rossfest/">Rossfest Symposium</a> in Cambridge, UK, on March 25, 2025.</li>
+</ul>
+<p>The list is maintained on <a href="https://www.schneier.com/events/">this page</a>.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Uncovers macOS Vulnerability CVE-2024-44243 Allowing Rootkit Installation]]></title>
+        <id>https://thehackernews.com/2025/01/microsoft-uncovers-macos-vulnerability.html</id>
+        <link href="https://thehackernews.com/2025/01/microsoft-uncovers-macos-vulnerability.html"/>
+        <updated>2025-01-14T16:53:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft has shed light on a now-patched security flaw impacting Apple macOS that, if successfully exploited, could have allowed an attacker running as "root" to bypass the operating system's System Integrity Protection (SIP) and install malicious kernel drivers by loading third-party kernel extensions.
+The vulnerability in question is CVE-2024-44243 (CVSS score: 5.5), a medium-severity bug]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google OAuth Vulnerability Exposes Millions via Failed Startup Domains]]></title>
+        <id>https://thehackernews.com/2025/01/google-oauth-vulnerability-exposes.html</id>
+        <link href="https://thehackernews.com/2025/01/google-oauth-vulnerability-exposes.html"/>
+        <updated>2025-01-14T16:38:00.000Z</updated>
+        <summary type="html"><![CDATA[New research has pulled back the curtain on a "deficiency" in Google's "Sign in with Google" authentication flow that exploits a quirk in domain ownership to gain access to sensitive data.
+"Google's OAuth login doesn't protect against someone purchasing a failed startup's domain and using it to re-create email accounts for former employees," Truffle Security co-founder and CEO Dylan Ayrey said]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7205-1: Django vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7205-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7205-1"/>
+        <updated>2025-01-14T16:10:23.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Django incorrectly handled certain IPv6
+strings. An attacker could possibly use this issue to cause a
+denial of service.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#952657: Rsync contains six vulnerabilities]]></title>
+        <id>https://kb.cert.org/vuls/id/952657</id>
+        <link href="https://kb.cert.org/vuls/id/952657"/>
+        <updated>2025-01-14T15:06:54.249Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Rsync, a versatile file-synchronizing tool, contains six vulnerabilities present within versions 3.3.0 and below. Rsync can be used to sync files between remote and local computers, as well as storage devices. The discovered vulnerabilities include heap-buffer overflow, information leak, file leak, external directory file-write,–safe-links bypass, and symbolic-link race condition.</p>
+<h3 id="description">Description</h3>
+<p>Many backup programs, such as Rclone, DeltaCopy, and ChronoSync use Rsync as backend software for file synchronization. Rsync can also be used in Daemon mode and is widely used in in public mirrors to synchronize and distribute files efficiently across multiple servers.<br>
+Following are the discovered vulnerabilities:</p>
+<p><strong>CVE-2024-12084</strong> A heap-buffer-overflow vulnerability in the Rsync daemon results in improper handling of attacker-controlled checksum lengths (s2length). When the MAX_DIGEST_LEN exceeds the fixed SUM_LENGTH (16 bytes), an attacker can write out-of-bounds in the sum2 buffer. </p>
+<p><strong>CVE-2024-12085</strong> When Rsync compares file checksums, a vulnerability in the Rsync daemon can be triggered. An attacker could manipulate the checksum length (s2length) to force a comparison between the checksum and uninitialized memory and leak one byte of uninitialized stack data at a time. </p>
+<p><strong>CVE-2024-12086</strong> A vulnerability in the Rsync daemon could cause a server to leak the contents of arbitrary files from clients’ machines. This happens when files are copied from client to server. During the process, a malicious Rsync server can generate invalid communication tokens and checksums from data the attacker compares. The comparison will trigger the client to ask the server to resend data, which the server can use to guess a checksum. The server could then reprocess data, byte to byte, to determine the contents of the target file. </p>
+<p><strong>CVE-2024-12087</strong> A path traversal vulnerability in the Rsync daemon affects the --inc-recursive option, a default-enabled option for many flags that can be enabled by the server even if not explicitly enabled by the client. When using this option, a lack of proper symlink verification coupled with de-duplication checks occurring on a per-file-list basis could allow a server to write files outside of the client's intended destination directory. A malicious server could remotely trigger this activity by exploiting symbolic links named after valid client directories/paths.</p>
+<p><strong>CVE-2024-12088</strong> A --safe-links option vulnerability results in Rsync failing to properly verify whether the symbolic link destination contains another symbolic link within it. This results in a path traversal vulnerability, which may lead to arbitrary files being written outside of the desired directory.</p>
+<p><strong>CVE-2024-12747</strong> Rsync is vulnerable to a symbolic-link race condition, which may lead to privilege escalation. A user could gain access to privileged files on affected servers. </p>
+<h3 id="impact">Impact</h3>
+<p>When combined, the first two vulnerabilities (heap buffer overflow and information leak) allow a client to execute arbitrary code on a device that has an Rsync server running. The client requires only anonymous read-access to the server, such as public mirrors.
+Additionally, attackers can take control of a malicious server and read/write arbitrary files of any connected client. Sensitive data, such as SSH keys, can be extracted, and malicious code can be executed by overwriting files such as ~/.bashrc or ~/.popt.</p>
+<h3 id="solution">Solution</h3>
+<p>Apply the latest patches available at https://github.com/RsyncProject/rsync and https://download.samba.org/pub/rsync/src/. Users should run updates on their software as soon as possible. As Rsync can be distributed bundled, ensure any software that provides such updates is also kept current to address these vulnerabilities.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to Simon Scannell, Pedro Gallegos, and Jasiel Spelman at Google Cloud Vulnerability Research for discovering the first five vulnerabilities; thanks to Aleksei Gorban for discovering the symbolic-link race condition. Finally, thanks to Andrew Tridgell for reporting all of them.
+This document was written by Dr. Elke Drennan, CISSP.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Startups Focus on Deepfakes, Data-in-Motion &amp; Model Security]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/startups-focus-deepfakes-data-motion-model-security</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/startups-focus-deepfakes-data-motion-model-security"/>
+        <updated>2025-01-14T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In times of unprecedented change, innovative mindsets and attentiveness of startup culture make for a community everyone can leverage to understand the world and guard against its dangers.]]></summary>
+        <author>
+            <name>Paul Shomo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7203-1: PowerDNS vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7203-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7203-1"/>
+        <updated>2025-01-14T13:40:35.000Z</updated>
+        <summary type="html"><![CDATA[Wei Hao discovered that PowerDNS Authoritative Server incorrectly handled
+memory when accessing certain files. An attacker could possibly use this
+issue to achieve arbitrary code execution. (CVE-2018-1046)
+
+It was discovered that PowerDNS Authoritative Server and PowerDNS Recursor
+incorrectly handled memory when receiving certain remote input. An attacker
+could possibly use this issue to cause denial of service. (CVE-2018-10851)
+
+Kees Monshouwer discovered that PowerDNS Authoritative Server and PowerDNS
+Recursor incorrectly handled request validation after having cached
+malformed input. An attacker could possibly use this issue to cause denial
+of service. (CVE-2018-14626)
+
+Toshifumi Sakaguchi discovered that PowerDNS Recursor incorrectly handled
+requests after having cached malformed input. An attacker could possibly
+use this issue to cause denial of service. (CVE-2018-14644)
+
+Nathaniel Ferguson discovered that PowerDNS Authoritative Server
+incorrectly handled memory when receiving certain remote input. An attacker
+could possibly use this issue to obtain sensitive information.
+(CVE-2020-17482)
+
+Nicolas Dehaine and Dmitry Shabanov discovered that PowerDNS Authoritative
+Server and PowerDNS Recursor incorrectly handled IXFR requests in certain
+circumstances. An attacker could possibly use this issue to cause denial of
+service. (CVE-2022-27227)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#529659: Howyar Reloader UEFI bootloader vulnerable to unsigned software execution]]></title>
+        <id>https://kb.cert.org/vuls/id/529659</id>
+        <link href="https://kb.cert.org/vuls/id/529659"/>
+        <updated>2025-01-14T13:30:18.892Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>The Howyar UEFI Application "Reloader" (32-bit and 64-bit), distributed as part of SysReturn prior to version 10.2.02320240919, is vulnerable to the execution of arbitrary software from a hard-coded path. An attacker who successfully exploits this vulnerability can bypass the UEFI Secure Boot feature and execute unsigned code during the boot process in the UEFI context.</p>
+<h3 id="description">Description</h3>
+<p>The <a href="https://uefi.org">Unified Extensible Firmware Interface</a> (UEFI) is a specification for firmware architecture that facilitates interaction between a computing platform’s hardware and operating system during the early boot phase. When a UEFI-compliant computer is powered on, the UEFI implementation (including multiple UEFI applications) is the first software to run, preceding the operating system. UEFI applications are typically digitally signed, often by the Microsoft UEFI Certificate Authority (CA), ensuring their trusted execution under <a href="https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-secure-boot">UEFI Secure Boot</a>. UEFI bootloaders, a type of UEFI application, provide early boot management, loading OS files into protected memory areas for execution. These bootloaders can execute additional software and load <a href="https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/what-is-a-driver-">drivers</a> as part of their startup processes.</p>
+<p>The Howyar Reloader UEFI application, an UEFI bootloader available in both 32-bit and 64-bit versions, has been found to contain an arbitrary code execution vulnerability. Researchers at ESET discovered that the application allows execution of UEFI software from a hard-coded path without verifying its signature. This occurs because the Reloader does not use UEFI’s standard BootServices <a href="https://uefi.org/specs/UEFI/2.10/07_Services_Boot_Services.html">LoadImage()</a> API for safe application execution. Consequently, any unsigned third-party software can be executed during the early boot phase with high privileges in the UEFI context. Since the Reloader application is signed by the trusted Microsoft UEFI CA, it can be installed on any UEFI-compliant system. Furthermore, as it is bundled and distributed as part of supply-chain software, it may also be present in other UEFI implementations provided by software suppliers or OEMs.</p>
+<p>An attacker with the ability to update the UEFI bootloader can exploit this vulnerability to run arbitrary code, bypassing UEFI Secure Boot. On systems where a vulnerable version of the Reloader application is present, an attacker only needs to install a malicious unsigned UEFI application in a hard-coded path to achieve Secure Boot bypass and execute code in the UEFI context.</p>
+<p>To mitigate this vulnerability, updated Reloader should be installed on the affected systesm.  It is also essential that all UEFI compliant computers also update their <a href="https://uefi.org/revocationlistfile">Secure Boot Forbidden Signature Database</a> (DBX or Revocation List), supplied by the UEFI Forum. This update should be applied to the special SPI flash memory on the motherboard, which stores firmware data. Maintaining the integrity of the UEFI Secure Boot ecosystem requires the timely application of these updates.</p>
+<h3 id="impact">Impact</h3>
+<p>An attacker can bypass Secure Boot at system startup and execute arbitrary code before the operating system (OS) loads. Code executed in this early boot phase can persist on the system, potentially loading malicious kernel extensions that survive both reboots and OS reinstallation. Additionally, it may evade detection by OS-based and endpoint detection and response (EDR) security measures.</p>
+<h3 id="solution">Solution</h3>
+<h4 id="apply-a-patch">Apply a Patch</h4>
+<p><a href="https://howyar.com/en-us/index.html">Howyar Technologies</a> and their partners have released updated software to address this vulnerability. Please follow their guidance to install the updated version of the software. Additionally, Microsoft has indicated that they intend to provide an updated DBX (Revocation List) file around <strong>January 14, 2025</strong>. These updates may also be delivered by your OEM or OS vendor to ensure the Secure Boot Forbidden Signature Database (DBX) is up to date.</p>
+<h4 id="recommendations-for-enterprises-and-developers">Recommendations for Enterprises and Developers</h4>
+<p>As changes to the DBX file can lead to system instability, vendors are urged to thoroughly test the updates to ensure they do not render systems unusable. Enterprises and cloud providers managing large numbers of systems should prioritize applying these updates and ensure the DBX file changes are implemented reliably to prevent loading of unsigned binaries in the virtual machine boot process. </p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to Martin Smolar of ESET for his responsible disclosure of this vulnerability to Howyar Technologies and other affected vendors. Thanks also to Howyar Technologies that closely worked with the researcher and CERT/CC to resolve this vulnerability.  This document was written by Vijay Sarvepalli.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The First Password on the Internet]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/01/the-first-password-on-the-internet.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/01/the-first-password-on-the-internet.html"/>
+        <updated>2025-01-14T12:00:43.000Z</updated>
+        <summary type="html"><![CDATA[<p>It was <a href="https://theconversation.com/how-britain-got-its-first-internet-connection-by-the-late-pioneer-who-created-the-first-password-on-the-internet-45404">created</a> in 1973 by Peter Kirstein:</p>
+<blockquote><p>So from the beginning I put password protection on my gateway. This had been done in such a way that even if UK users telephoned directly into the communications computer provided by Darpa in UCL, they would require a password.</p>
+<p>In fact this was the first password on Arpanet. It proved invaluable in satisfying authorities on both sides of the Atlantic for the 15 years I ran the service ­ during which no security breach occurred over my link. I also put in place a system of governance that any UK users had to be approved by a committee which I chaired but which also had UK government and British Post Office representation...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds Four Known Exploited Vulnerabilities to Catalog]]></title>
+        <id>/node/22849</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/01/14/cisa-adds-four-known-exploited-vulnerabilities-catalog"/>
+        <updated>2025-01-14T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added four vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2024-55591 Fortinet FortiOS Authorization Bypass Vulnerability
+CVE-2025-21333 Microsoft Windows Hyper-V NT Kernel Integration VSP Heap-based Buffer Overflow Vulnerability
+CVE-2025-21334 Microsoft Windows Hyper-V NT Kernel Integration VSP Use-After-Free Vulnerability
+CVE-2025-21335 Microsoft Windows Hyper-V NT Kernel Integration VSP Use-After-Free Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Four Industrial Control Systems Advisories]]></title>
+        <id>/node/22848</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/01/14/cisa-releases-four-industrial-control-systems-advisories"/>
+        <updated>2025-01-14T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released four Industrial Control Systems (ICS) advisories on January 14, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+ICSA-25-014-01 Hitachi Energy FOXMAN-UN
+ICSA-25-014-02 Schneider Electric Vijeo Designer
+ICSA-25-014-03 Schneider Electric EcoStruxure
+ICSA-25-014-04 Belledonne Communications Linphone-Desktop
+CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adobe Releases Security Updates for Multiple Products]]></title>
+        <id>/node/22861</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/01/14/adobe-releases-security-updates-multiple-products"/>
+        <updated>2025-01-14T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Adobe released security updates to address vulnerabilities in multiple Adobe software products including Adobe Photoshop, Animate, and Illustrator for iPad. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system. 
+CISA encourages users and administrators to review the following Adobe Security Bulletin and apply necessary updates:
+Adobe Product Security Updates for January]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Releases January 2025 Security Updates]]></title>
+        <id>/node/22860</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/01/14/microsoft-releases-january-2025-security-updates"/>
+        <updated>2025-01-14T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft released security updates to address vulnerabilities in multiple Microsoft products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system. 
+CISA encourages users and administrators to review the following and apply necessary updates:
+Microsoft Security Update Guide for January]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases the JCDC AI Cybersecurity Collaboration Playbook and Fact Sheet]]></title>
+        <id>/node/22843</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/01/14/cisa-releases-jcdc-ai-cybersecurity-collaboration-playbook-and-fact-sheet"/>
+        <updated>2025-01-14T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA released the JCDC AI Cybersecurity Collaboration Playbook and Fact Sheet to foster operational collaboration among government, industry, and international partners and strengthen artificial intelligence (AI) cybersecurity. The playbook provides voluntary information-sharing processes that, if adopted, can help protect organizations from emerging AI threats. 
+Specifically, the playbook:
+Facilitates collaboration between federal agencies, private industry, international partners, and other stakeholders to raise awareness of AI cybersecurity risks and improve the resilience of AI systems.
+Guides JCDC partners on how to voluntarily share information related to cybersecurity incidents and vulnerabilities associated with AI systems.
+Delineates information-sharing protections and mechanisms.
+Outlines CISA’s actions upon receiving shared information. 
+CISA urges JCDC partners to integrate the playbook into their incident response and information-sharing processes, make iterative improvements as needed, and provide feedback to CISA through CISA.JCDC@cisa.dhs.gov.
+Not a partner? Join JCDC to engage in synchronized cybersecurity planning, cyber defense, and response. Learn more by visiting CISA’s JCDC webpage and emailing CISA.JCDC@cisa.dhs.gov.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fortinet Releases Security Updates for Multiple Products]]></title>
+        <id>/node/22853</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/01/14/fortinet-releases-security-updates-multiple-products"/>
+        <updated>2025-01-14T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Fortinet released security updates to address vulnerabilities in multiple Fortinet products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.
+CISA encourages users and administrators to review the following and apply necessary updates:
+Fortinet Security Updates]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ivanti Releases Security Updates for Multiple Products]]></title>
+        <id>/node/22854</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/01/14/ivanti-releases-security-updates-multiple-products"/>
+        <updated>2025-01-14T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ivanti released security updates to address vulnerabilities in Ivanti Avalanche, Ivanti Application Control Engine, and Ivanti EPM. 
+CISA encourages users and administrators to review the following Ivanti security advisories and apply the necessary guidance and updates:
+Ivanti Avalanche
+Ivanti Application Control Engine
+Ivanti EPM]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4 Reasons Your SaaS Attack Surface Can No Longer be Ignored]]></title>
+        <id>https://thehackernews.com/2025/01/4-reasons-your-saas-attack-surface-can.html</id>
+        <link href="https://thehackernews.com/2025/01/4-reasons-your-saas-attack-surface-can.html"/>
+        <updated>2025-01-14T10:08:00.000Z</updated>
+        <summary type="html"><![CDATA[What do identity risks, data security risks and third-party risks all have in common? They are all made much worse by SaaS sprawl. Every new SaaS account adds a new identity to secure, a new place where sensitive data can end up, and a new source of third party risk. Learn how you can protect this sprawling attack surface in 2025.
+
+What do identity risks, data security risks and third-party]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Illicit HuiOne Telegram Market Surpasses Hydra, Hits $24 Billion in Crypto Transactions]]></title>
+        <id>https://thehackernews.com/2025/01/illicit-huione-telegram-market.html</id>
+        <link href="https://thehackernews.com/2025/01/illicit-huione-telegram-market.html"/>
+        <updated>2025-01-14T09:29:00.000Z</updated>
+        <summary type="html"><![CDATA[The Telegram-based online marketplace known as HuiOne Guarantee and its vendors have cumulatively received at least $24 billion in cryptocurrency, dwarfing the now-defunct Hydra to become the largest online illicit marketplace to have ever operated.
+The figures, released by blockchain analytics firm Elliptic, show that monthly inflows have increased by 51% since July 2024.
+Huione Guarantee, part]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero-Day Vulnerability Suspected in Attacks on Fortinet Firewalls with Exposed Interfaces]]></title>
+        <id>https://thehackernews.com/2025/01/zero-day-vulnerability-suspected-in.html</id>
+        <link href="https://thehackernews.com/2025/01/zero-day-vulnerability-suspected-in.html"/>
+        <updated>2025-01-14T09:13:00.000Z</updated>
+        <summary type="html"><![CDATA[Threat hunters are calling attention to a new campaign that has targeted Fortinet FortiGate firewall devices with management interfaces exposed on the public internet.
+"The campaign involved unauthorized administrative logins on management interfaces of firewalls, creation of new accounts, SSL VPN authentication through those accounts, and various other configuration changes," cybersecurity firm]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Russian-Linked Hackers Target Kazakhstan in Espionage Campaign with HATVIBE Malware]]></title>
+        <id>https://thehackernews.com/2025/01/russian-linked-hackers-target.html</id>
+        <link href="https://thehackernews.com/2025/01/russian-linked-hackers-target.html"/>
+        <updated>2025-01-14T09:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Russia-linked threat actors have been attributed to an ongoing cyber espionage campaign targeting Kazakhstan as part of the Kremlin's efforts to gather economic and political intelligence in Central Asia.
+The campaign has been assessed to be the work of an intrusion set dubbed UAC-0063, which likely shares overlap with APT28, a nation-state group affiliated with Russia's General Staff Main]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds Second BeyondTrust Flaw to KEV Catalog Amid Active Attacks]]></title>
+        <id>https://thehackernews.com/2025/01/cisa-adds-new-beyondtrust-flaw-to-kev.html</id>
+        <link href="https://thehackernews.com/2025/01/cisa-adds-new-beyondtrust-flaw-to-kev.html"/>
+        <updated>2025-01-14T03:21:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a second security flaw impacting BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) products to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.
+The vulnerability in question is CVE-2024-12686 (CVSS score: 6.6), a medium-severity bug that could]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CISA Releases the Cybersecurity Performance Goals Adoption Report]]></title>
         <id>https://www.darkreading.com/cybersecurity-operations/cisa-releases-the-cybersecurity-performance-goals-adoption-report</id>
@@ -172,6 +632,21 @@ Let’s turn awareness into action and keep one step ahead]]></summary>
 <p>The foreign-based defendants developed tools specifically designed to bypass safety guardrails Microsoft has erected to prevent the creation of harmful content through its generative AI services, <a href="https://blogs.microsoft.com/on-the-issues/2025/01/10/taking-legal-action-to-protect-the-public-from-abusive-ai-generated-content/">said</a> Steven Masada, the assistant general counsel for Microsoft&#8217;s Digital Crimes Unit. They then compromised the legitimate accounts of paying customers. They combined those two things to create a fee-based platform people could use...</p></blockquote>]]></summary>
         <author>
             <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds Two Known Exploited Vulnerabilities to Catalog]]></title>
+        <id>/node/22837</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/01/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"/>
+        <updated>2025-01-13T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2024-12686 BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) OS Command Injection Vulnerability
+CVE-2023-48365 Qlik Sense HTTP Tunneling Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
         </author>
     </entry>
     <entry>
@@ -4144,146 +4619,6 @@ Cory Snider discovered that Docker did not properly handle authorization
 plugin request processing. An attacker could possibly use this issue to 
 bypass authorization controls by forwarding API requests without their 
 full body, leading to unauthorized actions. (CVE-2024-41110)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NoviSpy Spyware Installed on Journalist's Phone After Unlocking It With Cellebrite Tool]]></title>
-        <id>https://thehackernews.com/2024/12/novispy-spyware-installed-on.html</id>
-        <link href="https://thehackernews.com/2024/12/novispy-spyware-installed-on.html"/>
-        <updated>2024-12-16T12:45:00.000Z</updated>
-        <summary type="html"><![CDATA[A Serbian journalist had his phone first unlocked by a Cellebrite tool and subsequently compromised by a previously undocumented spyware codenamed NoviSpy, according to a new report published by Amnesty International.
-"NoviSpy allows for capturing sensitive personal data from a target's phone after infection and provides the ability to turn on the phone's microphone or camera remotely," the]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7162-1: curl vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7162-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7162-1"/>
-        <updated>2024-12-16T12:24:41.000Z</updated>
-        <summary type="html"><![CDATA[Harry Sintonen discovered that curl incorrectly handled credentials from
-.netrc files when following HTTP redirects. In certain configurations, the
-password for the first host could be leaked to the followed-to host,
-contrary to expectations.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[⚡ THN Weekly Recap: Top Cybersecurity Threats, Tools and Tips]]></title>
-        <id>https://thehackernews.com/2024/12/thn-recap-top-cybersecurity-threats_16.html</id>
-        <link href="https://thehackernews.com/2024/12/thn-recap-top-cybersecurity-threats_16.html"/>
-        <updated>2024-12-16T12:11:00.000Z</updated>
-        <summary type="html"><![CDATA[This past week has been packed with unsettling developments in the world of cybersecurity. From silent but serious attacks on popular business tools to unexpected flaws lurking in everyday devices, there’s a lot that might have flown under your radar. Attackers are adapting old tricks, uncovering new ones, and targeting systems both large and small.
-Meanwhile, law enforcement has scored wins]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Short-Lived Certificates Coming to Let’s Encrypt]]></title>
-        <id>https://www.schneier.com/blog/archives/2024/12/short-lived-certificates-coming-to-lets-encrypt.html</id>
-        <link href="https://www.schneier.com/blog/archives/2024/12/short-lived-certificates-coming-to-lets-encrypt.html"/>
-        <updated>2024-12-16T12:06:56.000Z</updated>
-        <summary type="html"><![CDATA[<p>Starting <a href="https://letsencrypt.org/2024/12/11/eoy-letter-2024/">next year</a>:</p>
-<blockquote><p>Our longstanding offering won&#8217;t fundamentally change next year, but we are going to introduce a new offering that&#8217;s a big shift from anything we&#8217;ve done before&#8212;short-lived certificates. Specifically, certificates with a lifetime of six days. This is a big upgrade for the security of the TLS ecosystem because it minimizes exposure time during a key compromise event.</p>
-<p>Because we&#8217;ve done so much to encourage automation over the past decade, most of our subscribers aren&#8217;t going to have to do much in order to switch to shorter lived certificates. We, on the other hand, are going to have to think about the possibility that we will need to issue 20x as many certificates as we do now. It&#8217;s not inconceivable that at some point in our next decade we may need to be prepared to issue 100,000,000 certificates per day...</p></blockquote>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Requests Public Comment for Draft National Cyber Incident Response Plan Update]]></title>
-        <id>/node/22714</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/12/16/cisa-requests-public-comment-draft-national-cyber-incident-response-plan-update"/>
-        <updated>2024-12-16T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today, CISA—through the Joint Cyber Defense Collaborative and in coordination with the Office of the National Cyber Director (ONCD)—released the National Cyber Incident Response Plan Update Public Comment Draft. The draft requests public comment on the National Cyber Incident Response Plan (NCIRP)—public comment period begins today and concludes on January 15, 2025. 
-Since initial publication in 2016, CISA conducted broad and extensive engagement and information exchanges with public and private sector partners, interagency partners, federal Sector Risk Management Agencies (SRMAs), and regulators to build upon the successes of the inaugural NCIRP. The draft NCIRP update describes a national approach to coordinating significant cyber incident detection and response. 
-The draft update considers the evolution in the cyber threat landscape and lessons learned from historical incidents. The text also addresses the vital role that the private sector, state and local governments (including tribal and territorial), and federal agencies hold in responding to cyber incidents.
-CISA is seeking more perspectives to help strengthen the NCIRP and invites stakeholders from across the public and private sectors to share their knowledge and experiences, further informing our findings and contributing to this revision. Public comments may be posted via the Federal Register.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Adds Two Known Exploited Vulnerabilities to Catalog]]></title>
-        <id>/node/22710</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/12/16/cisa-adds-two-known-exploited-vulnerabilities-catalog"/>
-        <updated>2024-12-16T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
-CVE-2024-20767 Adobe ColdFusion Improper Access Control Vulnerability
-CVE-2024-35250 Microsoft Windows Kernel-Mode Driver Untrusted Pointer Dereference Vulnerability
-These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
-Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
-Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Data Governance in DevOps: Ensuring Compliance in the AI Era]]></title>
-        <id>https://thehackernews.com/2024/12/data-governance-in-devops-ensuring.html</id>
-        <link href="https://thehackernews.com/2024/12/data-governance-in-devops-ensuring.html"/>
-        <updated>2024-12-16T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With the evolution of modern software development, CI/CD pipeline governance has emerged as a critical factor in maintaining both agility and compliance. As we enter the age of artificial intelligence (AI), the importance of robust pipeline governance has only intensified. With that said, we’ll explore the concept of CI/CD pipeline governance and why it's vital, especially as AI becomes]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Teams Vishing Spreads DarkGate RAT]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/vishing-via-microsoft-teams-spreads-darkgate-rat</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/vishing-via-microsoft-teams-spreads-darkgate-rat"/>
-        <updated>2024-12-16T10:22:25.000Z</updated>
-        <summary type="html"><![CDATA[A thwarted attack demonstrates that threat actors using yet another delivery method for the malware, which already has been spread using phishing emails, malvertising, hijacking of instant messages, and SEO poisoning.]]></summary>
-        <author>
-            <name>Elizabeth Montalbano, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Investment Scam Leverages AI, Social Media Ads to Target Victims Worldwide]]></title>
-        <id>https://thehackernews.com/2024/12/new-investment-scam-leverages-ai-social.html</id>
-        <link href="https://thehackernews.com/2024/12/new-investment-scam-leverages-ai-social.html"/>
-        <updated>2024-12-16T10:17:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers are calling attention to a new kind of investment scam that leverages a combination of social media malvertising, company-branded posts, and artificial intelligence (AI) powered video testimonials featuring famous personalities, ultimately leading to financial and data loss.
-"The main goal of the fraudsters is to lead victims to phishing websites and forms that harvest]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Glutton Malware Exploits Popular PHP Frameworks Like Laravel and ThinkPHP]]></title>
-        <id>https://thehackernews.com/2024/12/new-glutton-malware-exploits-popular.html</id>
-        <link href="https://thehackernews.com/2024/12/new-glutton-malware-exploits-popular.html"/>
-        <updated>2024-12-16T09:09:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have discovered a new PHP-based backdoor called Glutton that has been put to use in cyber attacks targeting China, the United States, Cambodia, Pakistan, and South Africa.
-QiAnXin XLab, which discovered the malicious activity in late April 2024, attributed the previously unknown malware with moderate confidence to the prolific Chinese nation-state group tracked Winnti (]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ukrainian Minors Recruited for Cyber Ops and Reconnaissance in Russian Airstrikes]]></title>
-        <id>https://thehackernews.com/2024/12/ukrainian-minors-recruited-for-cyber.html</id>
-        <link href="https://thehackernews.com/2024/12/ukrainian-minors-recruited-for-cyber.html"/>
-        <updated>2024-12-16T06:44:00.000Z</updated>
-        <summary type="html"><![CDATA[The Security Service of Ukraine (SBU or SSU) has exposed a novel espionage campaign suspected to be orchestrated by Russia's Federal Security Service (FSB) that involves recruiting Ukrainian minors for criminal activities under the guise of "quest games."
-Law enforcement officials said that it detained two FSB agent groups following a special operation in Kharkiv. These groups, per the agency,]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7160-1: Mpmath vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7160-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7160-1"/>
-        <updated>2024-12-15T23:03:29.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered Mpmath incorrectly handled certain regular expressions.
-An attacker could possibly use this issue to cause Mpmath to consume
-resources, leading to a denial of service.]]></summary>
         <author>
             <name>Ubuntu security notices</name>
         </author>
