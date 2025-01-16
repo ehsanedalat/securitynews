@@ -2,10 +2,272 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-01-15T01:26:09.147Z</updated>
+    <updated>2025-01-16T01:25:37.206Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Attackers Hijack Google Advertiser Accounts to Spread Malware]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/attackers-hijack-google-advertiser-accounts-malware</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/attackers-hijack-google-advertiser-accounts-malware"/>
+        <updated>2025-01-15T21:33:00.000Z</updated>
+        <summary type="html"><![CDATA[It's an especially brazen form of malvertising, researchers say, striking at the heart of Google's business; the tech giant says it's aware of the issue and is working quickly to address the problem.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7173-3: Linux kernel (Raspberry Pi) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7173-3</id>
+        <link href="https://ubuntu.com/security/notices/USN-7173-3"/>
+        <updated>2025-01-15T21:29:53.000Z</updated>
+        <summary type="html"><![CDATA[Ziming Zhang discovered that the DRM driver for VMware Virtual GPU did not
+properly handle certain error conditions, leading to a NULL pointer
+dereference. A local attacker could possibly trigger this vulnerability to
+cause a denial of service. (CVE-2022-38096)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - GPU drivers;
+  - Network drivers;
+  - SCSI subsystem;
+  - Ext4 file system;
+  - Bluetooth subsystem;
+  - Memory management;
+  - Amateur Radio drivers;
+  - Network traffic control;
+  - Sun RPC protocol;
+  - VMware vSockets driver;
+(CVE-2023-52821, CVE-2024-40910, CVE-2024-43892, CVE-2024-49967,
+CVE-2024-50264, CVE-2024-36952, CVE-2024-38553, CVE-2021-47101,
+CVE-2021-47001, CVE-2024-35965, CVE-2024-35963, CVE-2024-35966,
+CVE-2024-35967, CVE-2024-53057, CVE-2024-38597)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA: Second BeyondTrust Vulnerability Added to KEV Catalog]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/cisa-warns-of-second-vuln-found-in-beyondtrust-breach-investigation</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/cisa-warns-of-second-vuln-found-in-beyondtrust-breach-investigation"/>
+        <updated>2025-01-15T16:51:35.000Z</updated>
+        <summary type="html"><![CDATA[BeyondTrust has patched all cloud instances of the vulnerability and has released patches for self-hosted versions.]]></summary>
+        <author>
+            <name>Kristina Beek, Associate Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Extension Poisoning Campaign Highlights Gaps in Browser Security]]></title>
+        <id>https://www.darkreading.com/endpoint-security/extension-poisoning-campaign-gaps-browser-security</id>
+        <link href="https://www.darkreading.com/endpoint-security/extension-poisoning-campaign-gaps-browser-security"/>
+        <updated>2025-01-15T16:18:50.000Z</updated>
+        <summary type="html"><![CDATA[Evidence suggests that some of the payloads and extensions may date as far back as April 2023.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7204-1: NeoMutt vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7204-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7204-1"/>
+        <updated>2025-01-15T16:07:30.000Z</updated>
+        <summary type="html"><![CDATA[Jeriko One discovered that NeoMutt incorrectly handled certain IMAP
+and POP3 responses. An attacker could possibly use this issue to
+cause NeoMutt to crash, resulting in a denial of service, or
+the execution of arbitrary code. This issue only affected
+Ubuntu 18.04 LTS. (CVE-2018-14349, CVE-2018-14350, CVE-2018-14351,
+CVE-2018-14352, CVE-2018-14353, CVE-2018-14354, CVE-2018-14355,
+CVE-2018-14356, CVE-2018-14357, CVE-2018-14358, CVE-2018-14359,
+CVE-2018-14362)
+
+Jeriko One discovered that NeoMutt incorrectly handled certain
+NNTP-related operations. An attacker could possibly use this issue
+to cause NeoMutt to crash, resulting in denial of service, or
+the execution of arbitrary code. This issue only affected
+Ubuntu 18.04 LTS. (CVE-2018-14360, CVE-2018-14361, CVE-2018-14363)
+
+It was discovered that NeoMutt incorrectly processed additional data
+when communicating with mail servers. An attacker could possibly use
+this issue to access senstive information. This issue only affected
+Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. (CVE-2020-14954, CVE-2020-28896)
+
+It was discovered that Neomutt incorrectly handled the IMAP QRSync
+setting. An attacker could possibly use this issue to cause NeoMutt
+to crash, resulting in denial of service. This issue only affected
+Ubuntu 20.04 LTS. (CVE-2021-32055)
+
+Tavis Ormandy discovered that NeoMutt incorrectly parsed uuencoded
+text past the length of the string. An attacker could possibly use
+this issue to enable the execution of arbitrary code. This issue
+only affected Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and
+Ubuntu 22.04 LTS. (CVE-2022-1328)
+
+It was discovered that NeoMutt did not properly encrypt email headers.
+An attacker could possibly use this issue to receive emails that were
+not intended for them and access sensitive information. This
+vulnerability was only fixed in Ubuntu 20.04 LTS, Ubuntu 22.04 LTS,
+and Ubuntu 24.04 LTS. (CVE-2024-49393, CVE-2024-49394)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[North Korea's Lazarus APT Evolves Developer-Recruitment Attacks]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/north-korea-lazarus-apt-developer-recruitment-attacks</id>
+        <link href="https://www.darkreading.com/threat-intelligence/north-korea-lazarus-apt-developer-recruitment-attacks"/>
+        <updated>2025-01-15T16:02:08.000Z</updated>
+        <summary type="html"><![CDATA["Operation 99" uses job postings to lure freelance software developers into downloading malicious Git repositories. From there, malware infiltrates developer projects to steal source code, secrets, and cryptocurrency.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Ads Users Targeted in Malvertising Scam Stealing Credentials and 2FA Codes]]></title>
+        <id>https://thehackernews.com/2025/01/google-ads-users-targeted-in.html</id>
+        <link href="https://thehackernews.com/2025/01/google-ads-users-targeted-in.html"/>
+        <updated>2025-01-15T15:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have alerted to a new malvertising campaign that's targeting individuals and businesses advertising via Google Ads by attempting to phish for their credentials via fraudulent ads on Google.
+"The scheme consists of stealing as many advertiser accounts as possible by impersonating Google Ads and redirecting victims to fake login pages," Jérôme Segura, senior director of]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lazarus Group Targets Web3 Developers with Fake LinkedIn Profiles in Operation 99]]></title>
+        <id>https://thehackernews.com/2025/01/lazarus-group-targets-web3-developers.html</id>
+        <link href="https://thehackernews.com/2025/01/lazarus-group-targets-web3-developers.html"/>
+        <updated>2025-01-15T15:37:00.000Z</updated>
+        <summary type="html"><![CDATA[The North Korea-linked Lazarus Group has been attributed to a new cyber attack campaign dubbed Operation 99 that targeted software developers looking for freelance Web3 and cryptocurrency work to deliver malware.
+"The campaign begins with fake recruiters, posing on platforms like LinkedIn, luring developers with project tests and code reviews," Ryan Sherstobitoff, senior vice president of Threat]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OWASP's New LLM Top 10 Shows Emerging AI Threats]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/owasps-llm-top-10-shows-emerging-ai-threats</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/owasps-llm-top-10-shows-emerging-ai-threats"/>
+        <updated>2025-01-15T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ultimately, there is no replacement for an intuitive, security-focused developer working with the critical thinking required to drive down the risk of both AI and human error.]]></summary>
+        <author>
+            <name>Matias Madou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[North Korean IT Worker Fraud Linked to 2016 Crowdfunding Scam and Fake Domains]]></title>
+        <id>https://thehackernews.com/2025/01/north-korean-it-worker-fraud-linked-to.html</id>
+        <link href="https://thehackernews.com/2025/01/north-korean-it-worker-fraud-linked-to.html"/>
+        <updated>2025-01-15T13:32:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have identified infrastructure links between the North Korean threat actors behind the fraudulent IT worker schemes and a 2016 crowdfunding scam.
+The new evidence suggests that Pyongyang-based threamoret groups may have pulled off illicit money-making scams that predate the use of IT workers, SecureWorks Counter Threat Unit (CTU) said in a report shared with The Hacker]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Cloud Researchers Uncover Flaws in Rsync File Synchronization Tool]]></title>
+        <id>https://thehackernews.com/2025/01/google-cloud-researchers-uncover-flaws.html</id>
+        <link href="https://thehackernews.com/2025/01/google-cloud-researchers-uncover-flaws.html"/>
+        <updated>2025-01-15T12:26:00.000Z</updated>
+        <summary type="html"><![CDATA[As many as six security vulnerabilities have been disclosed in the popular Rsync file-synchronizing tool for Unix systems, some of which could be exploited to execute arbitrary code on a client.
+"Attackers can take control of a malicious server and read/write arbitrary files of any connected client," the CERT Coordination Center (CERT/CC) said in an advisory. "Sensitive data, such as SSH keys,]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Phishing False Alarm]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/01/phishing-false-alarm.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/01/phishing-false-alarm.html"/>
+        <updated>2025-01-15T12:00:58.000Z</updated>
+        <summary type="html"><![CDATA[<p>A very security-conscious company was hit with a (presumed) massive state-actor phishing attack with gift cards, and everyone rallied to combat it&#8212;until it <a href="https://notalwaysright.com/?p=359144">turned out</a> it was company management sending the gift cards.</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Microsoft Expanded Cloud Logs Implementation Playbook]]></title>
+        <id>/node/22865</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/01/15/cisa-releases-microsoft-expanded-cloud-logs-implementation-playbook"/>
+        <updated>2025-01-15T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA released the Microsoft Expanded Cloud Logs Implementation Playbook to help organizations get the most out of Microsoft’s newly introduced logs in Microsoft Purview Audit (Standard). This step-by-step guide enables technical personnel to better detect and defend against advanced intrusion techniques by operationalizing expanded cloud logs. 
+The playbook details analytical methodologies tied to using these logs. Specifically, the playbook offers:
+An overview of the newly introduced logs in Microsoft Purview Audit (Standard) that enable organizations to conduct forensic and compliance investigations by accessing critical events (e.g., mail items accessed, mail items sent, and user searches in SharePoint Online and Exchange Online). 
+A description of administration/enabling actions and ingestion of these logs to Microsoft Sentinel and Splunk Security Information and Event Management (SIEM) systems. 
+A discussion of significant events in other M365 services, such as Teams. 
+CISA encourages organizations to use the playbook to make newly available logs an actionable part of their enterprise cybersecurity operations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The High-Stakes Disconnect For ICS/OT Security]]></title>
+        <id>https://thehackernews.com/2025/01/the-high-stakes-disconnect-for-icsot.html</id>
+        <link href="https://thehackernews.com/2025/01/the-high-stakes-disconnect-for-icsot.html"/>
+        <updated>2025-01-15T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Why does ICS/OT need specific controls and its own cybersecurity budget today? Because treating ICS/OT security with an IT security playbook isn’t just ineffective—it’s high risk.
+In the rapidly evolving domain of cybersecurity, the specific challenges and needs for Industrial Control Systems (ICS) and Operational Technology (OT) security distinctly stand out from traditional IT security. ICS/OT]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Congratulations to the Top MSRC 2024 Q4 Security Researchers!]]></title>
+        <id>https://msrc.microsoft.com/blog/2025/01/congratulations-to-the-top-msrc-2024-q4-security-researchers/</id>
+        <link href="https://msrc.microsoft.com/blog/2025/01/congratulations-to-the-top-msrc-2024-q4-security-researchers/"/>
+        <updated>2025-01-15T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Congratulations to all the researchers recognized in this quarter’s Microsoft Researcher Recognition Program leaderboard! Thank you to everyone for your hard work and continued partnership to secure customers.
+The top three researchers of the 2024 Q4 Security Researcher Leaderboard are Suresh, VictorV, wkai!
+Check out the full list of researchers recognized this quarter here.]]></summary>
+        <author>
+            <name>Microsoft Security Response Center</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FBI Deletes PlugX Malware from 4,250 Hacked Computers in Multi-Month Operation]]></title>
+        <id>https://thehackernews.com/2025/01/fbi-deletes-plugx-malware-from-4250.html</id>
+        <link href="https://thehackernews.com/2025/01/fbi-deletes-plugx-malware-from-4250.html"/>
+        <updated>2025-01-15T06:14:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. Department of Justice (DoJ) on Tuesday disclosed that a court-authorized operation allowed the Federal Bureau of Investigation (FBI) to delete PlugX malware from over 4,250 infected computers as part of a "multi-month law enforcement operation."
+PlugX, also known as Korplug, is a remote access trojan (RAT) widely used by threat actors associated with the People's Republic of China (PRC]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3 Actively Exploited Zero-Day Flaws Patched in Microsoft's Latest Security Update]]></title>
+        <id>https://thehackernews.com/2025/01/3-actively-exploited-zero-day-flaws.html</id>
+        <link href="https://thehackernews.com/2025/01/3-actively-exploited-zero-day-flaws.html"/>
+        <updated>2025-01-15T05:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft kicked off 2025 with a new set of patches for a total of 161 security vulnerabilities across its software portfolio, including three zero-days that have been actively exploited in attacks.
+Of the 161 flaws, 11 are rated Critical and 149 are rated Important in severity. One other flaw, a non-Microsoft CVE related to a Windows Secure Boot bypass (CVE-2024-7344, CVSS score: 6.7), has not]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical SimpleHelp Flaws Allow File Theft, Privilege Escalation, and RCE Attacks]]></title>
+        <id>https://thehackernews.com/2025/01/critical-simplehelp-flaws-allow-file.html</id>
+        <link href="https://thehackernews.com/2025/01/critical-simplehelp-flaws-allow-file.html"/>
+        <updated>2025-01-15T05:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed multiple security flaws in SimpleHelp remote access software that could lead to information disclosure, privilege escalation, and remote code execution.
+Horizon3.ai researcher Naveen Sunkavally, in a technical report detailing the findings, said the "vulnerabilities are trivial to reverse and exploit."
+The list of identified flaws is as follows -]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[As Tensions Mount With China, Taiwan Sees Surge in Cyberattacks]]></title>
+        <id>https://www.darkreading.com/cyber-risk/as-tensions-with-china-mount-taiwan-sees-surge-in-cyberattacks</id>
+        <link href="https://www.darkreading.com/cyber-risk/as-tensions-with-china-mount-taiwan-sees-surge-in-cyberattacks"/>
+        <updated>2025-01-15T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In 2024, the Taiwanese government saw the daily average of attempted attacks by China double to 2.4 million, with a focus on government targets and telecommunications firms.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[USN-7206-1: rsync vulnerabilities]]></title>
         <id>https://ubuntu.com/security/notices/USN-7206-1</id>
@@ -46,6 +308,16 @@ information or escalate privileges. (CVE-2024-12747)]]></summary>
         <summary type="html"><![CDATA[Company has issued patches for an unprecedented 159 CVEs, including eight zero-days, three of which attackers are already exploiting.]]></summary>
         <author>
             <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1Password's Trelica Buy Part of Broader Shadow IT Play]]></title>
+        <id>https://www.darkreading.com/identity-access-management-security/1password-trelica-buy-shadow-it-play</id>
+        <link href="https://www.darkreading.com/identity-access-management-security/1password-trelica-buy-shadow-it-play"/>
+        <updated>2025-01-14T21:52:52.000Z</updated>
+        <summary type="html"><![CDATA[The acquisition accelerates 1Password's ongoing efforts to expand the role of the password manager with secure SaaS management.]]></summary>
+        <author>
+            <name>Jeffrey Schwartz</name>
         </author>
     </entry>
     <entry>
@@ -4380,247 +4652,6 @@ Cybersecurity company Securonix, which is tracking the activity under the name F
 "One of the]]></summary>
         <author>
             <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Even Great Companies Get Breached — Find Out Why and How to Stop It]]></title>
-        <id>https://thehackernews.com/2024/12/even-great-companies-get-breached-find.html</id>
-        <link href="https://thehackernews.com/2024/12/even-great-companies-get-breached-find.html"/>
-        <updated>2024-12-17T12:05:00.000Z</updated>
-        <summary type="html"><![CDATA[Even the best companies with the most advanced tools can still get hacked. It’s a frustrating reality: you’ve invested in the right solutions, trained your team, and strengthened your defenses. But breaches still happen.
-So, what’s going wrong? The truth is, that attackers are constantly finding new ways to slip through cracks that often go unnoticed—even in well-prepared organizations. The good]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Releases Five Industrial Control Systems Advisories]]></title>
-        <id>/node/22732</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/12/17/cisa-releases-five-industrial-control-systems-advisories"/>
-        <updated>2024-12-17T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA released five Industrial Control Systems (ICS) advisories on December 17, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
-ICSA-24-352-01 ThreatQuotient ThreatQ Platform
-ICSA-24-352-02 Hitachi Energy TropOS Devices Series 1400/2400/6400
-ICSA-24-352-03 Rockwell Automation PowerMonitor 1000 Remote
-ICSA-24-352-04 Schneider Electric Modicon
-ICSMA-24-352-01 BD Diagnostic Solutions Products
-CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Issues BOD 25-01, Implementing Secure Practices for Cloud Services]]></title>
-        <id>/node/22726</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/12/17/cisa-issues-bod-25-01-implementing-secure-practices-cloud-services"/>
-        <updated>2024-12-17T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today, CISA issued Binding Operational Directive (BOD) 25-01, Implementing Secure Practices for Cloud Services to safeguard federal information and information systems. This Directive requires federal civilian agencies to identify specific cloud tenants, implement assessment tools, and align cloud environments to CISA’s Secure Cloud Business Applications (SCuBA) secure configuration baselines. 
-Recent cybersecurity incidents highlight the significant risks posed by misconfigurations and weak security controls, which attackers can use to gain unauthorized access, exfiltrate data, or disrupt services. As part of CISA and the broad U.S. government's effort to move the federal civilian enterprise to a more defensible posture, this Directive will further reduce the attack surface of the federal government networks.
-The new Directive can be found at Binding Operational Directive (BOD) 25-01. To learn more about CISA Directives, visit Cybersecurity Directives webpage.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA and ONCD Release Playbook for Strengthening Cybersecurity in Federal Grant Programs for Critical Infrastructure]]></title>
-        <id>/node/22725</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/12/17/cisa-and-oncd-release-playbook-strengthening-cybersecurity-federal-grant-programs-critical"/>
-        <updated>2024-12-17T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today, CISA and the Office of the National Cyber Director (ONCD) published Playbook for Strengthening Cybersecurity in Federal Grant Programs for Critical Infrastructure to assist grant-making agencies to incorporate cybersecurity into their grant programs and assist grant-recipients to build cyber resilience into their grant-funded infrastructure projects. 
-This guide is for federal grant program managers, critical infrastructure owners and operators, and organizations such as state, local, tribal, and territorial governments who subaward grant program funds, and grant program recipients. The guide includes:
-Recommended actions to incorporate cybersecurity into grant programs throughout the grant management lifecycle.
-Model language for grant program managers and sub-awarding organizations to incorporate into Notices of Funding Opportunity (NOFOs) and Terms & Conditions. 
-Templates for recipients to leverage when developing a Cyber Risk Assessment and Project Cybersecurity Plan.
-Comprehensive list of cybersecurity resources available to support grant recipient project execution.
-CISA encourages organizations to review and apply recommended actions to secure the nation’s critical infrastructure and enhance resilience.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
-        <id>/node/22721</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/12/17/cisa-adds-one-known-exploited-vulnerability-catalog"/>
-        <updated>2024-12-17T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
-CVE-2024-55956 Cleo Multiple Products Unauthenticated File Upload Vulnerability
-These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
-Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
-Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bitter APT Targets Turkish Defense Sector with WmRAT and MiyaRAT Malware]]></title>
-        <id>https://thehackernews.com/2024/12/bitter-apt-targets-turkish-defense.html</id>
-        <link href="https://thehackernews.com/2024/12/bitter-apt-targets-turkish-defense.html"/>
-        <updated>2024-12-17T11:07:00.000Z</updated>
-        <summary type="html"><![CDATA[A suspected South Asian cyber espionage threat group known as Bitter targeted a Turkish defense sector organization in November 2024 to deliver two C++-malware families tracked as WmRAT and MiyaRAT.
-"The attack chain used alternate data streams in a RAR archive to deliver a shortcut (LNK) file that created a scheduled task on the target machine to pull down further payloads," Proofpoint]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Practical Techniques for Effective Cyber Threat Hunting]]></title>
-        <id>https://thehackernews.com/2024/12/5-practical-techniques-for-effective.html</id>
-        <link href="https://thehackernews.com/2024/12/5-practical-techniques-for-effective.html"/>
-        <updated>2024-12-17T10:52:00.000Z</updated>
-        <summary type="html"><![CDATA[Addressing cyber threats before they have a chance to strike or inflict serious damage is by far the best security approach any company can embrace. Achieving this takes a lot of research and proactive threat hunting. The problem here is that it is easy to get stuck in endless arrays of data and end up with no relevant intel. 
-To avoid this, use these five battle-tested techniques that are]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hackers Exploit Webview2 to Deploy CoinLurker Malware and Evade Security Detection]]></title>
-        <id>https://thehackernews.com/2024/12/hackers-exploit-webview2-to-deploy.html</id>
-        <link href="https://thehackernews.com/2024/12/hackers-exploit-webview2-to-deploy.html"/>
-        <updated>2024-12-17T09:03:00.000Z</updated>
-        <summary type="html"><![CDATA[Bogus software update lures are being used by threat actors to deliver a new stealer malware called CoinLurker.
-"Written in Go, CoinLurker employs cutting-edge obfuscation and anti-analysis techniques, making it a highly effective tool in modern cyber attacks," Morphisec researcher Nadav Lorber said in a technical report published Monday.
-The attacks make use of fake update alerts that employ]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Mask APT Resurfaces with Sophisticated Multi-Platform Malware Arsenal]]></title>
-        <id>https://thehackernews.com/2024/12/the-mask-apt-resurfaces-with.html</id>
-        <link href="https://thehackernews.com/2024/12/the-mask-apt-resurfaces-with.html"/>
-        <updated>2024-12-17T06:55:00.000Z</updated>
-        <summary type="html"><![CDATA[A little-known cyber espionage actor known as The Mask has been linked to a new set of attacks targeting an unnamed organization in Latin America twice in 2019 and 2022.
-"The Mask APT is a legendary threat actor that has been performing highly sophisticated attacks since at least 2007," Kaspersky researchers Georgy Kucherin and Marc Rivero said in an analysis published last week. "Their targets]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA and FBI Raise Alerts on Exploited Flaws and Expanding HiatusRAT Campaign]]></title>
-        <id>https://thehackernews.com/2024/12/cisa-and-fbi-raise-alerts-on-exploited.html</id>
-        <link href="https://thehackernews.com/2024/12/cisa-and-fbi-raise-alerts-on-exploited.html"/>
-        <updated>2024-12-17T05:47:00.000Z</updated>
-        <summary type="html"><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.
-The list of flaws is below -
-
-CVE-2024-20767 (CVSS score: 7.4) - Adobe ColdFusion contains an improper access control vulnerability that could allow an attacker to access or modify restricted]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BlackBerry to Sell Cylance to Arctic Wolf]]></title>
-        <id>https://www.darkreading.com/endpoint-security/blackberry-sell-cylance-arctic-wolf</id>
-        <link href="https://www.darkreading.com/endpoint-security/blackberry-sell-cylance-arctic-wolf"/>
-        <updated>2024-12-16T22:48:01.000Z</updated>
-        <summary type="html"><![CDATA[Arctic Wolf plans to integrate Cylance's endpoint detection and response (EDR) technology into its extended detection and response (XDR) platform.]]></summary>
-        <author>
-            <name>Fahmida Y. Rashid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Does Desktop AI Come With a Side of Risk?]]></title>
-        <id>https://www.darkreading.com/application-security/does-desktop-ai-risk</id>
-        <link href="https://www.darkreading.com/application-security/does-desktop-ai-risk"/>
-        <updated>2024-12-16T20:33:16.000Z</updated>
-        <summary type="html"><![CDATA[Artificial intelligence capabilities are coming to a desktop near you — with Microsoft 365 Copilot, Google Gemini with Project Jarvis, and Apple Intelligence all arriving (or having arrived). But what are the risks?]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Citizen Development Moves Too Fast for Its Own Good]]></title>
-        <id>https://www.darkreading.com/application-security/citizen-development-moves-too-fast-for-its-own-good</id>
-        <link href="https://www.darkreading.com/application-security/citizen-development-moves-too-fast-for-its-own-good"/>
-        <updated>2024-12-16T20:08:54.000Z</updated>
-        <summary type="html"><![CDATA[While low-code/no-code tools can speed up application development, sometimes it's worth taking a slower approach for a safer product.]]></summary>
-        <author>
-            <name>Michael Bargury</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Education Industry: Why Its Data Must Be Protected]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/education-industry-data-must-be-protected</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/education-industry-data-must-be-protected"/>
-        <updated>2024-12-16T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The sector must prioritize comprehensive data protection strategies to safeguard PII in an aggressive threat environment.]]></summary>
-        <author>
-            <name>Vichai Levy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7163-1: Linux kernel vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7163-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7163-1"/>
-        <updated>2024-12-16T17:11:09.000Z</updated>
-        <summary type="html"><![CDATA[A security issue was discovered in the Linux kernel.
-An attacker could possibly use this to compromise the system.
-This update corrects flaws in the following subsystem:
-  - Network traffic control;]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerability Summary for the Week of December 9, 2024]]></title>
-        <id>/node/22718</id>
-        <link href="https://www.cisa.gov/news-events/bulletins/sb24-351"/>
-        <updated>2024-12-16T15:02:16.000Z</updated>
-        <summary type="html"><![CDATA[High Vulnerabilities
-Primary
-Vendor -- Product
-Description
-Published
-CVSS Score
-Source Info
-
-
-
-
-n/a -- n/a
- 
-The Vayu Blocks - Gutenberg Blocks for WordPress & WooCommerce plugin for WordPress is vulnerable to unauthorized arbitrary plugin installation and activation due to a missing capability check on the tp_install() function in all versions up to, and including, 1.1.1. This makes it possible for unauthenticated attackers to install and activate arbitrary plugins which can be leveraged to achieve remote code execution if another vulnerable plugin is installed and activated. This vulnerability was partially patched in version 1.1.1.
-2024-12-12
-9.8
-CVE-2024-10124
-
-
-n/a -- n/a
- 
-The Sign In With Google plugin for WordPress is vulnerable to authentication bypass in all versions up to, and i…]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeceptionAds Delivers 1M+ Daily Impressions via 3,000 Sites, Fake CAPTCHA Pages]]></title>
-        <id>https://thehackernews.com/2024/12/deceptionads-delivers-1m-daily.html</id>
-        <link href="https://thehackernews.com/2024/12/deceptionads-delivers-1m-daily.html"/>
-        <updated>2024-12-16T14:22:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have shed light on a previously undocumented aspect associated with ClickFix-style attacks that hinge on taking advantage of a single ad network service as part of a malvertising-driven information stealer campaign dubbed DeceptionAds.
-"Entirely reliant on a single ad network for propagation, this campaign showcases the core mechanisms of malvertising — delivering over]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7161-1: Docker vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7161-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7161-1"/>
-        <updated>2024-12-16T13:56:40.000Z</updated>
-        <summary type="html"><![CDATA[Yair Zak discovered that Docker could unexpectedly forward DNS requests 
-from internal networks in an unexpected manner. An attacker could possibly
-use this issue to exfiltrate data by encoding information in DNS queries 
-to controlled nameservers. This issue was only addressed in 
-Ubuntu 24.04 LTS. (CVE-2024-29018)
-
-Cory Snider discovered that Docker did not properly handle authorization 
-plugin request processing. An attacker could possibly use this issue to 
-bypass authorization controls by forwarding API requests without their 
-full body, leading to unauthorized actions. (CVE-2024-41110)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
         </author>
     </entry>
     <entry>
