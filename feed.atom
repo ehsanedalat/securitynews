@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-01-19T01:38:36.259Z</updated>
+    <updated>2025-01-20T01:27:05.055Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TikTok Goes Dark in the U.S. as Federal Ban Takes Effect January 19, 2025]]></title>
+        <id>https://thehackernews.com/2025/01/tiktok-goes-dark-in-us-as-federal-ban.html</id>
+        <link href="https://thehackernews.com/2025/01/tiktok-goes-dark-in-us-as-federal-ban.html"/>
+        <updated>2025-01-19T05:24:00.000Z</updated>
+        <summary type="html"><![CDATA[Popular video-sharing social network TikTok has officially gone dark in the United States, as a federal ban on the app comes into effect on January 19, 2025.
+"We regret that a U.S. law banning TikTok will take effect on January 19 and force us to make our services temporarily unavailable," the company said in a pop-up message. "We're working to restore our service in the U.S. as soon as possible]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[U.S. Sanctions Chinese Cybersecurity Firm Over Treasury Hack Tied to Silk Typhoon]]></title>
         <id>https://thehackernews.com/2025/01/us-sanctions-chinese-cybersecurity-firm.html</id>
@@ -4265,148 +4276,6 @@ The fine comes nearly a year after the Garante found that ChatGPT processed user
 The authority]]></summary>
         <author>
             <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LockBit Developer Rostislav Panev Charged for Billions in Global Ransomware Damages]]></title>
-        <id>https://thehackernews.com/2024/12/lockbit-developer-rostislav-panev.html</id>
-        <link href="https://thehackernews.com/2024/12/lockbit-developer-rostislav-panev.html"/>
-        <updated>2024-12-21T09:22:00.000Z</updated>
-        <summary type="html"><![CDATA[A dual Russian and Israeli national has been charged in the United States for allegedly being the developer of the now-defunct LockBit ransomware-as-a-service (RaaS) operation since its inception in or around 2019 through at least February 2024.
-Rostislav Panev, 51, was arrested in Israel earlier this August and is currently awaiting extradition, the U.S. Department of Justice (DoJ) said in a]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Friday Squid Blogging: Squid Sticker]]></title>
-        <id>https://www.schneier.com/blog/archives/2024/12/friday-squid-blogging-squid-sticker.html</id>
-        <link href="https://www.schneier.com/blog/archives/2024/12/friday-squid-blogging-squid-sticker.html"/>
-        <updated>2024-12-20T22:00:59.000Z</updated>
-        <summary type="html"><![CDATA[<p>A <a href="https://www.redbubble.com/i/sticker/Squid-Ink-by-implexity/130332154.EJUG5">sticker</a> for your water bottle.</p>
-<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7179-1: Linux kernel vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7179-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7179-1"/>
-        <updated>2024-12-20T20:33:44.000Z</updated>
-        <summary type="html"><![CDATA[Andy Nguyen discovered that the Bluetooth L2CAP implementation in the Linux
-kernel contained a type-confusion error. A physically proximate remote
-attacker could use this to cause a denial of service (system crash) or
-possibly execute arbitrary code. (CVE-2020-12351)
-
-Andy Nguyen discovered that the Bluetooth A2MP implementation in the Linux
-kernel did not properly initialize memory in some situations. A physically
-proximate remote attacker could use this to expose sensitive information
-(kernel memory). (CVE-2020-12352)
-
-Andy Nguyen discovered that the Bluetooth HCI event packet parser in the
-Linux kernel did not properly handle event advertisements of certain sizes,
-leading to a heap-based buffer overflow. A physically proximate remote
-attacker could use this to cause a denial of service (system crash) or
-possibly execute arbitrary code. (CVE-2020-24490)
-
-Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - GPU drivers;
-  - Media drivers;
-  - Network drivers;
-  - SMB network file system;
-  - Bluetooth subsystem;
-  - Amateur Radio drivers;
-  - Network traffic control;
-  - VMware vSockets driver;
-(CVE-2024-43904, CVE-2024-35963, CVE-2024-35967, CVE-2024-40973,
-CVE-2024-26822, CVE-2024-35965, CVE-2024-40910, CVE-2024-38553,
-CVE-2024-53057, CVE-2024-50264, CVE-2024-35966)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7173-2: Linux kernel vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7173-2</id>
-        <link href="https://ubuntu.com/security/notices/USN-7173-2"/>
-        <updated>2024-12-20T19:43:39.000Z</updated>
-        <summary type="html"><![CDATA[Ziming Zhang discovered that the DRM driver for VMware Virtual GPU did not
-properly handle certain error conditions, leading to a NULL pointer
-dereference. A local attacker could possibly trigger this vulnerability to
-cause a denial of service. (CVE-2022-38096)
-
-Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - GPU drivers;
-  - Network drivers;
-  - SCSI subsystem;
-  - Ext4 file system;
-  - Bluetooth subsystem;
-  - Memory management;
-  - Amateur Radio drivers;
-  - Network traffic control;
-  - Sun RPC protocol;
-  - VMware vSockets driver;
-(CVE-2023-52821, CVE-2024-40910, CVE-2024-43892, CVE-2024-49967,
-CVE-2024-50264, CVE-2024-36952, CVE-2024-38553, CVE-2021-47101,
-CVE-2021-47001, CVE-2024-35965, CVE-2024-35963, CVE-2024-35966,
-CVE-2024-35967, CVE-2024-53057, CVE-2024-38597)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Protect Your Environment From the NTLM Vulnerability]]></title>
-        <id>https://www.darkreading.com/endpoint-security/how-to-protect-your-environment-from-the-ntlm-vulnerability</id>
-        <link href="https://www.darkreading.com/endpoint-security/how-to-protect-your-environment-from-the-ntlm-vulnerability"/>
-        <updated>2024-12-20T19:25:41.000Z</updated>
-        <summary type="html"><![CDATA[This Tech Tip outlines what enterprise defenders need to do to protect their enterprise environment from the new NTLM vulnerability.]]></summary>
-        <author>
-            <name>Roy Akerman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LockBit Ransomware Developer Arrested in Israel]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/lockbit-ransomware-developer-arrested-israel</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/lockbit-ransomware-developer-arrested-israel"/>
-        <updated>2024-12-20T18:43:44.000Z</updated>
-        <summary type="html"><![CDATA[Dual Russian-Israeli national Rostislav Panev was arrested last August and is facing extradition to the US for playing a critical role in LockBit's RaaS activities, dating back to the ransomware gang's origins.]]></summary>
-        <author>
-            <name>Becky Bracken, Senior Editor, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Ban on TP-Link Routers More About Politics Than Exploitation Risk]]></title>
-        <id>https://www.darkreading.com/endpoint-security/us-ban-tp-link-routers-politics-exploitation-risk</id>
-        <link href="https://www.darkreading.com/endpoint-security/us-ban-tp-link-routers-politics-exploitation-risk"/>
-        <updated>2024-12-20T17:23:44.000Z</updated>
-        <summary type="html"><![CDATA[While a number of threat groups have used TP-Link bugs to infiltrate networks, a proposed ban of the company's popular routers is more about geopolitics than actual cybersecurity — and that may not be a bad thing.]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Nation-State Cybercriminals Are Targeting the Enterprise]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/how-nation-state-cybercriminals-target-enterprise</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/how-nation-state-cybercriminals-target-enterprise"/>
-        <updated>2024-12-20T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Combating nation-state threat actors at the enterprise level requires more than just cyber readiness and investment — it calls for a collaborative effort.]]></summary>
-        <author>
-            <name>Adam Finkelstein</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managing Threats When Most of the Security Team Is Out of the Office]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/managing-threats-when-security-on-vacation</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/managing-threats-when-security-on-vacation"/>
-        <updated>2024-12-20T14:38:07.000Z</updated>
-        <summary type="html"><![CDATA[During holidays and slow weeks, teams thin out and attackers move in. Here are strategies to bridge gaps, stay vigilant, and keep systems secure during those lulls.]]></summary>
-        <author>
-            <name>Joan Goodchild</name>
         </author>
     </entry>
     <entry>
