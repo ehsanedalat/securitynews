@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-02-16T01:41:33.959Z</updated>
+    <updated>2025-02-17T01:38:24.320Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
@@ -6989,124 +6989,6 @@ allocation. If a user or application were tricked in…]]></summary>
         <updated>2025-01-19T05:24:00.000Z</updated>
         <summary type="html"><![CDATA[Popular video-sharing social network TikTok has officially gone dark in the United States, as a federal ban on the app comes into effect on January 19, 2025.
 "We regret that a U.S. law banning TikTok will take effect on January 19 and force us to make our services temporarily unavailable," the company said in a pop-up message. "We're working to restore our service in the U.S. as soon as possible]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[U.S. Sanctions Chinese Cybersecurity Firm Over Treasury Hack Tied to Silk Typhoon]]></title>
-        <id>https://thehackernews.com/2025/01/us-sanctions-chinese-cybersecurity-firm.html</id>
-        <link href="https://thehackernews.com/2025/01/us-sanctions-chinese-cybersecurity-firm.html"/>
-        <updated>2025-01-18T06:06:00.000Z</updated>
-        <summary type="html"><![CDATA[The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has imposed sanctions against a Chinese cybersecurity company and a Shanghai-based cyber actor for their alleged links to the Salt Typhoon group and the recent compromise of the federal agency.
-"People's Republic of China-linked (PRC) malicious cyber actors continue to target U.S. government systems, including the recent]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Has the TikTok Ban Already Backfired on US Cybersecurity?]]></title>
-        <id>https://www.darkreading.com/threat-intelligence/tiktok-ban-backfired-us-cybersecurity</id>
-        <link href="https://www.darkreading.com/threat-intelligence/tiktok-ban-backfired-us-cybersecurity"/>
-        <updated>2025-01-17T22:03:46.000Z</updated>
-        <summary type="html"><![CDATA[The Supreme Court has affirmed TikTok's ban in the US, which has its users in revolt and is creating a whole new set of national cybersecurity concerns.]]></summary>
-        <author>
-            <name>Becky Bracken, Senior Editor, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Friday Squid Blogging: Opioid Alternatives from Squid Research]]></title>
-        <id>https://www.schneier.com/blog/archives/2025/01/friday-squid-blogging-opioid-alternatives-from-squid-research.html</id>
-        <link href="https://www.schneier.com/blog/archives/2025/01/friday-squid-blogging-opioid-alternatives-from-squid-research.html"/>
-        <updated>2025-01-17T22:02:23.000Z</updated>
-        <summary type="html"><![CDATA[<p>Is there nothing that <a href="https://www.capeandislands.org/2024-12-05/massachusetts-scientists-study-squid-to-develop-disease-treatments-and-opioid-alternatives">squid research</a> can&#8217;t solve?</p>
-<blockquote><p>&#8220;If you&#8217;re working with an organism like squid that can edit genetic information way better than any other organism, then it makes sense that that might be useful for a therapeutic application like deadening pain,&#8221; he said.</p>
-<p>[&#8230;]</p>
-<p>Researchers hope to mimic how squid and octopus use RNA editing in nerve channels that interpret pain and use that knowledge to manipulate human cells.</p></blockquote>
-<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VU#199397: Insecure Implementation of Tunneling Protocols  (GRE/IPIP/4in6/6in4)]]></title>
-        <id>https://kb.cert.org/vuls/id/199397</id>
-        <link href="https://kb.cert.org/vuls/id/199397"/>
-        <updated>2025-01-17T20:38:34.973Z</updated>
-        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
-<p>Tunnelling protocols are an essential part of the Internet and form much of the backbone that modern network infrastructure relies on today. One limitation of these protocols is that they do not authenticate and/or encrypt traffic. Though this limitation exists, IPsec can be implemented to help prevent attacks. However, implementation of these protocols have been executed poorly in some areas.</p>
-<p>For the latest security findings from the researchers at the DistriNet-KU Leuven research group, please refer to: https://papers.mathyvanhoef.com/usenix2025-tunnels.pdf</p>
-<h3 id="description">Description</h3>
-<p>Researchers at the DistriNet-KU Leuven research group have discovered millions of vulnerable Internet systems that accept unauthenticated IPIP, GRE, 4in6, or 6in4 traffic. This can be considered a generalization of the vulnerability in VU#636397 : <a href="https://kb.cert.org/vuls/id/636397">IP-in-IP protocol routes arbitrary traffic by default</a> (CVE-2020-10136). The exposed systems can be abused as one-way proxies, enable an adversary to spoof the source address of packets (CWE-290 Authentication Bypass by Spoofing), or permit access to an organization's private network. Vulnerable systems can also facilitate Denial-of-Service (DoS) attacks.
-Two types of DoS attacks exploiting this vulnerability can amplify traffic: one concentrates traffic in time ("Tunneled-Temporal Lensing"), and the other can loop packets between vulnerable systems, resulting in an amplification factor of at least 13- and 75-fold, respectively. Additionally, the researchers discovered an Economic Denial of Sustainability (EDoS), where the outgoing bandwidth of a vulnerable system is drained, raising the cost of operations if hosted by a third-party cloud service provider.</p>
-<h3 id="impact">Impact</h3>
-<p>An adversary can abuse these security vulnerabilities to create one-way proxies and spoof source IPv4/6 addresses. Vulnerable systems may also allow access to an organization's private network or be abused to perform DDoS attacks.</p>
-<h3 id="solution">Solution</h3>
-<p>See the "Defences" section in the researcher's publication https://papers.mathyvanhoef.com/usenix2025-tunnels.pdf</p>
-<h3 id="acknowledgements">Acknowledgements</h3>
-<p>Thanks to the researchers Mathy Vanhoef and Angelos Beitis of the DistriNet-KU Leuven research group for the initial discovery and research. This document was written by Ben Koo.</p>
-<p><strong>CVE-2024-7595</strong>
-GRE and GRE6 Protocols (RFC2784) do not validate or verify the source of a network packet, allowing an attacker to route arbitrary traffic via an exposed network interface that can lead to spoofing, access control bypass, and other unexpected network behaviors. This can be considered similar to CVE-2020-10136.</p>
-<p><strong>CVE-2024-7596</strong>
-Proposed Generic UDP Encapsulation (GUE) (IETF draft-ietf-intarea-gue*) does not validate or verify the source of a network packet, allowing an attacker to route arbitrary traffic via an exposed network interface that can lead to spoofing, access control bypass, and other unexpected network behaviors. This can be considered similar to CVE-2020-10136.</p>
-<p>*Note: <a href="https://datatracker.ietf.org/doc/draft-ietf-intarea-gue/">GUE Draft</a> is expired and no longer canonical.</p>
-<p><strong>CVE-2025-23018</strong>
-The IPv4-in-IPv6 and IPv6-in-IPv6 protocols (RFC2473) do not require the validation or verification of the source of a network packet, allowing an attacker to route arbitrary traffic via an exposed network interface that can lead to spoofing, access control bypass, and other unexpected network behaviors. This can be considered similar to CVE-2020-10136.</p>
-<p><strong>CVE-2025-23019</strong>
-The IPv6-in-IPv4 protocol (RFC4213) does not require authentication of incoming packets, allowing an attacker to route traffic via an exposed network interface that can lead to spoofing, access control bypass, and other unexpected network behaviors.</p>
-<p><em>Note: CVE-2024-7595, CVE-2024-7596, and CVE-2025-23018 are considered similar to CVE-2020-10136 in that they highlight the inherent weakness that these protocols do not validate or verify the source of a network packet. These distinct CVEs are meant to specify the different protocols in question that are vulnerable.</em></p>
-<p><em>For reference: (CVE-2020-10136) Multiple products that implement the IP Encapsulation within IP (IPIP) standard (RFC 2003, STD 1) decapsulate and route IP-in-IP traffic without any validation, which could allow an unauthenticated remote attacker to route arbitrary traffic via an exposed network interface and lead to spoofing, access control bypass, and other unexpected network behaviors.</em></p>]]></summary>
-        <author>
-            <name>CERT Recently Published Vulnerability Notes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Employees Enter Sensitive Data Into GenAI Prompts Far Too Often]]></title>
-        <id>https://www.darkreading.com/threat-intelligence/employees-sensitive-data-genai-prompts</id>
-        <link href="https://www.darkreading.com/threat-intelligence/employees-sensitive-data-genai-prompts"/>
-        <updated>2025-01-17T20:23:43.000Z</updated>
-        <summary type="html"><![CDATA[The propensity for users to enter customer data, source code, employee benefits information, financial data, and more into ChatGPT, Copilot, and others is racking up real risk for enterprises.]]></summary>
-        <author>
-            <name>Kristina Beek, Associate Editor, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[15K Fortinet Device Configs Leaked to the Dark Web]]></title>
-        <id>https://www.darkreading.com/endpoint-security/15k-fortinet-device-configs-leaked-dark-web</id>
-        <link href="https://www.darkreading.com/endpoint-security/15k-fortinet-device-configs-leaked-dark-web"/>
-        <updated>2025-01-17T19:44:31.000Z</updated>
-        <summary type="html"><![CDATA[The stolen firewall data is thorough but more than 2 years old now, meaning that most organizations following even basic security practices face minimal risk, hopefully.]]></summary>
-        <author>
-            <name>Nate Nelson, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Sanctions Chinese Hacker &amp; Firm for Treasury, Critical Infrastructure Breaches]]></title>
-        <id>https://www.darkreading.com/threat-intelligence/us-sanctions-chinese-hacker-treasury-critical-infrastructure-breaches</id>
-        <link href="https://www.darkreading.com/threat-intelligence/us-sanctions-chinese-hacker-treasury-critical-infrastructure-breaches"/>
-        <updated>2025-01-17T19:43:18.000Z</updated>
-        <summary type="html"><![CDATA[The cyber actor played a role in the Treasury breach as well as attacks on critical infrastructure, linked to China-backed advanced persistent threat (APT) group Salt Typhoon.]]></summary>
-        <author>
-            <name>Kristina Beek, Associate Editor, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leveraging Behavioral Insights to Counter LLM-Enabled Hacking]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/leveraging-behavioral-insights-counter-llm-enabled-hacking</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/leveraging-behavioral-insights-counter-llm-enabled-hacking"/>
-        <updated>2025-01-17T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As LLMs broaden access to hacking and diversify attack strategies, understanding the thought processes behind these innovations will be vital for bolstering IT defenses.]]></summary>
-        <author>
-            <name>Aybars Tuncdogan, Oguz A. Acar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Critical Flaws in WGS-804HPT Switches Enable RCE and Network Exploitation]]></title>
-        <id>https://thehackernews.com/2025/01/critical-flaws-in-wgs-804hpt-switches.html</id>
-        <link href="https://thehackernews.com/2025/01/critical-flaws-in-wgs-804hpt-switches.html"/>
-        <updated>2025-01-17T14:08:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed three security flaws in Planet Technology's WGS-804HPT industrial switches that could be chained to achieve pre-authentication remote code execution on susceptible devices.
-"These switches are widely used in building and home automation systems for a variety of networking applications," Claroty's Tomer Goldschmidt said in a Thursday report. "An attacker]]></summary>
         <author>
             <name>info@thehackernews.com (The Hacker News)</name>
         </author>
