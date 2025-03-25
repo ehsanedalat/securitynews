@@ -2,10 +2,438 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-03-24T01:45:15.503Z</updated>
+    <updated>2025-03-25T01:42:52.490Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Chinese Hacker Group Tracked Back to iSoon APT Operation]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/chinese-espionage-hacker-group-isoon-apt-operation</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/chinese-espionage-hacker-group-isoon-apt-operation"/>
+        <updated>2025-03-24T20:17:03.000Z</updated>
+        <summary type="html"><![CDATA[The group, called FishMonger or Aquatic Panda, is working under contract for the Chinese government to steal data from governmental organizations, Catholic charities, NGOs, think tanks, and more.]]></summary>
+        <author>
+            <name>Becky Bracken, Senior Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FBI Warns of Document Converter Tools Due to Uptick in Scams]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/fbi-document-converter-tools-scam</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/fbi-document-converter-tools-scam"/>
+        <updated>2025-03-24T19:36:04.000Z</updated>
+        <summary type="html"><![CDATA[The FBI's Denver field office says the tools will convert documents while also dropping malware and scraping users' systems for sensitive data.]]></summary>
+        <author>
+            <name>Kristina Beek, Associate Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7369-1: elfutils vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7369-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7369-1"/>
+        <updated>2025-03-24T19:24:01.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that readelf from elfutils could be made to read out of
+bounds. If a user or automated system were tricked into running readelf
+on a specially crafted file, an attacker could cause readelf to crash,
+resulting in a denial of service. This issue only affected Ubuntu 24.04
+LTS. (CVE-2024-25260)
+
+It was discovered that readelf from elfutils could be made to write out of
+bounds. If a user or automated system were tricked into running readelf
+on a specially crafted file, an attacker could cause readelf to crash,
+resulting in a denial of service, or possibly execute arbitrary code.
+This issue only affected Ubuntu 24.04 LTS and Ubuntu 24.10. (CVE-2025-1365)
+
+It was discovered that readelf from elfutils could be made to dereference
+invalid memory. If a user or automated system were tricked into running
+readelf on a specially crafted file, an attacker could cause readelf to
+crash, resulting in a denial of service. This issue only affected Ubuntu
+24.04 LTS and Ubuntu 24.10. (CVE-2025-1371)
+
+It was discovered that readelf from elfutils could be made to dereference
+invalid memory. If a user or automated system were tricked into running
+readelf on a specially crafted file, an attacker could cause readelf to
+crash, resulting in a denial of service. (CVE-2025-1372)
+
+It was discovered that strip from elfutils could be made to dereference
+invalid memory. If a user or automated system were tricked into running
+strip on a specially crafted file, an attacker could cause strip to
+crash, resulting in a denial of service. (CVE-2025-1377)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical 'IngressNightmare' Vulns Imperil Kubernetes Environments]]></title>
+        <id>https://www.darkreading.com/application-security/critical-ingressnightmare-vulns-kubernetes-environments</id>
+        <link href="https://www.darkreading.com/application-security/critical-ingressnightmare-vulns-kubernetes-environments"/>
+        <updated>2025-03-24T19:10:05.000Z</updated>
+        <summary type="html"><![CDATA[More than 40% of all Internet-facing container orchestration clusters are at risk.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7348-2: Python regression]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7348-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-7348-2"/>
+        <updated>2025-03-24T19:01:05.000Z</updated>
+        <summary type="html"><![CDATA[USN-7348-1 fixed vulnerabilities in Python. The update introduced a
+regression. This update fixes the problem.
+
+We apologize for the inconvenience.
+
+Original advisory details:
+
+ It was discovered that the Python ipaddress module contained incorrect
+ information about which IP address ranges were considered “private” or
+ “globally reachable”. This could possibly result in applications applying
+ incorrect security policies. This issue only affected Ubuntu 14.04 LTS
+ and Ubuntu 16.04 LTS. (CVE-2024-4032)
+ 
+ It was discovered that Python incorrectly handled quoting path names when
+ using the venv module. A local attacker able to control virtual
+ environments could possibly use this issue to execute arbitrary code when
+ the virtual environment is activated. (CVE-2024-9287)
+ 
+ It was discovered that Python incorrectly handled parsing bracketed hosts.
+ A remote attacker could possibly use this issue to perform a Server-Side
+ Request Forgery (SSRF) attack. This issue only affected Ubuntu 14.04 LTS
+ and Ubuntu 16.04 LTS. (CVE-2024-11168)
+ 
+ It was discovered that Python incorrectly handled parsing domain names that
+ included square brackets. A remote attacker could possibly use this issue
+ to perform a Server-Side Request Forgery (SSRF) attack. (CVE-2025-0938)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Ingress NGINX Controller Vulnerability Allows RCE Without Authentication]]></title>
+        <id>https://thehackernews.com/2025/03/critical-ingress-nginx-controller.html</id>
+        <link href="https://thehackernews.com/2025/03/critical-ingress-nginx-controller.html"/>
+        <updated>2025-03-24T18:55:00.000Z</updated>
+        <summary type="html"><![CDATA[A set of five critical security shortcomings have been disclosed in the Ingress NGINX Controller for Kubernetes that could result in unauthenticated remote code execution, putting over 6,500 clusters at immediate risk by exposing the component to the public internet.
+The vulnerabilities (CVE-2025-24513, CVE-2025-24514, CVE-2025-1097, CVE-2025-1098, and CVE-2025-1974 ), assigned a CVSS score of]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China-Nexus APT 'Weaver Ant' Caught in Yearslong Web Shell Attack]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-apt-weaver-ant-caught-yearslong-web-shell-attack</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-apt-weaver-ant-caught-yearslong-web-shell-attack"/>
+        <updated>2025-03-24T18:16:34.000Z</updated>
+        <summary type="html"><![CDATA[The persistent threat actor was caught using sophisticated Web shell techniques against an unnamed telecommunications company in Asia.]]></summary>
+        <author>
+            <name>Alexander Culafi, Senior News Writer, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Weakens Disinformation Defenses, as Russia &amp; China Ramp Up]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/us-weakens-disinformation-defenses-russia-china-ramp-up</id>
+        <link href="https://www.darkreading.com/threat-intelligence/us-weakens-disinformation-defenses-russia-china-ramp-up"/>
+        <updated>2025-03-24T16:41:38.000Z</updated>
+        <summary type="html"><![CDATA[Russia and China spend billions of dollars on state media, propaganda, and disinformation, while the Trump administration has slashed funding for US agencies.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Adds Inline Data Protection to Edge for Business to Block GenAI Data Leaks]]></title>
+        <id>https://thehackernews.com/2025/03/microsoft-adds-inline-data-protection.html</id>
+        <link href="https://thehackernews.com/2025/03/microsoft-adds-inline-data-protection.html"/>
+        <updated>2025-03-24T16:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft on Monday announced a new feature called inline data protection for its enterprise-focused Edge for Business web browser.
+The native data security control is designed to prevent employees from sharing sensitive company-related data into consumer generative artificial intelligence (GenAI) apps like OpenAI ChatGPT, Google Gemini, and DeepSeek. The list will be expanded over time to]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NIST Still Struggling to Clear Vulnerability Submissions Backlog in NVD]]></title>
+        <id>https://www.securityweek.com/?p=41690</id>
+        <link href="https://www.securityweek.com/nist-still-struggling-to-clear-vulnerability-submissions-backlog-in-nvd/"/>
+        <updated>2025-03-24T16:15:29.000Z</updated>
+        <summary type="html"><![CDATA[The effects of the backlog is already being felt in vulnerability management circles where NVD data promises an enriched source of truth.
+The post NIST Still Struggling to Clear Vulnerability Submissions Backlog in NVD appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Oracle Denies Cloud Breach After Hacker Offers to Sell Data]]></title>
+        <id>https://www.securityweek.com/?p=41687</id>
+        <link href="https://www.securityweek.com/oracle-denies-cloud-breach-after-hacker-offers-to-sell-data/"/>
+        <updated>2025-03-24T15:51:02.000Z</updated>
+        <summary type="html"><![CDATA[Oracle has denied that Cloud systems have been breached after a hacker claimed to have stolen millions of records.
+The post Oracle Denies Cloud Breach After Hacker Offers to Sell Data  appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FCC Investigates China-Backed Tech Suppliers for Evading US Operations Ban]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/fcc-investigates-chinese-telecom-providers-evading-operations-ban</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/fcc-investigates-chinese-telecom-providers-evading-operations-ban"/>
+        <updated>2025-03-24T15:36:33.000Z</updated>
+        <summary type="html"><![CDATA[FCC chair warns these companies may still be operating in the US because they don't believe that being added to its "Covered List" poses any serious risk.]]></summary>
+        <author>
+            <name>Kristina Beek, Associate Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Russian Firm Offers $4 Million for Telegram Exploits]]></title>
+        <id>https://www.securityweek.com/?p=41682</id>
+        <link href="https://www.securityweek.com/russian-firm-offers-4-million-for-telegram-exploits/"/>
+        <updated>2025-03-24T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A Russian exploit acquisition firm is offering up to $4 million for a full-chain exploit targeting messaging service Telegram.
+The post Russian Firm Offers $4 Million for Telegram Exploits appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VanHelsing RaaS Launch: 3 Victims, $5K Entry Fee, Multi-OS, and Double Extortion Tactics]]></title>
+        <id>https://thehackernews.com/2025/03/vanhelsing-raas-launch-3-victims-5k.html</id>
+        <link href="https://thehackernews.com/2025/03/vanhelsing-raas-launch-3-victims-5k.html"/>
+        <updated>2025-03-24T14:06:00.000Z</updated>
+        <summary type="html"><![CDATA[A ransomware-as-a-service (RaaS) operation called VanHelsing has already claimed three victims since it launched on March 7, 2025.
+"The RaaS model allows a wide range of participants, from experienced hackers to newcomers, to get involved with a $5,000 deposit. Affiliates keep 80% of the ransom payments, while the core operators earn 20%," Check Point said in a report published over the weekend]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webinar Tomorrow: Which Security Testing Approach is Right for You?]]></title>
+        <id>https://www.securityweek.com/?p=41685</id>
+        <link href="https://www.securityweek.com/webinar-tomorrow-which-security-testing-approach-is-right-for-you/"/>
+        <updated>2025-03-24T13:43:59.000Z</updated>
+        <summary type="html"><![CDATA[Understand whether BAS, Automated Penetration Testing, or the combined approach of Adversarial Exposure Validation (AEV) aligns best with your organization’s unique security needs.
+The post Webinar Tomorrow: Which Security Testing Approach is Right for You? appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>SecurityWeek News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of March 17, 2025]]></title>
+        <id>/node/23174</id>
+        <link href="https://www.cisa.gov/news-events/bulletins/sb25-083"/>
+        <updated>2025-03-24T13:05:40.000Z</updated>
+        <summary type="html"><![CDATA[High Vulnerabilities
+Primary
+Vendor -- Product
+Description
+Published
+CVSS Score
+Source Info
+
+
+
+
+Synology--Unified Controller (DSMUC)
+ 
+Off-by-one error vulnerability in the transmission component in Synology Replication Service before 1.0.12-0066, 1.2.2-0353 and 1.3.0-0423 and Synology Unified Controller (DSMUC) before 3.1.4-23079 allows remote attackers to execute arbitrary code, potentially leading to a broader impact across the system via unspecified vectors.
+2025-03-19
+10
+CVE-2024-10442
+
+
+IBM--AIX
+ 
+IBM AIX 7.2 and 7.3 nimesis NIM master service could allow a remote attacker to execute arbitrary commands due to improper process controls.
+2025-03-18
+10
+CVE-2024-56346
+
+
+Fortinet--FortiMail
+ 
+An improper access control vulnerability in FortiMail version 7.4.0 configured with RADIUS authen…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7367-1: zvbi vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7367-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7367-1"/>
+        <updated>2025-03-24T12:57:37.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that zvbi incorrectly handled memory when processing user
+input. An attacker could possibly use this issue to cause a denial of
+service or execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Lifts Sanctions Against Crypto Mixer Tornado Cash]]></title>
+        <id>https://www.securityweek.com/?p=41681</id>
+        <link href="https://www.securityweek.com/us-lifts-sanctions-against-crypto-mixer-tornado-cash/"/>
+        <updated>2025-03-24T12:40:01.000Z</updated>
+        <summary type="html"><![CDATA[The US Department of the Treasury has removed sanctions against the fully decentralized cryptocurrency mixer service Tornado Cash.
+The post US Lifts Sanctions Against Crypto Mixer Tornado Cash appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Despite Rip-and-Replace Efforts, FCC Suspects Banned Chinese Telecom Providers Still Active in US]]></title>
+        <id>https://www.securityweek.com/?p=41679</id>
+        <link href="https://www.securityweek.com/fcc-probes-whether-banned-chinese-telecom-providers-still-operating-in-us/"/>
+        <updated>2025-03-24T12:30:08.000Z</updated>
+        <summary type="html"><![CDATA[The FCC is investigating whether Chinese firms such as Huawei, ZTE and China Telecom are still operating in the US.
+The post Despite Rip-and-Replace Efforts, FCC Suspects Banned Chinese Telecom Providers Still Active in US appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
+        <id>/node/23175</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/03/24/cisa-adds-one-known-exploited-vulnerability-catalog"/>
+        <updated>2025-03-24T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2025-30154 reviewdog action-setup GitHub Action Embedded Malicious Code Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Medusa Ransomware Uses Malicious Driver to Disable Security Tools]]></title>
+        <id>https://www.securityweek.com/?p=41678</id>
+        <link href="https://www.securityweek.com/medusa-ransomware-uses-malicious-driver-to-disable-security-tools/"/>
+        <updated>2025-03-24T11:42:19.000Z</updated>
+        <summary type="html"><![CDATA[The Medusa ransomware relies on a malicious Windows driver to disable the security tools running on the infected systems.
+The post Medusa Ransomware Uses Malicious Driver to Disable Security Tools appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[⚡ THN Weekly Recap: GitHub Supply Chain Attack, AI Malware, BYOVD Tactics, and More]]></title>
+        <id>https://thehackernews.com/2025/03/thn-weekly-recap-github-supply-chain.html</id>
+        <link href="https://thehackernews.com/2025/03/thn-weekly-recap-github-supply-chain.html"/>
+        <updated>2025-03-24T11:35:00.000Z</updated>
+        <summary type="html"><![CDATA[A quiet tweak in a popular open-source tool opened the door to a supply chain breach—what started as a targeted attack quickly spiraled, exposing secrets across countless projects.
+That wasn’t the only stealth move. A new all-in-one malware is silently stealing passwords, crypto, and control—while hiding in plain sight. And over 300 Android apps joined the chaos, running ad fraud at scale behind]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VSCode Marketplace Removes Two Extensions Deploying Early-Stage Ransomware]]></title>
+        <id>https://thehackernews.com/2025/03/vscode-marketplace-removes-two.html</id>
+        <link href="https://thehackernews.com/2025/03/vscode-marketplace-removes-two.html"/>
+        <updated>2025-03-24T11:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have uncovered two malicious extensions in the Visual Studio Code (VSCode) Marketplace that are designed to deploy ransomware that's under development to its users.
+The extensions, named "ahban.shiba" and "ahban.cychelloworld," have since been taken down by the marketplace maintainers.
+Both the extensions, per ReversingLabs, incorporate code that's designed to invoke a]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Balance Password Security Against User Experience]]></title>
+        <id>https://thehackernews.com/2025/03/how-to-balance-password-security.html</id>
+        <link href="https://thehackernews.com/2025/03/how-to-balance-password-security.html"/>
+        <updated>2025-03-24T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If given the choice, most users are likely to favor a seamless experience over complex security measures, as they don’t prioritize strong password security. However, balancing security and usability doesn’t have to be a zero-sum game. By implementing the right best practices and tools, you can strike a balance between robust password security and a frictionless user experience (UX).
+This article]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More Countries are Demanding Backdoors to Encrypted Apps]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/03/more-countries-are-demanding-back-doors-to-encrypted-apps.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/03/more-countries-are-demanding-back-doors-to-encrypted-apps.html"/>
+        <updated>2025-03-24T10:38:58.000Z</updated>
+        <summary type="html"><![CDATA[<p>Last month, I <a href="https://www.schneier.com/blog/archives/2025/02/uk-is-ordering-apple-to-break-its-own-encryption.html">wrote about</a> the UK forcing Apple to break its Advanced Data Protection encryption in iCloud. More recently, both <a href="https://therecord.media/sweden-seeks-backdoor-access-to-messaging-apps">Sweden</a> and <a href="https://www.laquadrature.net/en/warondrugslaw/">France</a> are contemplating mandating backdoors. Both initiatives are attempting to <a href="https://www.schneier.com/blog/archives/2019/12/scaring_people_.html">scare people</a> into supporting backdoors, which are&#8212;of course&#8212;are <a href="https://www.schneier.com/blog/archives/2015/07/back_doors_wont.html">terrible idea</a>.</p>
+<p>Also: &#8220;<a href="https://www.lightbluetouchpaper.org/2025/02/11/a-feminist-argument-against-weakening-encryption/#more-56645">A Feminist Argument Against Weakening Encryption</a>.&#8221;</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NetSfere Launches Quantum-Resilient Messaging Platform for Enterprise and Government Use]]></title>
+        <id>https://www.securityweek.com/?p=41675</id>
+        <link href="https://www.securityweek.com/netsfere-launches-quantum-resilient-messaging-platform-for-enterprise-and-government-use/"/>
+        <updated>2025-03-24T10:37:12.000Z</updated>
+        <summary type="html"><![CDATA[NetSfere Integrates ML-KEM and AES into its text, voice and video messaging platform to meet 2027 NSA Quantum Security mandates.
+The post NetSfere Launches Quantum-Resilient Messaging Platform for Enterprise and Government Use appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Oracle Denies Claim of Oracle Cloud Breach of 6M Records]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/oracle-denies-claim-oracle-cloud-breach-6m-records</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/oracle-denies-claim-oracle-cloud-breach-6m-records"/>
+        <updated>2025-03-24T10:30:17.000Z</updated>
+        <summary type="html"><![CDATA[A threat actor posted data on BreachForums from an alleged supply chain attack that affected more than 140K tenants, claiming to have compromised the cloud via a zero-day flaw in WebLogic, researchers say.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Albabat Ransomware Expands Targets, Abuses GitHub]]></title>
+        <id>https://www.securityweek.com/?p=41672</id>
+        <link href="https://www.securityweek.com/albabat-ransomware-expands-targets-abuses-github/"/>
+        <updated>2025-03-24T10:10:00.000Z</updated>
+        <summary type="html"><![CDATA[New versions of the Albabat ransomware target Windows, Linux, and macOS, and retrieve configuration files from GitHub.
+The post Albabat Ransomware Expands Targets, Abuses GitHub appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Next.js Vulnerability Allows Attackers to Bypass Middleware Authorization Checks]]></title>
+        <id>https://thehackernews.com/2025/03/critical-nextjs-vulnerability-allows.html</id>
+        <link href="https://thehackernews.com/2025/03/critical-nextjs-vulnerability-allows.html"/>
+        <updated>2025-03-24T09:17:00.000Z</updated>
+        <summary type="html"><![CDATA[A critical security flaw has been disclosed in the Next.js React framework that could be potentially exploited to bypass authorization checks under certain conditions.
+The vulnerability, tracked as CVE-2025-29927, carries a CVSS score of 9.1 out of 10.0.
+"Next.js uses an internal header x-middleware-subrequest to prevent recursive requests from triggering infinite loops," Next.js said in an]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Encrypted Messaging Apps Promise Privacy. Government Transparency Is Often the Price]]></title>
+        <id>https://www.securityweek.com/?p=41674</id>
+        <link href="https://www.securityweek.com/encrypted-messaging-apps-promise-privacy-government-transparency-is-often-the-price/"/>
+        <updated>2025-03-24T09:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Public officials and private citizens are consistently warned about hacking and data leaks, but technologies designed to increase privacy often decrease government transparency.
+The post Encrypted Messaging Apps Promise Privacy. Government Transparency Is Often the Price appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is the Middle East's Race to Digitize a Threat to Infrastructure?]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/middle-easts-race-digitize-threat-infrastructure</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/middle-easts-race-digitize-threat-infrastructure"/>
+        <updated>2025-03-24T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As the region continues with its ambitious road map, cybersecurity must be woven into every step of the process.]]></summary>
+        <author>
+            <name>Apu Pavithran</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7365-1: NLTK vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7365-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7365-1"/>
+        <updated>2025-03-24T01:55:52.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that NLTK contained a regex that is susceptible to
+catastrophic backtracking. An attacker could possibly use this issue to
+cause a denial of service. (CVE-2021-3842, CVE-2021-43854)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Coinbase Initially Targeted in GitHub Actions Supply Chain Attack; 218 Repositories' CI/CD Secrets Exposed]]></title>
         <id>https://thehackernews.com/2025/03/github-supply-chain-breach-coinbase.html</id>
@@ -8307,17 +8735,6 @@ Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS and
 Ubuntu 24.04 LTS. (CVE-2024-29025)]]></summary>
         <author>
             <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bybit Hack Drains $1.5 Billion From Cryptocurrency Exchange]]></title>
-        <id>https://www.securityweek.com/?p=41338</id>
-        <link href="https://www.securityweek.com/bybit-hack-drains-1-5-billion-from-cryptocurrency-exchange/"/>
-        <updated>2025-02-22T15:32:40.000Z</updated>
-        <summary type="html"><![CDATA[Over 400,000 ETH and stETH worth more than $1.5 billion were stolen from the Bybit cryptocurrency exchange.
-The post Bybit Hack Drains $1.5 Billion From Cryptocurrency Exchange appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>SecurityWeek News</name>
         </author>
     </entry>
 </feed>
