@@ -2,10 +2,443 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-04-03T01:42:44.055Z</updated>
+    <updated>2025-04-04T01:42:38.253Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USN-7415-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7415-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7415-1"/>
+        <updated>2025-04-03T23:36:08.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - Drivers core;
+  - Ext4 file system;
+  - JFS file system;
+  - Network namespace;
+  - CAIF protocol;
+  - Networking core;
+  - IPv6 networking;
+(CVE-2024-56658, CVE-2021-47119, CVE-2024-56600, CVE-2021-47122,
+CVE-2021-47483, CVE-2024-56595)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#252619: Multiple deserialization vulnerabilities in PyTorch Lightning 2.4.0 and earlier versions]]></title>
+        <id>https://kb.cert.org/vuls/id/252619</id>
+        <link href="https://kb.cert.org/vuls/id/252619"/>
+        <updated>2025-04-03T21:08:09.115Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p><a href="https://lightning.ai/docs/pytorch/"> PyTorch Lightning</a> versions 2.4.0 and earlier do not use any verification mechanisms to ensure that model files are safe to load before loading them. Users of PyTorch Lightning should use caution when loading models from unknown or unmanaged sources.</p>
+<h3 id="description">Description</h3>
+<p>PyTorch Lightning, a high-level framework built on top of PyTorch, is designed to streamline deep learning model training, scaling, and deployment.  PyTorch Lightning is widely used in AI research and production environments, often integrating with various cloud and distributed computing platforms to manage large-scale machine learning workloads.</p>
+<p>PyTorch Lightning contains multiple vulnerabilities related to the deserialization of untrusted data (CWE-502). These vulnerabilities arise from the unsafe use of <code>torch.load()</code>, which is used to deserialize model checkpoints, configurations, and sometimes metadata. While <code>torch.load()</code> provides an optional <code>weights_only=True</code> parameter to mitigate the risks of loading arbitrary code, PyTorch Lightning does not require or enforce this safeguard as a principal security requirement for the product.</p>
+<p>Kasimir Schulz of HiddenLayer identified and reported the following five vulnerabilities:</p>
+<ol>
+<li>The <code>DeepSpeed</code> integration in PyTorch Lightning loads optimizer states and model checkpoints without enforcing safe deserialization practices. It does not validate the integrity or origin of serialized data before passing it to <code>torch.load()</code>, allowing deserialization of arbitrary objects.</li>
+<li>The <code>PickleSerializer</code> class directly utilizes Python’s pickle module to handle data serialization and deserialization. Since pickle inherently allows execution of embedded code during deserialization, any untrusted or manipulated input processed by this class can introduce security risks.</li>
+<li>The <code>_load_distributed_checkpoint</code> component is responsible for handling distributed training checkpoints. It processes model state data across multiple nodes, but it does not include safeguards to verify or restrict the content being deserialized.</li>
+<li>The <code>_lazy_load</code> function is designed to defer loading of model components for efficiency. However, it does not enforce security controls on the serialized input, allowing for the potential deserialization of unverified objects.</li>
+<li>The <code>Cloud_IO</code> module facilitates storage and retrieval of model files from local and remote sources. It provides multiple deserialization pathways, such as handling files from disk, from remote servers, and from in-memory byte streams, without applying constraints on how the serialized data is interpreted.</li>
+</ol>
+<h3 id="impact">Impact</h3>
+<p>A user could unknowingly load a malicious file from local or remote locations containing embedded code that executes within the system’s context, potentially leading to full system compromise.</p>
+<h3 id="solution">Solution</h3>
+<p>To reduce the risk of deserialization-based vulnerabilities in PyTorch Lightning, users and organizations can implement the following mitigations at the system and operational levels:</p>
+<ol>
+<li>Verify that files to be loaded are from trusted sources and with valid signatures;</li>
+<li>Use Sandbox environments to prevent abuse of arbitrary commands when untrusted models or files are being used or tested;</li>
+<li>Perform static and dynamic analysis of files to be loaded to verify that the ensuing operations will remain restricted to the data processing needs of the environment;</li>
+<li>Disable unnecessary deserialization features by ensuring that <code>torch.load()</code> is always used with <code>weights_only = True</code> when the files to be loaded are model weights.</li>
+</ol>
+<p>We have not received a statement from Lightning AI at this time. Please check the Vendor Information section for updates as they become available.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporter, Kasimir Schulz [kschulz@hiddenlayer.com] from HiddenLayer. Thanks to Matt Churilla for verifying the vulnerabilities. This document was written by Renae Metcalf, Vijay Sarvepalli, and Eric Hatleback.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China-Linked Threat Group Exploits Ivanti Bug]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/china-linked-threat-group-exploits-ivanti-bug</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/china-linked-threat-group-exploits-ivanti-bug"/>
+        <updated>2025-04-03T20:14:04.000Z</updated>
+        <summary type="html"><![CDATA[The vendor had originally assessed the flaw as low risk but now says it is a critical issue that enables remote code execution.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Disclosure Drama Clouds CrushFTP Vulnerability Exploitation]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/disclosure-drama-clouds-crushftp-vulnerability-exploitation</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/disclosure-drama-clouds-crushftp-vulnerability-exploitation"/>
+        <updated>2025-04-03T19:51:25.000Z</updated>
+        <summary type="html"><![CDATA[CrushFTP CEO Ben Spink slammed several cybersecurity companies for creating confusion around a critical authentication bypass flaw that's currently under attack.]]></summary>
+        <author>
+            <name>Rob Wright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Warns of Tax-Themed Email Attacks Using PDFs and QR Codes to Deliver Malware]]></title>
+        <id>https://thehackernews.com/2025/04/microsoft-warns-of-tax-themed-email.html</id>
+        <link href="https://thehackernews.com/2025/04/microsoft-warns-of-tax-themed-email.html"/>
+        <updated>2025-04-03T17:39:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft is warning of several phishing campaigns that are leveraging tax-related themes to deploy malware and steal credentials.
+"These campaigns notably use redirection methods such as URL shorteners and QR codes contained in malicious attachments and abuse legitimate services like file-hosting services and business profile pages to avoid detection," Microsoft said in a report shared with The]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7414-1: XZ Utils vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7414-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7414-1"/>
+        <updated>2025-04-03T17:36:53.000Z</updated>
+        <summary type="html"><![CDATA[Harri K. Koskinen discovered that XZ Utils incorrectly handled the threaded
+xz decoder. If a user or automated system were tricked into processing an
+xz file, a remote attacker could use this issue to cause XZ Utils to crash,
+resulting in a denial of service, or possibly execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chinese APT Pounces on Misdiagnosed RCE in Ivanti VPN Appliances]]></title>
+        <id>https://www.securityweek.com/?p=41813</id>
+        <link href="https://www.securityweek.com/chinese-apt-pounces-on-misdiagnosed-rce-in-ivanti-vpn-appliances/"/>
+        <updated>2025-04-03T17:07:33.000Z</updated>
+        <summary type="html"><![CDATA[Ivanti misdiagnoses a remote code execution vulnerability and Mandiant reports that Chinese hackers are launching in-the-wild exploits.
+The post Chinese APT Pounces on Misdiagnosed RCE in Ivanti VPN Appliances  appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Counterfeit Phones Carrying Hidden Revamped Triada Malware]]></title>
+        <id>https://www.darkreading.com/endpoint-security/counterfeit-phones-infected-triada-malware</id>
+        <link href="https://www.darkreading.com/endpoint-security/counterfeit-phones-infected-triada-malware"/>
+        <updated>2025-04-03T16:17:45.000Z</updated>
+        <summary type="html"><![CDATA[The malware, first discovered in 2016, has been updated over the years, and the latest version is now hiding in the firmware of counterfeit mobile phones.]]></summary>
+        <author>
+            <name>Kristina Beek, Associate Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Halo ITSM Vulnerability Exposed Organizations to Remote Hacking]]></title>
+        <id>https://www.securityweek.com/?p=41811</id>
+        <link href="https://www.securityweek.com/halo-itsm-vulnerability-exposed-organizations-to-remote-hacking/"/>
+        <updated>2025-04-03T15:45:00.000Z</updated>
+        <summary type="html"><![CDATA[An unauthenticated SQL injection vulnerability in Halo ITSM could have been exploited to read, modify, or insert data.
+The post Halo ITSM Vulnerability Exposed Organizations to Remote Hacking appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Runtime Ventures Launches New Fund for Seed, Pre-Seed Startups]]></title>
+        <id>https://www.darkreading.com/endpoint-security/runtime-ventures-launches-new-fund-for-seed-pre-seed-startups</id>
+        <link href="https://www.darkreading.com/endpoint-security/runtime-ventures-launches-new-fund-for-seed-pre-seed-startups"/>
+        <updated>2025-04-03T15:31:13.000Z</updated>
+        <summary type="html"><![CDATA[Co-founders Michael Sutton and David Endler raised $32 million to invest in early stage cybersecurity startups as well as to provide mentoring support.]]></summary>
+        <author>
+            <name>Fahmida Y. Rashid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Social Engineering Just Got Smarter]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/social-engineering-smarter</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/social-engineering-smarter"/>
+        <updated>2025-04-03T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Polices that forbid employees from divulging company details are worthless if the same information can be obtained from sources employees have no control over.]]></summary>
+        <author>
+            <name>Steve Stasiukonis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emerging Risks Require IT/OT Collaboration to Secure Physical Systems]]></title>
+        <id>https://www.darkreading.com/ics-ot-security/experts-discuss-current-and-emerging-ics-security-risks</id>
+        <link href="https://www.darkreading.com/ics-ot-security/experts-discuss-current-and-emerging-ics-security-risks"/>
+        <updated>2025-04-03T13:47:52.000Z</updated>
+        <summary type="html"><![CDATA[With an increase in cyber-physical attacks that can cause significant disruptions, financial fallout and safety concerns for victim organizations, IT and OT security teams cannot keep working in silos.]]></summary>
+        <author>
+            <name>Arielle Waldman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7413-1: Linux kernel (IoT) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7413-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7413-1"/>
+        <updated>2025-04-03T13:09:40.000Z</updated>
+        <summary type="html"><![CDATA[Ziming Zhang discovered that the DRM driver for VMware Virtual GPU did not
+properly handle certain error conditions, leading to a NULL pointer
+dereference. A local attacker could possibly trigger this vulnerability to
+cause a denial of service. (CVE-2022-38096)
+
+Ye Zhang and Nicolas Wu discovered that the io_uring subsystem in the Linux
+kernel did not properly handle locking for rings with IOPOLL, leading to a
+double-free vulnerability. A local attacker could use this to cause a
+denial of service (system crash) or possibly execute arbitrary code.
+(CVE-2023-21400)
+
+Chenyuan Yang discovered that the CEC driver driver in the Linux kernel
+contained a use-after-free vulnerability. A local attacker could use this
+to cause a denial of service (system crash) or possibly execute arbitrary
+code. (CV…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hunters International Ransomware Gang Rebranding, Shifting Focus]]></title>
+        <id>https://www.securityweek.com/?p=41809</id>
+        <link href="https://www.securityweek.com/hunters-international-ransomware-gang-rebranding-shifting-focus/"/>
+        <updated>2025-04-03T13:02:54.000Z</updated>
+        <summary type="html"><![CDATA[The notorious cybercrime group Hunters International is dropping ransomware to focus on data theft and extortion.
+The post Hunters International Ransomware Gang Rebranding, Shifting Focus appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7406-4: Linux kernel (Azure FIPS) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7406-4</id>
+        <link href="https://ubuntu.com/security/notices/USN-7406-4"/>
+        <updated>2025-04-03T12:33:18.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - GPU drivers;
+  - SMB network file system;
+  - Network namespace;
+  - Networking core;
+(CVE-2024-26928, CVE-2024-56658, CVE-2024-35864, CVE-2024-57798)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lazarus Group Targets Job Seekers With ClickFix Tactic to Deploy GolangGhost Malware]]></title>
+        <id>https://thehackernews.com/2025/04/lazarus-group-targets-job-seekers-with.html</id>
+        <link href="https://thehackernews.com/2025/04/lazarus-group-targets-job-seekers-with.html"/>
+        <updated>2025-04-03T12:22:00.000Z</updated>
+        <summary type="html"><![CDATA[The North Korean threat actors behind Contagious Interview have adopted the increasingly popular ClickFix social engineering tactic to lure job seekers in the cryptocurrency sector to deliver a previously undocumented Go-based backdoor called GolangGhost on Windows and macOS systems.
+The new activity, assessed to be a continuation of the campaign, has been codenamed ClickFake Interview by]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7412-1: GnuPG vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7412-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7412-1"/>
+        <updated>2025-04-03T12:17:17.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that GnuPG incorrectly handled importing keys with
+certain crafted subkey data. If a user or automated system were tricked
+into importing a specially crafted key, a remote attacker may prevent users
+from importing other keys in the future.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity M&A Roundup: 23 Deals Announced in March 2025]]></title>
+        <id>https://www.securityweek.com/?p=41808</id>
+        <link href="https://www.securityweek.com/cybersecurity-ma-roundup-23-deals-announced-in-march-2025/"/>
+        <updated>2025-04-03T12:00:39.000Z</updated>
+        <summary type="html"><![CDATA[Less than two dozen cybersecurity merger and acquisition (M&A) deals were announced in March 2025.
+The post Cybersecurity M&A Roundup: 23 Deals Announced in March 2025 appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Five Industrial Control Systems Advisories]]></title>
+        <id>/node/23214</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/04/03/cisa-releases-five-industrial-control-systems-advisories"/>
+        <updated>2025-04-03T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released five Industrial Control Systems (ICS) advisories on April 3, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+ICSA-25-093-01 Hitachi Energy RTU500 Series
+ICSA-25-093-02 Hitachi Energy TRMTracker
+ICSA-25-093-03 ABB ACS880 Drives Containing CODESYS RTS
+ICSA-25-093-04 ABB Low Voltage DC Drives and Power Controllers CODESYS RTS
+ICSA-25-093-05 B&R APROL
+CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NSA, CISA, FBI, and International Partners Release Cybersecurity Advisory on “Fast Flux,” a National Security Threat]]></title>
+        <id>/node/23207</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/04/03/nsa-cisa-fbi-and-international-partners-release-cybersecurity-advisory-fast-flux-national-security"/>
+        <updated>2025-04-03T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA—in partnership with the National Security Agency (NSA), Federal Bureau of Investigation (FBI), Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), Canadian Centre for Cyber Security (CCCS), and New Zealand’s National Cyber Security Centre (NCSC-NZ)—released joint Cybersecurity Advisory Fast Flux: A National Security Threat (PDF, 841 KB). This advisory warns organizations, internet service providers (ISPs), and cybersecurity service providers of the ongoing threat of fast flux enabled malicious activities and provides guidance on detection and mitigations to safeguard critical infrastructure and national security.
+“Fast flux” is a technique used to obfuscate the locations of malicious servers through rapidly changing Domain Name System (DNS) records associated with a single domain name. This threat exploits a gap commonly found in network defenses, making the tracking and blocking of malicious fast flux activities difficult.
+The authoring agencies strongly recommend adopting a multi-layered approach to detection and mitigation to reduce risk of compromise by fast flux-enabled threats. Service providers, especially Protective DNS providers (PDNS), should track, share information about, and block fast flux as part of their provided cybersecurity services. Government and critical infrastructure organizations should close this ongoing gap in network defenses by using cybersecurity and PDNS services that block malicious fast flux activity.
+For more information on PDNS services, see Selecting a Protective DNS Service.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7411-1: OpenVPN vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7411-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7411-1"/>
+        <updated>2025-04-03T11:45:09.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that OpenVPN incorrectly handled certain malformed
+packets. A remote attacker could possibly use this issue to cause OpenVPN
+to crash, resulting in a denial of service.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Threats Are Evolving Fast — Learn Practical Defense Tactics in this Expert Webinar]]></title>
+        <id>https://thehackernews.com/2025/04/ai-threats-are-evolving-fast-learn.html</id>
+        <link href="https://thehackernews.com/2025/04/ai-threats-are-evolving-fast-learn.html"/>
+        <updated>2025-04-03T11:25:00.000Z</updated>
+        <summary type="html"><![CDATA[The rules have changed. Again. Artificial intelligence is bringing powerful new tools to businesses. But it's also giving cybercriminals smarter ways to attack. They’re moving quicker, targeting more precisely, and slipping past old defenses without being noticed.
+And here's the harsh truth: If your security strategy hasn’t evolved with AI in mind, you’re already behind.
+But you’re not alone—and]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web 3.0 Requires Data Integrity]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/04/web-3-0-requires-data-integrity.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/04/web-3-0-requires-data-integrity.html"/>
+        <updated>2025-04-03T11:05:29.000Z</updated>
+        <summary type="html"><![CDATA[<p>If you&#8217;ve ever taken a computer security class, you&#8217;ve probably learned about the three legs of computer security&#8212;confidentiality, integrity, and availability&#8212;known as the <a href="https://www.nist.gov/image/cia-triad">CIA triad</a>. When we talk about a system being secure, that&#8217;s what we&#8217;re referring to. All are important, but to different degrees in different contexts. In a world populated by artificial intelligence (AI) systems and artificial intelligent agents, integrity will be paramount.</p>
+<p>What is data integrity? It&#8217;s ensuring that no one can modify data&#8212;that&#8217;s the security angle&#8212;but it&#8217;s much more than that. It encompasses accuracy, completeness, and quality of data&#8212;all over both time and space. It&#8217;s preventing accidental data loss; the &#8220;undo&#8221; button is a primitive integrity measure. It&#8217;s also making sure that data is accurate when it&#8217;s collected&#8212;that it comes from a trustworthy source, that nothing important is missing, and that it doesn&#8217;t change as it moves from format to format. The ability to restart your computer is another integrity measure...</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[39 Million Secrets Leaked on GitHub in 2024]]></title>
+        <id>https://www.securityweek.com/?p=41807</id>
+        <link href="https://www.securityweek.com/39-million-secrets-leaked-on-github-in-2024/"/>
+        <updated>2025-04-03T10:56:53.000Z</updated>
+        <summary type="html"><![CDATA[GitHub has announced new capabilities to help organizations and developers keep secrets in their code protected.
+The post 39 Million Secrets Leaked on GitHub in 2024 appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Adoption in the Enterprise: Breaking Through the Security and Compliance Gridlock]]></title>
+        <id>https://thehackernews.com/2025/04/ai-adoption-in-enterprise-breaking.html</id>
+        <link href="https://thehackernews.com/2025/04/ai-adoption-in-enterprise-breaking.html"/>
+        <updated>2025-04-03T10:34:00.000Z</updated>
+        <summary type="html"><![CDATA[AI holds the promise to revolutionize all sectors of enterpriseーfrom fraud detection and content personalization to customer service and security operations. Yet, despite its potential, implementation often stalls behind a wall of security, legal, and compliance hurdles.
+Imagine this all-too-familiar scenario: A CISO wants to deploy an AI-driven SOC to handle the overwhelming volume of security]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Two CVEs, One Critical Flaw: Inside the CrushFTP Vulnerability Controversy]]></title>
+        <id>https://www.securityweek.com/?p=41804</id>
+        <link href="https://www.securityweek.com/details-emerge-on-cve-controversy-around-exploited-crushftp-vulnerability/"/>
+        <updated>2025-04-03T10:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Two CVEs now exist for an actively exploited CrushFTP vulnerability and much of the security industry is using the ‘wrong one’.
+The post Two CVEs, One Critical Flaw: Inside the CrushFTP Vulnerability Controversy appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Quick Share Bug Bypasses Allow Zero-Click File Transfer]]></title>
+        <id>https://www.darkreading.com/application-security/google-quick-share-bug-bypasses-zero-click-file-transfer</id>
+        <link href="https://www.darkreading.com/application-security/google-quick-share-bug-bypasses-zero-click-file-transfer"/>
+        <updated>2025-04-03T10:24:26.000Z</updated>
+        <summary type="html"><![CDATA[Google addresses patch bypasses for CVE-2024-38272 and CVE-2024-38271, part of the previously announced "QuickShell" silent RCE attack chain against Windows users.]]></summary>
+        <author>
+            <name>Tara Seals, Managing Editor, News, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerabilities Expose Cisco Meraki and ECE Products to DoS Attacks]]></title>
+        <id>https://www.securityweek.com/?p=41806</id>
+        <link href="https://www.securityweek.com/vulnerabilities-expose-cisco-meraki-and-ece-products-to-dos-attacks/"/>
+        <updated>2025-04-03T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cisco fixes two high-severity denial-of-service vulnerabilities in Meraki devices and Enterprise Chat and Email.
+The post Vulnerabilities Expose Cisco Meraki and ECE Products to DoS Attacks appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Released Second Fix for Quick Share Flaws After Patch Bypass]]></title>
+        <id>https://www.securityweek.com/?p=41805</id>
+        <link href="https://www.securityweek.com/google-released-second-fix-for-quick-share-flaws-after-patch-bypass/"/>
+        <updated>2025-04-03T09:02:12.000Z</updated>
+        <summary type="html"><![CDATA[Google’s patches for Quick Share for Windows vulnerabilities leading to remote code execution were incomplete and could be easily bypassed.
+The post Google Released Second Fix for Quick Share Flaws After Patch Bypass appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Patches Quick Share Vulnerability Enabling Silent File Transfers Without Consent]]></title>
+        <id>https://thehackernews.com/2025/04/google-patches-quick-share.html</id>
+        <link href="https://thehackernews.com/2025/04/google-patches-quick-share.html"/>
+        <updated>2025-04-03T08:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed details of a new vulnerability impacting Google's Quick Share data transfer utility for Windows that could be exploited to achieve a denial-of-service (DoS) or send arbitrary files to a target's device without their approval.
+The flaw, tracked as CVE-2024-10668 (CVSS score: 5.9), is a bypass for two of the 10 shortcomings that were originally disclosed by]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Triada Malware Preloaded on Counterfeit Android Phones Infects 2,600+ Devices]]></title>
+        <id>https://thehackernews.com/2025/04/triada-malware-preloaded-on-counterfeit.html</id>
+        <link href="https://thehackernews.com/2025/04/triada-malware-preloaded-on-counterfeit.html"/>
+        <updated>2025-04-03T07:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Counterfeit versions of popular smartphone models that are sold at reduced prices have been found to be preloaded with a modified version of an Android malware called Triada.
+"More than 2,600 users in different countries have encountered the new version of Triada, the majority in Russia," Kaspersky said in a report. The infections were recorded between March 13 and 27, 2025. 
+Triada is the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Israel Enters 'Stage 3' of Cyber Wars With Iran Proxies]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/israel-stage-3-cyber-wars-with-iran-proxies</id>
+        <link href="https://www.darkreading.com/threat-intelligence/israel-stage-3-cyber-wars-with-iran-proxies"/>
+        <updated>2025-04-03T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While Israel and Iranian proxies fight it out IRL, their conflict in cyberspace has developed in parallel. These days attacks have decelerated, but advanced in sophistication.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Legacy Stripe API Exploited to Validate Stolen Payment Cards in Web Skimmer Campaign]]></title>
+        <id>https://thehackernews.com/2025/04/legacy-stripe-api-exploited-to-validate.html</id>
+        <link href="https://thehackernews.com/2025/04/legacy-stripe-api-exploited-to-validate.html"/>
+        <updated>2025-04-03T04:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Threat hunters are warning of a sophisticated web skimmer campaign that leverages a legacy application programming interface (API) from payment processor Stripe to validate stolen payment information prior to exfiltration.
+"This tactic ensures that only valid card data is sent to the attackers, making the operation more efficient and potentially harder to detect," Jscrambler researchers Pedro]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Europol Dismantles Kidflix With 72,000 CSAM Videos Seized in Major Operation]]></title>
+        <id>https://thehackernews.com/2025/04/europol-dismantles-kidflix-with-72000.html</id>
+        <link href="https://thehackernews.com/2025/04/europol-dismantles-kidflix-with-72000.html"/>
+        <updated>2025-04-03T03:58:00.000Z</updated>
+        <summary type="html"><![CDATA[In one of the largest coordinated law enforcement operations, authorities have dismantled Kidflix, a streaming platform that offered child sexual abuse material (CSAM).
+"A total of 1.8 million users worldwide logged on to the platform between April 2022 and March 2025," Europol said in a statement. "On March 11, 2025, the server, which contained around 72,000 videos at the time, was seized by]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DPRK 'IT Workers' Pivot to Europe for Employment Scams]]></title>
         <id>https://www.darkreading.com/threat-intelligence/dprk-it-workers-europe-employment</id>
@@ -14,6 +447,16 @@
         <summary type="html"><![CDATA[By using fake references and building connections with recruiters, some North Korean nationals are landing six-figure jobs that replenish DPRK coffers.]]></summary>
         <author>
             <name>Kristina Beek, Associate Editor, Dark Reading</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolarWinds Adds Incident Management Tool From Squadcast]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/solarwinds-adds-incident-management-tool-from-squadcast</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/solarwinds-adds-incident-management-tool-from-squadcast"/>
+        <updated>2025-04-02T21:45:46.000Z</updated>
+        <summary type="html"><![CDATA[The IT service management and observability tools company acquired Squadcast last month and is adding the automated incident response platform to the SolarWinds portfolio.]]></summary>
+        <author>
+            <name>Jeffrey Schwartz</name>
         </author>
     </entry>
     <entry>
@@ -41,6 +484,16 @@ SAML responses. An attacker could possibly use this issue to cause
 a denial of service. (CVE-2025-25293)]]></summary>
         <author>
             <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New PCI DSS Rules Say Merchants on Hook for Compliance, Not Providers]]></title>
+        <id>https://www.darkreading.com/cyber-risk/new-pci-dss-rules-merchants-on-hook-compliance</id>
+        <link href="https://www.darkreading.com/cyber-risk/new-pci-dss-rules-merchants-on-hook-compliance"/>
+        <updated>2025-04-02T19:19:32.000Z</updated>
+        <summary type="html"><![CDATA[Merchants and retailers will now face penalties for not being compliant with PCI DSS 4.0.1, and the increased security standards make it clear they cannot transfer compliance responsibility to third-party service providers.]]></summary>
+        <author>
+            <name>Arielle Waldman</name>
         </author>
     </entry>
     <entry>
@@ -561,6 +1014,18 @@ CVE-2024-50302, CVE-2024-56658, CVE-2024-56672, CVE-2024-53063)]]></summary>
 The post Hackers Could Unleash Chaos Through Backdoor in China-Made Robot Dogs appeared first on SecurityWeek.]]></summary>
         <author>
             <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fast Flux: A National Security Threat]]></title>
+        <id>/node/23206</id>
+        <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-093a"/>
+        <updated>2025-04-01T19:00:21.000Z</updated>
+        <summary type="html"><![CDATA[Executive summary
+Many networks have a gap in their defenses for detecting and blocking a malicious technique known as “fast flux.” This technique poses a significant threat to national security, enabling malicious cyber actors to consistently evade detection. Malicious cyber actors, including cybercriminals and nation-state actors, use fast flux to obfuscate the locations of malicious servers by rapidly changing Domain Name System (DNS) records. Additionally, they can create resilient, highly available command and control (C2) infrastructure, concealing their subsequent malicious operations. This resilient and fast changing infrastructure makes tracking and blocking malicious activities that use fast flux more difficult. 
+The National Security Agency (NSA), Cybersecurity and Infrastructur…]]></summary>
+        <author>
+            <name>CISA</name>
         </author>
     </entry>
     <entry>
@@ -8706,386 +9171,6 @@ This update corrects flaws in the following subsystems:
 (CVE-2024-56672)]]></summary>
         <author>
             <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dark Caracal Uses Poco RAT to Target Spanish-Speaking Enterprises in Latin America]]></title>
-        <id>https://thehackernews.com/2025/03/dark-caracal-uses-poco-rat-to-target.html</id>
-        <link href="https://thehackernews.com/2025/03/dark-caracal-uses-poco-rat-to-target.html"/>
-        <updated>2025-03-05T13:37:00.000Z</updated>
-        <summary type="html"><![CDATA[The threat actor known as Dark Caracal has been attributed to a campaign that deployed a remote access trojan called Poco RAT in attacks targeting Spanish-speaking targets in Latin America in 2024.
-The findings come from Russian cybersecurity company Positive Technologies, which described the malware as loaded with a "full suite of espionage features."
-"It could upload files, capture screenshots]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Rolls Out AI Scam Detection for Android to Combat Conversational Fraud]]></title>
-        <id>https://thehackernews.com/2025/03/google-rolls-out-ai-scam-detection-for.html</id>
-        <link href="https://thehackernews.com/2025/03/google-rolls-out-ai-scam-detection-for.html"/>
-        <updated>2025-03-05T13:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Google has announced the rollout of artificial intelligence (AI)-powered scam detection features to secure Android device users and their personal information.
-"These features specifically target conversational scams, which can often appear initially harmless before evolving into harmful situations," Google said. "And more phone calling scammers are using spoofing techniques to hide their real]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[North Korean Fake IT Workers Pose as Blockchain Developers on GitHub]]></title>
-        <id>https://www.securityweek.com/?p=41464</id>
-        <link href="https://www.securityweek.com/north-korean-fake-it-workers-pose-as-blockchain-developers-on-github/"/>
-        <updated>2025-03-05T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[North Korean fake IT workers are creating personas on GitHub to land blockchain developer jobs at US and Japanese firms.
-The post North Korean Fake IT Workers Pose as Blockchain Developers on GitHub appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Two Venezuelans Arrested in US for ATM Jackpotting]]></title>
-        <id>https://www.securityweek.com/?p=41463</id>
-        <link href="https://www.securityweek.com/two-venezuelans-arrested-in-us-for-atm-jackpotting/"/>
-        <updated>2025-03-05T12:33:20.000Z</updated>
-        <summary type="html"><![CDATA[Several Venezuelans have been arrested and charged in the US in recent months for their role in ATM jackpotting schemes.
-The post Two Venezuelans Arrested in US for ATM Jackpotting appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7326-1: Linux kernel vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7326-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7326-1"/>
-        <updated>2025-03-05T12:30:11.000Z</updated>
-        <summary type="html"><![CDATA[Attila Szász discovered that the HFS+ file system implementation in the
-Linux Kernel contained a heap overflow vulnerability. An attacker could use
-a specially crafted file system image that, when mounted, could cause a
-denial of service (system crash) or possibly execute arbitrary code.
-(CVE-2025-0927)
-
-Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - Media drivers;
-  - Network drivers;
-(CVE-2024-50274, CVE-2024-53104, CVE-2024-53064)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7325-1: Linux kernel vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7325-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7325-1"/>
-        <updated>2025-03-05T12:09:40.000Z</updated>
-        <summary type="html"><![CDATA[Attila Szász discovered that the HFS+ file system implementation in the
-Linux Kernel contained a heap overflow vulnerability. An attacker could use
-a specially crafted file system image that, when mounted, could cause a
-denial of service (system crash) or possibly execute arbitrary code.
-(CVE-2025-0927)
-
-Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - Media drivers;
-(CVE-2024-53104)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Identifies Five New Vulnerabilities Currently Being Exploited]]></title>
-        <id>https://www.schneier.com/blog/archives/2025/03/cisa-identifies-five-new-vulnerabilities-currently-being-exploited.html</id>
-        <link href="https://www.schneier.com/blog/archives/2025/03/cisa-identifies-five-new-vulnerabilities-currently-being-exploited.html"/>
-        <updated>2025-03-05T12:00:31.000Z</updated>
-        <summary type="html"><![CDATA[<p>Of the <a href="https://www.cisa.gov/news-events/alerts/2025/03/03/cisa-adds-five-known-exploited-vulnerabilities-catalog">five</a>, one is a Windows vulnerability, another is a Cisco vulnerability. We don&#8217;t have any details about who is exploiting them, or how.</p>
-<p>News <a href="https://www.bleepingcomputer.com/news/security/cisa-tags-windows-and-cisco-vulnerabilities-as-actively-exploited/">article</a>. Slashdot <a href="https://it.slashdot.org/story/25/03/04/0315205/cisa-tags-windows-cisco-vulnerabilities-as-actively-exploited">thread</a>.</p>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ransomware Group Claims Attack on Tata Technologies]]></title>
-        <id>https://www.securityweek.com/?p=41462</id>
-        <link href="https://www.securityweek.com/ransomware-group-claims-attack-on-tata-technologies/"/>
-        <updated>2025-03-05T11:53:29.000Z</updated>
-        <summary type="html"><![CDATA[Notorious ransomware group Hunters International threatens to leak 1.4 TB of data allegedly stolen from Tata Technologies.
-The post Ransomware Group Claims Attack on Tata Technologies appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7324-1: Linux kernel vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7324-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7324-1"/>
-        <updated>2025-03-05T11:41:29.000Z</updated>
-        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - Media drivers;
-(CVE-2024-53104)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome 134, Firefox 136 Patch High-Severity Vulnerabilities]]></title>
-        <id>https://www.securityweek.com/?p=41461</id>
-        <link href="https://www.securityweek.com/chrome-134-firefox-136-patch-high-severity-vulnerabilities/"/>
-        <updated>2025-03-05T11:06:00.000Z</updated>
-        <summary type="html"><![CDATA[Chrome 134 and Firefox 136 are rolling out across desktop and mobile with patches for multiple high-severity vulnerabilities.
-The post Chrome 134, Firefox 136 Patch High-Severity Vulnerabilities appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chinese APT Lotus Panda Targets Governments With New Sagerunex Backdoor Variants]]></title>
-        <id>https://thehackernews.com/2025/03/chinese-apt-lotus-panda-targets.html</id>
-        <link href="https://thehackernews.com/2025/03/chinese-apt-lotus-panda-targets.html"/>
-        <updated>2025-03-05T11:03:00.000Z</updated>
-        <summary type="html"><![CDATA[The threat actor known as Lotus Panda has been observed targeting government, manufacturing, telecommunications, and media sectors in the Philippines, Vietnam, Hong Kong, and Taiwan with updated versions of a known backdoor called Sagerunex.
-"Lotus Blossom has been using the Sagerunex backdoor since at least 2016 and is increasingly employing long-term persistence command shells and developing]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Identity: The New Cybersecurity Battleground]]></title>
-        <id>https://thehackernews.com/2025/03/identity-new-cybersecurity-battleground.html</id>
-        <link href="https://thehackernews.com/2025/03/identity-new-cybersecurity-battleground.html"/>
-        <updated>2025-03-05T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The rapid adoption of cloud services, SaaS applications, and the shift to remote work have fundamentally reshaped how enterprises operate. These technological advances have created a world of opportunity but also brought about complexities that pose significant security threats. At the core of these vulnerabilities lies Identity—the gateway to enterprise security and the number one attack vector]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Knostic Secures $11 Million to Rein in Enterprise AI Data Leakage, Oversharing]]></title>
-        <id>https://www.securityweek.com/?p=41454</id>
-        <link href="https://www.securityweek.com/knostic-secures-11-million-to-rein-in-enterprise-ai-data-leakage-oversharing/"/>
-        <updated>2025-03-05T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Knostic provides a “need-to-know” filter on the answers generated by enterprise large language models (LLM) tools.
-The post Knostic Secures $11 Million to Rein in Enterprise AI Data Leakage, Oversharing  appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ryan Naraine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Seven Malicious Go Packages Found Deploying Malware on Linux and macOS Systems]]></title>
-        <id>https://thehackernews.com/2025/03/seven-malicious-go-packages-found.html</id>
-        <link href="https://thehackernews.com/2025/03/seven-malicious-go-packages-found.html"/>
-        <updated>2025-03-05T07:07:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers are alerting of an ongoing malicious campaign targeting the Go ecosystem with typosquatted modules that are designed to deploy loader malware on Linux and Apple macOS systems.
-"The threat actor has published at least seven packages impersonating widely used Go libraries, including one (github[.]com/shallowmulti/hypert) that appears to target financial-sector developers]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Cocktail of Cyber-Risk' Should Stir Concerns Among CISOs]]></title>
-        <id>https://www.darkreading.com/cyber-risk/thinking-outside-box-cyber-risk</id>
-        <link href="https://www.darkreading.com/cyber-risk/thinking-outside-box-cyber-risk"/>
-        <updated>2025-03-05T04:36:24.000Z</updated>
-        <summary type="html"><![CDATA[A global report published by the World Economic Forum points to a new "world order characterized by greater instability, polarizing narratives, eroding trust, and insecurity.]]></summary>
-        <author>
-            <name>Richard Thurston</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7320-1: GPAC vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7320-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7320-1"/>
-        <updated>2025-03-04T23:46:59.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that the GPAC MP4Box utility incorrectly handled certain
-AC3 files, which could lead to an out-of-bounds read. A remote attacker 
-could use this issue to cause MP4Box to crash, resulting in a denial of
-service (system crash). This issue only affected Ubuntu 22.04 LTS and
-Ubuntu 24.04 LTS. (CVE-2023-5520, CVE-2024-0322)
-
-It was discovered that the GPAC MP4Box utility incorrectly handled certain
-malformed text files. If a user or automated system using MP4Box were
-tricked into opening a specially crafted RST file, an attacker could use
-this issue to cause a denial of service (system crash) or execute arbitrary
-code. (CVE-2024-0321)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rapid7 Delivers Command Platform Offerings for Exposure Management]]></title>
-        <id>https://www.darkreading.com/cyber-risk/rapid7-delivers-command-platform-offerings-for-exposure-management</id>
-        <link href="https://www.darkreading.com/cyber-risk/rapid7-delivers-command-platform-offerings-for-exposure-management"/>
-        <updated>2025-03-04T22:35:57.000Z</updated>
-        <author>
-            <name>darkreading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 VMware Zero-Day Bugs Allow Sandbox Escape]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/vmware-zero-day-bugs-sandbox-escape</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/vmware-zero-day-bugs-sandbox-escape"/>
-        <updated>2025-03-04T22:29:43.000Z</updated>
-        <summary type="html"><![CDATA[The now-patched bugs are under active exploit and enable attackers to carry out a wide range of malicious activities, including escaping a virtual machine and gaining access to the underlying host.]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GreyNoise Intelligence Releases New Research on Cybersecurity Vulns]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/greynoise-intelligence-releases-new-research-on-cybersecurity-vulns</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/greynoise-intelligence-releases-new-research-on-cybersecurity-vulns"/>
-        <updated>2025-03-04T22:28:10.000Z</updated>
-        <author>
-            <name>darkreading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Glide Identity Partners With Google Cloud and Major Telcos]]></title>
-        <id>https://www.darkreading.com/cloud-security/glide-identity-partners-with-google-cloud-and-major-telcos</id>
-        <link href="https://www.darkreading.com/cloud-security/glide-identity-partners-with-google-cloud-and-major-telcos"/>
-        <updated>2025-03-04T22:19:35.000Z</updated>
-        <author>
-            <name>darkreading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BeyondTrust Pathfinder Delivers a One-Platform Approach to Identity-Centric Security]]></title>
-        <id>https://www.darkreading.com/endpoint-security/beyondtrust-pathfinder-delivers-a-one-platform-approach-to-identity-centric-security</id>
-        <link href="https://www.darkreading.com/endpoint-security/beyondtrust-pathfinder-delivers-a-one-platform-approach-to-identity-centric-security"/>
-        <updated>2025-03-04T22:15:55.000Z</updated>
-        <author>
-            <name>darkreading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Threat Actor 'JavaGhost' Targets AWS Environments in Phishing Scheme]]></title>
-        <id>https://www.darkreading.com/cloud-security/threat-actor-javaghost-targets-aws-environments-phishing-scheme</id>
-        <link href="https://www.darkreading.com/cloud-security/threat-actor-javaghost-targets-aws-environments-phishing-scheme"/>
-        <updated>2025-03-04T21:26:07.000Z</updated>
-        <summary type="html"><![CDATA[Palo Alto Networks' Unit 42 details how a threat actor is dodging detection with careful targeting and the use of Amazon's native email tools.]]></summary>
-        <author>
-            <name>Alexander Culafi, Senior News Writer, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Serbian Police Hack Protester's Phone With Cellebrite Exploit Chain]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/serbian-police-hack-protester-phone-cellebrite-exploit-chain</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/serbian-police-hack-protester-phone-cellebrite-exploit-chain"/>
-        <updated>2025-03-04T21:06:38.000Z</updated>
-        <summary type="html"><![CDATA[Amnesty International said Serbian police used an exploit chain in tandem with legitimate mobile extraction dongle from vendor Cellebrite in an attack that brings up questions around ethical technology development.]]></summary>
-        <author>
-            <name>Alexander Culafi, Senior News Writer, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jamf Buys Identity Automation, Expands IAM Capabilities]]></title>
-        <id>https://www.darkreading.com/identity-access-management-security/jamf-buys-identity-automation-expands-iam</id>
-        <link href="https://www.darkreading.com/identity-access-management-security/jamf-buys-identity-automation-expands-iam"/>
-        <updated>2025-03-04T20:56:40.000Z</updated>
-        <summary type="html"><![CDATA[The $215 million acquisition will allow Jamf to offer dynamic identity capabilities and device access in a single platform.]]></summary>
-        <author>
-            <name>Arielle Waldman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[North Korea's Latest 'IT Worker' Scheme Seeks Nuclear Funds]]></title>
-        <id>https://www.darkreading.com/remote-workforce/north-korea-it-worker-scheme-nuclear-funds</id>
-        <link href="https://www.darkreading.com/remote-workforce/north-korea-it-worker-scheme-nuclear-funds"/>
-        <updated>2025-03-04T20:35:43.000Z</updated>
-        <summary type="html"><![CDATA[Fraudulent IT workers are looking for engineering and developer positions in the US and Japan, and this time it's not about espionage.]]></summary>
-        <author>
-            <name>Kristina Beek, Associate Editor, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pentagon, CISA Deny Change in US Cyber Policy on Russia]]></title>
-        <id>https://www.darkreading.com/threat-intelligence/pentagon-cisa-deny-change-us-cyber-policy-russia</id>
-        <link href="https://www.darkreading.com/threat-intelligence/pentagon-cisa-deny-change-us-cyber-policy-russia"/>
-        <updated>2025-03-04T18:30:49.000Z</updated>
-        <summary type="html"><![CDATA[Media reports over the weekend suggested the Trump administration ordered US Cyber Command and CISA to draw down cyber activities targeting Russia.]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ICS/OT Security Budgets Increasing, but Critical Areas Underfunded: Report]]></title>
-        <id>https://www.securityweek.com/?p=41447</id>
-        <link href="https://www.securityweek.com/ics-ot-security-budgets-increasing-but-critical-areas-underfunded-report/"/>
-        <updated>2025-03-04T17:01:00.000Z</updated>
-        <summary type="html"><![CDATA[The SANS Institute and OPSWAT have published their 2025 ICS/OT Cybersecurity Budget Report.
-The post ICS/OT Security Budgets Increasing, but Critical Areas Underfunded: Report appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers Link CACTUS Ransomware Tactics to Former Black Basta Affiliates]]></title>
-        <id>https://thehackernews.com/2025/03/researchers-link-cactus-ransomware.html</id>
-        <link href="https://thehackernews.com/2025/03/researchers-link-cactus-ransomware.html"/>
-        <updated>2025-03-04T16:21:00.000Z</updated>
-        <summary type="html"><![CDATA[Threat actors deploying the Black Basta and CACTUS ransomware families have been found to rely on the same BackConnect (BC) module for maintaining persistent control over infected hosts, a sign that affiliates previously associated with Black Basta may have transitioned to CACTUS.
-"Once infiltrated, it grants attackers a wide range of remote control capabilities, allowing them to execute]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel TDX Connect Bridges the CPU-GPU Security Gap]]></title>
-        <id>https://www.securityweek.com/?p=41450</id>
-        <link href="https://www.securityweek.com/intel-tdx-connect-bridges-the-cpu-gpu-security-gap/"/>
-        <updated>2025-03-04T16:18:20.000Z</updated>
-        <summary type="html"><![CDATA[AI is all about data – and keeping AI’s data confidential both within devices and between devices is problematic. Intel offers a solution.
-The post Intel TDX Connect Bridges the CPU-GPU Security Gap appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Kevin Townsend</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Asset Inventories: The Only Way to Stay on Top of a Lightning-fast Landscape]]></title>
-        <id>https://www.securityweek.com/?p=41449</id>
-        <link href="https://www.securityweek.com/ai-asset-inventories-the-only-way-to-stay-on-top-of-a-lightning-fast-landscape/"/>
-        <updated>2025-03-04T15:57:13.000Z</updated>
-        <summary type="html"><![CDATA[Unauthorized AI usage is a ticking time bomb. A tool that wasn’t considered a risk yesterday may introduce new AI-powered features overnight.
-The post AI Asset Inventories: The Only Way to Stay on Top of a Lightning-fast Landscape appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Alastair Paterson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Cybersecurity Jobs Are Hard to Find Amid a Worker Shortage]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/cybersecurity-jobs-hard-find-amid-worker-shortage</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/cybersecurity-jobs-hard-find-amid-worker-shortage"/>
-        <updated>2025-03-04T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The cybersecurity job market nowadays is facing an unusual paradox: Many roles seem open, but competition and hiring practices can make securing a position a real challenge.]]></summary>
-        <author>
-            <name>Andrey Leskin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aryon Security Debuts With Platform to Prevent Cloud Misconfigurations]]></title>
-        <id>https://www.securityweek.com/?p=41445</id>
-        <link href="https://www.securityweek.com/aryon-security-debuts-with-platform-to-prevent-cloud-misconfigurations/"/>
-        <updated>2025-03-04T14:18:50.000Z</updated>
-        <summary type="html"><![CDATA[Misconfigurations are the cause of most cloud breaches. Aryon is on a mission to prevent them.
-The post Aryon Security Debuts With Platform to Prevent Cloud Misconfigurations appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Kevin Townsend</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VMware Security Flaws Exploited in the Wild—Broadcom Releases Urgent Patches]]></title>
-        <id>https://thehackernews.com/2025/03/vmware-security-flaws-exploited-in.html</id>
-        <link href="https://thehackernews.com/2025/03/vmware-security-flaws-exploited-in.html"/>
-        <updated>2025-03-04T14:13:00.000Z</updated>
-        <summary type="html"><![CDATA[Broadcom has released security updates to address three actively exploited security flaws in VMware ESXi, Workstation, and Fusion products that could lead to code execution and information disclosure.
-The list of vulnerabilities is as follows -
-
-CVE-2025-22224 (CVSS score: 9.3) - A Time-of-Check Time-of-Use (TOCTOU) vulnerability that leads to an out-of-bounds write, which a malicious actor with]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
         </author>
     </entry>
 </feed>
