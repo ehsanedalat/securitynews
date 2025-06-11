@@ -2,10 +2,327 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-06-10T01:54:38.663Z</updated>
+    <updated>2025-06-11T01:53:58.796Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How Scammers Are Using AI to Steal College Financial Aid]]></title>
+        <id>https://www.securityweek.com/?p=42574</id>
+        <link href="https://www.securityweek.com/how-scammers-are-using-ai-to-steal-college-financial-aid/"/>
+        <updated>2025-06-11T01:07:20.000Z</updated>
+        <summary type="html"><![CDATA[Fake college enrollments have been surging as crime rings deploy “ghost students” — chatbots that join online classrooms and stay just long enough to collect a financial aid check.
+The post How Scammers Are Using AI to Steal College Financial Aid appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#806555: A Vulnerability in UEFI Applications allows for secure boot bypass via misused NVRAM variable]]></title>
+        <id>https://kb.cert.org/vuls/id/806555</id>
+        <link href="https://kb.cert.org/vuls/id/806555"/>
+        <updated>2025-06-10T19:18:46.102Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>UEFI firmware applications <code>DTBios</code> and <code>BiosFlashShell</code> from <a href="https://dtresearch.com">DTResearch</a> contain a vulnerability that allows Secure Boot to be bypassed using a specially crafted NVRAM variable. The vulnerability stems from improper handling of a runtime NVRAM variable that enables an arbitrary write primitive, capable of modifying critical firmware structures, including the global Security2 Architectural Protocol used for Secure Boot verification.. Because the affected applications are signed by the Microsoft UEFI Certificate Authority, this vulnerability can be exploited on any UEFI-compliant system, allowing unsigned code to run during the boot process.</p>
+<h3 id="description">Description</h3>
+<p><a href="https://uefi.org/">Unified Extensible Firmware Interface (UEFI)</a> defines a modern firmware architecture that facilitates interaction between a computer’s hardware and its operating system during early boot. When a UEFI-compliant system starts, UEFI applications and drivers are executed to initialize the system and hand off control to the operating system (OS) loader. These UEFI applications must be signed and verified for execution under Secure Boot. These signatures can originate from the OEM or from entries in the system’s signature database (DB), which commonly includes the Microsoft UEFI Certificate Authority (CA).</p>
+<p>UEFI defines extensible NVRAM variables that store configuration, device customization, and runtime context shared across UEFI applications and the operating system. A vulnerability was identified in a Microsoft-signed UEFI application that uses the NVRAM variable <code>IhisiParamBuffer</code> as a pointer for memory operations, including overwriting the critical global security parameter <code>gSecurity2</code> . This allows bypassing <a href="https://uefi.org/specs/PI/1.8A/V2_DXE_Architectural_Protocols.html#security2-architectural-protocol">Security2 Architectural Protocol</a>-based verification , enabling the execution of any unsigned UEFI binaries irresepective of UEFI Secure Boot settings.</p>
+<p>In some implementations, <code>IhisiParamBuffer</code> is locked early during boot, preventing modification at runtime. However, as <a href="https://binarly.io">Binarly</a> observed, the vulnerability can be exploited in environments where the <code>IhisiParamBuffer</code> NVRAM variable is not locked and remains writable at runtime. In such cases, attackers can bring and execute the vulnerable UEFI application even on systems with Secure Boot enabled—using a <a href="https://techcommunity.microsoft.com/blog/microsoftsecurityexperts/strategies-to-monitor-and-prevent-vulnerable-driver-attacks/4103985">Bring Your Own Vulnerable Driver (BYOVD)</a> approach.  Initially the vulnerability was reported on DTResearch's  Dtbios application version 71.22 for 64-bit architecture, however Microsoft has further identified that this vulnerability is present in both DtBios and BiosFlashShell on multiple versions. A total of 14 hashes have been added to the Forbidden Signature Database <a href="https://uefi.org/revocationlistfile">(DBX or Revocation List)</a> to address these various binaries.</p>
+<p>To mitigate this vulnerability, affected UEFI modules must be updated via vendor-provided software. Additionally, all UEFI-compliant system owners should update their Secure Boot Forbidden Signature Database <a href="https://uefi.org/revocationlistfile">(DBX or Revocation List)</a>, which is available via OEM updates, Microsoft, or the <a href="https://fwupd.org">Linux Vendor Firmware Service (LVFS)</a>.</p>
+<h3 id="impact">Impact</h3>
+<p>An attacker with the ability to modify the <code>IhisiParamBuffer</code> NVRAM variable can use it to perform arbitrary memory writes, enabling a Secure Boot bypass during early boot. This allows unsigned or malicious code to run before the OS loads, potentially installing persistent malware or kernel rootkits that survive reboots and OS reinstallations. Because this attack occurs before OS-level security tools initialize, it can evade detection by endpoint detection and response (EDR) systems. In some cases, it can even entirely disable EDR systems by modifying low-level interfaces before they load.</p>
+<h3 id="solution">Solution</h3>
+<h4 id="apply-a-patch">Apply a Patch</h4>
+<p>Multiple vendors have released software updates to address this vulnerability and prevent potential exploitation. Please refer to the <code>Vendor Information</code> section for applicable updates. Microsoft has also indicated they will release an updated DBX (Revocation List) file to prevent vulnerable components from being executed under Secure Boot. Windows Users can further use <a href="https://github.com/cjee21/Check-UEFISecureBootVariables">Check-UEFISecureBootVariables</a> PowerShell scripts to verify whether the latest DBX updates can be applied. For Linux users, LVFS has released a <a href="https://blogs.gnome.org/hughsie/2020/08/17/updating-secure-boot-dbx-with-fwupd-and-the-lvfs/">blog article</a> to detail revocation list updates through the Linux tools provided by the fwupd project.</p>
+<h4 id="recommendations-for-enterprises-and-developers">Recommendations for Enterprises and Developers</h4>
+<p>Changes to the DBX (Forbidden Signature Database) may cause system boot failures if not carefully managed. Vendors should thoroughly test updates to ensure system stability. In some cases, it may be necessary to update the DB (Signature Database) <strong>before</strong> updating the DBX, as described in Microsoft’s <a href="https://support.microsoft.com/en-us/topic/how-to-manage-the-windows-boot-manager-revocations-for-secure-boot-changes-associated-with-cve-2023-24932-41a975df-beb2-40c1-99a3-b3ff139f832d">KB5025885</a>. Enterprises and cloud providers managing broad deployments of systems should prioritize these updates and confirm DBX revocation is enforced, particularly in virtualized environments, to block unauthorized UEFI binaries during early boot phases.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to Binarly REsearch team for the responsible disclosure of this vulnerability to CERT/CC. Thanks also to Microsoft and various vendors for their collaboration and timely response. This document was written by Vijay Sarvepalli.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Code Execution Flaws Haunt Adobe Acrobat Reader, Adobe Commerce]]></title>
+        <id>https://www.securityweek.com/?p=42572</id>
+        <link href="https://www.securityweek.com/code-execution-flaws-haunt-adobe-acrobat-reader-adobe-commerce/"/>
+        <updated>2025-06-10T18:44:58.000Z</updated>
+        <summary type="html"><![CDATA[Patch Tuesday: Adobe documents hundreds of bugs across multiple products and warns of code execution, feature bypass risks.
+The post Code Execution Flaws Haunt Adobe Acrobat Reader, Adobe Commerce appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adobe Releases Patch Fixing 254 Vulnerabilities, Closing High-Severity Security Gaps]]></title>
+        <id>https://thehackernews.com/2025/06/adobe-releases-patch-fixing-254.html</id>
+        <link href="https://thehackernews.com/2025/06/adobe-releases-patch-fixing-254.html"/>
+        <updated>2025-06-10T18:29:00.000Z</updated>
+        <summary type="html"><![CDATA[Adobe on Tuesday pushed security updates to address a total of 254 security flaws impacting its software products, a majority of which affect Experience Manager (AEM).
+Of the 254 flaws, 225 reside in AEM, impacting AEM Cloud Service (CS) as well as all versions prior to and including 6.5.22. The issues have been resolved in AEM Cloud Service Release 2025.5 and version 6.5.23.
+"Successful]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Patch Tuesday Covers WebDAV Flaw Marked as ‘Already Exploited’]]></title>
+        <id>https://www.securityweek.com/?p=42571</id>
+        <link href="https://www.securityweek.com/microsoft-patch-tuesday-covers-webdav-flaw-marked-as-already-exploited/"/>
+        <updated>2025-06-10T18:16:01.000Z</updated>
+        <summary type="html"><![CDATA[Redmond warns that external control of a file name or path in WebDAV "allows an unauthorized attacker to execute code over a network."
+The post Microsoft Patch Tuesday Covers WebDAV Flaw Marked as ‘Already Exploited’ appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ryan Naraine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Uncover 20+ Configuration Risks, Including Five CVEs, in Salesforce Industry Cloud]]></title>
+        <id>https://thehackernews.com/2025/06/researchers-uncover-20-configuration.html</id>
+        <link href="https://thehackernews.com/2025/06/researchers-uncover-20-configuration.html"/>
+        <updated>2025-06-10T18:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have uncovered over 20 configuration-related risks affecting Salesforce Industry Cloud (aka Salesforce Industries), exposing sensitive data to unauthorized internal and external parties.
+The weaknesses affect various components like FlexCards, Data Mappers, Integration Procedures (IProcs), Data Packs, OmniOut, and OmniScript Saved Sessions.
+"Low-code platforms such as]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#282450: Out-of-Bounds read vulnerability in TCG TPM2.0 reference implementation]]></title>
+        <id>https://kb.cert.org/vuls/id/282450</id>
+        <link href="https://kb.cert.org/vuls/id/282450"/>
+        <updated>2025-06-10T17:19:27.933Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>An out-of-bounds (OOB) read vulnerability has been identified in the Trusted Platform Module (TPM) 2.0 reference library specification, currently at Level 00, Revision 01.83 (March 2024). An attacker with access to a TPM command interface can exploit this vulnerability by sending specially crafted commands, potentially leading to unauthorized access to sensitive data or denial of service of the TPM.</p>
+<h3 id="description">Description</h3>
+<p>Trusted Platform Module (TPM) technology is a hardware-based solution that provides secure cryptographic functions to operating systems on modern computing platforms. Designed to resist tampering, TPM can be implemented as a discrete chip, integrated component, or firmware-based module. Software-based implementations are also available to support the cryptographic needs of cloud and virtualized environments.  The <a href="https://trustedcomputinggroup.org">Trusted Computing Group (TCG)</a> maintains the TPM specifications and provides a <a href="https://trustedcomputinggroup.org/resource/tpm-library-specification/">reference implementation</a> to assist vendor adoption.</p>
+<p>A Security researcher have discovered an OOB read vulnerability in the <code>CryptHmacSign</code> function of the reference implementation. The issue arises because the reference code did not implement appropriate consistency checks in <code>CryptHmacSign</code> function resulting in potential out-of-bound read. An attacker with access to the TPM interface can exploit this mismatch by submitting a maliciously crafted packet, resulting in an out-of-bounds read from TPM memory, which may expose sensitive data.</p>
+<h3 id="impact">Impact</h3>
+<p>An authenticated local attacker can send malicious commands to a vulnerable TPM interface, resulting in information disclosure or denial of service of the TPM. The impact assessment depends on the vendor specific implementation. </p>
+<h3 id="solution">Solution</h3>
+<p>The TCG has released an <a href="https://trustedcomputinggroup.org/wp-content/uploads/TPM2.0-Library-Spec-v1.83-Errata_v1_pub.pdf">errata update</a> to the TPM 2.0 Library Specification and updated the reference implementations to address this vulnerability. Users are strongly encouraged to apply TPM-related firmware updates provided by their hardware or system vendors. Please refer to the Vendor Information section for any specific guidance from affected vendors.  TPM2.0 vendors are urged to use the latest specifications and the reference implementation to ensure these vulnerabilities are resolved in their implementations. </p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporter, who wishes to remain anonymous.  This document was written by Vijay Sarvepalli.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FIN6 Uses AWS-Hosted Fake Resumes on LinkedIn to Deliver More_eggs Malware]]></title>
+        <id>https://thehackernews.com/2025/06/fin6-uses-aws-hosted-fake-resumes-on.html</id>
+        <link href="https://thehackernews.com/2025/06/fin6-uses-aws-hosted-fake-resumes-on.html"/>
+        <updated>2025-06-10T16:46:00.000Z</updated>
+        <summary type="html"><![CDATA[The financially motivated threat actor known as FIN6 has been observed leveraging fake resumes hosted on Amazon Web Services (AWS) infrastructure to deliver a malware family called More_eggs.
+"By posing as job seekers and initiating conversations through platforms like LinkedIn and Indeed, the group builds rapport with recruiters before delivering phishing messages that lead to malware," the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rust-based Myth Stealer Malware Spread via Fake Gaming Sites Targets Chrome, Firefox Users]]></title>
+        <id>https://thehackernews.com/2025/06/rust-based-myth-stealer-malware-spread.html</id>
+        <link href="https://thehackernews.com/2025/06/rust-based-myth-stealer-malware-spread.html"/>
+        <updated>2025-06-10T14:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have shed light on a previously undocumented Rust-based information stealer called Myth Stealer that's being propagated via fraudulent gaming websites.
+"Upon execution, the malware displays a fake window to appear legitimate while simultaneously decrypting and executing malicious code in the background," Trellix security researchers Niranjan Hegde, Vasantha Lakshmanan]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#211341: A vulnerability in Insyde H2O UEFI application allows for digital certificate injection via NVRAM variable]]></title>
+        <id>https://kb.cert.org/vuls/id/211341</id>
+        <link href="https://kb.cert.org/vuls/id/211341"/>
+        <updated>2025-06-10T14:01:50.047Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>A vulnerability in an Insyde H2O UEFI firmware application allows digital certificate injection through an unprotected NVRAM variable. This issue arises from the unsafe use of an NVRAM variable, which is used as trusted storage for a digital certificate in the trust validation chain. An attacker can store their own certificate in this variable and subsequently run arbitrary firmware (signed by the injected certificate) during the early boot process within the UEFI environment.</p>
+<h3 id="description">Description</h3>
+<p><a href="https://uefi.org/">Unified Extensible Firmware Interface (UEFI)</a> defines a modern firmware architecture that facilitates interaction between a computer’s hardware and its operating system during early boot. When a UEFI-compliant system starts, UEFI applications and drivers are executed to initialize the system and hand off control to the operating system (OS) loader. These UEFI applications must be signed and verified for execution under Secure Boot. These signatures can originate from the OEM or from entries in the system’s signature database (DB), which commonly includes the Microsoft UEFI Certificate Authority (CA).</p>
+<p>UEFI defines extensible NVRAM variables that store configuration, device customization, and runtime context shared across UEFI applications and the operating system. A vulnerability was identified in a firmware application due to the use of an untrusted NVRAM variable, <code>SecureFlashCertData</code>, to store and exchange public keys. Because this NVRAM variable is not protected (i.e., not locked), it can be updated at runtime—allowing an attacker to inject their own keys.</p>
+<p>As described by the security researcher Nikolaj Schlej </p>
+<blockquote>
+<p>The origin of this vulnerability is the fact that Insyde H2O authors decided to use volatile NVRAM as trusted storage for data exchange between the points of loading the signing certificates from the FW (which can happen in many places in multiple DXE drivers) and verifying the signature of platform tools and update capsules (which happens in a library implementing LoadImage/StartImage pair). Due to use of common library functions (akin LibGetVariable), there's no way for LoadImage to ensure that the NVRAM variables it consults are indeed volatile and had been previously set by the firmware itself, so hijacking them becomes a trivial "set the very same variables as non-volatile from OS environment", which the PoC tool performs if ran from Windows Administrator terminal. Any other means to write the same variables to non-volatile NVRAM (i.e. Linux efivars subsystem) will also work the same way.</p>
+</blockquote>
+<p>To mitigate this vulnerability, affected UEFI modules must be updated via vendor-provided firmware updates. Firmware security analysis tools can also inspect affected variables in firmware images to assess exposure to this vulnerability. Note that UEFI variable locking, while supported in some implementations, is currently poorly documented or as it stands unavailable with reference implementations for vendors to adopt.</p>
+<h3 id="impact">Impact</h3>
+<p>An attacker with the ability to modify the SecureFlashCertData NVRAM variable at runtime can use it to inject their digital certificate and bypass Secure Boot. This allows unsigned or malicious code to run before the OS loads, potentially installing persistent malware or kernel rootkits that survive reboots and OS reinstallations. Because this attack occurs before OS-level security tools initialize, it can evade detection by endpoint detection and response (EDR) systems. In some cases, it may even disable EDR systems entirely by modifying low-level interfaces before they load.</p>
+<h3 id="solution">Solution</h3>
+<p>Due to the supply-chain redistribution of this firmware application across multiple Original Device Manufacturers (ODMs) and Original Equipment Manufacturers (OEMs), the vulnerability may be present in multiple PC models. Please check the Vendor Information section for details.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to researcher Nikolaj Schlej for the responsible disclosure of this vulnerability to CERT/CC. Thanks also to Insyde and other vendors for addressing the vulnerability with appropriate actions. This document was written by Vijay Sarvepalli.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7564-1: Samba vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7564-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7564-1"/>
+        <updated>2025-06-10T13:30:31.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Samba incorrectly handled certain group membership
+changes when using Kerberos authentication. A remote user could possibly
+use this issue to continue to access resources after being removed by an
+administrator.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackers Stole 300,000 Crash Reports From Texas Department of Transportation]]></title>
+        <id>https://www.securityweek.com/?p=42569</id>
+        <link href="https://www.securityweek.com/hackers-stole-300000-crash-reports-from-texas-department-of-transportation/"/>
+        <updated>2025-06-10T13:13:48.000Z</updated>
+        <summary type="html"><![CDATA[The Texas Department of Transportation has disclosed a data breach impacting the personal information included in 300,000 crash reports.
+The post Hackers Stole 300,000 Crash Reports From Texas Department of Transportation appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Swimlane Raises $45 Million for Security Automation Platform]]></title>
+        <id>https://www.securityweek.com/?p=42567</id>
+        <link href="https://www.securityweek.com/swimlane-raises-45-million-for-security-automation-platform/"/>
+        <updated>2025-06-10T12:53:40.000Z</updated>
+        <summary type="html"><![CDATA[Swimlane has raised $45 million in a growth funding round to fuel its global channel expansion and product innovation.
+The post Swimlane Raises $45 Million for Security Automation Platform appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Five Zero-Days, 15 Misconfigurations Found in Salesforce Industry Cloud]]></title>
+        <id>https://www.securityweek.com/?p=42564</id>
+        <link href="https://www.securityweek.com/five-zero-days-15-misconfigurations-found-in-salesforce-industry-cloud/"/>
+        <updated>2025-06-10T12:00:08.000Z</updated>
+        <summary type="html"><![CDATA[Security researchers uncover critical flaws and widespread misconfigurations in Salesforce’s industry-specific CRM solutions.
+The post Five Zero-Days, 15 Misconfigurations Found in Salesforce Industry Cloud appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds Two Known Exploited Vulnerabilities to Catalog]]></title>
+        <id>/node/23494</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/06/10/cisa-adds-two-known-exploited-vulnerabilities-catalog"/>
+        <updated>2025-06-10T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. 
+CVE-2025-24016 Wazuh Server Deserialization of Untrusted Data Vulnerability
+CVE-2025-33053 Web Distributed Authoring and Versioning (WebDAV) External Control of File Name or Path Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. 
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information. 
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of KEV Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Four Industrial Control Systems Advisories]]></title>
+        <id>/node/23493</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/06/10/cisa-releases-four-industrial-control-systems-advisories"/>
+        <updated>2025-06-10T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released four Industrial Control Systems (ICS) advisories on June 10, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+ICSA-25-160-01 SinoTrack GPS Receiver
+ICSA-25-160-02 Hitachi Energy Relion 670, 650, SAM600-IO Series
+ 
+ICSMA-25-160-01 MicroDicom DICOM Viewer
+ 
+ICSA-25-140-11 Assured Telematics Inc (ATI) Fleet Management System (Update A)
+CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Vulnerability Patched in SAP NetWeaver]]></title>
+        <id>https://www.securityweek.com/?p=42561</id>
+        <link href="https://www.securityweek.com/critical-vulnerability-patched-in-sap-netweaver/"/>
+        <updated>2025-06-10T11:05:39.000Z</updated>
+        <summary type="html"><![CDATA[SAP has fixed a critical NetWeaver vulnerability allowing attackers to bypass authorization checks and escalate their privileges.
+The post Critical Vulnerability Patched in SAP NetWeaver appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Hidden Threat in Your Stack: Why Non-Human Identity Management is the Next Cybersecurity Frontier]]></title>
+        <id>https://thehackernews.com/2025/06/the-hidden-threat-in-your-stack-why-non.html</id>
+        <link href="https://thehackernews.com/2025/06/the-hidden-threat-in-your-stack-why-non.html"/>
+        <updated>2025-06-10T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Modern enterprise networks are highly complex environments that rely on hundreds of apps and infrastructure services. These systems need to interact securely and efficiently without constant human oversight, which is where non-human identities (NHIs) come in. NHIs — including application secrets, API keys, service accounts, and OAuth tokens — have exploded in recent years, thanks to an]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sensitive Information Stolen in Sensata Ransomware Attack]]></title>
+        <id>https://www.securityweek.com/?p=42559</id>
+        <link href="https://www.securityweek.com/sensitive-information-stolen-in-sensata-ransomware-attack/"/>
+        <updated>2025-06-10T10:52:44.000Z</updated>
+        <summary type="html"><![CDATA[Sensor manufacturer Sensata said a ransomware group had access to its network for more than a week and stole personal information.
+The post Sensitive Information Stolen in Sensata Ransomware Attack appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researcher Found Flaw to Discover Phone Numbers Linked to Any Google Account]]></title>
+        <id>https://thehackernews.com/2025/06/researcher-found-flaw-to-discover-phone.html</id>
+        <link href="https://thehackernews.com/2025/06/researcher-found-flaw-to-discover-phone.html"/>
+        <updated>2025-06-10T10:11:00.000Z</updated>
+        <summary type="html"><![CDATA[Google has stepped in to address a security flaw that could have made it possible to brute-force an account's recovery phone number, potentially exposing them to privacy and security risks.
+The issue, according to Singaporean security researcher "brutecat," leverages an issue in the company's account recovery feature.
+That said, exploiting the vulnerability hinges on several moving parts,]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploited Vulnerability Impacts Over 80,000 Roundcube Servers]]></title>
+        <id>https://www.securityweek.com/?p=42557</id>
+        <link href="https://www.securityweek.com/exploited-vulnerability-impacts-over-80000-roundcube-servers/"/>
+        <updated>2025-06-10T09:38:08.000Z</updated>
+        <summary type="html"><![CDATA[Exploitation of a critical-severity RCE vulnerability in Roundcube started only days after a patch was released.
+The post Exploited Vulnerability Impacts Over 80,000 Roundcube Servers appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerabilities Exposed Phone Number of Any Google User]]></title>
+        <id>https://www.securityweek.com/?p=42554</id>
+        <link href="https://www.securityweek.com/vulnerabilities-exposed-phone-number-of-any-google-user/"/>
+        <updated>2025-06-10T08:56:16.000Z</updated>
+        <summary type="html"><![CDATA[Google has awarded $5,000 to a researcher who found security holes that enabled brute-forcing the phone number of any user. 
+The post Vulnerabilities Exposed Phone Number of Any Google User appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rare Werewolf APT Uses Legitimate Software in Attacks on Hundreds of Russian Enterprises]]></title>
+        <id>https://thehackernews.com/2025/06/rare-werewolf-apt-uses-legitimate.html</id>
+        <link href="https://thehackernews.com/2025/06/rare-werewolf-apt-uses-legitimate.html"/>
+        <updated>2025-06-10T07:48:00.000Z</updated>
+        <summary type="html"><![CDATA[The threat actor known as Rare Werewolf (formerly Rare Wolf) has been linked to a series of cyber attacks targeting Russia and the Commonwealth of Independent States (CIS) countries.
+"A distinctive feature of this threat is that the attackers favor using legitimate third-party software over developing their own malicious binaries," Kaspersky said. "The malicious functionality of the campaign]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds Erlang SSH and Roundcube Flaws to Known Exploited Vulnerabilities Catalog]]></title>
+        <id>https://thehackernews.com/2025/06/cisa-adds-erlang-ssh-and-roundcube.html</id>
+        <link href="https://thehackernews.com/2025/06/cisa-adds-erlang-ssh-and-roundcube.html"/>
+        <updated>2025-06-10T05:37:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two critical security flaws impacting Erlang/Open Telecom Platform (OTP) SSH and Roundcube to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.
+The vulnerabilities in question are listed below -
+
+CVE-2025-32433 (CVSS score: 10.0) - A missing authentication for a critical]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New Trump Cybersecurity Order Reverses Biden, Obama Priorities]]></title>
         <id>https://www.darkreading.com/cybersecurity-operations/trump-cybersecurity-order-reverses-biden-obama-priorities</id>
@@ -174,6 +491,31 @@ This update corrects flaws in the following subsystems:
 "The victimology includes a South Asian government entity, a European media organization, and more than 70 organizations across a wide range of sectors," SentinelOne security researchers Aleksandar]]></summary>
         <author>
             <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7562-1: Tomcat vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7562-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7562-1"/>
+        <updated>2025-06-09T14:59:56.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Tomcat did not include the secure attribute for
+session cookies when using the RemoteIpFilter with requests from a reverse
+proxy. An attacker could possibly use this issue to leak sensitive
+information. This issue was fixed for tomcat8 on Ubuntu 18.04 LTS and for
+tomcat9 on Ubuntu 24.04 LTS, Ubuntu 24.10, and Ubuntu 25.04.
+(CVE-2023-28708)
+
+It was discovered that Tomcat incorrectly recycled
+certain objects, which could lead to information leaking from one request
+to the next. An attacker could potentially use this issue to leak sensitive
+information. This issue was fixed for tomcat8 on Ubuntu 18.04 LTS  and for
+tomcat9 on Ubuntu 24.04 LTS, Ubuntu 24.10, and  Ubuntu 25.04.
+(CVE-2023-42795)
+
+It was discovered that Tomcat incorrectly handled HTTP
+trailer headers. A remo…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
         </author>
     </entry>
     <entry>
@@ -8070,331 +8412,6 @@ DriverHub is a tool that's designed to automatically detect the motherboard mode
         <summary type="html"><![CDATA[Agentic-native startups threaten to reduce the zero-day problem to just a zero-hour issue. Of course, AI agents will accelerate offensive attacks as well.]]></summary>
         <author>
             <name>Paul Shomo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7506-3: Linux kernel (FIPS) vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7506-3</id>
-        <link href="https://ubuntu.com/security/notices/USN-7506-3"/>
-        <updated>2025-05-12T13:17:12.000Z</updated>
-        <summary type="html"><![CDATA[Demi Marie Obenour and Simon Gaiser discovered that several Xen para-
-virtualization device frontends did not properly restrict the access rights
-of device backends. An attacker could possibly use a malicious Xen backend
-to gain access to memory pages of a guest VM or cause a denial of service
-in the guest. (CVE-2022-23041)
-
-Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - Hardware crypto device drivers;
-  - GPU drivers;
-  - IIO subsystem;
-  - Media drivers;
-  - Network drivers;
-  - SCSI subsystem;
-  - SPI subsystem;
-  - USB Gadget drivers;
-  - Ceph distributed file system;
-  - File systems infrastructure;
-  - JFS file system;
-  - Network file system (NFS) client;
-  - Network file system (NFS) server daemon;
-  - NILFS2 file system;
-  - SMB network file system;
-  - CAN network layer;
-  - IPv6 networking;
-  - MAC80211 subsystem;
-  - Netfilter;
-  - Netlink;
-  - Network traffic control;
-  - SCTP protocol;
-  - TIPC protocol;
-(CVE-2024-56598, CVE-2024-56650, CVE-2024-46771, CVE-2024-53173,
-CVE-2024-53063, CVE-2024-26974, CVE-2021-46959, CVE-2024-53066,
-CVE-2021-47163, CVE-2024-50237, CVE-2021-47587, CVE-2024-56631,
-CVE-2024-50256, CVE-2021-47150, CVE-2021-47506, CVE-2021-47219,
-CVE-2023-52741, CVE-2024-49944, CVE-2025-21971, CVE-2024-26689,
-CVE-2024-46780, CVE-2024-53140, CVE-2021-47245, CVE-2024-56642,
-CVE-2021-47500, CVE-2024-36934, CVE-2024-26996, CVE-2024-35864,
-CVE-2021-47191, CVE-2024-26915, CVE-2024-56770)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7507-1: Rack vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7507-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7507-1"/>
-        <updated>2025-05-12T13:03:34.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that Rack incorrectly handled deleted rack sessions. An
-attacker could possibly use this issue to expose sensitive information or
-to gain unauthorized access to user accounts. (CVE-2025-32441)
-
-It was discovered that Rack incorrectly limited the number of parameters
-in a web request. An attacker could possibly use this issue to cause a
-denial of service. This issue only affected Ubuntu 20.04 LTS, Ubuntu 22.04
-LTS, Ubuntu 24.04 LTS, Ubuntu 24.10, and Ubuntu 25.04. (CVE-2025-46727)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7506-2: Linux kernel (AWS) vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7506-2</id>
-        <link href="https://ubuntu.com/security/notices/USN-7506-2"/>
-        <updated>2025-05-12T12:58:51.000Z</updated>
-        <summary type="html"><![CDATA[Demi Marie Obenour and Simon Gaiser discovered that several Xen para-
-virtualization device frontends did not properly restrict the access rights
-of device backends. An attacker could possibly use a malicious Xen backend
-to gain access to memory pages of a guest VM or cause a denial of service
-in the guest. (CVE-2022-23041)
-
-Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - Hardware crypto device drivers;
-  - GPU drivers;
-  - IIO subsystem;
-  - Media drivers;
-  - Network drivers;
-  - SCSI subsystem;
-  - SPI subsystem;
-  - USB Gadget drivers;
-  - Ceph distributed file system;
-  - File systems infrastructure;
-  - JFS file system;
-  - Network file system (NFS) client;
-  - Network file system (NFS) server daemon;
-  - NILFS2 file system;
-  - SMB network file system;
-  - CAN network layer;
-  - IPv6 networking;
-  - MAC80211 subsystem;
-  - Netfilter;
-  - Netlink;
-  - Network traffic control;
-  - SCTP protocol;
-  - TIPC protocol;
-(CVE-2024-56650, CVE-2024-26915, CVE-2024-50237, CVE-2024-53140,
-CVE-2024-26996, CVE-2021-47506, CVE-2024-26974, CVE-2025-21971,
-CVE-2024-56770, CVE-2024-53063, CVE-2021-47245, CVE-2024-36934,
-CVE-2021-47500, CVE-2024-53173, CVE-2021-47219, CVE-2024-46771,
-CVE-2024-56631, CVE-2024-46780, CVE-2024-35864, CVE-2021-46959,
-CVE-2021-47191, CVE-2021-47587, CVE-2024-53066, CVE-2024-56642,
-CVE-2021-47163, CVE-2024-50256, CVE-2021-47150, CVE-2024-56598,
-CVE-2024-26689, CVE-2023-52741, CVE-2024-49944)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Agrees to $1.3 Billion Settlement in Texas Privacy Lawsuits]]></title>
-        <id>https://www.securityweek.com/?p=42234</id>
-        <link href="https://www.securityweek.com/google-agrees-to-1-3-billion-settlement-in-texas-privacy-lawsuits/"/>
-        <updated>2025-05-12T12:53:45.000Z</updated>
-        <summary type="html"><![CDATA[Google has agreed to a $1.375 billion settlement with Texas in lawsuits over location and private browsing tracking, and biometric data collection.
-The post Google Agrees to $1.3 Billion Settlement in Texas Privacy Lawsuits appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7506-1: Linux kernel vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7506-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7506-1"/>
-        <updated>2025-05-12T12:28:57.000Z</updated>
-        <summary type="html"><![CDATA[Demi Marie Obenour and Simon Gaiser discovered that several Xen para-
-virtualization device frontends did not properly restrict the access rights
-of device backends. An attacker could possibly use a malicious Xen backend
-to gain access to memory pages of a guest VM or cause a denial of service
-in the guest. (CVE-2022-23041)
-
-Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - Hardware crypto device drivers;
-  - GPU drivers;
-  - IIO subsystem;
-  - Media drivers;
-  - Network drivers;
-  - SCSI subsystem;
-  - SPI subsystem;
-  - USB Gadget drivers;
-  - Ceph distributed file system;
-  - File systems infrastructure;
-  - JFS file system;
-  - Network file system (NFS) client;
-  - Network file system (NFS) server daemon;
-  - NILFS2 file system;
-  - SMB network file system;
-  - CAN network layer;
-  - IPv6 networking;
-  - MAC80211 subsystem;
-  - Netfilter;
-  - Netlink;
-  - Network traffic control;
-  - SCTP protocol;
-  - TIPC protocol;
-(CVE-2024-46780, CVE-2021-47163, CVE-2024-46771, CVE-2021-47506,
-CVE-2024-36934, CVE-2024-35864, CVE-2024-26915, CVE-2021-47150,
-CVE-2024-50256, CVE-2024-53173, CVE-2024-53066, CVE-2024-53063,
-CVE-2021-47245, CVE-2024-26996, CVE-2024-56642, CVE-2021-47219,
-CVE-2024-56631, CVE-2021-47587, CVE-2021-47191, CVE-2023-52741,
-CVE-2021-46959, CVE-2024-26689, CVE-2024-26974, CVE-2024-56770,
-CVE-2024-56598, CVE-2024-49944, CVE-2024-50237, CVE-2024-53140,
-CVE-2024-56650, CVE-2021-47500, CVE-2025-21971)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerability Summary for the Week of May 5, 2025]]></title>
-        <id>/node/23333</id>
-        <link href="https://www.cisa.gov/news-events/bulletins/sb25-132"/>
-        <updated>2025-05-12T12:15:11.000Z</updated>
-        <summary type="html"><![CDATA[High Vulnerabilities
-Primary
-Vendor -- Product
-Description
-Published
-CVSS Score
-Source Info
-
-
-
-
-1clickmigration--1 Click WordPress Migration Plugin 100% FREE for a limited time
-The 1 Click WordPress Migration Plugin - 100% FREE for a limited time plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'start_restore' function in all versions up to, and including, 2.2. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
-2025-05-09
-8.8
-CVE-2025-3455
-
-
-Aira--Prime
-Link Following Local Privilege Escalation Vulnerability in System Speedup Service in Avira Operations GmbH Avira Prime Version 1.1.96.…]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[⚡ Weekly Recap: Zero-Day Exploits, Developer Malware, IoT Botnets, and AI-Powered Scams]]></title>
-        <id>https://thehackernews.com/2025/05/weekly-recap-zero-day-exploits.html</id>
-        <link href="https://thehackernews.com/2025/05/weekly-recap-zero-day-exploits.html"/>
-        <updated>2025-05-12T12:10:00.000Z</updated>
-        <summary type="html"><![CDATA[What do a source code editor, a smart billboard, and a web server have in common? They’ve all become launchpads for attacks—because cybercriminals are rethinking what counts as “infrastructure.” Instead of chasing high-value targets directly, threat actors are now quietly taking over the overlooked: outdated software, unpatched IoT devices, and open-source packages. It's not just clever—it’s]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[437,000 Impacted by Ascension Health Data Breach]]></title>
-        <id>https://www.securityweek.com/?p=42233</id>
-        <link href="https://www.securityweek.com/437000-impacted-by-ascension-health-data-breach/"/>
-        <updated>2025-05-12T12:03:03.000Z</updated>
-        <summary type="html"><![CDATA[Ascension Health has notified the HHS that more than 437,000 people were affected by a recently disclosed data breach.
-The post 437,000 Impacted by Ascension Health Data Breach appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update to How CISA Shares Cyber-Related Alerts and Notifications]]></title>
-        <id>/node/23334</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2025/05/12/update-how-cisa-shares-cyber-related-alerts-and-notifications"/>
-        <updated>2025-05-12T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Starting May 12, CISA is changing how we announce cybersecurity updates and the release of new guidance. These announcements will only be shared through CISA social media platforms and email and will no longer be listed on our Cybersecurity Alerts & Advisories webpage.  
-The focus of our Cybersecurity Alerts & Advisories webpage will now be on urgent information tied to emerging threats or major cyber activity. CISA wants this critical information to get the attention it deserves and ensure it is easier to find. We’ll continue to communicate releases and updates to our stakeholders. To stay informed, subscribe to receive our email notifications on CISA.gov. You can also follow us on X @CISACyber for timely cybersecurity updates. 
-Note: If you’ve previously used RSS feeds to track Known Exploited Vulnerabilities Catalog updates, please subscribe to the KEV subscription topic through GovDelivery to continue receiving notifications.   
-We greatly appreciate stakeholder feedback which played a part in this change and thank you for staying connected with CISA.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7505-1: Abseil vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7505-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7505-1"/>
-        <updated>2025-05-12T11:43:43.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that Abseil incorrectly handled memory with the upper
-bound of the size argument. An attacker could possibly use this issue to
-cause a denial of service or memory corruption.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Asus DriverHub Vulnerabilities Expose Users to Remote Code Execution Attacks]]></title>
-        <id>https://www.securityweek.com/?p=42232</id>
-        <link href="https://www.securityweek.com/asus-driverhub-vulnerabilities-expose-users-to-remote-code-execution-attacks/"/>
-        <updated>2025-05-12T11:28:48.000Z</updated>
-        <summary type="html"><![CDATA[Two vulnerabilities in ASUS’s pre-installed software DriverHub can be exploited for remote code execution.
-The post Asus DriverHub Vulnerabilities Expose Users to Remote Code Execution Attacks appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Deportation Airline GlobalX Confirms Hack]]></title>
-        <id>https://www.securityweek.com/?p=42231</id>
-        <link href="https://www.securityweek.com/us-deportation-airline-globalx-confirms-hack/"/>
-        <updated>2025-05-12T11:09:28.000Z</updated>
-        <summary type="html"><![CDATA[Global Crossing Airlines is investigating a cybersecurity incident after Anonymous hackers targeted its systems.
-The post US Deportation Airline GlobalX Confirms Hack appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Florida Backdoor Bill Fails]]></title>
-        <id>https://www.schneier.com/blog/archives/2025/05/florida-backdoor-bill-fails.html</id>
-        <link href="https://www.schneier.com/blog/archives/2025/05/florida-backdoor-bill-fails.html"/>
-        <updated>2025-05-12T11:01:34.000Z</updated>
-        <summary type="html"><![CDATA[<p>A Florida bill requiring encryption backdoors <a href="https://techcrunch.com/2025/05/09/florida-bill-requiring-encryption-backdoors-for-social-media-accounts-has-failed/">failed to pass</a>.</p>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Persistence Problem: Why Exposed Credentials Remain Unfixed—and How to Change That]]></title>
-        <id>https://thehackernews.com/2025/05/the-persistence-problem-why-exposed.html</id>
-        <link href="https://thehackernews.com/2025/05/the-persistence-problem-why-exposed.html"/>
-        <updated>2025-05-12T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Detecting leaked credentials is only half the battle. The real challenge—and often the neglected half of the equation—is what happens after detection. New research from GitGuardian's State of Secrets Sprawl 2025 report reveals a disturbing trend: the vast majority of exposed company secrets discovered in public repositories remain valid for years after detection, creating an expanding attack]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[German Authorities Take Down Crypto Swapping Service eXch]]></title>
-        <id>https://www.securityweek.com/?p=42230</id>
-        <link href="https://www.securityweek.com/german-authorities-take-down-crypto-swapping-service-exch/"/>
-        <updated>2025-05-12T09:50:58.000Z</updated>
-        <summary type="html"><![CDATA[German authorities seized the servers of crypto-swapping service eXch for laundering approximately $1.9 billion in fraudulent assets.
-The post German Authorities Take Down Crypto Swapping Service eXch appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Announces Botnet Takedown, Charges Against Russian Administrators]]></title>
-        <id>https://www.securityweek.com/?p=42228</id>
-        <link href="https://www.securityweek.com/us-announces-botnet-takedown-charges-against-russian-administrators/"/>
-        <updated>2025-05-12T08:37:07.000Z</updated>
-        <summary type="html"><![CDATA[Anyproxy and 5socks, websites offering proxy services through devices ensnared by a botnet, have been disrupted in a law enforcement operation.
-The post US Announces Botnet Takedown, Charges Against Russian Administrators appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fake AI Tools Used to Spread Noodlophile Malware, Targeting 62,000+ via Facebook Lures]]></title>
-        <id>https://thehackernews.com/2025/05/fake-ai-tools-used-to-spread.html</id>
-        <link href="https://thehackernews.com/2025/05/fake-ai-tools-used-to-spread.html"/>
-        <updated>2025-05-12T07:26:00.000Z</updated>
-        <summary type="html"><![CDATA[Threat actors have been observed leveraging fake artificial intelligence (AI)-powered tools as a lure to entice users into downloading an information stealer malware dubbed Noodlophile.
-"Instead of relying on traditional phishing or cracked software sites, they build convincing AI-themed platforms – often advertised via legitimate-looking Facebook groups and viral social media campaigns,"]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
         </author>
     </entry>
 </feed>
