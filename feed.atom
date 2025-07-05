@@ -2,10 +2,175 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-07-04T01:54:33.123Z</updated>
+    <updated>2025-07-05T01:50:21.174Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Friday Squid Blogging: How Squid Skin Distorts Light]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/07/friday-squid-blogging-how-squid-skin-distorts-light.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/07/friday-squid-blogging-how-squid-skin-distorts-light.html"/>
+        <updated>2025-07-04T21:01:56.000Z</updated>
+        <summary type="html"><![CDATA[<p>New <a href="https://www.earth.com/news/scientists-unlock-the-light-bending-secrets-of-squid-skin/">research</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7609-3: Linux kernel (IBM) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7609-3</id>
+        <link href="https://ubuntu.com/security/notices/USN-7609-3"/>
+        <updated>2025-07-04T15:25:10.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - InfiniBand drivers;
+  - Netfilter;
+  - Network traffic control;
+(CVE-2025-38001, CVE-2025-37798, CVE-2025-37932, CVE-2025-37997,
+CVE-2025-38000, CVE-2025-22088, CVE-2025-37890)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7591-5: Linux kernel (Intel IoTG) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7591-5</id>
+        <link href="https://ubuntu.com/security/notices/USN-7591-5"/>
+        <updated>2025-07-04T15:20:38.000Z</updated>
+        <summary type="html"><![CDATA[Michael Randrianantenaina discovered that the Bluetooth driver in the Linux
+Kernel contained an improper access control vulnerability. A nearby
+attacker could use this to connect a rougue device and possibly execute
+arbitrary code. (CVE-2024-8805)
+
+It was discovered that the CIFS network file system implementation in the
+Linux kernel did not properly verify the target namespace when handling
+upcalls. An attacker could use this to expose sensitive information.
+(CVE-2025-2312)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - PowerPC architecture;
+  - x86 architecture;
+  - ACPI drivers;
+  - Clock framework and drivers;
+  - GPU drivers;
+  - HID subsystem;
+  - …]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7618-1: Linux kernel (OEM) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7618-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7618-1"/>
+        <updated>2025-07-04T15:15:56.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - Bluetooth drivers;
+  - Netfilter;
+  - Network traffic control;
+(CVE-2025-37890, CVE-2025-37918, CVE-2025-37932, CVE-2025-38000,
+CVE-2025-37997, CVE-2025-38001)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7605-2: Linux kernel (Low Latency) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7605-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-7605-2"/>
+        <updated>2025-07-04T14:24:27.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that the CIFS network file system implementation in the
+Linux kernel did not properly verify the target namespace when handling
+upcalls. An attacker could use this to expose sensitive information.
+(CVE-2025-2312)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - ARM32 architecture;
+  - ARM64 architecture;
+  - PowerPC architecture;
+  - x86 architecture;
+  - Compute Acceleration Framework;
+  - ACPI drivers;
+  - Ublk userspace block driver;
+  - Compressed RAM block device driver;
+  - Bus devices;
+  - AMD CDX bus driver;
+  - Clock framework and drivers;
+  - DMA engine subsystem;
+  - DPLL subsystem;
+  - Qualcomm firmware drivers;
+  - GPIO subsy…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NightEagle APT Exploits Microsoft Exchange Flaw to Target China's Military and Tech Sectors]]></title>
+        <id>https://thehackernews.com/2025/07/nighteagle-apt-exploits-microsoft.html</id>
+        <link href="https://thehackernews.com/2025/07/nighteagle-apt-exploits-microsoft.html"/>
+        <updated>2025-07-04T12:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have shed light on a previously undocumented threat actor called NightEagle (aka APT-Q-95) that has been observed targeting Microsoft Exchange servers as a part of a zero-day exploit chain designed to target government, defense, and technology sectors in China.
+According to QiAnXin's RedDrip Team, the threat actor has been active since 2023 and has switched network]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In Other News: Hacker Helps Kill Informants, Crylock Developer Sentenced, Ransomware Negotiator Probed]]></title>
+        <id>https://www.securityweek.com/?p=42846</id>
+        <link href="https://www.securityweek.com/in-other-news-hacker-helps-kill-informants-crylock-developer-sentenced-ransomware-negotiator-probed/"/>
+        <updated>2025-07-04T10:30:39.000Z</updated>
+        <summary type="html"><![CDATA[Noteworthy stories that might have slipped under the radar: drug cartel hires hacker to identify FBI informants, prison time for Russian ransomware developer, ransomware negotiator investigated. 
+The post In Other News: Hacker Helps Kill Informants, Crylock Developer Sentenced, Ransomware Negotiator Probed appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Mike Lennon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Your AI Agents Might Be Leaking Data — Watch this Webinar to Learn How to Stop It]]></title>
+        <id>https://thehackernews.com/2025/07/your-ai-agents-might-be-leaking-data.html</id>
+        <link href="https://thehackernews.com/2025/07/your-ai-agents-might-be-leaking-data.html"/>
+        <updated>2025-07-04T09:31:00.000Z</updated>
+        <summary type="html"><![CDATA[Generative AI is changing how businesses work, learn, and innovate. But beneath the surface, something dangerous is happening. AI agents and custom GenAI workflows are creating new, hidden ways for sensitive enterprise data to leak—and most teams don’t even realize it.
+If you’re building, deploying, or managing AI systems, now is the time to ask: Are your AI agents exposing confidential data]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Sudo Vulnerabilities Let Local Users Gain Root Access on Linux, Impacting Major Distros]]></title>
+        <id>https://thehackernews.com/2025/07/critical-sudo-vulnerabilities-let-local.html</id>
+        <link href="https://thehackernews.com/2025/07/critical-sudo-vulnerabilities-let-local.html"/>
+        <updated>2025-07-04T09:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed two security flaws in the Sudo command-line utility for Linux and Unix-like operating systems that could enable local attackers to escalate their privileges to root on susceptible machines.
+A brief description of the vulnerabilities is below -
+
+CVE-2025-32462 (CVSS score: 2.8) - Sudo before 1.9.17p1, when used with a sudoers file that specifies a host]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Ordered to Pay $314M for Misusing Android Users' Cellular Data Without Permission]]></title>
+        <id>https://thehackernews.com/2025/07/google-ordered-to-pay-314m-for-misusing.html</id>
+        <link href="https://thehackernews.com/2025/07/google-ordered-to-pay-314m-for-misusing.html"/>
+        <updated>2025-07-04T07:17:00.000Z</updated>
+        <summary type="html"><![CDATA[Google has been ordered by a court in the U.S. state of California to pay $314 million over charges that it misused Android device users' cellular data when they were idle to passively send information to the company.
+The verdict marks an end to a legal class-action complaint that was originally filed in August 2019.
+In their lawsuit, the plaintiffs argued that Google's Android operating system]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[USN-7608-4: Linux kernel vulnerabilities]]></title>
         <id>https://ubuntu.com/security/notices/USN-7608-4</id>
@@ -7769,338 +7934,6 @@ That's according to new findings jointly published by Proofpoint and Threatray i
 "Their diverse toolset shows consistent coding patterns across malware families, particularly in]]></summary>
         <author>
             <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Backdoored Open Source Malware Repositories Target Novice Cybercriminals]]></title>
-        <id>https://www.securityweek.com/?p=42521</id>
-        <link href="https://www.securityweek.com/backdoored-open-source-malware-repositories-target-novice-cybercriminals/"/>
-        <updated>2025-06-05T13:31:01.000Z</updated>
-        <summary type="html"><![CDATA[A threat actor has been creating backdoored open source malware repositories to target novice cybercriminals and game cheaters.
-The post Backdoored Open Source Malware Repositories Target Novice Cybercriminals appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Controversial Firms Cellebrite and Corellium Announce $200 Million Acquisition Deal]]></title>
-        <id>https://www.securityweek.com/?p=42520</id>
-        <link href="https://www.securityweek.com/controversial-firms-cellebrite-and-corellium-announce-200-million-acquisition-deal/"/>
-        <updated>2025-06-05T12:35:44.000Z</updated>
-        <summary type="html"><![CDATA[Cellebrite and Corellium, whose names have been mentioned in spyware stories, are joining forces to provide advanced investigative solutions.
-The post Controversial Firms Cellebrite and Corellium Announce $200 Million Acquisition Deal appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Releases Seven Industrial Control Systems Advisories]]></title>
-        <id>/node/23479</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2025/06/05/cisa-releases-seven-industrial-control-systems-advisories"/>
-        <updated>2025-06-05T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA released seven Industrial Control Systems (ICS) advisories on June 5, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
-ICSA-25-155-01 CyberData 011209 SIP Emergency Intercom
-ICSA-25-155-02 Hitachi Energy Relion 670, 650 series and SAM600-IO Product
- 
-ICSA-21-049-02 Mitsubishi Electric FA Engineering Software Products (Update H)
-ICSA-25-133-02 Hitachi Energy Relion 670/650/SAM600-IO Series (Update A)
-ICSA-23-068-05 Hitachi Energy Relion 670, 650 and SAM600-IO Series (Update A)
-ICSA-21-336-05 Hitachi Energy Relion 670/650/SAM600-IO (Update A)
-ICSA-23-089-01 Hitachi Energy IEC 61850 MMS-Server (Update A)
-CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
-        <id>/node/23475</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2025/06/05/cisa-adds-one-known-exploited-vulnerability-catalog"/>
-        <updated>2025-06-05T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. 
-CVE-2025-5419 Google Chromium V8 Out-of-Bounds Read and Write Vulnerability 
-This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. 
-Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information. 
-Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of KEV Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Men Who Hacked Law Enforcement Database for Doxing Sentenced to Prison]]></title>
-        <id>https://www.securityweek.com/?p=42519</id>
-        <link href="https://www.securityweek.com/men-who-hacked-law-enforcement-database-for-doxing-sentenced-to-prison/"/>
-        <updated>2025-06-05T11:56:24.000Z</updated>
-        <summary type="html"><![CDATA[Sagar Steven Singh and Nicholas Ceraolo, members of the Vile group, get prison sentences for identity theft and hacking.
-The post Men Who Hacked Law Enforcement Database for Doxing Sentenced to Prison appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ClickFix Attack Exploits Fake Cloudflare Turnstile to Deliver Malware]]></title>
-        <id>https://www.securityweek.com/?p=42516</id>
-        <link href="https://www.securityweek.com/clickfix-attack-exploits-fake-cloudflare-turnstile-to-deliver-malware/"/>
-        <updated>2025-06-05T11:46:09.000Z</updated>
-        <summary type="html"><![CDATA[Researchers have discovered and analyzed a ClickFix attack that uses a fake Cloudflare ‘humanness’ check. 
-The post ClickFix Attack Exploits Fake Cloudflare Turnstile to Deliver Malware appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Kevin Townsend</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Redefining Cyber Value: Why Business Impact Should Lead the Security Conversation]]></title>
-        <id>https://thehackernews.com/2025/06/redefining-cyber-value-why-business.html</id>
-        <link href="https://thehackernews.com/2025/06/redefining-cyber-value-why-business.html"/>
-        <updated>2025-06-05T11:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Security teams face growing demands with more tools, more data, and higher expectations than ever. Boards approve large security budgets, yet still ask the same question: what is the business getting in return? CISOs respond with reports on controls and vulnerability counts – but executives want to understand risk in terms of financial exposure, operational impact, and avoiding loss.
-The]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FBI Aware of 900 Organizations Hit by Play Ransomware]]></title>
-        <id>https://www.securityweek.com/?p=42514</id>
-        <link href="https://www.securityweek.com/fbi-aware-of-900-organizations-hit-by-play-ransomware/"/>
-        <updated>2025-06-05T11:16:39.000Z</updated>
-        <summary type="html"><![CDATA[Play ransomware attacks have hit roughly 900 organizations and recently involved the exploitation of SimpleHelp vulnerabilities.
-The post FBI Aware of 900 Organizations Hit by Play Ransomware appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Iran-Linked BladedFeline Hits Iraqi and Kurdish Targets with Whisper and Spearal Malware]]></title>
-        <id>https://thehackernews.com/2025/06/iran-linked-bladedfeline-hits-iraqi-and.html</id>
-        <link href="https://thehackernews.com/2025/06/iran-linked-bladedfeline-hits-iraqi-and.html"/>
-        <updated>2025-06-05T10:59:00.000Z</updated>
-        <summary type="html"><![CDATA[An Iran-aligned hacking group has been attributed to a new set of cyber attacks targeting Kurdish and Iraqi government officials in early 2024.
-The activity is tied to a threat group ESET tracks as BladedFeline, which is assessed with medium confidence to be a sub-cluster within OilRig, a known Iranian nation-state cyber actor. It's said to be active since September 2017, when it targeted]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Carding Marketplace BidenCash Shut Down by Authorities]]></title>
-        <id>https://www.securityweek.com/?p=42512</id>
-        <link href="https://www.securityweek.com/carding-marketplace-bidencash-shut-down-by-authorities/"/>
-        <updated>2025-06-05T10:17:55.000Z</updated>
-        <summary type="html"><![CDATA[Authorities seized 145 domains associated with BidenCash, a marketplace for stolen credit cards and personal information.
-The post Carding Marketplace BidenCash Shut Down by Authorities  appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DoJ Seizes 145 Domains Tied to BidenCash Carding Marketplace in Global Takedown]]></title>
-        <id>https://thehackernews.com/2025/06/doj-seizes-145-domains-tied-to.html</id>
-        <link href="https://thehackernews.com/2025/06/doj-seizes-145-domains-tied-to.html"/>
-        <updated>2025-06-05T10:16:00.000Z</updated>
-        <summary type="html"><![CDATA[The U.S. Department of Justice (DoJ) on Wednesday announced the seizure of cryptocurrency funds and about 145 clearnet and dark web domains associated with an illicit carding marketplace called BidenCash.
-"The operators of the BidenCash marketplace use the platform to simplify the process of buying and selling stolen credit cards and associated personal information," the DoJ said. "BidenCash]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lee Enterprises Says 40,000 Hit by Ransomware-Caused Data Breach]]></title>
-        <id>https://www.securityweek.com/?p=42511</id>
-        <link href="https://www.securityweek.com/lee-enterprises-says-40000-hit-by-ransomware-caused-data-breach/"/>
-        <updated>2025-06-05T09:49:08.000Z</updated>
-        <summary type="html"><![CDATA[Lee Enterprises has completed its investigation into the recent ransomware attack and confirmed that a data breach occurred.
-The post Lee Enterprises Says 40,000 Hit by Ransomware-Caused Data Breach appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ransomware Gang Leaks Alleged Kettering Health Data]]></title>
-        <id>https://www.securityweek.com/?p=42509</id>
-        <link href="https://www.securityweek.com/ransomware-gang-leaks-alleged-kettering-health-data/"/>
-        <updated>2025-06-05T09:21:41.000Z</updated>
-        <summary type="html"><![CDATA[The Interlock ransomware group has leaked data allegedly stolen from Kettering Health in a recent cyberattack.
-The post Ransomware Gang Leaks Alleged Kettering Health Data appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Iranian APT 'BladedFeline' Hides in Network for 8 Years]]></title>
-        <id>https://www.darkreading.com/threat-intelligence/iranian-apt-bladedfeline-hides-network-8-years</id>
-        <link href="https://www.darkreading.com/threat-intelligence/iranian-apt-bladedfeline-hides-network-8-years"/>
-        <updated>2025-06-05T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ESET published research on the Iranian APT "BladedFeline," which researchers believe is a subgroup of the cyber-espionage entity APT34.]]></summary>
-        <author>
-            <name>Alexander Culafi, Senior News Writer, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7550-5: Linux kernel (NVIDIA) vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7550-5</id>
-        <link href="https://ubuntu.com/security/notices/USN-7550-5"/>
-        <updated>2025-06-05T08:52:57.000Z</updated>
-        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - GPU drivers;
-  - Sun RPC protocol;
-(CVE-2024-56608, CVE-2024-56551, CVE-2024-53168)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[China Issues Warrants for Alleged Taiwanese Hackers and Bans a Business for Pro-Independence Links]]></title>
-        <id>https://www.securityweek.com/?p=42508</id>
-        <link href="https://www.securityweek.com/china-issues-warrants-for-alleged-taiwanese-hackers-and-bans-a-business-for-pro-independence-links/"/>
-        <updated>2025-06-05T08:38:41.000Z</updated>
-        <summary type="html"><![CDATA[China issued warrants for 20 Taiwanese people it said carried out hacking missions in the Chinese mainland on behalf of the island’s ruling party.
-The post China Issues Warrants for Alleged Taiwanese Hackers and Bans a Business for Pro-Independence Links appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Associated Press</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cybersecurity Training in Africa Aims to Bolster Professionals' Ranks]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/cybersecurity-training-africa-professionals-ranks</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/cybersecurity-training-africa-professionals-ranks"/>
-        <updated>2025-06-05T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The United Nations, Carnegie Mellon University, and private organizations are all aiming to train the next generation of cybersecurity experts, boost economies, and disrupt pipelines to armed groups.]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Critical Cisco ISE Auth Bypass Flaw Impacts Cloud Deployments on AWS, Azure, and OCI]]></title>
-        <id>https://thehackernews.com/2025/06/critical-cisco-ise-auth-bypass-flaw.html</id>
-        <link href="https://thehackernews.com/2025/06/critical-cisco-ise-auth-bypass-flaw.html"/>
-        <updated>2025-06-05T05:37:00.000Z</updated>
-        <summary type="html"><![CDATA[Cisco has released security patches to address a critical security flaw impacting the Identity Services Engine (ISE) that, if successfully exploited, could allow unauthenticated actors to carry out malicious actions on susceptible systems.
-The security defect, tracked as CVE-2025-20286, carries a CVSS score of 9.9 out of 10.0. It has been described as a static credential vulnerability.
-"A]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7556-1: Bootstrap vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7556-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7556-1"/>
-        <updated>2025-06-05T04:47:40.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that Bootstrap did not correctly sanitize certain input in
-the carousel component. An attacker could possibly use this issue to execute a
-cross-site scripting (XSS) attack. (CVE-2024-6484, CVE-2024-6531)
-
-It was discovered that Bootstrap did not correctly sanitize certain input in
-the button plugin. An attacker could possibly use this issue to execute a
-cross-site scripting (XSS) attack. (CVE-2024-6485)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[35K Solar Devices Vulnerable to Potential Hijacking]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/35k-solar-devices-internet-exposure-hijacking</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/35k-solar-devices-internet-exposure-hijacking"/>
-        <updated>2025-06-04T21:53:20.000Z</updated>
-        <summary type="html"><![CDATA[A little more than three-quarters of these exposed devices are located in Europe, followed by Asia, with 17%.]]></summary>
-        <author>
-            <name>Kristina Beek, Associate Editor, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vishing Crew Targets Salesforce Data]]></title>
-        <id>https://www.darkreading.com/application-security/vishing-crew-salesforce-data</id>
-        <link href="https://www.darkreading.com/application-security/vishing-crew-salesforce-data"/>
-        <updated>2025-06-04T20:18:05.000Z</updated>
-        <summary type="html"><![CDATA[A group Google is tracking as UNC6040 has been tricking users into installing a malicious version of a Salesforce app to gain access to and steal data from the platform.]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vishing Crew Targets Salesforce Data]]></title>
-        <id>https://www.darkreading.com/application-security/vishing-crew-targets-salesforce-data</id>
-        <link href="https://www.darkreading.com/application-security/vishing-crew-targets-salesforce-data"/>
-        <updated>2025-06-04T19:29:15.000Z</updated>
-        <summary type="html"><![CDATA[A group that Google is tracking as UNC6040 has been tricking users at many organizations into installing a malicious version of a Salesforce app to gain access and steal data from the platform.]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Neuroscience Can Help Us Battle 'Alert Fatigue']]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/how-neuroscience-battle-alert-fatigue</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/how-neuroscience-battle-alert-fatigue"/>
-        <updated>2025-06-04T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[By understanding the neurological realities of human attention, organizations can build more sustainable security operations that protect not only their digital assets but also the well-being of those who defend them.]]></summary>
-        <author>
-            <name>Boaz Barzel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers Bypass Deepfake Detection With Replay Attacks]]></title>
-        <id>https://www.darkreading.com/cybersecurity-analytics/researchers-bypass-deepfake-detection-replay-attacks</id>
-        <link href="https://www.darkreading.com/cybersecurity-analytics/researchers-bypass-deepfake-detection-replay-attacks"/>
-        <updated>2025-06-04T17:30:13.000Z</updated>
-        <summary type="html"><![CDATA[An international group of researchers found that simply rerecording deepfake audio with natural acoustics in the background allows it to bypass detection models at a higher-than-expected rate.]]></summary>
-        <author>
-            <name>Alexander Culafi, Senior News Writer, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7555-1: Django vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7555-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7555-1"/>
-        <updated>2025-06-04T17:03:57.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that Django incorrectly handled certain
-unescaped request paths. An attacker could possibly use this
-issue to perform a log injection.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Exposes Vishing Group UNC6040 Targeting Salesforce with Fake Data Loader App]]></title>
-        <id>https://thehackernews.com/2025/06/google-exposes-vishing-group-unc6040.html</id>
-        <link href="https://thehackernews.com/2025/06/google-exposes-vishing-group-unc6040.html"/>
-        <updated>2025-06-04T15:24:00.000Z</updated>
-        <summary type="html"><![CDATA[Google has disclosed details of a financially motivated threat cluster that it said "specialises" in voice phishing (aka vishing) campaigns designed to breach organizations' Salesforce instances for large-scale data theft and subsequent extortion.
-The tech giant's threat intelligence team is tracking the activity under the moniker UNC6040, which it said exhibits characteristics that align with]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Attackers Impersonate Ruby Packages to Steal Sensitive Telegram Data]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/attackers-impersonate-ruby-packages-telegram-data</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/attackers-impersonate-ruby-packages-telegram-data"/>
-        <updated>2025-06-04T15:02:57.000Z</updated>
-        <summary type="html"><![CDATA[Malicious RubyGems pose as a legitimate plug-in for the popular Fastlane rapid development platform in a geopolitically motivated attack with global supply chain reach.]]></summary>
-        <author>
-            <name>Elizabeth Montalbano, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Warns of Vishing, Extortion Campaign Targeting Salesforce Customers]]></title>
-        <id>https://www.securityweek.com/?p=42504</id>
-        <link href="https://www.securityweek.com/google-warns-of-vishing-extortion-campaign-targeting-salesforce-customers/"/>
-        <updated>2025-06-04T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A financially motivated threat actor employing vishing to compromise Salesforce customers, and extort them.
-The post Google Warns of Vishing, Extortion Campaign Targeting Salesforce Customers appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beware of Device Code Phishing]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/beware-device-code-phishing</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/beware-device-code-phishing"/>
-        <updated>2025-06-04T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hackers are exploiting trusted authentication flows — like Microsoft Teams and IoT logins — to trick users into handing over access tokens, bypassing MFA and slipping undetected into corporate networks.]]></summary>
-        <author>
-            <name>Stu Sjouwerman</name>
         </author>
     </entry>
 </feed>
