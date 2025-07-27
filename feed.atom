@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-07-26T01:57:49.623Z</updated>
+    <updated>2025-07-27T02:11:03.659Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[VU#335798: SyStrack LsiAgent.exe contains an improper DLL search order, allowing an attacker to execute arbitrary code and priv esc]]></title>
+        <id>https://kb.cert.org/vuls/id/335798</id>
+        <link href="https://kb.cert.org/vuls/id/335798"/>
+        <updated>2025-07-27T00:44:03.820Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Lakeside Software, an IT digital employee experience platform, offers a product called SysTrack, intended for endpoint observability. This program uses an executable called LsiAgent.exe, which attempts to load various Dynamic Link Library (DLL) files when run. The program does not properly check which files or places from which it loads the DLL files, allowing an attacker to place a malicious DLL file within a known System PATH variable on the victim device. When LsiAgent.exe runs, it will load the malicious code, resulting in code execution and privilege escalation, as LsiAgent.exe runs within the NT AUTHORITY\SYSTEM context. A patch has been provided by Lakeside Software, and the vulnerability is fixed in version 10.10.0.42 and higher.</p>
+<h3 id="description">Description</h3>
+<p>Lakeside Software, an IT digital employee experience company, offers a product called Systems Management Agent (SysTrack) that is intended for endpoint health and performance monitoring. The product contains various different programs and executables that are installed on a device. One of these programs is called LsiAgent.exe, which runs within the context of NT AUTHORITY\SYSTEM. Additionally, LsiAgent.exe runs on startup with default installation settings. A vulnerability has been discovered, tracked as CVE-2025-6241, which allows an attacker to achieve elevated code execution through placing malicious DLL files within a known System PATH environment variable, or by bundling the LsiAgent.exe program alongside another malicious DLL. The bundled DLL will be executed when the victim runs the supposedly safe LsiAgent.exe program.</p>
+<p>System PATH variable settings are typically manipulated by other programs installed during normal use of a machine. When LsiAgent.exe is executed, it will iterate through the System PATH environment variable to search for a DLL titled 'wfapi.dll.' SysTrack uses the wdapi.dll file to verify if the system is running in a virtualized Citrix Environment. During the System PATH iteration process, LsiAgent.exe attempts to load and run the first file named wfapi.dll that it encounters within the System PATH variable. Therefore, an attacker would only need to provide their malicious DLL file named wfapi.dll within one of the System PATH variables to achieve code execution. </p>
+<h3 id="impact">Impact</h3>
+<p>An attacker with the ability to place a file within any known System PATH environment variable on a victim machine can achieve remote code execution and privilege escalation, as LsiAgent.exe runs within the NT AUTHORITY\SYSTEM context. Furthermore, LsiAgent.exe is a signed program, so operations carried out by the program will be shown as being done by a legitimate program, heightening potential impact. </p>
+<h3 id="solution">Solution</h3>
+<p>A patch has been provided by Lakeside Software to fix the affected LsiAgent.exe program. The vulnerable version, 10.05.0027, has been fixed in versions 10.10.0.42 and higher of LsiAgent.exe. The release notes of the version are available here: https://documentation.lakesidesoftware.com/en/Content/Release%20Notes/Agent/10_10_0%20Hotfix%20Agent%20Release%20Notes%20On%20Premises.htm?tocpath=Release%20Notes%7CAgent%7C_____13</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporter <a href="oesortw@sandia.gov">Owen Sortwell</a> and contributors Adam Merrill and Brian Healy of Sandia National Laboratories. This document was written by Christopher Cullen.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Friday Squid Blogging: Stable Quasi-Isodynamic Designs]]></title>
         <id>https://www.schneier.com/blog/archives/2025/07/friday-squid-blogging-stable-quasi-isodynamic-designs.html</id>
@@ -7964,243 +7984,6 @@ The Operational Relay Box (ORB) network has been codenamed LapDogs by SecuritySc
         <summary type="html"><![CDATA[Hackers can spy on tens of thousands of connected tractors in the latest IoT threat, and brick them too, thanks to poor security in an aftermarket steering system.]]></summary>
         <author>
             <name>Nate Nelson, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In Other News: Norway Dam Hacked, $177M Data Breach Settlement, UNFI Attack Update]]></title>
-        <id>https://www.securityweek.com/?p=42784</id>
-        <link href="https://www.securityweek.com/in-other-news-norway-dam-hacked-177m-data-breach-settlement-unfi-attack-update/"/>
-        <updated>2025-06-27T14:04:27.000Z</updated>
-        <summary type="html"><![CDATA[Noteworthy stories that might have slipped under the radar: Norwegian dam hacked, AT&T agrees to $177 million data breach settlement, Whole Foods distributor restores systems after attack. 
-The post In Other News: Norway Dam Hacked, $177M Data Breach Settlement, UNFI Attack Update appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>SecurityWeek News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerability Debt: How Do You Put a Price on What to Fix?]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/vulnerability-debt-fix-price</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/vulnerability-debt-fix-price"/>
-        <updated>2025-06-27T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Putting a vulnerability debt figure together involves work, but having vulnerability debt figures lets you measure real-world values against your overall security posture.]]></summary>
-        <author>
-            <name>Matt Middleton-Leal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PUBLOAD and Pubshell Malware Used in Mustang Panda's Tibet-Specific Attack]]></title>
-        <id>https://thehackernews.com/2025/06/pubload-and-pubshell-malware-used-in.html</id>
-        <link href="https://thehackernews.com/2025/06/pubload-and-pubshell-malware-used-in.html"/>
-        <updated>2025-06-27T13:25:00.000Z</updated>
-        <summary type="html"><![CDATA[A China-linked threat actor known as Mustang Panda has been attributed to a new cyber espionage campaign directed against the Tibetan community.
-The spear-phishing attacks leveraged topics related to Tibet, such as the 9th World Parliamentarians' Convention on Tibet (WPCT), China's education policy in the Tibet Autonomous Region (TAR), and a recently published book by the 14th Dalai Lama,]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Falling Behind China in Exploit Production]]></title>
-        <id>https://www.darkreading.com/cyber-risk/us-falling-behind-china-exploit-production</id>
-        <link href="https://www.darkreading.com/cyber-risk/us-falling-behind-china-exploit-production"/>
-        <updated>2025-06-27T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cyber operations have become critical to national security, but the United States has fallen behind in one significant area — exploit production — while China has built up a significant lead.]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft to Preview New Windows Endpoint Security Platform After CrowdStrike Outage]]></title>
-        <id>https://www.securityweek.com/?p=42780</id>
-        <link href="https://www.securityweek.com/microsoft-to-preview-new-windows-endpoint-security-platform-after-crowdstrike-outage/"/>
-        <updated>2025-06-27T11:47:01.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft is preparing a private preview of new Windows endpoint security platform capabilities to help antimalware vendors create solutions that run outside the kernel.
-The post Microsoft to Preview New Windows Endpoint Security Platform After CrowdStrike Outage  appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Age of Integrity]]></title>
-        <id>https://www.schneier.com/blog/archives/2025/06/the-age-of-integrity.html</id>
-        <link href="https://www.schneier.com/blog/archives/2025/06/the-age-of-integrity.html"/>
-        <updated>2025-06-27T11:02:54.000Z</updated>
-        <summary type="html"><![CDATA[<p>We need to talk about data integrity.</p>
-<p>Narrowly, the term refers to ensuring that data isn’t tampered with, either in transit or in storage. Manipulating account balances in bank databases, removing entries from criminal records, and murder by removing notations about allergies from medical records are all integrity attacks.</p>
-<p>More broadly, integrity refers to ensuring that data is correct and accurate from the point it is collected, through all the ways it is used, modified, transformed, and eventually deleted. Integrity-related incidents include malicious actions, but also inadvertent mistakes...</p>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Business Case for Agentic AI SOC Analysts]]></title>
-        <id>https://thehackernews.com/2025/06/business-case-for-agentic-ai-soc.html</id>
-        <link href="https://thehackernews.com/2025/06/business-case-for-agentic-ai-soc.html"/>
-        <updated>2025-06-27T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Security operations centers (SOCs) are under pressure from both sides: threats are growing more complex and frequent, while security budgets are no longer keeping pace. Today’s security leaders are expected to reduce risk and deliver results without relying on larger teams or increased spending.
-At the same time, SOC inefficiencies are draining resources. Studies show that up to half of all]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chinese Group Silver Fox Uses Fake Websites to Deliver Sainbox RAT and Hidden Rootkit]]></title>
-        <id>https://thehackernews.com/2025/06/chinese-group-silver-fox-uses-fake.html</id>
-        <link href="https://thehackernews.com/2025/06/chinese-group-silver-fox-uses-fake.html"/>
-        <updated>2025-06-27T10:25:00.000Z</updated>
-        <summary type="html"><![CDATA[A new campaign has been observed leveraging fake websites advertising popular software such as WPS Office, Sogou, and DeepSeek to deliver Sainbox RAT and the open-source Hidden rootkit.
-The activity has been attributed with medium confidence to a Chinese hacking group called Silver Fox (aka Void Arachne), citing similarities in tradecraft with previous campaigns attributed to the threat actor.]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RevEng.ai Raises $4.15 Million to Secure Software Supply Chain]]></title>
-        <id>https://www.securityweek.com/?p=42779</id>
-        <link href="https://www.securityweek.com/reveng-ai-raises-4-15-million-to-secure-software-supply-chain/"/>
-        <updated>2025-06-27T10:12:50.000Z</updated>
-        <summary type="html"><![CDATA[RevEng.ai has raised $4.15 million in seed funding for an AI platform that automatically detects malicious code and vulnerabilities in software.
-The post RevEng.ai Raises $4.15 Million to Secure Software Supply Chain appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chinese Hackers Target Chinese Users With RAT, Rootkit]]></title>
-        <id>https://www.securityweek.com/?p=42778</id>
-        <link href="https://www.securityweek.com/chinese-hackers-target-chinese-users-with-rat-rootkit/"/>
-        <updated>2025-06-27T09:49:03.000Z</updated>
-        <summary type="html"><![CDATA[China-linked Silver Fox hacking group is targeting Chinese users with fake installers carrying a RAT and a rootkit.
-The post Chinese Hackers Target Chinese Users With RAT, Rootkit appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Evidence Suggests Exploitation of CitrixBleed 2 Vulnerability]]></title>
-        <id>https://www.securityweek.com/?p=42777</id>
-        <link href="https://www.securityweek.com/evidence-suggests-exploitation-of-citrixbleed-2-vulnerability/"/>
-        <updated>2025-06-27T09:06:36.000Z</updated>
-        <summary type="html"><![CDATA[The Citrix NetScaler vulnerability tracked as CitrixBleed 2 and CVE-2025–5777 may be exploited in the wild for initial access.
-The post Evidence Suggests Exploitation of CitrixBleed 2 Vulnerability appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerability Exposed All Open VSX Repositories to Takeover]]></title>
-        <id>https://www.securityweek.com/?p=42776</id>
-        <link href="https://www.securityweek.com/vulnerability-exposed-all-open-vsx-repositories-to-takeover/"/>
-        <updated>2025-06-27T08:18:58.000Z</updated>
-        <summary type="html"><![CDATA[A vulnerability in the extension publishing mechanism of Open VSX could have allowed attackers to tamper with any repository.
-The post Vulnerability Exposed All Open VSX Repositories to Takeover appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft 365 Direct Send Abused for Phishing]]></title>
-        <id>https://www.securityweek.com/?p=42775</id>
-        <link href="https://www.securityweek.com/microsoft-365-direct-send-abused-for-phishing/"/>
-        <updated>2025-06-27T07:56:52.000Z</updated>
-        <summary type="html"><![CDATA[Hackers are abusing the Microsoft 365 Direct Send feature to deliver phishing emails that bypass email security controls.
-The post Microsoft 365 Direct Send Abused for Phishing appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MOVEit Transfer Faces Increased Threats as Scanning Surges and CVE Flaws Are Targeted]]></title>
-        <id>https://thehackernews.com/2025/06/moveit-transfer-faces-increased-threats.html</id>
-        <link href="https://thehackernews.com/2025/06/moveit-transfer-faces-increased-threats.html"/>
-        <updated>2025-06-27T07:43:00.000Z</updated>
-        <summary type="html"><![CDATA[Threat intelligence firm GreyNoise is warning of a "notable surge" in scanning activity targeting Progress MOVEit Transfer systems starting May 27, 2025—suggesting that attackers may be preparing for another mass exploitation campaign or probing for unpatched systems.MOVEit Transfer is a popular managed file transfer solution used by businesses and government agencies to share sensitive data]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OneClik Malware Targets Energy Sector Using Microsoft ClickOnce and Golang Backdoors]]></title>
-        <id>https://thehackernews.com/2025/06/oneclik-malware-targets-energy-sector.html</id>
-        <link href="https://thehackernews.com/2025/06/oneclik-malware-targets-energy-sector.html"/>
-        <updated>2025-06-27T06:31:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have detailed a new campaign dubbed OneClik that leverages Microsoft's ClickOnce software deployment technology and bespoke Golang backdoors to compromise organizations within the energy, oil, and gas sectors.
-"The campaign exhibits characteristics aligned with Chinese-affiliated threat actors, though attribution remains cautious," Trellix researchers Nico Paulo]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Cyber Fattah' Hacktivist Group Leaks Saudi Games Data]]></title>
-        <id>https://www.darkreading.com/threat-intelligence/cyber-fattah-hacktivist-leaks-saudi-games-data</id>
-        <link href="https://www.darkreading.com/threat-intelligence/cyber-fattah-hacktivist-leaks-saudi-games-data"/>
-        <updated>2025-06-27T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As tensions in the Middle East rise, hacktivist groups are coming out of the woodwork with their own agendas, leading to notable shifts in the hacktivist threat landscape.]]></summary>
-        <author>
-            <name>Kristina Beek, Associate Editor, Dark Reading</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['IntelBroker' Suspect Arrested, Charged in High-Profile Breaches]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/intebroker-suspect-arrested-charged-breaches</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/intebroker-suspect-arrested-charged-breaches"/>
-        <updated>2025-06-26T20:59:04.000Z</updated>
-        <summary type="html"><![CDATA[A British national arrested earlier this year in France was charged by the US Department of Justice in connection with a string of major cyberattacks.]]></summary>
-        <author>
-            <name>Rob Wright</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Critical Open VSX Registry Flaw Exposes Millions of Developers to Supply Chain Attacks]]></title>
-        <id>https://thehackernews.com/2025/06/critical-open-vsx-registry-flaw-exposes.html</id>
-        <link href="https://thehackernews.com/2025/06/critical-open-vsx-registry-flaw-exposes.html"/>
-        <updated>2025-06-26T16:46:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed a critical vulnerability in the Open VSX Registry ("open-vsx[.]org") that, if successfully exploited, could have enabled attackers to take control of the entire Visual Studio Code extensions marketplace, posing a severe supply chain risk.
-"This vulnerability provides attackers full control over the entire extensions marketplace, and in turn, full control]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bipartisan Bill Aims to Block Chinese AI From Federal Agencies]]></title>
-        <id>https://www.securityweek.com/?p=42773</id>
-        <link href="https://www.securityweek.com/bipartisan-bill-aims-to-block-chinese-ai-from-federal-agencies/"/>
-        <updated>2025-06-26T16:37:52.000Z</updated>
-        <summary type="html"><![CDATA[The proposal seeks to ban all use of the technology in the U.S. government, with exceptions for use in research and counterterrorism efforts.
-The post Bipartisan Bill Aims to Block Chinese AI From Federal Agencies appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Associated Press</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7599-2: pip vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7599-2</id>
-        <link href="https://ubuntu.com/security/notices/USN-7599-2"/>
-        <updated>2025-06-26T14:19:38.000Z</updated>
-        <summary type="html"><![CDATA[USN-7599-1 fixed vulnerabilities in python-urllib3. This update provides
-the corresponding update for python-pip for CVE-2025-50181.
-
-Original advisory details:
-
-Jacob Sandum discovered that urllib3 handled redirects even when they were
-explicitly disabled while using the PoolManager. An attacker could possibly
-use this issue to obtain sensitive information. (CVE-2025-50181)
-
-Illia Volochii discovered that urllib3 incorrectly handled retry and
-redirect parameters when using Node.js. An attacker could possibly use this
-issue to obtain sensitive information. This issue only affected Ubuntu
-25.04. (CVE-2025-50182)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Geopolitical Tensions Are Shaping Cyber Warfare]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/geopolitical-tensions-shape-cyber-warfare</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/geopolitical-tensions-shape-cyber-warfare"/>
-        <updated>2025-06-26T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In today's cyber battlefield, resilience starts with readiness, and the cost of falling short increases by the day.]]></summary>
-        <author>
-            <name>Andrew Costis</name>
         </author>
     </entry>
     <entry>

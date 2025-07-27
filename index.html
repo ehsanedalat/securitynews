@@ -36,6 +36,63 @@ alt="Web Analytics Made Easy - StatCounter"></a></div></noscript>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-07-27 datetime="2025-07-27T00:44:03.820Z">2025-07-27</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-07-27 datetime="2025-07-27T00:44:03.820Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >CERT Recently Published Vulnerability Notes</button>
+                  <a class="source-heading__link" href="https://kb.cert.org/vuls/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kb.cert.org/vuls/id/335798"
+                        open
+                      >
+                        <summary class="article-expander__title">VU#335798: SyStrack LsiAgent.exe contains an improper DLL search order, allowing an attacker to execute arbitrary code and priv esc</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kb.cert.org/vuls/id/335798">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Overview
+Lakeside Software, an IT digital employee experience platform, offers a product called SysTrack, intended for endpoint observability. This program uses an executable called LsiAgent.exe, which attempts to load various Dynamic Link Library (DLL) files when run. The program does not properly check which files or places from which it loads the DLL files, allowing an attacker to place a malicious DLL file within a known System PATH variable on the victim device. When LsiAgent.exe runs, it will load the malicious code, resulting in code execution and privilege escalation, as LsiAgent.exe runs within the NT AUTHORITY\SYSTEM context. A patch has been provided by Lakeside Software, and the vulnerability is fixed in version 10.10.0.42 and higher.
+Description
+Lakeside Software, an IT digital employee experience company, offers a product called Systems Management Agent (SysTrack) that is intended for endpoint health and performance monitoring. The product contains various different programs and executables that are installed on a device. One of these programs is called LsiAgent.exe, which runs within the context of NT AUTHORITY\SYSTEM. Additionally, LsiAgent.exe runs on startup with default installation settings. A vulnerability has been discovered, tracked as CVE-2025-6241, which allows an attacker to achieve elevated code execution through placing malicious DLL files within a known System PATH environment variable, or by bundling the LsiAgent.exe program alongside another malicious DLL. The bundled DLL will be executed when the victim runs the supposedly safe LsiAgent.exe program.
+System PATH variable settings are typically manipulated by other programs installed during normal use of a machine. When LsiAgent.exe is executed, it will iterate through the System PATH environment variable to search for a DLL titled &#x27;wfapi.dll.&#x27; SysTrack uses the wdapi.dll file to verify if the system is running in a virtualized Citrix Environment. During the System PATH iteration process, LsiAgent.exe attempts to load and run the first file named wfapi.dll that it encounters within the System PATH variable. Therefore, an attacker would only need to provide their malicious DLL file named wfapi.dll within one of the System PATH variables to achieve code execution. 
+Impact
+An attacker with the ability to place a file within any known System PATH environment variable on a victim machine can achieve remote code execution and privilege escalation, as LsiAgent.exe runs within the NT AUTHORITY\SYSTEM context. Furthermore, LsiAgent.exe is a signed program, so operations carried out by the program will be shown as being done by a legitimate program, heightening potential impact. 
+Solution
+A patch has been provided by Lakeside Software to fix the affected LsiAgent.exe program. The vulnerable version, 10.05.0027, has been fixed in versions 10.10.0.42 and higher of LsiAgent.exe. The release notes of the version are available here: https://documentation.lakesidesoftware.com/en/Content/Release%20Notes/Agent/10_10_0%20Hotfix%20Agent%20Release%20Notes%20On%20Premises.htm?tocpath&#x3D;Release%20Notes%7CAgent%7C_____13
+Acknowledgements
+Thanks to the reporter Owen Sortwell and contributors Adam Merrill and Brian Healy of Sandia National Laboratories. This document was written by Christopher Cullen.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-07-25 datetime="2025-07-25T21:00:38.000Z">2025-07-25</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-07-25 datetime="2025-07-25T21:00:38.000Z"></time>
           </button>
@@ -14600,27 +14657,6 @@ Blog moderation policy.</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.schneier.com/blog/archives/2025/06/the-age-of-integrity.html"
-                        open
-                      >
-                        <summary class="article-expander__title">The Age of Integrity</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.schneier.com/blog/archives/2025/06/the-age-of-integrity.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>We need to talk about data integrity.
-Narrowly, the term refers to ensuring that data isn’t tampered with, either in transit or in storage. Manipulating account balances in bank databases, removing entries from criminal records, and murder by removing notations about allergies from medical records are all integrity attacks.
-More broadly, integrity refers to ensuring that data is correct and accurate from the point it is collected, through all the ways it is used, modified, transformed, and eventually deleted. Integrity-related incidents include malicious actions, but also inadvertent mistakes...</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -14703,57 +14739,6 @@ More broadly, integrity refers to ensuring that data is correct and accurate fro
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.darkreading.com/vulnerabilities-threats/vulnerability-debt-fix-price"
-                        open
-                      >
-                        <summary class="article-expander__title">Vulnerability Debt: How Do You Put a Price on What to Fix?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/vulnerabilities-threats/vulnerability-debt-fix-price">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Putting a vulnerability debt figure together involves work, but having vulnerability debt figures lets you measure real-world values against your overall security posture.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.darkreading.com/cyber-risk/us-falling-behind-china-exploit-production"
-                        open
-                      >
-                        <summary class="article-expander__title">US Falling Behind China in Exploit Production</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/cyber-risk/us-falling-behind-china-exploit-production">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Cyber operations have become critical to national security, but the United States has fallen behind in one significant area — exploit production — while China has built up a significant lead.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.darkreading.com/threat-intelligence/cyber-fattah-hacktivist-leaks-saudi-games-data"
-                        open
-                      >
-                        <summary class="article-expander__title">&#x27;Cyber Fattah&#x27; Hacktivist Group Leaks Saudi Games Data</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/threat-intelligence/cyber-fattah-hacktivist-leaks-saudi-games-data">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>As tensions in the Middle East rise, hacktivist groups are coming out of the woodwork with their own agendas, leading to notable shifts in the hacktivist threat landscape.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -14781,132 +14766,6 @@ More broadly, integrity refers to ensuring that data is correct and accurate fro
                             <span class="media-object__text">
                               <span>After more than 40 years of being set against a very recognizable blue, the updated error message will soon be displayed across a black background.
 The post Windows’ Infamous ‘Blue Screen of Death’ Will Soon Turn Black appeared first on SecurityWeek.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.securityweek.com/?p&#x3D;42784"
-                        open
-                      >
-                        <summary class="article-expander__title">In Other News: Norway Dam Hacked, $177M Data Breach Settlement, UNFI Attack Update</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/in-other-news-norway-dam-hacked-177m-data-breach-settlement-unfi-attack-update/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Noteworthy stories that might have slipped under the radar: Norwegian dam hacked, AT&amp;T agrees to $177 million data breach settlement, Whole Foods distributor restores systems after attack. 
-The post In Other News: Norway Dam Hacked, $177M Data Breach Settlement, UNFI Attack Update appeared first on SecurityWeek.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.securityweek.com/?p&#x3D;42780"
-                        open
-                      >
-                        <summary class="article-expander__title">Microsoft to Preview New Windows Endpoint Security Platform After CrowdStrike Outage</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/microsoft-to-preview-new-windows-endpoint-security-platform-after-crowdstrike-outage/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Microsoft is preparing a private preview of new Windows endpoint security platform capabilities to help antimalware vendors create solutions that run outside the kernel.
-The post Microsoft to Preview New Windows Endpoint Security Platform After CrowdStrike Outage  appeared first on SecurityWeek.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.securityweek.com/?p&#x3D;42779"
-                        open
-                      >
-                        <summary class="article-expander__title">RevEng.ai Raises $4.15 Million to Secure Software Supply Chain</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/reveng-ai-raises-4-15-million-to-secure-software-supply-chain/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>RevEng.ai has raised $4.15 million in seed funding for an AI platform that automatically detects malicious code and vulnerabilities in software.
-The post RevEng.ai Raises $4.15 Million to Secure Software Supply Chain appeared first on SecurityWeek.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.securityweek.com/?p&#x3D;42778"
-                        open
-                      >
-                        <summary class="article-expander__title">Chinese Hackers Target Chinese Users With RAT, Rootkit</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/chinese-hackers-target-chinese-users-with-rat-rootkit/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>China-linked Silver Fox hacking group is targeting Chinese users with fake installers carrying a RAT and a rootkit.
-The post Chinese Hackers Target Chinese Users With RAT, Rootkit appeared first on SecurityWeek.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.securityweek.com/?p&#x3D;42777"
-                        open
-                      >
-                        <summary class="article-expander__title">Evidence Suggests Exploitation of CitrixBleed 2 Vulnerability</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/evidence-suggests-exploitation-of-citrixbleed-2-vulnerability/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The Citrix NetScaler vulnerability tracked as CitrixBleed 2 and CVE-2025–5777 may be exploited in the wild for initial access.
-The post Evidence Suggests Exploitation of CitrixBleed 2 Vulnerability appeared first on SecurityWeek.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.securityweek.com/?p&#x3D;42776"
-                        open
-                      >
-                        <summary class="article-expander__title">Vulnerability Exposed All Open VSX Repositories to Takeover</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/vulnerability-exposed-all-open-vsx-repositories-to-takeover/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A vulnerability in the extension publishing mechanism of Open VSX could have allowed attackers to tamper with any repository.
-The post Vulnerability Exposed All Open VSX Repositories to Takeover appeared first on SecurityWeek.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.securityweek.com/?p&#x3D;42775"
-                        open
-                      >
-                        <summary class="article-expander__title">Microsoft 365 Direct Send Abused for Phishing</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/microsoft-365-direct-send-abused-for-phishing/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hackers are abusing the Microsoft 365 Direct Send feature to deliver phishing emails that bypass email security controls.
-The post Microsoft 365 Direct Send Abused for Phishing appeared first on SecurityWeek.</span>
                             </span>
                           </div>
                         </a>
@@ -14941,273 +14800,6 @@ The post Microsoft 365 Direct Send Abused for Phishing appeared first on Securit
                               <span>Threat hunters have discovered a network of more than 1,000 compromised small office and home office (SOHO) devices that have been used to facilitate a prolonged cyber espionage infrastructure campaign for China-nexus hacking groups.
 The Operational Relay Box (ORB) network has been codenamed LapDogs by SecurityScorecard&#x27;s STRIKE team.
 &quot;The LapDogs network has a high concentration of victims</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/06/pubload-and-pubshell-malware-used-in.html"
-                        open
-                      >
-                        <summary class="article-expander__title">PUBLOAD and Pubshell Malware Used in Mustang Panda&#x27;s Tibet-Specific Attack</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/06/pubload-and-pubshell-malware-used-in.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPi919f7iSxashHX1v2qcC1jEmkSWJOR6j6A04uj5si2OYVxxDULtyD-IBMS_ch3QScZ4vCiDmVUSLDtLKEqTW4fY2Ljwnw_qmRkQSfjLkr64zZatnTUnsEgotrZz2DJ_p4R0qGCFECCVnRSsG080beVHX2xdZXIBAUBtVZYZI6U40ML1HDdg_xtr5DjpZ/s1600/china.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>A China-linked threat actor known as Mustang Panda has been attributed to a new cyber espionage campaign directed against the Tibetan community.
-The spear-phishing attacks leveraged topics related to Tibet, such as the 9th World Parliamentarians&#x27; Convention on Tibet (WPCT), China&#x27;s education policy in the Tibet Autonomous Region (TAR), and a recently published book by the 14th Dalai Lama,</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/06/business-case-for-agentic-ai-soc.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Business Case for Agentic AI SOC Analysts</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/06/business-case-for-agentic-ai-soc.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9FqtNcIfPBBQBz56MXiexECHXLCUJrS14dAy9kmCNZxQFXYIvbshAd6_c5-keLP4tJnI16jJLpVo2Agicu5HDg600N_FLxs7xHT0hJ3e1Qc4yNBAvLslfUhDynKZiQyt05WNG8p5ki4TQdzNxOEQ0L8OtSuKAUJA-npoLPZt1OIqB82VBoRdsnf6e_ec/s1600/ai-soc.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Security operations centers (SOCs) are under pressure from both sides: threats are growing more complex and frequent, while security budgets are no longer keeping pace. Today’s security leaders are expected to reduce risk and deliver results without relying on larger teams or increased spending.
-At the same time, SOC inefficiencies are draining resources. Studies show that up to half of all</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/06/chinese-group-silver-fox-uses-fake.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Chinese Group Silver Fox Uses Fake Websites to Deliver Sainbox RAT and Hidden Rootkit</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/06/chinese-group-silver-fox-uses-fake.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWe6_GQm79x2y7hKEvrK3Lpp5eJsl9q1teKoyNA32L1GM_k39TqlnbXxaEJ3hJ-WKvFDexT9Zlbz4rw43m3NUfNFkzqQ2yS3ugL1498nyLJ75kZ_LZ-xNhyvH-9xwCHhfhmLVaz4ba8V6Jo5CNSjylee12rBzqXWNWASEO0dnu1l-O9dOuJLPDsyh-_Zn7/s1600/site.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>A new campaign has been observed leveraging fake websites advertising popular software such as WPS Office, Sogou, and DeepSeek to deliver Sainbox RAT and the open-source Hidden rootkit.
-The activity has been attributed with medium confidence to a Chinese hacking group called Silver Fox (aka Void Arachne), citing similarities in tradecraft with previous campaigns attributed to the threat actor.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/06/moveit-transfer-faces-increased-threats.html"
-                        open
-                      >
-                        <summary class="article-expander__title">MOVEit Transfer Faces Increased Threats as Scanning Surges and CVE Flaws Are Targeted</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/06/moveit-transfer-faces-increased-threats.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQa776sNM2Vdsjbnqtu_jKs7yMctrJud_GXMhCNY-ua3sxs1E2ih6BbugjBRMBtnkUmBO7jefE6Vc5spNo7YXfxWjySFjnvswWm6GdNAX2K7MFirDB46BHcI8dU7uFzxuaWgmr43lvOEgKvjYnac7bXPehoM3sbjoVBKNad4eb_m2ZsrvrC7u2R_U2-vg9/s1600/moveit-trasfer.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Threat intelligence firm GreyNoise is warning of a &quot;notable surge&quot; in scanning activity targeting Progress MOVEit Transfer systems starting May 27, 2025—suggesting that attackers may be preparing for another mass exploitation campaign or probing for unpatched systems.MOVEit Transfer is a popular managed file transfer solution used by businesses and government agencies to share sensitive data</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/06/oneclik-malware-targets-energy-sector.html"
-                        open
-                      >
-                        <summary class="article-expander__title">OneClik Malware Targets Energy Sector Using Microsoft ClickOnce and Golang Backdoors</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/06/oneclik-malware-targets-energy-sector.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhke9L4U-6RaC-slVUmAGKrcAvZKSLduKE5-iD4KVTh3ZL8u9TsygNUPcFQeTSZdJI7xgniYEbcxI7zkOuwS6I_TmRQUULsr0PeFPpZWIzeJFhanZ8lX_JrLogPnFzwYy0o_YiwFe4n20PU4QIVMjWOAXR2afZJUuBkLEC_aspe33jmIPTRMzk2R8a1fqg9/s1600/clickmalware.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Cybersecurity researchers have detailed a new campaign dubbed OneClik that leverages Microsoft&#x27;s ClickOnce software deployment technology and bespoke Golang backdoors to compromise organizations within the energy, oil, and gas sectors.
-&quot;The campaign exhibits characteristics aligned with Chinese-affiliated threat actors, though attribution remains cautious,&quot; Trellix researchers Nico Paulo</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-06-26 datetime="2025-06-26T20:59:04.000Z">2025-06-26</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-06-26 datetime="2025-06-26T20:59:04.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >darkreading</button>
-                  <a class="source-heading__link" href="https://www.darkreading.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.darkreading.com/cyberattacks-data-breaches/intebroker-suspect-arrested-charged-breaches"
-                        open
-                      >
-                        <summary class="article-expander__title">&#x27;IntelBroker&#x27; Suspect Arrested, Charged in High-Profile Breaches</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/cyberattacks-data-breaches/intebroker-suspect-arrested-charged-breaches">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A British national arrested earlier this year in France was charged by the US Department of Justice in connection with a string of major cyberattacks.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.darkreading.com/vulnerabilities-threats/geopolitical-tensions-shape-cyber-warfare"
-                        open
-                      >
-                        <summary class="article-expander__title">How Geopolitical Tensions Are Shaping Cyber Warfare</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/vulnerabilities-threats/geopolitical-tensions-shape-cyber-warfare">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>In today&#x27;s cyber battlefield, resilience starts with readiness, and the cost of falling short increases by the day.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Hacker News</button>
-                  <a class="source-heading__link" href="https://thehackernews.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/06/critical-open-vsx-registry-flaw-exposes.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Critical Open VSX Registry Flaw Exposes Millions of Developers to Supply Chain Attacks</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/06/critical-open-vsx-registry-flaw-exposes.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEEHqPrHq7VmKAMERwPU9ds2PToOWXTPMLkzIZ3Or4-l3pIxtUnHLaajhJccDlqLZ91_9S7Np90S2W7dJibBBGcTUqmBeVo5WJoJlHcfB_W9oPMoqedq0gi3iPdKGWNSPb3TAlrBqk0KSLXUzI6aCTiNUlLyheRA7TG_nUUjXuTrEJse0LIiuPMRfF9xsV/s1600/openvsx.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Cybersecurity researchers have disclosed a critical vulnerability in the Open VSX Registry (&quot;open-vsx[.]org&quot;) that, if successfully exploited, could have enabled attackers to take control of the entire Visual Studio Code extensions marketplace, posing a severe supply chain risk.
-&quot;This vulnerability provides attackers full control over the entire extensions marketplace, and in turn, full control</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >SecurityWeek</button>
-                  <a class="source-heading__link" href="https://www.securityweek.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.securityweek.com/?p&#x3D;42773"
-                        open
-                      >
-                        <summary class="article-expander__title">Bipartisan Bill Aims to Block Chinese AI From Federal Agencies</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/bipartisan-bill-aims-to-block-chinese-ai-from-federal-agencies/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The proposal seeks to ban all use of the technology in the U.S. government, with exceptions for use in research and counterterrorism efforts.
-The post Bipartisan Bill Aims to Block Chinese AI From Federal Agencies appeared first on SecurityWeek.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Ubuntu security notices</button>
-                  <a class="source-heading__link" href="https://ubuntu.com/security/notices/rss.xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://ubuntu.com/security/notices/USN-7599-2"
-                        open
-                      >
-                        <summary class="article-expander__title">USN-7599-2: pip vulnerability</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ubuntu.com/security/notices/USN-7599-2">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://assets.ubuntu.com/v1/47f12466-og_%20ubuntu.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>USN-7599-1 fixed vulnerabilities in python-urllib3. This update provides
-the corresponding update for python-pip for CVE-2025-50181.
-
-Original advisory details:
-
-Jacob Sandum discovered that urllib3 handled redirects even when they were
-explicitly disabled while using the PoolManager. An attacker could possibly
-use this issue to obtain sensitive information. (CVE-2025-50181)
-
-Illia Volochii discovered that urllib3 incorrectly handled retry and
-redirect parameters when using Node.js. An attacker could possibly use this
-issue to obtain sensitive information. This issue only affected Ubuntu
-25.04. (CVE-2025-50182)</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -15268,8 +14860,8 @@ issue to obtain sensitive information. This issue only affected Ubuntu
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/ehsanedalat/securitynews/actions/runs/16534861515">
-        <time id="build-timestamp" datetime="2025-07-26T01:57:49.586Z">2025-07-26T01:57:49.586Z</time>
+      <a class="footer-link" href="https://github.com/ehsanedalat/securitynews/actions/runs/16546186423">
+        <time id="build-timestamp" datetime="2025-07-27T02:11:03.619Z">2025-07-27T02:11:03.619Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
