@@ -2,10 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-08-02T01:58:11.641Z</updated>
+    <updated>2025-08-03T02:19:08.997Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CL-STA-0969 Installs Covert Malware in Telecom Networks During 10-Month Espionage Campaign]]></title>
+        <id>https://thehackernews.com/2025/08/cl-sta-0969-installs-covert-malware-in.html</id>
+        <link href="https://thehackernews.com/2025/08/cl-sta-0969-installs-covert-malware-in.html"/>
+        <updated>2025-08-02T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Telecommunications organizations in Southeast Asia have been targeted by a state-sponsored threat actor known as CL-STA-0969 to facilitate remote control over compromised networks.
+Palo Alto Networks Unit 42 said it observed multiple incidents in the region, including one aimed at critical telecommunications infrastructure between February and November 2024.
+The attacks are characterized by the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New ‘Plague’ PAM Backdoor Exposes Critical Linux Systems to Silent Credential Theft]]></title>
+        <id>https://thehackernews.com/2025/08/new-plague-pam-backdoor-exposes.html</id>
+        <link href="https://thehackernews.com/2025/08/new-plague-pam-backdoor-exposes.html"/>
+        <updated>2025-08-02T13:33:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have flagged a previously undocumented Linux backdoor dubbed Plague that has managed to evade detection for a year.
+"The implant is built as a malicious PAM (Pluggable Authentication Module), enabling attackers to silently bypass system authentication and gain persistent SSH access," Nextron Systems researcher Pierre-Henri Pezier said.
+Pluggable Authentication Modules]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Akira Ransomware Exploits SonicWall VPNs in Likely Zero-Day Attack on Fully-Patched Devices]]></title>
+        <id>https://thehackernews.com/2025/08/akira-ransomware-exploits-sonicwall.html</id>
+        <link href="https://thehackernews.com/2025/08/akira-ransomware-exploits-sonicwall.html"/>
+        <updated>2025-08-02T06:56:00.000Z</updated>
+        <summary type="html"><![CDATA[SonicWall SSL VPN devices have become the target of Akira ransomware attacks as part of a newfound surge in activity observed in late July 2025.
+"In the intrusions reviewed, multiple pre-ransomware intrusions were observed within a short period of time, each involving VPN access through SonicWall SSL VPNs," Arctic Wolf Labs researcher Julian Tuin said in a report.
+The cybersecurity company]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#317469: Partner Software/Partner Web uses does not sanitize Report files and Note content, allowing for XSS and RCE]]></title>
+        <id>https://kb.cert.org/vuls/id/317469</id>
+        <link href="https://kb.cert.org/vuls/id/317469"/>
+        <updated>2025-08-02T02:16:05.817Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Partner Software and Partner Web, both products of their namesake company, Partner Software, fail to sanitize report or note files, allowing for XSS attacks. Partner Software is subdivision of N. Harris Computer Corporation and is a field application development company, with <a href="https://partnersoftware.com/about/partner-software-origins/">products intended for use by industry, municipalities, state government, and private contractors</a>. An authorized user of Partner Software or Partner Web application can upload "Reports" when viewing a job. The file upload feature does not limit files that can be uploaded or their extensions, allowing an attacker with valid credentials to perform XSS attacks and execute malicious code on the device. The Partner Web product also ships with the same default administrator username and password across versions. An attacker with access to the Partner Web application could abuse these vulnerabilities to perform arbitrary code execution on the hosting device. </p>
+<h3 id="description">Description</h3>
+<p>Partner Software's products Partner Software and Partner Web are used by various municipalities, state government, and private contractors for field application work. These products include support for various GIS-related uses, map viewers, and other support tools. The Partner Software and Partner Web products contain various fields for uploading content for analysis by field workers. An authenticated user with access to the Partner Web application could perform RCE through usage of the vulnerabilities. </p>
+<p><strong>CVE-2025-6076</strong>
+Partner Software's corresponding Partner Web application does not sanitize files uploaded on the Reports tab, allowing an authenticated attacker to upload a malicious file that will be stored on the victim server.</p>
+<p><strong>CVE-2025-6077</strong>
+Partner Software's corresponding Partner Web application all use the same default username and password for the administrator account.</p>
+<p><strong>CVE-2025-6078</strong>
+Partner Software/Partner Web allows an authenticated user to add text on the Notes page within the Job view, but does not completely sanitize input, making it possible to add notes with HTML tags and JavaScript and enabling an attacker to add a note containing malicious JavaScript, leading to stored XSS (cross-site scripting).</p>
+<h3 id="impact">Impact</h3>
+<p>An attacker using these vulnerabilities can either gain administrator access to the device or perform XSS, compromising the device. </p>
+<h3 id="solution">Solution</h3>
+<p>Partner Software has provided a patch for the affected product in version 4.32.2. The Admin and Edit users are now removed in the 4.32.2 patch, and the Notes section now restricts and sanitizes input to only including simple text. Additionally, file attachments allowed include only .csv, .jpg, .png, .txt, .doc, and .pdf files, and will not longer read then files, only display them. The affected versions of Partner Web are 4.32 and previous. Patch information is available here: https://partnersoftware.com/resources/software-release-info-4-32/</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporter, Ryan Pohlner (Cybersecurity and Infrastructure Security Agency). for the report and to Partner Software for coordination efforts. This document was written by Christopher Cullen.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Friday Squid Blogging: A Case of Squid Fossil Misidentification]]></title>
         <id>https://www.schneier.com/blog/archives/2025/08/friday-squid-blogging-a-case-of-squid-fossil-misidentification.html</id>
@@ -8182,166 +8243,6 @@ This update corrects flaws in the following subsystems:
   - GPIO subsy…]]></summary>
         <author>
             <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NightEagle APT Exploits Microsoft Exchange Flaw to Target China's Military and Tech Sectors]]></title>
-        <id>https://thehackernews.com/2025/07/nighteagle-apt-exploits-microsoft.html</id>
-        <link href="https://thehackernews.com/2025/07/nighteagle-apt-exploits-microsoft.html"/>
-        <updated>2025-07-04T12:59:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have shed light on a previously undocumented threat actor called NightEagle (aka APT-Q-95) that has been observed targeting Microsoft Exchange servers as a part of a zero-day exploit chain designed to target government, defense, and technology sectors in China.
-According to QiAnXin's RedDrip Team, the threat actor has been active since 2023 and has switched network]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In Other News: Hacker Helps Kill Informants, Crylock Developer Sentenced, Ransomware Negotiator Probed]]></title>
-        <id>https://www.securityweek.com/?p=42846</id>
-        <link href="https://www.securityweek.com/in-other-news-hacker-helps-kill-informants-crylock-developer-sentenced-ransomware-negotiator-probed/"/>
-        <updated>2025-07-04T10:30:39.000Z</updated>
-        <summary type="html"><![CDATA[Noteworthy stories that might have slipped under the radar: drug cartel hires hacker to identify FBI informants, prison time for Russian ransomware developer, ransomware negotiator investigated. 
-The post In Other News: Hacker Helps Kill Informants, Crylock Developer Sentenced, Ransomware Negotiator Probed appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Mike Lennon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Your AI Agents Might Be Leaking Data — Watch this Webinar to Learn How to Stop It]]></title>
-        <id>https://thehackernews.com/2025/07/your-ai-agents-might-be-leaking-data.html</id>
-        <link href="https://thehackernews.com/2025/07/your-ai-agents-might-be-leaking-data.html"/>
-        <updated>2025-07-04T09:31:00.000Z</updated>
-        <summary type="html"><![CDATA[Generative AI is changing how businesses work, learn, and innovate. But beneath the surface, something dangerous is happening. AI agents and custom GenAI workflows are creating new, hidden ways for sensitive enterprise data to leak—and most teams don’t even realize it.
-If you’re building, deploying, or managing AI systems, now is the time to ask: Are your AI agents exposing confidential data]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Critical Sudo Vulnerabilities Let Local Users Gain Root Access on Linux, Impacting Major Distros]]></title>
-        <id>https://thehackernews.com/2025/07/critical-sudo-vulnerabilities-let-local.html</id>
-        <link href="https://thehackernews.com/2025/07/critical-sudo-vulnerabilities-let-local.html"/>
-        <updated>2025-07-04T09:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed two security flaws in the Sudo command-line utility for Linux and Unix-like operating systems that could enable local attackers to escalate their privileges to root on susceptible machines.
-A brief description of the vulnerabilities is below -
-
-CVE-2025-32462 (CVSS score: 2.8) - Sudo before 1.9.17p1, when used with a sudoers file that specifies a host]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Ordered to Pay $314M for Misusing Android Users' Cellular Data Without Permission]]></title>
-        <id>https://thehackernews.com/2025/07/google-ordered-to-pay-314m-for-misusing.html</id>
-        <link href="https://thehackernews.com/2025/07/google-ordered-to-pay-314m-for-misusing.html"/>
-        <updated>2025-07-04T07:17:00.000Z</updated>
-        <summary type="html"><![CDATA[Google has been ordered by a court in the U.S. state of California to pay $314 million over charges that it misused Android device users' cellular data when they were idle to passively send information to the company.
-The verdict marks an end to a legal class-action complaint that was originally filed in August 2019.
-In their lawsuit, the plaintiffs argued that Google's Android operating system]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7608-4: Linux kernel vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7608-4</id>
-        <link href="https://ubuntu.com/security/notices/USN-7608-4"/>
-        <updated>2025-07-03T18:56:46.000Z</updated>
-        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - GPU drivers;
-  - SMB network file system;
-  - Memory management;
-  - Netfilter;
-  - Network traffic control;
-(CVE-2025-37890, CVE-2024-46787, CVE-2025-37798, CVE-2025-38000,
-CVE-2025-37932, CVE-2025-38001, CVE-2025-37997, CVE-2024-50047,
-CVE-2024-53051)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7617-1: libtpms vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7617-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7617-1"/>
-        <updated>2025-07-03T18:15:27.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that libtpms did not properly manage memory
-when performing crafted cryptographic operations. An attacker could
-possibly use this issue to cause a denial of service.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7585-6: Linux kernel (BlueField) vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7585-6</id>
-        <link href="https://ubuntu.com/security/notices/USN-7585-6"/>
-        <updated>2025-07-03T18:03:47.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that the CIFS network file system implementation in the
-Linux kernel did not properly verify the target namespace when handling
-upcalls. An attacker could use this to expose sensitive information.
-(CVE-2025-2312)
-
-Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - PowerPC architecture;
-  - x86 architecture;
-  - iSCSI Boot Firmware Table Attributes driver;
-  - GPU drivers;
-  - HID subsystem;
-  - InfiniBand drivers;
-  - Media drivers;
-  - MemoryStick subsystem;
-  - Network drivers;
-  - NTB driver;
-  - PCI subsystem;
-  - SCSI subsystem;
-  - Thermal drivers;
-  - JFS file system;
-  - File systems infrastructure;
-  - Tracing infrastructure;
-  - 802.1Q VLAN protocol;
-  - Asynchronous Transfer Mode (ATM) subsystem;
-  - Bluetooth subsystem;
-  - IPv6 networking;
-  - Netfilter;
-  - Network traffic control;
-  - Sun RPC protocol;
-  - USB sound devices;
-(CVE-2025-22007, CVE-2025-21959, CVE-2025-22021, CVE-2025-22063,
-CVE-2025-22045, CVE-2024-58093, CVE-2022-49636, CVE-2025-22020,
-CVE-2024-53168, CVE-2025-22071, CVE-2025-39735, CVE-2025-21991,
-CVE-2025-21992, CVE-2025-21996, CVE-2025-22035, CVE-2023-53034,
-CVE-2025-22054, CVE-2025-23136, CVE-2025-22073, CVE-2024-56551,
-CVE-2025-22005, CVE-2025-37937, CVE-2021-47211, CVE-2025-22086,
-CVE-2025-21956, CVE-2025-38637, CVE-2025-22004, CVE-2025-22018,
-CVE-2025-22079, CVE-2025-21957, CVE-2025-21993)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Massive Android Fraud Operations Uncovered: IconAds, Kaleidoscope, SMS Malware, NFC Scams]]></title>
-        <id>https://thehackernews.com/2025/07/mobile-security-alert-352-iconads-fraud.html</id>
-        <link href="https://thehackernews.com/2025/07/mobile-security-alert-352-iconads-fraud.html"/>
-        <updated>2025-07-03T16:02:00.000Z</updated>
-        <summary type="html"><![CDATA[A mobile ad fraud operation dubbed IconAds that consisted of 352 Android apps has been disrupted, according to a new report from HUMAN.
-The identified apps were designed to load out-of-context ads on a user's screen and hide their icons from the device home screen launcher, making it harder for victims to remove them, per the company's Satori Threat Intelligence and Research Team. The apps have]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Cyber Blueprint Aims to Guide Organizations on AI Journey]]></title>
-        <id>https://www.darkreading.com/cyber-risk/cyber-blueprint-guide-ai-journey</id>
-        <link href="https://www.darkreading.com/cyber-risk/cyber-blueprint-guide-ai-journey"/>
-        <updated>2025-07-03T15:38:25.000Z</updated>
-        <summary type="html"><![CDATA[Deloitte's new blueprint looks to bridge the gap between the massive push for AI adoption and a lack of preparedness among leaders and employees.]]></summary>
-        <author>
-            <name>Arielle Waldman</name>
         </author>
     </entry>
     <entry>
