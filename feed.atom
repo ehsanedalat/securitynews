@@ -2,10 +2,293 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-09-10T01:40:05.116Z</updated>
+    <updated>2025-09-11T01:42:26.232Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[VU#974249: Elevated Privileges and Arbitrary Code Execution issues in Sunshine for Windows v2025.122.141614]]></title>
+        <id>https://kb.cert.org/vuls/id/974249</id>
+        <link href="https://kb.cert.org/vuls/id/974249"/>
+        <updated>2025-09-10T18:20:17.604Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Two local security vulnerabilities have been identified in Sunshine for Windows, version v2025.122.141614 (and likely prior versions). These issues could allow attackers to execute arbitrary code and escalate privileges on affected systems.</p>
+<h3 id="description">Description</h3>
+<p>Sunshine is a self-hosted game stream host for Moonlight.</p>
+<ul>
+<li>
+<p><strong>CVE-2025-10198</strong> Unquoted Service Path (CWE-428)
+Sunshine for Windows installs a service with an unquoted service path. This allows an attacker with local access to place a malicious executable in a directory within the service path (before the legitimate binary), which could then be executed with elevated privileges during system startup or service restart.</p>
+</li>
+<li>
+<p><strong>CVE-2025-10199</strong> DLL Search-Order Hijacking (CWE-427)
+Sunshine for Windows does not properly control the search path for required DLLs. This allows an attacker to place a malicious DLL in a user-writable directory that is included in the PATH environment variable. When the application loads, it may inadvertently load the malicious DLL, resulting in arbitrary code execution.</p>
+</li>
+</ul>
+<h3 id="impact">Impact</h3>
+<ul>
+<li><strong>CVE-2025-10198</strong> Attackers with local access can escalate privileges to SYSTEM, resulting in full compromise of the affected machine.</li>
+<li><strong>CVE-2025-10199</strong> Attackers can execute malicious code in the context of the user running the application.</li>
+</ul>
+<h3 id="solution">Solution</h3>
+<p>Apply an update from the Sunshine project once available.</p>
+<p>As mitigation, until a patch is released:</p>
+<ul>
+<li>
+<p>Ensure user-writable directories are not included in the PATH environment variable.  </p>
+</li>
+<li>
+<p>Quote all service paths in Windows service configurations. </p>
+</li>
+<li>
+<p>Restrict permissions on service-related directories to prevent unauthorized file placement.</p>
+</li>
+</ul>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporter, Pundhapat Sichamnong. This document was written by Timur Snoke.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Students Pose Inside Threat to Education Sector]]></title>
+        <id>https://www.darkreading.com/insider-threats/students-inside-threat-education-sector</id>
+        <link href="https://www.darkreading.com/insider-threats/students-inside-threat-education-sector"/>
+        <updated>2025-09-10T18:17:16.000Z</updated>
+        <summary type="html"><![CDATA[The threats may not be malicious, but they are more than many security teams can handle.]]></summary>
+        <author>
+            <name>Arielle Waldman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chinese Hackers Allegedly Pose as US Lawmaker]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/chinese-hackers-allegedly-pose-us-lawmaker</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/chinese-hackers-allegedly-pose-us-lawmaker"/>
+        <updated>2025-09-10T16:44:30.000Z</updated>
+        <summary type="html"><![CDATA[Chinese state-backed threat actors are suspected of posing as Michigan congressman John Moolenaar in a series of spear-phishing attacks.]]></summary>
+        <author>
+            <name>Alexander Culafi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chinese APT Deploys EggStreme Fileless Malware to Breach Philippine Military Systems]]></title>
+        <id>https://thehackernews.com/2025/09/chinese-apt-deploys-eggstreme-fileless.html</id>
+        <link href="https://thehackernews.com/2025/09/chinese-apt-deploys-eggstreme-fileless.html"/>
+        <updated>2025-09-10T15:46:00.000Z</updated>
+        <summary type="html"><![CDATA[An advanced persistent threat (APT) group from China has been attributed to the compromise of a Philippines-based military company using a previously undocumented fileless malware framework called EggStreme.
+"This multi-stage toolset achieves persistent, low-profile espionage by injecting malicious code directly into memory and leveraging DLL sideloading to execute payloads," Bitdefender]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jaguar Land Rover Admits Data Breach Caused by Recent Cyberattack]]></title>
+        <id>https://www.securityweek.com/?p=43534</id>
+        <link href="https://www.securityweek.com/jaguar-land-rover-admits-data-breach-caused-by-recent-cyberattack/"/>
+        <updated>2025-09-10T15:00:03.000Z</updated>
+        <summary type="html"><![CDATA[After announcing that the cyberattack-caused disruption to factories would continue, Jaguar Land Rover is now confirming a data breach.
+The post Jaguar Land Rover Admits Data Breach Caused by Recent Cyberattack appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Quiet Revolution in Kubernetes Security]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/quiet-revolution-kubernetes-security</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/quiet-revolution-kubernetes-security"/>
+        <updated>2025-09-10T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As Kubernetes becomes the foundation of enterprise infrastructure, the underlying operating system must evolve alongside it.]]></summary>
+        <author>
+            <name>Nigel Douglas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7743-1: libxml2 vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7743-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7743-1"/>
+        <updated>2025-09-10T13:39:57.000Z</updated>
+        <summary type="html"><![CDATA[Nikita Sveshnikov discovered that libxml2 incorrectly handled recursion
+when processing XPath expressions. An attacker could possibly use this
+issue to cause a denial of service.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CHILLYHELL macOS Backdoor and ZynorRAT RAT Threaten macOS, Windows, and Linux Systems]]></title>
+        <id>https://thehackernews.com/2025/09/chillyhell-macos-backdoor-and-zynorrat.html</id>
+        <link href="https://thehackernews.com/2025/09/chillyhell-macos-backdoor-and-zynorrat.html"/>
+        <updated>2025-09-10T13:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have discovered two new malware families, including a modular Apple macOS backdoor called CHILLYHELL and a Go-based remote access trojan (RAT) named ZynorRAT that can target both Windows and Linux systems.
+According to an analysis from Jamf Threat Labs, ChillyHell is written in C++ and is developed for Intel architectures.
+CHILLYHELL is the name assigned to a malware]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Geordie Emerges From Stealth With $6.5M for AI Agent Security Platform]]></title>
+        <id>https://www.securityweek.com/?p=43533</id>
+        <link href="https://www.securityweek.com/geordie-emerges-from-stealth-with-6-5m-for-ai-agent-security-platform/"/>
+        <updated>2025-09-10T12:49:31.000Z</updated>
+        <summary type="html"><![CDATA[Geordie has developed a platform that gives enterprises deep visibility into AI agents and what they are doing.
+The post Geordie Emerges From Stealth With $6.5M for AI Agent Security Platform appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Red Access Raises $17 Million for Agentless Security Platform]]></title>
+        <id>https://www.securityweek.com/?p=43528</id>
+        <link href="https://www.securityweek.com/red-access-raises-17-million-for-agentless-security-platform/"/>
+        <updated>2025-09-10T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The investment will accelerate product innovation and will fuel the security company’s expansion in the US.
+The post Red Access Raises $17 Million for Agentless Security Platform appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dormant macOS Backdoor ChillyHell Resurfaces]]></title>
+        <id>https://www.darkreading.com/endpoint-security/dormant-macos-backdoor-chillyhell-resurfaces</id>
+        <link href="https://www.darkreading.com/endpoint-security/dormant-macos-backdoor-chillyhell-resurfaces"/>
+        <updated>2025-09-10T11:59:20.000Z</updated>
+        <summary type="html"><![CDATA[With multiple persistence mechanisms, the modular malware can brute-force passwords, drop payloads, and communicate over different protocols.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Unveils iPhone Memory Protections to Combat Sophisticated Attacks]]></title>
+        <id>https://www.securityweek.com/?p=43527</id>
+        <link href="https://www.securityweek.com/apple-unveils-iphone-memory-protections-to-combat-sophisticated-attacks/"/>
+        <updated>2025-09-10T11:35:20.000Z</updated>
+        <summary type="html"><![CDATA[Apple’s new Memory Integrity Enforcement (MIE) brings always-on memory-safety protection covering key attack surfaces — including the kernel and over 70 userland processes.
+The post Apple Unveils iPhone Memory Protections to Combat Sophisticated Attacks appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Fixes 80 Flaws — Including SMB PrivEsc and Azure CVSS 10.0 Bugs]]></title>
+        <id>https://thehackernews.com/2025/09/microsoft-fixes-80-flaws-including-smb.html</id>
+        <link href="https://thehackernews.com/2025/09/microsoft-fixes-80-flaws-including-smb.html"/>
+        <updated>2025-09-10T11:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft on Tuesday addressed a set of 80 security flaws in its software, including one vulnerability that has been disclosed as publicly known at the time of release.
+Of the 80 vulnerabilities, eight are rated Critical and 72 are rated Important in severity. None of the shortcomings has been exploited in the wild as a zero-day. Like last month, 38 of the disclosed flaws are related to]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hush Security Emerges Stealth to Eliminate Credential Threats With No-Secrets Platform]]></title>
+        <id>https://www.securityweek.com/?p=43524</id>
+        <link href="https://www.securityweek.com/hush-security-emerges-stealth-with-11-million-to-eliminate-credential-threats-with-no-secrets-platform/"/>
+        <updated>2025-09-10T10:36:32.000Z</updated>
+        <summary type="html"><![CDATA[Tel Aviv–based startup replaces vaults and secrets managers with just-in-time policies, aiming to eliminate credentials entirely.
+The post Hush Security Emerges Stealth to Eliminate Credential Threats With No-Secrets Platform appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple iPhone Air and iPhone 17 Feature A19 Chips With Spyware-Resistant Memory Safety]]></title>
+        <id>https://thehackernews.com/2025/09/apple-iphone-air-and-iphone-17-feature.html</id>
+        <link href="https://thehackernews.com/2025/09/apple-iphone-air-and-iphone-17-feature.html"/>
+        <updated>2025-09-10T10:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple on Tuesday revealed a new security feature called Memory Integrity Enforcement (MIE) that's built into its newly introduced iPhone models, including iPhone 17 and iPhone Air.
+MIE, per the tech giant, offers "always-on memory safety protection" across critical attack surfaces such as the kernel and over 70 userland processes without sacrificing device performance by designing its A19 and]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fortinet, Ivanti, Nvidia Release Security Updates]]></title>
+        <id>https://www.securityweek.com/?p=43522</id>
+        <link href="https://www.securityweek.com/fortinet-ivanti-nvidia-release-security-updates/"/>
+        <updated>2025-09-10T09:25:44.000Z</updated>
+        <summary type="html"><![CDATA[High-severity vulnerabilities could lead to remote code execution, privilege escalation, information disclosure, and configuration tampering.
+The post Fortinet, Ivanti, Nvidia Release Security Updates appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Time-Saving Guide for Service Providers: Automating vCISO and Compliance Services]]></title>
+        <id>https://thehackernews.com/2025/09/the-time-saving-guide-for-service.html</id>
+        <link href="https://thehackernews.com/2025/09/the-time-saving-guide-for-service.html"/>
+        <updated>2025-09-10T09:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+Managed service providers (MSPs) and managed security service providers (MSSPs) are under increasing pressure to deliver strong cybersecurity outcomes in a landscape marked by rising threats and evolving compliance requirements. At the same time, clients want better protection without managing cybersecurity themselves. Service providers must balance these growing demands with the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Offers $10 Million Reward for Ukrainian Ransomware Operator]]></title>
+        <id>https://www.securityweek.com/?p=43520</id>
+        <link href="https://www.securityweek.com/us-offers-10-million-reward-for-ukrainian-ransomware-operator/"/>
+        <updated>2025-09-10T09:01:18.000Z</updated>
+        <summary type="html"><![CDATA[Volodymyr Tymoshchuk allegedly hit hundreds of organizations with the LockerGoga, MegaCortex, and Nefilim ransomware families.
+The post US Offers $10 Million Reward for Ukrainian Ransomware Operator appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Highly Popular NPM Packages Poisoned in New Supply Chain Attack]]></title>
+        <id>https://www.securityweek.com/?p=43519</id>
+        <link href="https://www.securityweek.com/highly-popular-npm-packages-poisoned-in-new-supply-chain-attack/"/>
+        <updated>2025-09-10T08:39:19.000Z</updated>
+        <summary type="html"><![CDATA[Designed to intercept cryptocurrency transactions, the malicious code reached 10% of cloud environments.
+The post Highly Popular NPM Packages Poisoned in New Supply Chain Attack appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Watch Out for Salty2FA: New Phishing Kit Targeting US and EU Enterprises]]></title>
+        <id>https://thehackernews.com/2025/09/watch-out-for-salty2fa-new-phishing-kit.html</id>
+        <link href="https://thehackernews.com/2025/09/watch-out-for-salty2fa-new-phishing-kit.html"/>
+        <updated>2025-09-10T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Phishing-as-a-Service (PhaaS) platforms keep evolving, giving attackers faster and cheaper ways to break into corporate accounts. Now, researchers at ANY.RUN has uncovered a new entrant: Salty2FA, a phishing kit designed to bypass multiple two-factor authentication methods and slip past traditional defenses. 
+Already spotted in campaigns across the US and EU, Salty2FA puts enterprises at]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China-Linked APT41 Hackers Target U.S. Trade Officials Amid 2025 Negotiations]]></title>
+        <id>https://thehackernews.com/2025/09/china-linked-apt41-hackers-target-us.html</id>
+        <link href="https://thehackernews.com/2025/09/china-linked-apt41-hackers-target-us.html"/>
+        <updated>2025-09-10T07:53:00.000Z</updated>
+        <summary type="html"><![CDATA[The House Select Committee on China has formally issued an advisory warning of an "ongoing" series of highly targeted cyber espionage campaigns linked to the People's Republic of China (PRC) amid contentious U.S.–China trade talks.
+"These campaigns seek to compromise organizations and individuals involved in U.S.-China trade policy and diplomacy, including U.S. government agencies, U.S. business]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ICS Patch Tuesday: Rockwell Automation Leads With 8 Security Advisories]]></title>
+        <id>https://www.securityweek.com/?p=43518</id>
+        <link href="https://www.securityweek.com/ics-patch-tuesday-rockwell-automation-leads-with-8-security-advisories/"/>
+        <updated>2025-09-10T07:35:33.000Z</updated>
+        <summary type="html"><![CDATA[Advisories have also been published by Siemens, Schneider Electric, Phoenix Contact and CISA.
+The post ICS Patch Tuesday: Rockwell Automation Leads With 8 Security Advisories appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Southeast Asian Scam Centers Face More Financial Sanctions]]></title>
+        <id>https://www.darkreading.com/cyber-risk/southeast-asian-scam-centers-financial-sanctions</id>
+        <link href="https://www.darkreading.com/cyber-risk/southeast-asian-scam-centers-financial-sanctions"/>
+        <updated>2025-09-10T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Firms cooperating with cybercrime syndicates in Burma and Cambodia face sanctions by the US government and enforcement actions by China, but the scams continue to grow.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Adobe Commerce Flaw CVE-2025-54236 Lets Hackers Take Over Customer Accounts]]></title>
         <id>https://thehackernews.com/2025/09/adobe-commerce-flaw-cve-2025-54236-lets.html</id>
@@ -133,6 +416,30 @@ The post Exposed Docker APIs Likely Exploited to Build Botnet appeared first on 
 The post SAP Patches Critical NetWeaver Vulnerabilities appeared first on SecurityWeek.]]></summary>
         <author>
             <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7742-1: GnuTLS vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7742-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7742-1"/>
+        <updated>2025-09-09T13:45:34.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that GnuTLS incorrectly handled exporting Subject
+Alternative Name (SAN) entries containing an otherName. A remote attacker
+could use this issue to cause GnuTLS to crash, resulting in a denial of
+service, or possibly execute arbitrary code. This issue only affected
+Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. (CVE-2025-32988)
+
+It was discovered that the GnuTLS certtool utility incorrectly handled
+parsing certain template files. An attacker could use this issue to cause
+GnuTLS to crash, resulting in a denial of service, or possibly execute
+arbitrary code. (CVE-2025-32990)
+
+Stefan Bühler discovered that GnuTLS incorrectly handled parsing certain
+template files. An attacker could possibly use this issue to cause GnuTLS
+to crash, resulting in a denial of service. This issue only affected
+Ubuntu 20.04 LTS. (CVE-2025-6395)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
         </author>
     </entry>
     <entry>
@@ -628,6 +935,27 @@ The post Fintech Firm Wealthsimple Says Supply Chain Attack Resulted in Data Bre
 The post Cybersecurity M&A Roundup: 27 Deals Announced in August 2025 appeared first on SecurityWeek.]]></summary>
         <author>
             <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7739-1: Bind vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7739-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7739-1"/>
+        <updated>2025-09-08T00:14:04.000Z</updated>
+        <summary type="html"><![CDATA[Greg Kuechle discovered that Bind incorrectly handled certain incremental
+zone updates. A remote attacker could possibly use this issue to cause Bind
+to crash, resulting in a denial of service. (CVE-2021-25214)
+
+Siva Kakarla discovered that Bind incorrectly handled certain DNAME
+records. A remote attacker could possibly use this issue to cause Bind to
+crash, resulting in a denial of service. (CVE-2021-25215)
+
+It was discovered that Bind incorrectly handled GSSAPI security policy
+negotiation. A remote attacker could use this issue to cause Bind to crash,
+resulting in a denial of service, or possibly execute arbitrary code.
+(CVE-2021-25216)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
         </author>
     </entry>
     <entry>
@@ -6896,341 +7224,6 @@ The post Inside the Dark Web’s Access Economy: How Hackers Sell the Keys to En
         <summary type="html"><![CDATA[Securing business logic isn't just a technical requirement — it's a business imperative.]]></summary>
         <author>
             <name>Dirk Schrader</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New ‘Curly COMrades’ APT Using NGEN COM Hijacking in Georgia, Moldova Attacks]]></title>
-        <id>https://thehackernews.com/2025/08/new-curly-comrades-apt-using-ngen-com.html</id>
-        <link href="https://thehackernews.com/2025/08/new-curly-comrades-apt-using-ngen-com.html"/>
-        <updated>2025-08-12T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A previously undocumented threat actor dubbed Curly COMrades has been observed targeting entities in Georgia and Moldova as part of a cyber espionage campaign designed to facilitate long-term access to target networks.
-"They repeatedly tried to extract the NTDS database from domain controllers -- the primary repository for user password hashes and authentication data in a Windows network,"]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1Kosmos Raises $57 Million for Identity Verification and Authentication Platform]]></title>
-        <id>https://www.securityweek.com/?p=43259</id>
-        <link href="https://www.securityweek.com/1kosmos-raises-57-million-for-identity-verification-and-authentication-platform/"/>
-        <updated>2025-08-12T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[1Kosmos has raised $57 million in Series B funding, which brings the total raised by the company to $72 million.
-The post 1Kosmos Raises $57 Million for Identity Verification and Authentication Platform appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Now Live: CodeSecCon – Where Software Security’s Next Chapter Unfolds (Virtual Event)]]></title>
-        <id>https://www.securityweek.com/?p=43262</id>
-        <link href="https://www.securityweek.com/codeseccon-is-today-where-software-securitys-next-chapter-unfolds-virtual-event/"/>
-        <updated>2025-08-12T12:25:41.000Z</updated>
-        <summary type="html"><![CDATA[Taking place August 12-13, CodeSecCon is the premier virtual event bringing together developers and cybersecurity professionals to revolutionize the way applications are built, secured, and maintained.
-The post Now Live: CodeSecCon – Where Software Security’s Next Chapter Unfolds (Virtual Event) appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>SecurityWeek News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Adds Three Known Exploited Vulnerabilities to Catalog]]></title>
-        <id>/node/23758</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2025/08/12/cisa-adds-three-known-exploited-vulnerabilities-catalog"/>
-        <updated>2025-08-12T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.
-CVE-2013-3893 Microsoft Internet Explorer Resource Management Errors Vulnerability
-CVE-2007-0671 Microsoft Office Excel Remote Code Execution Vulnerability
-CVE-2025-8088 RARLAB WinRAR Path Traversal Vulnerability
-These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
-Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
-Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of KEV Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Releases Seven Industrial Control Systems Advisories]]></title>
-        <id>/node/23757</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2025/08/12/cisa-releases-seven-industrial-control-systems-advisories"/>
-        <updated>2025-08-12T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA released seven Industrial Control Systems (ICS) advisories on August 12, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
-ICSA-25-224-01 Ashlar-Vellum Cobalt, Xenon, Argon, Lithium, Cobalt Share
-ICSA-25-224-02 Johnson Controls iSTAR Ultra, iSTAR Ultra SE, iSTAR Ultra G2, iSTAR Ultra G2 SE, iSTAR Edge G2
-ICSA-25-224-03 Schneider Electric EcoStruxure Power Monitoring Expert
-ICSA-25-224-04 AVEVA PI Integrator
- 
-ICSA-24-263-04 MegaSys Computer Technologies Telenium Online Web Application (Update A)
-ICSA-25-191-10 End-of-Train and Head-of-Train Remote Linking Protocol (Update A)
- 
-ICSMA-25-224-01 Santesoft Sante PACS Server
-CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ShinyHunters Tactics Now Mirror Scattered Spider]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-tactics-mirror-scattered-spider</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-tactics-mirror-scattered-spider"/>
-        <updated>2025-08-12T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[There's growing evidence that two of arguably the most dangerous cybercrime groups out there are tag-teaming big targets.]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SAP Patches Critical S/4HANA Vulnerability]]></title>
-        <id>https://www.securityweek.com/?p=43260</id>
-        <link href="https://www.securityweek.com/sap-patches-critical-s-4hana-vulnerability/"/>
-        <updated>2025-08-12T11:29:58.000Z</updated>
-        <summary type="html"><![CDATA[SAP has released 15 new security notes on the August 2025 Patch Tuesday, including for critical vulnerabilities.
-The post SAP Patches Critical S/4HANA Vulnerability appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The “Incriminating Video” Scam]]></title>
-        <id>https://www.schneier.com/blog/archives/2025/08/the-incriminating-video-scam.html</id>
-        <link href="https://www.schneier.com/blog/archives/2025/08/the-incriminating-video-scam.html"/>
-        <updated>2025-08-12T11:01:38.000Z</updated>
-        <summary type="html"><![CDATA[<p>A few years ago, scammers invented a new phishing email. They would claim to have hacked your computer, turned your webcam on, and videoed you watching porn or having sex. BuzzFeed has an <a href="https://www.buzzfeed.com/poojashah1/new-email-scam-house-address-sc">article</a> talking about a &#8220;shockingly realistic&#8221; variant, which includes photos of you and your house&#8212;more specific information.</p>
-<p>The article contains &#8220;steps you can take to figure out if it&#8217;s a scam,&#8221; but omits the first and most fundamental piece of advice: If the hacker had incriminating video about you, they would show you a clip. Just a taste, not the worst bits so you had to worry about how bad it could be, but something. If the hacker doesn&#8217;t show you any video, they don&#8217;t have any video. Everything else is window dressing...</p>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Ultimate Battle: Enterprise Browsers vs. Secure Browser Extensions]]></title>
-        <id>https://thehackernews.com/2025/08/the-ultimate-battle-enterprise-browsers.html</id>
-        <link href="https://thehackernews.com/2025/08/the-ultimate-battle-enterprise-browsers.html"/>
-        <updated>2025-08-12T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Most security tools can’t see what happens inside the browser, but that’s where the majority of work, and risk, now lives. Security leaders deciding how to close that gap often face a choice: deploy a dedicated Enterprise Browser or add an enterprise-grade control layer to the browsers employees already use and trust.
-The Ultimate Battle: Enterprise Browsers vs. Enterprise Browser Extensions]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OT Networks Targeted in Widespread Exploitation of Erlang/OTP Vulnerability]]></title>
-        <id>https://www.securityweek.com/?p=43258</id>
-        <link href="https://www.securityweek.com/ot-networks-targeted-in-widespread-exploitation-of-erlang-otp-vulnerability/"/>
-        <updated>2025-08-12T08:59:44.000Z</updated>
-        <summary type="html"><![CDATA[The recently patched Erlang/OTP flaw CVE-2025-32433 has been exploited since early May, shortly after its existence came to light.
-The post OT Networks Targeted in Widespread Exploitation of Erlang/OTP Vulnerability appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dutch NCSC Confirms Active Exploitation of Citrix NetScaler CVE-2025-6543 in Critical Sectors]]></title>
-        <id>https://thehackernews.com/2025/08/dutch-ncsc-confirms-active-exploitation.html</id>
-        <link href="https://thehackernews.com/2025/08/dutch-ncsc-confirms-active-exploitation.html"/>
-        <updated>2025-08-12T08:36:00.000Z</updated>
-        <summary type="html"><![CDATA[The Dutch National Cyber Security Centre (NCSC-NL) has warned of cyber attacks exploiting a recently disclosed critical security flaw impacting Citrix NetScaler ADC products to breach organizations in the country.
-The NCSC-NL said it discovered the exploitation of CVE-2025-6543 targeting several critical organizations within the Netherlands, and that investigations are ongoing to determine the]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7682-5: Linux kernel vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7682-5</id>
-        <link href="https://ubuntu.com/security/notices/USN-7682-5"/>
-        <updated>2025-08-12T08:04:52.000Z</updated>
-        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - Network traffic control;
-(CVE-2025-38083, CVE-2025-37797)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7681-3: Linux kernel (Oracle) vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7681-3</id>
-        <link href="https://ubuntu.com/security/notices/USN-7681-3"/>
-        <updated>2025-08-12T07:56:10.000Z</updated>
-        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - Network traffic control;
-(CVE-2025-38083)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7690-1: OpenJDK 17 vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7690-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7690-1"/>
-        <updated>2025-08-11T23:27:47.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that the 2D component of OpenJDK 17 did not properly
-manage memory under certain circumstances. An attacker could possibly
-use this issue to cause a denial of service or execute arbitrary code.
-(CVE-2025-30749, CVE-2025-50106)
-
-VMashroor Hasan Bhuiyan discovered that the JSSE component of OpenJDK 17
-did not properly manage TLS 1.3 handshakes under certain circumstances.
-An attacker could possibly use this issue to obtain sensitive
-information. (CVE-2025-30754)
-
-Martin van Wingerden and Violeta Georgieva of Broadcom discovered
-that the Networking component of OpenJDK 17 did not properly
-manage network connections under certain circumstances. An attacker
-could possibly use this issue to obtain sensitive information.
-(CVE-2025-50059)
-
-In addition to security fixes, the updated packages contain bug fixes, new
-features, and possibly incompatible changes.
-
-Please see the following for more information:
-https://openjdk.org/groups/vulnerability/advisories/2025-07-15]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BlackSuit Ransomware Takes an Infrastructure Hit From Law Enforcement]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/blacksuit-ransomware-infrastructure-law-enforcement</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/blacksuit-ransomware-infrastructure-law-enforcement"/>
-        <updated>2025-08-11T21:15:16.000Z</updated>
-        <summary type="html"><![CDATA[A swarm of US agencies joined with international partners to take down servers and domains and seize more than $1 million associated with BlackSuit (Royal) ransomware operations, a group that has been a chronic, persistent threat against critical infrastructure.]]></summary>
-        <author>
-            <name>Becky Bracken</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[REvil Actor Accuses Russia of Planning 2021 Kaseya Attack]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/revil-actor-russia-planning-2021-kaseya-attack</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/revil-actor-russia-planning-2021-kaseya-attack"/>
-        <updated>2025-08-11T18:50:41.000Z</updated>
-        <summary type="html"><![CDATA[REvil affiliate Yaroslav Vasinskyi, who was convicted last year for his role in the 2021 Kaseya ransomware supply chain attack, said the Russian government was instrumental to the attack's execution.]]></summary>
-        <author>
-            <name>Alexander Culafi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Black Hat NOC Expands AI Implementation Across Security Operations]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/black-hat-noc-expands-ai-security-operations</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/black-hat-noc-expands-ai-security-operations"/>
-        <updated>2025-08-11T18:48:12.000Z</updated>
-        <summary type="html"><![CDATA[Corelight's James Pope gives Dark Reading an inside look at this year's Black Hat Network Operations Center, detailing security challenges and rising trends — many related to increased AI use.]]></summary>
-        <author>
-            <name>Arielle Waldman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers Warn of 'Hidden Risks' in Passwordless Account Recovery]]></title>
-        <id>https://www.darkreading.com/endpoint-security/researchers-warn-hidden-risks-passwordless-account-recovery</id>
-        <link href="https://www.darkreading.com/endpoint-security/researchers-warn-hidden-risks-passwordless-account-recovery"/>
-        <updated>2025-08-11T17:53:50.000Z</updated>
-        <summary type="html"><![CDATA[Passwordless authentication is becoming more common, but account recovery poses increased risks that can lead to account takeovers. It's especially dangerous because even low-skilled attackers can achieve success.]]></summary>
-        <author>
-            <name>Arielle Waldman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Echo Chamber, Prompts Used to Jailbreak GPT-5 in 24 Hours]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/echo-chamber-prompts-jailbreak-gpt-5-24-hours</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/echo-chamber-prompts-jailbreak-gpt-5-24-hours"/>
-        <updated>2025-08-11T16:46:16.000Z</updated>
-        <summary type="html"><![CDATA[Researchers paired the jailbreaking technique with storytelling in an attack flow that used no inappropriate language to guide the LLM into producing directions for making a Molotov cocktail.]]></summary>
-        <author>
-            <name>Elizabeth Montalbano, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New TETRA Radio Encryption Flaws Expose Law Enforcement Communications]]></title>
-        <id>https://thehackernews.com/2025/08/new-tetra-radio-encryption-flaws-expose.html</id>
-        <link href="https://thehackernews.com/2025/08/new-tetra-radio-encryption-flaws-expose.html"/>
-        <updated>2025-08-11T16:32:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have discovered a fresh set of security issues in the Terrestrial Trunked Radio (TETRA) communications protocol, including in its proprietary end-to-end encryption (E2EE) mechanism that exposes the system to replay and brute-force attacks, and even decrypt encrypted traffic.
-Details of the vulnerabilities – dubbed 2TETRA:2BURST – were presented at the Black Hat USA]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Utilities, Factories at Risk From Encryption Holes in Industrial Protocol]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/utilities-factories-encryption-holes-industrial-protocol</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/utilities-factories-encryption-holes-industrial-protocol"/>
-        <updated>2025-08-11T16:08:04.000Z</updated>
-        <summary type="html"><![CDATA[The OPC UA communication protocol is widely used in industrial settings, but despite its complex cryptography, the open source protocol appears to be vulnerable in a number of different ways.]]></summary>
-        <author>
-            <name>Alexander Culafi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerability Summary for the Week of August 4, 2025]]></title>
-        <id>/node/23744</id>
-        <link href="https://www.cisa.gov/news-events/bulletins/sb25-223"/>
-        <updated>2025-08-11T15:11:16.000Z</updated>
-        <summary type="html"><![CDATA[High Vulnerabilities
-Primary
-Vendor -- Product
-Description
-Published
-CVSS Score
-Source Info
-
-
-
-
-Adobe--Adobe Experience Manager
-Adobe Experience Manager versions 6.5.23 and earlier are affected by a Misconfiguration vulnerability that could result in arbitrary code execution. An attacker could leverage this vulnerability to bypass security mechanisms and execute code. Exploitation of this issue does not require user interaction and scope is changed.
-2025-08-05
-10
-CVE-2025-54253
-
-
-Adobe--Adobe Experience Manager
-Adobe Experience Manager versions 6.5.23 and earlier are affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability that could lead to arbitrary file system read. An attacker could exploit this vulnerability to access sensitive files on the local file…]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers Spot Surge in Erlang/OTP SSH RCE Exploits, 70% Target OT Firewalls]]></title>
-        <id>https://thehackernews.com/2025/08/researchers-spot-surge-in-erlangotp-ssh.html</id>
-        <link href="https://thehackernews.com/2025/08/researchers-spot-surge-in-erlangotp-ssh.html"/>
-        <updated>2025-08-11T15:08:00.000Z</updated>
-        <summary type="html"><![CDATA[Malicious actors have been observed exploiting a now-patched critical security flaw impacting Erlang/Open Telecom Platform (OTP) SSH as early as beginning of May 2025, with about 70% of detections originating from firewalls protecting operational technology (OT) networks.
-The vulnerability in question is CVE-2025-32433 (CVSS score: 10.0), a missing authentication issue that could be abused by an]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome Sandbox Escape Earns Researcher $250,000]]></title>
-        <id>https://www.securityweek.com/?p=43257</id>
-        <link href="https://www.securityweek.com/chrome-sandbox-escape-earns-researcher-250000/"/>
-        <updated>2025-08-11T14:03:35.000Z</updated>
-        <summary type="html"><![CDATA[A researcher has been given the highest reward in Google’s Chrome bug bounty program for a sandbox escape with remote code execution.
-The post Chrome Sandbox Escape Earns Researcher $250,000 appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managing the Trust-Risk Equation in AI: Predicting Hallucinations Before They Strike]]></title>
-        <id>https://www.securityweek.com/?p=43255</id>
-        <link href="https://www.securityweek.com/managing-the-trust-risk-equation-in-ai-predicting-hallucinations-before-they-strike/"/>
-        <updated>2025-08-11T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[New physics-based research suggests large language models could predict when their own answers are about to go wrong — a potential game changer for trust, risk, and security in AI-driven systems.
-The post Managing the Trust-Risk Equation in AI: Predicting Hallucinations Before They Strike appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Kevin Townsend</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Will Secure AI Be the Hottest Career Path in Cybersecurity?]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/will-secure-ai-hottest-career-path-cybersecurity</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/will-secure-ai-hottest-career-path-cybersecurity"/>
-        <updated>2025-08-11T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Securing AI systems represents cybersecurity's next frontier, creating specialized career paths as organizations grapple with novel vulnerabilities, regulatory requirements, and cross-functional demands.]]></summary>
-        <author>
-            <name>Melina Scotto</name>
         </author>
     </entry>
 </feed>
