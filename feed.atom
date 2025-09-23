@@ -2,10 +2,273 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-09-22T01:49:14.426Z</updated>
+    <updated>2025-09-23T01:40:22.003Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Iran-Linked Hackers Target Europe With New Malware]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/iran-linked-hackers-europe-new-malware</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/iran-linked-hackers-europe-new-malware"/>
+        <updated>2025-09-22T21:00:50.000Z</updated>
+        <summary type="html"><![CDATA["Nimbus Manticore" is back at it, this time with improved variants of its flagship malware and targets that are outside its usual focus area.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Attackers Use Phony GitHub Pages to Deliver Mac Malware]]></title>
+        <id>https://www.darkreading.com/application-security/attackers-phony-github-pages-mac-malware</id>
+        <link href="https://www.darkreading.com/application-security/attackers-phony-github-pages-mac-malware"/>
+        <updated>2025-09-22T19:44:25.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors are using a large-scale SEO poisoning campaign and fake GitHub repositories to deliver Atomic infostealers to Mac users.]]></summary>
+        <author>
+            <name>Alexander Culafi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Summary for the Week of September 15, 2025]]></title>
+        <id>/node/23985</id>
+        <link href="https://www.cisa.gov/news-events/bulletins/sb25-265"/>
+        <updated>2025-09-22T17:14:41.000Z</updated>
+        <summary type="html"><![CDATA[High Vulnerabilities
+Primary
+Vendor -- Product
+Description
+Published
+CVSS Score
+Source Info
+Patch Info
+
+
+
+
+Logo Software--Diva
+Authorization Bypass Through User-Controlled SQL Primary Key, CWE - 89 - Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Logo Software Diva allows SQL Injection, CAPEC - 7 - Blind SQL Injection.This issue affects Diva: through 4.56.00.00.
+2025-09-18
+10
+CVE-2024-13151
+https://www.usom.gov.tr/bildirim/tr-25-0273
+ 
+
+
+Fortra--GoAnywhere MFT
+A deserialization vulnerability in the License Servlet of Fortra's GoAnywhere MFT allows an actor with a validly forged license response signature to deserialize an arbitrary actor-controlled object, possibly leading to command injection.
+2025-09-18
+10
+CVE-2025-10035
+https://www.…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ComicForm and SectorJ149 Hackers Deploy Formbook Malware in Eurasian Cyberattacks]]></title>
+        <id>https://thehackernews.com/2025/09/comicform-and-sectorj149-hackers-deploy.html</id>
+        <link href="https://thehackernews.com/2025/09/comicform-and-sectorj149-hackers-deploy.html"/>
+        <updated>2025-09-22T15:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Organizations in Belarus, Kazakhstan, and Russia have emerged as the target of a phishing campaign undertaken by a previously undocumented hacking group called ComicForm since at least April 2025.
+The activity primarily targeted industrial, financial, tourism, biotechnology, research, and trade sectors, cybersecurity company F6 said in an analysis published last week.
+The attack chain involves]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#780141: Cross-site scripting vulnerability in Lectora course navigation]]></title>
+        <id>https://kb.cert.org/vuls/id/780141</id>
+        <link href="https://kb.cert.org/vuls/id/780141"/>
+        <updated>2025-09-22T14:44:03.309Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Lectora Desktop versions 21.0–21.3 and Lectora Online versions 7.1.6 and older contained a cross-site scripting (XSS) vulnerability in courses published with Seamless Play Publish (SPP) enabled <em>and</em> Web Accessibility disabled. The vulnerability was initially patched in Lectora Desktop version 21.4 (October 25, 2022), but users must republish existing courses to apply the patch. This important republishing instruction was missing from the Desktop edition release notes, but it was included in the release notes for the recently patched Lectora Online (July 20, 2025). The CERT® Coordination Center is publishing this vulnerability note to amplify awareness as the Lectora software user base includes high-profile clients such as government agencies and large enterprises.</p>
+<h3 id="description">Description</h3>
+<p>The Lectora platform is used to create and publish interactive e-learning courses by ELB Learning. Lectora Inspire and Lectora Publisher are Desktop versions of the e-learning software, and Lectora Online is a cloud-based version.</p>
+<h4 id="affected-versions">Affected Versions</h4>
+<ul>
+<li>Lectora Inspire and Lectora Publisher desktop editions versions 21.0–21.3</li>
+<li>Lectora Online versions 7.1.6 and older </li>
+</ul>
+<h3 id="impact">Impact</h3>
+<p>Content published with Seamless Play Publish (SPP) enabled <em>and</em> Web Accessibility settings disabled in the affected versions can allow JavaScript injection via crafted URL parameters. Exploitation under this scenario could result in client-side script execution (e.g., alert or redirect), which poses a risk of session hijacking or user redirection.</p>
+<h3 id="solution">Solution</h3>
+<p>The vulnerability is patched in Lectora Desktop (Publisher and Inspire version 21.4, released October 25, 2022) and Lectora Online (version 7.1.7, deployed July 20, 2025). To fully implement the solution:</p>
+<ul>
+<li><strong>For Lectora Desktop customers:</strong> Please download the version 21.4 patch or a later update from portal.elblearning.com. You must then republish any courses that were created using older software versions.</li>
+<li><strong>For Lectora Online customers:</strong> The update to version 7.1.7 was automatically applied on July 20, 2025. You must republish any courses that were created using older software versions.</li>
+</ul>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporter Mohammad Jassim for reporting this vulnerability. This document was written by Laurie Tyzenhaus.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Airport Chaos Shows Human Impact of 3rd-Party Attacks]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/airport-chaos-human-impact-3rd-party-attacks</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/airport-chaos-human-impact-3rd-party-attacks"/>
+        <updated>2025-09-22T14:43:28.000Z</updated>
+        <summary type="html"><![CDATA[Major EU airports such as Heathrow were disrupted over the weekend after a cyberattack hit the provider of check-in kiosk software, which caused delays and flight cancellations.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[15 Years of Zero Trust: Why It Matters More Than Ever]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/15-years-of-zero-trust-why-it-matters-more-than-ever</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/15-years-of-zero-trust-why-it-matters-more-than-ever"/>
+        <updated>2025-09-22T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With the emergence of AI-driven attacks and quantum computing, and the explosion of hyperconnected devices, zero trust remains a core strategy for security operations.]]></summary>
+        <author>
+            <name>John Kindervag</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mycroft Raises $3.5 Million for AI-Powered Security and Compliance Platform]]></title>
+        <id>https://www.securityweek.com/?p=43680</id>
+        <link href="https://www.securityweek.com/mycroft-raises-3-5-million-for-ai-powered-security-and-compliance-platform/"/>
+        <updated>2025-09-22T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Canada-based company has emerged from stealth with autonomous AI agents designed to manage and operate the security and IT stack.
+The post Mycroft Raises $3.5 Million for AI-Powered Security and Compliance Platform appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Earn $150,000 for L1TF Exploit Leaking Data From Public Cloud]]></title>
+        <id>https://www.securityweek.com/?p=43683</id>
+        <link href="https://www.securityweek.com/researchers-earn-150000-for-l1tf-exploit-leaking-data-from-public-cloud/"/>
+        <updated>2025-09-22T12:48:06.000Z</updated>
+        <summary type="html"><![CDATA[L1TF Reloaded is a vulnerability combining the old L1TF and half-Spectre hardware flaws to bypass deployed software mitigations.
+The post Researchers Earn $150,000 for L1TF Exploit Leaking Data From Public Cloud appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[European Airport Disruptions Caused by Ransomware Attack]]></title>
+        <id>https://www.securityweek.com/?p=43682</id>
+        <link href="https://www.securityweek.com/european-airport-disruptions-caused-by-ransomware-attack/"/>
+        <updated>2025-09-22T12:31:54.000Z</updated>
+        <summary type="html"><![CDATA[Collins Aerospace is reportedly having difficulties recovering from the ransomware attack.
+The post European Airport Disruptions Caused by Ransomware Attack appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SonicWall Releases Advisory for Customers after Security Incident]]></title>
+        <id>/node/23988</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/09/22/sonicwall-releases-advisory-customers-after-security-incident"/>
+        <updated>2025-09-22T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SonicWall released a security advisory to assist their customers with protecting systems impacted by the MySonicWall cloud backup file incident. SonicWall’s investigation found that a malicious actor performed a series of brute force techniques against their MySonicWall.com web portal to gain access to a subset of customers’ preference files stored in their cloud backups. While credentials within the files were encrypted, the files also included information that actors can use to gain access to customers’ SonicWall Firewall devices. 
+CISA recommends all SonicWall customers follow guidance in the advisory,[1] which includes logging into their customer account to verify whether their device is at risk. Customers with at-risk devices should implement the advisory’s containment and remediation guidance immediately. 
+ 
+[1] Sonicwall.com, MySonicWall Cloud Backup File Incident, accessed September 22, 2025, https://www.sonicwall.com/support/knowledge-base/mysonicwall-cloud-backup-file-incident/250915160910330.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[⚡ Weekly Recap: Chrome 0-Day, AI Hacking Tools, DDR5 Bit-Flips, npm Worm & More]]></title>
+        <id>https://thehackernews.com/2025/09/weekly-recap-chrome-0-day-ai-hacking.html</id>
+        <link href="https://thehackernews.com/2025/09/weekly-recap-chrome-0-day-ai-hacking.html"/>
+        <updated>2025-09-22T11:47:00.000Z</updated>
+        <summary type="html"><![CDATA[The security landscape now moves at a pace no patch cycle can match. Attackers aren’t waiting for quarterly updates or monthly fixes—they adapt within hours, blending fresh techniques with old, forgotten flaws to create new openings. A vulnerability closed yesterday can become the blueprint for tomorrow’s breach.
+This week’s recap explores the trends driving that constant churn: how threat]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HoundBytes Launches Automated Security Analyst]]></title>
+        <id>https://www.securityweek.com/?p=43679</id>
+        <link href="https://www.securityweek.com/houndbytes-launches-automated-security-analyst/"/>
+        <updated>2025-09-22T11:22:46.000Z</updated>
+        <summary type="html"><![CDATA[The Romania-based company has launched WorkHorse and is preparing for a funding round to accelerate growth.
+The post HoundBytes Launches Automated Security Analyst appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Details About Chinese Surveillance and Propaganda Companies]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/09/details-about-chinese-surveillance-and-propaganda-companies.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/09/details-about-chinese-surveillance-and-propaganda-companies.html"/>
+        <updated>2025-09-22T11:03:31.000Z</updated>
+        <summary type="html"><![CDATA[<p>Details from <a href="https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/">leaked documents</a>:</p>
+<blockquote><p>While people often look at China’s Great Firewall as a single, all-powerful government system unique to China, the actual process of developing and maintaining it works the same way as surveillance technology in the West. Geedge collaborates with academic institutions on research and development, adapts its business strategy to fit different clients’ needs, and even repurposes leftover infrastructure from its competitors.</p>
+<p>[&#8230;]</p>
+<p>The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they were spun out into startups and grew by chasing government contracts. The difference is that in China, these companies operate with far less transparency. Their work comes to light only when a trove of documents slips onto the internet...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Gain Control of AI Agents and Non-Human Identities]]></title>
+        <id>https://thehackernews.com/2025/09/how-to-gain-control-of-ai-agents-and.html</id>
+        <link href="https://thehackernews.com/2025/09/how-to-gain-control-of-ai-agents-and.html"/>
+        <updated>2025-09-22T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We hear this a lot:
+“We’ve got hundreds of service accounts and AI agents running in the background. We didn’t create most of them. We don’t know who owns them. How are we supposed to secure them?”
+Every enterprise today runs on more than users. Behind the scenes, thousands of non-human identities, from service accounts to API tokens to AI agents, access systems, move data, and execute tasks]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Widespread Infostealer Campaign Targeting macOS Users]]></title>
+        <id>https://www.securityweek.com/?p=43677</id>
+        <link href="https://www.securityweek.com/widespread-infostealer-campaign-targeting-macos-users/"/>
+        <updated>2025-09-22T09:56:04.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors rely on malicious GitHub repositories to infect LastPass’s macOS users with the Atomic infostealer.
+The post Widespread Infostealer Campaign Targeting macOS Users appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FBI Warns of Spoofed IC3 Website]]></title>
+        <id>https://www.securityweek.com/?p=43676</id>
+        <link href="https://www.securityweek.com/fbi-warns-of-spoofed-ic3-website/"/>
+        <updated>2025-09-22T09:43:08.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors likely spoofed the official government website for personal information theft and monetary fraudulent activity.
+The post FBI Warns of Spoofed IC3 Website appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fortra Patches Critical GoAnywhere MFT Vulnerability]]></title>
+        <id>https://www.securityweek.com/?p=43671</id>
+        <link href="https://www.securityweek.com/fortra-patches-critical-goanywhere-mft-vulnerability/"/>
+        <updated>2025-09-22T07:50:52.000Z</updated>
+        <summary type="html"><![CDATA[Tracked as CVE-2025-10035 (CVSS score of 10), the critical deserialization vulnerability could be exploited for command injection.
+The post Fortra Patches Critical GoAnywhere MFT Vulnerability appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Patches Critical Entra ID Flaw Enabling Global Admin Impersonation Across Tenants]]></title>
+        <id>https://thehackernews.com/2025/09/microsoft-patches-critical-entra-id.html</id>
+        <link href="https://thehackernews.com/2025/09/microsoft-patches-critical-entra-id.html"/>
+        <updated>2025-09-22T05:47:00.000Z</updated>
+        <summary type="html"><![CDATA[A critical token validation failure in Microsoft Entra ID (previously Azure Active Directory) could have allowed attackers to impersonate any user, including Global Administrators, across any tenant.
+The vulnerability, tracked as CVE-2025-55241, has been assigned the maximum CVSS score of 10.0. It has been described by Microsoft as a privilege escalation flaw in Azure Entra. There is no]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Essential Questions for Implementing the Software Acquisition Pathway and the Tools to Tackle Them]]></title>
+        <id>https://www.sei.cmu.edu/blog/5-essential-questions-for-implementing-the-software-acquisition-pathway-and-the-tools-to-tackle-them/?utm_source=blog&amp;utm_medium=rss&amp;utm_campaign=my_site_updates</id>
+        <link href="https://www.sei.cmu.edu/blog/5-essential-questions-for-implementing-the-software-acquisition-pathway-and-the-tools-to-tackle-them/?utm_source=blog&amp;utm_medium=rss&amp;utm_campaign=my_site_updates"/>
+        <updated>2025-09-22T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This post outlines 5 essential questions to ask before implementing the Software Acquisition Pathway (SWP) and an SEI toolset to assist in the effort.]]></summary>
+        <author>
+            <name>SEI Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Airport Cyberattack Disrupts More Flights Across Europe]]></title>
         <id>https://www.securityweek.com/?p=43670</id>
@@ -101,6 +364,16 @@ The new class of attack has been codenamed ShadowLeak by Radware. Following resp
         <link href="https://www.darkreading.com/cybersecurity-careers/capture-the-flag-leads-cybersecurity-careers"/>
         <updated>2025-09-19T19:20:16.000Z</updated>
         <summary type="html"><![CDATA[As Splunk celebrates the 10th anniversary of Boss of the SOC competition, it continues to be a valuable platform for security professionals to test their skills, learn new techniques, and potentially advance their careers in cybersecurity.]]></summary>
+        <author>
+            <name>Arielle Waldman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Trust: Strengths and Limitations in the AI Attack Era]]></title>
+        <id>https://www.darkreading.com/endpoint-security/zero-trust-strengths-and-limitations-in-the-ai-attack-era</id>
+        <link href="https://www.darkreading.com/endpoint-security/zero-trust-strengths-and-limitations-in-the-ai-attack-era"/>
+        <updated>2025-09-19T19:17:03.000Z</updated>
+        <summary type="html"><![CDATA[Zero Trust could help organizations fight back against attackers who use artificial intelligence, but new threats will require the architecture to evolve.]]></summary>
         <author>
             <name>Arielle Waldman</name>
         </author>
@@ -6302,17 +6575,6 @@ timestamps. A remote attacker could possibly use this issue to cause
 OpenLDAP to crash, resulting in a denial of service. (CVE-2021-27212)]]></summary>
         <author>
             <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Malicious Go Module Poses as SSH Brute-Force Tool, Steals Credentials via Telegram Bot]]></title>
-        <id>https://thehackernews.com/2025/08/malicious-go-module-poses-as-ssh-brute.html</id>
-        <link href="https://thehackernews.com/2025/08/malicious-go-module-poses-as-ssh-brute.html"/>
-        <updated>2025-08-24T13:38:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have discovered a malicious Go module that presents itself as a brute-force tool for SSH but actually contains functionality to discreetly exfiltrate credentials to its creator.
-"On the first successful login, the package sends the target IP address, username, and password to a hard-coded Telegram bot controlled by the threat actor," Socket researcher Kirill Boychenko]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
         </author>
     </entry>
 </feed>
