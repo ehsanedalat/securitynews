@@ -2,10 +2,343 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-10-13T01:48:35.519Z</updated>
+    <updated>2025-10-14T01:42:16.347Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[JPMorgan to Invest up to $10 Billion in US Companies with Crucial Ties to National Security]]></title>
+        <id>https://www.securityweek.com/?p=43958</id>
+        <link href="https://www.securityweek.com/jpmorgan-to-invest-up-to-10-billion-in-us-companies-with-crucial-ties-to-national-security/"/>
+        <updated>2025-10-13T18:18:37.000Z</updated>
+        <summary type="html"><![CDATA[The investment plan will focus on areas including artificial intelligence, cybersecurity and quantum computing.
+The post JPMorgan to Invest up to $10 Billion in US Companies with Crucial Ties to National Security appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rewiring Democracy is Coming Soon]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/10/rewiring-democracy-is-coming-soon.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/10/rewiring-democracy-is-coming-soon.html"/>
+        <updated>2025-10-13T16:36:38.000Z</updated>
+        <summary type="html"><![CDATA[<p>My latest book, <i>Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship</i>, will be published in just over a week. No reviews yet, but can read chapters <a href="https://pghrev.com/being-a-politician/">12</a> and <a href="https://newpublic.substack.com/p/2ddffc17-a033-4f98-83fa-11376b30c6cd">34</a> (of <a href="https://www.schneier.com/books/table-of-contents/">43 chapters</a> total).</p>
+<p>You can order the book pretty much everywhere, and a copy signed by me <a href="https://www.schneier.com/product/rewiring-democracy-hardcover/">here</a>.</p>
+<p>Please help spread the word. I want this book to make a splash when it&#8217;s public. Leave a review on whatever site you buy it from. Or make a TikTok video. Or do whatever you kids do these days. Is anyone a SlashDot contributor? I&#8217;d like the book to be announced there...</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7820-1: Linux kernel (Oracle) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7820-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7820-1"/>
+        <updated>2025-10-13T16:35:02.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - Ext4 file system;
+  - Network file system (NFS) server daemon;
+  - Packet sockets;
+  - Network traffic control;
+  - VMware vSockets driver;
+(CVE-2025-37785, CVE-2025-38618, CVE-2025-38617, CVE-2024-57996,
+CVE-2025-37752, CVE-2025-38477, CVE-2025-21796, CVE-2025-38350)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7796-4: Linux kernel (Azure FIPS) kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7796-4</id>
+        <link href="https://ubuntu.com/security/notices/USN-7796-4"/>
+        <updated>2025-10-13T16:24:55.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - Framebuffer layer;
+  - BTRFS file system;
+  - Ext4 file system;
+  - Network file system (NFS) server daemon;
+  - Packet sockets;
+  - Network traffic control;
+  - VMware vSockets driver;
+(CVE-2025-38477, CVE-2025-38617, CVE-2025-21796, CVE-2025-38618,
+CVE-2024-49924, CVE-2024-35849, CVE-2025-37785)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#538470: Clevo UEFI firmware embedded BootGuard keys compromising Clevo's implementation of BootGuard]]></title>
+        <id>https://kb.cert.org/vuls/id/538470</id>
+        <link href="https://kb.cert.org/vuls/id/538470"/>
+        <updated>2025-10-13T15:32:09.413Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Clevo’s UEFI firmware update packages included sensitive private keys used in their Intel Boot Guard implementation. This accidental exposure of the keys could be abused by an attacker to sign malicious firmware using Clevo’s Boot Guard trust chain, potentially compromising the pre-boot UEFI environment on systems where Clevo’s implementation has been adopted.</p>
+<h3 id="description">Description</h3>
+<p>Intel Boot Guard is a platform integrity technology, providing a root of trust that protects the earliest stages of the boot process. It cryptographically verifies the Initial Boot Block (IBB) and prevents the execution of untrusted firmware. Operating before UEFI is initialized, Boot Guard ensures that only authenticated firmware is executed during the earliest pre-boot stage.  Boot Guard is often confused with UEFI Secure Boot, but Secure Boot operates later in the process, enforcing trust within the UEFI firmware execution phase and during the transition from UEFI to the operating system.</p>
+<p>Clevo Co. is a computer hardware and firmware manufacturer that operates as both an Original Design Manufacturer (ODM) and an Original Equipment Manufacturer (OEM), producing laptops and UEFI firmware used by various personal computer brands.  One of Clevo’s publicly released UEFI software executables included private keys integral to its Boot Guard trust chain. Because Clevo’s firmware is integrated into products from other manufacturers, the exposure may have supply chain implications extending beyond Clevo-branded systems.</p>
+<h3 id="impact">Impact</h3>
+<p>An attacker with write access to flash storage for a system, whether through physical access or a privileged software update mechanism, could abuse the leaked keys to sign and install malicious firmware. Such firmware would be trusted at the early stages that will be protected by Boot Guard, allowing compromise of the affected UEFI systems and thus enabling persistent and stealthy control over the device.</p>
+<h3 id="solution">Solution</h3>
+<p>While Clevo has reportedly removed the affected software containing the leaked keys, no public remediation steps have been announced by Clevo at this time.
+Users of Clevo-based devices, including those from other  OEMs that integrate Clevo firmware, should:
+* Assess their exposure to affected firmware versions.
+* Monitor systems for unauthorized firmware modifications.
+* Apply firmware updates only from verified and trusted sources.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>This issue was responsibly disclosed by the Binarly Research Team, with initial reporting by Thierry Laurion. This document was written by Vijay Sarvepalli.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fighting the Cyber Forever War: Born Defense Blends Investment Strategy with Just War Principles]]></title>
+        <id>https://www.securityweek.com/?p=43957</id>
+        <link href="https://www.securityweek.com/fighting-the-cyber-forever-war-born-defense-blends-investment-strategy-with-just-war-principles/"/>
+        <updated>2025-10-13T15:28:01.000Z</updated>
+        <summary type="html"><![CDATA[Emerging from stealth, Born Defense is betting that a new kind of investment model can reshape how the U.S. fights its endless cyber battles.
+The post Fighting the Cyber Forever War: Born Defense Blends Investment Strategy with Just War Principles appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Kevin Townsend</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Financial, Other Industries Urged to Prepare for Quantum Computers]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/financial-industries-urged-prepare-quantum-computers</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/financial-industries-urged-prepare-quantum-computers"/>
+        <updated>2025-10-13T15:01:28.000Z</updated>
+        <summary type="html"><![CDATA[Despite daunting technical challenges, a quantum computer capable of breaking public-key encryption systems may only be a decade or two off.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7819-1: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7819-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7819-1"/>
+        <updated>2025-10-13T14:47:04.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - Network drivers;
+  - Device tree and open firmware driver;
+  - SCSI subsystem;
+  - TTY drivers;
+  - Ext4 file system;
+  - Network file system (NFS) server daemon;
+  - SMB network file system;
+  - Bluetooth subsystem;
+  - Packet sockets;
+  - Network traffic control;
+  - VMware vSockets driver;
+(CVE-2025-38350, CVE-2024-57996, CVE-2025-37752, CVE-2025-38617,
+CVE-2025-38477, CVE-2025-38083, CVE-2024-38541, CVE-2023-52757,
+CVE-2023-52975, CVE-2025-38618, CVE-2024-49950, CVE-2024-50073,
+CVE-2025-37785, CVE-2025-21796, CVE-2025-38683, CVE-2025-37797)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7818-1: Apache Subversion vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7818-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7818-1"/>
+        <updated>2025-10-13T14:39:24.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that Apache Subversion incorrectly parsed control
+characters in filenames. An attacker could possibly use this issue to
+commit a corrupted revision to a repository, leading to a denial of
+service.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Malicious Code on Unity Website Skims Information From Hundreds of Customers]]></title>
+        <id>https://www.securityweek.com/?p=43956</id>
+        <link href="https://www.securityweek.com/malicious-code-on-unity-website-skims-information-from-hundreds-of-customers/"/>
+        <updated>2025-10-13T14:30:18.000Z</updated>
+        <summary type="html"><![CDATA[The video game software development company says the incident impacted users of its SpeedTree website.
+The post Malicious Code on Unity Website Skims Information From Hundreds of Customers appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical infrastructure CISOs Can't Ignore 'Back-Office Clutter' Data]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/critical-infrastructure-back-office-data</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/critical-infrastructure-back-office-data"/>
+        <updated>2025-10-13T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OT and ICS systems indeed hold the crown jewels of critical infrastructure organizations, but unmonitored data sprawl is proving to be pure gold for increasingly brazen nation-state threat actors like Volt Typhoon, Pearce argues.]]></summary>
+        <author>
+            <name>Joe Pearce</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Generation AI: Why Today's Tech Graduates Are At a Disadvantage]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/ai-tech-graduates-disadvantage</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/ai-tech-graduates-disadvantage"/>
+        <updated>2025-10-13T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[With artificial intelligence supplanting entry-level security jobs, new cyber professionals will have to up their game to stay competitive in the industry.]]></summary>
+        <author>
+            <name>Kristina Beek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[⚡ Weekly Recap: WhatsApp Worm, Critical CVEs, Oracle 0-Day, Ransomware Cartel & More]]></title>
+        <id>https://thehackernews.com/2025/10/weekly-recap-whatsapp-worm-critical.html</id>
+        <link href="https://thehackernews.com/2025/10/weekly-recap-whatsapp-worm-critical.html"/>
+        <updated>2025-10-13T13:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Every week, the cyber world reminds us that silence doesn’t mean safety. Attacks often begin quietly — one unpatched flaw, one overlooked credential, one backup left unencrypted. By the time alarms sound, the damage is done.
+This week’s edition looks at how attackers are changing the game — linking different flaws, working together across borders, and even turning trusted tools into weapons.]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SonicWall SSL VPN Accounts in Attacker Crosshairs]]></title>
+        <id>https://www.securityweek.com/?p=43955</id>
+        <link href="https://www.securityweek.com/sonicwall-ssl-vpn-accounts-in-attacker-crosshairs/"/>
+        <updated>2025-10-13T13:08:52.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors have rapidly compromised more than 100 SonicWall SSL VPN accounts pertaining to over a dozen entities.
+The post SonicWall SSL VPN Accounts in Attacker Crosshairs appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SimonMed Imaging Data Breach Impacts 1.2 Million]]></title>
+        <id>https://www.securityweek.com/?p=43954</id>
+        <link href="https://www.securityweek.com/simonmed-imaging-data-breach-impacts-1-2-million/"/>
+        <updated>2025-10-13T12:29:31.000Z</updated>
+        <summary type="html"><![CDATA[SimonMed Imaging was targeted by the Medusa ransomware group, which claimed to have stolen 200 Gb of data.
+The post SimonMed Imaging Data Breach Impacts 1.2 Million appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Unmonitored JavaScript Is Your Biggest Holiday Security Risk]]></title>
+        <id>https://thehackernews.com/2025/10/why-unmonitored-javascript-is-your.html</id>
+        <link href="https://thehackernews.com/2025/10/why-unmonitored-javascript-is-your.html"/>
+        <updated>2025-10-13T11:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Think your WAF has you covered? Think again. This holiday season, unmonitored JavaScript is a critical oversight allowing attackers to steal payment data while your WAF and intrusion detection systems see nothing. With the 2025 shopping season weeks away, visibility gaps must close now.
+Get the complete Holiday Season Security Playbook here.
+Bottom Line Up Front
+The 2024 holiday season saw major]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NPM Infrastructure Abused in Phishing Campaign Aimed at Industrial and Electronics Firms]]></title>
+        <id>https://www.securityweek.com/?p=43953</id>
+        <link href="https://www.securityweek.com/npm-infrastructure-abused-in-phishing-campaign-aimed-at-industrial-and-electronics-firms/"/>
+        <updated>2025-10-13T11:40:19.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors used automation to create over 175 malicious NPM packages targeting more than 135 organizations.
+The post NPM Infrastructure Abused in Phishing Campaign Aimed at Industrial and Electronics Firms appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI and the Future of American Politics]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html"/>
+        <updated>2025-10-13T11:04:31.000Z</updated>
+        <summary type="html"><![CDATA[<p>Two years ago, Americans anxious about the forthcoming 2024 presidential election were considering the malevolent force of an election influencer: artificial intelligence. Over the past several years, we have seen <a href="https://www.cigionline.org/articles/then-and-now-how-does-ai-electoral-interference-compare-in-2025/">plenty</a> <a href="https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1569115/full">of</a> <a href="https://www.nytimes.com/2025/06/26/technology/ai-elections-democracy.html">warning</a> <a href="https://cdn.prod.website-files.com/643ecb10be528d2c1da863cb/682f5ae442fffdff819ef830_TP%202025.2.pdf">signs</a> from elections worldwide demonstrating how AI can be used to propagate misinformation and alter the political landscape, whether by <a href="https://www.nytimes.com/2023/12/13/us/politics/trump-meme-trolls-2024.html">trolls</a> on social media, <a href="https://www.npr.org/2024/08/17/nx-s1-5079397/openai-chatgpt-iranian-group-us-election">foreign</a> <a href="https://www.nato.int/docu/review/articles/2025/02/07/algorithmic-invasions-how-information-warfare-threatens-nato-s-eastern-flank/index.html">influencers</a>, or even a <a href="https://www.nbcnews.com/politics/2024-election/democratic-operative-admits-commissioning-fake-biden-robocall-used-ai-rcna140402">street magician</a><a href="https://www.nbcnews.com/politics/2024-election/democratic-operative-admits-commissioning-fake-biden-robocall-used-ai-rcna140402">.</a> AI is poised to play a more volatile role than ever before in America&#8217;s next federal election in 2026. We can already see how different groups of political actors are approaching AI. Professional campaigners are using AI to accelerate the traditional tactics of electioneering; organizers are using it to reinvent how movements are built; and citizens are using it both to express themselves and amplify their side&#8217;s messaging. Because there are so few rules, and so little prospect of regulatory action, around AI&#8217;s role in politics, there is no oversight of these activities, and no safeguards against the dramatic potential impacts for our democracy...</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Oracle Patches EBS Vulnerability Allowing Access to Sensitive Data]]></title>
+        <id>https://www.securityweek.com/?p=43952</id>
+        <link href="https://www.securityweek.com/oracle-patches-ebs-vulnerability-allowing-access-to-sensitive-data/"/>
+        <updated>2025-10-13T10:37:59.000Z</updated>
+        <summary type="html"><![CDATA[It’s unclear if the new Oracle E-Business Suite flaw, which can be exploited remotely without authentication, has been used in the wild.  
+The post Oracle Patches EBS Vulnerability Allowing Access to Sensitive Data appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Warn RondoDox Botnet is Weaponizing Over 50 Flaws Across 30+ Vendors]]></title>
+        <id>https://thehackernews.com/2025/10/researchers-warn-rondodox-botnet-is.html</id>
+        <link href="https://thehackernews.com/2025/10/researchers-warn-rondodox-botnet-is.html"/>
+        <updated>2025-10-13T10:12:00.000Z</updated>
+        <summary type="html"><![CDATA[Malware campaigns distributing the RondoDox botnet have expanded their targeting focus to exploit more than 50 vulnerabilities across over 30 vendors.
+The activity, described as akin to an "exploit shotgun" approach, has singled out a wide range of internet-exposed infrastructure, including routers, digital video recorders (DVRs), network video recorders (NVRs), CCTV systems, web servers, and]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Locks Down IE Mode After Hackers Turned Legacy Feature Into Backdoor]]></title>
+        <id>https://thehackernews.com/2025/10/microsoft-locks-down-ie-mode-after.html</id>
+        <link href="https://thehackernews.com/2025/10/microsoft-locks-down-ie-mode-after.html"/>
+        <updated>2025-10-13T09:54:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft said it has revamped the Internet Explorer (IE) mode in its Edge browser after receiving "credible reports" in August 2025 that unknown threat actors were abusing the backward compatibility feature to gain unauthorized access to users' devices.
+"Threat actors were leveraging basic social engineering techniques alongside unpatched (0-day) exploits in Internet Explorer's JavaScript]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spanish Authorities Dismantle ‘GXC Team’ Crime-as-a-Service Operation]]></title>
+        <id>https://www.securityweek.com/?p=43951</id>
+        <link href="https://www.securityweek.com/spanish-authorities-dismantle-gxc-team-crime-as-a-service-operation/"/>
+        <updated>2025-10-13T09:35:48.000Z</updated>
+        <summary type="html"><![CDATA[The authorities arrested GoogleXcoder, the alleged administrator of GXC Team, which offered phishing kits and Android malware.
+The post Spanish Authorities Dismantle ‘GXC Team’ Crime-as-a-Service Operation appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Extortion Group Leaks Millions of Records From Salesforce Hacks]]></title>
+        <id>https://www.securityweek.com/?p=43949</id>
+        <link href="https://www.securityweek.com/extortion-group-leaks-millions-of-records-from-salesforce-hacks/"/>
+        <updated>2025-10-13T08:44:01.000Z</updated>
+        <summary type="html"><![CDATA[The data allegedly pertains to Albertsons, Engie Resources, Fujifilm, GAP, Qantas, and Vietnam Airlines.
+The post Extortion Group Leaks Millions of Records From Salesforce Hacks appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Astaroth Banking Trojan Abuses GitHub to Remain Operational After Takedowns]]></title>
+        <id>https://thehackernews.com/2025/10/astaroth-banking-trojan-abuses-github.html</id>
+        <link href="https://thehackernews.com/2025/10/astaroth-banking-trojan-abuses-github.html"/>
+        <updated>2025-10-13T06:52:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers are calling attention to a new campaign that delivers the Astaroth banking trojan that employs GitHub as a backbone for its operations to stay resilient in the face of infrastructure takedowns.
+"Instead of relying solely on traditional command-and-control (C2) servers that can be taken down, these attackers are leveraging GitHub repositories to host malware]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Rust-Based Malware "ChaosBot" Uses Discord Channels to Control Victims' PCs]]></title>
+        <id>https://thehackernews.com/2025/10/new-rust-based-malware-chaosbot-hijacks.html</id>
+        <link href="https://thehackernews.com/2025/10/new-rust-based-malware-chaosbot-hijacks.html"/>
+        <updated>2025-10-13T05:12:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed details of a new Rust-based backdoor called ChaosBot that can allow operators to conduct reconnaissance and execute arbitrary commands on compromised hosts.
+"Threat actors leveraged compromised credentials that mapped to both Cisco VPN and an over-privileged Active Directory account named, 'serviceaccount,'" eSentire said in a technical report published]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s New in SSVC: Build, Explore, and Evolve Your Decision Models]]></title>
+        <id>https://www.sei.cmu.edu/blog/whats-new-in-ssvc-build-explore-and-evolve-your-decision-models/?utm_source=blog&amp;utm_medium=rss&amp;utm_campaign=my_site_updates</id>
+        <link href="https://www.sei.cmu.edu/blog/whats-new-in-ssvc-build-explore-and-evolve-your-decision-models/?utm_source=blog&amp;utm_medium=rss&amp;utm_campaign=my_site_updates"/>
+        <updated>2025-10-13T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Recent updates to the Stakeholder-Specific Vulnerability Categorization (SSVC) framework help different stakeholders to prioritize vulnerabilities according to their distinct risk appetites.]]></summary>
+        <author>
+            <name>SEI Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New Oracle E-Business Suite Bug Could Let Hackers Access Data Without Login]]></title>
         <id>https://thehackernews.com/2025/10/new-oracle-e-business-suite-bug-could.html</id>
