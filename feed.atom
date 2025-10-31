@@ -2,10 +2,377 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-10-30T01:51:24.098Z</updated>
+    <updated>2025-10-31T01:48:36.104Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Critical Claroty Authentication Bypass Flaw Opened OT to Attack]]></title>
+        <id>https://www.darkreading.com/ics-ot-security/claroty-patches-authentication-bypass-flaw</id>
+        <link href="https://www.darkreading.com/ics-ot-security/claroty-patches-authentication-bypass-flaw"/>
+        <updated>2025-10-30T20:29:51.000Z</updated>
+        <summary type="html"><![CDATA[CVE-2025-54603 gave attackers an opening to disrupt critical operational technology (OT) environments and critical infrastructure, plus steal data from them.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7853-2: Linux kernel (FIPS) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7853-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-7853-2"/>
+        <updated>2025-10-30T20:03:59.000Z</updated>
+        <summary type="html"><![CDATA[Jean-Claude Graf, Sandro Rüegge, Ali Hajiabadi, and Kaveh Razavi discovered
+that the Linux kernel contained insufficient branch predictor isolation
+between a guest and a userspace hypervisor for certain processors. This
+flaw is known as VMSCAPE. An attacker in a guest VM could possibly use this
+to expose sensitive information from the host OS. (CVE-2025-40300)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - DMA engine subsystem;
+  - GPU drivers;
+  - HSI subsystem;
+  - Ethernet team driver;
+  - Ext4 file system;
+  - Timer subsystem;
+  - DCCP (Datagram Congestion Control Protocol);
+  - IPv6 networking;
+  - NET/ROM layer;
+  - SCTP protocol;
+  - USB sound devices;
+(CVE-2023-52574, CVE-2023-52650, CVE-2024-41006, CVE-2024-50006,
+CVE-2024-50299, CVE-2024-53124, CVE-2024-53150, CVE-2024-56767,
+CVE-2025-37838, CVE-2025-38352)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7854-1: Linux kernel (KVM) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7854-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7854-1"/>
+        <updated>2025-10-30T19:48:12.000Z</updated>
+        <summary type="html"><![CDATA[Jean-Claude Graf, Sandro Rüegge, Ali Hajiabadi, and Kaveh Razavi discovered
+that the Linux kernel contained insufficient branch predictor isolation
+between a guest and a userspace hypervisor for certain processors. This
+flaw is known as VMSCAPE. An attacker in a guest VM could possibly use this
+to expose sensitive information from the host OS. (CVE-2025-40300)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - DMA engine subsystem;
+  - GPU drivers;
+  - HSI subsystem;
+  - Ethernet team driver;
+  - Framebuffer layer;
+  - BTRFS file system;
+  - Ext4 file system;
+  - Network file system (NFS) server daemon;
+  - Timer subsystem;
+  - DCCP (Datagram Congestion Control Protocol);
+  - IPv6 networking;
+  - NET/ROM layer;
+  - Packet sockets;
+  - Network traffic control;
+  - SCTP protocol;
+  - VMware vSockets driver;
+  - USB sound devices;
+(CVE-2023-52574, CVE-2023-52650, CVE-2024-35849, CVE-2024-41006,
+CVE-2024-49924, CVE-2024-50006, CVE-2024-50299, CVE-2024-53124,
+CVE-2024-53150, CVE-2024-56767, CVE-2025-21796, CVE-2025-37785,
+CVE-2025-37838, CVE-2025-38352, CVE-2025-38477, CVE-2025-38617,
+CVE-2025-38618)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LotL Attack Hides Malware in Windows Native AI Stack]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/lotl-attack-malware-windows-native-ai-stack</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/lotl-attack-malware-windows-native-ai-stack"/>
+        <updated>2025-10-30T19:47:22.000Z</updated>
+        <summary type="html"><![CDATA[Security programs trust AI data files, but they shouldn't: they can conceal malware more stealthily than most file types.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7853-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7853-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7853-1"/>
+        <updated>2025-10-30T19:01:29.000Z</updated>
+        <summary type="html"><![CDATA[Jean-Claude Graf, Sandro Rüegge, Ali Hajiabadi, and Kaveh Razavi discovered
+that the Linux kernel contained insufficient branch predictor isolation
+between a guest and a userspace hypervisor for certain processors. This
+flaw is known as VMSCAPE. An attacker in a guest VM could possibly use this
+to expose sensitive information from the host OS. (CVE-2025-40300)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - DMA engine subsystem;
+  - GPU drivers;
+  - HSI subsystem;
+  - Ethernet team driver;
+  - Ext4 file system;
+  - Timer subsystem;
+  - DCCP (Datagram Congestion Control Protocol);
+  - IPv6 networking;
+  - NET/ROM layer;
+  - SCTP protocol;
+  - USB sound devices;
+(CVE-2023-52574, CVE-2023-52650, CVE-2024-41006, CVE-2024-50006,
+CVE-2024-50299, CVE-2024-53124, CVE-2024-53150, CVE-2024-56767,
+CVE-2025-37838, CVE-2025-38352)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google's Built-In AI Defenses on Android Now Block 10 Billion Scam Messages a Month]]></title>
+        <id>https://thehackernews.com/2025/10/googles-built-in-ai-defenses-on-android.html</id>
+        <link href="https://thehackernews.com/2025/10/googles-built-in-ai-defenses-on-android.html"/>
+        <updated>2025-10-30T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google on Thursday revealed that the scam defenses built into Android safeguard users around the world from more than 10 billion suspected malicious calls and messages every month.
+The tech giant also said it has blocked over 100 million suspicious numbers from using Rich Communication Services (RCS), an evolution of the SMS protocol, thereby preventing scams before they could even be sent.
+In]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Russian Ransomware Gangs Weaponize Open-Source AdaptixC2 for Advanced Attacks]]></title>
+        <id>https://thehackernews.com/2025/10/russian-ransomware-gangs-weaponize-open.html</id>
+        <link href="https://thehackernews.com/2025/10/russian-ransomware-gangs-weaponize-open.html"/>
+        <updated>2025-10-30T16:40:00.000Z</updated>
+        <summary type="html"><![CDATA[The open-source command-and-control (C2) framework known as AdaptixC2 is being used by a growing number of threat actors, some of whom are related to Russian ransomware gangs.
+AdaptixC2 is an emerging extensible post-exploitation and adversarial emulation framework designed for penetration testing. While the server component is written in Golang, the GUI Client is written in C++ QT for]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7852-1: libxml2 vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7852-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7852-1"/>
+        <updated>2025-10-30T16:39:20.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that libxslt, used by libxml2, incorrectly handled
+certain attributes. An attacker could use this issue to cause a crash,
+resulting in a denial of service, or possibly execute arbitrary code. This
+update adds a fix to libxml2 to mitigate the libxslt vulnerability.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spektrum Labs Emerges From Stealth to Help Companies Prove Resilience]]></title>
+        <id>https://www.securityweek.com/?p=44135</id>
+        <link href="https://www.securityweek.com/spektrum-labs-emerges-from-stealth-to-help-companies-prove-resilience/"/>
+        <updated>2025-10-30T15:00:50.000Z</updated>
+        <summary type="html"><![CDATA[Spektrum Labs has raised $10 million in seed funding for its cyber resilience platform.
+The post Spektrum Labs Emerges From Stealth to Help Companies Prove Resilience appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New "Brash" Exploit Crashes Chromium Browsers Instantly with a Single Malicious URL]]></title>
+        <id>https://thehackernews.com/2025/10/new-brash-exploit-crashes-chromium.html</id>
+        <link href="https://thehackernews.com/2025/10/new-brash-exploit-crashes-chromium.html"/>
+        <updated>2025-10-30T14:45:00.000Z</updated>
+        <summary type="html"><![CDATA[A severe vulnerability disclosed in Chromium's Blink rendering engine can be exploited to crash many Chromium-based browsers within a few seconds.
+Security researcher Jose Pino, who disclosed details of the flaw, has codenamed it Brash.
+"It allows any Chromium browser to collapse in 15-60 seconds by exploiting an architectural flaw in how certain DOM operations are managed," Pino said in a]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7850-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7850-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7850-1"/>
+        <updated>2025-10-30T14:21:45.000Z</updated>
+        <summary type="html"><![CDATA[Jean-Claude Graf, Sandro Rüegge, Ali Hajiabadi, and Kaveh Razavi discovered
+that the Linux kernel contained insufficient branch predictor isolation
+between a guest and a userspace hypervisor for certain processors. This
+flaw is known as VMSCAPE. An attacker in a guest VM could possibly use this
+to expose sensitive information from the host OS. (CVE-2025-40300)
+
+A security issues was discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystem:
+  - USB sound devices;
+(CVE-2024-53150)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reflectiz Raises $22 Million for Website Security Solution]]></title>
+        <id>https://www.securityweek.com/?p=44134</id>
+        <link href="https://www.securityweek.com/reflectiz-raises-22-million-for-website-security-solution/"/>
+        <updated>2025-10-30T13:24:00.000Z</updated>
+        <summary type="html"><![CDATA[The company will expand its product offering, establish global headquarters in Boston, and fuel growth and go-to-market efforts.
+The post Reflectiz Raises $22 Million for Website Security Solution appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Millions Impacted by Conduent Data Breach]]></title>
+        <id>https://www.securityweek.com/?p=44133</id>
+        <link href="https://www.securityweek.com/millions-impacted-by-conduent-data-breach/"/>
+        <updated>2025-10-30T13:01:56.000Z</updated>
+        <summary type="html"><![CDATA[The hackers stole names, addresses, dates of birth, Social Security numbers, and health and insurance information.
+The post Millions Impacted by Conduent Data Breach appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Major US Telecom Backbone Firm Hacked by Nation-State Actors]]></title>
+        <id>https://www.securityweek.com/?p=44132</id>
+        <link href="https://www.securityweek.com/major-us-telecom-backbone-firm-hacked-by-nation-state-actors/"/>
+        <updated>2025-10-30T12:36:23.000Z</updated>
+        <summary type="html"><![CDATA[Ribbon Communications provides technology for communications networks and its customers include the US government and major telecom firms. 
+The post Major US Telecom Backbone Firm Hacked by Nation-State Actors appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Two Industrial Control Systems Advisories]]></title>
+        <id>/node/24141</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/10/30/cisa-releases-two-industrial-control-systems-advisories"/>
+        <updated>2025-10-30T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released two Industrial Control Systems (ICS). These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS. 
+ICSA-25-303-01 International Standards Organization ISO 15118-2
+ICSA-25-303-02 Hitachi Energy TropOS 
+CISA encourages users and administrators to review newly released ICS Advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Guidance Released on Microsoft Exchange Server Security Best Practices]]></title>
+        <id>/node/24131</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/10/30/new-guidance-released-microsoft-exchange-server-security-best-practices"/>
+        <updated>2025-10-30T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA, in partnership with the National Security Agency and international cybersecurity partners, released Microsoft Exchange Server Security Best Practices, a guide to help network defenders harden on-premises Exchange servers against exploitation by malicious actors.
+Threat activity targeting Exchange continues to persist, and organizations with unprotected or misconfigured Exchange servers remain at high risk of compromise. 
+Best practices in this guide focus on hardening user authentication and access, ensuring strong network encryption, and minimizing application attack surfaces. CISA recommends organizations also decommission any remaining end-of-life on-premises or hybrid Exchange servers after transitioning to Microsoft 365, as retaining the “last Exchange server” can expose organizations to ongoing exploitation activity. 
+CISA recommends organizations implement Microsoft Exchange Server Best Practices and take steps to decommission end-of-life on-premises Exchange servers in hybrid environments to significantly reduce their risk from cyber threats.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds Two Known Exploited Vulnerabilities to Catalog]]></title>
+        <id>/node/24142</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog"/>
+        <updated>2025-10-30T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.
+CVE-2025-24893 XWiki Platform Eval Injection Vulnerability
+CVE-2025-41244 Broadcom VMware Aria Operations and VMware Tools Privilege Defined with Unsafe Actions Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.   
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information. 
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of KEV Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Death of the Security Checkbox: BAS Is the Power Behind Real Defense]]></title>
+        <id>https://thehackernews.com/2025/10/the-death-of-security-checkbox-bas-is.html</id>
+        <link href="https://thehackernews.com/2025/10/the-death-of-security-checkbox-bas-is.html"/>
+        <updated>2025-10-30T11:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Security doesn’t fail at the point of breach. It fails at the point of impact. 
+That line set the tone for this year’s Picus Breach and Simulation (BAS) Summit, where researchers, practitioners, and CISOs all echoed the same theme: cyber defense is no longer about prediction. It's about proof.
+When a new exploit drops, scanners scour the internet in minutes. Once attackers gain a foothold,]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Canada Says Hackers Tampered With ICS at Water Facility, Oil and Gas Firm]]></title>
+        <id>https://www.securityweek.com/?p=44131</id>
+        <link href="https://www.securityweek.com/canada-says-hackers-tampered-with-ics-at-water-facility-oil-and-gas-firm/"/>
+        <updated>2025-10-30T11:36:39.000Z</updated>
+        <summary type="html"><![CDATA[The Canadian Centre for Cyber Security has warned CISOs that hacktivists are increasingly targeting internet-exposed ICS.
+The post Canada Says Hackers Tampered With ICS at Water Facility, Oil and Gas Firm appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The AI-Designed Bioweapon Arms Race]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/10/the-ai-designed-bioweapon-arms-race.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/10/the-ai-designed-bioweapon-arms-race.html"/>
+        <updated>2025-10-30T11:05:16.000Z</updated>
+        <summary type="html"><![CDATA[<p>Interesting <a href="https://arstechnica.com/science/2025/10/do-ai-designed-proteins-create-a-biosecurity-vulnerability/">article</a> about the arms race between AI systems that invent/design new biological pathogens, and AI systems that detect them before they&#8217;re created:</p>
+<blockquote><p>The team started with a basic test: use AI tools to design variants of the toxin ricin, then test them against the software that is used to screen DNA orders. The results of the test suggested there was a risk of dangerous protein variants slipping past existing screening software, so the situation was treated like the equivalent of a zero-day vulnerability.</p>
+<p>[&#8230;]</p>
+<p>Details of that original test are ...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[136 NPM Packages Delivering Infostealers Downloaded 100,000 Times]]></title>
+        <id>https://www.securityweek.com/?p=44130</id>
+        <link href="https://www.securityweek.com/136-npm-packages-delivering-infostealers-downloaded-100000-times/"/>
+        <updated>2025-10-30T10:59:33.000Z</updated>
+        <summary type="html"><![CDATA[The packages deployed malicious code harvesting system information, credentials, tokens, API keys, and other sensitive information.
+The post 136 NPM Packages Delivering Infostealers Downloaded 100,000 Times appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ThreatsDay Bulletin: DNS Poisoning Flaw, Supply-Chain Heist, Rust Malware Trick and New RATs Rising]]></title>
+        <id>https://thehackernews.com/2025/10/threatsday-bulletin-dns-poisoning-flaw.html</id>
+        <link href="https://thehackernews.com/2025/10/threatsday-bulletin-dns-poisoning-flaw.html"/>
+        <updated>2025-10-30T10:54:00.000Z</updated>
+        <summary type="html"><![CDATA[The comfort zone in cybersecurity is gone. Attackers are scaling down, focusing tighter, and squeezing more value from fewer, high-impact targets. At the same time, defenders face growing blind spots — from spoofed messages to large-scale social engineering.
+This week’s findings show how that shrinking margin of safety is redrawing the threat landscape. Here’s what’s]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PhantomRaven Malware Found in 126 npm Packages Stealing GitHub Tokens From Devs]]></title>
+        <id>https://thehackernews.com/2025/10/phantomraven-malware-found-in-126-npm.html</id>
+        <link href="https://thehackernews.com/2025/10/phantomraven-malware-found-in-126-npm.html"/>
+        <updated>2025-10-30T10:16:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have uncovered yet another active software supply chain attack campaign targeting the npm registry with over 100 malicious packages that can steal authentication tokens, CI/CD secrets, and GitHub credentials from developers' machines.
+The campaign has been codenamed PhantomRaven by Koi Security. The activity is assessed to have begun in August 2025, when the first]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Former US Defense Contractor Executive Admits to Selling Exploits to Russia]]></title>
+        <id>https://www.securityweek.com/?p=44129</id>
+        <link href="https://www.securityweek.com/former-defense-contractor-executive-admits-to-selling-exploits-to-russia/"/>
+        <updated>2025-10-30T09:32:10.000Z</updated>
+        <summary type="html"><![CDATA[Peter Williams stole trade secrets from his US employer and sold them to a Russian cybersecurity tools broker.
+The post Former US Defense Contractor Executive Admits to Selling Exploits to Russia appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Leak Outs Hacker Students of Iran's MOIS Training Academy]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/data-leak-students-iran-mois-training-academy</id>
+        <link href="https://www.darkreading.com/threat-intelligence/data-leak-students-iran-mois-training-academy"/>
+        <updated>2025-10-30T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ravin Academy, a school for the Iranian state hackers of tomorrow, has itself, ironically, been hacked.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Malicious NPM Packages Disguised With 'Invisible' Dependencies]]></title>
         <id>https://www.darkreading.com/application-security/malicious-npm-packages-invisible-dependencies</id>
@@ -37,6 +404,21 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[USN-7848-1: AMD Microcode vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7848-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7848-1"/>
+        <updated>2025-10-29T19:51:21.000Z</updated>
+        <summary type="html"><![CDATA[Oleksii Oleksenko, Cedric Fournet, Jana Hofmann, Boris Köpf, Stavros Volos,
+and Flavien Solt discovered that some AMD processors may allow an attacker
+to infer data from previous stores. A local attacker could possibly use
+this issue to expose sensitive information. This update provides the
+updated microcode mitigations required for the corresponding Linux kernel
+update.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Microsoft Security Change for Azure VMs Creates Pitfalls]]></title>
         <id>https://www.darkreading.com/cloud-security/microsoft-security-change-azure-vms-creates-pitfalls</id>
         <link href="https://www.darkreading.com/cloud-security/microsoft-security-change-azure-vms-creates-pitfalls"/>
@@ -54,6 +436,41 @@
         <summary type="html"><![CDATA[Infamous botnets like Mirai are exploiting Web-exposed assets such as PHP servers, IoT devices, and cloud gateways to gain control over systems and build strength.]]></summary>
         <author>
             <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7847-1: GNU binutils vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7847-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7847-1"/>
+        <updated>2025-10-29T15:49:40.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that GNU binutils incorrectly handled certain files.
+An attacker could possibly use this issue to cause a crash or execute
+arbitrary code. The attack is restricted to local execution.
+(CVE-2025-11082)
+
+It was discovered that GNU binutils incorrectly handled certain inputs.
+An attacker could possibly use this issue to cause a crash or
+execute arbitrary code. (CVE-2025-11083, CVE-2025-5244, CVE-2025-5245,
+CVE-2025-7554)
+
+It was discovered that GNU binutils incorrectly handled certain files.
+An attacker could possibly use this issue to cause crash, execute
+arbitrary code or expose sensitive information. (CVE-2025-1147)
+
+It was discovered that GNU binutils incorrectly handled certain inputs.
+An attacker could possibly use this issue to cause a denial of service.
+(CVE-2025-1148, CVE-2025-3198, CVE-2025-8225
+
+It was discovered that GNU binutils incorrectly handled certain files.
+An attacker could possibly use this issue to cause a crash. This issue only
+affected Ubuntu 25.04. (CVE-2025-1182)
+
+It was discovered that GNU binutils incorrectly handled certain inputs.
+An attacker could possibly use this issue to execute arbritrary code.
+This issue only affected Ubuntu 25.04 and Ubuntu 24.04 LTS.
+(CVE-2025-7546)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
         </author>
     </entry>
     <entry>
@@ -143,6 +560,19 @@ The activity, according to a new report from the Symantec and Carbon Black Threa
 The attacks]]></summary>
         <author>
             <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7846-1: X.Org X Server vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7846-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7846-1"/>
+        <updated>2025-10-29T11:49:03.000Z</updated>
+        <summary type="html"><![CDATA[Jan-Niklas Sohn discovered that the X.Org X Server incorrectly handled
+certain memory operations. An attacker could use these issues to cause the
+X Server to crash, leading to a denial of service, obtain sensitive
+information, or possibly execute arbitrary code.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
         </author>
     </entry>
     <entry>
@@ -289,6 +719,16 @@ CVE-2025-6204 (CVSS score: 8.0) - A code injection vulnerability in Dassault Sys
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The AI Trust Paradox: Why Security Teams Fear Automated Remediation]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/ai-trust-paradox-security-teams-fear-automated-remediation</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/ai-trust-paradox-security-teams-fear-automated-remediation"/>
+        <updated>2025-10-28T20:38:57.000Z</updated>
+        <summary type="html"><![CDATA[Security teams invest in AI for automated remediation but hesitate to trust it fully due to fears of unintended consequences and lack of transparency.]]></summary>
+        <author>
+            <name>Tyler Shields</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[YouTube Ghost Network Utilizes Spooky Tactics to Target Users]]></title>
         <id>https://www.darkreading.com/cyberattacks-data-breaches/youtube-ghost-network-target-users</id>
         <link href="https://www.darkreading.com/cyberattacks-data-breaches/youtube-ghost-network-target-users"/>
@@ -306,6 +746,18 @@ CVE-2025-6204 (CVSS score: 8.0) - A code injection vulnerability in Dassault Sys
         <summary type="html"><![CDATA[Numerous organizations have been attacked via Oracle EBS zero-day CVE-2025-61882, and evidence suggests more like Schneider Electric could be on that list.]]></summary>
         <author>
             <name>Alexander Culafi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7844-1: YAML::Syck vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7844-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7844-1"/>
+        <updated>2025-10-28T19:20:39.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that YAML::Syck did not properly handle parsing  YAML
+files. An attacker could possibly use this issue to expose sensitive
+information.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
         </author>
     </entry>
     <entry>
@@ -7201,378 +7653,6 @@ This update corrects flaws in the following subsystems:
         <summary type="html"><![CDATA[Windows 10 reaches end-of-life on Oct. 14, which will triple the number of vulnerable enterprise systems and create a massive attack surface for cybercriminals.]]></summary>
         <author>
             <name>Fahmida Y. Rashid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OneLogin Bug Let Attackers Use API Keys to Steal OIDC Secrets and Impersonate Apps]]></title>
-        <id>https://thehackernews.com/2025/10/onelogin-bug-let-attackers-use-api-keys.html</id>
-        <link href="https://thehackernews.com/2025/10/onelogin-bug-let-attackers-use-api-keys.html"/>
-        <updated>2025-10-01T13:27:00.000Z</updated>
-        <summary type="html"><![CDATA[A high-severity security flaw has been disclosed in the One Identity OneLogin Identity and Access Management (IAM) solution that, if successfully exploited, could expose sensitive OpenID Connect (OIDC) application client secrets under certain circumstances.
-The vulnerability, tracked as CVE-2025-59363, has been assigned a CVSS score of 7.7 out of 10.0. It has been described as a case of]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learn How Leading Security Teams Blend AI + Human Workflows (Free Webinar)]]></title>
-        <id>https://thehackernews.com/2025/10/how-leading-security-teams-blend-ai.html</id>
-        <link href="https://thehackernews.com/2025/10/how-leading-security-teams-blend-ai.html"/>
-        <updated>2025-10-01T12:45:00.000Z</updated>
-        <summary type="html"><![CDATA[AI is changing automation—but not always for the better. That’s why we’re hosting a new webinar, "Workflow Clarity: Where AI Fits in Modern Automation," with Thomas Kinsella, Co-founder & Chief Customer Officer at Tines, to explore how leading teams are cutting through the hype and building workflows that actually deliver.The rise of AI has changed how organizations think about automation.]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Red Hat OpenShift AI Flaw Exposes Hybrid Cloud Infrastructure to Full Takeover]]></title>
-        <id>https://thehackernews.com/2025/10/critical-red-hat-openshift-ai-flaw.html</id>
-        <link href="https://thehackernews.com/2025/10/critical-red-hat-openshift-ai-flaw.html"/>
-        <updated>2025-10-01T12:36:00.000Z</updated>
-        <summary type="html"><![CDATA[A severe security flaw has been disclosed in the Red Hat OpenShift AI service that could allow attackers to escalate privileges and take control of the complete infrastructure under certain conditions.
-OpenShift AI is a platform for managing the lifecycle of predictive and generative artificial intelligence (GenAI) models at scale and across hybrid cloud environments. It also facilitates data]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chinese APT ‘Phantom Taurus’ Targeting Organizations With Net-Star Malware]]></title>
-        <id>https://www.securityweek.com/?p=43819</id>
-        <link href="https://www.securityweek.com/chinese-apt-phantom-taurus-targeting-organizations-with-net-star-malware/"/>
-        <updated>2025-10-01T12:21:11.000Z</updated>
-        <summary type="html"><![CDATA[Focused on espionage, the threat actor shares infrastructure with Chinese APTs, but uses different TTPs in attacks.
-The post Chinese APT ‘Phantom Taurus’ Targeting Organizations With Net-Star Malware appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Canadian Airline WestJet Says Hackers Stole Customer Data]]></title>
-        <id>https://www.securityweek.com/?p=43817</id>
-        <link href="https://www.securityweek.com/canadian-airline-westjet-says-hackers-stole-customer-data/"/>
-        <updated>2025-10-01T11:45:12.000Z</updated>
-        <summary type="html"><![CDATA[The company says names, contact details, and ID documents provided in connection with reservations and travel were stolen from its systems.
-The post Canadian Airline WestJet Says Hackers Stole Customer Data appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NIST Publishes Guide for Protecting ICS Against USB-Borne Threats]]></title>
-        <id>https://www.securityweek.com/?p=43815</id>
-        <link href="https://www.securityweek.com/nist-publishes-guide-for-protecting-ics-against-usb-borne-threats/"/>
-        <updated>2025-10-01T11:16:48.000Z</updated>
-        <summary type="html"><![CDATA[NIST Special Publication 1334 focuses on reducing cybersecurity risks associated with the use of removable media devices in OT environments.
-The post NIST Publishes Guide for Protecting ICS Against USB-Borne Threats appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Use of Generative AI in Scams]]></title>
-        <id>https://www.schneier.com/blog/archives/2025/10/use-of-generative-ai-in-scams.html</id>
-        <link href="https://www.schneier.com/blog/archives/2025/10/use-of-generative-ai-in-scams.html"/>
-        <updated>2025-10-01T11:09:51.000Z</updated>
-        <summary type="html"><![CDATA[<p>New report: &#8220;<a href="https://datasociety.net/library/scam-gpt/">Scam GPT: GenAI and the Automation of Fraud</a>.&#8221;</p>
-<blockquote><p>This primer maps what we currently know about generative AI’s role in scams, the communities most at risk, and the broader economic and cultural shifts that are making people more willing to take risks, more vulnerable to deception, and more likely to either perpetuate scams or fall victim to them.</p>
-<p>AI-enhanced scams are not merely financial or technological crimes; they also exploit social vulnerabilities ­ whether short-term, like travel, or structural, like precarious employment. This means they require social solutions in addition to technical ones. By examining how scammers are changing and accelerating their methods, we hope to show that defending against them will require a constellation of cultural shifts, corporate interventions, and eff­ective legislation...</p></blockquote>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2025 Cybersecurity Reality Check: Breaches Hidden, Attack Surfaces Growing, and AI Misperceptions Rising]]></title>
-        <id>https://thehackernews.com/2025/10/2025-cybersecurity-reality-check.html</id>
-        <link href="https://thehackernews.com/2025/10/2025-cybersecurity-reality-check.html"/>
-        <updated>2025-10-01T11:07:00.000Z</updated>
-        <summary type="html"><![CDATA[Bitdefender’s 2025 Cybersecurity Assessment Report paints a sobering picture of today’s cyber defense landscape: mounting pressure to remain silent after breaches, a gap between leadership and frontline teams, and a growing urgency to shrink the enterprise attack surface.
-The annual research combines insights from over 1,200 IT and security professionals across six countries, along with an]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hackers Exploit Milesight Routers to Send Phishing SMS to European Users]]></title>
-        <id>https://thehackernews.com/2025/10/hackers-exploit-milesight-routers-to.html</id>
-        <link href="https://thehackernews.com/2025/10/hackers-exploit-milesight-routers-to.html"/>
-        <updated>2025-10-01T11:07:00.000Z</updated>
-        <summary type="html"><![CDATA[Unknown threat actors are abusing Milesight industrial cellular routers to send SMS messages as part of a smishing campaign targeting users in European countries since at least February 2022.
-French cybersecurity company SEKOIA said the attackers are exploiting the cellular router's API to send malicious SMS messages containing phishing URLs, with the campaigns primarily targeting Sweden, Italy,]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Descope Raises $35 Million in Seed Round Extension]]></title>
-        <id>https://www.securityweek.com/?p=43812</id>
-        <link href="https://www.securityweek.com/descope-raises-35-million-in-seed-round-extension/"/>
-        <updated>2025-10-01T11:02:21.000Z</updated>
-        <summary type="html"><![CDATA[The identity and access management provider will invest in agentic identity R&D, expand to new regions, and hire new talent.
-The post Descope Raises $35 Million in Seed Round Extension appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cybersecurity Awareness Month 2025: Prioritizing Identity to Safeguard Critical Infrastructure]]></title>
-        <id>https://www.securityweek.com/?p=43807</id>
-        <link href="https://www.securityweek.com/cybersecurity-awareness-month-2025prioritizing-identity-to-safeguard-critical-infrastructure/"/>
-        <updated>2025-10-01T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This year’s theme focuses on government entities and small and medium-sized businesses that are vital to protecting the systems and services that keep our communities running. 
-The post Cybersecurity Awareness Month 2025: Prioritizing Identity to Safeguard Critical Infrastructure appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Torsten George</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Broadcom Fails to Disclose Zero-Day Exploitation of VMware Vulnerability]]></title>
-        <id>https://www.securityweek.com/?p=43805</id>
-        <link href="https://www.securityweek.com/broadcom-fails-to-disclose-zero-day-exploitation-of-vmware-vulnerability/"/>
-        <updated>2025-10-01T09:25:59.000Z</updated>
-        <summary type="html"><![CDATA[Impacting VMware Aria Operations and VMware Tools, the flaw can be exploited to elevate privileges on the VM.
-The post Broadcom Fails to Disclose Zero-Day Exploitation of VMware Vulnerability appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Android Banking Trojan “Klopatra” Uses Hidden VNC to Control Infected Smartphones]]></title>
-        <id>https://thehackernews.com/2025/10/new-android-banking-trojan-klopatra.html</id>
-        <link href="https://thehackernews.com/2025/10/new-android-banking-trojan-klopatra.html"/>
-        <updated>2025-10-01T09:25:00.000Z</updated>
-        <summary type="html"><![CDATA[A previously undocumented Android banking trojan called Klopatra has compromised over 3,000 devices, with a majority of the infections reported in Spain and Italy.
-Italian fraud prevention firm Cleafy, which discovered the sophisticated malware and remote access trojan (RAT) in late August 2025, said it leverages Hidden Virtual Network Computing (VNC) for remote control of infected devices and]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Battering RAM Attack Breaks Intel and AMD Security Tech With $50 Device]]></title>
-        <id>https://www.securityweek.com/?p=43803</id>
-        <link href="https://www.securityweek.com/battering-ram-attack-breaks-intel-and-amd-security-tech-with-50-device/"/>
-        <updated>2025-10-01T08:50:50.000Z</updated>
-        <summary type="html"><![CDATA[Intel and AMD say the research is not in scope of their threat model because the attack requires physical access to a device.
-The post Battering RAM Attack Breaks Intel and AMD Security Tech With $50 Device appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7775-3: Linux kernel (Azure) vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7775-3</id>
-        <link href="https://ubuntu.com/security/notices/USN-7775-3"/>
-        <updated>2025-10-01T08:17:54.000Z</updated>
-        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - ARM64 architecture;
-  - PowerPC architecture;
-  - x86 architecture;
-  - ACPI drivers;
-  - Serial ATA and Parallel ATA drivers;
-  - Drivers core;
-  - ATA over ethernet (AOE) driver;
-  - Network block device driver;
-  - Bus devices;
-  - Clock framework and drivers;
-  - Hardware crypto device drivers;
-  - DMA engine subsystem;
-  - EDAC drivers;
-  - GPU drivers;
-  - HID subsystem;
-  - InfiniBand drivers;
-  - Input Device (Miscellaneous) drivers;
-  - Multiple devices driver;
-  - Media drivers;
-  - VMware VMCI Driver;
-  - MMC subsystem;
-  - MTD block device drivers;
-  - Network drivers;
-  - Pin controllers subsyste…]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ukraine Warns of CABINETRAT Backdoor + XLL Add-ins Spread via Signal ZIPs]]></title>
-        <id>https://thehackernews.com/2025/10/ukraine-warns-of-cabinetrat-backdoor.html</id>
-        <link href="https://thehackernews.com/2025/10/ukraine-warns-of-cabinetrat-backdoor.html"/>
-        <updated>2025-10-01T07:11:19.000Z</updated>
-        <summary type="html"><![CDATA[The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of new targeted cyber attacks in the country using a backdoor called CABINETRAT.
-The activity, observed in September 2025, has been attributed to a threat cluster it tracks as UAC-0245. The agency said it spotted the attack following the discovery of software tools taking the form of XLL files, which refer to Microsoft Excel]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[China Imposes One-Hour Reporting Rule for Major Cyber Incidents]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/china-one-hour-reporting-rule-major-cyber-incidents</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/china-one-hour-reporting-rule-major-cyber-incidents"/>
-        <updated>2025-10-01T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The sweeping new regulations show that China's serious about hardening its own networks after launching widespread attacks on global networks.]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7788-1: libmspack vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7788-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7788-1"/>
-        <updated>2025-10-01T00:06:41.000Z</updated>
-        <summary type="html"><![CDATA[Jakub Wilk discovered that libmspack did not correctly handle certain
-integer operations and bounds checking. A remote attacker could possibly
-use this issue to cause a denial of service. (CVE-2015-4467, CVE-2015-4468,
-CVE-2015-4469, CVE-2015-4472)
-
-It was discovered that libmspack incorrectly handled certain malformed CAB
-files. A remote attacker could use this issue to cause libmspack to crash,
-resulting in a denial of service. (CVE-2017-11423)
-
-It was discovered that libmspack incorrectly handled certain malformed CHM
-files. A remote attacker could use this issue to cause libmspack to crash,
-resulting in a denial of service, or possibly execute arbitrary code.
-(CVE-2017-6419)
-
-Hanno Böck discovered that libmspack incorrectly handled certain CHM files.
-An attacker could possibly use this issue to cause a denial of service.
-(CVE-2018-14679, CVE-2018-14680)
-
-Jakub Wilk discovered that libmspack incorrectly handled certain KWAJ
-files. An attacker could possibly use this issue to execute arbitrary code.
-(CVE-2018-14681)
-
-Dmitry Glavatskikh discovered that libmspack incorrectly handled certain
-CHM files. An attacker could possibly use this issue to execute arbitrary
-code. (CVE-2018-14682)
-
-It was discovered libmspack incorrectly handled certain malformed CAB
-files. A remote attacker could use this issue to cause libmspack to crash,
-resulting in a denial of service. (CVE-2018-18585)
-
-It was discovered that libmspack incorrectly handled certain CHM files. A
-remote attacker could possibly use this issue to access sensitive
-information. (CVE-2019-1010305)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7787-1: Libxslt vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7787-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7787-1"/>
-        <updated>2025-09-30T23:47:26.000Z</updated>
-        <summary type="html"><![CDATA[Ivan Fratric discovered that Libxslt did not correctly handle certain
-memory operations. An attacker could possibly use this issue to execute
-arbitrary code or cause a denial of service.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New China APT Strikes With Precision and Persistence]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/new-china-apt-strikes-precision-persistence</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/new-china-apt-strikes-precision-persistence"/>
-        <updated>2025-09-30T21:09:37.000Z</updated>
-        <summary type="html"><![CDATA[Phantom Taurus demonstrates a deep understanding of Windows environments, including advanced components like IIServerCore, a fileless backdoor that executes in memory to evade detection.]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Klopatra' Trojan Makes Bank Transfers While You Sleep]]></title>
-        <id>https://www.darkreading.com/threat-intelligence/klopatra-trojan-bank-transfers-sleep</id>
-        <link href="https://www.darkreading.com/threat-intelligence/klopatra-trojan-bank-transfers-sleep"/>
-        <updated>2025-09-30T20:28:44.000Z</updated>
-        <summary type="html"><![CDATA[A sophisticated new banking malware is hard to detect, capable of stealing lots of money, and infecting thousands of people in Italy and Spain.]]></summary>
-        <author>
-            <name>Nate Nelson, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[China Exploited New VMware Bug for Nearly a Year]]></title>
-        <id>https://www.darkreading.com/remote-workforce/china-exploited-new-vmware-bug-nearly</id>
-        <link href="https://www.darkreading.com/remote-workforce/china-exploited-new-vmware-bug-nearly"/>
-        <updated>2025-09-30T19:41:14.000Z</updated>
-        <summary type="html"><![CDATA[A seemingly benign privilege-escalation process in VMware and other software has likely benefited attackers and other malware strains for years, researchers noted.]]></summary>
-        <author>
-            <name>Alexander Culafi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[$50 Battering RAM Attack Breaks Intel and AMD Cloud Security Protections]]></title>
-        <id>https://thehackernews.com/2025/10/50-battering-ram-attack-breaks-intel.html</id>
-        <link href="https://thehackernews.com/2025/10/50-battering-ram-attack-breaks-intel.html"/>
-        <updated>2025-09-30T18:42:00.000Z</updated>
-        <summary type="html"><![CDATA[A group of academics from KU Leuven and the University of Birmingham has demonstrated a new vulnerability called Battering RAM to bypass the latest defenses on Intel and AMD cloud processors.
-"We built a simple, $50 interposer that sits quietly in the memory path, behaving transparently during startup and passing all trust checks," researchers Jesse De Meulemeester, David Oswald, Ingrid]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Phantom Taurus: New China-Linked Hacker Group Hits Governments With Stealth Malware]]></title>
-        <id>https://thehackernews.com/2025/09/phantom-taurus-new-china-linked-hacker.html</id>
-        <link href="https://thehackernews.com/2025/09/phantom-taurus-new-china-linked-hacker.html"/>
-        <updated>2025-09-30T16:07:00.000Z</updated>
-        <summary type="html"><![CDATA[Government and telecommunications organizations across Africa, the Middle East, and Asia have emerged as the target of a previously undocumented China-aligned nation-state actor dubbed Phantom Taurus over the past two-and-a-half years.
-"Phantom Taurus' main focus areas include ministries of foreign affairs, embassies, geopolitical events, and military operations," Palo Alto Networks Unit 42]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Call for Presentations Open for 2025 CISO Forum Virtual Summit]]></title>
-        <id>https://www.securityweek.com/?p=43798</id>
-        <link href="https://www.securityweek.com/call-for-presentations-open-for-2025-ciso-forum-virtual-summit/"/>
-        <updated>2025-09-30T15:08:32.000Z</updated>
-        <summary type="html"><![CDATA[This online event is expected to attract more than 2,500 attendee registrations from around the world.
-The post Call for Presentations Open for 2025 CISO Forum Virtual Summit appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>SecurityWeek News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Patches Gemini AI Hacks Involving Poisoned Logs, Search Results]]></title>
-        <id>https://www.securityweek.com/?p=43799</id>
-        <link href="https://www.securityweek.com/google-patches-gemini-ai-hacks-involving-poisoned-logs-search-results/"/>
-        <updated>2025-09-30T14:59:40.000Z</updated>
-        <summary type="html"><![CDATA[Researchers found more methods for tricking an AI assistant into aiding sensitive data theft.
-The post Google Patches Gemini AI Hacks Involving Poisoned Logs, Search Results appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7786-1: OpenSSL vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7786-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7786-1"/>
-        <updated>2025-09-30T14:44:07.000Z</updated>
-        <summary type="html"><![CDATA[Stanislav Fort discovered that OpenSSL incorrectly handled memory when
-trying to decrypt CMS messages encrypted with password-based encryption. An
-attacker could possibly use this issue to cause a denial of service or
-execute arbitrary code. (CVE-2025-9230)
-
-Stanislav Fort discovered that OpenSSL had a timing side-channel in SM2
-signature computations on ARM platforms. A remote attacker could possibly
-use this issue to recover private data. This issue only affected Ubuntu
-25.04. (CVE-2025-9231)
-
-Stanislav Fort discovered that OpenSSL incorrectly handled memory during
-HTTP requests when "no_proxy" environment variable is set. An attacker
-could possibly use this issue to cause a denial of service. This issue only
-affected Ubuntu 25.04. (CVE-2025-9232)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can Shadow AI Risks Be Stopped?]]></title>
-        <id>https://www.darkreading.com/cyber-risk/can-shadow-ai-risks-be-stopped</id>
-        <link href="https://www.darkreading.com/cyber-risk/can-shadow-ai-risks-be-stopped"/>
-        <updated>2025-09-30T13:58:14.000Z</updated>
-        <summary type="html"><![CDATA[Agentic AI has introduced abundant shadow artificial intelligence (AI) risks. Cybersecurity startup Entro Security extends its platform to help enterprises combat the growing issue.]]></summary>
-        <author>
-            <name>Arielle Waldman</name>
         </author>
     </entry>
     <entry>
