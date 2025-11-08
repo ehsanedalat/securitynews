@@ -2,10 +2,427 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-11-07T01:48:45.993Z</updated>
+    <updated>2025-11-08T01:42:50.365Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Friday Squid Blogging: Squid Game: The Challenge, Season Two]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/11/friday-squid-blogging-squid-game-the-challenge-season-two.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/11/friday-squid-blogging-squid-game-the-challenge-season-two.html"/>
+        <updated>2025-11-07T22:01:03.000Z</updated>
+        <summary type="html"><![CDATA[<p>The second season of the Netflix reality competition show <i>Squid Game: The Challenge</i> has dropped. (Too many links to pick a few&#8212;search for it.)</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#263614: Vulnerability in expr-eval JavaScript library can lead to remote code execution.]]></title>
+        <id>https://kb.cert.org/vuls/id/263614</id>
+        <link href="https://kb.cert.org/vuls/id/263614"/>
+        <updated>2025-11-07T21:48:35.885Z</updated>
+        <summary type="html"><![CDATA[<h2 id="overview">Overview</h2>
+<p>The npm package <em>expr-eval</em> is a JavaScript library that evaluates mathematical expressions and is used in various applications, including NLP and AI. A vulnerability in this library has been disclosed that could allow arbitrary code execution by an attacker using maliciously crafted input.</p>
+<h2 id="description">Description</h2>
+<p>The npm projects <em>expr-eval</em> and <em>expr-eval-fork</em> are JavaScript libraries used to parse and evaluate mathematical expressions, extending NLP applications that process mathematical expressions and their numerical data. This capability is particularly useful in generative AI systems that need to interpret mathematical expressions within user prompts. The <code>Parser</code> class and its <code>evaluate()</code> method is designed to provide user-defined expressions in a safer way than JavaScript’s native <code>eval()</code> function. This design choice is critical for npm-based projects, especially those running in server environments where access to a system's local resources could pose security risks. According to <a href="https://www.npmjs.com/package/expr-eval">npmjs.com</a>, <em>expr-eval</em> has over 250 dependent packages, including integrations such as <em>oplangchain</em>, a JavaScript implementation of the popular LangChain framework. The related project <em>expr-eval-fork</em> was created to address a prior <a href="https://github.com/silentmatt/expr-eval/issues/266">Prototype Pollution vulnerability (Issue #266)</a> that remained unresolved in the original <em>expr-eval</em> repository, which appears to be unmaintained by the original author.</p>
+<p>A newly discovered vulnerability allows an attacker to define arbitrary functions within the <code>context</code> object used by the parser. This capability can be exploited to inject malicious code that executes system-level commands, potentially accessing sensitive local resources or exfiltrating data. This issue has been patched via <a href="https://github.com/silentmatt/expr-eval/pull/288">Pull Request #288</a>. The vulnerability is tracked with <a href="https://www.cve.org/CVERecord?id=CVE-2025-12735">CVE-2025-12735</a>,  as well as the GitHub Advisory <a href="https://github.com/advisories/GHSA-jc85-fpwf-qm7x">GHSA-jc85-fpwf-qm7x</a>.  These identifiers enable automated tools such as <code>npm audit</code> to detect the vulnerability in affected projects.</p>
+<h2 id="impact">Impact</h2>
+<p>An attacker with the ability to influence input fields processed by <em>expr-eval</em> can craft malicious payloads that trigger arbitrary command execution on the host system.<br>
+This constitutes a <em>Technical Impact = Total</em> under the <a href="https://certcc.github.io/SSVC/reference/decision_points/technical_impact/">SSVC</a> framework, meaning:</p>
+<blockquote>
+<p>The vulnerability gives the adversary total control over the behavior of the software or total disclosure of all information on the affected system.</p>
+</blockquote>
+<h2 id="solution">Solution</h2>
+<p>Developers and Users are  advised either to:</p>
+<ol>
+<li><em>Apply the security patch</em> from <a href="https://github.com/silentmatt/expr-eval/pull/288">Pull Request #288</a>, or  </li>
+<li><em>Upgrade to the latest patched version</em> of the <em>expr-eval</em> or <em>expr-eval-fork</em> package as they become available.</li>
+</ol>
+<p>Note: The patch introduces:</p>
+<ul>
+<li>A defined <em>AllowList</em> of safe functions accessible via <code>evaluate()</code></li>
+<li>A mandatory <em>registration mechanism</em> for custom functions.</li>
+<li>Updated test cases ensuring enforcement of these constraints can be understood and applied</li>
+</ul>
+<h2 id="acknowledgements">Acknowledgements</h2>
+<p>Thanks to the reporter Jangwoo Choe (UKO)  for responsibly disclosing this issue. We also acknowledge <em>GitHub Security</em> and <em>npm</em> for their proactive security advisories and automated vulnerability audits. This document was written by Vijay Sarvepalli and Renae Metcalf.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Landfall' Malware Targeted Samsung Galaxy Users]]></title>
+        <id>https://www.darkreading.com/mobile-security/landfall-malware-targeted-samsung-galaxy-users</id>
+        <link href="https://www.darkreading.com/mobile-security/landfall-malware-targeted-samsung-galaxy-users"/>
+        <updated>2025-11-07T21:15:29.000Z</updated>
+        <summary type="html"><![CDATA[The tool let its operators secretly record conversations, track device locations, capture photos, collect contacts, and perform other surveillance on compromised devices.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Ransomvibing' Infests Visual Studio Extension Market]]></title>
+        <id>https://www.darkreading.com/application-security/ransomvibing-infests-visual-studio-extension-market</id>
+        <link href="https://www.darkreading.com/application-security/ransomvibing-infests-visual-studio-extension-market"/>
+        <updated>2025-11-07T20:36:15.000Z</updated>
+        <summary type="html"><![CDATA[A published VS Code extension didn't hide the fact that it encrypts and exfiltrates data and also failed to remove obvious signs it was AI-generated.]]></summary>
+        <author>
+            <name>Alexander Culafi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Backs Massive AI Push in UAE, Raising Security Concerns]]></title>
+        <id>https://www.darkreading.com/cyber-risk/microsoft-massive-ai-push-uae-security-concerns</id>
+        <link href="https://www.darkreading.com/cyber-risk/microsoft-massive-ai-push-uae-security-concerns"/>
+        <updated>2025-11-07T20:08:51.000Z</updated>
+        <summary type="html"><![CDATA[In partnership with Emirates tech company G42, Microsoft is building the first stage of a 5-gigawatt US-UAE AI campus using Nvidia GPUs.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Samsung Zero-Click Flaw Exploited to Deploy LANDFALL Android Spyware via WhatsApp]]></title>
+        <id>https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html</id>
+        <link href="https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html"/>
+        <updated>2025-11-07T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a "commercial-grade" Android spyware dubbed LANDFALL in targeted attacks in the Middle East.
+The activity involved the exploitation of CVE-2025-21042 (CVSS score: 8.8), an out-of-bounds write flaw in the "libimagecodec.quram.so" component that could allow remote attackers to execute arbitrary]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests]]></title>
+        <id>https://www.securityweek.com/?p=44235</id>
+        <link href="https://www.securityweek.com/in-other-news-controversial-ransomware-report-gootloader-returns-more-an0m-arrests/"/>
+        <updated>2025-11-07T16:20:49.000Z</updated>
+        <summary type="html"><![CDATA[Other noteworthy stories that might have slipped under the radar: rogue ransomware negotiators charged, F5 hack prompts OT security guidance, Germany targets Huawei tech.
+The post In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>SecurityWeek News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Log4j to IIS, China’s Hackers Turn Legacy Bugs into Global Espionage Tools]]></title>
+        <id>https://thehackernews.com/2025/11/from-log4j-to-iis-chinas-hackers-turn.html</id>
+        <link href="https://thehackernews.com/2025/11/from-log4j-to-iis-chinas-hackers-turn.html"/>
+        <updated>2025-11-07T16:07:00.000Z</updated>
+        <summary type="html"><![CDATA[A China-linked threat actor has been attributed to a cyber attack targeting an U.S. non-profit organization with an aim to establish long-term persistence, as part of broader activity aimed at U.S. entities that are linked to or involved in policy issues.
+The organization, according to a report from Broadcom's Symantec and Carbon Black teams, is "active in attempting to influence U.S. government]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Landfall Android Spyware Targeted Samsung Phones via Zero-Day]]></title>
+        <id>https://www.securityweek.com/?p=44234</id>
+        <link href="https://www.securityweek.com/landfall-android-spyware-targeted-samsung-phones-via-zero-day/"/>
+        <updated>2025-11-07T15:29:34.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors exploited CVE-2025-21042 to deliver malware via specially crafted images to users in the Middle East. 
+The post Landfall Android Spyware Targeted Samsung Phones via Zero-Day appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Radical Empowerment From Your Leadership: Understood by Few, Essential for All]]></title>
+        <id>https://www.securityweek.com/?p=44229</id>
+        <link href="https://www.securityweek.com/radical-empowerment-from-your-leadership-understood-by-few-essential-for-all/"/>
+        <updated>2025-11-07T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When leaders redefine power as trust instead of control, teams unlock their potential — and organizations find their edge.
+The post Radical Empowerment From Your Leadership: Understood by Few, Essential for All appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Jennifer Leggio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Agents Are Going Rogue: Here's How to Rein Them In]]></title>
+        <id>https://www.darkreading.com/cyber-risk/ai-agents-going-rogue</id>
+        <link href="https://www.darkreading.com/cyber-risk/ai-agents-going-rogue"/>
+        <updated>2025-11-07T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Human-centered identity frameworks are incorrectly being applied to AI agents, creating the potential for catastrophe at machine speed, Poghosyan argues.]]></summary>
+        <author>
+            <name>Art Poghosyan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Security Agents Get Persona Makeovers]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/ai-security-agents-get-personas-make-them-more-appealing</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/ai-security-agents-get-personas-make-them-more-appealing"/>
+        <updated>2025-11-07T14:29:08.000Z</updated>
+        <summary type="html"><![CDATA[New synthetic security staffers promise to bring artificial intelligence comfortably into the security operations center, but they will require governance to protect security.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ollama, Nvidia Flaws Put AI Infrastructure at Risk]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/ollama-nvidia-flaws-ai-infrastructure-risk</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/ollama-nvidia-flaws-ai-infrastructure-risk"/>
+        <updated>2025-11-07T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Security researchers discovered multiple vulnerabilities in AI infrastructure products, including one capable of remote code execution.]]></summary>
+        <author>
+            <name>Alexander Culafi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Exposure Vulnerability Found in Deep Learning Tool Keras]]></title>
+        <id>https://www.securityweek.com/?p=44226</id>
+        <link href="https://www.securityweek.com/data-exposure-vulnerability-found-in-deep-learning-tool-keras/"/>
+        <updated>2025-11-07T13:41:01.000Z</updated>
+        <summary type="html"><![CDATA[The vulnerability is tracked as CVE-2025-12058 and it can be exploited for arbitrary file loading and conducting SSRF attacks.
+The post Data Exposure Vulnerability Found in Deep Learning Tool Keras appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ClickFix Attacks Against macOS Users Evolving]]></title>
+        <id>https://www.securityweek.com/?p=44222</id>
+        <link href="https://www.securityweek.com/clickfix-attacks-against-macos-users-evolving/"/>
+        <updated>2025-11-07T13:22:00.000Z</updated>
+        <summary type="html"><![CDATA[ClickFix prompts typically contain instructions for Windows users, but now they are tailored for macOS and they are getting increasingly convincing.
+The post ClickFix Attacks Against macOS Users Evolving appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7853-3: Linux kernel (Azure) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7853-3</id>
+        <link href="https://ubuntu.com/security/notices/USN-7853-3"/>
+        <updated>2025-11-07T12:43:43.000Z</updated>
+        <summary type="html"><![CDATA[Jean-Claude Graf, Sandro Rüegge, Ali Hajiabadi, and Kaveh Razavi discovered
+that the Linux kernel contained insufficient branch predictor isolation
+between a guest and a userspace hypervisor for certain processors. This
+flaw is known as VMSCAPE. An attacker in a guest VM could possibly use this
+to expose sensitive information from the host OS. (CVE-2025-40300)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - DMA engine subsystem;
+  - GPU drivers;
+  - HSI subsystem;
+  - Ethernet team driver;
+  - Ext4 file system;
+  - Timer subsystem;
+  - DCCP (Datagram Congestion Control Protocol);
+  - IPv6 networking;
+  - NET/ROM layer;
+  - SCTP protocol;
+  - USB sound devices;
+(CVE-2023-52574, CVE-2023-52650, CVE-2024-41006, CVE-2024-50006,
+CVE-2024-50299, CVE-2024-53124, CVE-2024-53150, CVE-2024-56767,
+CVE-2025-37838, CVE-2025-38352)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Faking Receipts with AI]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/11/faking-receipts-with-ai.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/11/faking-receipts-with-ai.html"/>
+        <updated>2025-11-07T12:01:46.000Z</updated>
+        <summary type="html"><![CDATA[<p>Over the past few decades, it&#8217;s become easier and easier to create fake receipts. Decades ago, it required special paper and printers&#8212;I remember a company in the UK advertising its services to people trying to cover up their affairs. Then, receipts became computerized, and faking them required some artistic skills to make the page look realistic.</p>
+<p>Now, AI can <a href="https://arstechnica.com/ai/2025/10/ai-generated-receipts-make-submitting-fake-expenses-easier/">do it all</a>:</p>
+<blockquote><p>Several receipts shown to the FT by expense management platforms demonstrated the realistic nature of the images, which included wrinkles in paper, detailed itemization that matched real-life menus, and signatures...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hidden Logic Bombs in Malware-Laced NuGet Packages Set to Detonate Years After Installation]]></title>
+        <id>https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html</id>
+        <link href="https://thehackernews.com/2025/11/hidden-logic-bombs-in-malware-laced.html"/>
+        <updated>2025-11-07T11:55:00.000Z</updated>
+        <summary type="html"><![CDATA[A set of nine malicious NuGet packages has been identified as capable of dropping time-delayed payloads to sabotage database operations and corrupt industrial control systems.
+According to software supply chain security company Socket, the packages were published in 2023 and 2024 by a user named "shanhai666" and are designed to run malicious code after specific trigger dates in August 2027 and]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DOJ Antitrust Review Clears Google’s $32 Billion Acquisition of Wiz]]></title>
+        <id>https://www.securityweek.com/?p=44217</id>
+        <link href="https://www.securityweek.com/doj-antitrust-review-clears-googles-32-billion-acquisition-of-wiz/"/>
+        <updated>2025-11-07T11:16:59.000Z</updated>
+        <summary type="html"><![CDATA[Google’s acquisition of Wiz is expected to close in 2026, but there are other reviews that need to be cleared.
+The post DOJ Antitrust Review Clears Google’s $32 Billion Acquisition of Wiz appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Congressional Budget Office Was Hacked. It Says It Has Implemented New Security Measures]]></title>
+        <id>https://www.securityweek.com/?p=44215</id>
+        <link href="https://www.securityweek.com/the-congressional-budget-office-was-hacked-it-says-it-has-implemented-new-security-measures/"/>
+        <updated>2025-11-07T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Congressional Budget Office confirmed it had been hacked, potentially disclosing important government data to malicious actors.
+The post The Congressional Budget Office Was Hacked. It Says It Has Implemented New Security Measures appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7860-4: Linux kernel (Real-time) vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7860-4</id>
+        <link href="https://ubuntu.com/security/notices/USN-7860-4"/>
+        <updated>2025-11-07T10:37:29.000Z</updated>
+        <summary type="html"><![CDATA[Jean-Claude Graf, Sandro Rüegge, Ali Hajiabadi, and Kaveh Razavi discovered
+that the Linux kernel contained insufficient branch predictor isolation
+between a guest and a userspace hypervisor for certain processors. This
+flaw is known as VMSCAPE. An attacker in a guest VM could possibly use this
+to expose sensitive information from the host OS.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chrome 142 Update Patches High-Severity Flaws]]></title>
+        <id>https://www.securityweek.com/?p=44216</id>
+        <link href="https://www.securityweek.com/chrome-142-update-patches-high-severity-flaws/"/>
+        <updated>2025-11-07T10:35:59.000Z</updated>
+        <summary type="html"><![CDATA[An out-of-bounds write flaw in WebGPU tracked as CVE-2025-12725 could be exploited for remote code execution.
+The post Chrome 142 Update Patches High-Severity Flaws appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7860-3: Linux kernel (FIPS) vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7860-3</id>
+        <link href="https://ubuntu.com/security/notices/USN-7860-3"/>
+        <updated>2025-11-07T10:35:05.000Z</updated>
+        <summary type="html"><![CDATA[Jean-Claude Graf, Sandro Rüegge, Ali Hajiabadi, and Kaveh Razavi discovered
+that the Linux kernel contained insufficient branch predictor isolation
+between a guest and a userspace hypervisor for certain processors. This
+flaw is known as VMSCAPE. An attacker in a guest VM could possibly use this
+to expose sensitive information from the host OS.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enterprise Credentials at Risk – Same Old, Same Old?]]></title>
+        <id>https://thehackernews.com/2025/11/enterprise-credentials-at-risk-same-old.html</id>
+        <link href="https://thehackernews.com/2025/11/enterprise-credentials-at-risk-same-old.html"/>
+        <updated>2025-11-07T10:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Imagine this: Sarah from accounting gets what looks like a routine password reset email from your organization’s cloud provider. She clicks the link, types in her credentials, and goes back to her spreadsheet. But unknown to her, she’s just made a big mistake. Sarah just accidentally handed over her login details to cybercriminals who are laughing all the way to their dark web]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Destructive Russian Cyberattacks on Ukraine Expand to Grain Sector]]></title>
+        <id>https://www.securityweek.com/?p=44214</id>
+        <link href="https://www.securityweek.com/destructive-russian-cyberattacks-on-ukraine-expand-to-grain-sector/"/>
+        <updated>2025-11-07T09:29:31.000Z</updated>
+        <summary type="html"><![CDATA[Multiple state-sponsored Russian groups are targeting Ukrainian entities and European countries linked to Ukraine.
+The post Destructive Russian Cyberattacks on Ukraine Expand to Grain Sector appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7795-5: Linux kernel (Raspberry Pi) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7795-5</id>
+        <link href="https://ubuntu.com/security/notices/USN-7795-5"/>
+        <updated>2025-11-07T09:19:02.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - Ext4 file system;
+  - Network file system (NFS) server daemon;
+  - Packet sockets;
+  - Network traffic control;
+  - VMware vSockets driver;
+(CVE-2025-21796, CVE-2025-37785, CVE-2025-38477, CVE-2025-38617,
+CVE-2025-38618)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Launches New Maps Feature to Help Businesses Report Review-Based Extortion Attempts]]></title>
+        <id>https://thehackernews.com/2025/11/google-launches-new-maps-feature-to.html</id>
+        <link href="https://thehackernews.com/2025/11/google-launches-new-maps-feature-to.html"/>
+        <updated>2025-11-07T09:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Google on Thursday said it's rolling out a dedicated form to allow businesses listed on Google Maps to report extortion attempts made by threat actors who post inauthentic bad reviews on the platform and demand ransoms to remove the negative comments.
+The approach is designed to tackle a common practice called review bombing, where online users intentionally post negative user reviews in an]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[18 Arrested in Crackdown on Credit Card Fraud Rings]]></title>
+        <id>https://www.securityweek.com/?p=44213</id>
+        <link href="https://www.securityweek.com/18-arrested-in-crackdown-on-credit-card-fraud-rings/"/>
+        <updated>2025-11-07T09:13:41.000Z</updated>
+        <summary type="html"><![CDATA[Between 2016 and 2021, the suspects defrauded 4.3 million cardholders in 193 countries of €300 million (~$346 million).
+The post 18 Arrested in Crackdown on Credit Card Fraud Rings appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7861-2: Linux kernel (Real-time) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7861-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-7861-2"/>
+        <updated>2025-11-07T09:08:23.000Z</updated>
+        <summary type="html"><![CDATA[Jean-Claude Graf, Sandro Rüegge, Ali Hajiabadi, and Kaveh Razavi discovered
+that the Linux kernel contained insufficient branch predictor isolation
+between a guest and a userspace hypervisor for certain processors. This
+flaw is known as VMSCAPE. An attacker in a guest VM could possibly use this
+to expose sensitive information from the host OS.
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - HSI subsystem;
+  - Bluetooth subsystem;
+  - Timer subsystem;
+(CVE-2025-37838, CVE-2025-38118, CVE-2025-38352)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7864-1: Linux kernel (GCP and GKE) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7864-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7864-1"/>
+        <updated>2025-11-07T09:01:59.000Z</updated>
+        <summary type="html"><![CDATA[Jean-Claude Graf, Sandro Rüegge, Ali Hajiabadi, and Kaveh Razavi discovered
+that the Linux kernel contained insufficient branch predictor isolation
+between a guest and a userspace hypervisor for certain processors. This
+flaw is known as VMSCAPE. An attacker in a guest VM could possibly use this
+to expose sensitive information from the host OS. (CVE-2025-40300)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - HSI subsystem;
+  - I2C subsystem;
+  - Bluetooth subsystem;
+  - Timer subsystem;
+(CVE-2025-37838, CVE-2025-38118, CVE-2025-38352, CVE-2025-38425)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vibe-Coded Malicious VS Code Extension Found with Built-In Ransomware Capabilities]]></title>
+        <id>https://thehackernews.com/2025/11/vibe-coded-malicious-vs-code-extension.html</id>
+        <link href="https://thehackernews.com/2025/11/vibe-coded-malicious-vs-code-extension.html"/>
+        <updated>2025-11-07T06:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have flagged a malicious Visual Studio Code (VS Code) extension with basic ransomware capabilities that appears to be created with the help of artificial intelligence – in other words, vibe-coded.
+Secure Annex researcher John Tuckner, who flagged the extension "susvsex," said it does not attempt to hide its malicious functionality. The extension was uploaded on]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sora 2 Makes Videos So Believable, Reality Checks Are Required]]></title>
         <id>https://www.darkreading.com/application-security/sora-2-makes-videos-so-believable-reality-checks-are-required</id>
@@ -6910,332 +7327,6 @@ arbitrary code execution.]]></summary>
         <summary type="html"><![CDATA[SonicWall on Wednesday disclosed that an unauthorized party accessed firewall configuration backup files for all customers who have used the cloud backup service.
 "The files contain encrypted credentials and configuration data; while encryption remains in place, possession of these files could increase the risk of targeted attacks," the company said.
 It also noted that it's working to notify all]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7816-1: DPDK vulnerability]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7816-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7816-1"/>
-        <updated>2025-10-09T12:34:24.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that DPDK incorrectly handled the mlx5 Ethernet poll mode
-driver. An attacker could possibly use this issue to obtain sensitive
-information, or cause the network interface to crash, resulting in a denial
-of service.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ThreatsDay Bulletin: MS Teams Hack, MFA Hijacking, $2B Crypto Heist, Apple Siri Probe & More]]></title>
-        <id>https://thehackernews.com/2025/10/threatsday-bulletin-ms-teams-hack-mfa.html</id>
-        <link href="https://thehackernews.com/2025/10/threatsday-bulletin-ms-teams-hack-mfa.html"/>
-        <updated>2025-10-09T12:16:00.000Z</updated>
-        <summary type="html"><![CDATA[Cyber threats are evolving faster than ever. Attackers now combine social engineering, AI-driven manipulation, and cloud exploitation to breach targets once considered secure. From communication platforms to connected devices, every system that enhances convenience also expands the attack surface.
-This edition of ThreatsDay Bulletin explores these converging risks and the safeguards that help]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Releases Four Industrial Control Systems Advisories]]></title>
-        <id>/node/24072</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2025/10/09/cisa-releases-four-industrial-control-systems-advisories"/>
-        <updated>2025-10-09T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA released four Industrial Control Systems (ICS) Advisories on October 9, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS. 
-ICSA-25-282-01 Hitachi Energy Asset Suite
-ICSA-25-282-02 Rockwell Automation Lifecycle Services with Cisco
-ICSA-25-282-03 Rockwell Automation Stratix
-ICSA-25-128-03 Mitsubishi Electric Multiple FA Products (Update A) 
-CISA encourages users and administrators to review newly released ICS Advisories for technical details and mitigations.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
-        <id>/node/24071</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2025/10/09/cisa-adds-one-known-exploited-vulnerability-catalog"/>
-        <updated>2025-10-09T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.
-CVE-2021-43798 Grafana Path Traversal Vulnerability
-This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. 
-Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
-Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of KEV Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Realm.Security Raises $15 Million in Series A Funding]]></title>
-        <id>https://www.securityweek.com/?p=43931</id>
-        <link href="https://www.securityweek.com/realm-security-raises-15-million-in-series-a-funding/"/>
-        <updated>2025-10-09T11:38:15.000Z</updated>
-        <summary type="html"><![CDATA[The cybersecurity startup will use the investment to accelerate its product development and market expansion efforts.
-The post Realm.Security Raises $15 Million in Series A Funding appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SaaS Breaches Start with Tokens - What Security Teams Must Watch]]></title>
-        <id>https://thehackernews.com/2025/10/saas-breaches-start-with-tokens-what.html</id>
-        <link href="https://thehackernews.com/2025/10/saas-breaches-start-with-tokens-what.html"/>
-        <updated>2025-10-09T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Token theft is a leading cause of SaaS breaches. Discover why OAuth and API tokens are often overlooked and how security teams can strengthen token hygiene to prevent attacks.
-Most companies in 2025 rely on a whole range of software-as-a-service (SaaS) applications to run their operations. However, the security of these applications depends on small pieces of data called tokens. Tokens, like]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Copilot Chat Flaw Leaked Data From Private Repositories]]></title>
-        <id>https://www.securityweek.com/?p=43930</id>
-        <link href="https://www.securityweek.com/github-copilot-chat-flaw-leaked-data-from-private-repositories/"/>
-        <updated>2025-10-09T10:51:53.000Z</updated>
-        <summary type="html"><![CDATA[Hidden comments allowed full control over Copilot responses and leaked sensitive information and source code.
-The post GitHub Copilot Chat Flaw Leaked Data From Private Repositories appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chaos Ransomware Upgrades With Aggressive New C++ Variant]]></title>
-        <id>https://www.darkreading.com/threat-intelligence/chaos-ransomware-upgrades-aggressive-new-variant</id>
-        <link href="https://www.darkreading.com/threat-intelligence/chaos-ransomware-upgrades-aggressive-new-variant"/>
-        <updated>2025-10-09T09:44:12.000Z</updated>
-        <summary type="html"><![CDATA[New encryption, wiper, and cryptocurrency-stealing capabilities make the evolving ransomware-as-a-service operation more dangerous than ever.]]></summary>
-        <author>
-            <name>Elizabeth Montalbano, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chinese Hackers Breached Law Firm Williams & Connolly via Zero-Day]]></title>
-        <id>https://www.securityweek.com/?p=43925</id>
-        <link href="https://www.securityweek.com/chinese-hackers-breached-law-firm-williams-connolly-via-zero-day/"/>
-        <updated>2025-10-09T09:40:40.000Z</updated>
-        <summary type="html"><![CDATA[The company said there is no evidence that confidential client data was stolen from its systems.
-The post Chinese Hackers Breached Law Firm Williams & Connolly via Zero-Day appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Phishing to Malware: AI Becomes Russia's New Cyber Weapon in War on Ukraine]]></title>
-        <id>https://thehackernews.com/2025/10/from-phishing-to-malware-ai-becomes.html</id>
-        <link href="https://thehackernews.com/2025/10/from-phishing-to-malware-ai-becomes.html"/>
-        <updated>2025-10-09T09:10:00.000Z</updated>
-        <summary type="html"><![CDATA[Russian hackers' adoption of artificial intelligence (AI) in cyber attacks against Ukraine has reached a new level in the first half of 2025 (H1 2025), the country's State Service for Special Communications and Information Protection (SSSCIP) said.
-"Hackers now employ it not only to generate phishing messages, but some of the malware samples we have analyzed show clear signs of being generated]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All SonicWall Cloud Backup Users Had Firewall Configurations Stolen]]></title>
-        <id>https://www.securityweek.com/?p=43928</id>
-        <link href="https://www.securityweek.com/all-sonicwall-cloud-backup-users-had-firewall-configurations-stolen/"/>
-        <updated>2025-10-09T08:30:38.000Z</updated>
-        <summary type="html"><![CDATA[In early September, hackers stole the firewall configuration backup files stored using the MySonicWall service.
-The post All SonicWall Cloud Backup Users Had Firewall Configurations Stolen appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Discord Says 70,000 Users Had IDs Exposed in Recent Data Breach]]></title>
-        <id>https://www.securityweek.com/?p=43926</id>
-        <link href="https://www.securityweek.com/discord-says-70000-users-had-ids-exposed-in-recent-data-breach/"/>
-        <updated>2025-10-09T08:03:29.000Z</updated>
-        <summary type="html"><![CDATA[The hackers claim the theft of over 2 million photos of government identification documents provided to Discord for age verification.
-The post Discord Says 70,000 Users Had IDs Exposed in Recent Data Breach appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Critical Exploit Lets Hackers Bypass Authentication in WordPress Service Finder Theme]]></title>
-        <id>https://thehackernews.com/2025/10/critical-exploit-lets-hackers-bypass.html</id>
-        <link href="https://thehackernews.com/2025/10/critical-exploit-lets-hackers-bypass.html"/>
-        <updated>2025-10-09T06:57:00.000Z</updated>
-        <summary type="html"><![CDATA[Threat actors are actively exploiting a critical security flaw impacting the Service Finder WordPress theme that makes it possible to gain unauthorized access to any account, including administrators, and take control of susceptible sites.
-The authentication bypass vulnerability, tracked as CVE-2025-5947 (CVSS score: 9.8), affects the Service Finder Bookings, a WordPress plugin bundled with the]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7815-1: Vim vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7815-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7815-1"/>
-        <updated>2025-10-09T03:07:04.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that Vim incorrectly handled certain internal calls when
-scrolling a window. An attacker could possibly use this issue to cause a
-denial of service.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7814-1: LibHTP vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7814-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7814-1"/>
-        <updated>2025-10-09T02:15:21.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that LibHTP did not correctly handle certain HTTP
-headers. A remote attacker could possibly use this issue to cause a denial
-of service. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS,
-Ubuntu 20.04 LTS and Ubuntu 22.04 LTS. (CVE-2024-23837)
-
-It was discovered that LibHTP did not correctly parse certain HTTP
-requests. A remote attacker could possibly use this issue to cause a
-denial of service. This issue only affected Ubuntu 20.04 LTS,
-Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2024-28871)
-
-It was discovered that LibHTP did not correctly parse certain HTTP
-requests. A remote attacker could possibly use this issue to cause a
-denial of service. (CVE-2024-45797)
-
-It was discovered that LibHTP did not correctly handle certain memory
-operations. A remote attacker could possibly use this issue to cause a
-denial of service. This issue only affected Ubuntu 20.04 LTS,
-Ubuntu 22.04 LTS, Ubuntu 24.04 LTS and Ubuntu 25.04. (CVE-2025-53537)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vampire Bot Malware Sinks Fangs Into Job Hunters]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/vampire-bot-malware-job-hunters</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/vampire-bot-malware-job-hunters"/>
-        <updated>2025-10-08T21:02:42.000Z</updated>
-        <summary type="html"><![CDATA[The campaign is the latest by BatShadow, one of a growing number of cybercrime groups operating out of Vietnam.]]></summary>
-        <author>
-            <name>Jai Vijayan, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Red Hat Hackers Team Up With Scattered Lapsus$ Hunters]]></title>
-        <id>https://www.darkreading.com/threat-intelligence/red-hat-hackers-team-up-scattered-lapsus-hunters</id>
-        <link href="https://www.darkreading.com/threat-intelligence/red-hat-hackers-team-up-scattered-lapsus-hunters"/>
-        <updated>2025-10-08T20:40:36.000Z</updated>
-        <summary type="html"><![CDATA[Crimson Collective, which recently breached the GitLab instance of Red Hat Consulting, has teamed up with the notorious cybercriminal collective.]]></summary>
-        <author>
-            <name>Rob Wright</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LockBit, Qilin &amp; DragonForce Join Forces in Ransomware 'Cartel']]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/extortion-gangs-join-forces-ransomware-cartel</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/extortion-gangs-join-forces-ransomware-cartel"/>
-        <updated>2025-10-08T19:56:33.000Z</updated>
-        <summary type="html"><![CDATA[The three extortion gangs also invited other e-crime attackers to join their collaboration to share attack information and resources, in the wake of LockBit 5.0 being released.]]></summary>
-        <author>
-            <name>Alexander Culafi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Framelink Figma MCP Server Opens Orgs to Agentic AI Compromise]]></title>
-        <id>https://www.darkreading.com/vulnerabilities-threats/figma-mcp-server-agentic-ai-compromise</id>
-        <link href="https://www.darkreading.com/vulnerabilities-threats/figma-mcp-server-agentic-ai-compromise"/>
-        <updated>2025-10-08T17:14:02.000Z</updated>
-        <summary type="html"><![CDATA[Patch now: A bug (CVE-2025-53967) in a third-party option for connecting Figma to agentic AI can lead to remote code execution (RCE).]]></summary>
-        <author>
-            <name>Tara Seals</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7812-1: ImageMagick vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7812-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7812-1"/>
-        <updated>2025-10-08T17:12:03.000Z</updated>
-        <summary type="html"><![CDATA[Woojin Park, Hojun Lee, Yougin Won and Siyeon Han discovered that
-ImageMagick did not properly sanitize image file names. An attacker could
-possibly use this issue to cause a denial of service, obtain sensitive
-information, or execute arbitrary code. (CVE-2025-55298)
-
-Lumina Mescuwa discovered that ImageMagick did not properly handle memory
-when encoding BMP images. An attacker could possibly use this issue to
-cause ImageMagick to crash, resulting in a denial of service, or possibly
-execute arbitrary code. (CVE-2025-57803)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hackers Exploit WordPress Sites to Power Next-Gen ClickFix Phishing Attacks]]></title>
-        <id>https://thehackernews.com/2025/10/hackers-exploit-wordpress-themes-to.html</id>
-        <link href="https://thehackernews.com/2025/10/hackers-exploit-wordpress-themes-to.html"/>
-        <updated>2025-10-08T16:43:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers are calling attention to a nefarious campaign targeting WordPress sites to make malicious JavaScript injections that are designed to redirect users to sketchy sites.
-"Site visitors get injected content that was drive-by malware like fake Cloudflare verification," Sucuri researcher Puja Srivastava said in an analysis published last week.
-The website security company]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Takes Center Stage at DataTribe’s Cyber Innovation Day]]></title>
-        <id>https://www.securityweek.com/?p=43921</id>
-        <link href="https://www.securityweek.com/ai-takes-center-stage-at-datatribes-cyber-innovation-day/"/>
-        <updated>2025-10-08T16:40:07.000Z</updated>
-        <summary type="html"><![CDATA[From defending AI agents to teaching robots to move safely, finalists at this year’s DataTribe Challenge are charting the next frontier in cybersecurity innovation.
-The post AI Takes Center Stage at DataTribe’s Cyber Innovation Day appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Kevin Townsend</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Will AI-SPM Become the Standard Security Layer for Safe AI Adoption?]]></title>
-        <id>https://www.securityweek.com/?p=43920</id>
-        <link href="https://www.securityweek.com/will-ai-spm-become-the-standard-security-layer-for-safe-ai-adoption/"/>
-        <updated>2025-10-08T16:26:04.000Z</updated>
-        <summary type="html"><![CDATA[How security posture management for AI can protect against model poisoning, excessive agency, jailbreaking and other LLM risks.
-The post Will AI-SPM Become the Standard Security Layer for Safe AI Adoption? appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Etay Maor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flok License Plate Surveillance]]></title>
-        <id>https://www.schneier.com/blog/archives/2025/10/flok-license-plate-surveillance.html</id>
-        <link href="https://www.schneier.com/blog/archives/2025/10/flok-license-plate-surveillance.html"/>
-        <updated>2025-10-08T16:10:58.000Z</updated>
-        <summary type="html"><![CDATA[<p>The company Flok is <a href="https://www.jalopnik.com/1982690/police-flock-cameras-sued-for-tracking-man-526-times/">surveilling us</a> as we drive:</p>
-<blockquote><p>A retired veteran named Lee Schmidt wanted to know how often Norfolk, Virginia&#8217;s 176 Flock Safety automated license-plate-reader cameras were tracking him. The answer, according to a <a href="https://www.documentcloud.org/documents/26101033-norfolk_flock/">U.S. District Court</a> lawsuit filed in September, was more than four times a day, or 526 times from mid-February to early July. No, there&#8217;s no warrant out for Schmidt&#8217;s arrest, nor is there a warrant for Schmidt&#8217;s co-plaintiff, Crystal Arrington, whom the system tagged 849 times in roughly the same period.</p>
-<p>You might think this sounds like it violates the Fourth Amendment, which protects American citizens from unreasonable searches and seizures without probable cause. Well, so does the American Civil Liberties Union. Norfolk, Virginia Judge Jamilah LeCruise also agrees, and in 2024 she ruled that plate-reader data obtained without a search warrant couldn&#8217;t be used against a defendant in a robbery case...</p></blockquote>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Virtual Event Today: Zero Trust & Identity Strategies Summit]]></title>
-        <id>https://www.securityweek.com/?p=43915</id>
-        <link href="https://www.securityweek.com/virtual-event-today-zero-trust-identity-strategies-summit/"/>
-        <updated>2025-10-08T14:05:03.000Z</updated>
-        <summary type="html"><![CDATA[Join the virtual event we dive into the world of digital identity management and the role of zero-trust principles and associated technologies.
-The post Virtual Event Today: Zero Trust & Identity Strategies Summit appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>SecurityWeek News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[China-Nexus Actors Weaponize 'Nezha' Open Source Tool]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-nezha-open-source-tool</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-nezha-open-source-tool"/>
-        <updated>2025-10-08T14:02:28.000Z</updated>
-        <summary type="html"><![CDATA[A threat actor is putting a spin on classic remote monitoring and management (RMM) attacks, using a Chinese open source tool instead.]]></summary>
-        <author>
-            <name>Nate Nelson, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chinese Hackers Weaponize Open-Source Nezha Tool in New Attack Wave]]></title>
-        <id>https://thehackernews.com/2025/10/chinese-hackers-weaponize-open-source.html</id>
-        <link href="https://thehackernews.com/2025/10/chinese-hackers-weaponize-open-source.html"/>
-        <updated>2025-10-08T13:56:00.000Z</updated>
-        <summary type="html"><![CDATA[Threat actors with suspected ties to China have turned a legitimate open-source monitoring tool called Nezha into an attack weapon, using it to deliver a known malware called Gh0st RAT to targets.
-The activity, observed by cybersecurity company Huntress in August 2025, is characterized by the use of an unusual technique called log poisoning (aka log injection) to plant a web shell on a web]]></summary>
         <author>
             <name>info@thehackernews.com (The Hacker News)</name>
         </author>
