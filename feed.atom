@@ -2,10 +2,337 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-11-10T01:54:04.844Z</updated>
+    <updated>2025-11-11T01:50:46.051Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[OWASP Highlights Supply Chain Risks in New Top 10 List]]></title>
+        <id>https://www.darkreading.com/application-security/owasp-highlights-supply-chain-risks-new-top-10</id>
+        <link href="https://www.darkreading.com/application-security/owasp-highlights-supply-chain-risks-new-top-10"/>
+        <updated>2025-11-10T22:14:09.000Z</updated>
+        <summary type="html"><![CDATA[Security misconfiguration jumped to second place while injection vulnerabilities dropped, as organizations improve defenses against traditional coding flaws.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GlassWorm Returns, Slices Back into VS Code Extensions]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/glassworm-returns-vs-code-extensions</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/glassworm-returns-vs-code-extensions"/>
+        <updated>2025-11-10T21:53:50.000Z</updated>
+        <summary type="html"><![CDATA[GlassWorm, a self-propagating VS Code malware first found in the Open VSX marketplace, continues to infect developer devices around the world.]]></summary>
+        <author>
+            <name>Alexander Culafi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackers Exploiting Triofox Flaw to Install Remote Access Tools via Antivirus Feature]]></title>
+        <id>https://thehackernews.com/2025/11/hackers-exploiting-triofox-flaw-to.html</id>
+        <link href="https://thehackernews.com/2025/11/hackers-exploiting-triofox-flaw-to.html"/>
+        <updated>2025-11-10T20:49:00.000Z</updated>
+        <summary type="html"><![CDATA[Google's Mandiant Threat Defense on Monday said it discovered n-day exploitation of a now-patched security flaw in Gladinet's Triofox file-sharing and remote access platform.
+The critical vulnerability, tracked as CVE-2025-12480 (CVSS score: 9.1), allows an attacker to bypass authentication and access the configuration pages, resulting in the upload and execution of arbitrary payloads. 
+The]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Konni Hackers Turn Google’s Find Hub into a Remote Data-Wiping Weapon]]></title>
+        <id>https://thehackernews.com/2025/11/konni-hackers-turn-googles-find-hub.html</id>
+        <link href="https://thehackernews.com/2025/11/konni-hackers-turn-googles-find-hub.html"/>
+        <updated>2025-11-10T20:29:00.000Z</updated>
+        <summary type="html"><![CDATA[The North Korea-affiliated threat actor known as Konni (aka Earth Imp, Opal Sleet, Osmium, TA406, and Vedalia) has been attributed to a new set of attacks targeting both Android and Windows devices for data theft and remote control.
+"Attackers impersonated psychological counselors and North Korean human rights activists, distributing malware disguised as stress-relief programs," the Genians]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7866-1: Intel Microcode vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7866-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7866-1"/>
+        <updated>2025-11-10T20:11:08.000Z</updated>
+        <summary type="html"><![CDATA[Barak Gross discovered that some Intel® Xeon® processors with SGX enabled
+did not properly handle buffer restrictions. A local authenticated user
+could potentially use this issue to escalate their privileges.
+(CVE-2025-20053)
+
+Avinash Maddy discovered that some Intel® processors did not properly
+isolate or compartmentalize the stream cache mechanisms. A local
+authenticated user could potentially use this issue to escalate their
+privileges. (CVE-2025-20109)
+
+Joseph Nuzman discovered that some Intel® Xeon® processors did not properly
+manage references to active allocate resources. A local authenticated user
+could potentially use this issue to cause a denial of service (system
+crash). (CVE-2025-21090)
+
+It was discovered that some Intel® Xeon® 6 processors did not properly
+provide sufficient g…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7867-1: sudo-rs vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7867-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7867-1"/>
+        <updated>2025-11-10T18:52:35.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that sudo-rs incorrectly handled passwords when timeouts
+occurred and the pwfeedback default was not set. This could result in a
+partially typed password being output to standard input, contrary to
+expectations.
+
+It was discovered that sudo-rs incorrectly handled the targetpw and rootpw
+default settings when creating timestamp files. A local attacker could
+possibly use this issue to bypass authentication in certain configurations.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Many Forbes AI 50 Companies Leak Secrets on GitHub]]></title>
+        <id>https://www.securityweek.com/?p=44245</id>
+        <link href="https://www.securityweek.com/many-forbes-ai-50-companies-leak-secrets-on-github/"/>
+        <updated>2025-11-10T16:12:37.000Z</updated>
+        <summary type="html"><![CDATA[Wiz found the secrets and warned that they can expose training data, organizational structures, and private models.
+The post Many Forbes AI 50 Companies Leak Secrets on GitHub appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ClickFix Campaign Targets Hotels, Spurs Secondary Customer Attacks]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/clickfix-targets-hotels-secondary-customer-attacks</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/clickfix-targets-hotels-secondary-customer-attacks"/>
+        <updated>2025-11-10T15:16:58.000Z</updated>
+        <summary type="html"><![CDATA[Attackers compromise hospitality providers with an infostealer and RAT malware and then use stolen data to launch phishing attacks against customers via both email and WhatsApp.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Runc Vulnerabilities Can Be Exploited to Escape Containers]]></title>
+        <id>https://www.securityweek.com/?p=44244</id>
+        <link href="https://www.securityweek.com/runc-vulnerabilities-can-be-exploited-to-escape-containers/"/>
+        <updated>2025-11-10T14:29:39.000Z</updated>
+        <summary type="html"><![CDATA[The flaws tracked as CVE-2025-31133, CVE-2025-52565, and CVE-2025-52881 have been patched.
+The post Runc Vulnerabilities Can Be Exploited to Escape Containers appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Two New Web Application Risk Categories Added to OWASP Top 10]]></title>
+        <id>https://www.securityweek.com/?p=44242</id>
+        <link href="https://www.securityweek.com/two-new-web-application-risk-categories-added-to-owasp-top-10/"/>
+        <updated>2025-11-10T13:21:12.000Z</updated>
+        <summary type="html"><![CDATA[OWASP has added two new categories to the revised version of its Top 10 list of the most critical risks to web applications.
+The post Two New Web Application Risk Categories Added to OWASP Top 10 appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[⚡ Weekly Recap: Hyper-V Malware, Malicious AI Bots, RDP Exploits, WhatsApp Lockdown and More]]></title>
+        <id>https://thehackernews.com/2025/11/weekly-recap-hyper-v-malware-malicious.html</id>
+        <link href="https://thehackernews.com/2025/11/weekly-recap-hyper-v-malware-malicious.html"/>
+        <updated>2025-11-10T12:51:00.000Z</updated>
+        <summary type="html"><![CDATA[Cyber threats didn’t slow down last week—and attackers are getting smarter. We’re seeing malware hidden in virtual machines, side-channel leaks exposing AI chats, and spyware quietly targeting Android devices in the wild.
+But that’s just the surface. From sleeper logic bombs to a fresh alliance between major threat groups, this week’s roundup highlights a clear shift: cybercrime is evolving fast]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GlassWorm Malware Returns to Open VSX, Emerges on GitHub]]></title>
+        <id>https://www.securityweek.com/?p=44241</id>
+        <link href="https://www.securityweek.com/glassworm-malware-returns-to-open-vsx-emerges-on-github/"/>
+        <updated>2025-11-10T12:46:59.000Z</updated>
+        <summary type="html"><![CDATA[Three more VS Code extensions were infected last week and the malware has emerged in GitHub repositories as well.
+The post GlassWorm Malware Returns to Open VSX, Emerges on GitHub appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7865-1: Linux kernel (FIPS) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7865-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7865-1"/>
+        <updated>2025-11-10T12:06:59.000Z</updated>
+        <summary type="html"><![CDATA[Jean-Claude Graf, Sandro Rüegge, Ali Hajiabadi, and Kaveh Razavi discovered
+that the Linux kernel contained insufficient branch predictor isolation
+between a guest and a userspace hypervisor for certain processors. This
+flaw is known as VMSCAPE. An attacker in a guest VM could possibly use this
+to expose sensitive information from the host OS. (CVE-2025-40300)
+
+Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - Virtio block driver;
+  - DMA engine subsystem;
+  - GPU drivers;
+  - HSI subsystem;
+  - Media drivers;
+  - Network drivers;
+  - Ethernet team driver;
+  - TTY drivers;
+  - Framebuffer layer;
+  - BTRFS file system;
+  - Ext4 file system;
+  - Network file system (NFS) server daemon;
+  - Timer subsystem;
+  - DCCP (Datagram Congestion Control Protocol);
+  - IPv6 networking;
+  - NET/ROM layer;
+  - Packet sockets;
+  - SCTP protocol;
+  - VMware vSockets driver;
+  - USB sound devices;
+(CVE-2021-47149, CVE-2021-47294, CVE-2021-47319, CVE-2021-47330,
+CVE-2021-47589, CVE-2023-52574, CVE-2023-52650, CVE-2024-27078,
+CVE-2024-35849, CVE-2024-49924, CVE-2024-50006, CVE-2024-50299,
+CVE-2024-53124, CVE-2024-53150, CVE-2024-56767, CVE-2025-21796,
+CVE-2025-37785, CVE-2025-37838, CVE-2025-38352, CVE-2025-38617,
+CVE-2025-38618)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Attacks Against Secure Enclaves]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/11/new-attacks-against-secure-enclaves.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/11/new-attacks-against-secure-enclaves.html"/>
+        <updated>2025-11-10T12:04:55.000Z</updated>
+        <summary type="html"><![CDATA[<p>Encryption can protect data at rest and data in transit, but does nothing for data in use. What we have are secure enclaves. I&#8217;ve <a href="https://www.schneier.com/academic/archives/2023/12/decoupling-for-security.html">written about</a> this before:</p>
+<blockquote><p>Almost all cloud services have to perform some computation on our data. Even the simplest storage provider has code to copy bytes from an internal storage system and deliver them to the user. End-to-end encryption is sufficient in such a narrow context. But often we want our cloud providers to be able to perform computation on our raw data: search, analysis, AI model training or fine-tuning, and more. Without expensive, esoteric techniques, such as secure multiparty computation protocols or homomorphic encryption techniques that can perform calculations on encrypted data, cloud servers require access to the unencrypted data to do anything useful...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
+        <id>/node/24159</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/11/10/cisa-adds-one-known-exploited-vulnerability-catalog"/>
+        <updated>2025-11-10T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.
+CVE-2025-21042 Samsung Mobile Devices Out-of-Bounds Write Vulnerability  
+This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. 
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of KEV Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Browser Security Report Reveals Emerging Threats for Enterprises]]></title>
+        <id>https://thehackernews.com/2025/11/new-browser-security-report-reveals.html</id>
+        <link href="https://thehackernews.com/2025/11/new-browser-security-report-reveals.html"/>
+        <updated>2025-11-10T11:58:06.000Z</updated>
+        <summary type="html"><![CDATA[According to the new Browser Security Report 2025, security leaders are discovering that most identity, SaaS, and AI-related risks converge in a single place, the user’s browser. Yet traditional controls like DLP, EDR, and SSE still operate one layer too low.
+What’s emerging isn’t just a blindspot. It’s a parallel threat surface: unmanaged extensions acting like supply chain implants, GenAI]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nearly 30 Alleged Victims of Oracle EBS Hack Named on Cl0p Ransomware Site]]></title>
+        <id>https://www.securityweek.com/?p=44240</id>
+        <link href="https://www.securityweek.com/nearly-30-alleged-victims-of-oracle-ebs-hack-named-on-cl0p-ransomware-site/"/>
+        <updated>2025-11-10T11:46:11.000Z</updated>
+        <summary type="html"><![CDATA[The Cl0p website lists major organizations such as Logitech, The Washington Post, Cox Enterprises, Pan American Silver, LKQ Corporation, and Copeland.
+The post Nearly 30 Alleged Victims of Oracle EBS Hack Named on Cl0p Ransomware Site appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QNAP Patches Vulnerabilities Exploited at Pwn2Own Ireland]]></title>
+        <id>https://www.securityweek.com/?p=44239</id>
+        <link href="https://www.securityweek.com/qnap-patches-vulnerabilities-exploited-at-pwn2own-ireland/"/>
+        <updated>2025-11-10T10:55:50.000Z</updated>
+        <summary type="html"><![CDATA[Multiple vulnerabilities across QNAP’s portfolio could lead to remote code execution, information disclosure, and denial-of-service (DoS) conditions.
+The post QNAP Patches Vulnerabilities Exploited at Pwn2Own Ireland appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Australia Sanctions Hackers Supporting North Korea’s Weapons Program]]></title>
+        <id>https://www.securityweek.com/?p=44238</id>
+        <link href="https://www.securityweek.com/australia-sanctions-hackers-supporting-north-koreas-weapons-program/"/>
+        <updated>2025-11-10T10:37:19.000Z</updated>
+        <summary type="html"><![CDATA[Australia mirrored the US’s recent sanctions against bankers, financial institutions, and others allegedly involved in laundering funds for North Korea.
+The post Australia Sanctions Hackers Supporting North Korea’s Weapons Program appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7862-2: Linux kernel vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7862-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-7862-2"/>
+        <updated>2025-11-10T09:54:46.000Z</updated>
+        <summary type="html"><![CDATA[Jean-Claude Graf, Sandro Rüegge, Ali Hajiabadi, and Kaveh Razavi discovered
+that the Linux kernel contained insufficient branch predictor isolation
+between a guest and a userspace hypervisor for certain processors. This
+flaw is known as VMSCAPE. An attacker in a guest VM could possibly use this
+to expose sensitive information from the host OS.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7860-5: Linux kernel (HWE) vulnerability]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7860-5</id>
+        <link href="https://ubuntu.com/security/notices/USN-7860-5"/>
+        <updated>2025-11-10T09:40:01.000Z</updated>
+        <summary type="html"><![CDATA[Jean-Claude Graf, Sandro Rüegge, Ali Hajiabadi, and Kaveh Razavi discovered
+that the Linux kernel contained insufficient branch predictor isolation
+between a guest and a userspace hypervisor for certain processors. This
+flaw is known as VMSCAPE. An attacker in a guest VM could possibly use this
+to expose sensitive information from the host OS.]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Large-Scale ClickFix Phishing Attacks Target Hotel Systems with PureRAT Malware]]></title>
+        <id>https://thehackernews.com/2025/11/large-scale-clickfix-phishing-attacks.html</id>
+        <link href="https://thehackernews.com/2025/11/large-scale-clickfix-phishing-attacks.html"/>
+        <updated>2025-11-10T09:11:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have called attention to a massive phishing campaign targeting the hospitality industry that lures hotel managers to ClickFix-style pages and harvest their credentials by deploying malware like PureRAT.
+"The attacker's modus operandi involved using a compromised email account to send malicious messages to multiple hotel establishments," Sekoia said. "This campaign]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GlassWorm Malware Discovered in Three VS Code Extensions with Thousands of Installs]]></title>
+        <id>https://thehackernews.com/2025/11/glassworm-malware-discovered-in-three.html</id>
+        <link href="https://thehackernews.com/2025/11/glassworm-malware-discovered-in-three.html"/>
+        <updated>2025-11-10T08:51:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed a new set of three extensions associated with the GlassWorm campaign, indicating continued attempts on part of threat actors to target the Visual Studio Code (VS Code) ecosystem.
+The extensions in question, which are still available for download, are listed below -
+
+ai-driven-dev.ai-driven-dev (3,402 downloads)
+adhamu.history-in-sublime-merge (4,057]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Hype to Adoption: Guiding Organizations in Their AI Journey]]></title>
+        <id>https://www.sei.cmu.edu/blog/from-hype-to-adoption-guiding-organizations-in-their-ai-journey/?utm_source=blog&amp;utm_medium=rss&amp;utm_campaign=my_site_updates</id>
+        <link href="https://www.sei.cmu.edu/blog/from-hype-to-adoption-guiding-organizations-in-their-ai-journey/?utm_source=blog&amp;utm_medium=rss&amp;utm_campaign=my_site_updates"/>
+        <updated>2025-11-10T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[After a flurry of initial investments in artificial intelligence, including generative and agentic AI, many organizations are facing mixed results. The SEI is examining how organizations adopt AI and what methods they can use to measure and improve their adoption for long-term success.]]></summary>
+        <author>
+            <name>SEI Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft Uncovers 'Whisper Leak' Attack That Identifies AI Chat Topics in Encrypted Traffic]]></title>
         <id>https://thehackernews.com/2025/11/microsoft-uncovers-whisper-leak-attack.html</id>
