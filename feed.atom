@@ -2,10 +2,277 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-11-11T01:50:46.051Z</updated>
+    <updated>2025-11-12T01:49:46.012Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[VU#553375: Unprotected temporary directories in Wolfram Cloud version 14.2 may result in privilege escalation]]></title>
+        <id>https://kb.cert.org/vuls/id/553375</id>
+        <link href="https://kb.cert.org/vuls/id/553375"/>
+        <updated>2025-11-11T22:09:31.175Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Wolfram Cloud version 14.2 allows Java Virtual Machine (JVM) unrestricted access to temporary resources in the <code>/tmp/</code> directory of the cloud environment which may result in privilege escalation, information exfiltration, and remote code execution. In the same cloud instance, temporary directories of other users may be accessible.</p>
+<h3 id="description">Description</h3>
+<p>Wolfram Cloud is a multi-tenant cloud platform that supports a virtual "notebook" interface for easier programming and accessibility to tools for quickly building and publishing integrated applications. In this architecture, the instance kernel <code>/tmp/</code> directory is shared, but with access permissions. Excepting the JVM initialization file, these temporary directories usually do not contain sensitive information. A newly discovered race condition allows attackers to poison the classpath via the shared <code>/tmp/</code> directory during JVM initializaiton. If an attacker can approximate when users would be launching the JVM, access to an unprotected temporary directory may be successful.
+The cause is the implementation of the virtual environment by the hosting platform which manages access to temporary files in a multi-tenant cloud environment. A successful attack will give the attacker access to the temporary directories of other users.</p>
+<h3 id="impact">Impact</h3>
+<p>An attacker that accesses the shared <code>/tmp/</code> directory of the instance can potentially achieve privilege escalation, information exfiltration, and remote code execution.
+This constitutes a Technical Impact = Total under the <a href="https://certcc.github.io/SSVC/reference/decision_points/technical_impact/">SSVC framework</a>, meaning:</p>
+<blockquote>
+<p>The vulnerability gives the adversary total control over the behavior of the software or total disclosure of all information on the affected system.</p>
+</blockquote>
+<h3 id="solution">Solution</h3>
+<p>The CERT/CC recommends updating Wolfram Cloud to version 14.2.1.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporter Peter Roberge from Pointer Cybersecurity. This document was written by Laurie Tyzenhaus and Renae Metcalf.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adobe Patches 29 Vulnerabilities]]></title>
+        <id>https://www.securityweek.com/?p=44258</id>
+        <link href="https://www.securityweek.com/adobe-patches-29-vulnerabilities/"/>
+        <updated>2025-11-11T21:20:33.000Z</updated>
+        <summary type="html"><![CDATA[Adobe has fixed InDesign, InCopy, Photoshop, Illustrator, Pass, Substance 3D Stager, and Format Plugins vulnerabilities.
+The post Adobe Patches 29 Vulnerabilities appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Patches Actively Exploited Windows Kernel Zero-Day]]></title>
+        <id>https://www.securityweek.com/?p=44257</id>
+        <link href="https://www.securityweek.com/microsoft-patches-actively-exploited-windows-kernel-zero-day/"/>
+        <updated>2025-11-11T21:02:01.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft’s latest Patch Tuesday updates address more than 60 vulnerabilities in Windows and other products.
+The post Microsoft Patches Actively Exploited Windows Kernel Zero-Day appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tenzai Raises $75 Million in Seed Funding to Build AI-Powered Pentesting Platform]]></title>
+        <id>https://www.securityweek.com/?p=44256</id>
+        <link href="https://www.securityweek.com/tenzai-raises-75-million-in-seed-funding-to-build-ai-powered-pentesting-platform/"/>
+        <updated>2025-11-11T20:55:26.000Z</updated>
+        <summary type="html"><![CDATA[Tel Aviv, Israel based Tenzai has developed an AI-driven platform for penetration testing, which it says can continuously identify and address vulnerabilities.
+The post Tenzai Raises $75 Million in Seed Funding to Build AI-Powered Pentesting Platform appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Mike Lennon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Patch Now: Microsoft Flags Zero-Day &amp; Critical Zero-Click Bugs]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/patch-now-microsoft-zero-day-critical-zero-click-bugs</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/patch-now-microsoft-zero-day-critical-zero-click-bugs"/>
+        <updated>2025-11-11T20:23:44.000Z</updated>
+        <summary type="html"><![CDATA[Security teams may have a less burdensome rollout in November after October's Goliath Patch Tuesday, but shouldn't wait on a few top-priority fixes.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WhatsApp Malware 'Maverick' Hijacks Browser Sessions to Target Brazil's Biggest Banks]]></title>
+        <id>https://thehackernews.com/2025/11/whatsapp-malware-maverick-hijacks.html</id>
+        <link href="https://thehackernews.com/2025/11/whatsapp-malware-maverick-hijacks.html"/>
+        <updated>2025-11-11T18:37:00.000Z</updated>
+        <summary type="html"><![CDATA[Threat hunters have uncovered similarities between a banking malware called Coyote and a newly disclosed malicious program dubbed Maverick that has been propagated via WhatsApp.
+According to a report from CyberProof, both malware strains are written in .NET, target Brazilian users and banks, and feature identical functionality to decrypt, targeting banking URLs and monitor banking applications.]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#579478: Lite XL Arbitrary Code Execution via Project Module and Legacy system.exec Function]]></title>
+        <id>https://kb.cert.org/vuls/id/579478</id>
+        <link href="https://kb.cert.org/vuls/id/579478"/>
+        <updated>2025-11-11T16:51:02.911Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Lite XL is a lightweight text editor derived from the lite project, written primarily in Lua and C. It supports Windows, Linux, and macOS, and is designed for extensibility through plugins and project‑specific modules.</p>
+<h3 id="description">Description</h3>
+<p>Two vulnerabilities were identified Lite XL:</p>
+<p><strong>CVE-2025-12120</strong><br>
+Lite XL versions 2.1.8 and prior automatically execute the .lite_project.lua file when opening a project directory, without prompting the user for confirmation. The .lite_project.lua file is intended for project-specific configuration but can contain executable Lua logic. This behavior could allow execution of untrusted Lua code if a user opens a malicious project, potentially leading to arbitrary code execution with the privileges of the Lite XL process.</p>
+<p><strong>CVE-2025-12121</strong><br>
+Lite XL versions 2.1.8 and prior contain a vulnerability in the system.exec function, which allowed arbitrary command execution through unsanitized shell command construction. This function was used in project directory launching (core.lua), drag-and-drop file handling (rootview.lua), and the “open in system” command in the treeview plugin (treeview.lua). If an attacker could influence input to system.exec, they might execute arbitrary commands with the privileges of the Lite XL process.</p>
+<h3 id="impact">Impact</h3>
+<p><strong>CVE-2025-12120</strong><br>
+ When opening a project in Lite XL, the project’s Lua module was executed automatically, potentially allowing malicious code in a repository to run without user consent.  </p>
+<p><strong>CVE-2025-12121</strong><br>
+ The legacy system.exec function allowed arbitrary shell command execution, which could be abused to compromise the host system.</p>
+<h3 id="affected-versions">Affected versions</h3>
+<p>Lite XL versions 2.1.8 and prior</p>
+<h3 id="solution">Solution</h3>
+<p>Users should update to the latest version of Lite XL that includes these pull requests:</p>
+<p><a href="https://github.com/lite-xl/lite-xl/pull/1472">PR #1472 – Adds in a trust guard for project modules.</a><br>
+<a href="https://github.com/lite-xl/lite-xl/pull/1473">PR #1473 – Removed legacy exec function.</a>  </p>
+<p>These updates ensure that untrusted projects cannot automatically execute Lua code and that unsafe system calls are no longer available.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporter Dogus Demirkiran for reporting these vulnerabilities. Additional thanks to GitHub user <a href="https://github.com/Summertime">Summertime</a> for also identifying CVE-2025-12120 and opening <a href="https://github.com/lite-xl/lite-xl/issues/1892">Issue #1892</a> on GitHub. This document was written by Marisa Midler.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GootLoader Is Back, Using a New Font Trick to Hide Malware on WordPress Sites]]></title>
+        <id>https://thehackernews.com/2025/11/gootloader-is-back-using-new-font-trick.html</id>
+        <link href="https://thehackernews.com/2025/11/gootloader-is-back-using-new-font-trick.html"/>
+        <updated>2025-11-11T15:44:00.000Z</updated>
+        <summary type="html"><![CDATA[The malware known as GootLoader has resurfaced yet again after a brief spike in activity earlier this March, according to new findings from Huntress.
+The cybersecurity company said it observed three GootLoader infections since October 27, 2025, out of which two resulted in hands-on keyboard intrusions with domain controller compromise taking place within 17 hours of initial infection.
+"]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Grandparents to C-Suite: Elder Fraud Reveals Gaps in Human-Centered Cybersecurity]]></title>
+        <id>https://www.darkreading.com/cyber-risk/grandparents-to-c-suite-elder-fraud-reveals-gaps-in-human-centered-cybersecurity</id>
+        <link href="https://www.darkreading.com/cyber-risk/grandparents-to-c-suite-elder-fraud-reveals-gaps-in-human-centered-cybersecurity"/>
+        <updated>2025-11-11T15:30:26.000Z</updated>
+        <summary type="html"><![CDATA[Cybercriminals are weaponizing AI voice cloning and publicly available data to craft social engineering scams that emotionally manipulate senior citizens—and drain billions from their savings.]]></summary>
+        <author>
+            <name>Joan Goodchild</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Triofox Vulnerability Exploited in the Wild]]></title>
+        <id>https://www.securityweek.com/?p=44255</id>
+        <link href="https://www.securityweek.com/critical-triofox-vulnerability-exploited-in-the-wild/"/>
+        <updated>2025-11-11T15:26:42.000Z</updated>
+        <summary type="html"><![CDATA[A threat actor has exploited the issue to create a new administrator account and then used the account to execute remote access tools.
+The post Critical Triofox Vulnerability Exploited in the Wild appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Firefox Protections Halve the Number of Trackable Users]]></title>
+        <id>https://www.securityweek.com/?p=44254</id>
+        <link href="https://www.securityweek.com/new-firefox-protections-halve-the-number-of-trackable-users/"/>
+        <updated>2025-11-11T14:00:41.000Z</updated>
+        <summary type="html"><![CDATA[Mozilla has implemented fresh fingerprinting protections to prevent hidden trackers from identifying Firefox users.
+The post New Firefox Protections Halve the Number of Trackable Users appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bridging the Skills Gap: How Military Veterans Are Strengthening Cybersecurity]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/military-veterans-strengthening-cybersecurity</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/military-veterans-strengthening-cybersecurity"/>
+        <updated>2025-11-11T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[From intelligence analysts to surface warfare officers, military veterans of all backgrounds are successfully pivoting to cybersecurity careers and strengthening the industry's defense capabilities.]]></summary>
+        <author>
+            <name>Kristina Beek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SAP Patches Critical Flaws in SQL Anywhere Monitor, Solution Manager]]></title>
+        <id>https://www.securityweek.com/?p=44253</id>
+        <link href="https://www.securityweek.com/sap-patches-critical-flaws-in-sql-anywhere-monitor-solution-manager/"/>
+        <updated>2025-11-11T13:36:20.000Z</updated>
+        <summary type="html"><![CDATA[Hardcoded credentials in SQL Anywhere Monitor could allow attackers to execute arbitrary code on vulnerable deployments.
+The post SAP Patches Critical Flaws in SQL Anywhere Monitor, Solution Manager appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CMMC Live: Pentagon Demands Verified Cybersecurity From Contractors]]></title>
+        <id>https://www.securityweek.com/?p=44252</id>
+        <link href="https://www.securityweek.com/cmmc-live-pentagon-demands-verified-cybersecurity-from-contractors/"/>
+        <updated>2025-11-11T13:21:49.000Z</updated>
+        <summary type="html"><![CDATA[Enforcement of the Department of Defense’s Cybersecurity Maturity Model Certification (CMMC) requirements started on November 10, 2025.
+The post CMMC Live: Pentagon Demands Verified Cybersecurity From Contractors appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Honoring Our Veteran Readers: Thank You for Your Service]]></title>
+        <id>https://www.securityweek.com/?p=44249</id>
+        <link href="https://www.securityweek.com/honoring-our-veteran-readers-thank-you-for-your-service/"/>
+        <updated>2025-11-11T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Your dedication to service, teamwork, and resilience is woven into the very fabric of cybersecurity.
+The post Honoring Our Veteran Readers: Thank You for Your Service appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Mike Lennon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘Whisper Leak’ LLM Side-Channel Attack Infers User Prompt Topics]]></title>
+        <id>https://www.securityweek.com/?p=44247</id>
+        <link href="https://www.securityweek.com/whisper-leak-llm-side-channel-attack-infers-user-prompt-topics/"/>
+        <updated>2025-11-11T12:10:51.000Z</updated>
+        <summary type="html"><![CDATA[Attackers intercepting network traffic can determine the conversation topic with a chatbot despite end-to-end encrypted communication.
+The post ‘Whisper Leak’ LLM Side-Channel Attack Infers User Prompt Topics appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prompt Injection in AI Browsers]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/11/prompt-injection-in-ai-browsers.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/11/prompt-injection-in-ai-browsers.html"/>
+        <updated>2025-11-11T12:08:48.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://www.bleepingcomputer.com/news/security/commetjacking-attack-tricks-comet-browser-into-stealing-emails/">This</a> is why AIs are not ready to be personal assistants:</p>
+<blockquote><p>A new attack called &#8216;CometJacking&#8217; exploits URL parameters to pass to Perplexity&#8217;s Comet AI browser hidden instructions that allow access to sensitive data from connected services, like email and calendar.</p>
+<p>In a realistic scenario, no credentials or user interaction are required and a threat actor can leverage the attack by simply exposing a maliciously crafted URL to targeted users.</p>
+<p>[&#8230;]</p>
+<p>CometJacking is a prompt-injection attack where the query string processed by the Comet AI browser contains malicious instructions added using the &#8216;collection&#8217; parameter of the URL...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISO's Expert Guide To AI Supply Chain Attacks]]></title>
+        <id>https://thehackernews.com/2025/11/cisos-expert-guide-to-ai-supply-chain.html</id>
+        <link href="https://thehackernews.com/2025/11/cisos-expert-guide-to-ai-supply-chain.html"/>
+        <updated>2025-11-11T11:58:00.000Z</updated>
+        <summary type="html"><![CDATA[AI-enabled supply chain attacks jumped 156% last year. Discover why traditional defenses are failing and what CISOs must do now to protect their organizations.
+Download the full CISO’s expert guide to AI Supply chain attacks here. 
+TL;DR
+
+AI-enabled supply chain attacks are exploding in scale and sophistication - Malicious package uploads to open-source repositories jumped 156% in]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Detect Malicious npm Package Targeting GitHub-Owned Repositories]]></title>
+        <id>https://thehackernews.com/2025/11/researchers-detect-malicious-npm.html</id>
+        <link href="https://thehackernews.com/2025/11/researchers-detect-malicious-npm.html"/>
+        <updated>2025-11-11T11:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have discovered a malicious npm package named "@acitons/artifact" that typosquats the legitimate "@actions/artifact" package with the intent to target GitHub-owned repositories.
+"We think the intent was to have this script execute during a build of a GitHub-owned repository, exfiltrate the tokens available to the build environment, and then use those tokens to publish]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Android Trojan 'Fantasy Hub' Malware Service Turns Telegram Into a Hub for Hackers]]></title>
+        <id>https://thehackernews.com/2025/11/android-trojan-fantasy-hub-malware.html</id>
+        <link href="https://thehackernews.com/2025/11/android-trojan-fantasy-hub-malware.html"/>
+        <updated>2025-11-11T11:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed details of a new Android remote access trojan (RAT) called Fantasy Hub that's sold on Russian-speaking Telegram channels under a Malware-as-a-Service (MaaS) model.
+According to its seller, the malware enables device control and espionage, allowing threat actors to collect SMS messages, contacts, call logs, images, and videos, as well as intercept, reply,]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kimsuky APT Takes Over South Korean Androids, Abuses KakaoTalk]]></title>
+        <id>https://www.darkreading.com/remote-workforce/kimsuky-apt-south-korean-androids-abuses-kakaotalk</id>
+        <link href="https://www.darkreading.com/remote-workforce/kimsuky-apt-south-korean-androids-abuses-kakaotalk"/>
+        <updated>2025-11-11T11:40:59.000Z</updated>
+        <summary type="html"><![CDATA[Konni, a subset of the state-sponsored DPRK cyberespionage group, first exploits Google Find Hub, which ironically aims to protect lost Android devices, to remotely wipe devices.]]></summary>
+        <author>
+            <name>Elizabeth Montalbano, Contributing Writer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OWASP Highlights Supply Chain Risks in New Top 10 List]]></title>
         <id>https://www.darkreading.com/application-security/owasp-highlights-supply-chain-risks-new-top-10</id>
@@ -24,6 +291,46 @@
         <summary type="html"><![CDATA[GlassWorm, a self-propagating VS Code malware first found in the Open VSX marketplace, continues to infect developer devices around the world.]]></summary>
         <author>
             <name>Alexander Culafi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7869-1: Raptor vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7869-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7869-1"/>
+        <updated>2025-11-10T21:28:28.000Z</updated>
+        <summary type="html"><![CDATA[Hanno Böck discovered that Raptor incorrectly handled memory operations
+when processing certain input files. An attacker could possibly use this
+issue to cause Raptor to crash, resulting in a denial of service.
+(CVE-2020-25713)
+
+Pedro Ribeiro discovered that Raptor incorrectly handled parsing certain
+tuples. An attacker could possibly use this issue to cause Raptor to crash,
+resulting in a denial of service. (CVE-2024-57822)
+
+Pedro Ribeiro discovered that Raptor incorrectly handled parsing certain
+turtles. An attacker could use this issue to cause Raptor to crash,
+resulting in a denial of service, or possibly execute arbitrary code.
+(CVE-2024-57823)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7868-1: Raptor vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7868-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7868-1"/>
+        <updated>2025-11-10T21:20:02.000Z</updated>
+        <summary type="html"><![CDATA[Hanno Böck discovered that Raptor incorrectly handled memory operations
+when processing certain input files. An attacker could use this issue to
+cause Raptor to crash, resulting in a denial of service, or possibly
+execute arbitrary code. (CVE-2017-18926)
+
+Hanno Böck discovered that Raptor incorrectly handled memory operations
+when processing certain input files. An attacker could possibly use this
+issue to cause Raptor to crash, resulting in a denial of service.
+(CVE-2020-25713)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
         </author>
     </entry>
     <entry>
@@ -7095,182 +7402,6 @@ The post Malicious Code on Unity Website Skims Information From Hundreds of Cust
         <summary type="html"><![CDATA[OT and ICS systems indeed hold the crown jewels of critical infrastructure organizations, but unmonitored data sprawl is proving to be pure gold for increasingly brazen nation-state threat actors like Volt Typhoon, Pearce argues.]]></summary>
         <author>
             <name>Joe Pearce</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Generation AI: Why Today's Tech Graduates Are At a Disadvantage]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/ai-tech-graduates-disadvantage</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/ai-tech-graduates-disadvantage"/>
-        <updated>2025-10-13T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[With artificial intelligence supplanting entry-level security jobs, new cyber professionals will have to up their game to stay competitive in the industry.]]></summary>
-        <author>
-            <name>Kristina Beek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[⚡ Weekly Recap: WhatsApp Worm, Critical CVEs, Oracle 0-Day, Ransomware Cartel & More]]></title>
-        <id>https://thehackernews.com/2025/10/weekly-recap-whatsapp-worm-critical.html</id>
-        <link href="https://thehackernews.com/2025/10/weekly-recap-whatsapp-worm-critical.html"/>
-        <updated>2025-10-13T13:18:00.000Z</updated>
-        <summary type="html"><![CDATA[Every week, the cyber world reminds us that silence doesn’t mean safety. Attacks often begin quietly — one unpatched flaw, one overlooked credential, one backup left unencrypted. By the time alarms sound, the damage is done.
-This week’s edition looks at how attackers are changing the game — linking different flaws, working together across borders, and even turning trusted tools into weapons.]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SonicWall SSL VPN Accounts in Attacker Crosshairs]]></title>
-        <id>https://www.securityweek.com/?p=43955</id>
-        <link href="https://www.securityweek.com/sonicwall-ssl-vpn-accounts-in-attacker-crosshairs/"/>
-        <updated>2025-10-13T13:08:52.000Z</updated>
-        <summary type="html"><![CDATA[Threat actors have rapidly compromised more than 100 SonicWall SSL VPN accounts pertaining to over a dozen entities.
-The post SonicWall SSL VPN Accounts in Attacker Crosshairs appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SimonMed Imaging Data Breach Impacts 1.2 Million]]></title>
-        <id>https://www.securityweek.com/?p=43954</id>
-        <link href="https://www.securityweek.com/simonmed-imaging-data-breach-impacts-1-2-million/"/>
-        <updated>2025-10-13T12:29:31.000Z</updated>
-        <summary type="html"><![CDATA[SimonMed Imaging was targeted by the Medusa ransomware group, which claimed to have stolen 200 Gb of data.
-The post SimonMed Imaging Data Breach Impacts 1.2 Million appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Unmonitored JavaScript Is Your Biggest Holiday Security Risk]]></title>
-        <id>https://thehackernews.com/2025/10/why-unmonitored-javascript-is-your.html</id>
-        <link href="https://thehackernews.com/2025/10/why-unmonitored-javascript-is-your.html"/>
-        <updated>2025-10-13T11:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Think your WAF has you covered? Think again. This holiday season, unmonitored JavaScript is a critical oversight allowing attackers to steal payment data while your WAF and intrusion detection systems see nothing. With the 2025 shopping season weeks away, visibility gaps must close now.
-Get the complete Holiday Season Security Playbook here.
-Bottom Line Up Front
-The 2024 holiday season saw major]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NPM Infrastructure Abused in Phishing Campaign Aimed at Industrial and Electronics Firms]]></title>
-        <id>https://www.securityweek.com/?p=43953</id>
-        <link href="https://www.securityweek.com/npm-infrastructure-abused-in-phishing-campaign-aimed-at-industrial-and-electronics-firms/"/>
-        <updated>2025-10-13T11:40:19.000Z</updated>
-        <summary type="html"><![CDATA[Threat actors used automation to create over 175 malicious NPM packages targeting more than 135 organizations.
-The post NPM Infrastructure Abused in Phishing Campaign Aimed at Industrial and Electronics Firms appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI and the Future of American Politics]]></title>
-        <id>https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html</id>
-        <link href="https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html"/>
-        <updated>2025-10-13T11:04:31.000Z</updated>
-        <summary type="html"><![CDATA[<p>Two years ago, Americans anxious about the forthcoming 2024 presidential election were considering the malevolent force of an election influencer: artificial intelligence. Over the past several years, we have seen <a href="https://www.cigionline.org/articles/then-and-now-how-does-ai-electoral-interference-compare-in-2025/">plenty</a> <a href="https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1569115/full">of</a> <a href="https://www.nytimes.com/2025/06/26/technology/ai-elections-democracy.html">warning</a> <a href="https://cdn.prod.website-files.com/643ecb10be528d2c1da863cb/682f5ae442fffdff819ef830_TP%202025.2.pdf">signs</a> from elections worldwide demonstrating how AI can be used to propagate misinformation and alter the political landscape, whether by <a href="https://www.nytimes.com/2023/12/13/us/politics/trump-meme-trolls-2024.html">trolls</a> on social media, <a href="https://www.npr.org/2024/08/17/nx-s1-5079397/openai-chatgpt-iranian-group-us-election">foreign</a> <a href="https://www.nato.int/docu/review/articles/2025/02/07/algorithmic-invasions-how-information-warfare-threatens-nato-s-eastern-flank/index.html">influencers</a>, or even a <a href="https://www.nbcnews.com/politics/2024-election/democratic-operative-admits-commissioning-fake-biden-robocall-used-ai-rcna140402">street magician</a><a href="https://www.nbcnews.com/politics/2024-election/democratic-operative-admits-commissioning-fake-biden-robocall-used-ai-rcna140402">.</a> AI is poised to play a more volatile role than ever before in America&#8217;s next federal election in 2026. We can already see how different groups of political actors are approaching AI. Professional campaigners are using AI to accelerate the traditional tactics of electioneering; organizers are using it to reinvent how movements are built; and citizens are using it both to express themselves and amplify their side&#8217;s messaging. Because there are so few rules, and so little prospect of regulatory action, around AI&#8217;s role in politics, there is no oversight of these activities, and no safeguards against the dramatic potential impacts for our democracy...</p>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oracle Patches EBS Vulnerability Allowing Access to Sensitive Data]]></title>
-        <id>https://www.securityweek.com/?p=43952</id>
-        <link href="https://www.securityweek.com/oracle-patches-ebs-vulnerability-allowing-access-to-sensitive-data/"/>
-        <updated>2025-10-13T10:37:59.000Z</updated>
-        <summary type="html"><![CDATA[It’s unclear if the new Oracle E-Business Suite flaw, which can be exploited remotely without authentication, has been used in the wild.  
-The post Oracle Patches EBS Vulnerability Allowing Access to Sensitive Data appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers Warn RondoDox Botnet is Weaponizing Over 50 Flaws Across 30+ Vendors]]></title>
-        <id>https://thehackernews.com/2025/10/researchers-warn-rondodox-botnet-is.html</id>
-        <link href="https://thehackernews.com/2025/10/researchers-warn-rondodox-botnet-is.html"/>
-        <updated>2025-10-13T10:12:00.000Z</updated>
-        <summary type="html"><![CDATA[Malware campaigns distributing the RondoDox botnet have expanded their targeting focus to exploit more than 50 vulnerabilities across over 30 vendors.
-The activity, described as akin to an "exploit shotgun" approach, has singled out a wide range of internet-exposed infrastructure, including routers, digital video recorders (DVRs), network video recorders (NVRs), CCTV systems, web servers, and]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Locks Down IE Mode After Hackers Turned Legacy Feature Into Backdoor]]></title>
-        <id>https://thehackernews.com/2025/10/microsoft-locks-down-ie-mode-after.html</id>
-        <link href="https://thehackernews.com/2025/10/microsoft-locks-down-ie-mode-after.html"/>
-        <updated>2025-10-13T09:54:00.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft said it has revamped the Internet Explorer (IE) mode in its Edge browser after receiving "credible reports" in August 2025 that unknown threat actors were abusing the backward compatibility feature to gain unauthorized access to users' devices.
-"Threat actors were leveraging basic social engineering techniques alongside unpatched (0-day) exploits in Internet Explorer's JavaScript]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spanish Authorities Dismantle ‘GXC Team’ Crime-as-a-Service Operation]]></title>
-        <id>https://www.securityweek.com/?p=43951</id>
-        <link href="https://www.securityweek.com/spanish-authorities-dismantle-gxc-team-crime-as-a-service-operation/"/>
-        <updated>2025-10-13T09:35:48.000Z</updated>
-        <summary type="html"><![CDATA[The authorities arrested GoogleXcoder, the alleged administrator of GXC Team, which offered phishing kits and Android malware.
-The post Spanish Authorities Dismantle ‘GXC Team’ Crime-as-a-Service Operation appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Extortion Group Leaks Millions of Records From Salesforce Hacks]]></title>
-        <id>https://www.securityweek.com/?p=43949</id>
-        <link href="https://www.securityweek.com/extortion-group-leaks-millions-of-records-from-salesforce-hacks/"/>
-        <updated>2025-10-13T08:44:01.000Z</updated>
-        <summary type="html"><![CDATA[The data allegedly pertains to Albertsons, Engie Resources, Fujifilm, GAP, Qantas, and Vietnam Airlines.
-The post Extortion Group Leaks Millions of Records From Salesforce Hacks appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Astaroth Banking Trojan Abuses GitHub to Remain Operational After Takedowns]]></title>
-        <id>https://thehackernews.com/2025/10/astaroth-banking-trojan-abuses-github.html</id>
-        <link href="https://thehackernews.com/2025/10/astaroth-banking-trojan-abuses-github.html"/>
-        <updated>2025-10-13T06:52:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers are calling attention to a new campaign that delivers the Astaroth banking trojan that employs GitHub as a backbone for its operations to stay resilient in the face of infrastructure takedowns.
-"Instead of relying solely on traditional command-and-control (C2) servers that can be taken down, these attackers are leveraging GitHub repositories to host malware]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Rust-Based Malware "ChaosBot" Uses Discord Channels to Control Victims' PCs]]></title>
-        <id>https://thehackernews.com/2025/10/new-rust-based-malware-chaosbot-hijacks.html</id>
-        <link href="https://thehackernews.com/2025/10/new-rust-based-malware-chaosbot-hijacks.html"/>
-        <updated>2025-10-13T05:12:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed details of a new Rust-based backdoor called ChaosBot that can allow operators to conduct reconnaissance and execute arbitrary commands on compromised hosts.
-"Threat actors leveraged compromised credentials that mapped to both Cisco VPN and an over-privileged Active Directory account named, 'serviceaccount,'" eSentire said in a technical report published]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What’s New in SSVC: Build, Explore, and Evolve Your Decision Models]]></title>
-        <id>https://www.sei.cmu.edu/blog/whats-new-in-ssvc-build-explore-and-evolve-your-decision-models/?utm_source=blog&amp;utm_medium=rss&amp;utm_campaign=my_site_updates</id>
-        <link href="https://www.sei.cmu.edu/blog/whats-new-in-ssvc-build-explore-and-evolve-your-decision-models/?utm_source=blog&amp;utm_medium=rss&amp;utm_campaign=my_site_updates"/>
-        <updated>2025-10-13T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Recent updates to the Stakeholder-Specific Vulnerability Categorization (SSVC) framework help different stakeholders to prioritize vulnerabilities according to their distinct risk appetites.]]></summary>
-        <author>
-            <name>SEI Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Oracle E-Business Suite Bug Could Let Hackers Access Data Without Login]]></title>
-        <id>https://thehackernews.com/2025/10/new-oracle-e-business-suite-bug-could.html</id>
-        <link href="https://thehackernews.com/2025/10/new-oracle-e-business-suite-bug-could.html"/>
-        <updated>2025-10-12T17:24:00.000Z</updated>
-        <summary type="html"><![CDATA[Oracle on Saturday issued a security alert warning of a fresh security flaw impacting its E-Business Suite that it said could allow unauthorized access to sensitive data.
-The vulnerability, tracked as CVE-2025-61884, carries a CVSS score of 7.5, indicating high severity. It affects versions from 12.2.3 through 12.2.14.
-"Easily exploitable vulnerability allows an unauthenticated attacker with]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
         </author>
     </entry>
     <entry>

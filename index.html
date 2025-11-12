@@ -36,6 +36,509 @@ alt="Web Analytics Made Easy - StatCounter"></a></div></noscript>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-11-11 datetime="2025-11-11T22:09:31.175Z">2025-11-11</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-11-11 datetime="2025-11-11T22:09:31.175Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >CERT Recently Published Vulnerability Notes</button>
+                  <a class="source-heading__link" href="https://kb.cert.org/vuls/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kb.cert.org/vuls/id/553375"
+                        open
+                      >
+                        <summary class="article-expander__title">VU#553375: Unprotected temporary directories in Wolfram Cloud version 14.2 may result in privilege escalation</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kb.cert.org/vuls/id/553375">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Overview
+Wolfram Cloud version 14.2 allows Java Virtual Machine (JVM) unrestricted access to temporary resources in the /tmp/ directory of the cloud environment which may result in privilege escalation, information exfiltration, and remote code execution. In the same cloud instance, temporary directories of other users may be accessible.
+Description
+Wolfram Cloud is a multi-tenant cloud platform that supports a virtual &quot;notebook&quot; interface for easier programming and accessibility to tools for quickly building and publishing integrated applications. In this architecture, the instance kernel /tmp/ directory is shared, but with access permissions. Excepting the JVM initialization file, these temporary directories usually do not contain sensitive information. A newly discovered race condition allows attackers to poison the classpath via the shared /tmp/ directory during JVM initializaiton. If an attacker can approximate when users would be launching the JVM, access to an unprotected temporary directory may be successful.
+The cause is the implementation of the virtual environment by the hosting platform which manages access to temporary files in a multi-tenant cloud environment. A successful attack will give the attacker access to the temporary directories of other users.
+Impact
+An attacker that accesses the shared /tmp/ directory of the instance can potentially achieve privilege escalation, information exfiltration, and remote code execution.
+This constitutes a Technical Impact &#x3D; Total under the SSVC framework, meaning:
+The vulnerability gives the adversary total control over the behavior of the software or total disclosure of all information on the affected system.
+Solution
+The CERT/CC recommends updating Wolfram Cloud to version 14.2.1.
+Acknowledgements
+Thanks to the reporter Peter Roberge from Pointer Cybersecurity. This document was written by Laurie Tyzenhaus and Renae Metcalf.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kb.cert.org/vuls/id/579478"
+                        open
+                      >
+                        <summary class="article-expander__title">VU#579478: Lite XL Arbitrary Code Execution via Project Module and Legacy system.exec Function</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kb.cert.org/vuls/id/579478">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Overview
+Lite XL is a lightweight text editor derived from the lite project, written primarily in Lua and C. It supports Windows, Linux, and macOS, and is designed for extensibility through plugins and project‑specific modules.
+Description
+Two vulnerabilities were identified Lite XL:
+CVE-2025-12120
+CVE-2025-12121
+Impact
+CVE-2025-12120
+CVE-2025-12121
+Affected versions
+Lite XL versions 2.1.8 and prior
+Solution
+Users should update to the latest version of Lite XL that includes these pull requests:
+PR #1472 – Adds in a trust guard for project modules.
+PR #1473 – Removed legacy exec function.  
+These updates ensure that untrusted projects cannot automatically execute Lua code and that unsafe system calls are no longer available.
+Acknowledgements
+Thanks to the reporter Dogus Demirkiran for reporting these vulnerabilities. Additional thanks to GitHub user Summertime for also identifying CVE-2025-12120 and opening Issue #1892 on GitHub. This document was written by Marisa Midler.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >SecurityWeek</button>
+                  <a class="source-heading__link" href="https://www.securityweek.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;44258"
+                        open
+                      >
+                        <summary class="article-expander__title">Adobe Patches 29 Vulnerabilities</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/adobe-patches-29-vulnerabilities/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Adobe has fixed InDesign, InCopy, Photoshop, Illustrator, Pass, Substance 3D Stager, and Format Plugins vulnerabilities.
+The post Adobe Patches 29 Vulnerabilities appeared first on SecurityWeek.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;44257"
+                        open
+                      >
+                        <summary class="article-expander__title">Microsoft Patches Actively Exploited Windows Kernel Zero-Day</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/microsoft-patches-actively-exploited-windows-kernel-zero-day/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Microsoft’s latest Patch Tuesday updates address more than 60 vulnerabilities in Windows and other products.
+The post Microsoft Patches Actively Exploited Windows Kernel Zero-Day appeared first on SecurityWeek.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;44256"
+                        open
+                      >
+                        <summary class="article-expander__title">Tenzai Raises $75 Million in Seed Funding to Build AI-Powered Pentesting Platform</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/tenzai-raises-75-million-in-seed-funding-to-build-ai-powered-pentesting-platform/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Tel Aviv, Israel based Tenzai has developed an AI-driven platform for penetration testing, which it says can continuously identify and address vulnerabilities.
+The post Tenzai Raises $75 Million in Seed Funding to Build AI-Powered Pentesting Platform appeared first on SecurityWeek.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;44255"
+                        open
+                      >
+                        <summary class="article-expander__title">Critical Triofox Vulnerability Exploited in the Wild</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/critical-triofox-vulnerability-exploited-in-the-wild/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>A threat actor has exploited the issue to create a new administrator account and then used the account to execute remote access tools.
+The post Critical Triofox Vulnerability Exploited in the Wild appeared first on SecurityWeek.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;44254"
+                        open
+                      >
+                        <summary class="article-expander__title">New Firefox Protections Halve the Number of Trackable Users</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/new-firefox-protections-halve-the-number-of-trackable-users/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Mozilla has implemented fresh fingerprinting protections to prevent hidden trackers from identifying Firefox users.
+The post New Firefox Protections Halve the Number of Trackable Users appeared first on SecurityWeek.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;44253"
+                        open
+                      >
+                        <summary class="article-expander__title">SAP Patches Critical Flaws in SQL Anywhere Monitor, Solution Manager</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/sap-patches-critical-flaws-in-sql-anywhere-monitor-solution-manager/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hardcoded credentials in SQL Anywhere Monitor could allow attackers to execute arbitrary code on vulnerable deployments.
+The post SAP Patches Critical Flaws in SQL Anywhere Monitor, Solution Manager appeared first on SecurityWeek.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;44252"
+                        open
+                      >
+                        <summary class="article-expander__title">CMMC Live: Pentagon Demands Verified Cybersecurity From Contractors</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/cmmc-live-pentagon-demands-verified-cybersecurity-from-contractors/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Enforcement of the Department of Defense’s Cybersecurity Maturity Model Certification (CMMC) requirements started on November 10, 2025.
+The post CMMC Live: Pentagon Demands Verified Cybersecurity From Contractors appeared first on SecurityWeek.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;44249"
+                        open
+                      >
+                        <summary class="article-expander__title">Honoring Our Veteran Readers: Thank You for Your Service</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/honoring-our-veteran-readers-thank-you-for-your-service/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Your dedication to service, teamwork, and resilience is woven into the very fabric of cybersecurity.
+The post Honoring Our Veteran Readers: Thank You for Your Service appeared first on SecurityWeek.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.securityweek.com/?p&#x3D;44247"
+                        open
+                      >
+                        <summary class="article-expander__title">‘Whisper Leak’ LLM Side-Channel Attack Infers User Prompt Topics</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/whisper-leak-llm-side-channel-attack-infers-user-prompt-topics/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Attackers intercepting network traffic can determine the conversation topic with a chatbot despite end-to-end encrypted communication.
+The post ‘Whisper Leak’ LLM Side-Channel Attack Infers User Prompt Topics appeared first on SecurityWeek.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >darkreading</button>
+                  <a class="source-heading__link" href="https://www.darkreading.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/vulnerabilities-threats/patch-now-microsoft-zero-day-critical-zero-click-bugs"
+                        open
+                      >
+                        <summary class="article-expander__title">Patch Now: Microsoft Flags Zero-Day &amp; Critical Zero-Click Bugs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/vulnerabilities-threats/patch-now-microsoft-zero-day-critical-zero-click-bugs">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Security teams may have a less burdensome rollout in November after October&#x27;s Goliath Patch Tuesday, but shouldn&#x27;t wait on a few top-priority fixes.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/cyber-risk/grandparents-to-c-suite-elder-fraud-reveals-gaps-in-human-centered-cybersecurity"
+                        open
+                      >
+                        <summary class="article-expander__title">Grandparents to C-Suite: Elder Fraud Reveals Gaps in Human-Centered Cybersecurity</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/cyber-risk/grandparents-to-c-suite-elder-fraud-reveals-gaps-in-human-centered-cybersecurity">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Cybercriminals are weaponizing AI voice cloning and publicly available data to craft social engineering scams that emotionally manipulate senior citizens—and drain billions from their savings.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/cybersecurity-operations/military-veterans-strengthening-cybersecurity"
+                        open
+                      >
+                        <summary class="article-expander__title">Bridging the Skills Gap: How Military Veterans Are Strengthening Cybersecurity</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/cybersecurity-operations/military-veterans-strengthening-cybersecurity">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>From intelligence analysts to surface warfare officers, military veterans of all backgrounds are successfully pivoting to cybersecurity careers and strengthening the industry&#x27;s defense capabilities.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.darkreading.com/remote-workforce/kimsuky-apt-south-korean-androids-abuses-kakaotalk"
+                        open
+                      >
+                        <summary class="article-expander__title">Kimsuky APT Takes Over South Korean Androids, Abuses KakaoTalk</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/remote-workforce/kimsuky-apt-south-korean-androids-abuses-kakaotalk">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Konni, a subset of the state-sponsored DPRK cyberespionage group, first exploits Google Find Hub, which ironically aims to protect lost Android devices, to remotely wipe devices.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Hacker News</button>
+                  <a class="source-heading__link" href="https://thehackernews.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2025/11/whatsapp-malware-maverick-hijacks.html"
+                        open
+                      >
+                        <summary class="article-expander__title">WhatsApp Malware &#x27;Maverick&#x27; Hijacks Browser Sessions to Target Brazil&#x27;s Biggest Banks</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/whatsapp-malware-maverick-hijacks.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrlz0Rd5WFx1WGLM50k8zciZga_tvSSCACZehOgO5Kb-v0WP-PffiCulnIsUbwnvjPYtT15mAXR20xitSNUp9DlsPaN28keaeKCc1mybORUEBINDq5ptqGr5lOXht-rf_eQLckwgR2w5S4M8qx-R-kwDG6TmX3ydLfSACazclZlnIto_rB39ckAxYepJgl/s1600/whatsapp-web.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Threat hunters have uncovered similarities between a banking malware called Coyote and a newly disclosed malicious program dubbed Maverick that has been propagated via WhatsApp.
+According to a report from CyberProof, both malware strains are written in .NET, target Brazilian users and banks, and feature identical functionality to decrypt, targeting banking URLs and monitor banking applications.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2025/11/gootloader-is-back-using-new-font-trick.html"
+                        open
+                      >
+                        <summary class="article-expander__title">GootLoader Is Back, Using a New Font Trick to Hide Malware on WordPress Sites</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/gootloader-is-back-using-new-font-trick.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs_gIwNxs0iD5Xi-iqyG6SM6_-T-HGSrhisOTbsd_IXIbBPhNqqQPaY-m9xeuPvh2V2CCA5qvNL2UrMZqu-LrredR1PXMg71aYeMjoMtpTQ3jExATxGIcP08cndRyNyUYQkxp0y-tlnXNDTWCC24M0X5px8Qt_zaRZumMgEejW9enncxB5Hmek2sFkAH9p/s1600/fonts.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The malware known as GootLoader has resurfaced yet again after a brief spike in activity earlier this March, according to new findings from Huntress.
+The cybersecurity company said it observed three GootLoader infections since October 27, 2025, out of which two resulted in hands-on keyboard intrusions with domain controller compromise taking place within 17 hours of initial infection.
+&quot;</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2025/11/cisos-expert-guide-to-ai-supply-chain.html"
+                        open
+                      >
+                        <summary class="article-expander__title">CISO&#x27;s Expert Guide To AI Supply Chain Attacks</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/cisos-expert-guide-to-ai-supply-chain.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi237aSL-o6s_t-xtfun1CAuoHCY2XPJAUUHpQY18pfeww9bVAJ8M1Dtu1gEtk25UoLyeCOHz6k-TFkgBB2FSp_Y3VHQAYwpJNlBy48ffsfJQgA42Jvg1kNdRR6-VBxOZNk0ZFzIB3FrSylKmccKLCnY_olvsBLdOpA2MFqqDUZchxGce_loAbyFqyjHwk/s1600/reflectiz.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>AI-enabled supply chain attacks jumped 156% last year. Discover why traditional defenses are failing and what CISOs must do now to protect their organizations.
+Download the full CISO’s expert guide to AI Supply chain attacks here. 
+TL;DR
+
+AI-enabled supply chain attacks are exploding in scale and sophistication - Malicious package uploads to open-source repositories jumped 156% in</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2025/11/researchers-detect-malicious-npm.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Researchers Detect Malicious npm Package Targeting GitHub-Owned Repositories</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/researchers-detect-malicious-npm.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCsz1QgtB3DAorATUJtM4NKEDKSftFK-LplwEwazMvy2CJl8Ua-T_nRLa6hpR968DBP4cjFK1rhd70vBYd_gx4s24AQepRSFpjXkFezP9hKo2lrYQm-WgcHBKvJQrU3AYRBltbe6Qw8xpGCcTFje-h3a24Pb04JtJMlUX3Ug7XtR1inGNz7fVkzpfLT_KZ/s1600/hacker-code.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Cybersecurity researchers have discovered a malicious npm package named &quot;@acitons/artifact&quot; that typosquats the legitimate &quot;@actions/artifact&quot; package with the intent to target GitHub-owned repositories.
+&quot;We think the intent was to have this script execute during a build of a GitHub-owned repository, exfiltrate the tokens available to the build environment, and then use those tokens to publish</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2025/11/android-trojan-fantasy-hub-malware.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Android Trojan &#x27;Fantasy Hub&#x27; Malware Service Turns Telegram Into a Hub for Hackers</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/android-trojan-fantasy-hub-malware.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrnztvfc0MS4mXpDjarA_dBNhWyKUYkHkdNF-kNrP6lLQ5-IlH3aQx6_xwLDyyx7qKhcry5c5t3qUNEsAgE4Qp5yxBKVVmgZWtg8F_0RX6bU29uCFoqTw1gdwPvNCdfwjVVapeiSyWW13-ESWpGPgkLiuV8hGMz4Vx5CSlm6JCk0n8CPLSikgtkUSWwn-n/s1600/android-telegram.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Cybersecurity researchers have disclosed details of a new Android remote access trojan (RAT) called Fantasy Hub that&#x27;s sold on Russian-speaking Telegram channels under a Malware-as-a-Service (MaaS) model.
+According to its seller, the malware enables device control and espionage, allowing threat actors to collect SMS messages, contacts, call logs, images, and videos, as well as intercept, reply,</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Schneier on Security</button>
+                  <a class="source-heading__link" href="https://www.schneier.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.schneier.com/blog/archives/2025/11/prompt-injection-in-ai-browsers.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Prompt Injection in AI Browsers</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.schneier.com/blog/archives/2025/11/prompt-injection-in-ai-browsers.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>This is why AIs are not ready to be personal assistants:
+A new attack called ‘CometJacking’ exploits URL parameters to pass to Perplexity’s Comet AI browser hidden instructions that allow access to sensitive data from connected services, like email and calendar.
+In a realistic scenario, no credentials or user interaction are required and a threat actor can leverage the attack by simply exposing a maliciously crafted URL to targeted users.
+[…]
+CometJacking is a prompt-injection attack where the query string processed by the Comet AI browser contains malicious instructions added using the ‘collection’ parameter of the URL...</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-11-10 datetime="2025-11-10T22:14:09.000Z">2025-11-10</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-11-10 datetime="2025-11-10T22:14:09.000Z"></time>
           </button>
@@ -113,142 +616,70 @@ alt="Web Analytics Made Easy - StatCounter"></a></div></noscript>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Hacker News</button>
-                  <a class="source-heading__link" href="https://thehackernews.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/11/hackers-exploiting-triofox-flaw-to.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Hackers Exploiting Triofox Flaw to Install Remote Access Tools via Antivirus Feature</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/hackers-exploiting-triofox-flaw-to.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8M2fayypp4tc7l9XXHjTnXQnhElB2WNkkdqTieUwFXlwEx60oLFnbxhHJQDW3kk7TrkYf5s3WrZEjoaRhTEfVhkehsPEgFQQTIs_KH9FgqGP_ozimhhEazGWZCDR7p5CVEyCo5cf-V5_8HlzJCIl0lGMTdArM6v9-U-BPKd5vbkaINt60uHPrqNSidg7j/s1600/hackers.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Google&#x27;s Mandiant Threat Defense on Monday said it discovered n-day exploitation of a now-patched security flaw in Gladinet&#x27;s Triofox file-sharing and remote access platform.
-The critical vulnerability, tracked as CVE-2025-12480 (CVSS score: 9.1), allows an attacker to bypass authentication and access the configuration pages, resulting in the upload and execution of arbitrary payloads. 
-The</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/11/konni-hackers-turn-googles-find-hub.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Konni Hackers Turn Google’s Find Hub into a Remote Data-Wiping Weapon</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/konni-hackers-turn-googles-find-hub.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIpCQ5f-ly7CHt6FDz9ULaJDLRDxJIrT9-GScn1vGk8jXp6zSXDDAMGMMZ-LY2bolu8-7HPoW0BNzFEyouKuyHNukvjbtUF16MiYto_WUV9Ve3x7ZJZYoE0J54qzT0VPtdZ_Bs54xIN53ifzW_Kqrd5QLPAEDEjUgfpUkcLLngM1_KrJaUi44JLAcg5m-f/s1600/hub.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The North Korea-affiliated threat actor known as Konni (aka Earth Imp, Opal Sleet, Osmium, TA406, and Vedalia) has been attributed to a new set of attacks targeting both Android and Windows devices for data theft and remote control.
-&quot;Attackers impersonated psychological counselors and North Korean human rights activists, distributing malware disguised as stress-relief programs,&quot; the Genians</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/11/weekly-recap-hyper-v-malware-malicious.html"
-                        open
-                      >
-                        <summary class="article-expander__title">⚡ Weekly Recap: Hyper-V Malware, Malicious AI Bots, RDP Exploits, WhatsApp Lockdown and More</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/weekly-recap-hyper-v-malware-malicious.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihDn-ouAjSamS6qppMqJQp0muEjFRy3-Rs2m4u6iNunhDZUPSbi9CQMC1Ub8r7CFkHVo_7B98nwiZbsLlbg2Xq_Im67d6GvqaEaq3ZILZfZVhYafqJydsDCggwkh_n3q-XDcZJ_JLFalQ7E_KK-nYa9_YrOZl62NnyglLa5vmtdWPF7K9lH07l32yv72CI/s1600/recap-nov.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Cyber threats didn’t slow down last week—and attackers are getting smarter. We’re seeing malware hidden in virtual machines, side-channel leaks exposing AI chats, and spyware quietly targeting Android devices in the wild.
-But that’s just the surface. From sleeper logic bombs to a fresh alliance between major threat groups, this week’s roundup highlights a clear shift: cybercrime is evolving fast</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/11/new-browser-security-report-reveals.html"
-                        open
-                      >
-                        <summary class="article-expander__title">New Browser Security Report Reveals Emerging Threats for Enterprises</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/new-browser-security-report-reveals.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXmfzDsP62FvRPwIyRZdDAPcaehng_GAhvSGbVAVkKWjMNyxews4CW0LRurCcsr3Wt2XCRsHWZhnOcHb3RjeKNRjsWLE_QxFNXfxEHm8LQoN5ecufFEZc-ARX6ZEl85Klpq4Z_1CsjybYHBXtUCo2kfydWn9ktUBCrTZrHHpm0aIkMX3fJAdflArlX-84/s1600/browser.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>According to the new Browser Security Report 2025, security leaders are discovering that most identity, SaaS, and AI-related risks converge in a single place, the user’s browser. Yet traditional controls like DLP, EDR, and SSE still operate one layer too low.
-What’s emerging isn’t just a blindspot. It’s a parallel threat surface: unmanaged extensions acting like supply chain implants, GenAI</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/11/large-scale-clickfix-phishing-attacks.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Large-Scale ClickFix Phishing Attacks Target Hotel Systems with PureRAT Malware</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/large-scale-clickfix-phishing-attacks.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV8goc_pldbDLv5iqvwy1lPOMsFiJpxyBnaT86LqU-Cikl8RRxTJ_85lGPLG5gJvW-2xj77n-slDQ_lzrJ3AviPJUPYT4j_P1X0iQ5UHvohnr_OIVlSubxcbNN09PqQurWuIoLI9SCJ1K1hLnT9PzL5YLJEkPTyeKQYpySzXtTrlITtdSAzvBqAblnS4rX/s1600/hotel-hacks.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Cybersecurity researchers have called attention to a massive phishing campaign targeting the hospitality industry that lures hotel managers to ClickFix-style pages and harvest their credentials by deploying malware like PureRAT.
-&quot;The attacker&#x27;s modus operandi involved using a compromised email account to send malicious messages to multiple hotel establishments,&quot; Sekoia said. &quot;This campaign</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/11/glassworm-malware-discovered-in-three.html"
-                        open
-                      >
-                        <summary class="article-expander__title">GlassWorm Malware Discovered in Three VS Code Extensions with Thousands of Installs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/glassworm-malware-discovered-in-three.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib9KHcsG95CDCZyquDxpW0r7mwKqS02FDVPKQJBLIZO-Xgsak_Ckjpdc3QI4i0oIU0IH9uZXTLmFqVzhUPsouw4BHMzdVsBu26TIdddQNNTx0tHeXh4xWNaT6NWo_UnmwxqRqtaIYB22kbynOZyWCutb5wAYEnhuRVm5rmasUtSq8LE2PB-Q9daDiprSyK/s1600/vscode.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Cybersecurity researchers have disclosed a new set of three extensions associated with the GlassWorm campaign, indicating continued attempts on part of threat actors to target the Visual Studio Code (VS Code) ecosystem.
-The extensions in question, which are still available for download, are listed below -
-
-ai-driven-dev.ai-driven-dev (3,402 downloads)
-adhamu.history-in-sublime-merge (4,057</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Ubuntu security notices</button>
                   <a class="source-heading__link" href="https://ubuntu.com/security/notices/rss.xml">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ubuntu.com/security/notices/USN-7869-1"
+                        open
+                      >
+                        <summary class="article-expander__title">USN-7869-1: Raptor vulnerabilities</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ubuntu.com/security/notices/USN-7869-1">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://assets.ubuntu.com/v1/47f12466-og_%20ubuntu.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Hanno Böck discovered that Raptor incorrectly handled memory operations
+when processing certain input files. An attacker could possibly use this
+issue to cause Raptor to crash, resulting in a denial of service.
+(CVE-2020-25713)
+
+Pedro Ribeiro discovered that Raptor incorrectly handled parsing certain
+tuples. An attacker could possibly use this issue to cause Raptor to crash,
+resulting in a denial of service. (CVE-2024-57822)
+
+Pedro Ribeiro discovered that Raptor incorrectly handled parsing certain
+turtles. An attacker could use this issue to cause Raptor to crash,
+resulting in a denial of service, or possibly execute arbitrary code.
+(CVE-2024-57823)</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ubuntu.com/security/notices/USN-7868-1"
+                        open
+                      >
+                        <summary class="article-expander__title">USN-7868-1: Raptor vulnerabilities</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ubuntu.com/security/notices/USN-7868-1">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://assets.ubuntu.com/v1/47f12466-og_%20ubuntu.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Hanno Böck discovered that Raptor incorrectly handled memory operations
+when processing certain input files. An attacker could use this issue to
+cause Raptor to crash, resulting in a denial of service, or possibly
+execute arbitrary code. (CVE-2017-18926)
+
+Hanno Böck discovered that Raptor incorrectly handled memory operations
+when processing certain input files. An attacker could possibly use this
+issue to cause Raptor to crash, resulting in a denial of service.
+(CVE-2020-25713)</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -409,6 +840,138 @@ flaw is known as VMSCAPE. An attacker in a guest VM could possibly use this
 to expose sensitive information from the host OS.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Hacker News</button>
+                  <a class="source-heading__link" href="https://thehackernews.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2025/11/hackers-exploiting-triofox-flaw-to.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Hackers Exploiting Triofox Flaw to Install Remote Access Tools via Antivirus Feature</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/hackers-exploiting-triofox-flaw-to.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8M2fayypp4tc7l9XXHjTnXQnhElB2WNkkdqTieUwFXlwEx60oLFnbxhHJQDW3kk7TrkYf5s3WrZEjoaRhTEfVhkehsPEgFQQTIs_KH9FgqGP_ozimhhEazGWZCDR7p5CVEyCo5cf-V5_8HlzJCIl0lGMTdArM6v9-U-BPKd5vbkaINt60uHPrqNSidg7j/s1600/hackers.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Google&#x27;s Mandiant Threat Defense on Monday said it discovered n-day exploitation of a now-patched security flaw in Gladinet&#x27;s Triofox file-sharing and remote access platform.
+The critical vulnerability, tracked as CVE-2025-12480 (CVSS score: 9.1), allows an attacker to bypass authentication and access the configuration pages, resulting in the upload and execution of arbitrary payloads. 
+The</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2025/11/konni-hackers-turn-googles-find-hub.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Konni Hackers Turn Google’s Find Hub into a Remote Data-Wiping Weapon</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/konni-hackers-turn-googles-find-hub.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIpCQ5f-ly7CHt6FDz9ULaJDLRDxJIrT9-GScn1vGk8jXp6zSXDDAMGMMZ-LY2bolu8-7HPoW0BNzFEyouKuyHNukvjbtUF16MiYto_WUV9Ve3x7ZJZYoE0J54qzT0VPtdZ_Bs54xIN53ifzW_Kqrd5QLPAEDEjUgfpUkcLLngM1_KrJaUi44JLAcg5m-f/s1600/hub.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The North Korea-affiliated threat actor known as Konni (aka Earth Imp, Opal Sleet, Osmium, TA406, and Vedalia) has been attributed to a new set of attacks targeting both Android and Windows devices for data theft and remote control.
+&quot;Attackers impersonated psychological counselors and North Korean human rights activists, distributing malware disguised as stress-relief programs,&quot; the Genians</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2025/11/weekly-recap-hyper-v-malware-malicious.html"
+                        open
+                      >
+                        <summary class="article-expander__title">⚡ Weekly Recap: Hyper-V Malware, Malicious AI Bots, RDP Exploits, WhatsApp Lockdown and More</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/weekly-recap-hyper-v-malware-malicious.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihDn-ouAjSamS6qppMqJQp0muEjFRy3-Rs2m4u6iNunhDZUPSbi9CQMC1Ub8r7CFkHVo_7B98nwiZbsLlbg2Xq_Im67d6GvqaEaq3ZILZfZVhYafqJydsDCggwkh_n3q-XDcZJ_JLFalQ7E_KK-nYa9_YrOZl62NnyglLa5vmtdWPF7K9lH07l32yv72CI/s1600/recap-nov.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Cyber threats didn’t slow down last week—and attackers are getting smarter. We’re seeing malware hidden in virtual machines, side-channel leaks exposing AI chats, and spyware quietly targeting Android devices in the wild.
+But that’s just the surface. From sleeper logic bombs to a fresh alliance between major threat groups, this week’s roundup highlights a clear shift: cybercrime is evolving fast</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2025/11/new-browser-security-report-reveals.html"
+                        open
+                      >
+                        <summary class="article-expander__title">New Browser Security Report Reveals Emerging Threats for Enterprises</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/new-browser-security-report-reveals.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXmfzDsP62FvRPwIyRZdDAPcaehng_GAhvSGbVAVkKWjMNyxews4CW0LRurCcsr3Wt2XCRsHWZhnOcHb3RjeKNRjsWLE_QxFNXfxEHm8LQoN5ecufFEZc-ARX6ZEl85Klpq4Z_1CsjybYHBXtUCo2kfydWn9ktUBCrTZrHHpm0aIkMX3fJAdflArlX-84/s1600/browser.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>According to the new Browser Security Report 2025, security leaders are discovering that most identity, SaaS, and AI-related risks converge in a single place, the user’s browser. Yet traditional controls like DLP, EDR, and SSE still operate one layer too low.
+What’s emerging isn’t just a blindspot. It’s a parallel threat surface: unmanaged extensions acting like supply chain implants, GenAI</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2025/11/large-scale-clickfix-phishing-attacks.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Large-Scale ClickFix Phishing Attacks Target Hotel Systems with PureRAT Malware</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/large-scale-clickfix-phishing-attacks.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV8goc_pldbDLv5iqvwy1lPOMsFiJpxyBnaT86LqU-Cikl8RRxTJ_85lGPLG5gJvW-2xj77n-slDQ_lzrJ3AviPJUPYT4j_P1X0iQ5UHvohnr_OIVlSubxcbNN09PqQurWuIoLI9SCJ1K1hLnT9PzL5YLJEkPTyeKQYpySzXtTrlITtdSAzvBqAblnS4rX/s1600/hotel-hacks.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Cybersecurity researchers have called attention to a massive phishing campaign targeting the hospitality industry that lures hotel managers to ClickFix-style pages and harvest their credentials by deploying malware like PureRAT.
+&quot;The attacker&#x27;s modus operandi involved using a compromised email account to send malicious messages to multiple hotel establishments,&quot; Sekoia said. &quot;This campaign</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thehackernews.com/2025/11/glassworm-malware-discovered-in-three.html"
+                        open
+                      >
+                        <summary class="article-expander__title">GlassWorm Malware Discovered in Three VS Code Extensions with Thousands of Installs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/11/glassworm-malware-discovered-in-three.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib9KHcsG95CDCZyquDxpW0r7mwKqS02FDVPKQJBLIZO-Xgsak_Ckjpdc3QI4i0oIU0IH9uZXTLmFqVzhUPsouw4BHMzdVsBu26TIdddQNNTx0tHeXh4xWNaT6NWo_UnmwxqRqtaIYB22kbynOZyWCutb5wAYEnhuRVm5rmasUtSq8LE2PB-Q9daDiprSyK/s1600/vscode.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Cybersecurity researchers have disclosed a new set of three extensions associated with the GlassWorm campaign, indicating continued attempts on part of threat actors to target the Visual Studio Code (VS Code) ecosystem.
+The extensions in question, which are still available for download, are listed below -
+
+ai-driven-dev.ai-driven-dev (3,402 downloads)
+adhamu.history-in-sublime-merge (4,057</span>
                             </span>
                           </div>
                         </a>
@@ -13392,114 +13955,6 @@ The post Malicious Code on Unity Website Skims Information From Hundreds of Cust
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.securityweek.com/?p&#x3D;43955"
-                        open
-                      >
-                        <summary class="article-expander__title">SonicWall SSL VPN Accounts in Attacker Crosshairs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/sonicwall-ssl-vpn-accounts-in-attacker-crosshairs/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Threat actors have rapidly compromised more than 100 SonicWall SSL VPN accounts pertaining to over a dozen entities.
-The post SonicWall SSL VPN Accounts in Attacker Crosshairs appeared first on SecurityWeek.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.securityweek.com/?p&#x3D;43954"
-                        open
-                      >
-                        <summary class="article-expander__title">SimonMed Imaging Data Breach Impacts 1.2 Million</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/simonmed-imaging-data-breach-impacts-1-2-million/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>SimonMed Imaging was targeted by the Medusa ransomware group, which claimed to have stolen 200 Gb of data.
-The post SimonMed Imaging Data Breach Impacts 1.2 Million appeared first on SecurityWeek.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.securityweek.com/?p&#x3D;43953"
-                        open
-                      >
-                        <summary class="article-expander__title">NPM Infrastructure Abused in Phishing Campaign Aimed at Industrial and Electronics Firms</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/npm-infrastructure-abused-in-phishing-campaign-aimed-at-industrial-and-electronics-firms/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Threat actors used automation to create over 175 malicious NPM packages targeting more than 135 organizations.
-The post NPM Infrastructure Abused in Phishing Campaign Aimed at Industrial and Electronics Firms appeared first on SecurityWeek.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.securityweek.com/?p&#x3D;43952"
-                        open
-                      >
-                        <summary class="article-expander__title">Oracle Patches EBS Vulnerability Allowing Access to Sensitive Data</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/oracle-patches-ebs-vulnerability-allowing-access-to-sensitive-data/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>It’s unclear if the new Oracle E-Business Suite flaw, which can be exploited remotely without authentication, has been used in the wild.  
-The post Oracle Patches EBS Vulnerability Allowing Access to Sensitive Data appeared first on SecurityWeek.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.securityweek.com/?p&#x3D;43951"
-                        open
-                      >
-                        <summary class="article-expander__title">Spanish Authorities Dismantle ‘GXC Team’ Crime-as-a-Service Operation</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/spanish-authorities-dismantle-gxc-team-crime-as-a-service-operation/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The authorities arrested GoogleXcoder, the alleged administrator of GXC Team, which offered phishing kits and Android malware.
-The post Spanish Authorities Dismantle ‘GXC Team’ Crime-as-a-Service Operation appeared first on SecurityWeek.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.securityweek.com/?p&#x3D;43949"
-                        open
-                      >
-                        <summary class="article-expander__title">Extortion Group Leaks Millions of Records From Salesforce Hacks</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.securityweek.com/extortion-group-leaks-millions-of-records-from-salesforce-hacks/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The data allegedly pertains to Albertsons, Engie Resources, Fujifilm, GAP, Qantas, and Vietnam Airlines.
-The post Extortion Group Leaks Millions of Records From Salesforce Hacks appeared first on SecurityWeek.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -13529,25 +13984,6 @@ The post Extortion Group Leaks Millions of Records From Salesforce Hacks appeare
 You can order the book pretty much everywhere, and a copy signed by me here.
 Please help spread the word. I want this book to make a splash when it’s public. Leave a review on whatever site you buy it from. Or make a TikTok video. Or do whatever you kids do these days. Is anyone a SlashDot contributor? I’d like the book to be announced there...</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html"
-                        open
-                      >
-                        <summary class="article-expander__title">AI and the Future of American Politics</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Two years ago, Americans anxious about the forthcoming 2024 presidential election were considering the malevolent force of an election influencer: artificial intelligence. Over the past several years, we have seen plenty of warning signs from elections worldwide demonstrating how AI can be used to propagate misinformation and alter the political landscape, whether by trolls on social media, foreign influencers, or even a street magician. AI is poised to play a more volatile role than ever before in America’s next federal election in 2026. We can already see how different groups of political actors are approaching AI. Professional campaigners are using AI to accelerate the traditional tactics of electioneering; organizers are using it to reinvent how movements are built; and citizens are using it both to express themselves and amplify their side’s messaging. Because there are so few rules, and so little prospect of regulatory action, around AI’s role in politics, there is no oversight of these activities, and no safeguards against the dramatic potential impacts for our democracy...</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -13783,235 +14219,6 @@ This issue was responsibly disclosed by the Binarly Research Team, with initial 
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.darkreading.com/cybersecurity-operations/ai-tech-graduates-disadvantage"
-                        open
-                      >
-                        <summary class="article-expander__title">Generation AI: Why Today&#x27;s Tech Graduates Are At a Disadvantage</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/cybersecurity-operations/ai-tech-graduates-disadvantage">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>With artificial intelligence supplanting entry-level security jobs, new cyber professionals will have to up their game to stay competitive in the industry.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Hacker News</button>
-                  <a class="source-heading__link" href="https://thehackernews.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/10/weekly-recap-whatsapp-worm-critical.html"
-                        open
-                      >
-                        <summary class="article-expander__title">⚡ Weekly Recap: WhatsApp Worm, Critical CVEs, Oracle 0-Day, Ransomware Cartel &amp; More</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/10/weekly-recap-whatsapp-worm-critical.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvKzA6hRzW-Mgk5W9s3gbwP5yMAXyWG2-z41WpJxSie4cmtWmrW2BkCDZOIcgnJG9GmNveauQ_zz_zKDIcYJm94r_n_xfxfcpwTpJUzjhGcx0VpgPc-DxVwd5mFjYk2VBYZ-UjnahfkmkLQIkXO2lRIFd4uotcYPuaE1_s0RToXExibn2ZyMCVtJGNfJAl/s1600/recap.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Every week, the cyber world reminds us that silence doesn’t mean safety. Attacks often begin quietly — one unpatched flaw, one overlooked credential, one backup left unencrypted. By the time alarms sound, the damage is done.
-This week’s edition looks at how attackers are changing the game — linking different flaws, working together across borders, and even turning trusted tools into weapons.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/10/why-unmonitored-javascript-is-your.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Why Unmonitored JavaScript Is Your Biggest Holiday Security Risk</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/10/why-unmonitored-javascript-is-your.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhezSoj-hGKmvqUMNHh1TSehW67PnGkxADu-j3okPgjN90C_49janxVOgY2CRvVo3CcTEHu3tJoIsVU-h7v5AU3viIu7WcADW4n0cZkKN5aqEfG1ZOGx4_hofGiwxoxvqCvw7Yt2ziD4qMJDiWY-qKJjaGZ5PFFSt2465eAKq5OGdPrJ5bEYy2KBp3d2u4/s1600/reflec.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Think your WAF has you covered? Think again. This holiday season, unmonitored JavaScript is a critical oversight allowing attackers to steal payment data while your WAF and intrusion detection systems see nothing. With the 2025 shopping season weeks away, visibility gaps must close now.
-Get the complete Holiday Season Security Playbook here.
-Bottom Line Up Front
-The 2024 holiday season saw major</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/10/researchers-warn-rondodox-botnet-is.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Researchers Warn RondoDox Botnet is Weaponizing Over 50 Flaws Across 30+ Vendors</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/10/researchers-warn-rondodox-botnet-is.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwiot_8OzTXJxhYapPUtVLyE1hpXSVFloD14Z-isSG0lOkfNpbjihyphenhyphenhpFE54GCl2hcCsy8a5yqisoAKmvyaF1vrC48jY4eLI0jf70oCDLC0uSD2DRahi3Xf8gnqWNHGla20yccMEw5rm4Hj1bks5iLW4JxtHUDbOvEgCuMsyz-XrKcR_6eM6vqOuQ46ANQ/s1600/botnet-malware.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Malware campaigns distributing the RondoDox botnet have expanded their targeting focus to exploit more than 50 vulnerabilities across over 30 vendors.
-The activity, described as akin to an &quot;exploit shotgun&quot; approach, has singled out a wide range of internet-exposed infrastructure, including routers, digital video recorders (DVRs), network video recorders (NVRs), CCTV systems, web servers, and</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/10/microsoft-locks-down-ie-mode-after.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Microsoft Locks Down IE Mode After Hackers Turned Legacy Feature Into Backdoor</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/10/microsoft-locks-down-ie-mode-after.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtO_KAfNCOTqs2JcWLrUFXMVfDeVWtB8zvcN3nIR4i2wPde7J5FxNBOzLU2sYynj2wNmZXPYs60s9-kf4tIlrEEu4ZrxLnqLOdGyMjBVR0AbCBP5WG9pNZEq7Img77ZoIqGquYFGeG0HPzHbhiSgHjLn_2f_gi_4sZnQawhSUT9qTELXPk_DagHbugCM2y/s1600/edge.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Microsoft said it has revamped the Internet Explorer (IE) mode in its Edge browser after receiving &quot;credible reports&quot; in August 2025 that unknown threat actors were abusing the backward compatibility feature to gain unauthorized access to users&#x27; devices.
-&quot;Threat actors were leveraging basic social engineering techniques alongside unpatched (0-day) exploits in Internet Explorer&#x27;s JavaScript</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/10/astaroth-banking-trojan-abuses-github.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Astaroth Banking Trojan Abuses GitHub to Remain Operational After Takedowns</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/10/astaroth-banking-trojan-abuses-github.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6lXFt5vj014guQjfcP9IV6J569PKO7QX74BpuGjLtDEUturEMc-8JR4m8aClafR-tIrJ4hL2Bp2fyPreoi121-90AG6egfvp1Qg6CUWfQhhOIE4jXBzocgpkZ6zlLUrZnp2f6yuzqHiE7eh7P0FlG5SMZqKBlZ9L8QMw2_HDqLv_hxqL1wn-ZxsuIoDC2/s1600/github-c2.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Cybersecurity researchers are calling attention to a new campaign that delivers the Astaroth banking trojan that employs GitHub as a backbone for its operations to stay resilient in the face of infrastructure takedowns.
-&quot;Instead of relying solely on traditional command-and-control (C2) servers that can be taken down, these attackers are leveraging GitHub repositories to host malware</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/10/new-rust-based-malware-chaosbot-hijacks.html"
-                        open
-                      >
-                        <summary class="article-expander__title">New Rust-Based Malware &quot;ChaosBot&quot; Uses Discord Channels to Control Victims&#x27; PCs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/10/new-rust-based-malware-chaosbot-hijacks.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM3iBS_M1DTXWPqBT43YKsEeEvGS5AfTVvw_RHitAi-w0f-zQkDSW2HffEnKE_fLC-Kj6xp9RNcTle8RIZmltoTGaFvoLwpSRBx6sHBpv7xtpM31lvoif9WagX2eVsIMyYejs4J_8_oXf7lUWFsoKbkwEapbSqkM64pfFvHw9HaGKZyfnE5N3MAMm5cM3B/s1600/Discord.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Cybersecurity researchers have disclosed details of a new Rust-based backdoor called ChaosBot that can allow operators to conduct reconnaissance and execute arbitrary commands on compromised hosts.
-&quot;Threat actors leveraged compromised credentials that mapped to both Cisco VPN and an over-privileged Active Directory account named, &#x27;serviceaccount,&#x27;&quot; eSentire said in a technical report published</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >SEI Blog</button>
-                  <a class="source-heading__link" href="http://www.sei.cmu.edu/feeds/latest/atom/?utm_source&#x3D;blog&amp;utm_medium&#x3D;rss">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.sei.cmu.edu/blog/whats-new-in-ssvc-build-explore-and-evolve-your-decision-models/?utm_source&#x3D;blog&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;my_site_updates"
-                        open
-                      >
-                        <summary class="article-expander__title">What’s New in SSVC: Build, Explore, and Evolve Your Decision Models</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.sei.cmu.edu/blog/whats-new-in-ssvc-build-explore-and-evolve-your-decision-models/?utm_source&#x3D;blog&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;my_site_updates">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.sei.cmu.edu/media/images/bkoo.max-1200x630.format-webp.webp" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Recent updates to the Stakeholder-Specific Vulnerability Categorization (SSVC) framework help different stakeholders to prioritize vulnerabilities according to their distinct risk appetites.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-10-12 datetime="2025-10-12T17:24:00.000Z">2025-10-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-10-12 datetime="2025-10-12T17:24:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Hacker News</button>
-                  <a class="source-heading__link" href="https://thehackernews.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thehackernews.com/2025/10/new-oracle-e-business-suite-bug-could.html"
-                        open
-                      >
-                        <summary class="article-expander__title">New Oracle E-Business Suite Bug Could Let Hackers Access Data Without Login</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thehackernews.com/2025/10/new-oracle-e-business-suite-bug-could.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbiOSe5MSzJjlmmn79XDwcJoSUh95PSeVQalNoZwnzlTDwp2UkbB0Zwrp526ZX5iWaXA3oDVvhwPI1Uh2Plj8nnRa3OpE2iuKlAfBUTJw8bb0Vs9XzvQuogwfq-ZIYmCp0WsLm_ULrhOP1D07GuKwVbXlNY_-NQbBuB17QTgv2tI9RjHmRemC3_tNkpfVN/s1600/oracle-flaw-hack.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Oracle on Saturday issued a security alert warning of a fresh security flaw impacting its E-Business Suite that it said could allow unauthorized access to sensitive data.
-The vulnerability, tracked as CVE-2025-61884, carries a CVSS score of 7.5, indicating high severity. It affects versions from 12.2.3 through 12.2.14.
-&quot;Easily exploitable vulnerability allows an unauthenticated attacker with</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -14179,8 +14386,8 @@ The vulnerability, tracked as CVE-2025-61884, carries a CVSS score of 7.5, indic
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/ehsanedalat/securitynews/actions/runs/19252235403">
-        <time id="build-timestamp" datetime="2025-11-11T01:50:46.015Z">2025-11-11T01:50:46.015Z</time>
+      <a class="footer-link" href="https://github.com/ehsanedalat/securitynews/actions/runs/19283744969">
+        <time id="build-timestamp" datetime="2025-11-12T01:49:45.976Z">2025-11-12T01:49:45.976Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
