@@ -2,10 +2,328 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-11-20T01:47:52.507Z</updated>
+    <updated>2025-11-21T01:48:54.579Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Russian Hacking Suspect Wanted by the FBI Arrested on Thai Resort Island]]></title>
+        <id>https://www.securityweek.com/?p=44376</id>
+        <link href="https://www.securityweek.com/russian-hacking-suspect-wanted-by-the-fbi-arrested-on-thai-resort-island/"/>
+        <updated>2025-11-20T22:14:56.000Z</updated>
+        <summary type="html"><![CDATA[Thailand’s Cyber Crime Investigation Bureau said an FBI tip that the “world-class hacker” was traveling to Thailand led to his arrest in Phuket.
+The post Russian Hacking Suspect Wanted by the FBI Arrested on Thai Resort Island appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chinese APT Infects Routers to Hijack Software Updates]]></title>
+        <id>https://www.darkreading.com/endpoint-security/chinese-apt-routers-hijack-software-updates</id>
+        <link href="https://www.darkreading.com/endpoint-security/chinese-apt-routers-hijack-software-updates"/>
+        <updated>2025-11-20T21:20:32.000Z</updated>
+        <summary type="html"><![CDATA[A unique take on the software update gambit has allowed "PlushDaemon" to evade attention as it mostly targets Chinese organizations.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Matrix Push' C2 Tool Hijacks Browser Notifications]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/matrix-push-c2-tool-hijacks-browser-notifications-phishing</id>
+        <link href="https://www.darkreading.com/threat-intelligence/matrix-push-c2-tool-hijacks-browser-notifications-phishing"/>
+        <updated>2025-11-20T20:44:34.000Z</updated>
+        <summary type="html"><![CDATA[Have you ever given two seconds of thought to a browser notification? No? That's what hackers bent on phishing are counting on.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Same Old Security Problems: Cyber Training Still Fails Miserably]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/security-problems-cyber-training-fails-miserably</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/security-problems-cyber-training-fails-miserably"/>
+        <updated>2025-11-20T20:18:16.000Z</updated>
+        <summary type="html"><![CDATA[Editors from Dark Reading, Cybersecurity Dive, and TechTarget Search Security break down the depressing state of cybersecurity awareness campaigns and how organizations can overcome basic struggles with password hygiene and phishing attacks.]]></summary>
+        <author>
+            <name>Tara Seals</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ShadowRay 2.0 Exploits Unpatched Ray Flaw to Build Self-Spreading GPU Cryptomining Botnet]]></title>
+        <id>https://thehackernews.com/2025/11/shadowray-20-exploits-unpatched-ray.html</id>
+        <link href="https://thehackernews.com/2025/11/shadowray-20-exploits-unpatched-ray.html"/>
+        <updated>2025-11-20T17:24:00.000Z</updated>
+        <summary type="html"><![CDATA[Oligo Security has warned of ongoing attacks exploiting a two-year-old security flaw in the Ray open-source artificial intelligence (AI) framework to turn infected clusters with NVIDIA GPUs into a self-replicating cryptocurrency mining botnet.
+The activity, codenamed ShadowRay 2.0, is an evolution of a prior wave that was observed between September 2023 and March 2024. The attack, at its core,]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#268029: Tenda N300 Wi-Fi 4G LTE Router 4G03 Pro impacted by vulnerabilities]]></title>
+        <id>https://kb.cert.org/vuls/id/268029</id>
+        <link href="https://kb.cert.org/vuls/id/268029"/>
+        <updated>2025-11-20T17:02:10.766Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>A command injection vulnerability exists across multiple firmware versions that allows an attacker to execute arbitrary commands as <code>root</code> on the affected device. Currently, no solution exists to resolve these vulnerabilities in the Tenda N300 series and Tenda 4G03 Pro devices.</p>
+<h3 id="description">Description</h3>
+<p>Tenda 4G03 Pro is a portable 4G LTE router that is designed  to provide for flexible internet access. It is a plug-and-play device compatible with mobile operators globally, allowing you to insert a SIM card for ad-hoc internet access. Multiple components within this model of Tenda 4G LTE router is impacted by command injection flaws that stem from improper handling of attacker-controlled input passed to internal service functions.</p>
+<p><strong>CVE-2025-13207</strong>
+In Firmware up to and including v04.03.01.44, manipulation of arguments passed to a function within the service /usr/sbin/httpd can be exploited. A crafted, authenticated HTTP request to TCP port 80 can trigger arbitrary command execution.</p>
+<p><strong>CVE-2024-24481</strong>
+In Firmware up to and including v04.03.01.14, improper input handling within an accessible function leads to a similar command injection condition. An authenticated attacker can invoke the function through the web interface, after which a crafted network request to TCP port 7329 can result in command execution. This issue is distinct from CVE-2023-2649.</p>
+<p>These vulnerabilities were identified through reverse engineering of the firmware. At this time, no fixed firmware is available to address these vulnerabilities.</p>
+<h3 id="impact">Impact</h3>
+<p>Successful exploitation allows an attacker to execute arbitrary commands as root on the underlying operating system, allowing attacker to take Total control of the device.</p>
+<h3 id="solution">Solution</h3>
+<p>The CERT/CC is currently unaware of a vendor-supplied patch or mitigation for these vulnerabilities.</p>
+<ul>
+<li><strong>Use an alternative device:</strong> Because no remediation is currently available, users who rely on this device in security-sensitive may consider other devices for such access.</li>
+<li><strong>Reduce exposure where possible:</strong> If replacement is not immediately feasible, limit usage to reduce risk of abuse.</li>
+<li><strong>Monitor for vendor updates:</strong> Users should periodically check for firmware updates or advisories from Tenda in case a patch becomes available in the future.</li>
+</ul>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporter Ax for reporting this issue. This document was written by Marisa Middler and Timur Snoke.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tsundere Botnet Expands Using Game Lures and Ethereum-Based C2 on Windows]]></title>
+        <id>https://thehackernews.com/2025/11/tsundere-botnet-expands-using-game.html</id>
+        <link href="https://thehackernews.com/2025/11/tsundere-botnet-expands-using-game.html"/>
+        <updated>2025-11-20T16:57:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have warned of an actively expanding botnet dubbed Tsundere that's targeting Windows users.
+Active since mid-2025, the threat is designed to execute arbitrary JavaScript code retrieved from a command-and-control (C2) server, Kaspersky researcher Lisandro Ubiedo said in an analysis published today.
+There are currently no details on how the botnet malware is propagated;]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7878-1: cups-filters vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7878-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7878-1"/>
+        <updated>2025-11-20T16:04:31.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that cups-filters incorrectly handled certain malformed
+TIFF image files. A remote attacker could use this issue to cause
+cups-filters to crash, resulting in a denial of service, or possibly
+execute arbitrary code. This issue only affected Ubuntu 16.04 LTS,
+Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu 22.04 LTS. (CVE-2025-57812)
+
+It was discovered that cups-filters incorrectly handled certain malformed
+PDF document files. A remote attacker could use this issue to cause
+cups-filters to crash, resulting in a denial of service, or possibly
+execute arbitrary code. This issue only affected Ubuntu 16.04 LTS,
+Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu 22.04 LTS. (CVE-2025-64503)
+
+It was discovered that cups-filters incorrectly handled certain malformed
+CUPS Raster files. A remote attacker could use this issue to cause
+cups-filters to crash, resulting in a denial of service, or possibly
+execute arbitrary code. (CVE-2025-64524)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7877-1: libcupsfilters vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7877-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7877-1"/>
+        <updated>2025-11-20T15:50:38.000Z</updated>
+        <summary type="html"><![CDATA[It was discovered that libcupsfilters incorrectly handled certain malformed
+TIFF image files. A remote attacker could use this issue to cause
+libcupsfilters to crash, resulting in a denial of service, or possibly
+execute arbitrary code. (CVE-2025-57812)
+
+It was discovered that libcupsfilters incorrectly handled certain malformed
+PDF document files. A remote attacker could use this issue to cause
+libcupsfilters to crash, resulting in a denial of service, or possibly
+execute arbitrary code. (CVE-2025-64503)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Sturnus Banking Trojan Targets WhatsApp, Telegram, Signal Messages]]></title>
+        <id>https://www.securityweek.com/?p=44375</id>
+        <link href="https://www.securityweek.com/new-sturnus-banking-trojan-targets-whatsapp-telegram-signal-messages/"/>
+        <updated>2025-11-20T15:39:24.000Z</updated>
+        <summary type="html"><![CDATA[The Android malware is in development and appears to be mainly aimed at users in Europe.
+The post New Sturnus Banking Trojan Targets WhatsApp, Telegram, Signal Messages appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Doppel Raises $70 Million at $600 Million Valuation]]></title>
+        <id>https://www.securityweek.com/?p=44374</id>
+        <link href="https://www.securityweek.com/doppel-raises-70-million-at-600-million-valuation/"/>
+        <updated>2025-11-20T14:05:06.000Z</updated>
+        <summary type="html"><![CDATA[The AI-native social engineering defense (SED) platform will accelerate product innovation and expand its offerings.
+The post Doppel Raises $70 Million at $600 Million Valuation appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WhatsApp 'Eternidade' Trojan Self-Propagates Through Brazil]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/whatsapp-eternidade-trojan-self-propagates-brazil</id>
+        <link href="https://www.darkreading.com/threat-intelligence/whatsapp-eternidade-trojan-self-propagates-brazil"/>
+        <updated>2025-11-20T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The infostealer specifically targets Brazilian Portuguese speakers and combines malware designed to phish banking credentials and steal data, a worm, and some uniquely Brazilian quirks.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Over 50,000 Asus Routers Hacked in ‘Operation WrtHug’]]></title>
+        <id>https://www.securityweek.com/?p=44373</id>
+        <link href="https://www.securityweek.com/over-50000-asus-routers-hacked-in-operation-wrthug/"/>
+        <updated>2025-11-20T13:30:20.000Z</updated>
+        <summary type="html"><![CDATA[A Chinese threat actor is exploiting known vulnerabilities in discontinued Asus devices in an Operational Relay Box (ORB) facilitation campaign.
+The post Over 50,000 Asus Routers Hacked in ‘Operation WrtHug’ appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US and Allies Sanction Russian Bulletproof Hosting Service Providers]]></title>
+        <id>https://www.securityweek.com/?p=44372</id>
+        <link href="https://www.securityweek.com/us-and-allies-sanction-russian-bulletproof-hosting-service-providers/"/>
+        <updated>2025-11-20T12:53:26.000Z</updated>
+        <summary type="html"><![CDATA[Media Land, Hypercore, and their leadership and employees are allegedly connected to various cybercriminal activities.
+The post US and Allies Sanction Russian Bulletproof Hosting Service Providers appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ThreatsDay Bulletin: 0-Days, LinkedIn Spies, Crypto Crimes, IoT Flaws and New Malware Waves]]></title>
+        <id>https://thehackernews.com/2025/11/threatsday-bulletin-0-days-linkedin.html</id>
+        <link href="https://thehackernews.com/2025/11/threatsday-bulletin-0-days-linkedin.html"/>
+        <updated>2025-11-20T12:29:00.000Z</updated>
+        <summary type="html"><![CDATA[This week has been crazy in the world of hacking and online security. From Thailand to London to the US, we've seen arrests, spies at work, and big power moves online. Hackers are getting caught. Spies are getting better at their jobs. Even simple things like browser add-ons and smart home gadgets are being used to attack people.
+Every day, there's a new story that shows how quickly things are]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scam USPS and E-Z Pass Texts and Websites]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/11/scam-usps-and-e-z-pass-texts-and-websites.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/11/scam-usps-and-e-z-pass-texts-and-websites.html"/>
+        <updated>2025-11-20T12:07:38.000Z</updated>
+        <summary type="html"><![CDATA[<p>Google has filed a complaint in court that <a href="https://arstechnica.com/tech-policy/2025/11/google-vows-to-stop-scam-e-z-pass-and-usps-texts-plaguing-americans/">details the scam</a>:</p>
+<blockquote><p>In a complaint filed Wednesday, the tech giant accused &#8220;a cybercriminal group in China&#8221; of selling &#8220;phishing for dummies&#8221; kits. The kits help unsavvy fraudsters easily “execute a large-scale phishing campaign,” tricking hordes of unsuspecting people into “disclosing sensitive information like passwords, credit card numbers, or banking information, often by impersonating well-known brands, government agencies, or even people the victim knows.”</p>
+<p>These branded &#8220;Lighthouse&#8221; kits offer two versions of software, depending on whether bad actors want to launch SMS and e-commerce scams. &#8220;Members may subscribe to weekly, monthly, seasonal, annual, or permanent licenses,&#8221; Google alleged. Kits include &#8220;hundreds of templates for fake websites, domain set-up tools for those fake websites, and other features designed to dupe victims into believing they are entering sensitive information on a legitimate website.&#8221;...</p></blockquote>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Six Industrial Control Systems Advisories]]></title>
+        <id>/node/24226</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/11/20/cisa-releases-six-industrial-control-systems-advisories"/>
+        <updated>2025-11-20T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released six Industrial Control Systems (ICS) Advisories. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS. 
+ICSA-25-324-01 Automated Logic WebCTRL Premium Server
+ICSA-25-324-02 ICAM365 CCTV Camera Multiple Models
+ICSA-25-324-03 Opto 22 GRV-EPIC and GRV-RIO
+ICSA-25-324-04 Festo MSE6-C2M/D2M/E2M
+ICSA-25-324-05 Festo Didactic products
+ICSA-25-324-06 Emerson Appleton UPSMON-PRO 
+CISA encourages users and administrators to review newly released ICS Advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Allowed Scraping of 3.5 Billion WhatsApp Accounts]]></title>
+        <id>https://www.securityweek.com/?p=44371</id>
+        <link href="https://www.securityweek.com/vulnerability-allowed-scraping-of-3-5-billion-whatsapp-accounts/"/>
+        <updated>2025-11-20T11:52:50.000Z</updated>
+        <summary type="html"><![CDATA[Researchers demonstrated a now-patched vulnerability that could have been used to enumerate all WhatsApp accounts.
+The post Vulnerability Allowed Scraping of 3.5 Billion WhatsApp Accounts appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CTM360 Exposes a Global WhatsApp Hijacking Campaign: HackOnChat]]></title>
+        <id>https://thehackernews.com/2025/11/ctm360-exposes-global-whatsapp.html</id>
+        <link href="https://thehackernews.com/2025/11/ctm360-exposes-global-whatsapp.html"/>
+        <updated>2025-11-20T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[CTM360 has identified a rapidly expanding WhatsApp account-hacking campaign targeting users worldwide via a network of deceptive authentication portals and impersonation pages. The campaign, internally dubbed HackOnChat, abuses WhatsApp’s familiar web interface, using social engineering tactics to trick users into compromising their accounts.
+Investigators identified thousands of malicious URLs]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Sturnus Android Trojan Quietly Captures Encrypted Chats and Hijacks Devices]]></title>
+        <id>https://thehackernews.com/2025/11/new-sturnus-android-trojan-quietly.html</id>
+        <link href="https://thehackernews.com/2025/11/new-sturnus-android-trojan-quietly.html"/>
+        <updated>2025-11-20T11:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed details of a new Android banking trojan called Sturnus that enables credential theft and full device takeover to conduct financial fraud.
+"A key differentiator is its ability to bypass encrypted messaging," ThreatFabric said in a report shared with The Hacker News. "By capturing content directly from the device screen after decryption, Sturnus can monitor]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recent 7-Zip Vulnerability Exploited in Attacks]]></title>
+        <id>https://www.securityweek.com/?p=44367</id>
+        <link href="https://www.securityweek.com/recent-7-zip-vulnerability-exploited-in-attacks/"/>
+        <updated>2025-11-20T10:41:18.000Z</updated>
+        <summary type="html"><![CDATA[A proof-of-concept (PoC) exploit targeting the high-severity remote code execution (RCE) bug exists.
+The post Recent 7-Zip Vulnerability Exploited in Attacks appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Iran-Linked Hackers Mapped Ship AIS Data Days Before Real-World Missile Strike Attempt]]></title>
+        <id>https://thehackernews.com/2025/11/iran-linked-hackers-mapped-ship-ais.html</id>
+        <link href="https://thehackernews.com/2025/11/iran-linked-hackers-mapped-ship-ais.html"/>
+        <updated>2025-11-20T07:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors with ties to Iran engaged in cyber warfare as part of efforts to facilitate and enhance physical, real-world attacks, a trend that Amazon has called cyber-enabled kinetic targeting.
+The development is a sign that the lines between state-sponsored cyber attacks and kinetic warfare are increasingly blurring, necessitating the need for a new category of warfare, the tech giant's]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolarWinds Patches Three Critical Serv-U Vulnerabilities]]></title>
+        <id>https://www.securityweek.com/?p=44366</id>
+        <link href="https://www.securityweek.com/solarwinds-patches-three-critical-serv-u-vulnerabilities/"/>
+        <updated>2025-11-20T07:25:39.000Z</updated>
+        <summary type="html"><![CDATA[SolarWinds Serv-U is affected by vulnerabilities that can be exploited for remote code execution.
+The post SolarWinds Patches Three Critical Serv-U Vulnerabilities appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TamperedChef Malware Spreads via Fake Software Installers in Ongoing Global Campaign]]></title>
+        <id>https://thehackernews.com/2025/11/tamperedchef-malware-spreads-via-fake.html</id>
+        <link href="https://thehackernews.com/2025/11/tamperedchef-malware-spreads-via-fake.html"/>
+        <updated>2025-11-20T04:06:00.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors are leveraging bogus installers masquerading as popular software to trick users into installing malware as part of a global malvertising campaign dubbed TamperedChef.
+The end goal of the attacks is to establish persistence and deliver JavaScript malware that facilitates remote access and control, per a new report from Acronis Threat Research Unit (TRU). The campaign, per the]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Palo Alto Networks to Acquire Observability Platform Chronosphere in $3.35 Billion Deal]]></title>
+        <id>https://www.securityweek.com/?p=44365</id>
+        <link href="https://www.securityweek.com/palo-alto-networks-to-acquire-observability-platform-chronosphere-in-3-35-billion-deal/"/>
+        <updated>2025-11-20T02:18:00.000Z</updated>
+        <summary type="html"><![CDATA[The move to acquire Chronosphere is the latest of several acquisitions in recent years and follows a massive $25 billion deal to acquire CyberArk.
+The post Palo Alto Networks to Acquire Observability Platform Chronosphere in $3.35 Billion Deal appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>SecurityWeek News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fortinet Woes Continue With Another WAF Zero-Day Flaw]]></title>
         <id>https://www.darkreading.com/vulnerabilities-threats/fortinet-woes-continue-another-waf-zero-day-flaw</id>
@@ -255,6 +573,29 @@ The router hijacking activity has been codenamed Operation WrtHug by SecuritySco
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[USN-7873-1: MySQL vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7873-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7873-1"/>
+        <updated>2025-11-19T12:53:58.000Z</updated>
+        <summary type="html"><![CDATA[Multiple security issues were discovered in MySQL and this update includes
+new upstream MySQL versions to fix these issues.
+
+MySQL has been updated to 8.0.44 in Ubuntu 22.04 LTS and Ubuntu 24.04 LTS.
+Ubuntu 25.04 and Ubuntu 25.10 have been updated to MySQL 8.4.7.
+
+In addition to security fixes, the updated packages contain bug fixes, new
+features, and possibly incompatible changes.
+
+Please see the following for more information:
+
+https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-44.html
+https://dev.mysql.com/doc/relnotes/mysql/8.4/en/news-8-4-7.html
+https://www.oracle.com/security-alerts/cpuoct2025.html]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Legal Restrictions on Vulnerability Disclosure]]></title>
         <id>https://www.schneier.com/blog/archives/2025/11/legal-restrictions-on-vulnerability-disclosure.html</id>
         <link href="https://www.schneier.com/blog/archives/2025/11/legal-restrictions-on-vulnerability-disclosure.html"/>
@@ -377,6 +718,16 @@ The medium-severity vulnerability, tracked as CVE-2025-58034, carries a CVSS sco
 "An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability [CWE-78] in FortiWeb may allow an authenticated attacker to execute]]></summary>
         <author>
             <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Creates 'Strike Force' to Take Out SE Asian Scam Centers]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/us-strike-force-southeast-asian-scam-centers</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/us-strike-force-southeast-asian-scam-centers"/>
+        <updated>2025-11-19T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The collaborative effort combines multiple federal departments, along with private companies to reduce, if not eliminate, billions lost annually to fraud.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer</name>
         </author>
     </entry>
     <entry>
@@ -6758,452 +7109,6 @@ This update corrects flaws in the following subsystems:
         <summary type="html"><![CDATA[Thanks to improving cybersecurity and law enforcement action from the West, Russia's government is reevaluating which cybercriminals it wants to give safe haven from the law.]]></summary>
         <author>
             <name>Nate Nelson, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Critical Vulnerabilities Patched in TP-Link’s Omada Gateways]]></title>
-        <id>https://www.securityweek.com/?p=44067</id>
-        <link href="https://www.securityweek.com/critical-vulnerabilities-patched-in-tp-links-omada-gateways/"/>
-        <updated>2025-10-22T13:41:21.000Z</updated>
-        <summary type="html"><![CDATA[One of the flaws can be exploited by remote unauthenticated attackers for arbitrary command execution.
-The post Critical Vulnerabilities Patched in TP-Link’s Omada Gateways appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MuddyWater Targets 100+ Gov Entities in MEA With Phoenix Backdoor]]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/muddywater-100-gov-entites-mea-phoenix-backdoor</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/muddywater-100-gov-entites-mea-phoenix-backdoor"/>
-        <updated>2025-10-22T13:17:58.000Z</updated>
-        <summary type="html"><![CDATA[The Iranian threat group is using a compromised mailbox accessed through NordVPN to send phishing emails that prompt recipients to enable macros.]]></summary>
-        <author>
-            <name>Elizabeth Montalbano, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chinese Threat Actors Exploit ToolShell SharePoint Flaw Weeks After Microsoft's July Patch]]></title>
-        <id>https://thehackernews.com/2025/10/chinese-threat-actors-exploit-toolshell.html</id>
-        <link href="https://thehackernews.com/2025/10/chinese-threat-actors-exploit-toolshell.html"/>
-        <updated>2025-10-22T12:56:00.000Z</updated>
-        <summary type="html"><![CDATA[Threat actors with ties to China exploited the ToolShell security vulnerability in Microsoft SharePoint to breach a telecommunications company in the Middle East after it was publicly disclosed and patched in July 2025.
-Also targeted were government departments in an African country, as well as government agencies in South America, a university in the U.S., as well as likely a state technology]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Keycard Emerges From Stealth Mode With $38 Million in Funding]]></title>
-        <id>https://www.securityweek.com/?p=44066</id>
-        <link href="https://www.securityweek.com/keycard-emerges-from-stealth-mode-with-38-million-in-funding/"/>
-        <updated>2025-10-22T12:39:16.000Z</updated>
-        <summary type="html"><![CDATA[The company’s IAM platform identifies AI agents, supports assigning permission to them, and tracks all activity.
-The post Keycard Emerges From Stealth Mode With $38 Million in Funding appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russian APT Switches to New Backdoor After Malware Exposed by Researchers]]></title>
-        <id>https://www.securityweek.com/?p=44065</id>
-        <link href="https://www.securityweek.com/russian-apt-switches-to-new-backdoor-after-malware-exposed-by-researchers/"/>
-        <updated>2025-10-22T12:03:06.000Z</updated>
-        <summary type="html"><![CDATA[Star Blizzard started using the NoRobot (BaitSwitch) and MaybeRobot (SimpleFix) malware after public reporting on the LostKeys malware.
-The post Russian APT Switches to New Backdoor After Malware Exposed by Researchers appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
-        <id>/node/24118</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2025/10/22/cisa-adds-one-known-exploited-vulnerability-catalog"/>
-        <updated>2025-10-22T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.
-CVE-2025-61932 Motex LANSCOPE Endpoint Manager Improper Verification of Source of a Communication Channel Vulnerability
-This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. 
-Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
-Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of KEV Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bridging the Remediation Gap: Introducing Pentera Resolve]]></title>
-        <id>https://thehackernews.com/2025/10/bridging-remediation-gap-introducing.html</id>
-        <link href="https://thehackernews.com/2025/10/bridging-remediation-gap-introducing.html"/>
-        <updated>2025-10-22T11:55:00.000Z</updated>
-        <summary type="html"><![CDATA[From Detection to Resolution: Why the Gap Persists
-A critical vulnerability is identified in an exposed cloud asset. Within hours, five different tools alert you about it: your vulnerability scanner, XDR, CSPM, SIEM, and CMDB each surface the issue in their own way, with different severity levels, metadata, and context.
-What’s missing is a system of action. How do you transition from the]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fake Nethereum NuGet Package Used Homoglyph Trick to Steal Crypto Wallet Keys]]></title>
-        <id>https://thehackernews.com/2025/10/fake-nethereum-nuget-package-used.html</id>
-        <link href="https://thehackernews.com/2025/10/fake-nethereum-nuget-package-used.html"/>
-        <updated>2025-10-22T11:43:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have uncovered a new supply chain attack targeting the NuGet package manager with malicious typosquats of Nethereum, a popular Ethereum .NET integration platform, to steal victims' cryptocurrency wallet keys.
-The package, Netherеum.All, has been found to harbor functionality to decode a command-and-control (C2) endpoint and exfiltrate mnemonic phrases, private keys, and]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Makes a Great Field CXO: Lessons from the Front Lines]]></title>
-        <id>https://www.securityweek.com/?p=44064</id>
-        <link href="https://www.securityweek.com/what-makes-a-great-field-cxo-lessons-from-the-front-lines/"/>
-        <updated>2025-10-22T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[If you are recruiting for a Field CISO, Field CTO, etc., or are looking to leverage a resource at your company in one of these roles, what are some things you should be aware of?
-The post What Makes a Great Field CXO: Lessons from the Front Lines appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Joshua Goldfarb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fencing and Pet Company Jewett-Cameron Hit by Ransomware]]></title>
-        <id>https://www.securityweek.com/?p=44063</id>
-        <link href="https://www.securityweek.com/fencing-and-pet-company-jewett-cameron-hit-by-ransomware/"/>
-        <updated>2025-10-22T11:16:17.000Z</updated>
-        <summary type="html"><![CDATA[Jewett-Cameron Company says hackers stole sensitive information and are threatening to release it unless a ransom is paid.
-The post Fencing and Pet Company Jewett-Cameron Hit by Ransomware appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Failures in Face Recognition]]></title>
-        <id>https://www.schneier.com/blog/archives/2025/10/failures-in-face-recognition.html</id>
-        <link href="https://www.schneier.com/blog/archives/2025/10/failures-in-face-recognition.html"/>
-        <updated>2025-10-22T11:03:14.000Z</updated>
-        <summary type="html"><![CDATA[<p>Interesting <a href="https://www.wired.com/story/when-face-recognition-doesnt-know-your-face-is-a-face/">article</a> on people with nonstandard faces and how facial recognition systems fail for them.</p>
-<blockquote><p>Some of those living with facial differences tell WIRED they have undergone multiple surgeries and experienced stigma for their entire lives, which is now being echoed by the technology they are forced to interact with. They say they haven&#8217;t been able to access public services due to facial verification services failing, while others have struggled to access financial services. Social media filters and face-unlocking systems on phones often won&#8217;t work, they say...</p></blockquote>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oracle Releases October 2025 Patches]]></title>
-        <id>https://www.securityweek.com/?p=44062</id>
-        <link href="https://www.securityweek.com/oracle-releases-october-2025-patches/"/>
-        <updated>2025-10-22T10:03:22.000Z</updated>
-        <summary type="html"><![CDATA[The Critical Patch Update contains 374 new security patches that resolve many vulnerabilities.
-The post Oracle Releases October 2025 Patches appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Verizon: Mobile Blindspot Leads to Needless Data Breaches]]></title>
-        <id>https://www.darkreading.com/threat-intelligence/verizon-mobile-blindspot-data-breaches</id>
-        <link href="https://www.darkreading.com/threat-intelligence/verizon-mobile-blindspot-data-breaches"/>
-        <updated>2025-10-22T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[People habitually ignore cybersecurity on their phones. Instead of compensating for that, organizations are falling into the very same trap, even though available security options could cut smishing success and breaches in half.]]></summary>
-        <author>
-            <name>Nate Nelson, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why You Should Swap Passwords for Passphrases]]></title>
-        <id>https://thehackernews.com/2025/10/why-you-should-swap-passwords-for.html</id>
-        <link href="https://thehackernews.com/2025/10/why-you-should-swap-passwords-for.html"/>
-        <updated>2025-10-22T09:26:00.000Z</updated>
-        <summary type="html"><![CDATA[The advice didn't change for decades: use complex passwords with uppercase, lowercase, numbers, and symbols. The idea is to make passwords harder for hackers to crack via brute force methods. But more recent guidance shows our focus should be on password length, rather than complexity. Length is the more important security factor, and passphrases are the simplest way to get your users to create]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers Identify PassiveNeuron APT Using Neursite and NeuralExecutor Malware]]></title>
-        <id>https://thehackernews.com/2025/10/researchers-identify-passiveneuron-apt.html</id>
-        <link href="https://thehackernews.com/2025/10/researchers-identify-passiveneuron-apt.html"/>
-        <updated>2025-10-22T08:58:00.000Z</updated>
-        <summary type="html"><![CDATA[Government, financial, and industrial organizations located in Asia, Africa, and Latin America are the target of a new campaign dubbed PassiveNeuron, according to findings from Kaspersky.
-The cyber espionage activity was first flagged by the Russian cybersecurity vendor in November 2024, when it disclosed a set of attacks aimed at government entities in Latin America and East Asia in June, using]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hackers Earn Over $520,000 on First Day of Pwn2Own Ireland 2025]]></title>
-        <id>https://www.securityweek.com/?p=44058</id>
-        <link href="https://www.securityweek.com/hackers-earn-over-520000-on-first-day-of-pwn2own-ireland-2025/"/>
-        <updated>2025-10-22T07:36:32.000Z</updated>
-        <summary type="html"><![CDATA[Participants exploited 34 previously unknown vulnerabilities to hack printers, NAS devices, and smart home products.
-The post Hackers Earn Over $520,000 on First Day of Pwn2Own Ireland 2025 appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TARmageddon Flaw in Async-Tar Rust Library Could Enable Remote Code Execution]]></title>
-        <id>https://thehackernews.com/2025/10/tarmageddon-flaw-in-async-tar-rust.html</id>
-        <link href="https://thehackernews.com/2025/10/tarmageddon-flaw-in-async-tar-rust.html"/>
-        <updated>2025-10-22T07:05:00.000Z</updated>
-        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed details of a high-severity flaw impacting the popular async-tar Rust library and its forks, including tokio-tar, that could result in remote code execution under certain conditions.
-The vulnerability, tracked as CVE-2025-62518 (CVSS score: 8.1), has been codenamed TARmageddon by Edera, which discovered the issue in late August 2025. It impacts several]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TP-Link Patches Four Omada Gateway Flaws, Two Allow Remote Code Execution]]></title>
-        <id>https://thehackernews.com/2025/10/tp-link-patches-four-omada-gateway.html</id>
-        <link href="https://thehackernews.com/2025/10/tp-link-patches-four-omada-gateway.html"/>
-        <updated>2025-10-22T04:38:00.000Z</updated>
-        <summary type="html"><![CDATA[TP-Link has released security updates to address four security flaws impacting Omada gateway devices, including two critical bugs that could result in arbitrary code execution.
-The vulnerabilities in question are listed below -
-
-CVE-2025-6541 (CVSS score: 8.6) - An operating system command injection vulnerability that could be exploited by an attacker who can log in to the web management]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Asian Nations Ramp Up Pressure on Cybercrime 'Scam Factories']]></title>
-        <id>https://www.darkreading.com/cyberattacks-data-breaches/asian-nations-ramp-up-legal-attacks-cybercrime-factories</id>
-        <link href="https://www.darkreading.com/cyberattacks-data-breaches/asian-nations-ramp-up-legal-attacks-cybercrime-factories"/>
-        <updated>2025-10-22T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[After a particularly gruesome murder, South Korea issues "code black" travel ban for several regions in Cambodia, while other nations urge more raids.]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7833-2: Linux kernel (Real-time) vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7833-2</id>
-        <link href="https://ubuntu.com/security/notices/USN-7833-2"/>
-        <updated>2025-10-22T00:27:11.000Z</updated>
-        <summary type="html"><![CDATA[Oleksii Oleksenko, Cedric Fournet, Jana Hofmann, Boris Köpf, Stavros Volos,
-and Flavien Solt discovered that some AMD processors may allow an attacker
-to infer data from previous stores, potentially resulting in the leakage of
-privileged information. A local attacker could possibly use this to expose
-sensitive information. (CVE-2024-36350, CVE-2024-36357)
-
-Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - ARM64 architecture;
-  - PowerPC architecture;
-  - RISC-V architecture;
-  - S390 architecture;
-  - x86 architecture;
-  - ACPI drivers;
-  - Serial ATA and Parallel ATA drivers;
-  - Drivers core;
-  - ATA over ethernet (AOE) driver;
-  - Ublk userspace block dri…]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7834-1: Linux kernel (Azure) vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7834-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7834-1"/>
-        <updated>2025-10-22T00:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Oleksii Oleksenko, Cedric Fournet, Jana Hofmann, Boris Köpf, Stavros Volos,
-and Flavien Solt discovered that some AMD processors may allow an attacker
-to infer data from previous stores, potentially resulting in the leakage of
-privileged information. A local attacker could possibly use this to expose
-sensitive information. (CVE-2024-36350, CVE-2024-36357)
-
-Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - ARM64 architecture;
-  - PowerPC architecture;
-  - RISC-V architecture;
-  - S390 architecture;
-  - x86 architecture;
-  - ACPI drivers;
-  - Serial ATA and Parallel ATA drivers;
-  - Drivers core;
-  - ATA over ethernet (AOE) driver;
-  - Ublk userspace block dri…]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7833-1: Linux kernel vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7833-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7833-1"/>
-        <updated>2025-10-21T23:56:35.000Z</updated>
-        <summary type="html"><![CDATA[Oleksii Oleksenko, Cedric Fournet, Jana Hofmann, Boris Köpf, Stavros Volos,
-and Flavien Solt discovered that some AMD processors may allow an attacker
-to infer data from previous stores, potentially resulting in the leakage of
-privileged information. A local attacker could possibly use this to expose
-sensitive information. (CVE-2024-36350, CVE-2024-36357)
-
-Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - ARM64 architecture;
-  - PowerPC architecture;
-  - RISC-V architecture;
-  - S390 architecture;
-  - x86 architecture;
-  - ACPI drivers;
-  - Serial ATA and Parallel ATA drivers;
-  - Drivers core;
-  - ATA over ethernet (AOE) driver;
-  - Ublk userspace block dri…]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7819-2: Linux kernel (Azure FIPS) vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7819-2</id>
-        <link href="https://ubuntu.com/security/notices/USN-7819-2"/>
-        <updated>2025-10-21T22:13:25.000Z</updated>
-        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - Network drivers;
-  - Device tree and open firmware driver;
-  - SCSI subsystem;
-  - TTY drivers;
-  - Ext4 file system;
-  - Network file system (NFS) server daemon;
-  - SMB network file system;
-  - Bluetooth subsystem;
-  - Packet sockets;
-  - Network traffic control;
-  - VMware vSockets driver;
-(CVE-2025-38350, CVE-2024-57996, CVE-2025-37752, CVE-2025-38617,
-CVE-2025-38477, CVE-2025-38083, CVE-2024-38541, CVE-2023-52757,
-CVE-2023-52975, CVE-2025-38618, CVE-2024-49950, CVE-2024-50073,
-CVE-2025-37785, CVE-2025-21796, CVE-2025-38683, CVE-2025-37797)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7797-3: Linux kernel (AWS) vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7797-3</id>
-        <link href="https://ubuntu.com/security/notices/USN-7797-3"/>
-        <updated>2025-10-21T21:18:57.000Z</updated>
-        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - Virtio block driver;
-  - Media drivers;
-  - Network drivers;
-  - Framebuffer layer;
-  - BTRFS file system;
-  - Ext4 file system;
-  - Network file system (NFS) server daemon;
-  - Packet sockets;
-  - VMware vSockets driver;
-(CVE-2025-38618, CVE-2024-35849, CVE-2025-37785, CVE-2024-49924,
-CVE-2025-38617, CVE-2024-27078, CVE-2021-47149, CVE-2021-47319,
-CVE-2025-21796, CVE-2021-47589)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Electronic Warfare Puts Commercial GPS Users on Notice]]></title>
-        <id>https://www.darkreading.com/cybersecurity-operations/electronic-warfare-commercial-gps-users-notice</id>
-        <link href="https://www.darkreading.com/cybersecurity-operations/electronic-warfare-commercial-gps-users-notice"/>
-        <updated>2025-10-21T20:42:46.000Z</updated>
-        <summary type="html"><![CDATA[Interference with the global positioning system (GPS) isn't just a problem for airlines, but for shipping, trucking, car navigation, agriculture, and even the financial sector.]]></summary>
-        <author>
-            <name>Robert Lemos, Contributing Writer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gravwell Closes $15.4M Funding Round to Expand Data Analytics and Security Platform]]></title>
-        <id>https://www.securityweek.com/?p=44054</id>
-        <link href="https://www.securityweek.com/gravwell-closes-15-4m-funding-round-to-expand-data-analytics-and-security-platform/"/>
-        <updated>2025-10-21T16:06:08.000Z</updated>
-        <summary type="html"><![CDATA[The Series A round was led by Two Bear Capital and included participation from Gula Tech Adventures, Next Frontier Capital, and others.
-The post Gravwell Closes $15.4M Funding Round to Expand Data Analytics and Security Platform appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>SecurityWeek News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SBOM Pioneer Allan Friedman Joins NetRise to Advance Supply Chain Visibility]]></title>
-        <id>https://www.securityweek.com/?p=44052</id>
-        <link href="https://www.securityweek.com/sbom-pioneer-allan-friedman-joins-netrise-to-advance-supply-chain-visibility/"/>
-        <updated>2025-10-21T15:16:12.000Z</updated>
-        <summary type="html"><![CDATA[NetRise appointed the former CISA Senior Advisor and Strategist as a Strategic Advisor.
-The post SBOM Pioneer Allan Friedman Joins NetRise to Advance Supply Chain Visibility appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Kevin Townsend</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta Rolls Out New Tools to Protect WhatsApp and Messenger Users from Scams]]></title>
-        <id>https://thehackernews.com/2025/10/meta-rolls-out-new-tools-to-protect.html</id>
-        <link href="https://thehackernews.com/2025/10/meta-rolls-out-new-tools-to-protect.html"/>
-        <updated>2025-10-21T15:03:00.000Z</updated>
-        <summary type="html"><![CDATA[Meta on Tuesday said it's launching new tools to protect Messenger and WhatsApp users from potential scams.
-To that end, the company said it's introducing new warnings on WhatsApp when users attempt to share their screen with an unknown contact during a video call so as to prevent them from giving away sensitive information like bank details or verification codes.
-On Messenger, users can opt to]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Defakto Raises $30 Million for Non-Human IAM Platform]]></title>
-        <id>https://www.securityweek.com/?p=44051</id>
-        <link href="https://www.securityweek.com/defakto-raises-30-million-for-non-human-iam-platform/"/>
-        <updated>2025-10-21T14:41:11.000Z</updated>
-        <summary type="html"><![CDATA[Defakto’s Series B funding, which brings the total raised to $50 million, was led by XYZ Venture Capital.
-The post Defakto Raises $30 Million for Non-Human IAM Platform appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Government, Industrial Servers Targeted in China-Linked ‘PassiveNeuron’ Campaign]]></title>
-        <id>https://www.securityweek.com/?p=44050</id>
-        <link href="https://www.securityweek.com/government-industrial-servers-targeted-in-china-linked-passiveneuron-campaign/"/>
-        <updated>2025-10-21T14:34:38.000Z</updated>
-        <summary type="html"><![CDATA[A threat actor has been infecting servers of high-profile entities with backdoors to exfiltrate information and deploy additional payloads.
-The post Government, Industrial Servers Targeted in China-Linked ‘PassiveNeuron’ Campaign appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7832-1: Linux kernel (Oracle) vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7832-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7832-1"/>
-        <updated>2025-10-21T14:27:26.000Z</updated>
-        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
-An attacker could possibly use these to compromise the system.
-This update corrects flaws in the following subsystems:
-  - Device tree and open firmware driver;
-  - SCSI subsystem;
-  - TTY drivers;
-  - SMB network file system;
-  - Bluetooth subsystem;
-  - Network traffic control;
-(CVE-2025-38350, CVE-2023-52975, CVE-2024-50073, CVE-2024-57996,
-CVE-2024-49950, CVE-2024-38541, CVE-2025-37752, CVE-2023-52757,
-CVE-2025-38083, CVE-2025-37797)]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USN-7831-1: Erlang vulnerabilities]]></title>
-        <id>https://ubuntu.com/security/notices/USN-7831-1</id>
-        <link href="https://ubuntu.com/security/notices/USN-7831-1"/>
-        <updated>2025-10-21T14:08:15.000Z</updated>
-        <summary type="html"><![CDATA[It was discovered that Erlang incorrectly handled resource allocation and
-consumption in the SFTP SSH module. An attacker could possibly use this
-issue cause Erlang to consume excessive resources, leading to a denial of
-service.]]></summary>
-        <author>
-            <name>Ubuntu security notices</name>
         </author>
     </entry>
     <entry>
