@@ -2,10 +2,345 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ehsanedalat.github.io/securitynews/index.html</id>
     <title>News | S&amp;P Homepage</title>
-    <updated>2025-11-25T01:51:29.759Z</updated>
+    <updated>2025-11-26T01:51:16.923Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ehsanedalat.github.io/securitynews/index.html"/>
     <link rel="self" href="https://ehsanedalat.github.io/securitynews/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Russian Hackers Target US Engineering Firm Because of Work Done for Ukrainian Sister City]]></title>
+        <id>https://www.securityweek.com/?p=44419</id>
+        <link href="https://www.securityweek.com/russian-hackers-target-us-engineering-firm-because-of-work-done-for-ukrainian-sister-city/"/>
+        <updated>2025-11-26T00:28:40.000Z</updated>
+        <summary type="html"><![CDATA[The attack on the engineering firm was identified by Arctic Wolf in September before it could disrupt the engineering company’s operations or spread further.
+The post Russian Hackers Target US Engineering Firm Because of Work Done for Ukrainian Sister City appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Associated Press</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advanced Security Isn't Stopping Ancient Phishing Tactics]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/advanced-security-phishing-tactics</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/advanced-security-phishing-tactics"/>
+        <updated>2025-11-25T22:23:05.000Z</updated>
+        <summary type="html"><![CDATA[New research reveals that sophisticated phishing attacks consistently bypass traditional enterprise security measures.]]></summary>
+        <author>
+            <name>Kristina Beek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cheap Hardware Module Bypasses AMD, Intel Memory Encryption]]></title>
+        <id>https://www.darkreading.com/vulnerabilities-threats/cheap-hardware-module-amd-intel-memory-encryption</id>
+        <link href="https://www.darkreading.com/vulnerabilities-threats/cheap-hardware-module-amd-intel-memory-encryption"/>
+        <updated>2025-11-25T22:11:24.000Z</updated>
+        <summary type="html"><![CDATA[Researchers built an inexpensive device that circumvents chipmakers' confidential computing protections and reveals weaknesses in scalable memory encryption.]]></summary>
+        <author>
+            <name>Rob Wright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DPRK's FlexibleFerret Tightens macOS Grip]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/dprks-flexibleferret-tightens-macos-grip</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/dprks-flexibleferret-tightens-macos-grip"/>
+        <updated>2025-11-25T21:39:03.000Z</updated>
+        <summary type="html"><![CDATA[The actor behind the "Contagious Interview" campaign is continuing to refine its tactics and social engineering scams to wrest credentials from macOS users.]]></summary>
+        <author>
+            <name>Jai Vijayan, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#521113: Forge JavaScript library impacted by a vulnerability in signature verification.]]></title>
+        <id>https://kb.cert.org/vuls/id/521113</id>
+        <link href="https://kb.cert.org/vuls/id/521113"/>
+        <updated>2025-11-25T19:03:15.114Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>The Forge JavaScript library provides TLS-related cryptographic utilities. A vulnerability that allows signature verification to be bypassed through crafted manipulation of ASN.1 structures, particularly in fields such as Message Authentication Code (MAC) data, was identified. Users of the <code>node-forge</code> package, and downstream consumers, are advised to update to the patched version in a timely manner.</p>
+<h3 id="description">Description</h3>
+<p>Forge (also available as the <code>node-forge</code> npm package) offers a range of cryptographic capabilities, including certificate generation, message signing and verification, and encryption and decryption. These functions depend on the ASN.1 parsing and validation routines of the library.</p>
+<p>A flaw in the <code>asn1.validate</code> function was discovered that allows tampered ASN.1 data to pass validation even when cryptographically incorrect. By embedding custom options into certain ASN.1 fields that require recursive verification, an attacker can craft data that appears valid to the Forge verification routines. A proof-of-concept using manipulated PKCS#12 MAC data demonstrated how a forged payload could bypass signature verification.</p>
+<p>The researcher who reported this issue has described the potential implications of the flaw as follows:</p>
+<blockquote>
+<p>As a result, applications that rely on node-forge to enforce the structure and integrity of ASN.1-derived cryptographic protocols, including X.509 certificates, PKCS#7 messages, and PKCS#12 archives may be tricked into successfully validating malformed data. </p>
+</blockquote>
+<p>While different environments will experience different levels of practical exposure, the underlying verification bypass is technically significant. The package is widely used, and a fix has been published. A patched release, version <code>1.3.2</code>, is now available and includes updated test cases in <code>tests/security/cve-2025-12816.js</code> that illustrate the corrected behavior.</p>
+<h3 id="impact">Impact</h3>
+<p>An attacker who can supply crafted ASN.1 data may cause applications relying on Forge for verification to accept forged or modified data as legitimate. This can enable authentication bypass, tampering with signed data, or misuse of certificate-related functions (e.g., cryptographically-signed software). In environments where cryptographic verification plays a central role in trust decisions, the potential impact can be significant. </p>
+<h3 id="solution">Solution</h3>
+<p>Update to Forge version <code>1.3.2</code> or later. The fix is available in <a href="https://github.com/digitalbazaar/forge/pull/1124">Pull Request #1124</a>. Developers should integrate the updated version into their projects and distribute updates through their normal release channels.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to Hunter Wodzenski of Palo Alto Networks for responsibly reporting this issue. This document was written by Vijay Sarvepalli.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Warns of Spyware Targeting Messaging App Users]]></title>
+        <id>https://www.securityweek.com/?p=44418</id>
+        <link href="https://www.securityweek.com/cisa-warns-of-spyware-targeting-messaging-app-users/"/>
+        <updated>2025-11-25T18:11:46.000Z</updated>
+        <summary type="html"><![CDATA[CISA has described the techniques used by attackers and pointed out that the focus is on high-value individuals.
+The post CISA Warns of Spyware Targeting Messaging App Users appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Agent Security Firm Vijil Raises $17 Million]]></title>
+        <id>https://www.securityweek.com/?p=44417</id>
+        <link href="https://www.securityweek.com/ai-agent-security-firm-vijil-raises-17-million/"/>
+        <updated>2025-11-25T18:01:37.000Z</updated>
+        <summary type="html"><![CDATA[Focusing on improving the resilience of AI agents, the startup will use the funding to accelerate deployments of its platform.
+The post AI Agent Security Firm Vijil Raises $17 Million appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Years of JSONFormatter and CodeBeautify Leaks Expose Thousands of Passwords and API Keys]]></title>
+        <id>https://thehackernews.com/2025/11/years-of-jsonformatter-and-codebeautify.html</id>
+        <link href="https://thehackernews.com/2025/11/years-of-jsonformatter-and-codebeautify.html"/>
+        <updated>2025-11-25T16:49:00.000Z</updated>
+        <summary type="html"><![CDATA[New research has found that organizations in various sensitive sectors, including governments, telecoms, and critical infrastructure, are pasting passwords and credentials into online tools like JSONformatter and CodeBeautify that are used to format and validate code.
+Cybersecurity company watchTowr Labs said it captured a dataset of over 80,000 files on these sites, uncovering thousands of]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7889-1: Linux kernel vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7889-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7889-1"/>
+        <updated>2025-11-25T16:02:46.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - Media drivers;
+  - Network drivers;
+  - Netfilter;
+  - TLS protocol;
+(CVE-2025-21729, CVE-2025-38227, CVE-2025-38616, CVE-2025-38678)]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[With Friends Like These: China Spies on Russian IT Orgs]]></title>
+        <id>https://www.darkreading.com/cyberattacks-data-breaches/china-spies-russian-it-orgs</id>
+        <link href="https://www.darkreading.com/cyberattacks-data-breaches/china-spies-russian-it-orgs"/>
+        <updated>2025-11-25T15:59:04.000Z</updated>
+        <summary type="html"><![CDATA[State-linked hackers stayed under the radar by using a variety of commercial cloud services for command-and-control communications.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[As Gen Z Enters Cybersecurity, Jury Is Out on AI's Impact]]></title>
+        <id>https://www.darkreading.com/cybersecurity-operations/gen-z-cybersecurity-jury-out-ai-impact</id>
+        <link href="https://www.darkreading.com/cybersecurity-operations/gen-z-cybersecurity-jury-out-ai-impact"/>
+        <updated>2025-11-25T15:15:39.000Z</updated>
+        <summary type="html"><![CDATA[Despite possibly supplanting some young analysts, one Gen Z cybersecurity specialist sees AI helping teach those willing to learn and removing drudge work.]]></summary>
+        <author>
+            <name>Robert Lemos, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JackFix Uses Fake Windows Update Pop-Ups on Adult Sites to Deliver Multiple Stealers]]></title>
+        <id>https://thehackernews.com/2025/11/jackfix-uses-fake-windows-update-pop.html</id>
+        <link href="https://thehackernews.com/2025/11/jackfix-uses-fake-windows-update-pop.html"/>
+        <updated>2025-11-25T14:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers are calling attention to a new campaign that's leveraging a combination of ClickFix lures and fake adult websites to deceive users into running malicious commands under the guise of a "critical" Windows security update.
+"Campaign leverages fake adult websites (xHamster, PornHub clones) as its phishing mechanism, likely distributed via malvertising," Acronis said in a]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alumni, Student, and Staff Information Stolen From Harvard University]]></title>
+        <id>https://www.securityweek.com/?p=44412</id>
+        <link href="https://www.securityweek.com/alumni-student-and-staff-information-stolen-from-harvard-university/"/>
+        <updated>2025-11-25T14:15:04.000Z</updated>
+        <summary type="html"><![CDATA[A phone phishing attack led to the compromise of a system containing information about alumni, donors, students, staff, and other individuals.
+The post Alumni, Student, and Staff Information Stolen From Harvard University appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fluent Bit Vulnerabilities Expose Cloud Services to Takeover]]></title>
+        <id>https://www.securityweek.com/?p=44411</id>
+        <link href="https://www.securityweek.com/fluent-bit-vulnerabilities-expose-cloud-services-to-takeover/"/>
+        <updated>2025-11-25T13:45:15.000Z</updated>
+        <summary type="html"><![CDATA[Five flaws in the open source tool may lead to path traversal attacks, remote code execution, denial-of-service, and tag manipulation.
+The post Fluent Bit Vulnerabilities Expose Cloud Services to Takeover appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WormGPT 4 and KawaiiGPT: New Dark LLMs Boost Cybercrime Automation]]></title>
+        <id>https://www.securityweek.com/?p=44410</id>
+        <link href="https://www.securityweek.com/wormgpt-4-and-kawaiigpt-new-dark-llms-boost-cybercrime-automation/"/>
+        <updated>2025-11-25T13:35:19.000Z</updated>
+        <summary type="html"><![CDATA[Palo Alto Networks has conducted an analysis of malicious LLMs that help threat actors with phishing, malware development, and reconnaissance. 
+The post WormGPT 4 and KawaiiGPT: New Dark LLMs Boost Cybercrime Automation appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['JackFix' Attack Circumvents ClickFix Mitigations]]></title>
+        <id>https://www.darkreading.com/threat-intelligence/jackfix-attack-clickfix-mitigations</id>
+        <link href="https://www.darkreading.com/threat-intelligence/jackfix-attack-clickfix-mitigations"/>
+        <updated>2025-11-25T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A new ClickFix variant ratchets up the psychological pressure to 100 and addresses some technical mitigations to classic ClickFix attacks.]]></summary>
+        <author>
+            <name>Nate Nelson, Contributing Writer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7887-2: Linux kernel (Raspberry Pi) vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7887-2</id>
+        <link href="https://ubuntu.com/security/notices/USN-7887-2"/>
+        <updated>2025-11-25T12:54:50.000Z</updated>
+        <summary type="html"><![CDATA[Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+  - ARM64 architecture;
+  - PowerPC architecture;
+  - x86 architecture;
+  - ACPI drivers;
+  - Ublk userspace block driver;
+  - Clock framework and drivers;
+  - EDAC drivers;
+  - GPU drivers;
+  - IIO subsystem;
+  - InfiniBand drivers;
+  - Media drivers;
+  - MemoryStick subsystem;
+  - Network drivers;
+  - NTB driver;
+  - PCI subsystem;
+  - Remote Processor subsystem;
+  - Thermal drivers;
+  - Virtio Host (VHOST) subsystem;
+  - 9P distributed file system;
+  - File systems infrastructure;
+  - JFS file system;
+  - Network file system (NFS) server daemon;
+  - NTFS3 file system;
+  - SMB network file system;
+  - Memory ma…]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Major US Banks Impacted by SitusAMC Hack]]></title>
+        <id>https://www.securityweek.com/?p=44409</id>
+        <link href="https://www.securityweek.com/major-us-banks-impacted-by-situsamc-hack/"/>
+        <updated>2025-11-25T12:12:39.000Z</updated>
+        <summary type="html"><![CDATA[Hackers stole corporate data such as accounting records and legal agreements, but did not deploy file-encrypting ransomware.
+The post Major US Banks Impacted by SitusAMC Hack appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Four Ways AI Is Being Used to Strengthen Democracies Worldwide]]></title>
+        <id>https://www.schneier.com/blog/archives/2025/11/four-ways-ai-is-being-used-to-strengthen-democracies-worldwide.html</id>
+        <link href="https://www.schneier.com/blog/archives/2025/11/four-ways-ai-is-being-used-to-strengthen-democracies-worldwide.html"/>
+        <updated>2025-11-25T12:00:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>Democracy is colliding with the technologies of artificial intelligence. Judging from the audience reaction at the recent <a href="https://www.coe.int/en/web/world-forum-democracy">World Forum on Democracy</a> in Strasbourg, the general expectation is that democracy will be the worse for it. We have another narrative. Yes, there are risks to democracy from AI, but there are also opportunities.</p>
+<p>We have just published the book <a href="https://mitpress.mit.edu/9780262049948/rewiring-democracy/">Rewiring Democracy: How AI will Transform Politics, Government, and Citizenship</a><em>.</em> In it, we take a clear-eyed view of how AI is undermining confidence in our information ecosystem, how the use of biased AI can harm constituents of democracies and how elected officials with authoritarian tendencies can use it to consolidate power. But we also give positive examples of how AI is transforming democratic governance and politics for the better...</p>]]></summary>
+        <author>
+            <name>Schneier on Security</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Seven Industrial Control Systems Advisories]]></title>
+        <id>/node/24242</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/11/25/cisa-releases-seven-industrial-control-systems-advisories"/>
+        <updated>2025-11-25T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released seven Industrial Control Systems (ICS) Advisories. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS. 
+ICSA-25-329-01 Ashlar-Vellum Cobalt, Xenon, Argon, Lithium, Cobalt Share
+ICSA-25-329-02 Rockwell Automation Arena Simulation
+ICSA-25-329-03 Zenitel TCIV-3+
+ICSA-25-329-04 Opto 22 groov View
+ICSA-25-329-05 Festo Compact Vision System, Control Block, Controller, and Operator Unit products
+ICSA-25-329-06 SiRcom SMART Alert (SiSA)
+ICSA-22-333-05 Mitsubishi Electric FA Engineering Software (Update C) 
+CISA encourages users and administrators to review newly released ICS Advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ToddyCat’s New Hacking Tools Steal Outlook Emails and Microsoft 365 Access Tokens]]></title>
+        <id>https://thehackernews.com/2025/11/toddycats-new-hacking-tools-steal.html</id>
+        <link href="https://thehackernews.com/2025/11/toddycats-new-hacking-tools-steal.html"/>
+        <updated>2025-11-25T11:36:00.000Z</updated>
+        <summary type="html"><![CDATA[The threat actor known as ToddyCat has been observed adopting new methods to obtain access to corporate email data belonging to target companies, including using a custom tool dubbed TCSectorCopy.
+"This attack allows them to obtain tokens for the OAuth 2.0 authorization protocol using the user's browser, which can be used outside the perimeter of the compromised infrastructure to access]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3 SOC Challenges You Need to Solve Before 2026]]></title>
+        <id>https://thehackernews.com/2025/11/3-soc-challenges-you-need-to-solve.html</id>
+        <link href="https://thehackernews.com/2025/11/3-soc-challenges-you-need-to-solve.html"/>
+        <updated>2025-11-25T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[2026 will mark a pivotal shift in cybersecurity. Threat actors are moving from experimenting with AI to making it their primary weapon, using it to scale attacks, automate reconnaissance, and craft hyper-realistic social engineering campaigns.
+The Storm on the Horizon
+Global world instability, coupled with rapid technological advancement, will force security teams to adapt not just their]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackers Hijack Blender 3D Assets to Deploy StealC V2 Data-Stealing Malware]]></title>
+        <id>https://thehackernews.com/2025/11/hackers-hijack-blender-3d-assets-to.html</id>
+        <link href="https://thehackernews.com/2025/11/hackers-hijack-blender-3d-assets-to.html"/>
+        <updated>2025-11-25T11:28:00.000Z</updated>
+        <summary type="html"><![CDATA[Cybersecurity researchers have disclosed details of a new campaign that has leveraged Blender Foundation files to deliver an information stealer known as StealC V2.
+"This ongoing operation, active for at least six months, involves implanting malicious .blend files on platforms like CGTrader," Morphisec researcher Shmuel Uzan said in a report shared with The Hacker News.
+"Users unknowingly]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[640 NPM Packages Infected in New ‘Shai-Hulud’ Supply Chain Attack]]></title>
+        <id>https://www.securityweek.com/?p=44408</id>
+        <link href="https://www.securityweek.com/640-npm-packages-infected-in-new-shai-hulud-supply-chain-attack/"/>
+        <updated>2025-11-25T10:45:46.000Z</updated>
+        <summary type="html"><![CDATA[The new self-replicating worm iteration has destructive capabilities, erasing home directory contents if it cannot spread to more repositories.
+The post 640 NPM Packages Infected in New ‘Shai-Hulud’ Supply Chain Attack appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Ionut Arghire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Canon Says Subsidiary Impacted by Oracle EBS Hack]]></title>
+        <id>https://www.securityweek.com/?p=44404</id>
+        <link href="https://www.securityweek.com/canon-says-subsidiary-impacted-by-oracle-ebs-hack/"/>
+        <updated>2025-11-25T07:22:04.000Z</updated>
+        <summary type="html"><![CDATA[More than 100 alleged victims of the Oracle EBS campaign have been added to the Cl0p ransomware website.
+The post Canon Says Subsidiary Impacted by Oracle EBS Hack  appeared first on SecurityWeek.]]></summary>
+        <author>
+            <name>Eduard Kovacs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Warns of Active Spyware Campaigns Hijacking High-Value Signal and WhatsApp Users]]></title>
+        <id>https://thehackernews.com/2025/11/cisa-warns-of-active-spyware-campaigns.html</id>
+        <link href="https://thehackernews.com/2025/11/cisa-warns-of-active-spyware-campaigns.html"/>
+        <updated>2025-11-25T06:42:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday issued an alert warning of bad actors actively leveraging commercial spyware and remote access trojans (RATs) to target users of mobile messaging applications.
+"These cyber actors use sophisticated targeting and social engineering techniques to deliver spyware and gain unauthorized access to a victim's messaging app,]]></summary>
+        <author>
+            <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ShadowRay 2.0 Turns AI Clusters into Crypto Botnets]]></title>
         <id>https://www.darkreading.com/cyber-risk/shadowray-20-ai-clusters-crypto-botnets</id>
@@ -310,6 +645,66 @@ The post Spanish Airline Iberia Notifies Customers of Data Breach appeared first
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[USN-7885-1: OpenJDK 21 vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7885-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7885-1"/>
+        <updated>2025-11-24T12:14:30.000Z</updated>
+        <summary type="html"><![CDATA[Jinfeng Guo discovered that the Security component of OpenJDK 21 did not
+correctly handle certain representations of encoded strings. An
+unauthenticated remote attacker could possibly use this issue to modify
+files or leak sensitive information. (CVE-2025-53057)
+
+Darius Bohni discovered that the JAXP component of OpenJDK 21 was
+vulnerable to a XML External Entity (XEE) attack. An unauthenticated remote
+attacker could possibly use this issue to modify files or leak sensitive
+information. (CVE-2025-53066)
+
+Yakov Shafranovich discovered that the Libraries component of OpenJDK 21
+contained an issue where certain Strings built with StringBuilder returned
+an incorrect result for String.equals() checks. An unauthenticated remote
+attacker could possibly use this issue to update, insert, or delete
+accessible data. (CVE-2025-61748)
+
+In addition to security fixes, the updated packages contain bug fixes, new
+features, and possibly incompatible changes.
+
+Please see the following for more information:
+https://openjdk.org/groups/vulnerability/advisories/2025-10-21]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7884-1: OpenJDK 25 vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7884-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7884-1"/>
+        <updated>2025-11-24T12:08:12.000Z</updated>
+        <summary type="html"><![CDATA[Jinfeng Guo discovered that the Security component of OpenJDK 25 did not
+correctly handle certain representations of encoded strings. An
+unauthenticated remote attacker could possibly use this issue to modify
+files or leak sensitive information. (CVE-2025-53057)
+
+Darius Bohni discovered that the JAXP component of OpenJDK 25 was
+vulnerable to a XML External Entity (XEE) attack. An unauthenticated remote
+attacker could possibly use this issue to modify files or leak sensitive
+information. (CVE-2025-53066)
+
+Yakov Shafranovich discovered that the Libraries component of OpenJDK 21
+contained an issue where certain Strings built with StringBuilder returned
+an incorrect result for String.equals() checks.  An unauthenticated remote
+attacker could possibly use this issue to update, insert, or delete
+accessible data. (CVE-2025-61748)
+
+In addition to security fixes, the updated packages contain bug fixes, new
+features, and possibly incompatible changes.
+
+Please see the following for more information:
+https://openjdk.org/groups/vulnerability/advisories/2025-10-21]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[IACR Nullifies Election Because of Lost Decryption Key]]></title>
         <id>https://www.schneier.com/blog/archives/2025/11/iacr-nullifies-election-because-of-lost-decryption-key.html</id>
         <link href="https://www.schneier.com/blog/archives/2025/11/iacr-nullifies-election-because-of-lost-decryption-key.html"/>
@@ -404,6 +799,54 @@ The post Cox Confirms Oracle EBS Hack as Cybercriminals Name 100 Alleged Victims
 "The attacker targeted Windows Servers with WSUS enabled, exploiting CVE-2025-59287 for initial access," AhnLab Security Intelligence Center (ASEC) said in a report published last week. "They then used PowerCat, an open-source]]></summary>
         <author>
             <name>info@thehackernews.com (The Hacker News)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7883-1: OpenJDK 17 vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7883-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7883-1"/>
+        <updated>2025-11-24T00:55:38.000Z</updated>
+        <summary type="html"><![CDATA[Jinfeng Guo discovered that the Security component of OpenJDK 17 did not
+correctly handle certain representations of encoded strings. An
+unauthenticated remote attacker could possibly use this issue to modify
+files or leak sensitive information. (CVE-2025-53057)
+
+Darius Bohni discovered that the JAXP component of OpenJDK 17 was
+vulnerable to a XML External Entity (XEE) attack. An unauthenticated
+remote attacker could possibly use this issue to modify files or leak
+sensitive information. (CVE-2025-53066)
+
+In addition to security fixes, the updated packages contain bug fixes, new
+features, and possibly incompatible changes.
+
+Please see the following for more information:
+https://openjdk.org/groups/vulnerability/advisories/2025-10-21]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USN-7882-1: OpenJDK 11 vulnerabilities]]></title>
+        <id>https://ubuntu.com/security/notices/USN-7882-1</id>
+        <link href="https://ubuntu.com/security/notices/USN-7882-1"/>
+        <updated>2025-11-24T00:52:17.000Z</updated>
+        <summary type="html"><![CDATA[Jinfeng Guo discovered that the Security component of OpenJDK 11 did not
+correctly handle certain representations of encoded strings. An
+unauthenticated remote attacker could possibly use this issue to modify
+files or leak sensitive information. (CVE-2025-53057)
+
+Darius Bohni discovered that the JAXP component of OpenJDK 11 was
+vulnerable to a XML External Entity (XEE) attack. An unauthenticated
+remote attacker could possibly use this issue to modify files or leak
+sensitive information. (CVE-2025-53066)
+
+In addition to security fixes, the updated packages contain bug fixes, new
+features, and possibly incompatible changes.
+
+Please see the following for more information:
+https://openjdk.org/groups/vulnerability/advisories/2025-10-21]]></summary>
+        <author>
+            <name>Ubuntu security notices</name>
         </author>
     </entry>
     <entry>
@@ -7057,107 +7500,6 @@ This update corrects flaws in the following subsystems:
 (CVE-2024-26700, CVE-2025-38727, CVE-2023-52593, CVE-2024-26896)]]></summary>
         <author>
             <name>Ubuntu security notices</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Massive China-Linked Smishing Campaign Leveraged 194,000 Domains]]></title>
-        <id>https://www.securityweek.com/?p=44104</id>
-        <link href="https://www.securityweek.com/massive-china-linked-smishing-campaign-leveraged-194000-domains/"/>
-        <updated>2025-10-27T13:28:03.000Z</updated>
-        <summary type="html"><![CDATA[The malicious Smishing Triad domains were used to collect sensitive information, including Social Security numbers.
-The post Massive China-Linked Smishing Campaign Leveraged 194,000 Domains appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[⚡ Weekly Recap: WSUS Exploited, LockBit 5.0 Returns, Telegram Backdoor, F5 Breach Widens]]></title>
-        <id>https://thehackernews.com/2025/10/weekly-recap-wsus-exploited-lockbit-50.html</id>
-        <link href="https://thehackernews.com/2025/10/weekly-recap-wsus-exploited-lockbit-50.html"/>
-        <updated>2025-10-27T12:51:00.000Z</updated>
-        <summary type="html"><![CDATA[Security, trust, and stability — once the pillars of our digital world — are now the tools attackers turn against us. From stolen accounts to fake job offers, cybercriminals keep finding new ways to exploit both system flaws and human behavior.
-Each new breach proves a harsh truth: in cybersecurity, feeling safe can be far more dangerous than being alert.
-Here’s how that false sense of security]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Firefox Extensions Required to Disclose Data Collection Practices]]></title>
-        <id>https://www.securityweek.com/?p=44103</id>
-        <link href="https://www.securityweek.com/new-firefox-extensions-required-to-disclose-data-collection-practices/"/>
-        <updated>2025-10-27T11:20:42.000Z</updated>
-        <summary type="html"><![CDATA[All new extensions will be required to declare their data collection practices in their manifest file using a specific key.
-The post New Firefox Extensions Required to Disclose Data Collection Practices appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Wap: A Surveillance Computer You’ve Never Heard Of]]></title>
-        <id>https://www.schneier.com/blog/archives/2025/10/first-wap-a-surveillance-computer-youve-never-heard-of.html</id>
-        <link href="https://www.schneier.com/blog/archives/2025/10/first-wap-a-surveillance-computer-youve-never-heard-of.html"/>
-        <updated>2025-10-27T11:08:11.000Z</updated>
-        <summary type="html"><![CDATA[<p><i>Mother Jones</i> has a <a href="https://www.motherjones.com/politics/2025/10/firstwap-altamides-phone-tracking-surveillance-secrets-assad-erik-prince-jared-leto-anne-wojcicki/">long article</a> on surveillance arms manufacturers, their wares, and how they avoid export control laws:</p>
-<blockquote><p>Operating from their base in Jakarta, where permissive export laws have allowed their surveillance business to flourish, First Wap&#8217;s European founders and executives have quietly built a phone-tracking empire, with a footprint extending from the Vatican to the Middle East to Silicon Valley.</p>
-<p>It calls its proprietary system Altamides, which it describes in promotional materials as &#8220;a unified platform to covertly locate the whereabouts of single or multiple suspects in real-time, to detect movement patterns, and to detect whether suspects are in close vicinity with each other.&#8221;...</p></blockquote>]]></summary>
-        <author>
-            <name>Schneier on Security</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Year-Old WordPress Plugin Flaws Exploited to Hack Websites]]></title>
-        <id>https://www.securityweek.com/?p=44102</id>
-        <link href="https://www.securityweek.com/year-old-wordpress-plugin-flaws-exploited-to-hack-websites/"/>
-        <updated>2025-10-27T10:46:24.000Z</updated>
-        <summary type="html"><![CDATA[Roughly 9 million exploit attempts were observed this month as mass exploitation of the critical vulnerabilities recommenced.
-The post Year-Old WordPress Plugin Flaws Exploited to Hack Websites appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ransomware Payments Dropped in Q3 2025: Analysis]]></title>
-        <id>https://www.securityweek.com/?p=44100</id>
-        <link href="https://www.securityweek.com/ransomware-payments-dropped-in-q3-2025-analysis/"/>
-        <updated>2025-10-27T10:15:37.000Z</updated>
-        <summary type="html"><![CDATA[Coveware has attributed the drop to large enterprises increasingly refusing to pay up and smaller amounts paid by mid-market firms.
-The post Ransomware Payments Dropped in Q3 2025: Analysis appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Eduard Kovacs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome Zero-Day Exploitation Linked to Hacking Team Spyware]]></title>
-        <id>https://www.securityweek.com/?p=44099</id>
-        <link href="https://www.securityweek.com/chrome-zero-day-exploitation-linked-to-hacking-team-spyware/"/>
-        <updated>2025-10-27T09:33:15.000Z</updated>
-        <summary type="html"><![CDATA[The threat actor behind Operation ForumTroll used the same toolset typically employed in Dante spyware attacks.
-The post Chrome Zero-Day Exploitation Linked to Hacking Team Spyware appeared first on SecurityWeek.]]></summary>
-        <author>
-            <name>Ionut Arghire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qilin Ransomware Combines Linux Payload With BYOVD Exploit in Hybrid Attack]]></title>
-        <id>https://thehackernews.com/2025/10/qilin-ransomware-combines-linux-payload.html</id>
-        <link href="https://thehackernews.com/2025/10/qilin-ransomware-combines-linux-payload.html"/>
-        <updated>2025-10-27T08:55:00.000Z</updated>
-        <summary type="html"><![CDATA[The ransomware group known as Qilin (aka Agenda, Gold Feather, and Water Galura) has claimed more than 40 victims every month since the start of 2025, barring January, with the number of postings on its data leak site touching a high of 100 cases in June.
-The development comes as the ransomware-as-a-service (RaaS) operation has emerged as one of the most active ransomware groups, accounting for]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPT Atlas Browser Can Be Tricked by Fake URLs into Executing Hidden Commands]]></title>
-        <id>https://thehackernews.com/2025/10/chatgpt-atlas-browser-can-be-tricked-by.html</id>
-        <link href="https://thehackernews.com/2025/10/chatgpt-atlas-browser-can-be-tricked-by.html"/>
-        <updated>2025-10-27T07:29:00.000Z</updated>
-        <summary type="html"><![CDATA[The newly released OpenAI ChatGPT Atlas web browser has been found to be susceptible to a prompt injection attack where its omnibox can be jailbroken by disguising a malicious prompt as a seemingly harmless URL to visit.
-"The omnibox (combined address/search bar) interprets input either as a URL to navigate to, or as a natural-language command to the agent," NeuralTrust said in a report]]></summary>
-        <author>
-            <name>info@thehackernews.com (The Hacker News)</name>
         </author>
     </entry>
     <entry>
